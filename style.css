@@ -1,0 +1,78 @@
+/* Main background and font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap');
+
+.stApp {
+    background-color: #ffffff;
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+    color: #333333;
+}
+
+/* Titles and Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif !important;
+    color: #1a1a1a !important;
+    text-transform: none;
+    font-weight: 600;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.3rem;
+}
+
+/* Streamlit specific UI tweaks */
+.stTextInput>div>div>input {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #f8f9fa;
+    color: #333333;
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: all 0.2s ease;
+}
+
+.stButton>button:hover {
+    background-color: #e2e6ea;
+    border-color: #adb5bd;
+    color: #000000;
+}
+
+/* Custom classes for our annotations */
+.logogram {
+    color: #800020 !important;
+    /* Burgundy/Maroon */
+    font-weight: bold;
+    background-color: #fff0f5;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+.phonetic {
+    color: #2e8b57 !important;
+    /* Sea Green */
+    font-style: italic;
+}
+
+/* DataFrame/Editor styling */
+[data-testid="stDataFrame"] {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif !important;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"] {
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif !important;
+    color: #333333 !important;
+}
