@@ -19,3 +19,12 @@ reproduce_issue.py
 test_parsing.py
 complex_input.txt
 ebl_ms3117.txt
+
+# Desktop (stlite/Electron) build — heavy artifacts, generated locally
+desktop/node_modules/
+desktop/build/
+desktop/dist/
+desktop/package-lock.json
+# staged app files (copied from repo root by prepare-app.js)
+desktop/streamlit_app.py
+desktop/data/

@@ -2,3 +2,5 @@ streamlit
 pandas
 plotly
 PyYAML
+streamlit-ace
+pywebview        # desktop window for desktop.py (real CPython → eBL fetch + disk persistence)

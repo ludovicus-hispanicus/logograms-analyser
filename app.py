@@ -1,11 +1,21 @@
 import os
 import io
+import sys
 import shutil
 import tempfile
 import zipfile
 import urllib.request
 import urllib.parse
 import streamlit as st
+
+# True under stlite/Pyodide (the offline desktop / WASM build), where live
+# network calls to the eBL API are unavailable. Used to hide online-only UI.
+_OFFLINE = sys.platform == "emscripten"
+try:
+    from streamlit_ace import st_ace
+    _HAS_ACE = True
+except Exception:
+    _HAS_ACE = False
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -266,6 +276,19 @@ def normalize_genre(g):
     }
     return synonyms.get(g, g) if g else "Unspecified"
 
+# Broad period → data/ subfolder, for saving edited/imported texts back to disk.
+PERIOD_FOLDER = {
+    "Old Babylonian": "old",
+    "Middle Babylonian/Assyrian": "middle",
+    "Neo-Babylonian/Assyrian + Late Babylonian": "new",
+}
+def data_path_for(period, genre, filename):
+    """Where a text with this (raw) period/genre should live under data/."""
+    broad = PERIOD_MAPPING.get(period, period)
+    pf = PERIOD_FOLDER.get(broad, "new")
+    gf = re.sub(r"[^a-z0-9]+", "-", str(genre).lower()).strip("-") or "unspecified"
+    return os.path.join("data", pf, gf, filename)
+
 # Mapping for Diachronic Analysis (Approximated for Broad Periods)
 PERIOD_TO_YEAR_MAP = {
     "Old Babylonian": -1800,
@@ -443,7 +466,7 @@ def generate_mock_data():
     
     return []
 
-def load_local_data(base_path="data", include_excluded=False):
+def load_local_data(base_path="data", include_excluded=False, sources=None):
     """
     Recursively load .txt files from data/old, data/middle, data/new
     Returns a list of annotations.
@@ -507,6 +530,9 @@ def load_local_data(base_path="data", include_excluded=False):
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
+
+                    if sources is not None:        # remember raw source for the editor
+                        sources[file] = {"path": file_path, "content": content}
 
                     # Parse Frontmatter
                     metadata = {
@@ -763,6 +789,103 @@ def _ingest_text(filename, content):
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
+def _reload_corpus():
+    """Reload the whole data/ corpus into memory (after writing files to disk)."""
+    src = {}
+    st.session_state['annotations'] = load_local_data(sources=src)
+    st.session_state['text_sources'] = src
+
+def _front_pg(content):
+    """Read period/genre from a text's YAML frontmatter (to choose its data/ path)."""
+    period, genre = "Unspecified", "Unspecified"
+    if content.startswith('---'):
+        parts = content.split('---', 2)
+        if len(parts) >= 3:
+            try:
+                fm = yaml.safe_load(parts[1]) or {}
+                period, genre = fm.get('period', period), fm.get('genre', genre)
+            except Exception:
+                pass
+    return period, genre
+
+def _persist_text(filename, content, period=None, genre=None):
+    """Write a text into data/ at its period/genre-derived path; return the path."""
+    if period is None or genre is None:
+        period, genre = _front_pg(content)
+    path = data_path_for(period, genre, filename)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(content)
+    return path
+
+def _commit_import(filename, content, period, genre, save_to_data, mode):
+    """Persist a fetched text to data/ (+ reload) or add/replace it in-session.
+    Returns (status, path): status in {'saved', 'session', 'empty'}."""
+    if save_to_data:
+        path = _persist_text(filename, content, period, genre)
+        _reload_corpus()
+        return "saved", path
+    anns = _ingest_text(filename, content)
+    if not anns:
+        return "empty", None
+    if mode.startswith("Replace"):
+        st.session_state['annotations'] = anns
+    else:
+        st.session_state['annotations'] = st.session_state.get('annotations', []) + anns
+    st.session_state.setdefault('text_sources', {})[filename] = {
+        "path": data_path_for(period, genre, filename), "content": content}
+    return "session", None
+
+def _save_text_edit(filename, new_content):
+    """Write an edited text back to data/, re-parse it, and swap its annotations in
+    (session + disk). Preserves the resolved period/genre if the file lacks frontmatter."""
+    sources = st.session_state.setdefault('text_sources', {})
+    path = sources.get(filename, {}).get('path') or os.path.join("data", "_edited", filename)
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(new_content)
+    except Exception as e:
+        st.error(f"Could not write {path}: {e}")
+        return False
+    sources[filename] = {"path": path, "content": new_content}
+
+    old = [a for a in st.session_state.get('annotations', []) if a.get('filename') == filename]
+    new_anns = _ingest_text(filename, new_content)
+    if new_anns and old:   # keep folder-derived period/genre if the re-parse lost them
+        if new_anns[0].get('period') in (None, "Unspecified") and old[0].get('period'):
+            for a in new_anns:
+                a['period'] = old[0]['period']
+        if new_anns[0].get('genre') in (None, "Unspecified") and old[0].get('genre'):
+            for a in new_anns:
+                a['genre'] = old[0]['genre']
+    st.session_state['annotations'] = [a for a in st.session_state.get('annotations', [])
+                                       if a.get('filename') != filename] + new_anns
+    return True
+
+@st.dialog("Edit text", width="large")
+def edit_text_dialog(filename):
+    src = st.session_state.get('text_sources', {}).get(filename, {})
+    content = src.get('content', "")
+    st.caption(f"Editing **{filename}** — full eBL-ATF including the YAML frontmatter. "
+               "On save it is written to `data/` and re-analysed.")
+    if not content:
+        st.warning("No editable source is available for this text in this session.")
+    if _HAS_ACE:
+        edited = st_ace(value=content, language="yaml", theme="github", wrap=True,
+                        show_gutter=True, auto_update=True, font_size=14, height=440,
+                        key=f"ace_{filename}")
+    else:
+        st.caption("Install `streamlit-ace` (`pip install streamlit-ace`) for a richer editor.")
+        edited = st.text_area("ATF", value=content, height=440, key=f"ta_{filename}",
+                              label_visibility="collapsed")
+    c1, c2 = st.columns(2)
+    if c1.button("💾 Save & re-analyse", type="primary", key=f"save_{filename}"):
+        if _save_text_edit(filename, edited):
+            st.rerun()
+    if c2.button("Cancel", key=f"cancel_{filename}"):
+        st.rerun()
+
 def _ebl_genre(genres):
     """Map an eBL `genres` field (hierarchical subject tags) to our internal genre key."""
     blob = ""
@@ -798,6 +921,52 @@ def fetch_ebl_fragment(frag_id):
         "genre": _ebl_genre(data.get("genres")),
         "publication": data.get("publication") or "",
         "n_lines": sum(1 for l in data.get("text", {}).get("lines", []) if l.get("type") == "TextLine"),
+    }
+    return "\n".join(body_lines), meta
+
+# eBL stage codes → our period labels (PERIOD_MAPPING then folds these into the broad buckets).
+_STAGE_PERIOD = {"OB": "Old Babylonian", "MB": "Middle Babylonian", "MA": "Middle Assyrian",
+                 "SB": "Neo-Assyrian", "NA": "Neo-Assyrian", "NB": "Neo-Babylonian",
+                 "LB": "Late Babylonian", "JN": "Late Babylonian", "Per": "Late Babylonian"}
+# eBL corpus (genre, category) → our genre key.
+_CORPUS_GENRE = {("D", "1"): "astrology", ("D", "2"): "terrestrial"}
+
+def parse_corpus_path(raw):
+    """Pull (genre, category, index, stage, name) from a corpus URL / api path / bare path."""
+    m = re.search(r"/api/texts/([^/]+)/([^/]+)/([^/]+)/chapters/([^/]+)/([^/?#]+)", raw)
+    if m:
+        return m.groups()
+    m = re.search(r"/corpus/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/?#]+)", raw)
+    if m:
+        return m.groups()
+    parts = [p for p in raw.strip().strip("/").split("/") if p]
+    return tuple(parts) if len(parts) == 5 else None
+
+def fetch_ebl_corpus(genre, category, index, stage, name):
+    """Fetch a corpus chapter and return its composite (reconstructed) ATF + meta.
+    The chapter score is large, so allow a longer timeout."""
+    url = f"{EBL_BASE}/api/texts/{genre}/{category}/{index}/chapters/{stage}/{name}"
+    req = urllib.request.Request(url, headers={"User-Agent": "logograms-analyser"})
+    with urllib.request.urlopen(req, timeout=120) as resp:   # chapter score is large/slow
+        data = json.load(resp)
+    body_lines, n = [], 0
+    for line in data.get("lines", []):
+        if line.get("isBeginningOfSection"):
+            body_lines.append("")
+        variants = line.get("variants") or []
+        if not variants:
+            continue
+        text = str(variants[0].get("reconstruction", "")).split("\n")[0].strip()
+        if not text:
+            continue
+        body_lines.append(f"{line.get('number', '')}. {text}")
+        n += 1
+    meta = {
+        "genre": _CORPUS_GENRE.get((str(genre), str(category)), "Unspecified"),
+        "period": _STAGE_PERIOD.get(str(stage).upper(), "Neo-Assyrian"),
+        "n_lines": n,
+        "manuscripts": len(data.get("manuscripts", [])),
+        "path": f"{genre}/{category}/{index}/chapters/{stage}/{name}",
     }
     return "\n".join(body_lines), meta
 
@@ -850,13 +1019,17 @@ if 'annotations' not in st.session_state:
     st.session_state['annotations'] = []
 
 if not st.session_state['annotations']:
-    # Default: load the local corpus (data/) on first run.
-    st.session_state['annotations'] = load_local_data()
+    # Default: load the local corpus (data/) on first run; remember raw sources for editing.
+    _src = {}
+    st.session_state['annotations'] = load_local_data(sources=_src)
+    st.session_state['text_sources'] = _src
 
 # Comparanda — comparison texts kept out of the main corpus (data/_comparanda,
 # plus anything flagged `exclude: true`). Loaded once and cached.
 if 'comparanda' not in st.session_state:
-    st.session_state['comparanda'] = load_local_data("data/_comparanda", include_excluded=True)
+    _csrc = {}
+    st.session_state['comparanda'] = load_local_data("data/_comparanda", include_excluded=True, sources=_csrc)
+    st.session_state.setdefault('text_sources', {}).update(_csrc)
 
 # --- UI: Main Layout ---
 
@@ -934,61 +1107,114 @@ if page == "Introduction":
 elif page == "Import":
     st.subheader("Import your own texts")
 
-    st.info(
-        "Imports are **session-only**: your texts live in memory until you reload the page and "
-        "nothing is written to disk. For a permanent, local setup, **clone the repository** "
-        "(`git clone …`) and drop your `.txt` files into the `data/` folder — they'll then load "
-        "automatically every time you run the app."
-    )
+    save_to_data = st.checkbox(
+        "💾 Save imported texts into `data/` (permanent)", value=True, key="imp_save",
+        help="On: imported texts are written into the data/ folder and the corpus is reloaded, "
+             "so they persist across restarts. Off: session-only (in memory until reload).")
+    if save_to_data:
+        st.caption("Imported texts will be **written into `data/`** and the corpus reloaded — "
+                   "they become a permanent part of your local corpus.")
+    else:
+        st.info("**Session-only:** texts live in memory until you reload; nothing is written to disk.")
 
-    mode = st.radio("Imported texts should…",
+    mode = st.radio("When session-only, imported texts should…",
                     ["Add to the current corpus", "Replace the corpus (analyse only my texts)"],
-                    key="imp_mode")
+                    key="imp_mode", disabled=save_to_data,
+                    help="Only applies in session-only mode; when saving to data/, the full corpus is reloaded.")
 
-    # --- Method 1: fetch straight from the eBL fragmentarium API ---
-    st.markdown("#### Fetch from eBL by museum number")
-    st.caption("Enter a fragmentarium number (e.g. `K.4031`, `BM.33793`) or paste its eBL URL. "
-               "The transliteration is pulled from the eBL API; genre and period are auto-detected.")
-    fc1, fc2 = st.columns([3, 1], vertical_alignment="bottom")
-    frag_in = fc1.text_input("eBL number / URL", key="ebl_fetch_id", placeholder="K.4031")
-    counting_choice = fc2.selectbox("counting", ["line", "DIŠ", "BE", "§"], index=0,
-                                    key="ebl_fetch_counting",
-                                    help="How omens are delimited in this text.")
-    if st.button("Fetch & import from eBL", type="primary", key="ebl_fetch_go"):
-        raw = frag_in.strip()
-        if not raw:
-            st.warning("Enter an eBL number or URL first.")
-        else:
-            mm = re.search(r"/(?:library|fragmentarium|fragments)/([^/?#]+)", raw)
-            frag_id = mm.group(1) if mm else raw
-            try:
-                body, fmeta = fetch_ebl_fragment(frag_id)
-            except Exception as e:
-                body, fmeta = None, None
-                st.error(f"Could not fetch “{frag_id}” from eBL: {e}")
-            if body is not None and fmeta is not None:
-                if fmeta["n_lines"] == 0 or not body.strip():
-                    st.warning(f"“{frag_id}” has no transliterated lines in eBL.")
-                else:
-                    pub = f"eBL fragment {frag_id}"
-                    if fmeta["publication"]:
-                        pub += f"; {fmeta['publication']}"
-                    content = (f"---\ngenre: {fmeta['genre']}\nperiod: {fmeta['period']}\n"
-                               f"counting: {counting_choice}\npublication: {pub}\n---\n"
-                               f"@text\n{body}\n")
-                    fetched = _ingest_text(f"{frag_id}.txt", content)
-                    if fetched:
-                        if mode.startswith("Replace"):
-                            st.session_state['annotations'] = fetched
-                        else:
-                            st.session_state['annotations'] = st.session_state['annotations'] + fetched
-                        st.success(f"Imported **{frag_id}** — genre **{fmeta['genre']}**, "
-                                   f"period **{fmeta['period']}**, {fmeta['n_lines']} lines. "
-                                   "Open Global / Genre / Text to see it.")
-                        with st.expander("Show fetched eBL-ATF"):
-                            st.code(content, language="text")
+    # --- Online import from eBL (needs network) ---
+    if _OFFLINE:
+        st.markdown("#### Fetch from eBL")
+        st.info("Online import from the eBL API isn't available in the offline desktop "
+                "build. Paste or upload your eBL-ATF transliteration below instead.")
+    else:
+        # --- Method 1: fetch straight from the eBL fragmentarium API ---
+        st.markdown("#### Fetch from eBL by museum number")
+        st.caption("Enter a fragmentarium number (e.g. `K.4031`, `BM.33793`) or paste its eBL URL. "
+                   "The transliteration is pulled from the eBL API; genre and period are auto-detected.")
+        fc1, fc2 = st.columns([3, 1], vertical_alignment="bottom")
+        frag_in = fc1.text_input("eBL number / URL", key="ebl_fetch_id", placeholder="K.4031")
+        counting_choice = fc2.selectbox("counting", ["line", "DIŠ", "BE", "§"], index=0,
+                                        key="ebl_fetch_counting",
+                                        help="How omens are delimited in this text.")
+        if st.button("Fetch & import from eBL", type="primary", key="ebl_fetch_go"):
+            raw = frag_in.strip()
+            if not raw:
+                st.warning("Enter an eBL number or URL first.")
+            else:
+                mm = re.search(r"/(?:library|fragmentarium|fragments)/([^/?#]+)", raw)
+                frag_id = mm.group(1) if mm else raw
+                try:
+                    body, fmeta = fetch_ebl_fragment(frag_id)
+                except Exception as e:
+                    body, fmeta = None, None
+                    st.error(f"Could not fetch “{frag_id}” from eBL: {e}")
+                if body is not None and fmeta is not None:
+                    if fmeta["n_lines"] == 0 or not body.strip():
+                        st.warning(f"“{frag_id}” has no transliterated lines in eBL.")
                     else:
-                        st.warning("Fetched, but produced no countable tokens.")
+                        pub = f"eBL fragment {frag_id}"
+                        if fmeta["publication"]:
+                            pub += f"; {fmeta['publication']}"
+                        content = (f"---\ngenre: {fmeta['genre']}\nperiod: {fmeta['period']}\n"
+                                   f"counting: {counting_choice}\npublication: {pub}\n---\n"
+                                   f"@text\n{body}\n")
+                        status, path = _commit_import(f"{frag_id}.txt", content, fmeta['period'],
+                                                      fmeta['genre'], save_to_data, mode)
+                        if status == "empty":
+                            st.warning("Fetched, but produced no countable tokens.")
+                        else:
+                            where = f"saved to `{path}`" if status == "saved" else "added (session-only)"
+                            st.success(f"Imported **{frag_id}** ({where}) — genre **{fmeta['genre']}**, "
+                                       f"period **{fmeta['period']}**, {fmeta['n_lines']} lines.")
+                            with st.expander("Show fetched eBL-ATF"):
+                                st.code(content, language="text")
+
+        # --- Method 2: fetch a canonical corpus chapter (EAE, Šumma Ālu, …) ---
+        st.markdown("#### Fetch a corpus chapter from eBL")
+        st.caption("Paste a corpus chapter URL (e.g. `https://www.ebl.lmu.de/corpus/D/1/4/SB/57` for "
+                   "EAE 57) or its `genre/category/index/stage/name` path. The composite (reconstructed) "
+                   "text is pulled — the chapter score is large, so this can take a few seconds.")
+        cc1, cc2 = st.columns([3, 1], vertical_alignment="bottom")
+        corpus_in = cc1.text_input("Corpus URL / path", key="ebl_corpus_id", placeholder="D/1/4/SB/57")
+        corpus_counting = cc2.selectbox("counting", ["DIŠ", "line", "BE", "§"], index=0,
+                                        key="ebl_corpus_counting",
+                                        help="Canonical omens are usually delimited by the DIŠ protasis marker.")
+        if st.button("Fetch & import corpus chapter", type="primary", key="ebl_corpus_go"):
+            parsed = parse_corpus_path(corpus_in.strip())
+            if not corpus_in.strip():
+                st.warning("Enter a corpus URL or path first.")
+            elif not parsed:
+                st.error("Could not read a corpus path — expected genre/category/index/stage/name, "
+                         "e.g. `D/1/4/SB/57`.")
+            else:
+                g, c, i, stg, nm = parsed
+                try:
+                    cbody, cmeta = fetch_ebl_corpus(g, c, i, stg, nm)
+                except Exception as e:
+                    cbody, cmeta = None, None
+                    st.error(f"Could not fetch corpus chapter {g}/{c}/{i}/{stg}/{nm}: {e}")
+                if cbody is not None:
+                    if cmeta["n_lines"] == 0 or not cbody.strip():
+                        st.warning("That corpus chapter returned no composite lines.")
+                    else:
+                        content = (f"---\ngenre: {cmeta['genre']}\nperiod: {cmeta['period']}\n"
+                                   f"counting: {corpus_counting}\n"
+                                   f"publication: eBL corpus {cmeta['path']} ({cmeta['manuscripts']} mss)\n"
+                                   f"edition: fetched from /api/texts/{cmeta['path']}\n---\n"
+                                   f"@text\n{cbody}\n")
+                        fname = f"eBL-corpus-{g}{c}{i}-{stg}{nm}.txt"
+                        status, path = _commit_import(fname, content, cmeta['period'],
+                                                      cmeta['genre'], save_to_data, mode)
+                        if status == "empty":
+                            st.warning("Fetched, but produced no countable tokens.")
+                        else:
+                            where = f"saved to `{path}`" if status == "saved" else "added (session-only)"
+                            st.success(f"Imported corpus **{cmeta['path']}** ({where}) — "
+                                       f"genre **{cmeta['genre']}**, period **{cmeta['period']}**, "
+                                       f"{cmeta['n_lines']} lines ({cmeta['manuscripts']} mss).")
+                            with st.expander("Show fetched eBL-ATF"):
+                                st.code(content, language="text")
 
     st.divider()
     st.markdown("#### …or paste / upload manually")
@@ -1035,22 +1261,53 @@ elif page == "Import":
     path = st.text_input("…or a folder path on this machine (local/self-hosted use only)", key="imp_path")
 
     if st.button("Import", type="primary", key="imp_go"):
-        new_anns = load_uploads(txt_files=up, zip_bytes=(zf.getvalue() if zf else None))
-        if path.strip():
-            if os.path.isdir(path.strip()):
-                new_anns += load_local_data(path.strip(), include_excluded=True)
+        if save_to_data:
+            # Collect raw (filename, content) from every source, then write to data/ and reload.
+            items = []
+            for f in (up or []):
+                try:
+                    items.append((os.path.basename(f.name), f.getvalue().decode("utf-8")))
+                except Exception:
+                    pass
+            if zf:
+                try:
+                    with zipfile.ZipFile(io.BytesIO(zf.getvalue())) as z:
+                        for n in z.namelist():
+                            if n.endswith(".txt") and not n.endswith("/"):
+                                items.append((os.path.basename(n), z.read(n).decode("utf-8", "replace")))
+                except zipfile.BadZipFile:
+                    st.error("That file is not a valid .zip archive.")
+            if path.strip():
+                if os.path.isdir(path.strip()):
+                    for root, _d, files in os.walk(path.strip()):
+                        for fn in files:
+                            if fn.endswith(".txt"):
+                                with open(os.path.join(root, fn), encoding="utf-8") as fh:
+                                    items.append((fn, fh.read()))
+                else:
+                    st.error(f"Folder not found: {path}")
+            if items:
+                saved = [_persist_text(fn, content) for fn, content in items]
+                _reload_corpus()
+                st.success(f"Saved {len(saved)} text(s) into `data/` and reloaded the corpus.")
             else:
-                st.error(f"Folder not found: {path}")
-        if new_anns:
-            if mode.startswith("Replace"):
-                st.session_state['annotations'] = new_anns
-            else:
-                st.session_state['annotations'] = st.session_state['annotations'] + new_anns
-            n_texts = len({a.get('filename') for a in new_anns})
-            st.success(f"Imported {n_texts} text(s) — {len(new_anns)} tokens. "
-                       "Open Global / Genre / Text to see them.")
+                st.warning("Nothing imported — add .txt file(s), a .zip, or a valid folder path above.")
         else:
-            st.warning("Nothing imported — add .txt file(s), a .zip, or a valid folder path above.")
+            new_anns = load_uploads(txt_files=up, zip_bytes=(zf.getvalue() if zf else None))
+            if path.strip():
+                if os.path.isdir(path.strip()):
+                    new_anns += load_local_data(path.strip(), include_excluded=True)
+                else:
+                    st.error(f"Folder not found: {path}")
+            if new_anns:
+                if mode.startswith("Replace"):
+                    st.session_state['annotations'] = new_anns
+                else:
+                    st.session_state['annotations'] = st.session_state['annotations'] + new_anns
+                n_texts = len({a.get('filename') for a in new_anns})
+                st.success(f"Imported {n_texts} text(s) — {len(new_anns)} tokens (session-only).")
+            else:
+                st.warning("Nothing imported — add .txt file(s), a .zip, or a valid folder path above.")
 
     st.divider()
     cur_texts = len({a.get('filename') for a in st.session_state.get('annotations', [])})
@@ -1528,6 +1785,9 @@ elif st.session_state['annotations']:
             meta += biblio_and_ebl_lines(first_row)
             st.markdown("  \n".join(meta), unsafe_allow_html=True)
 
+            if st.button("✏️ Edit text", key="edit_btn_text"):
+                edit_text_dialog(selected_file)
+
             render_text_block(filtered_df, selected_period, selected_file, "text")
 
     # --- PAGE 4: Comparanda ---
@@ -1562,6 +1822,9 @@ elif st.session_state['annotations']:
                 if note != "-":
                     meta.append(f"**Note:** {note}")
                 st.markdown("  \n".join(meta), unsafe_allow_html=True)
+
+                if st.button("✏️ Edit text", key="edit_btn_comp"):
+                    edit_text_dialog(selected_comp)
 
                 render_text_block(cdf, crow.get('period'), selected_comp, "comp")
 

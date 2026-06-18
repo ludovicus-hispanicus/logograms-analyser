@@ -1,0 +1,38 @@
+{
+  "name": "logograms-analyser-desktop",
+  "version": "1.0.0",
+  "description": "Offline desktop build of the Logograms Analyser (stlite + Electron)",
+  "license": "MIT",
+  "author": "Luis Sáenz",
+  "main": "./build/electron/main.js",
+  "scripts": {
+    "prepare-app": "node prepare-app.js",
+    "dump": "dump-stlite-desktop-artifacts",
+    "build": "npm run prepare-app && npm run dump",
+    "serve": "electron .",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "edu.ludovicus.logograms-analyser",
+    "productName": "Logograms Analyser",
+    "files": ["build/**/*"],
+    "win": { "target": "nsis" },
+    "mac": { "target": "dmg" },
+    "linux": { "target": "AppImage" }
+  },
+  "stlite": {
+    "desktop": {
+      "files": ["streamlit_app.py", "data"],
+      "entrypoint": "streamlit_app.py",
+      "dependencies": ["pandas", "plotly", "PyYAML"],
+      "embed": true
+    }
+  },
+  "devDependencies": {
+    "@stlite/desktop": "^0.101.0",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  }
+}
