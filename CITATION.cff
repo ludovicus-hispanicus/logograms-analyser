@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software or corpus, please cite it using the metadata below."
+title: "Logograms Analyser: a diachronic corpus and tool for tracking logographic density in cuneiform divination"
+abstract: >-
+  Logograms Analyser is a Streamlit application and analysis toolkit for
+  measuring the Logogram Density Index (LDI) across a hand-built corpus of
+  Mesopotamian omen texts, spanning the Old Babylonian, Middle, and
+  first-millennium periods and the major divination genres (astrology,
+  diagnostic, extispicy, izbu, terrestrial). It accompanies the article on
+  the "logographic shift" in cuneiform divination.
+type: software
+authors:
+  - family-names: "Sáenz"
+    given-names: "Luis"
+    # TODO: add your ORCID, e.g. orcid: "https://orcid.org/0000-0000-0000-0000"
+license: MIT  # software; the data/ corpus is CC-BY-4.0 (see data/LICENSE.txt)
+repository-code: "https://github.com/ludovicus-hispanicus/logograms-analyser"
+version: "1.0.0"
+date-released: "2026-06-18"  # TODO: set to the actual release date
+keywords:
+  - Assyriology
+  - cuneiform
+  - divination
+  - omen texts
+  - digital humanities
+  - logograms
+  - Sumerian
+  - Akkadian
+# TODO (after the article appears): uncomment and fill in to cross-link the paper
+# preferred-citation:
+#   type: article
+#   title: "The Logographic Shift: Tracking the 'Sumerianizing' Process in Cuneiform Divination"
+#   authors:
+#     - family-names: "Sáenz"
+#       given-names: "Luis"
+#   journal: "TODO journal"
+#   year: 2026
+#   doi: "TODO/article-doi"
+# doi: "10.5281/zenodo.TODO"  # Zenodo concept DOI, added once minted

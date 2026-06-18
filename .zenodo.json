@@ -1,0 +1,28 @@
+{
+  "title": "Logograms Analyser: a diachronic corpus and tool for tracking logographic density in cuneiform divination",
+  "description": "<p>Streamlit application and analysis toolkit for measuring the Logogram Density Index (LDI) across a hand-built corpus of Mesopotamian omen texts, spanning the Old Babylonian, Middle, and first-millennium periods and the major divination genres (astrology, diagnostic, extispicy, izbu, terrestrial). Accompanies the article on the 'logographic shift' in cuneiform divination.</p><p>Software is released under the MIT License; the corpus and derived tables in <code>data/</code> are released under CC BY 4.0.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Sáenz, Luis"
+    }
+  ],
+  "keywords": [
+    "Assyriology",
+    "cuneiform",
+    "divination",
+    "omen texts",
+    "digital humanities",
+    "logograms",
+    "Sumerian",
+    "Akkadian"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "identifier": "TODO-article-doi"
+    }
+  ]
+}
