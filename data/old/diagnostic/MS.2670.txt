@@ -1,0 +1,128 @@
+---
+genre: diagnostic omens
+period: Old Babylonian
+provenance: southern Babylonia
+counting: AŠ
+---
+$ obverse
+
+$ (§1′)
+1'. [AŠ x x x] x ud? [...]
+#tr.en.(2'): ¶ [(If) …] … […] is hot, in [his] temple [he is stricken(?): he is a cause for concern?.]
+2'. [x x x] x e-em i#-na# na#-ak#-ka#-[ap-ti-šu ma-hi-iṣ? na-hi-id?]
+
+$ (§2′)
+3'. AŠ a#-wi#-[lu]m še-er-ha-nu ša qa₂-ti-š[u i-la-ku?]
+#tr.en.(4'): ¶ [(If) a man, the veins of his hands [are in motion?:] that patient is well.
+4'. ma-ar-ṣu₂ šu-u₂ ša-[a-lim]
+
+$ (§3′)
+5'. AŠ a-wi#-[l]um še-er-ha-nu#-šu# e-lu-tum u₃# [ša-ap-lu-tum]
+#tr.en.(6'): ¶ [(If) a man's upper and [lower] veins are everywhere flat: he is a cause for concern.
+6'. mi-it#-ha#-ri-iš ta-a-ku# na-hi-°\°-[id]
+
+$ (§4′)
+7'. AŠ ki-i-ma ša qa₂-ti-šu-ma u₃ ša š[i-pi-šu i-la-ku na-hi-i]d
+#tr.en: ¶ [(If) like (the veins) of his hands, also (those) of [his feet are in motion: he is a cause for] concern.
+
+$ (§5′)
+8'. AŠ ša qa₂#-ti#-šu i#-la-ku-u₂-ma ša š[i-pi-šu iš-pi-lu?]
+#tr.en.(9'): ¶ [(If the veins) of his hands are in motion but (those) of [his feet have become sunken(?):] sickness has entered him below and he is a cause [for concern.]
+9'. [š]a-ap-la#-nu#-um-ma mu#-ur-ṣu₂ i-ru-ub#-šum#-ma# n[a-hi-id]
+
+$ (§6′)
+10'. AŠ ša ši-[pi]-šu i-la-ku#-u₂-ma ša qa₂-ti-šu i[š-pi-lu?]
+#tr.en.(11'): ¶ [(If the veins) of his feet are in motion but (those) of his hands have become [sunken(?):] sickness has entered him above, and he is a cause for [concern.]
+11'. e-le-nu-um-ma mu-ur-ṣu₂ i-ru-u[b-šu]m-ma na-h[i-id]
+
+$ (§7′)
+12'. AŠ še-er-ha-nu ša i-ir-ti-šu# u₃ na-ak-ka-ap-t[i-š]u
+#tr.en.(13'): ¶ [(If) the veins of his chest and his temples are in motion: he is a cause for concern.
+13'. i-la-ku na-hi-id
+
+$ (§8′)
+14'. AŠ ša i-ir-ti-šu i-la-ku-u₂-ma ša na-ak-ka-ap-ti-š[u] / la i-la-ku ša-a-lim
+#tr.en: ¶ [(If the veins) of his chest are in motion but (the veins) of his temples are not in motion: he is well.
+
+$ (§9′)
+15'. AŠ a-wi-lum re-eš li-ib-bi-šu pa!(IB)-ṭe₄-er na-hi-id
+#tr.en: ¶ [(If) a man, the top of his innards is "undone"(!): he is a cause for concern.
+
+$ (§10′)
+16'. AŠ a-wi-lum li-ib-bu-šu# na-ar-bu ša-a-lim
+#tr.en: ¶ [(If) a man's innards are soft: he is well.
+
+$ (§11′)
+17'. AŠ a-wi-lum li-ib-bu-šu na-ap-hu I₃.DAB DINGIR.MAH
+#tr.en: ¶ [(If) a man's innards are bloated: (it) is Seizure-by-Bēlet-ili.
+
+$ (§12′)
+18'. AŠ a-wi-lum ka-ap-pi i-ni-šu ik-bi-ru-u₂-ma
+#tr.en.(19'): ¶ [(If) a man’s eyelids have swollen and also his eyes are shedding tears: (it is) Wind-Blast.
+19'. u₃ i-na-šu di-im-tam i-na-an-di-a ši-bi-iṭ ša#-ri#-im#
+
+$ (§13′)
+20'. AŠ a-wi-lum pa-ga-ar-šu ka-ṣi-i-ma re-eš li-i[b-bi-šu]
+#tr.en.(21'): ¶ [(If) a man’s body is cold and the top of [his] innards is in motion: he will die or recover.
+21'. i#-la#-ak UG₇.E u₃ TI.LA
+
+$ (§14′)
+22'. AŠ [a-wi]-lum ap-pa-at uz#-<ni>-šu ik-ta-na-ṣa-a mu-ru#-us#-[su₂] / i-ri-ik
+#tr.en.(23'): ¶ [(If) a [man], the tips of his ears(!) keep going cold: [his] sickness will be prolonged; his sickness will continue for six or seven days.
+
+$ bottom
+23'. U₄#.6.KAM U₄#.7.KAM mu-ru#-us#-su₂ / i#-il#-la#-a[k]
+
+$ reverse
+$ (§15′)
+24'. [AŠ a-wi-lum qa₂]-aq-qa₂-as#-su₂# u₃ pa-ga-ar-šu [mi-it-ha-ri-iš?]
+#tr.en.(25'): ¶ [(If) a man’s] head and body [everywhere(?)] keep going cold: (it is) Seizure-by-Gemini.
+25'. i[k-t]a-na-aṣ-ṣa-[a] I₃#.DAB {d}MAŠ.TAB.[BA]
+
+$ (§16′)
+26'. AŠ a-wi#-lum še-er-ha#-an# i#-ir-ti-šu te-b[u-u₂-ma]
+#tr.en.(27'): ¶ [(If) a man, the veins of his chest [are] prominent [and] also the base(?) of his skull is cold: he [is a cause for concern (or: Seizure-by-DN).]
+27'. u₃ tu#-qa₂-ar mu-uh#-hi#-šu# ka-ṣi n[a-hi-id?]
+#note: or @akk{I₃#.[DAB DN?]}
+
+$ (§17′)
+28'. AŠ ma-ar#-ṣu₂ pa-ri-id-ma# u₃# it-te-[x x x] / I₃.DAB# li-l[i-i-im]
+#tr.en: ¶ [(If) a patient is frightened and also he keeps [ …:] (it is) Seizure-by-the-[@i{lilû}-demon.]
+
+$ (§18′)
+29'. AŠ ma-ar-ṣu₂# zu-mu-ur-šu i-mi-im-[ma i-ka-ṣi?] / u₃ ṣi-bi#-is-su₂ it-[t]a-na-ki-ir I₃.DAB# {d}[UT]U
+#tr.en: ¶ [(If) a patient’s body grows hot [and cold(?) and] also a growth on him keeps moving: (it is) Seizure-by-Šamaš.
+
+$ (§19′)
+30'. AŠ ma-ar-ṣu₂ ka-li u₄#-mi-im na-pu-uš-ma
+#tr.en.(31'): ¶ [(If) a patient is at ease all day but from sundown he is sick all night: (it is) Seizure-by-a-Ghost.
+31'. iš-tu qi₂-id-da-at u₄-mi-im ka-li mu-ši-im ma-ru;-uṣ / I₃#.DAB GIDIM.MA
+
+$ (§20′)
+32'. AŠ ma#-ar-ṣu₂ zu-mu-ur-šu mi-it-ha-ri-iš e-em
+#tr.en.(34'): ¶ [(If) a patient’s body is hot all over, he is mute (and) no “hand” is in evidence on his body: (it is) Weather-Burn.
+33'. uq#-qu₂-uq i-na zu-um-ri-šu qa₂-tum la i-ba-aš-ši
+34'. hi-mi-iṭ# ṣe#-e#-tim
+
+$ (§21′)
+35'. AŠ a#-wi-lim še-er-ha-an na-ak#-ka-ap-ti-šu ša i-mi-tim
+#tr.en.(37'): ¶ [(If) a man, the veins of his right temple are prominent (but those of (his) left (temple) are flat and also the top of his innards is bloated: (it is) Seizure-by-Sand-Fly.
+36'. te-bu-u₂ ša šu-me-lim ta#-a-ku u₃ re-eš li-ib-bi-šu
+37'. na-p[i-i]h I₃.DAB ha-wi-i-tum
+
+$ (§22′)
+38'. AŠ ma-ar-ṣu₂ ku-nu-uk ki-ša-di-i-šu pa-ṭe-er
+#tr.en.(39'): ¶ [(If) a patient’s Adam’s apple(?) is loose, his veins are flat, (and) his nostrils keep pinching tight: he is a cause for concern.
+39'. še-er-ha-nu-šu ta-a-ku na-hi-ra-šu it-ta-na-aṣ-ba-ta# / na-hi-id
+
+$ (§23′)
+40'. AŠ ma#-ar-ṣu₂ i-na-šu da-ma-am! BI-ma-am ma-li-a
+#tr.en.(42'): ¶ [(If) a patient’s eyes are full of red(!) blood, his [eye] squints and his @i{ṣibtum}-growths are flat: he will not recover.
+41'. [i-in]-šu ṣa-pi-ir u₃ ṣi-ib-tu-šu ta-a-ku
+42'. [u₂-u]l i-ba-al-lu-uṭ
+
+$ (§24′)
+43'. [AŠ ma-a]r-ṣu₂ i-na-šu ga-al-ta ni#-ši# i-ni-šu pa-a[š-ra]
+#tr.en.(45'): [¶ (If) a] patient’s eyes are wide with fear, his glance is uncoordinated, his ankles …
+44'. [ki-ṣa]-al#-li-šu u₂-ka-am-x [x] x im šu x
+45'. [...] x x [x] x [...]

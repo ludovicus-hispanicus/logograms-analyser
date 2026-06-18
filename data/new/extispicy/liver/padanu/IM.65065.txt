@@ -1,0 +1,70 @@
+---
+genre: extispicy omens
+period: Late Babylonian
+provenance: Uruk (Seleucid/Hellenistic)
+tradition: Babylonian
+counting: BE
+publication: IM 65065; eBL; Padanu Tablet IV (Late Babylonian Uruk)
+note: "Latest witness - a Seleucid/Hellenistic Uruk copy of padanu Tablet 4 (parallels Padanu IV 60-75), the diachronic apex datapoint. eBL classes it Hellenistic; mapped here to Neo Period via period Late Babylonian. eBL 15/150 normalised to ZAG/GUB3."
+---
+
+@obverse
+1'. [...] ah?# [...]
+2'. [...] ki?# x te# u₂# [...]
+3'. [...] x lu?#/ib?# ma# [...]
+4'. [...] x [(x)] x [...]
+5'. [...] zag?# ni# šu₂# x [...]
+6'. [...] ZAG?# x [...]
+$ rest of obverse broken
+
+@reverse
+1. BE# [GIR₂ 2-ma ...]
+#tr.en.(r 2): If [there are two Paths and …] … […].
+2. ($___$) x [...]
+3. BE# GIR₂# [2-ma] ina# EGIR!? BA₃!? e[ṣ!?-ru KUR DINGIR-MEŠ-šu₂ TAG₄-MEŠ-šu₂]
+#tr.en: If [there are two] Paths [and] @i{they are drawn at the rear of the liver}: [The gods will forsake the land].
+4. BE# [GIR₂ 2-ma] ina# EGIR!? BA₃!?# eṣ?#-r[u!?-ma PAP.HAL ZAG u GUB₃ DU₈-u ŠA₃.HUL? ana KUR ŠUB-di]
+#tr.en: If [there are two Paths and] @i{they are drawn at the rear of the liver} [and the right and left Narrowings are split: Distress will fall on the land].
+5. BE# GIR₂# [2-ma] GIR₂# ZAG ina KIR₄ NIG₂.TAB!?# š[a₂!? ZAG e-ṣir NUN ana KUR₂-šu₂ KA LA₂-a GAR-an]
+#tr.en: If [there are two] Paths and the right Path [is drawn] at the tip of the Dyeing Vat @i{to} [the right: The prince will bring humiliation over his enemy].
+6. BE GIR₂ 2#-[m]a GIR₂ GUB₃ ina KIR₄ NIG₂.TAB# ša₂# GUB₃# [e-ṣir KUR₂ ana NUN KA LA₂-a GAR-an]
+#tr.en: If there are two Paths and the left Path [is drawn] at the tip of the Dyeing Vat to the left: [The enemy will bring humiliation over the prince].
+7. BE GIR₂ 2-ma# ina KIR₄ NIG₂.TAB# eṣ#-r[u] U₄#-MEŠ# [NUN TIL-MEŠ]
+#tr.en: If there are two Paths and they are drawn at the tip of the Dyeing Vat: The days [of the prince will come to an end].
+8. BE GIR₂ 2-ma AN.TA-u₂# KI.TA-u₂# NIGIN-mi [URU] KUR₂# NIGIN#-[ma] DAB-bat
+#tr.en: If there are two Paths and the upper one surrounds the lower one: You will besiege the enemy city [and] conquer it.
+9. BE GIR₂ 2-ma KI.TA-u₂# AN.TA-u₂ NIGIN-mi KUR₂ URU NIGIN-ma DAB-bat
+#tr.en: If there are two Paths and the lower one surrounds the upper one: The enemy will besiege your city and conquer it.
+10. BE GIR₂ 2-ma AN.TA-u₂# [K]I.TA-u₂ NIGIN-mi-ma PAP.HAL ZAG DU₈ URU KUR₂ NIGIN-ma NU DAB-bat ERIN₂#-ka ina# PAP#.H[AL NU E₃]
+#tr.en: If ther are two Paths and the upper one surrounds the lower one and the Narrowing to the right is split: You will besiege the enemy city but not conquer it, your army [will not escape] peril.
+11. BE GIR₂ 2-ma KI.TA-u₂# AN.TA-u₂ NIGIN-mi-ma PAP.HAL GUB₃ DU₈ ina KI.GUB KUR₂!(ŠU₂) GUB-az x (x) ki# e₂# [(...)]
+#tr.en: If there are two Paths and the lower one surrounds the upper one and the left Narrowing is split: You will stand in the place of the enemy … [(…)]
+#note: Line in parallel ends after @akk{GUB-az} “will stand”.
+12. [BE] GIR₂ 2-ma# šu-ta-hu-qu LUGAL ana LUGAL ka-lu-ti-šu₂ NU BAR-MEŠ
+#tr.en: [If] there are two Paths and they are mixed up: Kings will not exchange prisoners.
+#note: Read @i{šutaḫūqū} (ḫâqu “to mix” Št stative).
+13. BE# GIR₂ 2-ma# UZU IGI TUN₃# kab#-su LUGAL SISKUR₂ BAL-u₂ NU GUR-ma NU BAL-qi₂
+#tr.en: If there are two Paths and a piece of flesh hides the Front of the Pouch: The sacrifice the king is about to perform will not @i{turn} and he will not sacrifice (it).
+14. [BE GI]R₂ [2-m]a ina bi#-ri-šu₂-nu DU₈ DU₈ LU₂ EN ša₂-sur-ri#-šu₂# UŠ₂# KUD-as SAG.DU LU₂ ŠUB-ti# u₂-ru
+#tr.en: [If there are two] Paths and there are fissures between them: The man and his @i{womb} will die; the man will be beheaded; (death caused by) the collapse of a roof.
+15. [BE GIR₂ 2-m]a MURUB₄-šu₂-nu pa-aš₂-ṭa!(ID) DINGIR-MEŠ E₂.GAL ru-u₂-tu₂ IGI#-MEŠ#-ma# ana E₂.GAL UR₅-tu₂ NU KU₄#-MEŠ#
+#tr.en: [If there are two Paths] and their middles are effaced: The gods of the palace will find poison and they will not enter that palace.
+16. [BE GIR₂ 2-m]a ša₂# ZAG# i#-kun#-ma ša₂ GUB₃ BAL-ut e-ma KUR-du KUR₂ a-dak
+#tr.en: [If there are two Paths] and the right one is in place but the left one is turned: Wherever the enemy goes, I will slay him.
+17. [BE GIR₂ 2-m]a ša₂ GUB₃ i-kun-ma ša₂ ZAG BAL-ut e-ma KUR-du GAZ-an-ni
+#tr.en: [If there are two Paths] and the left one is in place but the right one is turned: Wherever I go, the enemy will slay me.
+18. [BE G]IR₂ 2#-ma# BAL#-MEŠ# LUGAL °\URU.KI?° u A.DAM-MEŠ-šu₂ BAL-MEŠ-šu₂
+#tr.en: [If] there are two Paths and they are turned: As for the king, the city and its pasture lands will rebel against him.
+19. [BE] GIR₂# 2-ma it-ku#-mu KUR₂ UGU NIG₂.GIG NUN GUB-az
+#tr.en: [If] there are two Paths and they absorb each other: The enemy will stand over the prince’s @i{sacred place}.
+20. [BE] GIR₂# 2-ma ša₂ ZAG DU₈#-MEŠ KUR₂ KI NUN i-baq-qar
+#tr.en: [If] there are two Paths and they are split towards the right: The enemy will claim the territory of the prince.
+21. [BE] GIR₂# 2-ma ša₂ GUB₃ DU₈-MEŠ NUN# KUR KUR₂-šu₂ i-baq-qar
+#tr.en: [If] there are two Paths and they are split towards the left: The prince will claim the territory of the enemy.
+22. BE# GIR₂ 2-ma {giš}TUKUL SILIM GAR-in KUR₂ n[i#-tu₂ NI]GIN-an-ni-ma KA LA₂-a [GAR-an]
+#tr.en.(r 23): If there are two Paths and there is a propitious Weapon: The enemy will lay siege to me and [will bring] humiliation (over me) but the gods will help my army in battle and [I will defeat the enemy].
+#note: Parallel: @akk{GU₃-mu GAR-an} “will make noise”.
+23. ($___$) ina {giš}TUKUL DINGIR-MEŠ# A₂# ERIN₂#-MU# DU#-MEŠ#-ma# [KUR₂ a-dak]
+24. [BE] GIR₂# 2#-ma# {g[iš}TUKUL SILIM BAL-ut URU DINGIR-MEŠ-šu₂ TAG₄-MEŠ-šu₂ (...)]
+#tr.en: [If] there are two Paths and [a proptious Weapon mark is displaced: The city will be forsaken by its gods (…)]
+$ rest of reverse broken

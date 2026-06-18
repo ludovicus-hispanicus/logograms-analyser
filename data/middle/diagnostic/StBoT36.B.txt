@@ -1,0 +1,41 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Ḫattuša (Boğazköy)
+recension: Anatolian periphery
+counting: line
+topic: prognosis; Hand-of-DN diagnoses ordered partly by diagnosis (Šamaš/Ištar handed to the Twin-gods dMAŠ.TAB.BA, Ninurta, Ištar)
+series: pre-canonical Late Bronze Age diagnostic omens (Tafel B)
+canonical_parallel: individual entries parallel canonical Sakikkû/TDP (Wilhelm 1994 commentary)
+edition: Wilhelm 1994, StBoT 36, 34-39; Tafel B = KUB 37,211 + KBo 36,52 (+) KUB 37,192 (Büyükkale)
+dating: 13th century BCE (Hittite Empire), Anatolian periphery. Counted as Middle Babylonian (chronological).
+note: >
+  After Wilhelm's sign-level Umschrift (1994:34-35), Akkadian only (Hittite/
+  Luwian glosses omitted). Same peripheral syllabic orthography as Tafel A.
+  Logograms uppercase, syllabic lowercase, {} determinative, [] restoration.
+---
+
+@obverse
+2. mi-it-ḫa-r[i-iš]
+3. kaṣ-ṣí dam-ma
+4. i-na GIR.MEŠ-šu ma-ḫi-iṣ-ma u i-da-mu [pu-qu-ud-de₉ {d}UTU] a-na ŠU {d}MAŠ.TAB.BA
+5. i-na SAG.DU-šu ma-ḫi-iṣ-ma u i-da-mu pu-qu-ud-de₉ {d}Ištar a-na ŠU {d}MAŠ.TAB.BA
+6. ur-ra u mu-ša da-a-mu i-na ap-pi-šu la-a ik-kál-lu-u al-ti LÚ-lim
+7. i-ḫa-ra-aš ú-pa-aš i-bal-lu-uṭ
+8. ur-ra u mu-ša ú-pa-aš ša UD 12.KAM ŠU {d}Ni-in-nu-ur-ta
+9. i-na SAG.DU-šu ma-ḫi-iṣ-ma da-a-mu
+10. zu-um-mu-ur-šu kaṣ-ṣí-ma ṣi-bi-is-su it-ta-na-ak-ki-ir
+11. e-me-ed mu-u-ti ma-ḫi-iṣ
+12. i-na qá-ab-li-šu u ki-iṣ-ṣi-ir am-ma-ti-šu ma-ḫi-iṣ ŠU {d}Ištar
+13. ŠU.MEŠ-šu it-ta-na-an-ṣi-la u
+14. ši-in-na-a-šu i-kaṣ-ṣa-aṣ šu-su i-na-di ŠU {d}Ištar
+15. i-na ki-ša-a-di-šu ma-ḫi-iṣ-ma i-ra-as-su ik-ka-al-šu ŠU {d}Ištar
+16. i-na SAG.DU-šu ma-ḫi-iṣ-ma me-eš-re-ti-šu mi-it-ḫa-ri-iš ik-ka-la-šu ŠU {d}Ištar
+
+@reverse
+1. i-na muḫ-ḫi-šu ma-ḫi-iṣ uz-ne-e-šu la-a še-ma-a ŠU {d}Ištar
+2. um-ma ṣa-ri-ib ke-er-ra-a-šu ma-aq-ta
+3. ŠÀ-šu ú-ma-kál i-na-as-si-su ú-ma-kál
+4. ke-er-ra-a-šu ma-aq-ta še-pa-a-šu na-sa-a
+5. pí-šu ṣa-bi-it-ma
+6. ša-ap-ta-šu it-tar i-na SAG.DU-šu

@@ -1,0 +1,148 @@
+---
+genre: terrestrial omens
+period: Old Babylonian
+provenance: unknown
+publication: Köcher & Oppenheim 1957-58, AfO 18, 62-77 (VAT 7525). Old Babylonian Šumma Ālu forerunner — human-behaviour, garment (ṣubātum), appearance/body and sleep/dream omens (cols. I–III). Hittite parallel appendix (Güterbock, pp.78-80) excluded.
+counting: DIŠ
+source_note: "Transcribed from the AfO 18 edition (Köcher & Oppenheim 1957-58); the PDF OCR layer is unusable and eBL serves VAT.7525 as a 0-line stub. Normalized to project ATF: ASCII-ATF digraphs sz→š, s,→ṣ, t,→ṭ, h→ḫ, DISZ→DIŠ; accents and ASCII index-digits → Unicode subscripts; numeral-glosses (diš)/(text …) and half-brackets ⌈⌉ dropped; 'Col. N.' → '@column N'. Broken/illegible = x, [...], or …"
+note: Heavily syllabic OB human-behaviour/garment/body/dream omens — LDI governed by the sparse logograms (DIŠ, LU₂, DINGIR, I₃.GIŠ, EŠ+DAR₄, NINDA, GAR, UŠ, {d}KAL, {d}ŠUL.PA.E₃).
+---
+
+@obverse
+1. [DIŠ LU₂ … -m]u
+2. [… ir-t]a-na-aš-ši
+3. [… i-il-l]a-ak
+4. [DIŠ LU₂ …] x-a-at/d
+5. […] ir-ta-na-aš-ši
+6. [DIŠ LU₂ …] x ma da [i]t-ta-na-bal
+7. […]-ra il-[x]-it/d
+8. [DIŠ LU₂ … t]u-ur-ra qa₂-ia-pa-nu-tam
+9. i-ip-pu-uš
+10. […] šu x y bu ta wi i
+11. [DIŠ LU₂ …] sa₃-a-ar
+12. [DIŠ LU₂ … ki-ma r]i-ḫu-ut ka-ka-bi-im
+13. […] x {d}ŠUL.PA.E₃
+14. […]-šu iz-zi-iz
+15. [DIŠ LU₂ ṣu₂-up-r]a-šu ar-ra-ki-a qa₂-ia-al
+16. [DIŠ LU₂ ṣu₂-up]-ra-šu ku-ur-ri-ia ḫa-bu-ur
+17. [DIŠ LU₂ ša]r-tam da-mi-iq-tam šu-uk-lu-ul
+18. UD-ma-tu-šu qi₂-ir-ba
+19. DIŠ LU₂ šar-tum ša i-ir-ti-šu su₂-ḫu-ra-at-ma
+20. su₂-qa₂-as-su₂ i-na-ṭa-al ri-šu-tam i-il-la-ak
+21. DIŠ LU₂ šar-ti pu-di-šu ku-un-nu-na-at
+22. si₂-in-ni-ša-tum i-ra-am-ma-šu
+23. DIŠ LU₂ tu-ka-na-at iš-ki-šu ra-ab-bi-a
+24. u₃ iš-ka-šu na-ša-al-lu-la
+25. a-na si-in-ni-iš-tim qi₂-ru-ub
+26. DIŠ LU₂ ki-ṣa-IL-la šu-min ra-ab-bi-a na-zi-iq
+27. DIŠ LU₂ ki-ṣa-al-li-in la i-šu ni-zi-iq-tum
+28. u₂-ul i-ṭe-eḫ-ḫi-šum
+29. DIŠ LU₂ it-ti ra-ma-ni-šu-ma qu₂-lum i-[m]-qu₂-us-su₂
+30. e-zi-iz i-lim ta-ia-ar-tam i-šu
+31. DIŠ LU₂ šu-ut-tam ša i-im-ma-ru la u₂-ka-al
+32. DINGIR-šu it-ti-[šu] ze-e-ni
+33. [DIŠ L]U₂ ma-ia-al-šu it-[ta-na-a]s-su₂-uk-šu
+34. LU₂ šu-u₂ il-[x x i-i]m-ma-ar
+35. DIŠ L[U₂] I₃.GIŠ ip-ta-ša-aš z[u-mu-u]r-[šu] ki-ma I₃.GIŠ ru-pa-šu
+36. lu-um-nu ša-a-ti u₃ ṭi-iḫ-ḫi-šu i-ṣa-ba-at
+37. DIŠ LU₂ I₃.GIŠ ip-ta-ša-aš-ma i-na zu-um-ri-šu
+38. e-r[i(?)]-ša-am la il-šu DINGIR-šu u₃ EŠ+DAR₄-šu u₂-ul sa₃-an-qu₂-šu
+39. [DIŠ LU₂] i-na ṣa-la-li-šu iṣ-ṣi₂-iḫ
+40. ma-di-iš i-ma-ra-aṣ
+41. [DIŠ LU₂] i-na ṣa-la-li-šu ši-[i]n-[ni-šu] i-ka-ṣa-aṣ
+42. [i-na]-an-zi-iq
+43. [DIŠ LU₂ i-na ṣa-la]-li-šu i-[ba]-ak-ki
+44. [x (x)]-ti-šu i-ši-a-am
+@column II
+1. DIŠ LU₂ i-na ṣa-la-li-šu i-da-ab-bu-ub [x x]
+2. DIŠ LU₂ ṣu₂-ba-at-su₂ i-ti-šu ma-ga-al i-x-[x]
+3. nu-šu-ur₂-ru-um i-na bi-ti-šu ša-ki-i[n]
+4. DIŠ LU₂ ṣu₂-ba-at-su₂ ma-ga-al it-<ta>-na-ra-a[d]
+5. di-il-ḫu-um ib-ba-aš-ši
+6. DIŠ LU₂ ṣu₂-ba-at-su₂ wa-ri-id u₃ pu-ṣa-am i-t[a-ad-du]
+7. ṣu₂-ba-at ta-am-ṭi-a-tim
+8. DIŠ LU₂ ṣu₂-ba-at-su₂ i-na pa-ag-ri-šu la i-ka-an-m[a]
+9. ma-ga-al it-ta-na-aš-ḫa-aṭ LU₂ šu-u₂ … [x]
+10. [DIŠ] LU₂ id-da-u₂ DINGIR-šu it-ti-<šu> ze-e-ni ta-ia-ar-[tam ul i-šu]
+11. [DIŠ L]U₂ ši-ki-in qa₂!(BI)-ti-šu im-ta-na-aš-ši bi-tum šu-u₂ il-[x x]
+12. [DIŠ] LU₂ i-na na-ap-lu-si₂-šu a-wi-lam la u₂-te-ed-di
+13. LU₂ šu-u₂ a-na qa₂-ti mu-tim pa-qi₂-id
+14. DIŠ LU₂ iš-tu 1 UŠ a-na 30 GAR LU₂ u₂-we-ed-di
+15. LU₂ šu-u₂ DINGIR-šu it-ti-šu ka-ia-an
+16. DIŠ LU₂ i-na na-ap-lu-si₂-šu i-ni-šu za-qa₂-pa-am u₂-GAL-la-al-ma
+17. la i-li-i LU₂ šu-u₂ ṭe₄-em-šu pu-ur-ru-ur
+18. DIŠ LU₂ i-na na-ap-lu-si₂-šu i-na-šu it-ta-na-za-az-za
+19. di-li-iḫ ra-ma-ni-šu na-di-i-šu
+20. DIŠ LU₂ na-ap-lu-su₂ ḫa-mi-iṣ mu-ut ḫi-in-qi₂ i-ma-at
+21. DIŠ LU₂ na-ap-lu-su₂ šu-šu-ri-iš i-ba-aš-ši
+22. DINGIR-šu a-na da-mi-iq-tim ka-a-a-an-šum
+23. i-na ki-na-tim i-il-la-ak
+24. DIŠ LU₂ i-na na-ap-lu-si₂-šu i-in-šu ša i-mi-tim iṣ-ṣa-pa-ar
+25. i-na da-an-na-tim i-il-la-ak
+26. DIŠ LU₂ i-na na-ap-lu-si₂-šu i-in-šu ša šu-me-lim iṣ-ṣa-pa-ar
+27. i-na i-ša-ra-a-tim i-il-la-ak
+28. DIŠ LU₂ i-ni-šu ša ki-la-at-tim-ma iṣ-ṣa-pa-ar
+29. mu-uḫ-ḫa-šu ma-ḫi-iṣ ki-ma mu-uḫ-ḫi-šu-ma
+30. ṭe₄-em-šu i-ba-aš-ši
+31. DIŠ LU₂ šu-uḫ-ra-šu i-ni-šu ka-at-ma
+32. a-ka-lum it-ti i-li na-di-iš-šum
+33. DIŠ LU₂ šu-uḫ-ra-šu la i-ba-aš-ši-a
+34. LU₂ šu-u lu-ub-kum u₂-ul na-di-iš-šum
+35. DIŠ LU₂ ša-ra-su₂ ki-ma na-ba-si ṣa-ar-pu-at
+36. LU₂ šu-u₂ i-na la ṭu₂-ub li-ib-bi i-ta-na-la-ak
+37. DIŠ LU₂ ša-ra-su₂ ki-ma qi-it-mi ṣa-al-ma-at
+38. LU₂ šu-u₂ a-ka-lum <<1>> DINGIR-šu
+a-na a-ka-lim i-na-di-šum
+39. DIŠ LU₂ ša-ra-su₂ pu-ṣa-am na-di-a-at-ma
+40. na-ab-li-iš i-ba-aš-ši
+41. LU₂ šu-u₂ i-na ba-la-ṭim i-il-la-ak
+42. DIŠ LU₂ pa-ga-ar ši-ru-šu pu-ṣa-am ku-ul-lu-u[m]-ma
+43. u₃ nu-uq-di i-ta-ad-du
+44. LU₂ šu-u₂ it-ti i-li-šu sa₃-ki-ip
+45. it-ti a-wi-l[u-t]i sa₃-ki-ip
+@column III
+1. DIŠ LU₂ [ši-ru-š]u ki-ma ša ša-am-nam
+pa-aš-šu
+2. ka-a-a-n[i]-iš i-ba-aš-šu-u₂
+3. LU₂ šu-u₂ i-na … x-ru-um na-di-iš-šum
+4. DIŠ LU₂ ḫa-li ṣa-al-mu-tim ma-ga-al ma-li
+5. m[a]-an-za-az la ar bi
+6. DIŠ LU₂ ḫa-li [ṣa-a]l-mu-tim iš-[t]i-na-a
+i-ta-ad-du
+7. x x [ ]
+8. DIŠ LU₂ ḫa-li ṣa-al-mu-tim pa-nu-[š]u i-ra-su₂
+9. [li]-ib-ba-šu qa₂-ta-šu še-pa-a-šu mi-it-ḫa-
+ri-iš ma-li
+10. x x [i]-li-šu u₂-ul šu-ut-tu-un
+11. DIŠ LU₂ um-ṣa-tim [m]a-li i-na da-an-na-
+tim a-ka-lam [i]k-kal
+12. DIŠ LU₂ [um]-ṣa-tim šu-ut-tu-qa₂-tim ma-li
+la ṭu₂-ub li-ib-bi
+13. DIŠ LU₂ [um]-ṣa-tim [nu-u]r-ru-ba-tim ma-li
+LU šu-u₂ i-na ṣi-iḫ-ru-ti-[šu]
+14. d[a]-an-na-tam [im-ma-ar-m]a i-nu ši-bu-
+ti-šu NINDA i-ra-ši
+15. DIŠ [LU₂ um]-ṣa-t[im ta-a]r-ka-tim ma-li
+16. [i-na na-am-r]a-[ṣ]i-im a-ka-lam i-ka-al
+17. [DIŠ LU₂ a]-b[u-u]n-na-su₂ lu-ṭi-it a-na la
+i-di-e iš-ta-na-ru
+18. [DIŠ LU₂ x x ša]-ar-[t]i-šu pa-ḫa-al-li x […]
+19. da-an-na-tum i-ṣa-ba-as-su₂
+20. [DIŠ LU₂ še-er-ḫa-a]n ša še-pi-šu it-ta-na-
+la-ku
+21. […] … it bu šum [x x] še-li-iḫ-tim-ma
+22. [DIŠ] LU₂ še-er-ḫa-nu ša še-pi-šu [x]
+23. [it-t]a-na-az-za-z[u … x]-zu ši-ir-šu
+is-sa₃-ḫa-al
+24. DIŠ LU₂ [š]e-er-ḫa-nu ša še-pi-šu … šu
+25. ITI 2.KAM ITI [3].KAM la iḫ mu …
+26. ki-a-am i-ba-aš-šu-u₂
+27. LU₂ šu-u₂ a-na MU 2.KAM i-ma-at
+28. DIŠ LU₂ i-nu-ma ṣa-al-lu a-lum im-ta-na-qu₂-ta-šum
+29. u₃ i-ḫa-az-zu-ma la i-ši-im-mu-šu
+30. LU₂ šu-u₂ {d}KAL u₃ še-e-du i-na zu-um-r[i-š]u ra-ki-is
+31. DIŠ LU₂ i-nu-ma ṣa-al-lu
+32. a-lum im-ta-na-qu₂-ta-šum
+33. u₃ i-ḫa-az-zu-ma i-še-mu-šu
+34. ši-id lu-um-nim i-na zu-um-ri-šu
+35. ra-ki-is

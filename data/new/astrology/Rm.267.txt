@@ -1,0 +1,67 @@
+---
+exclude: true  # Rochberg source subsumed in EAE20/RecA-RecB composites; held out to avoid double-count
+genre: astrological omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: DIŠ
+topic: lunar eclipse
+series: Enūma Anu Enlil 20
+recension: A (Assyrian)
+edition: Rochberg-Halton 1988 (AfO Beih. 22), EAE 20 source D = Rm 267; §§ I–XII + colophon (abbreviated copy)
+source: eBL fragment Rm.267 (transliteration verbatim from electronic Babylonian Library)
+note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = editorial restoration; '#' = damaged-but-legible; '($___$)' = continuation line (ignored by loader).
+---
+
+@obverse
+1. [DIŠ ina {iti}BARA₂ U₄.14.KAM₂ AN.GE₆ GAR-ma DINGIR ina KAN₅-šu₂ A₂ IM.U₁₈].LU# AN#.TA# KAN₅-ma
+2. [A₂ IM.SI.SA₂ KI.TA iz-ku ina ŠA₃].HUL#-šu₂ IM.MAR ZI-ma
+3. [...]-ti ina šu-ri-in-ni-šu {d}dil-bat
+4. [ana ŠA₃-šu₂ KU₄ DUMU LUGAL ana AŠ.TE AD-š]u KIMIN ana E₂ AD-šu KU₄
+5. [DINGIR ša₂ ina šu-ri-in-ni-šu₂ {d}dil]-bat# ana ŠA₃-šu₂ KU₄ IGI-ma
+6. [IM.MAR.TU ina ŠU-ka t]u-kal ana ŠA₃ A.GA.DE₃{ki}
+7. [EŠ.BAR SUM-in LUGAL] A#.GA.DE₃{ki} UG₇ u UN-MEŠ-šu₂ SILIM-ma
+8. [BAL A.GA.DE₃{ki} in-niš-š]i EGIR-MEŠ-šu₂ SIG₅-MEŠ
+9. [DINGIR ša₂ ina KAN₅-šu₂ EN.NUN U₄.ZAL.LI SA]R-ma 1/3.TA.AM₃ EN.NUN uh-hu-ru-ma
+10. [... ina {iti}GAN U₄.28.K]AM₂ U₄.29.KAM₂ SAG IGI.DU₈.A-šu₂ IGI-ma
+11. [{mul}dil-bat ana ŠA₃-šu₂ KU₄ DUMU L]UGAL ana E₂ AD-šu₂ KU₄
+12. [ina {iti}GAN U₄.28.KAM₂ U₄.29.KAM₂ SAG IGI].DU₈.A-šu₂ IGI-ma
+13. [AN.GE₆ ta-qab-bi] U₄.NA₂.A AN.GE₆ u₂-kal-lam-ka
+$ single ruling
+14. [DIŠ ina {iti}BARA₂ U₄.14.KAM₂ AN.GE₆ GAR-ma DINGIR ina KAN₅-š]u A₂ IM.SI.SA₂ AN.TA KAN₅-ma
+15. [A₂ IM.SI.SA₂ KI.TA iz-ku ina ŠA₃.HUL-šu₂ I]M.MAR.TU ina EN.NUN AN.USAN₂ im-šul-ma
+16. [DINGIR ša ina KAN₅-šu₂ A₂ IM.SI.SA₂ AN.TA KAN₅-ma A₂ IM.SI.SA₂ KI.TA iz-ku KAN₅-šu₂ IGI-ma IM.M]AR.TU ina ŠU-ka tu-kal
+17. [ina ŠA₃ A.GA.DE₃{ki} EŠ.BAR SUM-in A.GA.DE₃{k]i#} NIG₂.ŠU-ša₂ KAR-aʾ
+18. [...] KIMIN i-da-iṣ
+19. [... KUR GAL] ana KUR TUR ana TI-ṭi DU
+$ single ruling
+20. [... IM.SI].SA₂ AN.TA KAN₅#-[ma]
+21. [...] E[N? ...]
+22. [... IM].KUR.RA i[na ŠU-ka tu-kal]
+$ rest of side broken
+
+@reverse
+1'. [...] x [...]
+2'. [...] EŠ!?# ma
+3'. [...] ha a
+$ single ruling
+4'. [...].TU AN.TA KAN₅#-ma
+5'. [... IM.SI.SA₂] ina EN.NUN MURUB₄.BA ig#-mur#
+6'. [... in]a ŠU-ka tu-U₂
+7'. [... ina ŠA₃ ana URU mu-ta-bal] EŠ.BAR SUM-in
+8'. [...] LUGAL ana LUGAL MUNUS.KUR₂ KIN
+$ single ruling
+9'. [... IM.KUR.R]A AN.TA KAN₅-ma
+10'. [A₂ IM.MAR.TU KI.TA iz-ku IM.SI.SA₂ EN.NUN MU]RUB₄.BA ig-mur
+11'. [...] tu-kal
+12'. [...] iš-šag-gi-šu₂
+13'. [...] ik-kam-mu
+14'. [...] šu₂ KAR-ir
+$ single ruling
+@catchline
+15'. [... AN/KI].TA KAN₅-ma
+@colophon
+16'. [DUB x U₄ AN EN.LI]L₂ NU AL.TIL
+17'. [...]-u₂#-ṣur
+18'. [... ṭi]r?/SA]R? BA.AN.E₃#
+19'. [...] x x {lu₂#?}DUB#?.SAR#?
+$ end of side

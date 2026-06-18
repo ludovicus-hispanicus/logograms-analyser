@@ -1,0 +1,78 @@
+---
+genre: terrestrial omens
+period: Late Old Babylonian
+provenance: unknown
+counting: šum-ma
+---
+
+@obverse
+
+$ (§1)
+1. [šu]m-ma li-ib-bi iṣ-ṣu₂-ri i+na me-e ta-ad-di-m[a]
+#tr.en.(o 5): If you drop a bird’s heart into water, it stands on the cut side and bears along its length a mark (as if) incised: the king will suffer an ailment of the […]; for [its] “crossing over”: fit of madness; a terrible thing will be done in the palace.
+2. ($___$) i-na ni-ik-si-šu iz-zi-iz-ma# a-na ma-ra-[ki-šu]
+3. ($___$) i-ṣi-ir-ma ha-ri-iṣ₂ LUGAL mu#-ru#-uṣ [x (x) x]
+4. ($___$) ma-ru#-uṣ a-na na-ba-al-ku-ti-[šu]
+5. ($___$) me-eš-gu-u₂ a-wa-tum da-an-nu i+na E₂.GAL in-ne₂-ep#-pe₃#-[eš]
+
+$ (§2)
+6. šum-ma li-ib-bi iṣ-ṣu₂-ri i+na me-e ta-ad-di-ma
+#tr.en.(o 10): If you drop a bird’s heart into water, it turns pale (and) bears a mark along its length: troops that we lead on campaign will come back safe. If (ditto): the king will grow old on his throne and not experience impoverishment at the hands of his enemy.
+7. ($___$) na-wi-ru a#-na# ma-ra-ki-šu i-ṣi-ir um-ma-na-tum
+8. ($___$) ša a-na KASKAL ni-re-ed-du-u₂ x ša-al-mu-us-su₂-nu
+9. ($___$) i-tu-ur₂-ru-ni šum-ma LUGAL i+na ku-us-si₂-šu
+10. ($___$) i-še-eb-ma ṣe-he₂-ra-am i+na qa-at na-ak-ri-šu u₂-ul i-im#-ma#-ar
+
+$ (§3)
+11. šum-ma li-ib-bi iṣ-ṣu₂-ri i+na me-e ad-di i+na še-er-ha-ni pe₃-ṣu₂-tim
+#tr.en.(o 14): If I drop a bird’s heart into water (and) it is set in (a network of) white veins (as if) in a net for bundling straw: @i{laḫbum}-disease will strike the limbs of our troops and also the enemy’s weapon will overtake us. If (ditto): a sickness that will not let him go will take hold of the king.
+12. ($___$) i+na ša-hi-ir-ri na-di A₂ ERIN₂-MEŠ-ni la-ah-bu-um x i-ṣa-ba-ta-ma
+13. ($___$) u₃ ka-ak-ki na-ak-ri i+na mu-uh-hi-ni i-ka-aš-ša-ad
+14. ($___$) šum-ma LUGAL mu-ur-ṣu₂ ša la u₂-wa-aš-ša-ru-šu x u₂-ka-al-šu
+
+$ (§4)
+15. šum-ma li-ib-bi iṣ-ṣu₂#-ri i+na me-e ta-ad-di-ma
+#tr.en.(o 17): If you drop a bird’s heart into water and […] along its length [it bears a mark …]
+16. ($___$) x x [... a-n]a ma#-ra#-ki-šu
+17. [($___$) i-ṣi-ir ...]-ru
+
+@reverse
+
+$ (§8)
+1'. [šum-ma l]i-ib#-bi iṣ#-[ṣu₂]-ri# i+na# me-e# ad#-di#-i#-ma#
+#tr.en.(r 6'): [If] I drop a bird’s heart into water and it is perforated from its right side to the left and is slit open(?), and also …: on campaign .…will repulse me and …
+2'. ($___$) i[š-t]u i-mi-it#-ti-šu a-na šu#-me-li#-im# pa-li-[i]š-ma
+3'. ($___$) š[u-ul]-lu-u[q?] u₃# x x x x-um i+na KASKAL
+4'. ($___$) x [x x x] x x x x x i-da#-ri#-sa₃#-ni-ma
+5'. ($___$) x [...] x x x x x
+6'. ($___$) [...] x x x x x
+
+$ (§9)
+7'. šum-ma [li-i]b-bi# iṣ#-ṣu₂#-ri# i+na# me#-[e a]d-di-ma
+#tr.en.(r 12'): If [I] drop a bird’s heart into water and …: .…will take from you.
+8'. ($___$) i+n[a ...] x x x
+9'. ($___$) [...] x x x {d}IŠKUR? x
+10'. ($___$) x [...] x x x x-ak#-ma
+11'. ($___$) [...]-am#
+12'. ($___$) x [...] x [x i-l]e-eq#-qe₃-ka
+
+$ (§10)
+13'. šum-ma li#-ib#-bi iṣ-ṣu₂#-ri# i+na# me#-[e a]d-di-ma
+#tr.en.(r 17'): If [I] drop a bird’s heart into water and it throws up horns .…: on the campaign he undertakes the king will gore the lands like a wild bull. If (ditto): [the king] will remain seated [on] the throne; his guardian spirit [will not withdraw(?) from his side(?)] and his protective spirit [will not withdraw(?)] from [his] land.
+14'. ($___$) qa-an-ni x x x uš₂-te-li LUGAL i+na KASKAL i-il-la-ku
+15'. ($___$) ma#-a#-ta#-tim [k]i-i#-ma# ri-i-mi u₂#-na-ak-kap#
+16'. ($___$) šum-ma# [LUGAL i+na {gi]š}GU#.ZA# a-ši-ib še-es-su₂# i#+[na i-di-šu₂?]
+17'. ($___$) u₃# la-ma-as-sa₃-šu i+na ma-a-t[i-šu u₂-ul i-ne₂-es-su₂-u₂?]
+$ single ruling
+$ (summary) 10 li-ib-bi! iṣ-ṣu₂-ri ša {m}ku-u[z-zi]
+#tr.en: Ten (omens), bird’s heart, of Kuzzi.
+$ end of reverse
+
+$ bottom
+$ (colophon) ŠU {d}UTU-mu-uš₂-te-še-er i-na E₂.GAL L[UGAL]
+#tr.en.(r 20'): Hand of Šamaš-muštēšir, in the palace of King Tunip-Teššub. Month Ayyārum, 26th day,
+$ (colophon) tu-ni-ip-te-eš-šu-ub {iti}a-ia-ri U₄ 26.KAM
+
+$ left
+$ (colophon) li-mu [{m}q]a-a-di#-ia
+#tr.en: Qādiya being eponym.

@@ -1,0 +1,183 @@
+---
+genre: izbu omens
+period: Late Babylonian
+provenance: unknown
+publication: eBL fragment W.23271; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Uruk compendium (spans animal section incl. pig Tablet 22)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@obverse
+1. [BE {munus}]ŠAH# 1 U₃#.[TU ...] E₂# BI# BIR-ah ta-lit#-ti bu#-li₃ NU SI.SA₂
+2. [BE {munus}]ŠAH# 1 U₃.TU-ma x [...] x maš-ra-a i-šar#-ru ne-me₂-lam IGI-mar ŠA₃.HUL₂.LA
+3. [BE {munus}]ŠAH# 1 U₃.TU-ma SAG.DU-su# [(x)] SU GE₆-at LU₂ BI UKU₂
+4. [BE {munus}]ŠAH# 1 U₃.TU-ma BABBAR EN {munus}ŠAH KISLAH₃ IGI-mar
+5. [BE {munus}]ŠAH# 1 U₃.TU-ma GE₆ EN {munus}ŠAH ne-me-lam IGI-mar
+6. [BE {munus}]ŠAH# 1 U₃.TU-ma SA₅ ŠA₃.HUL₂.LA?#
+7. [BE {munus}]ŠAH# 1 U₃.TU-ma SIG₇ DUMU! LUGAL# AŠ.TE AD-šu₂ DAB-bat
+8. [BE {munus}]ŠAH# 1 U₃.TU-ma IGI-MEŠ-šu₂ hu-up-pu-da E₂ BI ŠUB-di EN {munus}ŠAH UŠ₂ : ZAH₂
+9. [BE {munus}]ŠAH# 1 U₃.TU-ma GIR₃-MEŠ-šu₂ IGI-MEŠ ZA₃?# pu-us-su-la E₂ BI SI.SA₂ ina E₂ LU₂ MAŠKIM ZI.GA
+10. [BE {munus}]ŠAH# 1 U₃.TU-ma GIR₃-MEŠ-šu₂ EGIR-MEŠ ZA₃?# [pu]-us-su-la E₂ BI TUR-er mim-mu-šu₂ i-lap-pi-in : i-rab-bi
+11. [BE {munus}]ŠAH# 1 U₃.TU-ma pu-us-su-la mim-mu LU₂ i-kam-mis
+12. [BE {munus}]ŠAH# 1 U₃.TU-ma i-ta-kal KUR# su-un-qu dan-nu DAB-bat
+13. BE {munus}ŠAH 2 U₃.TU ta-lit-ti {munus}ŠAH la₃ GAL₂-ši x x KISLAH₃ KUR DAB-bat MU-šu lem-niš IM x NU GAL₂-ši
+14. BE {munus}ŠAH 2 U₃.TU-ma nam-ru muš-ta-an-nu im-tah-ha-ru
+15. BE {munus}ŠAH 2 U₃.TU-ma 1 BABBAR 1 GE₆ muš-ta-an-nu 1 i-bel?#-li <1> UKU₂ šum₄-ma ina ŠEŠ-MEŠ 1 NIG₂.TUK 1 UKU₂?#
+16. BE {munus}ŠAH 2 U₃.TU-ma 1 BABBAR 1 GE₆ u₃ BABBAR MI PA₃ RU PA x x LI lu KAL lu-u₂ i-šap-pil₂ ME x [...]
+17. BE {munus}ŠAH 2 U₃.TU-ma TEŠ₂.BI BABBAR-MEŠ at-hu-u₂ E₂ AD-šu₂-nu ana KU₃.BABBAR BUR₂-[MEŠ]
+18. BE {munus}ŠAH 2 U₃.TU-ma TEŠ₂.BI GE₆-MEŠ E₂ BI ne-me-lam : NIG₂.TUK [...]
+19. BE {munus}ŠAH 2 U₃.TU-ma 3 SAG.DU-MEŠ-šu-nu E₂ BI [...]
+20. BE {munus}ŠAH 3 U₃.TU ana ra-ma-ni-šu₂ NU SIG₅ UMUŠ KUR MAN-ni DAM u DAM KAD₃-MEŠ E₂ EN x [...]
+21. BE {munus}ŠAH 3 U₃.TU-ma 2 BABBAR-MEŠ 1 GE₆ ina DUMU-MEŠ EN-šu₂ 1 SIG₅# 2 [...]
+22. BE {munus}ŠAH 3 U₃.TU-ma 2 GE₆-MEŠ 1 BABBAR ina DUMU-MEŠ EN-šu₂ 2 SIG₅# 1 [...]
+23. BE {munus}ŠAH 3 U₃.TU-ma SAG.KI-MEŠ BABBAR-MEŠ KUN-MEŠ GE₆-MEŠ u₂-nu-[ut?] [...]
+24. BE {munus}ŠAH 3 U₃.TU-ma SAG.KI-MEŠ GE₆-MEŠ KUN-MEŠ BABBAR-MEŠ ŠA# x x [...]
+25. BE {munus}ŠAH 4 U₃.TU at-hu-u₂ i-zu-uz-[zu] [x (x)] DAM [...]
+26. BE {munus}ŠAH 4 U₃.TU-ma BABBAR <GE₆> SIG₇ u SA₅ TUKU UMUŠ KUR [BIR]-ah E₂ [...]
+27. BE {munus}ŠAH 5 U₃.TU [x (x)] AŠ ina KUR ŠUB-ut [...]
+28. [BE] {munus}ŠAH 5 U₃.TU-ma SAG.KI-su-nu [...] x GE₆ DUMU-MEŠ EGIR AD-šu-nu E₂ AD-šu₂-nu ana KU₃#.BABBAR# [BUR₂]
+29. [BE {munus}ŠAH x U₃].TU#-ma# SAG.DU-[su]-nu BABBAR DUMU-MEŠ EGIR AD-šu-nu E₂ AD-šu₂-nu i-ba-ʾi-i-lu
+30. [BE {munus}ŠAH x U₃.TU]-ma# SAG [...] ša₂ EN mi₃-li GABA SIG₅ E₂ NA qe₂-ru-ub
+31. BE# [...] x MAŠ-šu₂-nu GE₆ GI.HUL ana LU₂ GAL₂!(ZI)-šu₂ U₄-MEŠ-šu₂ LUGUD₂.DA-MEŠ ina ku-tal-lu₄ LU₂ DAB-bat!(AŠ)
+32. BE {munus}ŠAH 6 U₃.TU-ma# SAG.KI-su-nu BABBAR-<<ME>> KUN-su-nu GE₆ DUMU-MEŠ AD-šu₂-nu i-ba-ʾi-lu SIG₅ E₂ NA šuk-lul
+33. BE {munus}ŠAH 7 U₃.TU DUMU-MEŠ UGU AD-šu₂-nu i-šar-ru-u₂ mim-ma AŠ₂!(MA)-šu₂-nu KUR TUR₃ BI DAGAL-iš
+34. BE {munus}ŠAH 7 U₃.TU-ma TEŠ₂.BI BABBAR-MEŠ LU₂ i-za-ak-ku-u₂ GABA.UŠ
+35. BE {munus}ŠAH 7 U₃.TU-ma SAG.KI-su-nu GE₆-<<ME>> KUN-su-nu BABBAR UKU₂ i-šar-ru
+36. BE {munus}ŠAH 8 U₃.TU ṭuh-du ina KUR GAL₂ at-hu-u NU ŠE.ŠE.GA
+37. BE {munus}ŠAH 9 U₃.TU E₂ NA NU SI.SA₂ UZU-BI ul im-aq!(DA)-qar
+38. BE {munus}ŠAH 10 U₃.TU BURU₁₄ KUR SI.SA₂ EN-ša i-šar-ru
+39. BE {munus}ŠAH 15 U₃.TU A₂.DAM LUGAL ana ŠA₃ IRI i-pa-hu-ru
+40. BE {munus}ŠAH 20 U₃.TU nu-kur₂-tu₄ GID₂.DA
+41. BE {munus}ŠAH 25 U₃.TU PAP SAG.KI KA-BI KIŠIB-BI DIH DAB-bat
+42. BE {munus}ŠAH 30 U₃.TU nu-kur₂-tu₄ GAL₂-ma KA KUR LUGAL BAL
+43. BE {munus}ŠAH U₃.TU-ma BABBAR-MEŠ EN-ša₂ i-šar₂-ru₃ a-wi-lu-tu₂ DU-ak#
+44. BE {munus}ŠAH U₃.TU-ma GE₆-MEŠ EN-ša₂ BA.UŠ₂ : KISLAH₃ ZU?#-ad₂?#
+45. BE {munus}ŠAH U₃.TU-ma SA₅-MEŠ hu-ud lib₃-bi
+46. BE {munus}ŠAH U₃.TU-ma GUN₃-ME TUR₃ LU₂ BIR-ah
+47. BE {munus}ŠAH U₃.TU-ma SIG₇-ME EN-ša₂ ul-tab-bar
+48. BE {munus}ŠAH U₃.TU-ma GIR₃-MEŠ-šu₂ nu-uk-ku-sa!# E₂ BI BIR-ah KUR ŠA₃.HUL IGI
+49. BE {munus}ŠAH U₃.TU-ma GIR₃-MEŠ-šu₂ la₃ GAL₂-ME TUR₃ E₂ LU₂ BIR-ah KUR SU.GU₇ IGI-mar
+50. BE {munus}ŠAH U₃.TU-ma 2 SAG.DU-ME-šu₂ EN {munus}ŠAH UŠ₂ E₂ EN-šu₂ BIR-ah
+51. BE {munus}ŠAH U₃.TU-ma 3 SAG.DU-ME-šu₂ E₂ EN-ša₂ BIR-ah
+52. BE {munus}ŠAH U₃.TU-ma SAG.DU la₃ GAL₂ LU₂ BI UŠ₂! x E₂ EN!-šu₂ BIR-ah
+53. BE {munus}ŠAH U₃.TU-ma SAG.DU-MEŠ-šu₂-nu nu-uk-ku-sa# EN-šu₂ UŠ₂-ma E₂ EN-šu₂ x SAG? GA UŠ-su E₂.GAL UŠ-de
+54. BE {munus}ŠAH SAG.DU U₃.TU-ma u-sur-tu₄ KUR DAB-at
+55. BE {munus}ŠAH U₃.TU-ma SIG₂ la!-hi-im EN-ša U₄-MEŠ-šu₂ LUGUD₂#.DA-MEŠ
+56. BE {munus}ŠAH U₃.TU-ma SIG₂ la!-bi-iš E₂ EN-ša₂ BIR-ah
+57. BE {munus}ŠAH U₃.TU-ma SIG₂ la-ah-mu U₄-MEŠ EN-ša₂ GID₂.DA-MEŠ
+58. BE {munus}ŠAH U₃.TU-ma SIG₂ BABBAR la-ah-mu U₄-MEŠ EN-ša₂ KI DINGIR ga-am-ru
+59. BE {munus}ŠAH U₃.TU-ma SIG₂ GE₆ la-ah-mu dan-na-tu₂ GAL₂-ma KUR ana KISLAH₃ NIGIN-ur₂ EN {munus}ŠAH KISLAH₃ IGI-mar
+60. BE {munus}ŠAH U₃.TU-ma SIG₂ SA₅ la-ah-mu E₂ EN-ša₂ ul-tab-bar
+61. BE {munus}ŠAH U₃.TU-ma SIG₂ GUN₃ la-ah-mu LUGAL ŠU₂ ina KUR GAL₂-ma KUR DU₁₀-ab E₂ u EN-šu₂ ul-tab-bar
+62. BE {munus}ŠAH U₃.TU-ma SIG₂ SIG₇ la-ah-mu U₄ ina ŠA₃.HUL DU-MEŠ
+63. BE {munus}ŠAH U₃.TU-ma SIG₂ dan-niš la-ah-mu LUGAL ŠU₂ ina KUR GAL₂-ma ŠA₃ KUR! DU₁₀-ab
+64. BE {munus}ŠAH U₃.TU-ma SIG₂ BABBAR la-ah-mu KUR KISLAH₃ IGI-mar
+65. BE {munus}ŠAH U₃.TU-ma UZU ina SAG.KI-šu₂ GIM rit-tu₂ a-rik LUGAL dan-nu ina KUR GAL₂-ma KUR un-na-aš
+66. BE {munus}ŠAH U₃.TU-ma UZU ina SAG.KI-šu₂ GIM ŠU.SI a-rik KIMIN
+67. BE {munus}ŠAH AM U₃.TU ZI-ut EREN₂-ni ma-at-ti ana KUR UMUŠ KUR MAN-ni
+68. BE {munus}ŠAH GU₄ U₃.TU LUGAL GABA.RI ul TUKU-ši
+69. BE {munus}ŠAH UR.MAH U₃.TU KIMIN AN.GE₆ {d}20#
+70. BE {munus}ŠAH UR.BAR.RA U₃.TU UMUŠ KUR i-ša₂-an-ni E₂ EN-ša₂ i-na-qar
+71. BE {munus}ŠAH UR.GI₇ U₃.TU pu-uh₂-pu-uh₂-hu ina KUR GAL₂-ši
+72. BE {munus}ŠAH UR.KI U₃.TU EN {munus}ŠAH ZAH₂
+73. BE {munus}ŠAH KA₅.A U₃.TU TUR-er na-me-e
+74. BE {munus}ŠAH PIRIG.TUR U₃.TU E₂ EN-šu₂ E₂.GAL UŠ-de
+75. BE {munus}ŠAH {d}NIN.KILIM U₃.TU EN-šu₂ uh-<ta>-an-na-aq#
+76. BE {munus}ŠAH NAM.LU₂.U₁₈.LU U₃.TU EN-šu₂ ZALAG₂-ir DINGIR-šu₂ MU-šu₂ ana SIG₅ MU-ar₂ : ina na-me-e IRI-šu₂ uš-tal₂-pat#
+77. BE {munus}ŠAH MUŠ U₃.TU KUR ana KISLAH₃ NIGIN-ur₂
+78. BE {munus}ŠAH ANŠE U₃.TU {d}EN.LIL₂ UMUŠ KUR.KUR ša RU AD RA BA NA ŠA TUR-ar₂
+79. BE {munus}ŠAH ANŠE.KUR.RA U₃.TU KUR EN MAN-ma TUKU-ši
+80. BE {munus}ŠAH UGU.DUL.BI U₃.TU ZI-ut ELAM.MA{ki} KUR hu-ša₂-ah-hu IGI-mar
+81. BE {munus}ŠAH ŠAH.GIŠ.GI U₃.TU EN-šu₂ ZALAG₂-ir
+82. BE {munus}ŠAH NU GU₄ U₃.TU {tu₁₅}ŠEG₃ LA₂-MEŠ EN-šu₂ A₂.TUKU TUKU-ši
+83. BE {munus}ŠAH mu-qa₂-ra U₃.TU KUR dan-na-ti IGI-mar
+84. BE {munus}ŠAH MURGU U₃.TU EN {munus}ŠAH UŠ₂ E₂-BI BIR-ah
+85. BE {munus}ŠAH tak₂-ki-ri U₃.TU kur₃-ru₃ LA₂-al
+86. BE {munus}ŠAH U₃.TU-ma UŠ₂-MEŠ EN-ša₂ ha-an-ṭiš INIM TUKU-ši
+87. BE {munus}ŠAH U₃.TU-ma ul-la-nu-um-ma UŠ₂-MEŠ E₂ EN-ša₂ KIMIN
+88. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ GU₇ EN-ša₂ a-wa-tu₂ TUKU-ši u₂-lu SAHAR.ŠUB.BA-a SA₅
+89. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ 1-en GU₇ IBILA EN-ša₂ [...]
+90. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ i-kul-ma in-na-dir lu u₂-na-šak! NA BI NIG₂.ŠU-šu₂ TIL-mar-ma DUMU-MEŠ# [...]
+91. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ ŠEŠ.ŠEŠ i-ku-lu DUMU-MEŠ E₂.AD [...]
+@reverse
+1. BE {munus}ŠAH U₃.TU-ma is-sa-hir-ma DUMU-šu₂
+2. BE {munus}ŠAH U₃.TU-ma is-sa-hir-ma DUMU-šu₂
+3. BE {munus}ŠAH U₃.TU-ma is-sa-hi-ir-ma si-li-is-sa i-kul IRI BI su-un-qu DAB-bat LU₂ UŠ₂ ina SILA ŠUB# [...]
+4. BE {munus}ŠAH U₃.TU-ma si-li-is-sa <<MA>> GU₇?# mu-ut EN-ša₂ MA [...]
+5. BE {munus}ŠAH ša₂ ŠA₃-ša₂ ŠUB-a kur₃#-ru₃ [LA₂]-al
+6. BE {munus}ŠAH si-li-is-sa na-ši-ik E₂ EN-ša₂ BIR-ah
+7. BE {munus}ŠAH ir-ta-na-kab ṣi-bit-ti EN-ša₂ i-pa-ṭar₂
+8. BE {munus}ŠAH u NIG 1-TA.AM₃ U₃.TU-MEŠ E₂ BI BIR-ah
+9. BE {munus}ŠAH la₃ U₃.TU ina E₂ LU₂ it-tab-ši E₂ EN-ša₂ HUL dan-nu IGI-mar
+10. BE {<<munus>>}ŠAH SIG₂ la-hi-im LUGAL ŠU₂ ina KUR GAL₂-ma KUR EN-el DINGIR-MEŠ ze-nu-tu₄ ana!(MIN) KUR GUR-ME-ni
+11. BE {<<munus>>}ŠAH SIG₂ BABBAR la-hi-im <ina> KUR dan-na-tu₄ IGI-mar
+12. BE ŠAH SIG₂ GE₆ la-hi-im KUR i-har-ru-ub E₂ BI ar-bu-tu₂ DU-ak
+13. BE ŠAH SIG₂ SA₅ la-hi-[im] LUGAL# ŠU₂ ina KUR GAL₂-ma!(IS) IRI-DIDLI <ana> kar-me DU-ME
+14. BE ŠAH SIG₂ SIG₇ la-hi#-[im] UŠ₂ KUR NU GUR U₂ ana EN-šu₂ TE-am
+15. BE ŠAH ina x E₂ EN [...]-ma ŠUB-ut ana IRI BI tam-ṭa₂-a-tu₄!(AT) GAR-MEŠ E₂ EN-ša₂ su-un-qu DAB-at
+16. BE ŠAH# in?#-na-dir-ma# [...] [u₂]-na-šak E₂ EN-šu MAN-ni
+17. BE ŠAH ZU₂#-MEŠ-šu₂ i-kaṣ₃-ṣa-aṣ E₂ EN-šu₂ BIR-ah
+18. BE ŠAH ina TUR₃-šu₂ i-dam-mu-um UMUŠ E₂ EN-šu₂ KUR₂-ir : MAN-ni
+19. BE ŠAH ina E₂?# EN?#-šu₂ id-da!(TA)-nam-ma-am EN-šu₂ UŠ₂-ma E₂-BI BIR-ah
+20. BE ŠAH <ina> IGI NA KA-šu₂ ip-te-ne-te DAM-su it-ta-na-a-a-ku
+21. BE ŠAH ana IGI EN-šu₂ i-ʾi₃-ir ana EN-šu₂ U.BAR-ru₃ TE-am
+22. BE ŠAH ina IGI EN-šu₂ ig?-lu-ut ina E₂?# EN-šu₂ GABA.RAH.HA GAR!-an
+23. BE ŠAH ina TUR₃ E₂ EN-šu₂ KI i-si₂₀-ir U.BAR-ru₃ ša₂ IRI-MEŠ DU-kam
+24. BE ŠAH GIŠ HI LA ig-gu-uš-ma LU₂ im-ši-id KI DU-ku AŠ₂ IRI NU KUR-ad₂
+25. BE ŠAH iš-tu nar-ba-ṣi-šu₂ iš-še-gu EN-šu₂ i-na-kir me-neš-ti IGI-mar
+26. BE ŠAH ina E₂ EN-šu₂ KI GIŠ GIŠ MAR x-MEŠ LI?# MA DAGAL TA DI MU KI E?# LU₂ ni-ṣir-ti KUR ina SILA GAR-an
+27. BE ŠAH ana qe₂-reb ur-ši LU₂ KU₄-ub a-se-er-ti ana E₂ EN-šu₂ KU₄-ba
+28. BE ŠAH nam-mi-ru-tu₂ ne₂-hi-iš i-te-ne₂-ep-pu-uš GIG ina a-hi-ti UŠ₂
+29. BE ŠAH GI na-ši ZI-ut ZAH₂!# HI.GAR u EN HI.GAR GAL₂-ši : ZI-tu₂ GAL₂-ši
+30. BE ŠAH GI na-ši-ma x x x [x] ŠU₂ i-šar₂-ru₃
+31. BE ŠAH GI na-ši-ma iš-tu E₂ EN-šu₂ E₃-a EN-šu₂ MEŠ-ti I.BI₂.ZA IGI-mar
+32. BE ŠAH {gi}DUR la₃ x ana E₂ EN-šu₂ KU₄-ub EN#-šu₂ ne!-me-la₅ IGI-mar
+33. BE ŠAH {gi}DUR na-<ši>-ma iš-tu E₂ EN-šu₂ E₃-a EN#-šu₂ I.BI₂.ZA IGI-mar
+34. BE ŠAH PA {giš}GIŠIMMAR na-ši me-hu-u₂ ZI-am
+35. BE ŠAH ŠU.SAR na-ši SU.GU₇ ina KUR GAL₂-ši
+36. BE ŠAH {gi}GILIM na-ši-ma ina SILA DU.DU GANBA GAL₂-ši
+37. BE ŠAH {gi}GILIM na-ši-ma im-me-x ZI me-he-e
+38. BE ŠAH {gi}GILIM na-ši-ma iš-tu KA₂ E₂ EN-šu₂ E₃ E₂ EN-šu₂ NIG₂.TUK
+39. BE ŠAH {gi}GILIM na-ši-ma iš-tu E₂ EN-šu₂ ana KA₂ E₃ EN-šu₂ I.BI₂.ZA IGI-mar
+40. BE ŠAH SIG₂ ina KA-šu₂ na-ši MI HI?# ana? UŠ?# BAL qa₂-ti
+41. BE ŠAH ana IGI LU₂ SIG₂-su# ŠUB#-ma ki-i-ṣi-ir?# E₂ NA BI ar-bu-tu₂ DU-ak
+42. BE ŠAH [...] LU?# ŠU₂# GIŠ? HU? U₄? GIŠ TI ŠU₂ IL BU AH ina IRI U.BAR E₃
+43. BE ŠAH [...] x-šu₂ MAR?# DAM LU₂ in-na-ak
+44. BE ŠAH IGI?# x x SU#.GU₇ ina KUR GAL₂-ši
+45. BE ŠAH [...] x x ša₂ la uš-te-er-su-u₂ GU₇
+46. BE ŠAH ina? x-šu₂ x x EN-šu₂ mim-mu-šu₂ ana IGI-šu₂ DU-ak
+47. BE ŠAH ina x NA?# x MAN?# GU# EN-šu₂ MAN-ni
+48. BE ŠAH ina x x x x ŠUB [...] x ZI me-he-e
+49. BE ŠAH ina [...] ŠU₂ KI NA SAHAR?# i-se-er U.BAR-ru₃ KU₄-am
+50. BE ŠAH ina x [...] ana IGI x U.BAR-ru₃ iš-tu E₂ E₃
+51. BE ŠAH ina E₂ bu#-uš EN#-šu₂ KIMIN UKU₂ E₂ BI BIR-ah
+52. BE ŠAH x x IŠ [x?] DA MA [x] x E₂ BI BIR-ah
+53. BE ŠAH la šu-u₂ id-da-ri-ir-ma ana E₂# LU₂# KU₄ er-re-bi ana E₂ LU₂ KU₄ E₂ BI ŠUB-di
+54. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma u₂-qal-lil!# ar-nu TUKU-ši DAB-bat
+55. BE ŠAH ana E₂ <<ina>> KU₄-ma mim-ma il-qe₂ E₂ BI lu-up-nu DAB-bat
+56. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma mim-ma ana KA₂ E₃ ti-bu-um
+57. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma LU₂ iš-li U₄-MEŠ-šu₂ LUGUD₂.DA-MEŠ
+58. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma ana [...] x si-hi-il!(TUM₃)-tu₂ UZU ana E₂ BI GAR-an
+59. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma E₂ [u₂]-na-pil TIL u₄-me
+60. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma A-MEŠ it#-bu#-uk ŠA₃-BI la₃ DU₁₀.GA GAR-šu
+61. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma še#-am?# [x] ŠA₃-BI la₃ DU₁₀.GA GAR-šu
+62. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma x [...] x UM NA BI mu-lem-min₃ a-[ma-ti] TUKU#-ši
+63. BE ŠAH la šu-u₂ ana E₂ LU₂ KU₄-ma LU₂ x x TI MU 1-KAM x x x
+64. BE ŠAH la šu-u₂ ana E₂ LU₂ u₄-mi-šam KU₄-MEŠ lu-up-nu DAB-bat
+65. BE ŠAH-MEŠ it-te-ki-pu-ma ana IGI LU₂ in-neš-ru NA BI ni-ziq-ti i-ṭa-hi-šu₂
+66. BE ŠAH-MEŠ [i]-mi-du-ma ina SILA up#-tah-ha#-ru#-ma ana# LU₂ it-ta-na-ak-ṣa-ṣu₂ IRI BI BIR-[ah]
+67. BE ŠAH-MEŠ ZU₂?#-[MEŠ]-šu₂?#-nu# la₃ i-ka-ṣa-ṣu₂ ŠUB-ti₃ EREN₂
+68. BE ŠAH-MEŠ ina SILA [ir]-ta#-na#-qu#-du ZI.GA TU₁₅ šum-ma ZI-ut {giš}GIGIR GI? x
+69. BE ŠAH-MEŠ ina SILA KAŠ₄-MEŠ [x] KUN#-MEŠ-šu₂-nu ta#-[ru]-u₂ ZI-ut EREN₂-ni EREN₂-ni SAG A.ŠA₃-šu₂ KUR# [x]
+70. BE ŠAH-MEŠ ina SILA KAŠ₄-MEŠ-ma# KUN#-MEŠ-šu₂-nu ana hal#-[li]-šu₂-nu GUR-ME ZI-ut EREN₂-ni [...]
+71. BE ŠAH-MEŠ i-qar-ru-ru [...] x UKU₂
+72. BE ŠAH-MEŠ SIG₄ E₂ i!(U₂)-qar-ru-ru!(MAH) [...] UKU₂
+73. BE ŠAH.GIŠ.GI I DA x x x x x [...]
+74. BE ŠAH.GIŠ.GI a-na IRI KU₄-ub [...]
+75. BE ŠAH.GIŠ.GI a-da-at-tu₂ na-ši-ma [...]
+76. BE ŠAH.GIŠ.GI ina IGI KA₂.GAL GAZ?# [...]
+77. BE ŠAH.GIŠ.GI KUR im-ta-lu-u₂ [...] ŠU₂ [...] LUGAL [...]
+78. BE NIG 1 U₃.TU E₂ BI BIR-ah [x (x)] ZAH₂ LUGAL BI ana KUR BI x GAR NU GAR
+79. ŠU.NIGIN 2.UŠ 48.AM₃ MU.ŠID#.[BI DUB].22.KAM BE iz-bu NU AL.TIL
+80. GIM# SUMUN-šu SAR-ma IGI.TAB x x [...] x ŠU!(BA) {d}<60>-u₂-ṣu-ur₂!? [A] {lu₂}E₂?#.KUR!#(EŠ)-za!#(GAR)-[kir]

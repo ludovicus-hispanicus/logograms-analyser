@@ -1,0 +1,31 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur (Ass 4534c; hD3V)
+publication: Heeßel 2007 (KAL 1) no. 31 = VAT 10526 = KAR 390 (p. 118). Middle Assyrian Šumma Ālu forerunner — sleep/bed omens (Schlaf-Omina), ≈ Šumma Ālu Tablets 84 and 120. Obverse only (Vs. 1'–20'); no reverse preserved.
+counting: DIŠ
+source_note: Lines 1'–9' as transcribed by the user; lines 10'–20' added from KAL 1 (Heeßel 2007) no. 31, p. 118. Heavily logographic Middle Assyrian writing. Restorations in [] follow Heeßel; broken/illegible = x, [...] or …. ŠU Iš₈-tár = "Hand of Ištar" (Ištar written without divine determinative, Heeßel ad 9').
+note: GIŠ.NÁ/KI.NÁ = bed; GÌR = foot; ZAG/GÙB = right/left; ṣa-lil "he sleeps". A logographic MB witness — expect a high LDI, contrasting the syllabic OB terrestrial floor.
+---
+
+@obverse
+1'. [DIŠ LÚ] i+na GIŠ.N[Á-šu …]
+2'. [DIŠ L]Ú i+na GIŠ.NÁ-šu G[ÌR …]
+3'. [DIŠ] LÚ i+na GIŠ.NÁ-šu G[ÌR …]
+4'. a-na KI […]
+5'. DIŠ LÚ i+na GIŠ.NÁ-šu G[ÌR …]
+6'. DIŠ LÚ i+na GIŠ.NÁ-šu GÌR […]
+7'. DIŠ LÚ i+na GIŠ.NÁ-šu GÌR […]
+8'. DIŠ LÚ i+na GIŠ.NÁ-šu GÌR […]
+9'. ŠU Iš₈-tár ḪAR [ZABAR GAR-ma …]
+10'. DIŠ LÚ i+na KI.NÁ-šú Z[AG ṣa-lil NU KUR ÁŠ]
+11'. DIŠ LÚ i+na KI.NÁ-šú G[ÙB ṣa-lil ŠÀ.BI DÙG.GA]
+12'. DIŠ LÚ [i+na KI.NÁ]-šú pur-qí-d[am ṣa-lil ḪUL.BI TAG₄.MEŠ-šú]
+13'. DIŠ LÚ [i+na KI.NÁ]-šú bu-up-pa-niš [ṣa-lil …]
+14'. [DIŠ] LÚ [i+na KI.NÁ]-šú GIM un-ni-[ni ṣa-lil …]
+15'. [DIŠ] LÚ [i+na KI.NÁ]-šú ŠU.MEŠ-šú i+na p[a-pa-an ŠÀ-šú šu-te-ʾ-la-ma ṣa-lil]
+16'. LÚ BI qí-it x […]
+17'. [DIŠ L]Ú [i+na KI.NÁ]-šú ŠU.MEŠ-šú i+na ŠU.MEŠ-š[ú šu-te-ʾ-la-ma ṣa-lil]
+18'. [DIŠ L]Ú [i+na KI.NÁ]-šú i-iḫ-ḫu-ur [KUR ÁŠ DINGIR-šú KI-šú ṣa-lim]
+19'. [DIŠ L]Ú [i+na KI.NÁ-šú] i-bak-ki […]
+20'. [DIŠ] LÚ [i+na KI.NÁ]-šú i-ra-mu-um […]

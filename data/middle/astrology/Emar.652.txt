@@ -1,0 +1,21 @@
+---
+genre: astrological omens
+period: Middle Babylonian
+provenance: Emar (western periphery)
+recension: Western periphery
+counting: DIŠ
+topic: lunar eclipse (by month, EAE-type)
+series: parallel to Enūma Anu Enlil (eclipse omens organized by month, as in EAE 15-20)
+publication: Arnaud 1987, Emar VI/4 no. 652 (Msk 74235a+), Présages astrologiques Sîn; LBA
+note: Hand-transcribed from Arnaud; lowercase Sumerograms converted to UPPERCASE. Representative well-readable omens only (Arnaud's apodoses carry OCR/edition noise); uncertain spans marked [...] or x. Logograms uppercase, syllabic lowercase, {} det. Not in eBL.
+---
+
+@obverse
+1. DIŠ ina {iti}BARA₂ U₄.14.KAM AN.TA.LÙ GAR-in DUMU LUGAL URI{ki} URU u UNÙ.MEŠ šal-mu šum-ma LUGAL NU B[A.UŠ₂]
+2. MIN U₄.15.KAM AN.TA.LÙ GAR DINGIR ina HUL ŠÀ.BI it-bal [...] GAL ŠUB URU LUGAL UNÙ.MEŠ.BI KUR.BI [...]
+3. MIN U₄.16.KAM AN.TA.LÙ GAR [...] NU BIR UNÙ.MEŠ LUGAL ana LUGAL sa-li-ma i-šap-pà-ar
+4. MIN U₄.20.KAM AN.TA.LÙ GAR-ma LUGAL ana LUGAL nu-kur-ta i-šap-pa-ar
+5. MIN U₄.21.KAM AN.TA.LÙ GAR-ma KUR.BI TUR-ir
+6. MIN ina la-a i-da-a-ni-šu AN.TA.LÙ GAR-ma [...]-ma KUR.KUR
+7. DIŠ ina {iti}NE.NE.GAR U₄.14.KAM MIN MIN ár-bu-tu GAR-nu KUR MAR.TU BA.UŠ₂
+8. DIŠ ina {iti}ŠE.KIN.KUD U₄.14.KAM MIN MIN ár-bu-ut₄ U₄ GAR-an [...]

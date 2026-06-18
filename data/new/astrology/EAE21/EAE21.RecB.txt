@@ -1,0 +1,34 @@
+---
+genre: astrological omens
+period: Neo-Assyrian
+provenance: first-millennium canonical (Nineveh + sources)
+recension: Enūma Anu Enlil 21, Recension B composite
+counting: DIŠ
+topic: lunar eclipse
+series: Enūma Anu Enlil 21
+edition: Rochberg-Halton 1988 (AfO Beih. 22), EAE 21 Recension B transliteration score; OCR-extracted (single-page render + OCR prompt + parse_sakikku_ocr.py) from the scanned edition. EAE 22 boundary rows excluded.
+note: Logograms uppercase, syllabic lowercase, {{}} determinative, [] restoration, x illegible; BE/DIŠ = šumma; AN.MI/AN.TA.LÙ = eclipse; KA×MI eclipse compound. Damage half-brackets stripped. OCR of a scan; LDI robust to minor sign slips.
+---
+
+@text
+4. [ … ka]-a-a-na
+5. [ … ] … me …
+4. šu
+1. [DIŠ {d}30 ad-riš] È-ma [...]
+2. [DIŠ {d}30 ad-r]iš È-ma [...]
+3. [DIŠ ina ITI.BARA₂ UD.14.KAM] AN.MI GAR-ma ina IM.[U₁₈.LU SAR-ma ina IM ... iz-ku]
+4. [ina EN.NUN AN.USAN₂] SAR-ma ina EN.NUN MURUB₄.BA i[z-ku IM.U₁₈.LU ina ŠU-ka]
+5. [tu-kal KA×MI-šú] IGI-ma ana MAN URI.KI EŠ.BAR SUM-i[n LUGAL URI.KI BE]
+6. [šum-ma LUGAL AN.MI i-t]e-ti-iq-šú ub-bu-tú u S[U.KÚ GÁL-ma]
+7. [UN.MEŠ TUR.MEŠ-ši-na ana KI.LAM È].MEŠ KUR GAL ana KUR TUR D[U-ak]
+8. [DIŠ UD.15.KAM AN.MI GAR-m]a ina [ŠÀ].HUL it-bal M[UL GAL ŠUB-ut bi-ib-lum KUR TÙM]
+9. [DIŠ UD.16.KAM AN.MI GAR-ma] KIMIN ŠÈG [ina AN-e A.KAL ina BE TAR.MEŠ]
+10. [DIŠ UD.20.KAM AN.MI] GAR-ma LU[GAL ana LUGAL SAL.KÚR KIN-ár]
+11. [DIŠ UD.21.KAM AN.MI GAR]-ma A.AB.[BA] U[D.DU ...]
+4. [ … ]-lum x [
+1. [ ] … KA×MI …
+1. … .MEŠ … [- ] LUGAL … [- ]
+2. [ ] … ME … [-] …
+3. … šá …
+5. -ma ina ŠÀ.HUL TU u M[UL GAL ŠUB-ut A.AB.BA UD.DU] … -šá ø ø ø … ša … ø [ ]
+... bu-[tál-lu-ṭi DU-ak]

@@ -1,0 +1,37 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: šum-ma
+publication: YBC 4639 = YOS 10 11 (col. i); eBL
+note: "padanu (the Path) section of the OB liver compendium YOS 10 11 — omens 1-6, fully syllabic (pa-da-nu-um). The same tablet continues with naplastum (na-ap-la-sa₃-tum) omens, filed/notable separately. Fills the Old cell of the padanu arc."
+---
+
+@obverse
+@column 1
+
+1. šum-ma pa-da-nu-um ša-ki-in
+#tr.en: If a Path is situated (normally): the god will set straight the man's track.
+2. i-lum ki-bi-is a-wi-lim u₂-še-še-er
+3. šum-ma pa-da-nu ši-na
+#tr.en: If there are two Paths: the campaigner will reach his campaign.
+4. a-li-ik ha-ar-ra-nim# har-ra-an-šu [i]-ka#-aš-ša-ad
+5. šum-ma pa-da-nu-um ki#-ma# qa₂-aš-tim
+#tr.en: If a Path is (wide) like a bow: success; the king's small army will defeat the enemy's large army.
+6. mi-li-i ir#-tim um-ma-an šar-ri-im i-iš-tum
+7. um-ma-an na-ak-ri#-im ma-at-ta-am i-da-ak
+8. šum-ma pa-da-nu-um# i-mi-it-tam u₃ šu-me-lim ip-šu-uq
+#tr.en: If the Path becomes narrow right and left: rivalry; the army will not abide by its commander, or the king by his counselor.
+9. ta-aš-ni-in-tum# um#-ma-nu-um a-na pi-i ša-pi#-ri#-ša u₂-ul uš-ša-ab
+10. u₃ lu šar-rum a#-na# pi#-[i] ma#-li-ki-šu u₂-ul# uš-ša-ab
+11. šum-ma# pa-da#-nu-um# a-na# [ši-na e]-ki-im
+#tr.en: If a Path is bent into two: the end of a dynasty in the land within a short time.
+12. i-na ma-tim ta-aq-ti#-<it> pa-le-em
+13. u₄-mu i-ṣu!(ṢI)-tu-um
+14. šum-ma pa-da-nu-um a-di ša-la-ši-i-šu
+#tr.en: If the Path is split up to three times: the expeditionary force will go from one campaign to another, its days will be idle; for an undetermined date, an eclipse.
+15. pu-ru-us a-li-ik ha-ar-ra-nim
+16. ha-ar-ra-nu-um a-na ha-ar-ra-nim i-na-di-šu
+17. u₄-mu-šu i-ri-iq-qu₂
+18. i-na u₄-mi-im ri-qi₂-im na-an-ta-lu-u₂

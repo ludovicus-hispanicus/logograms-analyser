@@ -1,0 +1,361 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: unknown
+counting: DIŠ
+---
+
+$ obverse
+1'. [DIŠ ...] x [...]
+
+$ (§5)
+2'. [DIŠ qer-bu kab-ru-tum] G[I₆-ku ERIN₂ KUR₂-ri?]
+#tr.en: [¶ (If) the thick insides] are [dark: the enemy's army ...]
+
+$ (§6)
+3'. [DIŠ qer-bu qa₂-at-nu-t]um G[I₆-ku] ERIN₂-ka# [...]
+#tr.en: [¶ (If) the thin insides] are [dark:] your army [...]
+
+$ (§7)
+4'. [DIŠ qer-bu kab-ru-t]um u qa₂#-at#-nu-um tar-ku# ER[IN₂ KUR₂-ri u ERIN₂-ka? ...]
+#tr.en: [¶ (If) the insides, thick] and thin, are dark: [the enemy's(?)] army [and your army(?) ...]
+
+$ (§8)
+5'a. [DIŠ qer-bu kab-ru]-tum# GI₆-MEŠ IGI.DU-ka KUR₂-rum# GAZ#-ak?#
+#tr.en: [¶ (If) the thick insides] are very dark: the enemy will defeat(?) your vanguard.
+
+$ (§9)
+5'b. [DIŠ q]e[r-bu qa₂-at-tu-tum GI₆-MEŠ ...]
+#tr.en: [¶ (If)] the [thin insides] are very dark: [...]
+
+$ (§10)
+6'. [DIŠ qer-bu ka-lu-šu-nu]-ma GI₆-MEŠ ŠUB-ti ERIN₂+NI ši-it-ti KALAM#? x [...]
+#tr.en: [¶ (If) all the insides] are very dark: downfall of the army; a remnant of the people(?) [ ...]
+
+$ (§11)
+7'. [DIŠ qer-bu šu-uh-hu?] u ŠA₃#.NIGIN# GI₆#-MEŠ ŠUB-ti hu#-up-ši ša# KUR₂-ri [...]
+#tr.en: [¶ (If) the insides, caecum] and coils of the colon are very dark: downfall of the enemy's peasantry [(...)]
+
+$ (§12)
+8'. [DIŠ qer-bu ina ...] x-šu-n[u]-ma x x x DUGUD ma-lu# ŠUB ERIN₂+NI GAL
+#tr.en: [¶ (If) the insides in] their [entirety(?)] are full of dense ...: downfall of a large army [(...)]
+
+$ (§13)
+9'. [DIŠ qer-bu ina ku-ub-r]i-šu-[nu d]a-ak#-šu₂ IBILA LUGAL-ri# ina GU.ZA a-bi-šu# TUŠ-ab
+#tr.en: [¶ (If) the insides] bulge [at] their [thick] end: the king's heir will sit on his father's throne.
+
+$ (§14)
+10'. [DIŠ qer-bu ina LI.D]UR-šu#-nu# da-ak-šu₂ DUMU LUGAL la ha-as-su GU.ZA DAB₅-bat
+#tr.en: [¶ (If the insides] bulge [at] their [core:] an idiot son of the king will seize the throne.
+
+$ (§15)
+11'. [DIŠ qer-bu ina SIG-šu]-nu da!#-ak-šu₂ ša₂ la INIM-ṣu GU.ZA DAB₅-bat
+#tr.en: [¶ (If the insides] bulge [at] their [narrow end:] one without claim will seize the throne.
+
+$ (§16)
+12'. [DIŠ qer-bu ka-lu]-šu-nu#-ma du-uk-ku-šu ZI-ti hu-up-ši LUGAL KUR-su BAL-su
+#tr.en: [¶ (If the insides' entire] extent bulges: uprising of the peasantry; the king's land will rebel against him.
+
+$ (§17)
+13'. [DIŠ qer-bu da-ak-šu-ma] di-ik-šu#-šu#-nu# [G]I₆-MEŠ LUGAL a-a-bi-šu ŠU-su KUR-ad
+#tr.en: [¶ (If the insides bulge and] their bulges are very dark: the king will capture his foes.
+
+$ (§18)
+14'. [DIŠ qer-bu ina q]er-bi-šu#-nu# {giš#}[TUKUL?] ib#-nu-u₂ ša₂ la INIM-su {giš}GU.ZA DAB₅-bat
+#tr.en: [¶ (If the insides] have formed within them a [weapon-mark(?):] one without claim will seize the throne.
+
+$ (§19)
+15'. [DIŠ ina qer-bi] a#-šar# mu-še#-ri-ib#-ti ir-ru at#-ru it-ta-ab-ši IBILA LUGAL-ri a#-[ba-šu %n idâkma ina kussîšu uššab?]
+#tr.en: [¶ (If in the insides] at the site of the entrance tract an extra bowel has grown: the king's heir [will] kill his father and sit on his throne(?).
+
+$ (§20)
+16'. [DIŠ ina qer-bi k]a-ab#-ru#-ti [ir]-ru at-ru it-tab-ši SUKKAL EN-šu GAZ-ma ina GU.ZA EN#-šu# TUŠ#-ab#
+#tr.en: [¶ (If in the] thick [insides an] extra bowel has grown: the vizier will kill his master and sit on his master's throne.
+
+$ (§21)
+17'. [DIŠ ina qer-bi] SIG#-ti# MIN [š]a₂ la INIM-su {giš}GU.ZA DAB₅-bat
+#tr.en: [¶ (If in the] thin [insides] ditto: one without claim will seize the throne.
+
+$ (§22)
+18'. [DIŠ ina ri-ki-i]s? q[er?-bi k]a-a[b-ru-t]i u SIG-ti ir#-ru at-ru MIN DUMU al-ma-at-ti KUR i-be₂-el
+#tr.en: [¶ (If at the junction(?) of the] thick and thin [insides] an extra bowel ditto: a widow's son will rule the land.
+
+$ (§23)
+19'. [DIŠ qer-bu ka]-ab#-ru#-[tum] SIG-MEŠ-ti al-tu₄ KUR-ka KUR# KUR₂-ri GU₇ a-ra-ad KUR₂-ri ana KUR-ia
+#tr.en: [¶ (If the] thick [insides] are swallowing the thin: the enemy's land will devour your land; descent of the enemy on my land.
+
+$ (§24)
+20'. [DIŠ x x x] KUR K[UR₂]-ri [KU]R-ka GU₇ a-ra-ad-<ka> a+na KUR KUR₂#-ri# ir-ru-ub
+#tr.en: [¶ (If) vice versa:] your land will devour the [enemy's] land; [your] vassal will go into the enemy's land.
+
+$ (§25)
+21'a. [DIŠ qer-bu ri]-it#-ku#-b[u ša]-ga-ša-tum ina KUR GAL₂-ša
+#tr.en: [¶ (If the insides] straddle one another: there will be massacres in the land.
+
+$ (§26)
+21'b. DIŠ [q]er-bu ki-ma ke-ep-pe ka-aṭ-ru ana LUGAL KUR-su ana HUL-ti KUR-šu
+#tr.en: ¶ (If the insides are knotted(!) like a skipping rope: the king's people will rise up against him with evil purpose.
+
+$ (§27)
+22'. [DIŠ qer-bu x] ki [x x] a us-su-ku ERIN₂ LUGAL#-ri# GABA.RI NU TUK LUGAL KUR KUR₂-ri-šu ki-ma a-ka-li i-pi
+#tr.en: [¶ (If the insides] ...are delineated(?): the king's army will have none to withstand it; the king will toast his enemy's land like bread.
+
+$ (§28)
+23'. [DIŠ qer-bu EGIR] a#-m[u-tim D]AB₅-tu₄ ka-<re-e> LUGAL#-ri KUR₂-rum i-ma-aš-ša-ah
+#tr.en: [¶ (If the insides are] trapped behind the liver: the enemy will plunder the king's granaries.
+
+$ (§29)
+24'. [DIŠ qer-bu SIG?-tum n]a!-as#-hu#-ma a+na! °\° ke-ep-pe-e i-tu-ru KUR₂-rum KUR-ka ana KALAG-ti u₂-sar
+#tr.en: ¶ (If) the thin(?) insides are] loose(!) and turn into coils: the enemy will confine your people to strongholds.
+
+$ (§30)
+25'. [DIŠ qer-b]u [ša-ra?] ma#-lu-u₂ ZI hu-up-{pu}-ši ina E₂ KUR₂-ka GAR-an
+#tr.en: [¶ (If) the insides] are full of [wind(?):] an uprising of the peasantry will occur against your enemy's household.
+
+$ (§31)
+26'a. [DIŠ qer-bu ina ku-ub]-r[i-š]u-nu# ep#-qu₂ IGI.DU-ka KUR₂-rum GAZ-ak
+#tr.en: [¶ (If) the insides] are solid [at] their [thick] end: the enemy will defeat your vanguard.
+
+$ (§32)
+26'b. DIŠ qer-bu ina LI.DUR-šu-nu ep-qu₂ LI.DUR ERIN₂-ka KUR₂-rum GAZ-ak
+#tr.en: ¶ (If) the insides are solid at their core: the enemy will defeat the core of your army.
+
+$ (§33)
+27'a. [DIŠ qer-bu ina SIG-šu-nu e]p-qu₂ ru-hu-ka KUR₂-rum GAZ-ak
+#tr.en: [¶ (If) the insides] are solid [at their narrow end:] the enemy will defeat your rearguard(?).
+
+$ (§34)
+27'b. DIŠ qer-bu su-ma ṣa-ar-pu ERIN₂+NI a-šar₂ DU-ku HA.LA GU₇
+#tr.en: ¶ (If) the insides are stained red: my army will win a share of the spoils where(ver) it goes.
+
+$ (§35)
+28'. [DIŠ qer-bu ur-qa₂? ṣa-a]r-pu ERIN₂+NI a-šar₂ DU-ku ri-qu₂-us-[su] GUR-ra
+#tr.en: [¶ (If) the insides are] stained [yellow(?):] my army will return empty-handed where(ver) it goes.
+
+$ (§36)
+29'. [DIŠ qer-bu x x x]-tu-ma ri-qu₂ U₂.NU.GAL₂ ina KUR GAL₂#
+#tr.en: ¶ (If) the insides are ....] and empty: starvation will occur in the land.
+
+$ (§37)
+30'. [DIŠ qer-bu ina a-bu-un-n]a-ti-šu-nu u₂-kul-ta ma-lu-u₂ KUR i-šar-ru₃ NINDA na-ap-ša₂ GU₇-a[l]
+#tr.en: [¶ (If) at] their [core the insides] are full of food: the people will grow rich (and) have plentiful food to eat.
+
+$ (§38)
+31'. [DIŠ qer-bu ka-lu]-šu#-nu nu-ut-tu-ru-ma gi-ir-gi-na-a la₃ TUK KUR₂-rum ana ŠA₃ KUR-ia ih-ha-[ab-ba-tam-ma] | NAM.R[A %n ušeṣṣe]
+#tr.en: [¶ (If) the insides] are broken into pieces [along] their [entire extent] and have no "moving path” (= continuous tract?): the enemy will make an [incursion] into my land [and take away] booty.
+
+$ (§39)
+32'. [DIŠ qer-bu x x x]-u₂ ina {giš}TUKUL ŠUB-ti ERIN₂+NI
+#tr.en: [¶ (If) the insides] are [...:] in war, downfall of the army.
+
+$ (§40)
+33'. [DIŠ qer-bu x x ma pa]-aṭ-ru KUR₂-rum ERIN₂-ka i-si-ir-ši-ma GAZ-ši su-un-qu KALAG KUR DAB₅-bat
+#tr.en: [¶ (If) the insides are ... and] fissured: the enemy will hem your army in and defeat it; a severe famine will grip the country.
+
+$ (§41)
+34'. [DIŠ qer-bu x x x] x-ma?# GI₆-ku ERIN₂+NI ina u₂-su-ur-ti-ša₂ ŠUB-ut
+#tr.en: [¶ (If) the insides are ...] and dark: my army will fall in a place where it is trapped.
+
+$ (§42)
+35'. [DIŠ qer-bu in]a GAR#-an MUR GAR-nu KUR KI.TUŠ-sa u₂-na-kar NUN ina URU-ki-šu it-ta-<na>-ad-d[a-ar]
+#tr.en: [¶ (If) the insides] are located [where] the lungs should be: the people will move their homes; the prince will grow nervous in his city.
+
+$ (§43)
+36'. [DIŠ qer-bu ina] GAR#-an il-la-ab-bu-uh-hi GAR-nu KA₂.GAL URU{ki} in-ne₂-di-il
+#tr.en: [¶ (If) the insides] are located [where] the bladder should be: the city's gate will be barred.
+
+$ (§44)
+37'a. [DIŠ qer-bu u]r-ru-ru KUR₂#-rum KI-ka# u₂-ša-da-ka
+#tr.en: [¶ (If) the insides are] desiccated: the enemy will force you to abandon your territory.
+
+$ (§45)
+37'b. DIŠ qer-bu ha-šu-u₂ ana LUGAL#-ri# [...]
+#tr.en: ¶ (If) the insides are dull: to the king [...]
+
+$ (§46)
+38'. [DIŠ qer-bu nu]-up#-pu-hu# ti#-bu#-ut# LU₂#-ti ša E₂#.GAL
+#tr.en: [¶ (If) the insides are] inflamed (or inflated): uprising of the palace staff.
+
+$ (§47)
+39'. [DIŠ qer-bu ana ka]r-ši k[am-s]u KUR₂-rum ZI-ma URU{ki}-MEŠ ana KALAG#-ti us-sar#
+#tr.en: [¶ (If) the insides] are gathered [into] the [stomach (rumen):] the enemy will attack and confine cities in strongholds.
+
+$ (§48)
+40'. [DIŠ qer-bu] ana# ha#-ab#-šu#-ti# kam#-su KUR₂-rum KUR ana KALAG-ti u₂#-[še-er-reb]
+#tr.en.(41'): [¶ (If) the insides] are gathered [into] the habsūtu (omasum): the enemy will [force] the people [to enter] strongholds [...]
+$ bottom
+41'. [...] x [...]
+
+$ (§49)
+42'a. [DIŠ qer-bu ana up]-pi kam-su# ana# {giš#}TUKUL x x x x x
+#tr.en: [¶ (If) the insides] are gathered [into] the anus(?): to weapons [...]
+
+$ (§50)
+42'b. DIŠ qer-[bu ana šu-uh-hi kam-su ...]
+#tr.en: ¶ (If) the insides [are gathered into the caecum(?): ...]
+
+$ (§51)
+43'. [DIŠ qer-bu BAL]-u# ṭe#-em# KUR# i#-ša#-an#-ni [...]
+#tr.en: [¶ (If) the insides are upside] down: the people's minds will become deranged.
+
+$ (§52)
+44'. [DIŠ qer-bu ina] UGU# ha#-ab#-šu#-ti GAR#-nu# NUN# ina URU{ki}-šu# u₂#-[še-eṣ-ṣu₂-šu?]
+#tr.en: [¶ (If) the insides] are located [on] top of the habsūtu (omasum): the prince will [be driven] from his town.
+
+$ reverse
+
+$ (§53)
+45'. [DIŠ qer-bu] x x x [...]
+#tr.en: illegible
+
+$ (§54)
+46'. [DIŠ qer-bu ka-si-i sa-mu]-ti# ud-du-[h]u KUR₂-rum# {giš#}TUKUL#-MEŠ#-šu# UGU# ERIN₂#-k[a ki-ma %n šamê ušaznan]
+#tr.en: [¶ (If) the insides] are covered with a network of red [tendrils:] the enemy [will make] his weapons [fall] on your army [like rain.]
+
+$ (§55)
+47'. [DIŠ qer-bu ka-si-i pe-ṣ]u₂-ti ud-du-hu x x x x [...]
+#tr.en: [¶ (If) the insides] are covered with a network of white [tendrils:]; [...]
+
+$ (§56)
+48'. [DIŠ qer-bu x (x) x ma-lu]-u₂# ub-bu-ṭu₃ ina KUR GAL₂-u [LUGAL/NUN] i+na# E₂#.G[AL-šu u₂-ta-as-sa-ar!]
+#tr.en: [¶ (If) the insides] are [full of ...:] there will be famine in the land; [the king (or prince) will be confined] in [his] palace.
+
+$ (§57)
+49'. [DIŠ qer-bu da-ma-a]m m[a-lu]-u₂# ni-ip-hu ba-ri ŠUB# ERIN₂#+NI# [...]
+#tr.en: [¶ (If) the insides] are [full of [blood:] mistakes by the diviner, downfall of the army.
+
+$ (§58)
+50'. [DIŠ qer-bu da-ma-a]m d[u-x]-un-nu-u₂ LUGAL-rum it-ti EN HUL-šu i#-sal#-[lim]
+#tr.en: ¶ (If) the insides] are solidified(!) with [blood:] the king will make [peace] with one who intended him harm.
+
+$ (§59)
+51'. [DIŠ qer-bu ki-ma x x k]a-an-ni up-pi ik-ta-ab-ru na-bal-ku#-ut [hu-up-ši?]
+#tr.en: [¶ (If) the insides] have grown thick [as the] stand of a drum(?): revolt of [the peasantry(?)]
+
+$ (§60)
+52'. [DIŠ qer-bu pi-i]q-q[a₂-ti m]a-lu-u₂ URU{ki} ER₂-tum ma-ru-uš#-tum# %n [iṣabbat?]
+#tr.en: [¶ (If) the insides] are full of dung [pellets:] bitter wailing [will grip] the town.
+
+$ (§61)
+53'a. [DIŠ qer-bu ši]-ik#-ṣi# ma-lu GUR-ka# LA₂-il
+#tr.en: [¶ (If) the insides] are full of šikṣumeasure: your kor-measure will give short measure.
+
+$ (§62)
+53'b. DIŠ qer-bu zi-iq#-ti# ma-l[u-u₂ ...] | x [...]
+#tr.en: ¶ (If) the insides are [full] of pimples: [...]
+
+$ (§63)
+54'. [DIŠ qer-bu MI].IB#.HI# ul-lu-lu ERIN₂+NI KUR₂-ra i-ta-na-dar
+#tr.en: [¶ (If) the insides] have cysts hanging from them: my army will go in fear of the enemy.
+
+$ (§64)
+55'. [DIŠ qer-bi MI.I]B.HI# [u₂]-na#-ah#-hi-lu# ERIN₂+NI ina IGI ERIN₂ KUR₂-ri {giš}TUKUL-MEŠ-[ša %n itabbak?]
+#tr.en: [¶ (If) cysts] saturate [the insides:] my army will [will drop(?)] their] weapons when opposed by the enemy's army.
+
+$ (§65)
+56'. [DIŠ qer-bu x x] x x KUR₂#-ru# qa₂#-du# A.DAH u ILLAT-MEŠ-šu# [...]
+#tr.en: [¶ (If) the insides ... you will defeat(?)] the enemy, together with his allies and auxiliaries.
+
+$ (§66)
+57'. [DIŠ qer-bu uš-ta]-ad#-d[a]-nu URU{ki} ši-bu-tu-šu i-di HUL-ti i#-ta?#-[za-az-zu?]
+#tr.en: [¶ (If) the insides have] switched around: the city's elders will side with evil.
+
+$ (§67)
+58'. [DIŠ qer-bu uš-ta]-ad#-da#-nu-ma it-ta#-na-ab-la-ak-ka-tu₄ URU{ki} ši-bu-tu-š[u i-di %n damiqti ...]
+#tr.en: [¶ (If) the insides have] switched around and turned upside down: the city's elders [will side with good.]
+
+$ (§68)
+59'. [DIŠ qer-bu i-ṣa-a]r-ra#-hu ŠA₃ ERIN₂+NI-ia gaba-ra-ah-ha i-ta-mu
+#tr.en: [¶ (If) the insides] groan: the centre of my army will plan a revolt.
+
+$ (§69)
+60'. [DIŠ qer-bu i-ṣa]-ar#-ru#-ru-ma iš-ta-na-as₂-su-u₂ ŠA₃ ERIN₂+NI-ia GU₄-UD i-ta-mu
+#tr.en: [¶ (If) the insides] leak and keep making noises: the centre of my army will plan a raid.
+
+$ (§70)
+61'. [DIŠ qer-bu a]r-[ra-k]u UD-MEŠ NUN it-ti DINGIR GID₂.DA
+#tr.en: [¶ (If) the insides are] long: the prince's days will lengthen by divine consent.
+
+$ (§71)
+62'. [DIŠ qer-bu ku-ur-ru-u₂] UD#-MEŠ i-ṣu₂-tum LU₂ KALAG DAB₅-su
+#tr.en: [¶ (If) the insides are short:] a short life (lit. few days); hardship will afflict the man.
+
+$ (§72)
+63'. [DIŠ qer-bu ana 2-šu z]i-zu KUR₂-rum KUR ana 2 i-be₂-eš
+#tr.en: [¶ (If) the insides are] divided [in two:] the enemy will split the land in two.
+
+$ (§73)
+64'. [DIŠ qer-bu ar-qu₂] ku-[u]ṣ-ṣu₂# GAL₂ mi-lu# DU#-ka#
+#tr.en: [¶ (If) the insides are yellow:] there will be cold weather; the inundation will come.
+
+$ (§74)
+65'. [DIŠ qer-bu su-ul-lu]-tu₄# KUR₂-rum# [KUR]-ka ana URU{ki} DIDLI-ka u₂#-[sa]r
+#tr.en: [¶ (If) the insides are] split into several parts: the enemy will confine your [people] to your towns.
+
+$ (§75)
+66'. [DIŠ qer-bu it-tab-ṭ]i₃-lu ši-b[u-u]t URU{ki} ṭe₃-ma GAR-nu
+#tr.en: [¶ (If) the insides are] interrupted: the city elders will give the orders.
+
+$ (§76)
+67'. [DIŠ qer-bu x x] x LU₂ a#+na# x x x x x x
+#tr.en: [¶ (If) the insides are ...]: the man ....
+
+$ (§77)
+68'. [DIŠ qer-bu x x] x DUMU [LUGAL?]-ri# ina URU{ki} x x x x x ŠU.NIGIN 67 MU
+#tr.en: [¶ (If) the insides are ...]: the king's son in the city ....
+
+
+$ (§1)
+69'. [DIŠ x x x x] x x x bu x x x x x x x x
+
+$ (§2)
+70'. [DIŠ x x x x] x x x x x x x u₂#-su₂#-ur#-ta NIGIR-mu
+#tr.en: [¶ (If) the ...] they will surround ... in a trap.
+
+$ (§3)
+71'. [DIŠ x x x x]-um-mu-ru-ti x x x x tar-ba-ṣu₂ šu-u₂ BIR
+#tr.en: [¶ (If) the ...]: that flock (lit. sheepfold) will be scattered.
+
+$ (§4)
+72'. [DIŠ x x x x] x x x x x x ERIN₂-ka KUR₂-rum u₂-šam-qa₂-at MIN NU ri-{qi₂}-it LUGAL-ri IZI GU₇
+#tr.en: [¶ (If) the ...]: the enemy will bring about your army's downfall; alternative apodosis: fire will consume the king's pasture land(!).
+
+$ (§5)
+73'. [DIŠ x x x x] x x ru#-ha#-ka# x x x x u₂-nu |KA×U| a-hu-u₂
+#tr.en: [¶ (If) the ...]: your comrade ....; alien speech(?).
+
+$ (§6)
+74'. [DIŠ x x x x] x x EN.NU.UN zu x-ka# IZI GU₇
+#tr.en: [¶ (If) the ...]: fire will consume the guardhouse of your [...]
+
+$ (§7)
+75'. [DIŠ x x x x] {giš}TUKUL ib-ni-ma ni-ba-ša IGI ina {giš}TUKUL KUR₂-rum ERIN₂-ka PAP-ip#-ma TUR₃!-ṣu₂ šu-u₂# BIR
+#tr.en: [¶ (If) the ...] forms a weapon-mark that points toward its “naming”: in war, the enemy will repulse your army and that flock (lit. sheepfold) will be scattered.
+
+$ (§8)
+76'. [DIŠ x x x x] {giš}TUKUL ib-ni-ma NIN-ša IGI ina {giš}TUKUL KUR₂-ra PAP-ip-ma# TUR₃!##-ṣu šu-u₂# DA[GAL?-iš]
+#tr.en: [¶ (If) the ...] forms a weapon-mark that points toward its “request”: in war, you will repulse the enemy and that flock (lit. sheepfold) will [increase.]
+
+$ (§9)
+77'. [DIŠ x x x x] {giš}TUKUL## ib-ni-ma AN.TA-iš IGI [a]-mat HUL-ti ana LUGAL-ri KUR-be₂
+#tr.en: ¶ (If) the ...] forms a weapon-mark and it points upward: bad news will beset the king.
+
+$ (§10)
+78'. [DIŠ x x x x {giš}TUKUL] ib-ni-ma KI.TA#-iš# IGI## LUGAL a-a-bi-šu ŠU-su₂ KUR-ad#
+#tr.en: ¶ (If) the ...] forms a [weapon-mark] and it points downward: the king will capture his foes.
+
+$ (§11)
+79'. [DIŠ x x x x x x] x NI LU GAR-[ma {gi]š}TUKUL ni-ba#-ša IGI UD-MEŠ i-ṣu₂-t[um]
+#tr.en: ¶ (If) in the ...] ...is located [and a weapon-mark points to its “naming”: few days.
+
+$ (§12)
+80'. [DIŠ x x x x x x N]I LU# GAR#-[ma {giš}TUKUL NIN-š]a IGI NUN [k]i-iš-š[u-ta i-be₂-el]
+#tr.en: ¶ (If) in the ...] ...is located [and a weapon-mark] points to its ["request": the prince [will exercise supreme] power.
+
+$ (§13)
+81'. [... URU{ki} šu]-u₂# ša-qu₂-um-m[a-ta i-im-ma-ar]
+#tr.en: ¶ (If) the ...: that city will experience silent desolation.
+
+$ (§14)
+82'. [...] x la-ap-nu [i-šar-ru₃?]
+#tr.en: ¶ (If) the ...:] a poor man [will grow rich(?).]

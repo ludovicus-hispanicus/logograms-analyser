@@ -1,0 +1,16 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: BM 34435 (Schmidtchen 2021 Tafel 4, ms J)
+recension: canonical Sakikkû Tablet 4, manuscript J (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 4
+source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript J rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+---
+
+@text
+12. [ ]-ru? u KI.N[Á ...]
+13. [ E]N.NUN.UD.ZAL.LE x [...]
+14. [ UT]U.ŠÚ.A GU₇-šú la? [...]
+15. [ ] MÚD DU-ku? [...]

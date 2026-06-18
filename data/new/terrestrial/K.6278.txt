@@ -1,0 +1,48 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: Nineveh (Kuyunjik)
+publication: "K 6278 (+) Rm-II 389; eBL ATF. Edition: de Zorzi 2009 (KASKAL 6). Neo-Assyrian DUPLICATE of the Middle-Babylonian BM 108874 — the same bird-flight augury omens (Šumma ālu aḫû), a millennium later."
+counting: DIŠ
+source_note: eBL fragmentarium ATF, TextLines only (translation/notes/parallels dropped). Project-ready ATF (logograms uppercase, {} determinatives, Unicode subscripts).
+note: Topic-controlled Neo counterpart to BM.108874 (MB) — falcon SUR₂.DU₃{mušen}, raven UGA{mušen} omens. Anchors the Neo end of the bird-augury terrestrial sub-arc.
+---
+
+@obverse
+1'. [DIŠ N]A ana A₂#.AŠ₂#-šu₂# ZI#-ma# SU[R₂.DU₃{mušen} TA ZAG NA ana GUB₃ NA i-ti-iq A₂.AŠ₂-su KUR-ad]
+2'. [DIŠ N]A KIMIN SUR₂.DU₃{mušen} ZAG NA iz-z[i?-iz-ma ta-he-e NA DU-ak NA BI KI DU-ku A₂.TUG TUK-ši]
+3'. [DIŠ N]A KIMIN UGA{mušen} GUB-i[z?-ma GUB₃ NA GU₃-si NA BI KI IGI-MEŠ-šu₂ GAR-nu DU-ma HA.LA GU₇]
+4'. [DIŠ N]A ana KASKAL ZI-ma SUR₂.DU₃{mušen} T[A GUB₃ NA ana ZAG NA i-ti-iq-ma ana ku-tal-li-šu₂ GUR]
+5'. ($___$) NA BI KI DU-ku H[A.LA GU₇ ŠA₃]-BI [DUG₃.GA]
+6'. [DIŠ N]A ana KASKAL ZI-ma SUR₂.DU₃{mušen} ana Z[AG NA x x x x (x)] x bi# x [x (x x)]
+7'. [DIŠ N]A ana KASKAL ZI-ma UGA{mušen} ina Z[AG NA GUB-ma GU₃-si NA BI KI I]GI-šu₂ GAR-nu NU DU-ak ŠA₃-[BI NU DUG₃.GA]
+8'. [DIŠ N]A ana {lu₂}KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 1[5 NA ana ku-tal₂-l]i? NA NIGIN-[ma]
+9'. ($___$) ana GUB₃ NA DIB-iq NA B[I KUR₂-š]u₂? KUR-ad₂ : KUR-ad?#
+10'. [DIŠ] NA ana {lu₂}KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 15[0 NA ana] 15# NA i-ti-iq-ma
+11'. ($___$) ta-he-e NA id-di-ma DU-ik# NA# BI ina ŠA₃ KUR₂ HA.LA GU₇
+12'. [DIŠ] NA ana {lu₂}KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA ZI-ma ana EGIR-šu₂ GUR-ra
+13'. ($___$) NA BI EN KUR₂-šu₂ KUR-ad₂ MUNUS-MEŠ ana URU-šu₂ GUR-ra
+14'. [DIŠ] NA ana {lu₂}KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA i-ti-iq
+15'. ($___$) u₃ GUB₃ NA iṣ-bat-ma ta-he-e NA DU-ik di-ik-ta-šu₂ GAZ-ak
+16'. [DIŠ N]A ana {lu₂}KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana ku-tal₂-li NA NIGIN-ma ana ZAG NA i-ti-iq
+17'. ($___$) NA BI KI DU-ku hu-bu-us-su ih-hab-bat ŠA₃-BI NU DUG₃.GA
+18'. [DIŠ N]A? SISKUR₂ ana DINGIR-šu₂ ana na-qe₂-e ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 DIB-iq NA BI SISKUR₂-šu ma-hi-[ir]
+19'. [DIŠ N]A SISKUR₂ ana DINGIR-šu₂ ana na-qe₂-e ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA DIB-iq
+20'. ($___$) NA BI šib-sat DINGIR-šu₂ u {d}iš₈-tar₂-šu₂ GAL₂-MEŠ-šu₂ SISKUR₂-šu₂ NU ma-hir
+21'. [DIŠ N]A KIMIN-ma SUR₂.DU₃{mušen} TA 150 N ana ku-tal₂-li NA NIGIN-ma ZAG NA DIB-i[q]
+22'. ($___$) NA BI UD-MEŠ-šu₂ LUGUD₂.DA-MEŠ ina MU-BI [ana UŠ₂?]
+23'. [DIŠ NA S]ISKUR₂ ana DINGIR-šu₂ ik-ki-ma TA E₂ DINGIR-šu₂ E₃-ma ana E₂-šu₂ ZI-ma# [SUR₂.DU₃{mušen} T]A 1[5 NA]
+24'. [ ($___$) ana k]u-tal₂-li NA NIGIN-ma ana GUB₃ NA DIB-iq NA BI UD-MEŠ-šu₂ GID₂.D[A-MEŠ TI.LA UD-MEŠ GID₂-MEŠ?]
+25'. [DIŠ NA ki]-i?# ma-ṣar-ti ana E₂.GAL na-šu₂-šu₂ SUR₂.DU₃{mušen} TA 1[5? ...]
+26'. [ ($___$) NA] BI# UGU EN INIM-šu₂ GUB-az GABA.[RI NU TUK]
+27'. [DIŠ NA KIMIN-m]a? SUR₂.DU₃{mušen} TA 15 NA ana 150 NA DIB-iq NA B[I KI.ŠU₂-šu GID₂.DA?]
+28'. [DIŠ NA UŠ₈ E₂ BA]D-ma SIG₄ ŠUB-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA DIB-[iq? E₂ BI DAGAL-iš EN E₂ BI LIBIR.RA?]
+29'. [DIŠ KIMIN]-ma# SUR₂.DU₃#{mušen} TA 150 NA ana 15 NA DIB-iq NA B[I KI.ŠU₂-šu GID₂.DA?]
+30'. [DIŠ in]a E₂ NA {lu₂}GIG?# [GI]G-ma ina še-ri₃ ina ku-tal₂ E₂ GIG S[UR₂.DU₃{mušen} TA za-mi-i ša₂ ZAG?]
+31'. ($___$) ana za-mi-i# ša₂?# GUB₃?# DIB#-iq GI[G BI GIG-su GID₂.DA?]
+32'. DIŠ ina E₂ NA KIMIN-ma ina# še#-ri₃# ina ku#-tal₂ E₂?# GIG?# [SUR₂.DU₃{mušen} TA za-mi-i ša₂ 150?]
+33'. ($___$) ana za#-mi-i ša₂ 15 DIB-iq# [GIG BI ar₂-hiš ZI-bi]
+34'. DIŠ ina E₂ NA KIMIN-ma ina še-ri₃ ina ku-tal₂ E₂ {lu₂?#}[GIG SUR₂.DU₃ i-ša-ʾ GIG BI BA.UŠ₂]
+35'. DIŠ NA SAG.DU A.ŠA₃ ana ma-ha-ṣi ZI-ma SUR₂.DU₃#{mušen#} [TA 15 NA ana 150 NA DIB TI.LA ŠA₃ ša₂ A.ŠA₃ IGI-mar?]
+36'. DIŠ NA KIMIN-ma SUR₂.DU₃#{mušen#} TA 150 NA ana 15 NA# [DIB]-iq# AB#.[SIN₂ GUN-sa₃ LA₂-ṭa?]
+37'. [DIŠ NA ŠE.NU]MUN? E₃-ma UGA{mušen} ina UGU-NI ri# la?# DU-ma ina GUB₃# NA# is#-s[i AB.SIN₂ GUN-sa₃ ut-tar?]

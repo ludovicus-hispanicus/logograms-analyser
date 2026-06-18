@@ -1,0 +1,33 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Babylon (Merkes, library M4; late Kassite period)
+publication: VAT 17080 (TCS 4, 130-143); De Zorzi 2014 ms E of canonical Tablet 8
+canonical_tablet: Tablet 8 (two-headed izbu)
+counting: line
+source_note: Transliteration read from De Zorzi 2014 (HANE/M 15) edition, book p.586-587 (ms E catalogue block). Half-brackets rendered as #; [ ] = restoration; x = illegible; lines of pure traces omitted.
+---
+
+@obverse
+1. BE [iz-bu [...]
+2. BE iz-bu 2 SAG.DU-šu [...]
+3. BE iz-bu 2 SAG.DU-[šu ...]
+4. BE iz-bu 2 SAG.DU-šu [...]
+5. BE iz-bu 2 SAG.DU-šu [...]
+6. BE iz-bu 2 SAG.DU-šu l [...]
+7. BE iz-bu 2 SAG.DU-šu MAN x [...]
+8. BE iz-bu 2 SAG.DU-šu ŠÀ.MEŠ-šu i-[na ...]
+9. BE iz-bu 2 SAG.DU-šu u ina ŠÀ-šu 2 [...]
+10. BE iz-bu 2 SAG.DU-šu 2 GÚ-šu 2 GÚ.MURGU [...]
+11. BE iz-bu 2 SAG.DU-šu 2 GÚ-šu 2 GA[BA ...]
+12. BE iz-bu 2 SAG.DU-šu 2 GÚ-[šu ...]
+
+@reverse
+13. [...] LI.DUR-šu x [...]
+14. [...] 2 KUN-šu 2 nap x [...]
+15. [BE iz-bu ...] 2 KUN-šu 6 GÌR.MEŠ [...]
+16. [BE iz-bu ...] 2 KUN-šu ar-b[u-ta₅ ...]
+17. [BE iz-bu ...] 2 KUN-šu 6 GÌ[R ...]
+18. [BE iz-bu ...] 2 KUN-šu 6 G[ÌR ...]
+19. [BE iz-bu ...] 2 KUN-šu 3 [...]
+20. [BE iz-bu ... 2] KUN-šu [...]

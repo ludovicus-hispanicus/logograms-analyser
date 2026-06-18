@@ -1,0 +1,45 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+counting: BE
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 50 (VAT 9600 = KAR 447)
+feature: ubān ḫašî qablītu (middle lung-finger)
+note: colophon records 73 omens (1 šuši 13); scribe Šamaš-nādin-aḫḫē
+---
+
+@obverse
+1. BE+ma ŠU.SI MUR MURUB₄ i+na mu-uḫ!-ḫi-ša ḫi-pi₂ DA[M ]
+#tr.en: If the middle lung-finger has a break on its upper side: the wif[e ...].
+2. BE+ma ŠU.SI MUR MURUB₄ mu-uḫ!-ḫa-ša ša-ti-iq re-ṣ[u?-ut? ]
+#tr.en: If the upper side of the middle lung-finger is split: the hel[p? ...].
+3. BE+ma ŠU.SI MUR MURUB₄ mu-uḫ!-ḫa-ša pa-ṭe₄-er x [ ]
+#tr.en: If the upper side of the middle lung-finger is notched: ...
+4. BE+ma ŠU.SI MUR MURUB₄ ib-ba-al-ki-it-ma GU₂.MUR iṭ-ṭul URU [ ]
+#tr.en: If the middle lung-finger turns over and faces the trachea: the city [...].
+5. BE+ma ŠU.SI MUR MURUB₄ ZAG-ša a-na GUB₃-ma GUB₃-ša a-na ZAG-ša is-ḫu-u[r ]
+#tr.en: If the right side of the middle lung-finger twists to the left and its left side to its right [...],
+6. BE+ma i+na ne₂-ke-em!-ti [(x)] x ib-ba-la-ka-at x [ ]
+#tr.en: or because of the removal(?) [...] he will become treaty-breaking ... [...].
+7. BE+ma ba-aš₂-ki-il-[ti ŠU.SI MUR MURUB₄ ] x x [ ]
+#tr.en: If the baškiltu-part [of the middle lung-finger ...] ... [...].
+8. BE+ma ba-aš₂-k[i-il-ti ŠU.SI MUR MURUB₄ ]
+#tr.en: If the bašk[iltu-part of the middle lung-finger ...].
+9. BE+m[a ]
+#tr.en: If [...].
+
+@reverse
+1'. [ ŠU.SI M]UR M[URUB₄ ]
+2'. [ Š]U.SI MUR MUR[UB₄ ]
+3'. [ ] x-ti₃ ša ZAG [ ]
+4'. [BE+m]a ki-di-tu₄ ša GUB₃ ri [x] ŠU.SI MUR MURUB₄ x [ ]
+#tr.en: [If] the left outer ... of the middle lung-finger ... [...].
+5'. BE+ma ba-aš₂-ki-il-ti ŠU.SI MUR MURUB₄ IGI-et x [ ]
+#tr.en: If the baškiltu-part of the middle lung-finger faces ... [...].
+6'. BE+ma ŠU.SI MUR MURUB₄ 2 pa-nu-ša [ ]
+#tr.en: If the middle lung-finger has two front-sides [...].
+$ colophon (lines 7'-9', skipped in counting):
+$ 1 šu-ši 13 MU.BI.IM ŠU.SI MUR MURUB₄ — 73 omens of the middle lung-finger
+$ {m}{d}UTU-na-di-in-aḫ-ḫe DUMU {d}UTU-m[u ...] — Šamaš-nādin-aḫḫē son of Šamaš-m[u...]
+$ {m}{d}UTU-mu-dam-mi-iq DUMU {d}UTU-x-[...] — Šamaš-mudammiq son of Šamaš-...

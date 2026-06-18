@@ -1,0 +1,300 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: unknown
+counting: DIŠ
+---
+@obverse
+
+$ (§1)
+1. [DIŠ ...] x IGI-ul-ma DUH-er mu-ṣe MU.1.KAM LU₂ i+n[a SILIM-mi a]-di [M]U.1.KAM.MA# u₂#-še-es-ṣe# / mu-ta-a-nu i+na KALAM-ti I₃.GAL₂#-ši-u
+#tr.en: [¶ (if) ... a weapon-mark(?)] points toward [...] and is fissured: the year's end will expel the man from [safety] for one year; there will be a fatal epidemic in the land.
+
+$ (§2)
+2. [DIŠ ... a+n]a E₂ LU₂-lim i-ir-ru-ub
+#tr.en: [¶ (if) ...] will enter the man's house.
+
+$ (§3)
+3. [DIŠ ... GIR₃ GAR-at-ma] ŠA₃-ba-ša DUH-et ni-ih-pi ŠU.ŠI ša {lu₂}KUR₂-ri
+#tr.en: [¶ (if) ... there is a foot-mark and] its inside is fissured: stubbing of the enemy's finger.
+
+$ (§4)
+4. [DIŠ ...]-ih-tim?# GIR₃ a+na EGIR-at ŠA₃.MUD₂ ša-ad-da-at
+#tr.en.(o 5): [¶ (if) ...], a foot-mark is stretched on to the back of the liver: [a ...] in the man's house will tend a fugitive so he can escape.
+5. [...] x i+na E₂ LU₂-lum na-bu-tam i-ka-ap-pu-ud-ma u₂-uṣ-ṣi
+
+$ (§5)
+6. [DIŠ ... GIR₃ a]-ša#-ar# KI.TUŠ-at ZI GAR-at GIR₃ na-ah-ra-a-ri a+na na-ah-ra-ri tu-uṣ-ṣi
+#tr.en: [¶ (if) ...] there is [a foot-mark] instead of the right-hand "seat": (it is) a foot-mark of help; you will go forth to bring aid.
+
+$ (§6)
+7a. [DIŠ ... GIR₃? gi-l]i?-it-ti
+#tr.en: [¶ (if) ... : (it is) a foot-mark(?)] of fright(?).
+
+$ (§7)
+7b. DIŠ i+na UGU-hi KA₂ E₂.GAL GIR₃ ša-ad-du-at GIR₃ ši-ta-an-di-ih
+#tr.en: ¶ (if) a foot-mark is stretched over the “palace gate”: (it is) a foot-mark (meaning) “Go on manoeuvres!”
+
+$ (§8)
+8. [DIŠ ...-a]n?-sa-at lu-mu-un ŠA₃-bi NUN [Š]U.SI-šu i+na-ah-i-ip
+#tr.en: [¶ (if) ... a foot-mark] is [...:] misery; the prince will stub his finger.
+
+$ (§9)
+9. [DIŠ ... Š]A₃-ba-ša pu-ṣa ŠUB-di U₂.NU.GAL₂ i+na KALAM-ti I₃.GAL₂-ši
+#tr.en: [¶ (if) ... a foot-mark is ... and] its inside is spotted with white: there will be starva-tion in the land.
+
+$ (§10)
+10. [DIŠ ...] IGI-ul be-el sa-li-mi-ka BA.UG₇-at-ma URU{ki}-šu ta-ta-bal KIMIN a-ki-il-t[um la ka-at-tu a+na Š]A₃-bi KALAM-ka ir-ru-ba
+#tr.en: [¶ (if) ... and it] points toward [...:] your ally will die and you will take his city. Ditto: a “devourer” [not your own] will enter your land.
+
+$ (§11)
+11. [DIŠ UGU-hi KA₂ E₂.GAL DUH-er a-m]a-tum ma-ru-uš-tu a+na E₂ LU₂ ŠUB-ut-am-ma ih-a-ad-da-ar
+#tr.en: [¶ (if) the top of the “palace gate” is fis-sured:] a bad [event] will befell the man's household and he will become afraid.
+
+$ (§12)
+12a. [DIŠ UGU-hi KA₂ E₂.GAL a+na 2-šu DUH-er bi-ib-l]u KALAM-ta u₂-bal
+#tr.en: [¶ (if) the top of the “palace gate” has two fissures: a flood] will carry off the land.
+
+$ (§13)
+12b. DIŠ UGU-hi KA₂ E₂.GAL a+na 3-šu DUH-er se-ek-ri-i-tum BA.UG₇-at-ma! AB.US₂-[sa a+na E₂.GAL i-ir-ru-ub]
+#tr.en: ¶ (if) the top of the “palace gate” has three fissures: a harem woman will die and [her] estate [will devolve to the palace.]
+
+$ (§14)
+13. [DIŠ UGU-hi KA₂ E₂.GAL a+na 4-šu DUH-er mim]-mu#-u₂ i+na E₂ LU₂-lim i-ha-al-li-iq i+na {giš}TUKUL RI.RI.[G]A [ERIN₂+NI-ia I₃.GAL₂-ši]
+#tr.en: [¶ (if) the top of the “palace gate” has four fissures;] something will disappear from the man's household; in war, the downfall [of my army will] occur.
+
+$ (§15)
+14a. [DIŠ ... mi-qi₂-i]t-ti LU₂-lim it-ti DINGIR-šu NU u₂-ta-aš-ša-ar
+#tr.en: [¶ (if) ... downfall] of the man, he will not be exempted by his god.
+
+$ (§16)
+14b. DIŠ i+na si-ip-pi ZI KA₂ E₂.GAL {giš}<TUKUL> GAR-ma si-ip-pi GUB₃# I[GI-ul a-ṣi K]A₂.GAL#-ia# {lu₂}KUR₂-ra KUM-ak
+#tr.en: ¶ (if) a weapon-mark is situated at the right-hand jamb of the “palace gate” and [points] toward the left-hand jamb: [those sallying from] my [city]-gate will defeat the enemy.
+
+$ (§17)
+15. [DIŠ i+na si-ip-pi] GUB₃# {giš}TUKUL# GAR-ma si-ip-pi ZI IGI-ul a-ṣi KA₂.GAL-ia UR.MAH DAB-su-ma i+na GIR₃-šu a+na ŠA₃-bi u₂-[ul? i-tu-ur-ra?]
+#tr.en: ¶ (if) a weapon-mark is situated [at the] left-hand [jamb] and points toward the right-hand jamb: a lion will maul someone leaving my city gate and [he will not(?) come back(?)] inside on his own two feet.
+
+$ (§18)
+16. [DIŠ ... {giš}TUKUL GAR-m]a ŠA₃-bi KA₂ E₂.GAL IGI-ul {giš}TUKUL ba-ar-ti ba-ar-tum i+na E₂.GAL I₃.GAL₂-ši
+#tr.en: ¶ (if) a weapon-mark is situated at the ... and points inside the “palace gate”: (it is) a weapon-mark of revolt; a revolt will occur in the palace.
+
+$ (§19)
+17. [DIŠ ... {giš}TUKUL GAR-m]a KI.TA-iš IGI-ul {giš}TUKUL na-ah-ra-a-ri a+na nu-ah-ra-a-ri tu-uṣ-ṣi
+#tr.en: ¶ (if) a weapon-mark is situated at the ... and points downward: (it is) a weap-on-mark of help; you will go forth to bring aid.
+
+$ (§20)
+18. [DIŠ ...] {giš}GIŠ GAR-ma ZE₂ IGI-ul {giš}GIŠ {d}LAMA-si LU₂ {d}LAMMA-sa TUK-ši
+#tr.en: ¶ (if) a weapon-mark is situated [at the ...] and points toward the gall-bladder: (it is) a weapon-mark of a guardian spirit; the man will acquire a guardian spirit.
+
+$ (§21)
+19. [DIŠ i+na si-ip-pi? ZI KA₂ E₂.GAL] {giš#}TUKUL GAR-ma ni-ra IGI-ul ar-bu-ut ERIN₂+NI-ia a-ṣi KA₂.GAL-ia {lu₂}KUR₂-ru# [GA]Z-ak
+#tr.en: ¶ (if) a weapon-mark is situated [at the right-hand jamb(?)] of the "palace gate" and points toward the "yoke": rout of my army, the enemy will defeat those sallying from my city gate.
+
+$ (§22)
+20. [DIŠ i+na si-ip-pi? GUB₃ KA₂ E₂.GAL {giš}TUKUL GAR-m]a ni-ra IGI ar-bu-ut ERIN₂ {lu₂}KUR₂-ri ERIN₂ {lu₂}KUR₂ i+na pa-ni ERIN₂-ia {giš}GIŠ-meš-š[a ...] ru x [...]
+#tr.en: ¶ (if) a weapon-mark is situated [at the left-hand jamb(?)] of the "palace gate" and points toward the "yoke": rout of the enemy's army; in the face of my army the enemy's army [will throw down] their weapons; [...]
+
+$ (§23)
+21. [DIŠ i+na ... K]A₂ E₂.GAL {giš}TUKUL! 2 GAR-nu-ma IGI-aṭ-lu su₂-qu it-ti su₂-u₂-qi E₂-tum i[t-ti E₂-tum KUR₂-ir]
+#tr.en: ¶ (if) two weapon-marks are situated [at the ... of the] "palace gate" and point toward each other: street [will open hostilities] with street, house with [house]
+
+$ (§24)
+22a. [DIŠ ...] {giš}GIŠ IR-a-li ERIN₂+NI KI BI.DU-ku HA.LA i-kal
+#tr.en: [¶ (if) ...:] (it is) a weapon-mark of plunder: my army will win a share of the spoils where(ever) it goes.
+
+$ (§25)
+22b. DIŠ KA₂ E₂.GAL SUHUŠ-sa i+n[a ...] E₂.GAL ŠU-k[a i-k]a-aš-ša-as-su-ma / [...] x ru ši [(x)]
+#tr.en: ¶ (if) the "palace gate"'s base is in [...: ... in/of] the palace you will take cap- tive and ...
+
+$ (§26)
+23. [DIŠ ...] x ERIN₂+NI i+na me-si₂-<ri> {lu₂}KUR₂-ru us-sa-ar-ši-ma KALAG.GA-ta u₂#-kal!#-[la-am-ši]
+#tr.en: [¶ (if) ...:] the enemy will trap my army in an enclosed space and inflict hardship [on it].
+
+$ (§27)
+24a. [DIŠ ... bu-tu-uq-tum i]b-ba-at-ta-aq bi-ib-lu KALAM-tum# u₂-bal
+#tr.en: [¶ (if) ...: a dike will] burst, a flood will carry off the land.
+
+$ (§28)
+24b. DIŠ U[GU ...]
+#tr.en: ¶ (if) on [...]
+25. [...] x x x [x x x] x ni is qu x [...]
+$ 1 line traces
+
+@reverse
+1'. [...] x x [...]
+
+$ (§1')
+2'a. [DIŠ ... a-ka-a]l? {d}ne₃-eri₁₁-gal
+#tr.en: [¶ (if) ...: consumption(?)] by Nergal (i.e. plague).
+
+$ (§2')
+2'b. DIŠ SILIM k[i-ma ...]
+#tr.en: ¶ (if) the "well-being" is like [...: ...]
+
+$ (§3')
+3'a. [DIŠ SILIM ki-ma ... i-ma-ar-r]a-aṣ
+#tr.en: [¶ (if) the "well-being" is like ...... will fall] sick.
+
+$ (§4')
+3'b. DIŠ SILIM ki#-ma kaskal ma-x [...]
+#tr.en: ¶ (if) the "well-being" is like the sign kaskal: ... [...]
+
+$ (§5')
+4'. [DIŠ SILIM ki-ma ...] x še x x x-mu ib-[...]
+#tr.en: [¶ (if) the "well-being" is like] ... [...]
+
+$ (§6')
+5'. [DIŠ SILIM ki-ma ... ar-bu-u]t {lu₂}KUR₂-ri x [...]
+#tr.en: [¶ (if) the "well-being" is like ...: rout] of the enemy [...]
+
+$ (§7')
+6'a. [DIŠ SILIM ki-ma ...] x-ti
+#tr.en: [¶ (if) the "well-being" is like ...: ...] ...
+
+$ (§8')
+6'b. DIŠ SILIM ki-ma aš+diš SILIM u₂#-ul# [...]
+#tr.en: ¶ (if) the "well-being" is like the signs aš+diš; [there will] not be security.
+
+$ (§9')
+7'a. [DIŠ SILIM ki-ma ... i+na] i#-di-šu DIRI-ak
+#tr.en: [¶ (if) the "well-being" is like ...] will go [at] his side.
+
+$ (§10')
+7'b. DIŠ SILIM ki-ma x [x x] x [x] x [...] i-ma-ar-[ra-aṣ]
+#tr.en: ¶ (if) the "well-being" is like [...:] will fall [sick.
+
+$ (§11')
+8'. [DIŠ SILIM ki-ma ...] ŠUB-ti a-lik pa-ni# ERIN₂+NI
+#tr.en: [¶ (if) the "well-being" is like ...:] downfall of the vanguard of the army.
+
+$ (§12')
+9'a. [DIŠ SILIM ki-ma ... iš-ša-aq-qi₂]-il
+#tr.en: [¶ (if) the "well-being" is like ...] will become] scarce.
+
+$ (§13')
+9'b. DIŠ SILIM ki-ma x KALAM TUR-er
+#tr.en: ¶ (if) the "well-being" is like ...: the population will diminish.
+
+$ (§14')
+9'c. DIŠ SILIM ki-m[a ...]
+#tr.en: ¶ (if) the "well-being" is like [...:]
+
+$ (§15')
+10'. [DIŠ SILIM ki-ma ...] x-u₂-šu IGI-ar
+#tr.en: [¶ (if) the "well-being" is like ...] will experience [...]
+
+$ (§16')
+11'a. [DIŠ SILIM ki-ma ...]
+#tr.en: [¶ (if) the "well-being" is like ...:]
+
+$ (§17')
+11'b. [DIŠ SILIM] ki-ma na₂ MUNUS na-ra-am-ti LUGAL-r[i BA.UG₅-at?]
+#tr.en: [¶ (if) the "well-being"] is like the sign ná; a woman loved by the king [will die(?).]
+
+$ (§18')
+11'c. [DIŠ SILIM] ki-ma x [...]
+#tr.en: [¶ (if) the "well-being"] is like [...]
+
+$ (§19')
+12'a. [DIŠ SILIM ki-ma ... i+n]a IGI-ka I₃.GAL₂-ši
+#tr.en: [¶ (if) the "well-being" is like ...] will occur [in] your presence.
+
+$ (§20')
+12'b. DIŠ SILIM ki-ma kur DIN-GIR-meš x [...] i+na {giš}TUKUL [x x x]-meš-ka i+na pa-ni <la> e-pe-ri / [i-ma-q]u-tu₄ / [(x x)] x
+#tr.en: [¶ (if) the "well-being" is like the sign kur; the gods [will ...:] in war, your troops(?) will drop] dead through [lack of] provisioning.
+
+$ (§21')
+13'. [DIŠ ...] NUN GIG-uṣ aš-qu₂-la-a-li GIG-aṣ
+#tr.en: [¶ (if) the "well-being" ...:] the prince will fall ill with ašqulūlu-sickness.
+
+$ (§22')
+14'. [DIŠ ... ni-ṣ]ir-ti E₂.GAL u₂-uṣ-ṣi
+#tr.en: [¶ (if) the "well-being" ...: a] palace treasure will disappear.
+
+$ (§23')
+15'. [DIŠ ... ni-šu-u₂-a? ni-ṣir?]-ta i-ma-aš-ša-a-ni-in-ni
+#tr.en: [¶ (if) the "well-being" ...: my people(?)] will rob me of a [treasure(?).]
+
+$ (§24')
+16'. [DIŠ ...]-e ki#-iš#-pu u₂ ru-hu
+#tr.en: [¶ (if) the "well-being" ...:] witchcraft and sorcery.
+
+$ (§25')
+17'. [DIŠ ... ERIN₂+NI] {lu₂}KUR₂ ni-ta [NI]GIN-ši
+#tr.en: [¶ (if) the "well-being" ...:] the enemy will encircle [my army.]
+
+$ (§26')
+18'a. [DIŠ ... ni-šu? i-n]a-ah-hi-[š]a
+#tr.en: [¶ (if) the "well-being" ...: the people(?) will] thrive.
+
+$ (§27')
+18'b. DIŠ SILIM a+na ŠA₃-bi lam? maš x ŠUB-u[t ...]
+#tr.en: ¶ (if) the "well-being" drops down into the ...: [.]
+
+$ (§28')
+19'a. [DIŠ ...] x
+#tr.en: [¶ (if) the "well-being" ...:]
+
+$ (§29')
+19'b. DIŠ SILIM i+na# ŠA₃ [...] ki-ma ub i+na# ŠA₃-bi-šu# x [... ERIN₂+NI? ...] i#-tu#-ur#-ra
+#tr.en: ¶ (if) the "well-being" inside [the ...] is like the sign ub (and) inside it [...:] will [(not)] come back.
+
+$ (§30')
+20'. [DIŠ ...] x US₂#? a-bi-šu u₂-ma-aṭ-ṭa
+#tr.en: [¶ (if) the "well-being" ...: the heir(?)] will diminish his father's legacy(?).
+
+$ (§31')
+21'a. [DIŠ ...]
+#tr.en: [¶ (if) the "well-being" ...:]
+
+$ (§32')
+21'b. DIŠ SILIM i+na SAG ZE₂ pa-ri-ik ṭe-mi [i-ša-an-ni? i+na me-t]i-iq ERIN₂-ka {lu₂}KUR₂ ERIN₂-ka {lu₂}KUR₂ / KUM-ak
+#tr.en: ¶ (if) the “well-being” lies across the top of the gall-bladder: my mind [will become deranged(?); while] your army is on the [march] the enemy will defeat your army.
+
+$ (§33')
+22'. [DIŠ ... ša-ki-i]m-ma u₂ ub i+na ŠA₃-bi-šu ŠUB-d[i i+na e-ri-ib E₂.GAL a]-a-am-ma GIR₂.TAB / i#-za#-aq#-qa₂-a[t]
+#tr.en: [¶ (if) the “well-being” is] situated [in ...] and an ub sign is located inside it: a scorpion will sting [someone among the palace staff.]
+
+$ (§34')
+23'. [DIŠ ...] x-mi {lu₂}KUR₂-ra a+n[a KALAG].GA-ti tu-u[s₄-sa-ar]
+#tr.en: [¶ (if) the “well-being” ...] ...: you will [confine] the enemy to a stronghold.
+
+$ (§35')
+24'. [DIŠ ... ta]m-ṭa#-a#-tum
+#tr.en: [¶ (if) the “well-being” ...:] losses.
+
+$ (§36')
+25'. [DIŠ ...] x {lu₂}KUR₂-ru i+na SAG A#.ŠA₃# it#-ti ERIN₂-ka [...]
+#tr.en: [¶ (if) the “well-being” ...] ...: the enemy [will do battle(?)] with your army at (its) destination.
+
+$ (§37')
+26'. [DIŠ ... b]a-ši-im ri-[ig-mu ša pi-r]i-it#-ti i+na E₂ LU₂ GAR-an
+#tr.en: [¶ (if) the “well-being” ... is] formed: a cry [of] terror will occur in the man's house.
+
+$ (§38')
+27'. [DIŠ ...] x u₃?# ka x [x x] x a+na i-di DINGIR-lim
+#tr.en.(r 28'a): [¶ (if) the “well-being” ...: beside a god [my army(?)] will go.]
+28'a. [ERIN₂+NI? DIRI-ak]
+
+$ (§39')
+28'b. [DIŠ ... ŠUB]-di DINGIR-lum I₃.G[U₇] [U]GU ERIN₂+NI
+#tr.en.(r 29'a): [¶ (if) the “well-being” ... is] located: plague will strike; on my army [...]
+29'a. [...]
+
+$ (§40')
+29'b. [DIŠ in-n]a-ad-<da>-ru-ma
+#tr.en.(r 30'a): [¶ (if) the “well-being” ... will] run wild and [...]
+30'a. [...]
+
+$ (§41')
+30'b. [DIŠ ... KUR te]-e-šu ŠUB-ut-si
+#tr.en: [¶ (if) the “well-being” ...:] disorder will befall [the land.]
+
+$ (§42')
+31'. [DIŠ ... KUR te-e-šu ŠUB-ut-si]-im-ma in-ne₂-eš-ši
+#tr.en: [¶ (if) the “well-being” ...: disorder will befall the land] and it will fall into chaos.
+
+$ (§43')
+32'. [DIŠ ERIN₂-ka i+na qa₂-qa₂-ar šu-ul-mi-ša] {lu₂}KUR₂# i-ka-aš-ša-da-aš-ši-ma# KUM-ši
+#tr.en: [¶ (if) the “well-being” ...:] the enemy will catch up with [your army in friendly territory] and defeat it.

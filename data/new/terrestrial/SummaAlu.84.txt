@@ -1,0 +1,278 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: first-millennium canonical Šumma Ālu (Nineveh/Assur/Uruk etc.); 16 manuscripts
+publication: eBL corpus D/2/6 chapter SB 84 = canonical Šumma Ālu Tablet 84 (Project Ālu Geneva). Composite (reconstruction) read off the chapter score.
+counting: DIŠ
+topic: sleep/bed omens (≈ Middle VAT.10526/VAT.11154; Nr.31/33)
+source_note: eBL composite text. '#tr.en:' = eBL translation; '//' and '#note:' = parallels/notes (commented out); '# var:' = a second variant. Logograms uppercase, {} determinatives, [] restoration.
+note: Neo canonical counterpart for the topic-controlled MB→Neo terrestrial comparison.
+---
+
+@text
+1. DIŠ NA ina KI.NU₂-šu₂ ZAG ṣa-lil NU K[UR AŠ₂ N]U DUG₃ UZU GAR-šu₂#
+   # // D II.1 SB "SleepNZK" 1
+   #tr.en: If a man at his sleeping place sleeps on the right side: fail[ure of an objective, b]ad health will be established for him.
+2. [D]IŠ KIMIN (NA ina KI.NU₂-šu₂) GUB₃ ṣa-lil ŠA₃.BI DUG₃.GA KUR AŠ₂
+   # // D II.1 SB "SleepNZK" 2
+   #tr.en: [I]f ditto (a man at his sleeping place) sleeps on the left side: he will be happy, achievement of an objective.
+3. [DI]Š KIMIN (NA ina KI.NU₂-šu₂) pur-qi₂-dam ṣa-lil NA [BI] HUL TAG₄-šu₂#
+   # // D II.1 SB "SleepNZK" 3
+   #tr.en: [I]f ditto (a man at his sleeping place) sleeps on the back: [that] man, misfortune will leave him.
+4. [DIŠ K]IMIN (NA ina KI.NU₂-šu₂) bu-up-pa-ni-šu₂ ṣa-lil NA BI UŠ₂ HUL UŠ₂
+   # // D II.1 SB "SleepNZK" 4
+   #tr.en: [If d]itto (a man at his sleeping place) sleeps face down: that man will die a terrible death.
+5. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) GIM un-nu-ni₇ ṣa-lil NA BI# ina-pu-uš#
+   # // D II.1 SB "SleepNZK" 5
+   #tr.en: [If di]tto (a man at his sleeping place) sleeps like (someone) praying: that man will breathe freely.
+6. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) ŠU.2-šu₂ ina IGI ŠA₃-šu₂ šu-te-lu-pa-ma GAR.MEŠ NA [BI TI]L UD.ME GAR-šu₂ ina-ziq
+   # // D II.1 SB "SleepNZK" 6
+   #tr.en: [If di]tto (a man at his sleeping place) has his two hands crossed and placed on his belly: [that] man, [the en]d of days is established for him, he will have worries.
+7. [DIŠ KIM]IN (NA ina KI.NU₂-šu₂) ŠU.2-šu₂ ina SAG.DU-šu₂ GAR.MEŠ ina-an-ziq
+   # // D II.1 SB "SleepNZK" 7
+   #tr.en: [If dit]to (a man at his sleeping place) has his two hands placed on his head: he will have worries.
+8. [DIŠ KIM]IN (NA ina KI.NU₂-šu₂) i-na-hu-ur KUR AŠ₂ DINGIR-šu₂ KI-šu SILIM-im
+   # // D II.1 SB "SleepNZK" 8
+   #tr.en: [If dit]to (a man at his sleeping place) is snoring: achievement of an objective, his god is reconciled with him.
+9. [DIŠ KIM]IN (NA ina KI.NU₂-šu₂) i-bak#-ki ŠA₃.HUL₂.LA IGI-mar
+   # // D II.1 SB "SleepNZK" 9
+   #tr.en: [If dit]to (a man at his sleeping place) is crying: he will experience joy.
+10. [DIŠ KIMIN (NA ina KI.NU₂-šu₂)] i-ra-am-mu-um DINGIR-šu i-na-as-su-us-su ARHUŠ TUKU-ši
+   # // D II.1 SB "SleepNZK" 10
+   #tr.en: [If ditto (a man at his sleeping place)] is groaning: his god will lament him, he will have mercy.
+11. DIŠ# [KIMIN (NA ina KI.NU₂-šu₂)] iṣ-ṣe-ni-ih HUL ŠA₃ UŠ.MEŠ-šu₂ NU DUG₃-ub UZU GAR-šu₂
+   # // D II.1 SB "SleepNZK" 11
+   #tr.en: [If ditto (a man at his sleeping place)] keeps laughing: worries will keep following him, bad health will be established for him.
+12. DIŠ [KIM]IN (NA ina KI.NU₂-šu₂) ZU₂.MEŠ-šu₂ i-gaṣ-ṣa-aṣ NIG₂.GIG IGI-šu₂ me-si-ra IGI-mar
+   # // D II.1 SB "SleepNZK" 12
+   #tr.en: If [dit]to (a man at his sleeping place) is gnashing his teeth: trouble will confront him, he will experience hard times.
+13. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) ZU₂.MEŠ-šu₂ g[i-n]a-a MIN (i-gaṣ-ṣa-aṣ) GIG DAB-su BIR-ah# E₂# AD#-šu₂ IGI u₃ šu-u₂ UŠ₂
+   # // D II.1 SB "SleepNZK" 13
+   #tr.en: [If di]tto (a man at his sleeping place) ditto (is gnashing) his teeth co[nsta]ntly: an illness will seize him, he will experience the dispersal of his father’s house, and he himself will die.
+14. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) ina GE₆ ina AN.B[AR₇] e-ma ni-lu iṣ-ṣe-ni-ih ni-ziq-tu₄ sad-rat-su
+   # // D II.1 SB "SleepNZK" 14
+   #tr.en: [If di]tto (a man at his sleeping place), at night (or) at midd[ay], wherever recumbent, keeps laughing: trouble is in store for him.
+15. DIŠ [K]IMIN (NA ina KI.NU₂-šu₂) i-dab-bu-ub KI.ŠU₂ sa-dir-šu₂ KIMIN GIG DAB-su
+   # // D II.1 SB "SleepNZK" 15
+   #tr.en: If [d]itto (a man at his sleeping place) is speaking: imprisonment is in store for him; alternatively, an illness will seize him.
+16. [DIŠ K]IMIN (NA ina KI.NU₂-šu₂) MIN (i-dab-bu-ub) u₃ i-q[a]l-lal KI.ŠU₂ ina E₂-šu₂ NU KUD me#-si-ra IGI
+   # // D II.1 SB "SleepNZK" 16
+   #tr.en: [If d]itto (a man at his sleeping place) ditto (is speaking) and (then) becomes discredited: imprisonment will not be kept away from his house, he will experience hard times.
+17. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) i-ra-qu₃-ud u UR₂.MEŠ-šu₂ i-ra-bi-iṣ ina KI.Š[U₂] ub#-ta-taq
+   # // D II.1 SB "SleepNZK" 17
+   #tr.en: [If di]tto (a man at his sleeping place) is dancing and (then) resting his thighs: in imprisonme[nt], he will be cut off (from everything).
+18. [DIŠ KIM]IN (NA ina KI.NU₂-šu₂) i-ra-am-mu-um u# ra-man-šu₂ ud-da me?-s[i?-ru?] GAR-šu₂
+   # // D II.1 SB "SleepNZK" 18
+   #tr.en: [If dit]to (a man at his sleeping place) is groaning and he knows it himself: hard [times] will be established for him.
+19. [DIŠ KIM]IN (NA ina KI.NU₂-šu₂) i-la-ab-bu NINDA ana KA-šu i-maṭ-ṭi
+   # // D II.1 SB "SleepNZK" 19
+   #tr.en: [If dit]to (a man at his sleeping place) is crying out: food for his mouth will diminish.
+20. [DIŠ KIMI]N (NA ina KI.NU₂-šu₂) gi-na-a MI[N] (i-la-ab-bu) NINDA sad-ra GU₇#
+   # // D II.1 SB "SleepNZK" 20
+   #tr.en: [If di]tto (a man at his sleeping place) ditto (is crying out) constantly: he will regularly eat bread.
+21. DIŠ [KI]MIN (NA ina KI.NU₂-šu₂) iš-ta-na-si UD.MEŠ-šu₂ LUGUD₂.DA.MEŠ šum₄-ma MAŠ.EN.GAG HU[L TAG₄-šu₂]
+   # // D II.1 SB "SleepNZK" 21
+   #tr.en: If [di]tto (a man at his sleeping place) keeps screaming: his days are short; if (it is) a @i{muškēnu}, misfort[une will leave him.]
+22. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) i-pal-({la?})lah₃# ŠU DINGIR-šu₂ [DAB-su?]
+   #tr.en: [If di]tto (a man at his sleeping place) is afraid: the hand of his god [will seize him(?)]
+23. [DIŠ KIM]IN (NA ina KI.NU₂-šu₂) ina GE₆ ina AN.BAR₇ e#-ma ni-lu i-na-hu-ur : i-pal-lah₃ ni-ziq-tu₄ [sad]-rat#-su
+   # // D II.1 SB "SleepNZK" 23
+   #tr.en: [If di]tto (a man at his sleeping place), at night (or) at midday, wherever recumbent, is snoring (or) afraid: trouble is [in sto]re for him.
+24. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) IM ina KA-šu₂# ŠUB.ŠUB-a SAG.HUL.HA.ZA TUKU-ši
+   #note: @i{šāra ina pīšu ittanaddâ} might indicate that the man is “puffing” or “panting”.
+   # // D II.1 SB "SleepNZK" 24
+   #tr.en: [If di]tto (a man at his sleeping place) keeps throwing air out of his mouth: he has an accompanying spirit.
+25. [DIŠ KI]MIN (NA ina KI.NU₂-šu₂) GU₃-si {d}iš₈-tar₂ lib-bat NA DIR-at
+   # // D II.1 SB "SleepNZK" 25
+   #tr.en: [If di]tto (a man at his sleeping place) screams: Ištar is full of hate for the man.
+26. [DIŠ N]A ina ṣa-la-li-šu SAG.DU-su# ana še-pi-ti GIR₃.2-šu₂ ana re-še-ti NU ZU u₂-sah-har-ma ṣa-lil šum₄-ma tap-pu-u₂ BAR.MEŠ DAM u DAM TAG₄.MEŠ KIMIN GIG DUGUD GIG
+   # // D II.1 SB "SleepNZK" 27
+   #tr.en: [If a m]an, while sleeping, unconciously turns his head to the foot end (of the bed) (and) his two feet to the head end and is (still) asleep: if (it concerns) partners, they will dissolve (their association); husband and wife will separate; alternatively, he will suffer a bad illness.
+27. [DIŠ KIMI]N (NA ina ṣa-la-li-šu) INIM# GIG i[q-b]i ana# SIG₅ u HUL NU DAB.MEŠ-šu₂ DU₈.MEŠ-šu₂
+   # // D II.1 SB "SleepNZK" 26
+   #tr.en: [If ditt]o (a man, while sleeping,) s[ay]s a harsh word: nothing will seize him, for good or evil, everything will remove from him.
+28. [DIŠ KIMIN (NA ina ṣa-la-li-šu) INIM S]IG₅ iq-bi UD.MEŠ-šu₂ i-ṣu MAŠ.EN.GAG HUL-šu₂ DU₈
+   # // D II.1 SB "SleepNZK" 28
+   #tr.en: [If ditto (a man, while sleeping,)] says a go[od word]: his days are few, (if it is) a @i{muškēnu}, his misfortune will be dissolved.
+29. [DIŠ KIMIN (NA ina ṣa-la-li-šu) ma-ag-ri]-a#-[ti₃ i-t]a-mu ZI.GA ṭub₂-ba-ti TE-šu₂
+   # // D II.1 SB "SleepNZK" 29
+   #tr.en: [If ditto (a man, while sleeping,) sp]eaks [insol]e[ntly]: a loss of friendliness will approach him.
+30. [DIŠ KIMIN (NA ina ṣa-la-li-šu) KA-šu ṣa-bit-ma] u₂#-kal NA BI DINGIR-šu₂ HUL ŠA₃ NU TE-šu₂
+   # // D II.1 SB "SleepNZK" 30
+   #tr.en: [If ditto (a man, while sleeping,) his mouth is seized, and] it persists: that man’s god will not let worries approach him.
+31. [DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI.MEŠ-šu₂ bu-ul-l]u-ṣa NA BI SAG.HUL.HA.ZA TUKU-ši
+   # // D II.1 SB "SleepNZK" 31
+   #tr.en: [If ditto (a man, while sleeping,) his eyes are star]ing: that man has an accompanying spirit.
+32. [DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI.MEŠ-šu₂? ...] NA BI ŠA₃.BI DUG₃.GA
+   #note: The verb at the end of the protasis may be @akk{BAD} (@i{petû}), @akk{KID₂} (@i{karāṣu}), or @akk{DUL} (@i{katāmu}).
+   # // D II.1 SB "SleepNZK" 32
+   #tr.en: [If ditto (a man, while sleeping,) his eyes(?) ...]: that man will be in a good mood.
+33. [DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI.MEŠ-šu₂ BAD.MEŠ-ma IM ina K]A-šu₂ ŠUB.ŠUB ina KI.GUB-šu₂ ZI-ah
+   #note: @i{šāra ina pīšu ittanaddâ} may suggest that the man is “puffing” or “panting”. The reconstruction of Nineveh with a plural subject follows NZK’s version that seems closer than the Middle Assyrian one.
+   # // D II.1 SB "SleepNZK" 33
+   #tr.en: [If ditto (a man, while sleeping,) his eyes are open and] he keeps throwing [air out of] his [mo]uth: he will be removed from his position.
+34. [DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI.MEŠ-šu₂ BAD.MEŠ] NA BI ina la ku-širi DU.MEŠ
+   # // D II.1 SB "SleepNZK" 34
+   #tr.en: [If ditto (a man, while sleeping,) his eyes are open:] that man will continually live without success.
+35. DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI.M[EŠ-šu₂ KID₂.MEŠ-ma KA-šu ina] ŠA₃-šu₂ e-er U₁₈.LU sa-hi-ip-šu₂
+   #note: For @akk{KID₂} in relation to the eyes, see @bib{RN1156@105} (@i{“zukneifen”}). Another reading would be @akk{TAG₄} that can be found with a meaning @i{petû}, see @bib{RN680@268}. However, this meaning seems to be limited to celestial phenomena, see @bib{RN2721@P, 341} with reference to @i{Iqqur īpuš} §79. The present section appears to alternate between opened and closed eyes.
+   # // D II.1 SB "SleepNZK" 35
+   #tr.en: If ditto (a man, while sleeping,) [his] eye[s are pinched shut, but his mouth] is awake through(?) his mind: an @i{alû}-demon covers him.
+36. [DI]Š KIMIN (NA ina ṣa-la-li-šu) IGI.MEŠ-šu₂ BAD#.MEŠ#-ma# KA-[šu₂? BA]D MU# x# x# x# x# x# x# GAR#-šu₂#
+   # // D II.1 SB "SleepNZK" 36
+   #tr.en: [I]f ditto (a man, while sleeping,) his eyes are open, and [his(?)] mouth [is ope]n (as well): ... will be established for him.
+37. DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI ZAG-šu₂ BAD IGI GUB₃-šu₂ DUL# MU MUNUS.SIG₅ TU[KU-ši]
+   # // D II.1 SB "SleepNZK" 37
+   #tr.en: If ditto (a man, while sleeping,) his right eye is open, his left eye closed: he will aqu[ire] a good reputation.
+38. DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI GUB₃-šu₂ BAD IGI ZAG-šu₂ DUL ti-bu
+   # // D II.1 SB "SleepNZK" 38
+   #tr.en: If ditto (a man, while sleeping,) his left eye is open, his right eye closed: an uprising.
+39. DIŠ KIMIN (NA ina ṣa-la-li-šu) IGI.MEŠ-šu₂ BAD.MEŠ-ma im-mer šum#-ma# mim-ma ina-ṭal NIG₂.ŠU iq-qir-šu₂
+   # // D II.1 SB "SleepNZK" 39
+   #tr.en: If ditto (a man, while sleeping,) his eyes are open and he advances: if he sees something, property will become precious for him.
+40. DIŠ KIMIN (NA ina ṣa-la-li-šu) ana KI ru-uʾ-ta-šu₂ i-lak ZARAH sad-rat-su
+   # // D II.1 SB "SleepNZK" 40
+   #tr.en: If ditto (a man, while sleeping,) his saliva is trickling to the floor: grief will be in store for him.
+41. DIŠ KIMIN (NA ina ṣa-la-li-šu) ana ZAG i-lak ṭu₂-pu-ul-lu-u₂ GAR-šu₂
+   #note: The apodosis is reconstructed after the canonical version, although the two omens differ slightly in the protasis. AššMA2 has @i{dannatu} instead of rare @i{ṭupullû}. Cf. the Hittite omen on KUB 29, 9 (// 10) i 9–12: @akk{tak₂-ku-kan₂ an-tu-wa-ah-ha-aš GIŠ.NU₂-aš | še-eš-zi nu-uš-ši-kan₂ iš-ša-al-li | pa-ra-a ZAG-ni mi-e-ni ar-ši-ia-az-zi | nu-uš-ši-kan₂ pa-ra-a ku-it-ki pa-iz-zi} “If a man is sleeping on a bed and spittle flows out unto the right (side of his) face: something will happen to him.” (transliteration and translation after @bib{RN1842bb@79}).
+   # // D II.1 SB "SleepNZK" 41
+   #tr.en: If ditto (a man, while sleeping,) it (= his saliva) is trickling to the right: disgrace will be established for him.
+42. DIŠ KIMIN (NA ina ṣa-la-li-šu) ana GUB₃ i-lak NIG₂ MUNUS.SIG₅ GAR-šu₂
+   #note: The apodosis is reconstructed after the Nineveh version, although the two omens differ slightly in the protasis. Cf. the Hittite omen on KUB 29, 9 (// 10) i 13–17: @akk{tak₂-ku-kan₂ an-tu-uh-ša-aš GIŠ.NU₂-aš še-eš-zi | nu-uš-ši-kan₂} KAxU-@akk{az iš-ša-al-li | [pa-r]a-a GUB₃-li mi-e-ni a-ar-aš-ši-ia-zi | [A-NA] EN DI-NI-kan₂ pa-ra-a ku-it-ki [pa-iz]-zi} “If a man is sleeping on a bed and spittle flows out of his mouth unto the left (side of his) face: something will happen to (his) opponent-in-court.” (transliteration and translation after @bib{RN1842bb@79}).
+   # // D II.1 SB "SleepNZK" 42
+   #tr.en: If ditto (a man, while sleeping,) it (= his saliva) is trickling to the left: something good will be established for him.
+43. DIŠ KIMIN (NA ina ṣa-la-li-šu) ŠE₁₀-šu iz-zi NA BI mim-ma E₃
+   #note: Cf. Uruk Catalog r 9 @akk{DIŠ NA <ina> ṣa-lu-ti-šu₂ ŠE₁₀-šu₂}.
+   #tr.en: If ditto (a man, while sleeping,) voids his excrement: that man will lose something.
+44. DIŠ KIMIN (NA ina ṣa-la-li-šu) KAŠ₃-šu₂ iš-tin INIM i-dir-ti KIMIN ina-ziq I.BI₂.ZA# IGI#-mar
+   #tr.en: If ditto (a man, while sleeping,) urinates: sinister news; alternatively, he will have worries, he will experience losses.
+45. DIŠ NA ina GIŠ.NU₂-šu₂ KI.NU₂-šu₂ ŠUB x# x# x# [x x (x) IGI]-mar
+   #note: The forerunner UncOB1 shows a similar omen (i 33–34) @akk{[DIŠ L]U₂ ma-ia-al-šu it-[ta-na-a]s-su₂-uk-šu | LU₂ šu-u₂ i#-[x x i-i]m-ma-ar} “[If a ma]n’s bed throws him off [repeatedly]: that man will [exp]erience ... [...]”.
+   #tr.en: If a man on his bed throws (himself) down to his sleeping place: he will ex[perience] ... [...]
+46. DIŠ KIMIN (NA ina GIŠ.NU₂-šu₂) ana ZAG ŠUB Z[I.GA] E₃#?-šu₂#
+   #tr.en: If ditto (a man on his bed) throws (himself) down to the right: lo[sses will occ]ur(?) for him.
+47. [DIŠ] KIMIN (NA ina GIŠ.NU₂-šu₂) ana GUB₃ ŠUB A₂.[TUKU?] IGI-mar
+   #note: The Hittite parallel KUB 29, 9 (// 10) i 26–29 shows a similar omen: @akk{tak₂-ku-kan₂ UN-an GIŠ.NU₂-an-te-eš kat-ta-an | ša-ra-a ši-ia-an-zi na-aš-ša-an | [GUB₃-l]a? la-ga-a-ri a-pe₂-e-da-ni | [UN-ši kar-tim-m]i-ia-az ki-ša-r[i]} “If the bed push(es) a man from the bottom upward and he is thrown [toward the lef]t: anger will happen to that man.” (transliteration and translation after @bib{RN1842bb@79–80}).
+   #tr.en: [If] ditto (a man on his bed) throws (himself) down to the left: he will experience pro[fit(?)].
+48. [DIŠ K]IMIN (NA ina GIŠ.NU₂-šu₂) ana pa-pa-an ŠA₃-šu₂ ŠUB ka [...] GAR-an
+   #tr.en: [If d]itto (a man on his bed) throws (himself) down on his belly: ... [...] will be established.
+49. [DIŠ KI]MIN (NA ina GIŠ.NU₂-šu₂) ŠU-su ša₂ ZAG bul-lu-lat ZI.G[A ... G]IG E₃
+   #note: Cf. the note to omen 51 with a similar Hittite omen. For a slightly extended apodosis see omen 56.
+   #tr.en: [If di]tto (a man on his bed) his right hand is numb: loss[es(?) ..., an ill]ness will depart.
+50. [DIŠ KIMI]N (NA ina GIŠ.NU₂-šu₂) ŠU-su ša₂ GUB₃ bul-lu-lat MUNUS.K[ALA.GA ...] ut-ta
+   #note: Cf. the note to omen 52 with a similar Hittite omen.
+   #tr.en: [If ditt]o (a man on his bed) his left hand is numb: hard[ship ...] he will find.
+51. [DIŠ KIMI]N (NA ina GIŠ.NU₂-šu₂) GIR₃-šu ša₂ ZAG bul-lu-lat NU [KUR-a]d A₂.AŠ₂
+   #note: Cf. the Hittite omen on KUB 29, 9 (// 10) i 18–21: @akk{[tak₂-ku-uš]-ša-an an-tu-uh-ša-aš GIŠ.NU₂-aš | [še-eš-zi nu-u]š-ši-kan₂ ma-a-an ZAG-na-aš | [ŠU-aš na-aš-m]a GIR₃-ŠU₂ ta-pa-an-ni-ta-ri | [a-pa-a-aš UN]-aš kar-tim-mi-ia-ta-ri} “If a man is sleeping on a bed and his right hand or his right foot becomes numb: [that man] will become angry.” (transliteration and translation after @bib{RN1842bb@79}).
+   #tr.en: [If ditt]o (a man on his bed) his right foot is numb: fai[lur]e of an objective.
+52. [DIŠ KIMIN (NA ina GIŠ.NU₂-šu₂)] GIR₃-šu ša₂ GUB₃ bul-lu-lat NU# KUR#-ad# A₂.AŠ₂
+   #note: Cf. the Hittite omen on KUB 29, 9 (// 10) i 22–25: @akk{tak₂-ku-kan₂ UN-aš GIŠ.NU₂-aš še-eš-zi nu-uš-ši-kan₂ | ma-a-an GUB₃-la-aš ŠU-aš na-aš-ma GUB₃-la-aš | GIR₃ ta-pa-an-ni-it-ta-ri | nu-uš-ši aš-šu-ul ki-ša-ri} “If a man is sleeping on a bed and his left hand or his left foot becomes numb: friendliness will happen to him.” (transliteration and translation after @bib{RN1842bb@79}).
+   #tr.en: [If ditto (a man on his bed)] his left foot is numb: failure of an objective.
+53. [DIŠ KIMIN] ŠU#.2-šu₂ bul-lu-la# ina [...] IGI-mar
+   #note: Cf. the note to omen 51 with a similar Hittite omen.
+   #tr.en: [If ditto (a man on his bed)] his two hands are numb: he will experience ... [...]
+54. [DIŠ KIMIN] GIR₃.2-šu₂# bul#-[lu-la] be [...] x#-u₂#
+   #note: See note to omen 53.
+   #tr.en: [If ditto (a man on his bed)] his two feet are n[umb:] ... [...] ...
+55. [DIŠ NA ina ṣa-la-li-šu₂? KAŠ₃]-šu₂ iš-tin [...] i#-tab-bal
+   #note: The distribution of the signs on the manuscript line suggests a change in the protasis. Furthermore, both excerpt tablets show that the protases return to @akk{DIŠ NA ina ṣa-la-li-šu₂} toward the end of the section (see omen 56).
+   #tr.en: [If a man, while sleeping(?), ur]inates: [...] will take away.
+56. [DIŠ KIMIN (NA ina ṣa-la-li-šu₂)] it-bi-ma [ina GIŠ?.N]U₂ it-til GIG dan-nu E₃
+   #note: For a similar apodosis, see omen 49. Both excerpt tablets suggest that the protases return to @akk{DIŠ NA ina ṣa-la-li-šu₂} toward the end of the section. The reconstructed text follows the structure of NinNA1 which always indicates repetition by @akk{KIMIN}.
+   #tr.en: [If ditto (a man, while sleeping,)] stands up and lies (back) down [on the be]d(?): a severe illness will depart.
+57. [DIŠ KIMIN (NA ina ṣa-la-li-šu₂) ...] NA BI ina KIN-šu₂ Z[I-a]h
+   #tr.en: [If ditto (a man, while sleeping,) ...:] that man will [be remov]ed from his office.
+58. [DIŠ KIMIN (NA ina ṣa-la-li-šu₂)] il-l[a-tu-šu₂] il-la-ka?# NA BI UŠ₁₁? x [x (x)]
+   #tr.en: [If ditto (a man, while sleeping,) his sali]va is trickling: that man, sorcery ... [...]
+59. [DIŠ N]A ina KI.NU₂-[šu₂ mu-kil] SAG IGI NA BI ina NU UD.ME[Š-šu₂ UŠ₂]
+   #tr.en: [If a m]an, at [his] sleeping place, he sees [an accompanying] spirit: that man [will die] before [his] time.
+60. [DIŠ KIMIN? (NA ina KI.NU₂-šu₂) ...] BIR-[ah E₂?]
+   #tr.en: [If ditto(?) (a man, at his sleeping place,) ...:] dispersal [of the house(?).]
+61. [DIŠ KIMIN (NA ina KI.NU₂-šu₂)] IGI.MEŠ-šu₂ ER₂ i-ar₂-ra-a [DINGIR-šu₂ un-ni-ni-šu₂ TI-qe₂]
+   #note: The number of this omen is tentative. The reconstructed text follows the structure of NinNA1 which always indicates repetition by @akk{KIMIN}. Omen 61 has a parallel in another @i{Šumma ālu} Tablet that also concerns the man at his sleeping place: @akk{[DIŠ NA ina KI.NU₂-šu₂ IGI.MEŠ-šu₂] ER₂ i-ar₂-ra-a DINGIR-šu₂ un-ni-ni-šu₂ TI-qe₂}. This Tablet is not yet placed within the series, and the numbering of its omens is uncertain.
+   #tr.en: If ditto (a man at his sleeping place) his eyes “vomit” tears: [his god will accept his prayers.]
+a+1. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ZI-ma i]t-til la-le-e [...]
+   #note: For a similar protasis, see omen 56. For the reconstruction with @i{tebû} as the first verb of the protasis in this and the following omens, see the note on omen a+5. The topic of the section is most likely sleepwalking.
+   #tr.en: [If ditto (a man at his sleeping place) gets up and l]ies down (again): wealth [...]
+a+2. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ZI-ma (x) N]U i-dab-bu-ub [...]
+   #note: For the reconstruction with @i{tebû} as the first verb of the protasis in this and the surrounding omens, see the note on omen a+5. The topic of the section is most likely sleepwalking.
+   #tr.en: [If ditto (a man at his sleeping place) gets up, but (...) does n]ot speak: [...]
+a+3. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ZI-ma ...-s]u? DAB-at KUR₂ [...]
+   #note: For the reconstruction with @i{tebû} as the first verb of the protasis in this and the surrounding omens, see the note on omen a+5. The topic of the section is most likely sleepwalking.
+   #tr.en: [If ditto (a man at his sleeping place) gets up and] seizes h[is(?) ...]: an enemy [...]
+a+4. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ZI-ma (x)] x#-ta₅ GU₇ KA-šu₂ uš-tab-bal me-[si-ru? ...]
+   #note: If the reconstruction with the noun @i{mēsiru} is right, either @akk{GAR-šu} or @akk{IGI-mar} is to be expected as verb. For the reconstruction with @i{tebû} as the first verb of the protasis in this and the surrounding omens, see the note on omen a+5. The topic of the section is most likely sleepwalking.
+   #tr.en: [If ditto (a man at his sleeping place) gets up and] eats ... while moving his mouth: hard [times ...]
+a+5. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ZI-ma A]N.TA i-kaš-šu-uš GIG [...]
+   #note: Cf. @bib{RN2720@462} sub @i{kašāšu} II “massig werden” and @bib{RN2721@K, 287} sub @i{kašāsu} B (@i{ikaššuš} “feels tired(?)”). @bib{RN2407@461} points out that @i{kašāšu} is a “krankhafter Vorgang nach dem Aufstehen”. @bib{laos7-3@68} suggest the translation “to feel dizzy(?)”. The use of @i{kašāsu} implies the action of getting up from bed for the protasis, which suggest the reconstruction with @akk{ZI-ma}. As the whole section probably deals with sleepwalking, @i{kašāšu} is translated here with “to be unstable” instead of “to feel dizzy”.
+   #tr.en: [If ditto (a man at his sleeping place) gets up and the up]per part is unstable: illness [...]
+a+7. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ...] TAG.MEŠ KI-šu₂ [...]
+   #tr.en: [If ditto (a man at his sleeping place)] is rubbing [...:] with him [...]
+a+8. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ...] ŠUB.ŠUB NU.MEŠ-šu₂ {munus}U[Š₁₁.ZU DU₃? ...]
+   #tr.en: [If ditto (a man at his sleeping place)] keeps throwing out(?) [...]: a wi[tch will fashion(?)] figurines of him [...]
+a+9. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ...] ŠUB.ŠUB NU.MEŠ-šu₂ ša₂ I[M ... DU₃? ...]
+   #tr.en: [If ditto (a man at his sleeping place)] keeps throwing out(?) [...: ... will fashion(?)] figurines of him made of cl[ay ...]
+a+10. [DIŠ KIMIN (NA ina KI.NU₂-šu₂)] KA-šu₂ i-lam-ma-am NU.MEŠ-šu₂ ša₂ GA[B.LAL₃ ... DU₃? ...]
+   #tr.en: [If ditto (a man at his sleeping place),] his mouth is chewing: [... will fashion(?)] figurines of him made of w[ax ...]
+a+11. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) (...) SA]G.DU-su u₂-lap-pat ILLAT NU x# [...]
+   #tr.en: [If ditto (a man at his sleeping place) (...)] is rubbing his [he]ad: he does not [...] support.
+a+12. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ... Z]AG GAR.MEŠ ER₂ [...]
+   #tr.en: [If ditto (a man at his sleeping place), ...] are placed on the [ri]ght: wailing [...]
+a+13. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ... G]UB₃ GAR.MEŠ ki-lu₄ I.BI₂.[ZA ...]
+   #tr.en: [If ditto (a man at his sleeping place), ...] are placed on the [l]eft: imprisonment, loss[es ...]
+a+14. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ...] ana KI uš-qa₂-lil IBILA-šu₂ [...]
+   #tr.en: [If ditto (a man at his sleeping place), ...] hangs down to the ground: his heir [...]
+a+15. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ...] ana SAG GIŠ.NU₂ uš-qa₂-lil BIR-a[h ...]
+   #tr.en: [If ditto (a man at his sleeping place), ...] hangs down to the head-part of the bed: dispers[al of ...]
+a+16. [DIŠ KIMIN (NA ina KI.NU₂-šu₂)] ŠU.2-šu₂ in-ne₂-eṣ-la me-ne₂-šu-tu₄ [...]
+   #tr.en: [If ditto (a man at his sleeping place),] his two hands become slow of movement: weakness [...]
+a+17. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) ZI]-ma GUR-ma NU₂-ma NU ZU x# x# [...]
+   #tr.en: [If ditto (a man at his sleeping place) gets up], turns around and lies down again and does not realize it: ... [...]
+a+18. [DIŠ KIMIN (NA ina KI.NU₂-šu₂) TUG₂-s]u? ik-ki-is u[l-...]
+   #tr.en: [If ditto (a man at his sleeping place)] tears [hi]s(?) [blanket:] ... [...]
+a+19. [DIŠ NA ina ṣa-la]-li TUG₂-su ana ZAG is-suh [...]
+   #tr.en: [If a man, while sleepi]ng, removes his blanket to the right: [...]
+a+20. [DIŠ KIMIN (NA ina ṣa-la-li TUG₂-su)] ana GUB₃ is-suh [...]
+   #tr.en: [If ditto (a man, while sleeping,)] removes [(his blanket)] to the left: [...]
+a+21. [DIŠ KIMIN (NA ina ṣa-la-li TUG₂-su)] ana re#-ši#-šu# is-suh [...]
+   #tr.en: [If ditto (a man, while sleeping,)] removes [(his blanket)] to his head: [...]
+a+22. [DIŠ KIMIN (NA ina ṣa-la-li TUG₂-su)] ana š[e-pi-šu i]s-suh [...]
+   #tr.en: [If ditto (a man, while sleeping,) re]moves [(his blanket)] to [his] fe[et: ...]
+a+23. [DIŠ KIMIN (NA ina ṣa-la-li TUG₂-su) ...] MIN (is-suh?) [...]
+   #tr.en: [If ditto (a man, while sleeping,)] ditto (removes?) [(his blanket) ...]
+a+24. [DIŠ ...] x# [...]
+   #tr.en: [If ...] ... [...]
+a+25. [DIŠ N]A? ina E₂ x# [... I]GI? [...]
+   #note: The reconstruction of this and the following omens is tentative for two reasons. 1) The placement of NinNAEx3 r 19–21 is uncertain. The first omen introduces a new topic that must be placed before the next single ruling (see omen a+27). 2) It is unclear whether NinNA1, NinNA3, and NinNAEx3 overlap. If these omens are all separate and do not overlap, the gap at the beginning of the reverse would be reduced.
+   #tr.en: [If a m]an(?) [s]ees(?) ... [...] in the house [(...): ...]
+a+26. [DIŠ M]IN x# [... I]GI? [...] x#
+   #note: The reconstruction of the last lines is tentative, see the note on omen a+25.
+   #tr.en: [If di]tto (a man in the house?) [s]ees [...]: ...] ...
+a+27. [DIŠ MI]N [...] x# IGI#
+   #note: The reconstruction of the last lines is tentative, see the note on omen a+25.
+   #tr.en: [If dit]to (a man in the house?) [...:] he will experience [...] ...
+a+28. [DIŠ ...] x#-an
+   #tr.en: [If ...] ...
+a+29. [DIŠ ...] si#
+   #tr.en: [If ...] ...
+a+30. [DIŠ ...]-su
+   #tr.en: [If ...] him.
+a+31. [DIŠ ...]-su
+   #tr.en: [If ...] him.
+a+32. [DIŠ ...] x#
+   #tr.en: [If ...] ...
+a+33. [DIŠ ...] x#
+   #tr.en: [If ...] ...
+a+34. [...]
+a+35. [...]
+a+36. [...]
+a+37. [DIŠ ...] x# [...]
+   #tr.en: [If ...] ... [...]
+a+38. DIŠ NA ina UR₂-šu₂ MUŠ IGI di [...]
+   #tr.en: If a man sees a snake in his lap: ... [...]
+a+39. DIŠ NA ina UR₂-šu₂ GIR₂.TAB IGI za m[u ...]
+   #tr.en: If a man sees a scorpion in his lap: ... [...]
+a+40. DIŠ NA ina UR₂-šu₂ MUŠ.DIM₂.GURUN.NA IGI mi [...]
+   #tr.en: If a man sees a gecko in his lap: ... [...]
+a+41. [DIŠ NA ina UR₂-šu₂ lu M]UŠ lu GIR₂.TAB IGI-ma iš-šuk-šu₂ UŠ₂ [ina E₂ NA? U]Š₂
+   #tr.en: [If a man] sees [either a s]nake or a scorpion [in his lap] and it bites him: a deadly ill person [will] die [in the man’s house(?).]

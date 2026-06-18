@@ -1,0 +1,62 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Ḫattuša (Boğazköy)
+recension: Anatolian periphery
+counting: line
+topic: prognosis (death/recovery), fever, hands/feet, face, nose-breath, eyes; Hand-of-DN diagnoses (Šulak, rābiṣu, Ištar, ghost)
+series: pre-canonical Late Bronze Age diagnostic omens; the largest Ḫattuša tablet (Tafel A); colophon ul qati 'not finished' shows the omens were already in a tablet series (Wilhelm 1994:4)
+canonical_parallel: many individual entries parallel canonical Sakikkû/TDP (Wilhelm 1994 commentary cross-refs TDP throughout); cf. Schmidtchen 2021 concordance
+edition: Wilhelm 1994, StBoT 36, 21-33; Tafel A = KUB 37,193 (+) KBo 36,51 (+) KBo 36,50 + KUB 34,6 (Büyükkale)
+dating: second half of the Hittite Empire period (13th century BCE), by paleography (Wilhelm 1994:5-8). Counted here as Middle Babylonian (chronological horizon), western/Anatolian periphery.
+note: >
+  Transliteration after Wilhelm's sign-level Umschrift (2010... 1994:21-23),
+  directly scoreable. AKKADIAN ONLY: the Hittite and Luwian interlinear
+  GLOSSES (marked \\ in the edition) are OMITTED, since they are not Akkadian.
+  Written by Hittite-school scribes; the syllabary shows the peripheral
+  ('Randgebiete') values (Wilhelm 1994:9), and symptom-protases are spelled
+  syllabically where Babylonian uses logograms (e-em not KÚM, kaṣ-ṣí not SED).
+  Diagnoses stay logographic (BA.ÚŠ, ŠU {d}DN). Logograms uppercase, syllabic
+  lowercase, {} determinative, [] restoration, x illegible. counting:line is
+  used only for segmentation; the LDI is a token ratio, independent of it.
+  Heavily fragmentary; only preserved Akkadian lines are given.
+---
+
+@obverse
+1. še-pa-a-šu e-em-ma qá-ta-[a-šu ka-ṣa-a]
+2. i-te-eb-bi
+3. ul-tu UD 5.KAM mu-ru-us-s[u pa-ṭá-a-ar] mu-ur-ṣí
+4. mu-ru-us-su i-na si-mi-ta-a-an [ṣa]-bi-is-s[u] ma-ḫi-iṣ [BA.ÚŠ]
+5. pa-nu-šu iṣ-ṣa-nu-un-du₄ i-na re-eš mu-ši la-pí-i[t] iš-tu
+6. UD 5.KAM UD 10.KAM i-na zu-um-ri-šu ma-ḫi-iṣ zu-ú-ta ir-ta-na-aš-ši DINGIR-šu it-ti-šu
+7. i-na UD 3.KAM [BA.ÚŠ]
+8. u ma-gal i-dáb-bu-ub ŠU KI [BA.ÚŠ]
+9. i-na mu-ši ma-ru-uṣ i-na še-er-ti ba-li-iṭ ú-ša-an-ša
+10. e-mi-it-ta-šu ta-ab-ka-at ŠU {d}Šu-la-ak
+11. e-mi-it-ti pa-ag-ri-šu ka-la-a-ma ta-ab-ka-at da-ba-ba la-a i-le-e'-e
+12. la-a i-le-e'-e ŠU {d}Šu-la-ak ra-bi-iṣ mi-ši-it-ti ma-ḫi-iṣ u a-ši-pu a-na [bulluṭi-šu]
+13. [qí-i-ba l]a-a i-ša-kan
+14. pa-nu-ú-šu ma-aq-tu-ma i-ta-na-aš-ša-a-aš mu-ur-ṣu i-ri-ik-šu-ma pa-nu-šu
+15. ia-a-ar ap-pí-šu ša e-mi-it-ti kaṣ-ṣí ša GÙB e-mi-im na-kap-ta-šu
+16. ia-a-ar ap-pi-šu ša su-me-li kaṣ-ṣí ša e-mi-it-ti e-em na-kap-ta
+17. ma-ḫi-iṣ
+18. ša-a-ar ap-pí-šu ki-la-al-lu-u
+19. ša-a-ar ap-pí-šu ki-la-al-lu-u
+20. ša-a-ar ap-pí-šu ki-la-al-lu-u
+21. qé-re-eb É-ti
+22. ša-a-ar ap-pí-šu
+
+@reverse
+3. e-na-a-šu gal-ta a-ka-li-šu ú-uk-ka-am u a-ša-ab-šu la
+4. ša e-mi-it-ti ṣú-un-dur BA.ÚŠ
+5. e-na-a-šu da-mi ma-la-a BA.ÚŠ e-na-a-šu qa-du-ti sà-mi ma-a-li
+6. e-na-a-šu it-ta-na-pal-ka₄-a BA.ÚŠ e-na-a-šu bur-ka-a-šu ke-er-ra-a-šu
+7. mi-it-ḫa-ri-iš ik-ka-la-a-šu ul-tu mu-ra-su it-ta-ab a-na
+8. tirik ša-me-e BA.ÚŠ
+9. ša su-me-e-li i-kap-pa-aṭ kat-ma-at-ma la-a i-pa-at-ti BA.ÚŠ
+10. SAG.DU-šú qa-ta-a-šu se-pa-a-šu mi-it-ḫa-ri-iš ik-ka-la-šu pu-šu a-na at-me-e da-an
+11. ŠÀ-šu i-te-ne-el-la-a lu-'a-a-tu šú ŠU [{d}Ištar BA.ÚŠ]
+14. sa-a-mu ik-ka-la-šu pa-ṭa-a-ar mu-ur-ṣí
+15. UD 10.KAM mu-ur-ṣu
+17. UD 5.KAM UD 10.KAM da-mu a-na pí-šu ka-aṣ-ṣa-na il-la-k[u]
+18. ú-ul qa-ti

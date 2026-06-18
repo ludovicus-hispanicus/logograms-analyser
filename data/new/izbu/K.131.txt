@@ -1,0 +1,102 @@
+---
+genre: izbu omens
+period: Neo-Assyrian
+provenance: Kuyunjik
+publication: eBL fragment K.131; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Tablet 3 (human births)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@obverse
+1. BE MUNUS U₃.TU-ma GEŠTUG UR.MAH GAR LUGAL KALA.GA ina KUR GAL₂-ši
+2. BE MUNUS U₃.TU-ma GEŠTUG 15-šu₂ NU GAL₂ U₄ NUN TIL-MEŠ
+3. BE MUNUS U₃.TU-ma GEŠTUG 150-šu₂ NU GAL₂ U₄ NUN GID₂.DA-MEŠ
+4. BE MUNUS U₃.TU-ma GEŠTUG-MIN-šu₂ NU GAL₂-MEŠ BAD₄ ina KUR GAL₂-ma KUR TUR
+5. BE MUNUS U₃.TU-ma GEŠTUG 15-šu₂ TUR E₂ LU₂ BIR-ah
+6. BE MUNUS U₃.TU-ma GEŠTUG 150-šu₂ TUR E₂ LU₂ DAGAL-iš
+7. BE MUNUS U₃.TU-ma GEŠTUG.MIN-šu₂ TUR-MEŠ E₂ LU₂ UKU₂-in
+8. BE MUNUS U₃.TU-ma GEŠTUG 15-šu₂ ha-az-mat E₂ LU₂ BIR-ah
+9. BE MUNUS U₃.TU-ma GEŠTUG 150-šu₂ ha-az-mat E₂ EN DU₁₁-šu₂ BIR : E₂ LU₂ DAGAL-iš
+10. BE MUNUS U₃.TU-ma GEŠTUG-MIN-šu₂ hu-uz-zu-ma E₂ LU₂ lu-up₂-nu DAB-bat
+11. BE MUNUS U₃.TU-ma GEŠTUG 15-šu₂ ina TE-šu₂ TE-ha-a-at {lu₂}LIL ina E₂ U₃.TU
+12. BE MUNUS U₃.TU-ma GEŠTUG 150-šu₂ ina TE-šu₂ TE-ha-a-at SAG.KAL ina E₂ LU₂ U₃.TU
+13. BE MUNUS U₃.TU-ma GEŠTUG.MIN-šu₂ ina TE-šu₂ GAR-MEŠ KUR BI BIR SIG₅-ša₂ TAG₄-ši
+14. BE MUNUS U₃.TU-ma GEŠTUG 15-šu₂ uq-qa₂-at {lu₂}LIL ina E₂ LU₂ U₃.TU
+15. BE MUNUS U₃.TU-ma GEŠTUG 150-šu₂ uq-qa₂-at SAG.KAL ina E₂ LU₂ U₃.TU
+16. BE MUNUS U₃.TU-ma GEŠTUG 15#-šu₂ ina i-si-šu₂ KI.TA-ma GAR IBILA LU₂ E₂ LU₂ BIR-ah
+17. BE MUNUS U₃.TU-ma GEŠTUG 150#-šu₂ ina is-si-šu₂ KI.TA-ma GAR IBILA LU₂ E₂ NIGIN-[ar₂]
+18. [BE] MUNUS U₃.TU-ma GEŠTUG.MIN-šu₂ ina ZAG GAR-MEŠ-ma ša₂ GUB₃ NU GAL₂ DINGIR-MEŠ šab-su-tu₄ ana KUR# GUR#-MEŠ-nim-[ma]
+19. ($___$) KUR DAG ne-eh-ta₅ DUR₂-ab#
+20. [BE MUNUS U₃.T]U-ma 2 GEŠTUG-šu₂ ina GUB₃ GAR-MEŠ-ma ša₂ ZAG NU GAL₂ GALGA KUR BIR-a[h]
+21. [BE MUNUS U₃.TU]-ma GEŠTUG ZAG-šu₂ GAR-ma# ša₂# GUB₃# NU GAL₂# DINGIR.[ME] šab-su-tu₄ ana KUR# GUR-MEŠ-[nim-ma]
+22. [ ($___$) KUR] DAG# ne-eh-ta₅ DUR₂-[ab]
+23. [BE MUNUS U₃.TU-ma GEŠTUG] GUB₃-šu₂ GAR-ma ša₂ ZAG NU GAL₂ KUR TEŠ₂.BI BIR-ah
+24. [BE MUNUS U₃.TU-ma GEŠTU]G.MIN-šu₂ ku-up-pu-ṣa sa-a-ar#
+25. [BE MUNUS U₃.TU-ma GEŠTU]G.MIN-šu₂ ina nak-kap-ti-šu₂ GAR-MEŠ LUGAL ŠU₂ ina KUR GAL₂-[ši]
+26. [BE MUNUS U₃.TU-ma] KIR₄ MUŠEN GAR KUR BI ŠUB-[di]
+27. [BE MUNUS U₃.TU-ma] KIR₄ IR₇.SAG{mušen} GAR KUR BI TUR-[ir]
+28. [BE MUNUS U₃.TU-ma K]IR₄ ŠU.LU₂{mušen} GAR TIL BAL KUR BI TUR : [BIR-ah]
+29. [BE MUNUS U₃.TU-ma KIR₄] {d}LU₂.HUŠ.A GAR ṭam#-ta#-tu₄ TIL [BAL-e]
+30. [BE MUNUS U₃.TU-ma KIR₄-š]u₂ NU TUK NIN E₂# [UŠ₂]
+31. [BE MUNUS U₃.TU-ma KIR₄ u na-hi-ri NU TUK KUR LUGAL ŠA₃.E₂.GAL-ME-ša₂] TAG₄#-MEŠ#-[šu₂-ma TUR-ir]
+32. [BE MUNUS U₃.TU-ma na-hi-ir 15-šu₂ NU GAL₂ na-z]a-qu# GAR-šu₂
+33. [BE MUNUS U₃.TU-ma na-hi-ir 150-šu₂ NU GAL₂ Š]A₃.BI#.DUG₃.GA# GAR-šu₂
+34. [BE MUNUS U₃.TU-ma na-hi-ra-šu₂ NU GAL₂-MEŠ KUR] BAD₄# DAB#-bat# E₂ LU₂ BIR-ah
+35. [BE MUNUS U₃.TU-ma la]-hu#-[šu₂ NU GAL₂-ME]Š U₄-MEŠ NUN TIL-MEŠ E₂ BI BIR-ah
+36. [BE MUNUS U₃.TU-ma] la#-hu#-šu₂# KI.TA# NU GAL₂-MEŠ mut-ta-at KUR-ia KUR₂ TUM₃
+37. [BE MUNUS U₃.TU-ma ZAG].GA-šu₂# NU GAL₂ E₂ LU₂ BIR-ah
+38. [BE MUNUS U₃.TU-ma] ZAG.GA#-šu₂# ku-ri SIG₅ GAR-šu₂
+39. [BE MUNUS U₃.TU-ma pi₂]-a# NU# GAL₂# KUR BAD₄# DAB-bat# EN E₂ BA.UŠ₂
+40. [BE MUNUS U₃.TU-ma KA]-šu₂ pi₂-hi URU# BAL#-ma EN-šu₂ GAZ# KUR a#-šib-tu₄ DAB-bat
+41. [ ($___$) KUR-ad₂ BURU₁₄ KUR KUR₂ GU₇] KIMIN SU.GU₇# GAL₂-ši
+42. [BE MUNUS U₃.TU-ma KA-šu u] GIŠ₃#-šu# NU# GAL₂# {giš}TUKUL# LUGAL# i-ra-bi-ṣu KUR BI ik-kaš-šad-ma#
+43. [ ($___$) ...]-a# KIMIN# li#-li#-id MUNUS BI NU GAL₂#
+44. [BE MUNUS U₃.TU-ma NUNDUM-su] AN.TA# KI.TA ir-kab SIG₅ GAR-ši#
+45. [BE MUNUS U₃.TU-ma NUNDUM-su] KI.TA AN.TA ir-kab lu-up₂-nu E₂ LU₂ DAB-[bat]
+46. [BE MUNUS U₃.TU-ma NUNDUM-MEŠ-šu] GAL₂#-MEŠ# KUR BAD₄ DAB-bat E₂ LU₂ BIR#-ah#
+47. [BE MUNUS U₃.TU-ma ZAG-šu₂ ku-ri]-a#-at LU₂ BI i-[šar₃-ru₂]
+48. [BE MUNUS U₃.TU-ma GUB₃-šu₂ ku-ri]-a#-at LU₂ BI# [UKU₂-in]
+49. [BE MUNUS U₃.TU-ma ZAG-šu₂ u GUB₃-šu₂ ku-ri]-a#-at LU₂ BI# [UKU₂-in]
+50. [...] x E₂# [...]
+@reverse
+1'. [...] x x [...]
+2'. [BE MUNUS U₃.TU-ma GIŠ₃-šu₂ u ŠIR-MEŠ-šu₂ NU GAL₂-MEŠ KUR BI ŠA₃.HUL IG]I MUNUS BI nam#-ra#-[ṣa IGI]
+3'. [BE MUNUS U₃.TU-ma GIŠ₃ u GAL₄.LA GAR KUR ŠA₃.HUL IG]I MUNUS.PEŠ₄ x x [...]
+4'. [BE MUNUS U₃.TU-ma GAL₄.LA u ŠIR TUK : NU TU]K MUNUS.PEŠ₄-MEŠ [ša₃ ŠA₃-ši-na ŠUB-ME-ni]
+5'. [BE MUNUS U₃.TU-ma ŠIR-ME-šu₂ NU GAL₂-ME]Š URU BI TUR-ma# NIN# [E₂ NU SI.SA₂]
+6'. [BE MUNUS U₃.TU-ma GAL₄.LA NU TU]K su-un-qu u BAD₄ KUR DAB#-bat# E[N E₂ NU SI.SA₂]
+7'. [BE MUNUS U₃.TU-ma GAL₄.LA NU GAR] NU ŠE.ŠE.GA ina KUR GAL₂-ši NIN# E₂# NU# [SI.SA₂]
+8'. [BE MUNUS U₃.TU-ma GU.DU-s]u pe-ha-at KUR su-un-qam IGI#-mar#
+9'. [BE MUNUS U₃.TU-ma GU.DU]-su NU GAL₂ MUNUS BI ina ZARAH DU.DU#-ak#
+10'. [BE MUNUS U₃.TU-ma UR₂ 1]5-šu₂ NU GAL₂ KUR NUN ZAH₂
+11'. [BE MUNUS U₃.TU-ma UR₂] 150-šu₂ NU GAL₂ KUR KUR₂ ZAH₂
+12'. [BE MUNUS U₃.TU-ma ša₂-pu-l]i u GIŠ₃ NU TUK E₂ LU₂ BIR#-ah#
+13'. [BE MUNUS U₃.TU-ma GIR₃ 15]-šu₂# NU GAL₂ E₂ BI BIR DU.DU E₂ BI LAL.LAL#
+14'. [BE MUNUS U₃.TU-ma GIR₃ 15]0-šu₂ NU GAL₂ E₂ EN# DU₁₁-šu₂ BIR# BURU₁₄ KUR KUR₂ GU₇
+15'. [BE MUNUS U₃.TU-ma GI]R₃-MEŠ#-šu₂ NU GAL₂#-MEŠ# tal₂#-la#-ka#-at KUR# TAR#-as E₂ BI BIR
+16'. [BE MUNUS U₃.TU-ma GI]R₃ 15-šu₂ ku-ub#-bu#-la#-at E₂ BI NU SI.SA₂
+17'. [BE MUNUS U₃.TU-ma GI]R₃ 150-šu₂ ku-ub#-bu#-la#-at E₂ BI ana IGI#-šu₂# DU#-ak#
+18'. [BE MUNUS U₃.TU-ma GIR₃] 15-šu₂ ša₂-bu-lat E₂ BI NU# SI.SA₂#
+19'. [BE MUNUS U₃.TU-ma GIR₃ 15]0-šu₂ ša₂-bu-lat E₂ BI ana# IGI#-šu₂# DU#-ak#
+20'. [BE MUNUS U₃.TU-ma GIR₃ 15-šu₂] GIM# GIR₃# BAL.GI{ku₆} NIG₂.ŠU KUR-ka KUR₂ i#-maš#-ša₂#-ʾ#
+21'. [BE MUNUS U₃.TU-ma GIR₃ 150-šu₂ GIM GIR₃ BAL.GI{ku₆} NIG₂.ŠU] KUR KUR₂ ta-maš#-ša₂#-ʾ#
+22'. [BE MUNUS U₃.TU-ma GIR₃.MIN-šu₂ u ŠU.MIN-šu₂ GIM ša₂ BAL.GI{ku₆} NUN hi-ṣib] KUR#-šu₂# [(x)] GU₇
+27'. [BE MUNUS U₃.TU-ma GIR₃-šu₂ 1-at-ma it]-ti# pag#-ri#-[šu₂ NIG₂.HA.LAM.MA KUR]
+28'. [BE MUNUS U₃.TU-ma GIR₃-šu₂ 1-at-ma i]t-ti LI.DUR-šu₂ rak#-sat# ŠA₃.HUL# IGI# E₂.GAL# EN#-šu₂#-[ma KUR-ad E₂ BI BIR-ah]
+29'. [BE MUNUS U₃.TU-ma GIR₃-šu₂ 1-at]-ma it-ti LI.DUR-šu₂ rak-sat-ma qa₂-qa₂-ra NU i#-[kaš-šad]
+30'. [ ($___$) KUR ŠA₃.H]UL IGI E₂ BI BIR-a[h]
+31'. [BE MUNUS U₃.TU-ma GI]R₃-MEŠ-šu₂ 2 pag-ru-šu₂ ŠEŠ ana ŠA₃ ŠEŠ KU-MEŠ NIG₂.HA.LAM.MA NU KUR GA[R-an]
+32'. [BE MUNUS U₃.TU-ma GI]R₃-MEŠ-šu₂ GIŠ₃ u GAL₄.LA GAR KUR ŠA₃.HUL IGI-mar EN MAN-ma TUK-[ši]
+33'. [BE MUNUS U₃.TU-ma] a#-si-id 15-šu₂ NU GAL₂ KUR NUN ZA[H₂]
+34'. [BE MUNUS U₃.TU-ma] a-si-id 150-šu₂ NU GAL₂ KUR KUR₂ ZA[H₂]
+35'. [BE MUNUS U₃.TU]-ma ma-la-lu-šu₂ GAL₄.LA KUR ŠA₃.HUL IGI-mar E₂ BI AL.BIR
+36'. [BE MUNUS U₃].TU-ma ul-la-nu-um-ma SAG.DU-su ši-ba-a-ti ma-li U₄.ME NUN TIL-MEŠ
+37'. [ṭup-p]i 3 KAM₂ BE iz-bu 1 UŠ 40 AM₃ MU.ŠID.BI.IM
+38'. E₂.GAL {m}AN.ŠAR₃-ba-ni-IBILA LUGAL ŠU₂ LUGAL KUR aš-šur{ki}
+39'. ša {d}AG u₃ {d}taš-me-tu₄ GEŠTUG.MIN# ra-pa-aš₂-tu₄ iš-ru-ku-šu₂
+40'. i-hu-uz-zu IGI.MIN na-mir-tu₄ ni-siq ṭup-šar-ru-ti
+41'. ša# ina LUGAL-MEŠ-ni a-lik mah-ri-ia šip-ru šu-a-tu la i-hu-uz-zu
+42'. ne₂-me-eq {d}AG ti-kip sa-an-taq-ki ma-[la] ba-aš₂-[mu]
+43'. ina DUB-MEŠ-ni aš₂-ṭur as-niq [ab]-re-e-ma
+44'. a#-na ta-mar-ti ši-ta-si-ia qe₂-reb E₂.GAL#-ia u₂-kin

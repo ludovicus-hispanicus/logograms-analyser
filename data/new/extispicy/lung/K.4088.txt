@@ -1,0 +1,32 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: BE
+topic: lung
+publication: eBL K.4088 (CT 31 pl. 37); Bārûtu ch. 9, Šumma ḫašû Tablet 8
+feature: lung (SAGŠU MUR, MU SAG MUR, leʾtu); parallel to K 205 (no. 51)
+note: eBL 15/150 normalized to ZAG/GUB₃
+---
+
+@obverse
+1'. [...] UN-MEŠ [...]
+2'. [...] E₂ KUR₂-ir [...]
+3'. [...] I GAR SAG [...]
+4'. BE SAG UZU MUR ud-duḫ GAR [...]
+5'. BE bi-rit SAGŠU MUR u MU SAG MUR SIG₃-iṣ x [...]
+6'. BE le-et GUB₃ GAR-at₂ ŠI.ŠI-e KUR₂ a-x-[...]
+7'. BE ina ZAG MUR 2-ta le-ta-a-tu₄ GAR.MEŠ uš? [...]
+8'. BE ina GUB₃ MUR 2-ta le-ta-a-tu₄ GAR.MEŠ uš? [...]
+9'. BE le-et ZAG le-et GUB₃ GAR.MEŠ [...]
+10'. BE SAG SAGŠU MUR BAR-ma SIG₃? [...]
+11'. BE ZAG NUMUN-at SAGŠU MUR [...]
+12'. ina {giš}TUKUL x [...]
+13'. BE GUB₃ NUMUN-at SAGŠU MUR DU₈ KUR [...]
+14'. BE bi-rit SAGŠU MUR MU SAG MUR [...]
+15'. BE bi-rit SAGŠU MUR u ŠU.SI MUR [...]
+16'. BE SAG SAGŠU MUR BAR-ma SIG₃? [...]
+17'. BE SAG SAGŠU MUR u SAGŠU#? [...]
+18'. BE SAGŠU MUR GIM KA#? [...]
+19'. BE SAGŠU MUR GIM KA#? [...]
+20'. BE SAGŠU MUR GIM KA#? [...]

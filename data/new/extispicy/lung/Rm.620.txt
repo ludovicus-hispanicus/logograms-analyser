@@ -1,0 +1,22 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: BE
+topic: lung
+publication: Rm 620 (CDLI P424862); De Zorzi 2021, WdO 51/2, 187-190 (new edition); Bārûtu ch. 9, Šumma ḫašû
+feature: ubān ḫašî qablītu (Middle Finger), ruqqi ḫašî (Narrowing), muštašnintu (Leveller)
+note: Neo-Assyrian clay lung model; omen A5 = Šumma ḫašû Tablet 13:69'; eBL 15/150 normalized to ZAG/GUB₃
+---
+
+@obverse
+$ ventral orientation labels: ZAG U MUR MURUB₄ / GUB₃ U MUR MURUB₄ = right/left side of the Middle Finger; KUR MUR šá ZAG / KUR MUR [šá] GUB₃ = Palace of the right/left lung
+1. BE ŠU.SI MUR MURUB₄ ina MAŠ.GAN₂-ša₂ saḫ-rat-ma IGI.MEŠ-[ša₂] KUR MUR šá GUB₃ IGI.MEŠ EGIR LUGAL KUR NU UR₅-tu₂ DU-ak šum₄-ma ana KASKAL LUGAL u IDIM.MEŠ-šu₂ ŠE.GA.MEŠ URU BAD₄ KUR₂ NIGIN-ma DAB-bat DAM NA E₂-su u₂-dan-na-an DINGIR.MEŠ KUR₂ ana N[UN] NIGIN.ME[Š]
+#tr.en: If the Middle Finger of the lung turns around in its place and its front parts face the Palace of the left lung — a land not belonging to the king will follow him; (same protasis:) on campaign the king and his courtiers will be in agreement; you will surround and seize an enemy fortress; the man's wife will strengthen his house; the gods of the enemy will side with the prince. (= Šumma ḫašû Tablet 13:69')
+
+@reverse
+$ dorsal orientation labels: [ANŠE MUR šá ZAG DU₃.A.B]I ZAG / [ANŠE MUR šá GUB₃ DU₃].A.BI GUB₃ = the Saw-horse of the right/left lung is totally right/left
+2. BE SAL.LA MUR šá ZAG [...] x
+#tr.en: If the Narrowing (ruqqi ḫašî) of the right lung [...].
+3. [BE muš-taš-nin-ti ZAG AN.TA-tu₄ GIN-i]k GIR₃ BAR-ti [um-mat ša₂-lim-t]i šum₄-ma LU₂ [ina di-ni₇ UGU ge]-ri-šu₂ GUB-az
+#tr.en: [If the right upper muštašnintu (Leveller) mo]ves — it is a foot-mark (meaning) release; [bulk of reliabili]ty; (same protasis:) the man will prevail over his [adver]sary [in court].

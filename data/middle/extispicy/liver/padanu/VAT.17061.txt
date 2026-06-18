@@ -1,0 +1,36 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Babylon
+tradition: Babylonian
+counting: BE
+publication: VAT 17061 (Bab 34935); eBL
+note: "padanu (the Path, GIR2) section observing the LEFT path turning the gall-bladder (BE GIR2 GUB3 ZE2 BAL-ma...). Middle Babylonian, regular excavation at Babylon — a genuinely southern-Babylonian MB padanu witness (vs VAT 10788, MB-script found at Assur). A Path x gall-bladder hybrid: eBL tentatively classifies it under barutu ch. 6 (Martu), but every protasis leads with GIR2, so it is filed here under padanu. GIR2=path, GIR3=foot, ZE2=gall-bladder, GU.ZA=throne-base."
+---
+
+@obverse
+
+1. BE GIR₂ GUB₃ ZE₂ BAL-ma i-na# MURU₂-šu GIR₃ na-ah-sa₃-at ERIN₂.NI u ERIN₂ KUR₂ iš-te-ni-iš ŠUB#-ut#
+#tr.en: If the left Path turns the gall-bladder and a foot-mark is dislodged in its middle: my army and the enemy army will fall together.
+2. BE GIR₂ GUB₃ ZE₂ BAL-ma i-na ŠUB GU.ZA BAR-tum ŠUB RI.RI.GA# ERIN₂-ka#?
+#tr.en: If the left Path turns the gall-bladder and a cross lies in the throne-base: losses of your army.
+3. BE# GIR₂ GUB₃ ZE₂ BAL-ma {giš#}TUKUL IGI-šu ERIN₂#-ka i#-na# na-ak#-ba-ti-ša# ŠUB
+#tr.en: If the left Path turns the gall-bladder and a weapon-mark faces it: your army will be defeated.
+4. BE GIR₂ GUB₃# ZE₂# BAL-ma {giš}TUKUL UŠ#-šu E[RIN₂ KU]R₂?
+#tr.en: If the left Path turns the gall-bladder and a weapon-mark follows it: the [enemy] army ...
+5. BE GIR₂ GUB₃ ZE₂ BAL-ma EGIR-su₂ DU₈-at ERIN₂ KUR₂ i-na da-al-ti DINGIR#? UŠ#-ma x x
+#tr.en: If the left Path turns the gall-bladder and its rear is split: the enemy army ... at the door of the god ...
+6. BE GIR₂ GUB₃ ZE₂ a-na MURU₂ ZE₂ TE-ma pa-nu-šu ru-qi₂#? IGI-MEŠ x [...] x
+#tr.en: If the left Path approaches the middle of the gall-bladder and its front faces far away: ...
+7. BE GIR₂ GUB₃ ZE₂ GILIM-ma EDIN ŠU.SI MURU₂#? IGI KUR₂ i-na ne₂-ep-t[e-a GU₄.UD-i]ṭ?
+#tr.en: If the left Path crosses the gall-bladder and faces the back of the middle Finger: the enemy will attack at the breach(?).
+8. BE GIR₂ GUB₃ ZE₂ TA ŠUB GU.ZA HUR-ma EDIN ZAG ŠU.SI# KUR#?-ud#? x x ka x KUR₂?# qa₂#? ti#? x li
+#tr.en: If the left Path is drawn from the throne-base and reaches the right back of the Finger: ...
+9. BE GIR₂ GUB₃ ZE₂ TA ŠUB GU.ZA HUR-ma SAG# ZE₂# KUR#-ud#-[ma ...] x ERIN₂-MEŠ ud? x [...]
+#tr.en: If the left Path is drawn from the throne-base and reaches the top of the gall-bladder: ... the armies ...
+10. BE GIR₂ GUB₃ ZE₂ TA ŠUB GU.ZA HUR-ma SAG ZE₂ KUR-ud-ma# u₃ BAL-ut UD-M[EŠ ...]
+#tr.en: If the left Path is drawn from the throne-base, reaches the top of the gall-bladder and is turned: the days [...].
+11. BE# GIR₂ GUB₃ ZE₂# TA ŠUB GU.ZA HUR-ma SAG ZE₂ KUD#-u[s ...]
+#tr.en: If the left Path is drawn from the throne-base and the top of the gall-bladder is cut off: ...
+12. [B]E GIR₂# GUB₃# ZE₂ TA# ŠUB GU.ZA HUR-ma SAG ZE₂ il-w[i? ...]
+#tr.en: If the left Path is drawn from the throne-base and encircles(?) the top of the gall-bladder: ...

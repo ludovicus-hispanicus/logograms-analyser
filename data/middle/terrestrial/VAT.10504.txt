@@ -1,0 +1,69 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 6 = VAT 10504 + 10543a + 10763 + 10800. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 5/19/80.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+x [ ]
+DIŠ ANŠE ana G[U₄ TE-ḫi BA]D[4] ina KUR GÁL-ši ZÁḪ K[UR na-zaq KUR]
+DIŠ ANŠE.[K]UR.RA [ana GU₄ T]E-ḫi ZÁḪ KUR na-zaq [KUR]
+DIŠ UR.GI₇ ana KA₅.A [T]E-ḫi 3 MU.MEŠ KI.LAM T[UR-er]
+D[IŠ UR].GI₇ ana [UDU.N]ÍTA TE-[ḫ]i TUR TÙR BIR.BIR É [LÚ]
+D[IŠ LÚ ana UDU].NÍTA TE-ḫi ḪUL I[GI-mar]
+DIŠ [LÚ ana GU₄?] TE-ḫi ÚŠ-ma ina KI ul iq-qe[b-bir]
+DIŠ L[Ú ana ANŠE] TE-ḫi ina [n]a-me-e ik-kam-mu šum₄-ma [ŠU KUR-su]
+DIŠ LÚ [ana ANŠE.KUR.R]A TE-ḫi al-ma-nu-ta₅ NÍG.GIG I[GI-mar]
+DIŠ LÚ ana [UR.GI₇ T]E-ḫi TIL BAL-e KUR T[UR]-i[r]
+DIŠ LÚ ana ŠA[Ḫ T]E-ḫi NÍG.GIG IGI-ma[r]
+DIŠ ŠAḪ ana UR.[GI₇ TE-ḫi] EN É ina qin-ni-šu ZI.[GA]
+x.MEŠ [(0)] ÚŠ.MEŠ
+[DI]Š UR.GI₇ ana ŠAḪ TE-ḫi ] x GÁL-ši N[U ]
+DIŠ UR.BAR.RA ana MAŠ.DÀ TE-ḫi EN [ ] x x [
+DIŠ UR.MAḪ ana UR.BAR.RA TE-ḫi URU [
+DIŠ UR.BAR.RA ana UR.MAḪ TE-ḫi nu-kúr x [
+DIŠ a-na É NA GIDIM KU₄-ub EN [É ÚŠ]
+DIŠ a-na É NA GIDIM KU₄-ma GÙ.MEŠ [NIN É ÚŠ]
+DIŠ i-na É NA GIDIM ana GEŠTUG EN É KU₄ B[IR-aḫ É]
+DIŠ i-na É NA GIDIM ana GEŠTUG DUMU-šu KU₄ A[D.A.NI ÚŠ]
+DIŠ i-na É NA GIDIM ana GEŠTUG DUMU.MUNUS-šú KU₄ A[MA.A.NI ÚŠ]
+DIŠ i-na É NA GIDIM ina EN.NUN.AN.ÚSAN GÙ-s[i LÚ BI ul ul-tab-bar]
+DIŠ i-na É NA GIDIM ina EN.NUN.MURUB₄.B[A GÙ-si KUR-ád ÁŠ TIL u₄-me]
+DIŠ i-na É NA GIDIM ina EN.NUN.UD.ZAL.LE G[Ù-si ARḪUŠ DINGIR ana LÚ GÁL-ši]
+D[IŠ] i-na É NA GIDIM ina AN.BAR₇ GÙ.DÉ.MEŠ [EN É BAD₄ DAB-su]
+[DIŠ] i-na É NA GIDIM ina EN.TE.NA GÙ.DÉ.M[EŠ ]
+[DIŠ G]U₄ ana É NA KU₄-ub ŠUB-e [ ]
+[DIŠ G]U₄ ana É NA KU₄-ma ŠURUN-su [ ]
+[DIŠ G]U₄ ana É NA KU₄-ma GÙ-s[i ]
+[DIŠ GU]₄ ana É NA KU₄ ina SI š[á ]
+[ ] NA GÌR.II.MEŠ-šú EG[IR? ]
+[ ] É [ ]
+DIŠ x [ k]al ina É NA IGI-ir É BI i-ḫa[r-ru-ub]
+DIŠ ina É [N]A A.GEŠTIN.NA iq-li-la e-neš É
+DIŠ ina É NA {giš}I.KUN₄ iz-zi-iq e-neš É
+DIŠ ina É NA {[gi]š}SAG.KUL iz-zi-iq e-neš É
+DIŠ ina É NA {giš}IG is-si e-neš É
+DIŠ ina É NA É.MEŠ uš-qa-ma-am-ma e-neš É
+DIŠ ina É NA KI.UŠ ANŠE.KUR.RA IGI É BI i-ḫar-ru-[u]b
+DIŠ ina É NA KI.UŠ GU₄ IGI É BI i-ḫar-ru-ub
+DIŠ ina É NA K[I.U]Š {d}IM!.DUGUD{mušen} IGI É BI KI.MIN
+DIŠ ina É N[A x.S]AG SI.SÁ ŠÀ.BI DÙG.GA
+DIŠ ina É N[A x (x)] i-gi[r] na-zaq É
+DIŠ ina É NA ḫ[i/i?-ṭu?] u? ḪI.GAR IGI É BI i-ḫar-ru-[ub]
+DIŠ GIDIM ina x [ G]Ù.GÙ-si É BI [ ]
+DIŠ GIDIM x [ ]
+DIŠ GIDIM [ ]
+DIŠ x [ ]
+[ -š]u SAR-ma ba-rì
+[ {I}B]a-ba₆-MU-BA-šá {lú*}ŠÁMAN.LÁ
+[ aš-šu-r]u-ú
+[ {I}x]-MU-PAP {lú*}SANGA!
+[ {lú*}SANGA? (šá) {d}]Ba-ba₆ šá {uru}BAL.TIL
+[ ] x {lú}LUNGA
+[ ] qé-reb {uru}BAL.TIL
+[ ] {d}ŠÀ.ZU
+[ ] x

@@ -1,0 +1,49 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+counting: AŠ
+---
+
+@obverse
+1. AŠ KA₂ E₂.GAL i-šu i-na# ma-az-za-[az] ta#-az-za-as-su₂ i-lum u₂-ša-lam-ka
+#tr.en.: If it has a Palace Gate, in whatever position you stand, the deity will protect you.
+2. AŠ KA₂ E₂.GAL la i-šu ma-tam i#-lu-ša i-zi-bu-ši
+#tr.en.: If it does not have a Palace Gate, the gods will abandon the land.
+3. AŠ KA₂ E₂.GAL ir-ta-pi-iš ir-bu-um a-na E₂.GAL i-ir-ru-ub#
+#tr.en.: If the Palace Gate has become wide, income will enter the Palace.
+4. AŠ KA₂ E₂.GAL sa₃-ni-iq DINGIR e-li LU₂ ša-bu-us
+#tr.en.: If the Palace Gate was fastened, the god will be angry with the man.
+5. AŠ KA₂ E₂.GAL ma-aš-ka-an-šu i-zi-im-ma i-na A₂.GUB₃ ša-ki-in-ma ... i-ka-ša-ad#
+6. AŠ KA₂ E₂.GAL i-na ma-aš-ka-ni-šu la i-ba-aš-ši-ma i-na wa-ar-ka-at a-mu-tim ša-ki-in ma-a-at {lu₂}KUR₂ bi-il-tam i-na-aš-ši-a-ku
+7. AŠ KA₂ E₂.GAL ka-an-šu i-zi-im-ma a-na e-le-nu-um i-te-li-a-am {lu₂}KUR₂-ka u₂-ṣe-he-er-ka pi-a-am ma-di-a-am ta-ša-ka-an-šu
+8. AŠ KA₂ E₂.GAL ka-a-a-nu-um ka-a-a-nu-um i-na A₂ ZI ša-ki-in ka-ab-tu ki-ma be-li-šu i-ba-aṣ-ṣi
+9. AŠ KA₂ E₂.GAL ka-a-a-nu-um ka-a-a-nu-um i-na A₂ GUB₃ ša-ki-in er-ṣe-et {lu₂}KUR₂-ka ta-ta-ab-ba-al
+10. AŠ 2 KA₂ E₂.GAL i-ra-a ša-ak-nu-ma gi-it-ma-lu ru-ba-am i-na bi-ti-šu qa₂-tum i-ṣa-ba-as
+11. AŠ 2 KA₂ E₂.GAL i-ra-a ša-ak-nu-ma bi-ri-šu-nu ku-u₂-um ṣa-bi-it ru-bu-u₂ be-el lu-um ni-šu qa₂-as-su₂ i-ka-aš-ša-ad
+12. AŠ# 2# KA₂# E₂#.GAL# ri#-it-ku-bu ta-aš-ni-in-tum {giš}GU.ZA {giš}GU.ZA i-ta-ab-ba-al
+13. [...] x# x# x# x# x#
+$ lines broken
+@reverse
+$ lines broken
+1'. AŠ# i#-na# x# x# KA₂# E₂#.GAL# e-ri-iš-tum x# x# ka# [...] ša#-al# x# x# [...]
+2'. AŠ i-na ŠA₃ KA₂ E₂.GAL e-ri-iš-tum na-ṣi-ir-a-ka a#-na# ma-at {lu₂}KUR₂ i-x# x# x#
+3'. AŠ i-na si₂-ip-pi A₂ ZI KA₂ E₂.GAL ši-lum na-di i-na e-ri-ib E₂.GAL ep-qu₂
+#tr.en.: If a hole is situated in the right Doorjamb of the Palace Gate, among the palace-enterers there will be @i{epqu}-disease(?).
+4'. AŠ i-na si₂-ip-pi A₂ ZI KA₂ E₂.GAL ši-lum ip-lu-uš-ma uš-te-eb-ri i-na zi-qi₂-it zu-qi₂-qi₂-pi₂ LU₂ i-ma-at
+#tr.en.: If a hole is fully pierced in the right Doorjamb of the Palace Gate, a man will die from the sting of a scorpion.
+5'. AŠ i#-na si₂-ip-pi A₂ GUB₃ KA₂ E₂.GAL ši-lum na-di ni-ki-ip al-pi-im
+#tr.en.: If a hole is situated in the left Doorjamb of the Palace Gate, (it means) the gore of an ox.
+6'. AŠ i-na si₂-ip-pi A₂ GUB₃ KA₂ E₂.GAL ši-lum ip-lu-uš-ma uš-te-eb-ri i-na ni-ki-ip al-pi-im LU₂ i-ma-at
+#tr.en.: If a hole is fully pierced in the left Doorjamb of the Palace Gate, a man will die from the gore of an ox.
+7'. AŠ i-na ŠA₃ KA₂ E₂.GAL ši-lum na-di mi-qi₂-it-ti ru-be₂-e-em
+#tr.en.: If a hole is situated in the middle of the Palace Gate, (it means) fall of the prince.
+8'. AŠ i-na ŠA₃ KA₂ E₂.GAL i-na A₂ ZI ši-rum? na-di pa-ši-it-tum i-na E₂ LU₂ ši-ir-ra-am u₂-še-uṣ-ṣi
+9'. AŠ i-na ŠA₃ KA₂ E₂.GAL i-na A₂ GUB₃ ši-lum na-di ni-šum i-na ta-ar-ba-ṣi {lu₂}i-ik-ka-al
+10'. AŠ i-na SAG KA₂ E₂.GAL ši-lum na-di ni-ki-ip u₂-ba-nim
+11'. AŠ i-na SAG KA₂ E₂.GAL ši-lum ip-lu-uš-ma uš-te-eb-ri i-na ni-ki-ip u₂-ba-nim LU₂ i-ma-at
+12'. AŠ KA₂ E₂.GAL a-na 2 pa-li-iš a-mu-ut x {d!}EN.LIL₂.LA₂ ša nu-ru-um u₂-ṣi-a-šum
+13'. AŠ i-ši-id KA₂ E₂.GAL pa-li-iš pu-su-ra-at nu-ri-im uṣ-ṣi-a-ku
+14'. [AŠ] i-na si₂-ip-pi-it GUB₃ KA₂ E₂.GAL zi-ih-hu-um ša-ki-in
+$ double ruling
+$ end of side

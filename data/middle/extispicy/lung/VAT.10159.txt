@@ -1,0 +1,74 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+counting: BE
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 56 (VAT 10159 = KAR 153)
+feature: ubān ḫašî qablītu (middle lung-finger)
+note: "63 omens (colophon: 1 šuši 3 MU.ŠID.BI.IM); translations in Heeßel 2012"
+---
+
+@obverse
+1'. [ ].MEŠ-šu₂ NU KUR-ad
+2'. [ ] x ta x NUN ina KI.TUŠ.MEŠ-šu ḪULUḪ.MEŠ-ut
+3'. [BE (x) ŠU.SI M]UR MURUB₄ ZAG DU₈-at u₃ SAL.LA MUR ZAG DU₈ ina ŠA₃ u₄-me šu-a-tu IZI ina E₂.GAL MU₂-aḫ
+4'. [BE (x) ŠU.SI M]UR MURUB₄ GUB₃ DU₈-at u₃ SAL.LA MUR GUB₃ DU₈ ina ŠA₃ u₄-me šu-a-tu IZI ina E₂.GAL KUR₂ MU₂-aḫ
+5'. [BE x ŠU.SI M]UR MURUB₄ KI.TA-ma DU₈-er SUḪ₂-u₂ UGU ERIN₂-ia ŠUB-ut
+6'. [BE x ŠU.SI M]UR MURUB₄ KI.TA-ma DU₈-er SUḪ₂-u₂ UGU ERIN₂ KUR₂ ŠUB-ut
+7'. [BE (x) ŠU.SI M]UR MURUB₄ ZAG DU₈-at ZI ŠU.SI PA-at KUR₂ ana ERIN₂-ia ŠUB-ut
+8'. [BE (x) ŠU.SI M]UR MURUB₄ GUB₃ DU₈-at ḫa-at-ta-ka ana KUR₂ ŠUB.MEŠ-ut
+9'. [BE (x) ŠU.SI M]UR MURUB₄ ZAG u₃ GUB₃ DU₈-at a-ši-tu₄ nu-kur-tu₄
+10'. [BE (x) ŠU.SI M]UR MURUB₄ šu-um-ḫur-ta DU₈-at SIG₃-aṣ šap-ri ki-ṣir KUR₂ TI-qe₂ ERIN₂-ni ina KI.TUŠ-ša₂ ŠUB-ut
+11'. [BE (x) ŠU.SI] MUR MURUB₄ šu-qat₃-ma ZAG GAM-at GUB₃ DU₈-at PA-at KUR₂ a-na ERIN₂-ia ŠUB-ut
+12'. [BE (x) ŠU.S]I MUR MURUB₄ šu-qat₃-ma GUB₃ GAM-at ZAG DU₈-at PA-at-ka a-na KUR₂ ŠUB.MEŠ-ut
+13'. [BE (x) ŠU].SI MUR MURUB₄ šu-qat₃-ma ZAG u₃ GUB₃ DU₈-at u₃ {giš}TUKUL ZAG ZI.MEŠ KUR₂ NAM.RA-su ŠUB-šu₂
+14'. [BE (x) ŠU].SI MUR MURUB₄ šu-qat₃-ma ZAG DU₈-at SUḪ₂-u₂ ana ERIN₂-ia ŠUB-ut
+15'. [BE (x) ŠU].SI MUR MURUB₄ šu-qat₃-ma GUB₃ DU₈-at ERIN₂ KUR₂ ina IDIM-ša₂ ŠUB-ut
+16'. [BE (x) Š]U.SI MUR MURUB₄ šu-qat₃-ma ZAG u GUB₃ DU₈-at DUḪ.UŠ [0]
+17'. [BE] ŠU.SI MUR MURUB₄ GAM-ma e-la-at NIG₂.GEŠTU-ša₂ ZAG u GUB₃ DU₈-at DUḪ.UŠ KUR₂ NU IGI-mar [(x)]
+18'. [BE] ŠU.SI MUR MURUB₄ SAG-sa₃ ZAG SUHUŠ-sa₃ GUB₃ DU₈ NA₄ mut-tap-ri-šu UGU NA Š[UB-ut]
+19'. [BE] ŠU.SI MUR MURUB₄ ZAG 2 DU₈-at KAL-an KUR₂ ḪUL-un lib₃-bi ana KASKAL i-di NU DU-ak ERIN₂ MAN ŠUB-ut KUR₂ ina l[i-t]i-šu₂ GUB-az
+20'. BE ŠU.SI MUR MURUB₄ GUB₃ 2 DU₈-at KAL-an LUGAL ŠUB-ti ERIN₂ KUR₂ ERIN₂ MAN ina li-ti-šu GUB-az
+21'. BE ŠU.SI MUR MURUB₄ ZAG u₃ GUB₃ 2 TA.AM₃ DU₈.MEŠ NIN.DINGIR uš-taḫ-ḫa ina {iti}KIN AN-u₂ SUR!-nun!
+22'. BE NIG₂.GEŠTU ŠU.SI MUR MURUB₄ ZAG DU₈ KUR₂ ina ŠA₃ KUR NAM.RA E₃-ṣi u₃-lu ERIN₂-ni {giš}TUKUL.MEŠ-ša₂ i-tab-bak
+23'. BE NIG₂.GEŠTU ŠU.SI MUR MURUB₄ šu-um-ḫur-ta ZAG DU₈-at INIM-at KA×MI ana E₂.GAL KU₄-ub DAM NA ina-ak URU₃-ti NA! E₃!
+24'. B[E! NIG₂.GEŠTU] ŠU.SI MUR MURUB₄ EN 2 DU₈ URU₃-ta-ka KUR₂ TI-qe₂
+25'. [BE NIG₂.GEŠTU ŠU].SI MUR MURUB₄ ZAG u₃ GUB₃ DU₈ tam-ṭa-a-tu₄
+26'. [BE NIG₂.GEŠTU ŠU].SI MUR MURUB₄ GE₆ IZI ina E₂.GAL-lim MU₂-aḫ
+27'. [BE NIG₂.GEŠTU ŠU].SI MUR MURUB₄ šam-ṭa-at a-ši-tu₄ nu-kur-tu₄
+28'. [BE NIG₂.GEŠTU ŠU.SI MUR MU]RUB₄ kap-ṣa-at NUN KUR-su! ana KA-šu₂ TUŠ-ab
+29'. [BE ] DU₈-er i-ši-it KUR₂ ana KARAŠ ERIN₂-ia ŠUB-ut
+30'. [BE ] x SIG₃-iṣ SAG.DU ERIN₂-ia E₂ LU₂ BIR-aḫ na-par-ru-ur-tu NAM.TAB.BA.MEŠ i-zu-zu
+31'. [(o)] DAM u₃ DAM TAG₄.MEŠ
+
+@reverse
+1. [BE ŠU.SI MUR MURUB]₄ BAR-ma DAR-ma ši-ti-iq-ša ši-ši-tu ṣa-ab-ta-at KUR₂-tu ina KUR GAL₂-ši
+2. [BE ŠU.SI MUR MURUB]₄ BAR-ma DAR-ma ši-ti-iq-ša ši-ši-tu u₂-ka-al BAL-tu
+3. [BE] ŠU.SI MUR MURUB₄ DAR-ma u₃ GE₆-at AN.GE₆ {d}ša₂-maš u₃-lu BAD₃ GAL ŠUB-ut
+4. BE SAG ŠU.SI MUR MURUB₄ DAR-ma u₃ SIG₇ maṭ-rat {d}IŠKUR MAŠ₂.ANŠE RA-iṣ
+5. BE SAG ŠU.SI MUR MURUB₄ EN BAR-ša₂ DAR-at su-ku-ku EN-šu₂ ḪI.GAR-a₂r
+6. BE ŠU.SI MUR MURUB₄ DAR-ma SUHUŠ-sa₃ KUR-ud KUR ana KUR₂ BAL-at šum₄-ma MUNUS URU ana KUR₂ SUM-in
+$ colophon: ŠU.NIGIN 1 šu-ši 3 MU.ŠID.BI.IM — total 63 counted entries
+8. BE [(x)] ŠU.SI MUR MURUB₄ DI-ḫu GE₆ ŠU[B-d]i NIN.DINGIR GIG ni-ik-ti BA.UŠ₂ GA₂!.GI₄.A IZI GU₇
+9. [BE (x) ŠU.S]I MUR MURUB₄ DI-ḫu SIG₇ [ŠUB]-di {d}IŠKUR RA-iṣ
+10. [BE (x) ŠU.S]I MUR MURUB₄ DI-ḫu nu-ru-bu [ŠUB]-di ša₂-mu-tu₄ ina SAG ITI U₄ 15-KAM₂ ṭa-ḫi-tu SUR-nun
+11. [BE ina ŠU].SI MUR MURUB₄ DI-ḫu du-qu-qu-um-ma A.MEŠ-šu nu-ru-bu ina UZU te-me-er
+12. NIN-tu₄ GIG na-aḫ-ša₂-ti GIG-at
+13. BE ina KUR ŠU.SI MUR MURUB₄ ina ZAG DI-ḫu ŠUB-di ERIN₂-ni A.MEŠ i-kal-lu-u₂
+14. BE ina EGIR ŠU.SI MUR MURUB₄ DI-ḫu ŠUB-di NIN.DINGIR uš-taḫ-ḫa
+15. BE ina SUHUŠ Š[U.SI] MUR MURUB₄ DI-ḫu ŠUB-di mu-qu₂-tu-u₂ UGU NA ŠUB-ut
+16. BE ŠU.SI MUR MURUB₄ DI-ḫi.MEŠ ul-lu-lat NUN ILLAT.MEŠ TUK-ši AN-tu₄ i-la-za-za
+17. BE ina ZAG ŠU.SI MUR MURUB₄ GIŠ.ḪUR ḪUR-et [0] ana šu-bat KUR₂ te-še-er
+18. BE ina ZAG ŠU.SI MUR MURUB₄ GIŠ.ḪUR TA SUHUŠ-ša₂ EN SAG-[ša₂ Ḫ]UR-et NIG₂.ŠU.MEŠ ŠU-ia KUR₂ E₃-ṣi
+19. BE ina KUR ŠU.SI MUR MURUB₄ GIŠ.ḪUR GIB-iš ḪUR-e[t] DUMU KIN TE-am
+20. BE ina KUR ŠU.SI MUR MURUB₄ GIŠ.ḪUR ḪUR-et [0] DAM NA BA.UŠ₂ u₃-lu E₂ NA BIR-aḫ
+21. [BE x x] ŠU.SI MUR MURUB₄ GIŠ.ḪUR TA SUHUŠ-ša₂ EN SAG-[ša₂ ḪUR]-et URU ZAG-ka KUR₂ ina si-iḫ-pi DAB-bat
+22. [BE x x] ŠU.SI MUR MURUB₄ GIŠ.ḪUR ana E₂.GAL-ša₂ er-be[t] KUR₂ ana KUR-ia iḫ-ḫab-ba-tu₂
+23. [BE x x] ŠU.SI MUR MURUB₄ GIŠ.ḪUR ḪUR-ma ZAG IGI [0] DINGIR ana LU₂ ana SIG₅-ti iš-te-ne₂-ʾe
+24. [BE x x] ŠU.SI MUR MURUB₄ GIŠ.ḪUR ḪUR-ma GUB₃ IGI [0] DINGIR ana LU₂ ana ḪUL-ti iš-te-ne₂-ʾe
+25. [BE x x] ŠU.SI MUR MURUB₄ GIR₃ [x] ana šu-bat KUR₂ te-še-er
+26. [BE ina? NIG₂?.GE]ŠTU? ŠU.SI MUR MURUB₄ ina ZAG u₃ GUB₃ GIR₃ [x] IGI.IGI-tu₄
+27. [BE x x Š]U.SI MUR MURUB₄ x [x x] x x [ ] gi-piš ERIN₂ KUR₂ ana KUR-ia
+28. [ B]AL-ma k[i ] KAL-an ERIN₂-ia
+29. [ ] ŠA₃.SI₃.SI₃.KE.MEŠ ERIN₂-ia ana KUR KUR₂

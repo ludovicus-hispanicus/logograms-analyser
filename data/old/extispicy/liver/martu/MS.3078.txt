@@ -1,0 +1,58 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: DIŠ
+---
+$ obverse
+
+$ (§1)
+1. DIŠ 2 ZE₂ re-si-na ta!-ri-ik {l[u₂}KUR₂ u %n lumun libbi] %sb / u₂-k[a-lu-ka]
+#tr.en: ¶ (If) two gall-bladders (are present and) their top is dark: the [enemy and misery] will [preoccupy you.]
+
+$ (§2)
+2. DIŠ 2 ZE₂ ša i-mi-tim e-li šu-me#-lim i-š[a-x x (x x)]
+#tr.en.(3): ¶ (If) two gall-bladders (are present and) the one on the right crosses(?) over (the one on) the left: you will take possession of some town or other.
+3. a-lam a-a-am-ma qa₃-at-ka i-ka-aš-š[a-ad]
+
+$ (§3)
+4. DIŠ 2 ZE₂ ša-ni-tum me-eh-[r]e-et IGI.BAR it!-ta-aš-k[a-an]
+#tr.en.(5): ¶ (If) two gall-bladders (are present and) the second is located opposite the "eye-slit": an uprising will occur within the land.
+5. i-na li-bi ma-°\tim° ti-bu-um i-te#-be₂-a
+
+$ (§4)
+6. DIŠ 2 ZE₂# ša# i-me-tim a#-ap-pi# ša šu#-me#-lim il#-ta#-wi
+#tr.en.(7): ¶ (If) two gall-bladders (are present and) the one on the right encircles the tip of the one on the left: the king’s heir will occupy his father’s throne.
+7. a-pil šar-ri-im {giš}GU.ZA a-bi-šu i-ṣa-ab-ba-at
+
+$ (§5)
+8. DIŠ 2 ZE₂ ša šu-me-lim a-ap-pi ša# i-mi-tim il#-ta-wi
+#tr.en.(9): ¶ (If) two gall-bladders (are present and) the one on the left encircles the tip of the one on the right: one without claim will seize the throne.
+9. ša la a-ma-su₂ {giš}GU.ZA i-ṣa-ab-ba#-at#
+
+$ (§6)
+10. DIŠ 2 ZE₂ ki-ma pi-ti#-il#-tim pa-at-[la-ma]
+#tr.en.(13): ¶ (If) the two gall-bladders are plaited like palm-fiber twine [and] its (scil. the right-hand one’s) head and cystic duct are(!) riding on the one on [the left:] [you will] fight with [the enemy] and bring about the enemy’s [downfall.]
+11. re-sa u₃ ma-aṣ#-ra#-ah#-ša# e-li ša [šu-me-lim]
+12. ra-ak-ba-a[t]
+
+$ reverse
+13. it-t[i {lu₂}KUR₂ ta-ṣa-b]a-at-ma {lu₂}KUR₂ t[u!-ša-am-qa₂-at]
+
+$ (§7)
+14. DIŠ 2 ZE₂ [ki-ma pi-t]i-il#-tim! pa-at#-la#-ma#
+#tr.en.(16): ¶ (If) the two gall-bladders are plaited [like palm-fiber] twine and its (scil. the left-hand one’s) head and cystic duct are(!) riding on [(the one on) the] right: you will fight with the enemy and he will triumph over you.
+15. re-sa u₃ ma-aṣ-ra-ah-ša e#-li# [i]-mi#-tim ra-ak#-ba#-at
+16. it!-ti {lu₂}KUR₂ ta-ṣa#-ba#-at#-ma# e#-l[i-k]a it!-ta-za-az
+
+$ (§8)
+17. DIŠ 2 ZE₂ ki-ma pi-ti-il#-tim pa#-at#-la#-ma re-si-na °\° na-[p]i-ih
+#tr.en.(18): ¶ (If) the two gall-bladders are entwined like palm-fiber twine and their head is inflated: (it is) the liver-(omen) of a battering-ram.
+18. a-mu-ut wa-ši-bi-im
+
+$ (§9)
+19. DIŠ 2 ZE₂ ki-ma p[i-t]i-il#-tim! pa-at-la-ma me-de-eh-tum
+#tr.en.(21): ¶ (If) the two gall-bladders are plaited like palm-fiber twine, a patchwork of tissue covers them and their head is dark: eclipse of the sun.
+20. ed!-he-si₂-na#-ti-m[a] re-si-na ta#-ri-ik
+21. na-am-ta-li {d}UTU

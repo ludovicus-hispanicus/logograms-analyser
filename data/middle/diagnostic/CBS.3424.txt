@@ -1,0 +1,25 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Nippur
+counting: DIŠ
+topic: prognostic / diagnostic entries (vomiting, intestines, bile, skin, navel)
+series: pre-canonical (non-serialized); its entries scatter across many canonical tablets, not one
+canonical_parallel: Sakikkû Tablets 3, 5, 13, 14, 17, 22 (Schmidtchen 2021 concordance, book p.709-712 — 3424A:1=17:68 & 22:47a, :3=3:3, :4~5:100, :5=13:131, :9=14:66-67)
+publication: Hand-copy PBS II/2 no. 104; edited Heeßel 2000 (AOAT 43) 99-100 "Der mittelbabylonische diagnostische Text CBS 3424"
+note: MB Nippur diagnostic text written, in Heeßel's words, "wie in altbabylonischer Zeit üblich, rein syllabisch geschrieben" — i.e. OB-style syllabic. The syllabic POLE of Middle-period variation, opposite to the logographic CBS 12580 from the same period/city. Transliteration after Heeßel; subscripts normalized; death apodosis BA.UŠ₂ = imât. Logograms uppercase, syllabic lowercase, {} det., [] restoration, x illegible. Not in eBL. INCLUDED in counts (legitimate MB witness; documents internal variability), not excluded like CBS 3831.
+---
+
+@obverse
+1. [DIŠ i-ḫ]a-ḫa-am-ma a-na ḫu-ḫa-ti-šu NIM ša iš-ni-iq BA.UŠ₂
+2. [DIŠ GI]G?-su ip-ṭú-ur-ma a-ra-a-am ša ip-ru-us BA.UŠ₂
+3. [DIŠ ...] a-na UGU-šu i-na na-de-e-em GABA-šu u SA[G S]A-šu i-nar-ru-ut BA.UŠ₂
+4. DIŠ [s]ap-ti-šu a-na e-le-nu ú-ḫa-an-na-aṣ BA.UŠ₂
+5. DIŠ ir-ru-šu i-ḫa-ar-ru-ru BA.UŠ₂
+6. DIŠ ir-ru-šu paṭ-ru-ma U₄ 2-KÁM U₄ 3-KÁM U₄ 4-KÁM U₄ 5-K[ÁM ... BA.UŠ₂]
+7. DIŠ e-ma il-la-ku it-ta-na-az-za-am mu-ru-uṣ ḫa-še-e ma-ru-u[ṣ]
+8. DIŠ LI.DÚR-su iṣ?-bat-ma ù ZÉ GE₆ ina KA-šú it-tab-ka [...]
+9. DIŠ x x x lu IM i-na DÚR-šu it-te-es-kir [...]
+10. DIŠ KAK.MEŠ GE₆.MEŠ ma-li mu x ut-ta-aš-ši-ik-m[a ...]
+11. DIŠ ṣi-rip-ta-šu id-di-a-am-ma ù ṣi-rip-ta-[šu ...]
+# 12. 9 19 12   (numerical cryptogram / colophon — not a diagnostic entry; excluded)

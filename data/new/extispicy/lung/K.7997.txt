@@ -1,0 +1,17 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: BE
+topic: lung
+publication: K 7997 (+) K 12316 (CT 31 50); Starr 1983a, JNES 42, 131-132; De Zorzi 2021, WdO 51/2
+feature: kubšu (Turban), ubān ḫašî ṣeḫertu (Little Finger), muštašnintu (Leveller)
+note: Neo-Assyrian Šumma ḫašû excerpt tablet; restorations after the commentary K 6892 (+) K 11030 (CT 31 10); eBL 15/150 normalized to ZAG/GUB₃
+---
+
+1. BE SAGŠU UGU [ki-di-ti U₅ GIŠ.MI DINGIR da-ru-u₂ UGU LU₂ GAL₂-ši] šum₄-ma DINGIR ze-nu-u₂ [KI LU₂ SILIM-im]
+#tr.en: If the Turban (of the lung) straddles [the Outer Finger — the everlasting protection of the god will be upon the man]; (same protasis:) the angry god [will be reconciled with the man].
+2. BE SAGŠU ŠU.SI TUR T[I-qi₂] KI NIG₂.GIG-ia₅ KUR₂ TI-qe₂ ina U₄ SUD MUNUS.PEŠ₄ ša₂ ŠA₃-ša₂ ŠUB-a
+#tr.en: If the Turban sei[zes] (the place of) the Little Finger — the enemy will seize my sacred place; in the future the pregnant woman will miscarry.
+3. BE muš-taš-nin-ti [ZAG AN.T]A-tu₄ GIN-ik GIR₃ uš-šur-tu₄ um-mat ša₂-lim-tu₄ šum₄-[ma L]U₂ ina di-ni₇ UGU ge-r[i-šu₂] GUB-az
+#tr.en: If the right upper muštašnintu (Leveller) moves — it is a foot-mark (meaning) release; bulk of reliability; (same protasis:) the man will prevail over his adversary in court.

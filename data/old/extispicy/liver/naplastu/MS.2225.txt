@@ -1,0 +1,48 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: šum-ma
+---
+$ obverse
+1. šum-ma na-ap-la-aš-tum ta-ar-ka-at#
+#tr.en.(2): If the “eye-slit” is dark: the man will infringe on a taboo.
+2. KU₃.AN a-wi-lum i-ša-ka-an
+3. šum-ma na-ap-la-aš-tum ta-ar#-ka-at#
+#tr.en.(4): If the “eye-slit” is dark: people’s talk will become deranged.
+4. pi-i ma-tim i-ša-an-ni
+5. šum-ma na-ap-la#-aš-tum ki-ma i-ra-[a]t MUŠ i-ra-[sa₃]
+#tr.en.(6): If the “eye-slit”’s “breast” (i.e., curvature) is like a snake’s scute: the king’s weapons will have no equal.
+6. ka-ak šar-ri ma-hi-ra-am u₂-la i-šu-u₂#
+7. šum-ma na-ap-la-aš-tum du-pu-ra-at# ar#-bu-t[um]
+#tr.en: If the “eye-slit” is absent: flight.
+8. šum-ma na#-ap-la-aš-tum ši-ši-ta-am ha#-ar#-ma-at#
+#tr.en.(9): If the “eye-slit” is covered by a film: a god’s curse has hold of the man.
+9. ma-mi-it DINGIR a-wi-lam ṣa-ab-ta-at
+10. šum-ma na-ap-la-aš-tum ki-ma un-qi₂#-im ik-pu-up#-ma#
+#tr.en.(12): If the “eye-slit” forms a circle like a ring and there is a cyst inside it: Adad and Ninurta will destroy the land’s bounty.
+11. u₃# ze-hu-um i-na qa₂-ab-li-ša ša-ki-in
+12. {d}IŠKUR u₃# {d}nin-urta hi-ši-ib ma-tim u₂#-[ha-l]a-qu₂#
+$ end of side
+
+$ reverse
+13. [š]um-ma i-na li-bi na-ap-la-aš-tim
+#tr.en.(15): If inside the “eye-slit” is present a weapon-mark (shaped) like a thorn: Adad will trample the army in battle.
+14. ka-ak-kum ki#-i-ma ṣi-il-lim i-iz-za-az
+15. {d}IŠKUR um-ma-nam i-na ta-ha-zi-im# i#-ra-hi-iṣ
+16. šum-ma na-ap-la-aš-tum ki-ma pa-da-nim pa-ar-ka#-[at]
+#tr.en.(17): If the “eye-slit” lies obliquely like the “path”: the god [will make] the king’s allies or [auxiliaries(?) stronger(?)] than him.
+17. DINGIR e-li šar-ri re-ṣi₂-šu u₃-lu [ti-la-ti-š]u₄? / [u₂-da-na-an?]
+18. šum-ma na-ap-la-aš-tum# ṣe-la#-ša p[a-ar-ka?]
+#tr.en.(20): If the “eye-slit’s” flanks are [oblique(?):] the god will [raise] his arm against the king and put his army to flight.
+19. DINGIR a-ah-šu# e#-li šar#-ri-im# i?#-[na-aš-ši?-m]a
+20. um-ma-an-šu ar-bu-tam u₂-ša-la-ak
+21. šum-ma na-ap-la-aš-tum a-na# ka-ak-ki#-im# iṭ-he#
+#tr.en.(22): If the “eye-slit” draws near to a weapon-mark: the god will safeguard the man for good fortune.
+22. DINGIR re-iš a-wi-lim a-na da-mi-iq#-tim# u₂#-ka#-a[l]
+23. šum-ma i-na na-ap-la-aš-tim!(tum) <a-na?> li-bi pa-da-nim
+#tr.en.(25): If from the “eye-slit” (toward?) the inside of the “path” a wish-mark is suspended: a delivery that is coming for the king.
+24. e-ri-iš-tum ha-la-at ši-bu-ul-t[um]
+25. ša a-na šar-ri-im i-la-kam
+$ end of side

@@ -1,0 +1,44 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: VAT 14567 (Schmidtchen 2021 Tafel 4, ms H)
+recension: canonical Sakikkû Tablet 4, manuscript H (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 4
+source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript H rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+---
+
+@text
+44. [ DINGI]R? TI
+45. [...] TI
+46. [ ] {d}UTU
+47. [ ] GAM
+48. [ ] GAM
+49. [ ] GAM
+50. [...] x ŠU? {d}AMAR?.UTU?
+51. [ {d}kù]-bi?
+52. [... ŠU] XXX u XX
+53. [...] lu? ŠU XX
+55. [ -š]u? {d}UTU
+56. [ ] {d}XXX
+57. [ ] DINGIR ÚŠ
+58. [ {d}A].ZU
+59. [ {d}A].ZU
+83. [ ]-kid
+84. [ ]-su GÍD-ma TIN
+85. [ SÌG]-iṣ GIG-su DUGUD-ma TIN
+86. [ ] SÌG-iṣ GIG-su DUGUD-ma GAM
+87. [ ] TIN
+88. [ ] ma?-aq-tu GAM
+89. [ ] GAM
+90. [ ] GAM
+91. [ ] GAM
+92. [ ] GAM
+93. [ ] GAM
+94. [ ] : TIN
+95. [ na]-kid
+96. [ ] GAM
+97. [ ] GAM
+98. [ ] GAM
+99. [ na]-⸤ʾi?⸥-id

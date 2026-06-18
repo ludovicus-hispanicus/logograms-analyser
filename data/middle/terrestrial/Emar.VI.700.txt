@@ -1,0 +1,19 @@
+---
+genre: terrestrial omens
+period: Middle Babylonian
+provenance: Emar (Meskene, Syrian periphery; Late Bronze Age, Middle-period horizon)
+publication: Arnaud 1987, Emar VI/4 no. 700 (Msk 74107k). "Présages tirés des bœufs" — cattle omens (Šumma Ālu animal-section adjacent). Western-periphery witness cited by Koch 2015 §4.5.2.
+counting: BE
+exclude: true   # too fragmentary to count. Worth MENTIONING in the article: it scores LDI = 1.00, but only as a preservation artifact — the sole surviving signs are the all-logographic omen-skeleton (the broken protases BE GU₄.ḪI.A "if oxen…"); the (potentially syllabic) apodoses are lost. So the 1.00 measures what survives, not the omens.
+source_note: Transcribed from Arnaud 1987 (Emar VI/4) p. 324; Sumerograms uppercased to project ATF (Arnaud prints them lowercase). 7 broken lines only.
+note: BE = šumma (omen opener); GU₄.ḪI.A = cattle. Late Bronze Emar periphery; non-Assur, non-heartland Middle-horizon witness, but kept out of the count (see exclude).
+---
+
+@obverse
+[B]E x x [...]
+BE GU₄ x [...]
+BE GU₄.ḪI.A [...]
+BE GU₄.ḪI.A x x [...]
+BE GU₄.ḪI.A [...]
+BE GU₄.Ḫ[I.A ...]
+BE G[U₄ ...]

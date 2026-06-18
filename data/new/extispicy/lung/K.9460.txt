@@ -1,0 +1,31 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: BE
+topic: lung
+publication: eBL K.9460; Bārûtu ch. 9, Šumma ḫašû Tablet 9 (parallel to K.8690)
+feature: ubān ḫašî kidītu (outer lung-finger)
+note: fragmentary; duplicate of K.8690 (GIŠ.ḪUR / eṣret omens); eBL 15/150 normalized to ZAG/GUB₃
+---
+
+1'. [...] x [...]
+2'. [... M]UR x [...]
+3'. [...] x KUR₂ a [...]
+4'. [...] x ŠU.SI MUR ki [...]
+5'. [... ina? I]GI GU₂.MUR eṣ-ret x [(x)]
+6'. [ana EN.NUN]-ka la te-eg-[gi]
+7'. [...] MU-NI ina KI mu-kil SAG GIŠ.[ḪUR]
+8'. [eṣ-ret-ma] {d}iš₈-tar₂ di-ḫu? [ERIN₂-ni DIB-bat]
+9'. [BE ina ŠU.SI] u MUR ki-di-ti [...] x
+10'. [ana I]GI GU₂.MUR <GIŠ.ḪUR> eṣ-r[et-m]a E₃?
+11'. [{d}]ALAD-MEŠ ŠUB-MEŠ ana NUN GUR-MEŠ-[ni]
+12'. [BE M]AN-u₂ MU-NI ina KIMIN eṣ-ret-ma ana ŠA₃-nu Š[UB-ut]
+13'. [Z]I-ut ERIN₂-MU ana KUR [KUR₂]
+14'. [...] MU-NI KIMIN GUB₃ IGI {giš}TUKUL-MEŠ KAL-MEŠ D[U₃-MEŠ]
+15'. [...] x u MUR ki-di-tu₄ ša₂ [ZAG]
+16'. [ana IGI GU₂.MUR e]ṣ-ret-ma ANŠE MUR ša₂ GUB₃ i[ṣ?-bat?]
+17'. [...-tu₂] ŠU-su KUR-[ad₂]
+18'. [... di? i]q IZI ina URU [MU₂-aḫ]
+19'. [...] x T[AG-at₂]
+20'. [...] x [...]

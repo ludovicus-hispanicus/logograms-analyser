@@ -1,0 +1,28 @@
+---
+genre: izbu omens
+period: Neo-Assyrian
+provenance: Kuyunjik
+publication: eBL fragment K.8806; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Tablet 3 (human births)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@reverse
+1'. [x x] TA [...]
+2'. ($___$) TUR.DIŠ.BI# [...]
+3'. [x] ITU.ŠE TA U₄.1.[...]
+4'. ($___$) TUR.DIŠ.BI ana x# [...]
+5'. DIŠ {lu₂}TUR.KIR₄-[šu₂ ...]
+6'. DIŠ ina 4 ITU E₂ [...]
+7'. DIŠ ina 5 ITU# [...]
+8'. DIŠ ina 6 ITU# [...]
+9'. DIŠ ina 7 ITU# [...]
+10'. DIŠ ina 8 ITU [...]
+11'. DIŠ ina 9 ITU [...]
+12'. DIŠ ina 10 ITU [...]
+13'. DIŠ ina 11 ITU [...]
+14'. DIŠ ina 2 MU.AN#.[NA ...]
+15'. BE U₈ UR.MAH U₃.[TU ...]
+16'. DUB.4.KAM BE MUNUS# [...]
+17'. KUR {m}AN.ŠA[R₂-DU₃-A MAN ŠU₂ MAN KUR AN.ŠAR₂{ki}]

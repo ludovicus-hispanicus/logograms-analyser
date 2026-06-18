@@ -1,0 +1,45 @@
+---
+genre: izbu omens
+period: Neo-Assyrian
+provenance: Kuyunjik
+publication: eBL fragment K.4031; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: animal section (equid/mare, ANSE.KUR.RA)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@obverse
+1. [BE iz-bu {munus}ANŠE.KUR.RA] GIM# UR.GI₇.A LUGAL KALA.GA
+2. [BE iz-bu {munus}ANŠE.KUR.RA 1 IGI-šu₂ 2 EME-MEŠ]-šu₂ IDIM-MEŠ LUGAL GAL ina {giš}TUKUL UŠ₂-MEŠ EN-ša ina-ziq
+3. [BE iz-bu {munus}ANŠE.KUR.RA GIR₃-MEŠ-šu₂ NU GAL₂-ME]Š 1 IGI-šu₂ 2 KUN-šu₂ SIK₂ UR.MAH GAR UŠ₂-MEŠ ina KUR GAL₂-MEŠ-ma
+4. [ ($___$) NIG₂ UR₂].LIM₂.MA NAM.LU₂.U₁₈.LU TUR.TUR
+5. [BE iz-bu {munus}ANŠE.KUR.RA GIR₃-MEŠ-šu₂ pu-us]-su-la SIG₂ UR.MAH GAR KUR ana LUGAL-ša i-ka-an-nu-uš
+6. [...] GIM DAR.LUGAL{mušen} LUGAL UGU UN-MEŠ-šu₂ GU₃-si
+7. [... z]i-ir UŠ₄ LUGAL MAN-ni
+8. [...]-bi-it LUGAL GAL ina {giš}TUKUL ŠUB-ma UŠ₄ KUR MAN-ni
+9. [BE iz-bu KIMIN 2 GEŠTUG.MIN-šu₂ 1 IGI-šu₂] 2 GIR₃-MEŠ-šu₂ NIM.MA{ki} ZI-ma KUR u₂-šal-pat GAZ-ak
+10. [BE iz-bu KIMIN GIR₃-MEŠ-šu₂ IGI-MEŠ-tu₄ u EGIR-MEŠ it-ti a-ha-meš] DAB.DAB-ta KUR UGU LUGAL i-dan-nin-ma
+11. [ ($___$) LUGAL ze-ra-a-ti i-ta-nap]-pal-ma KUR u₂-šal-pat
+12. [BE iz-bu KIMIN KIŠIB.LA₂ UR.MAH GAR LUGAL i]-dan-nin-ma UŠ₄ KUR ZAH₂
+13. [... DUMU LUGA]L AŠ.TE AD-šu₂ DIB-bat
+14. [...] x UŠ-ma SUHUŠ KUR u₂-kal-al
+15. [...] LUGAL KUR-su BAL-su
+16. [...] BA.UŠ₂
+17. [...] x ud še mi
+18. [...] ha#
+@reverse
+1'. [...] x x
+2'. [...] x al
+3'. [... GABA.R]I NU TUK-ši
+4'. [... MA]N-ni GALGA KUR BIR-ah
+5'. [...] KUR NUN DAGAL-iš i-dan-nin
+6'. [...] URU BI ŠUB-di
+7'. [... MAŠ₂.D]A₃? ina A.GAR₃ 2 U₃.TU ZI-ha
+8'. [BE MUNUS.LUGAL MIN NITA-MEŠ mit-h]ar-ti U₃.TU MUNUS DUG₃.GA ŠA₃ IGI-mar LUGAL GABA.RI NU TUK-ši
+9'. [BE MUNUS.LUGAL 1 NITA 1 MUNUS] U₃.TU# KUR ana NIG₂-ša₂ DUG₃.GA KUR i-qal
+10'. [BE MUNUS.LUGAL MIN MUNUS-MEŠ] U₃.TU LUGAL KUR-su DAGAL-iš KUR KI.TUŠ ne-eh-ta₅ TUŠ-ab
+11'. [BE MUNUS LUGAL U₃.TU-ma] 6 ŠU.SI-MEŠ ŠU-šu₂ ša₂ 15 KUR NUN KUR₂ i-šal-lal
+12'. [BE MUNUS LUGAL U₃.TU-m]a 6 ŠU.SI-MEŠ GIR₃-šu₂ ša₂ 15 KUR₂ dan-nu ana KUR ZI-ma KUR i-da-aš
+13'. [BE MUNUS LUGAL U₃.TU-m]a 6 TA.AM₃ ŠU.SI-MEŠ ŠU-MEŠ-šu₂ u GIR₃-MEŠ-šu₂ ša₂ 15 u 150
+14'. [ ($___$) NUN KUR K]UR₂ ša₂ NU ZU-u₂ ŠU-su KUR-ad₂
+15'. [...] ŠA₃ BE iz-bu BAR-i ZI-ha

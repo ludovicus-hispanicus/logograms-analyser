@@ -1,0 +1,46 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: BM.60744
+recension: canonical Sakikkû Tablet 3, manuscript C (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 3
+source: auto-converted from Schmidtchen 2021 Tafel 3 OCR (score), manuscript C rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 3 lines.
+---
+
+@text
+1. [ TE]-ḫi?
+2. [ ] x [ NU] TE?-šú
+5. [ GI]G-ma TIN
+6. [ ] x KAM [... G]IG-ma TIN
+7. [ GI]G-ma TIN
+8. [ ] ú-kal- [...]
+9. [... T]IN
+11. [ ] DAB-su
+12. [ ] x UGU! MUNUS [ E]N..NA
+13. [...] x [ Í]L ŠÀ [TUK EN].NA
+33. DIŠ SAG.DU-su i-ṣa-ád! u kìn-ṣa-a-šú ka-ṣa-[a ...]
+34. DIŠ SAG.DU-su i-ṭa-mu GÌR-šú šá 15 ú-kan-na?-an? [ ] ú-šap-šaq-ma [x x]
+35. DIŠ SAG.DU-su i-ṭa-mu GÌR-šú šá 150 ú?-[...]
+36. DIŠ SAG.DU-su i-da-al SAG.DU?-su i-šag-g[úm] GEŠTU.II-šú GÙ.DÉ.MEŠ ŠU.SI.MEŠ-šú ú-zaq-qa-ta-šú DAB-it GIDIM₇
+37. DIŠ SAG.DU-su ana šuk-lul-ti-šú SA uk-tal-lim ÚŠ
+38. DIŠ SAG.DU-su ana šuk-lul-ti-šú SA NU TUK ÚŠ
+39. DIŠ SAG.DU-su ti-ik-ka-šu u šá-pu-la-šú DIŠ-niš GU₇.MEŠ-šú SA.DUGUD
+40. DIŠ SAG.DU-su DAB.DAB-su GÚ-su TAG.TAG-su GABA-su GU₇.MEŠ-šú ŠÀ!-šú GAZ.MEŠ-šú pi-qam la pi-qam in-naš-ši!? GU₇ u NAG NU GUR.RA-ma GU₇! u NAG {d}XV MU É er-bet-ta UŠ.MEŠ-šú šá-niš ana MUNUS MU a-rì u sa-ma ba?-li šal-šiš ana KI.SIKIL.BÀN.DA M KI!.GUL u áš-tam-mu-u
+41. DIŠ SAG.DU-su DAB.DAB-su u KÚM ŠUB.ŠUB-su ŠU {d}XV
+42. DIŠ SAG.DU-su DAB.DAB-su u KÚM NU TUK ŠU {d}XV
+43. DIŠ SAG.DU-su DAB.DAB-su KÚM DIŠ-[ni]š? TÚKUR-su GIG-[su] TAG₄-šum-ma NÍG.NIGIN TUK-ši-šum-ma UD?-ma NÍG.LAL!-šú! LÁ? [ ]-šum-ma ina NU ZU-ú ú-rap-pad GEN₇ [DAB(-it) GI]DIM₇ {d}KAMADx(DIM₁₁).[ME ...]
+44. DIŠ SAG.DU-su TÉŠ.[BI -s]u? ŠU SAG.Ḫ[UL.ḪA.ZA]
+45. DIŠ SAG.DU-su i-tar-ru-ur GÚ-su u GÚ.MURGU-šú [ ] KA-šú DAB-ma at-ma-a NU ZU? ina KA-šú ÚḪ..M[EŠ ...] [x x x] x x x x (x x) [x x] x x [...]
+73. [ Á].ÚR.MEŠ-šú DIŠ-niš G[U₇? ...] :? x x [x]-qàt?-ti? NI.ŠI
+74. [ i-ṭ]a-mu pu-qud-de-e {d}x [...]
+75. [ ] u MÚD MUD ŠUB.ŠUB-a ŠU {d}x [...]
+76. [ SÌ]G?-iṣ-ma u MÚD i-ḫa-ḫu ŠU {d}MAŠ.TAB.B[A x]ÚŠ?
+77. [ ]-šú SÌG-iṣ-ma ḫa-si-si-šú ṣa-bit ta?-tab-ba-lam GUR-ma DAB-bat us-i DU₁₁.GA ŠU DINGIR šag-ga-ši na-kud ÚŠ
+78. DIŠ ina SAG.DU-šú SÌG-iṣ-ma SA SAG.KI.II-šú ŠU.II-šú u GÌR.II-šú DIŠ-niš ZI-a SA₅ u i-mim ŠU DINGIR TI
+79. DIŠ ina SAG.DU-šú SÌG-iṣ-ma MIR.SES ŠUB.ŠUB-su IGI.MEŠ-šú SA₅ u SIG₇ GEN₇ DAB-su ŠUB-šú UMUŠ!-šú KÚR-šum-ma i-ṭa-mu DAB-it {d}KAMADx(DIM₁₀).ME.LAGAB UD.MEŠ-šú GÍD.MEŠ -ma ÚŠ
+80. DIŠ ina SAG.DU-šú u MURUB₄-šú SÌG-iṣ ŠU {d}XV ana {na4}NUNUZ.MEŠ
+81. [DIŠ] TA SAG.DU-šú EN šuk-lul-ti-šú SA.MEŠ-šú i-nu-uš-šú NU TIN
+82. [DIŠ] TA SAG.DU-šú EN MURUB₄-šú KÚM TA MURUB₄-šú EN GÌR.II-šú SED [S]AG ŠÀ KI!-šú DAB.DAB-su Á.II-šú ú-na-aš-šak ina {giš}MÁ! iš-r[iq] DINGIR ka-a-ri DAB-su BÚR-ma TIN
+83. [ T]A SAG.DU-šú EN MURUB₄-šú SIG₇ TA MURUB₄-šú EN GÌR.II-šú S[A₅?] ŠU.II-šú KÚM?-ma SILIM?-ma [...]

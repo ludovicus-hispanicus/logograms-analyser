@@ -1,0 +1,30 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Nippur (Istanbul Museum)
+counting: DIŠ
+topic: temple/forehead veins (SA SAG.KI = šer'ān nakkapti) and the rābiṣ nāri demon (Lurker of the canal)
+series: pre-canonical (non-serialized) Middle Babylonian Nippur diagnostic text; many entries have canonical parallels in Sakikkû (TDP) — cf. Omen 1 = Sakikkû/TDP, sag.ki section
+canonical_parallel: Sakikkû Tablets 4, 5, 17, 27 (Schmidtchen 2021 concordance, book p.709-713 — Vs.8=4:38, Vs.5-6=4:105, Vs.2=5:123, Vs.12=17:82, Vs.13=17:90, Vs.9-10=27:24, Vs.11=27:25)
+publication: Kraus 1987, ZA 77, 196–202, "Verstreute Omentexte aus Nippur" no. 2 (Ni. 470). The third of the three MB Nippur diagnostic texts known to Heeßel 2000:102-103 (alongside CBS 3424 and 2 N-T 336).
+note: Hand-transcribed from Kraus. Kraus prints Sumerograms in lowercase (German convention) and normalizes the protasis as šumma though the sign is DIŠ (so noted at his Omen 1). Unambiguous Sumerograms converted to UPPERCASE (SA, SAG.KI, ŠU.2, ZAG, GÙB, TÉŠ.BI, ŠÀ, SÌG, MAŠKIM, GIG, GE₆, ÍD, etc.); the verbal sign DU-ku (illak, "extend/run") read logographically per the canonical SA.GIG parallels. ina written AŠ at Omen 7 (logographic) per Kraus; elsewhere syllabic. Genuinely uncertain syllabic readings left lowercase (conservative). Heavily fragmentary — apodoses mostly lost, line-ends broken. Logograms uppercase, syllabic lowercase, {} det., [] restoration, x illegible. Not in eBL.
+---
+
+@obverse
+1. DIŠ SA SAG.KI-šu te-bu-ú [...]
+2. DIŠ ŠU.2-šú ṣa-al-ma ù x x x [x] x [...]
+3. DIŠ u-r[u]-uḫ SA SAG.KI-šu ša ZAG bé-e-[ṣ]ir [...]
+4. SAG ŠÀ-šu za-qir SÌG-iṣ MAŠKIM PA [...]
+5. DIŠ SA SAG.KI-šu ša ZAG u GÙB TÉŠ.BI DU-ku u SAG [...]
+6. a-ši-pu-ut te-ep-pu-us-su-um-ma [...]
+7. DIŠ SA SAG.KI-šu ša ZAG u GÙB TÉŠ.BI DU-ku ù x [...]
+8. DIŠ SAG.KI-šu ša ZAG i-rat-ma ša GÙB ne-e-et x [...]
+9. DIŠ me-e AŠ ra-ma-ki-šu iš-tu ÍD ina e-li-šu i-[ṣ]u-[ud ...]
+10. MAŠKIM ÍD [...]
+11. DIŠ iš-tu me-e ina e-li-šu pa-gàr-šu iḫ-mu-šu-ma [...]
+12. DIŠ GIG-su ina GE₆ DIB.DIB-šu MAŠKIM Í[D ...]
+13. DIŠ GIG-su ina GE₆.Ù.NA DIB.DIB-su x [...]
+
+@reverse
+14. DIŠ KU-šú ša x ma x x x ṣa-bi-it [...]
+15. x x x x x x x [...]

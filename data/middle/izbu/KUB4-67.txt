@@ -1,0 +1,66 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Hattusa / Bogazkoy (Late Bronze Age, ca. 14th-13th c. BCE; Akkadian recension)
+publication: KUB 4 67 (A) + KUB 4 59 (B) + KUB 37 186 (C), composite; Akkadian version from Bogazkoy (Leichty TCS 4, 207ff.)
+counting: UD
+source_note: Hand-checked Akkadian transliteration (clean). UD = šumma. Half-brackets/[ ] preserved; sigla & sub-numbers marked $ (skipped).
+---
+
+$ B = KUB 4 59
+$ C = KUB 37 186
+@col. i
+$ A
+1) […] wa lu ˹x˺
+2) […] iḫ-ḫa-ab-ba-[tu]
+3) […] i-ṣe-eḫ-ḫi-ir
+4) […] ˹x˺ wa-ar-ka4 dIM bu-li
+5) […] UD iz-bu i-in-šu ša ZAG ˹x˺
+6) […] DUMU LÚ-lim i-ma-a-at
+7) […] LÚ.KÚR] KUR-tam ú-sa-ap-pá-aḫ
+8) [UD iz-bu i-na-šu] 1-ma i-na pu-ti-šu ša-ak-na
+9) […] ib-ba-aš-ši
+10) […]-˹e˺ a-na 1-en-ma i(!)-tà-a-ar
+11) [… n]a-ás-pu-uḫ-ti KUR-ti
+12) […] LUGAL i-ma-qú-tu
+13) […] é LÚ-lim
+14) […]
+15) […]
+@col. ii
+1) […]-ma ša-aḫ-lu-uq-[tum]
+2) UD iz-bu ir-ri šu-un-nu-ut ù kar-ša la-a [i]-˹šu˺
+3) ḫu-ša-aḫ-ḫu LUGAL i-ma-at-ma URU.KI-šu
+4) in-na-aq-qá-ar ù šum-ma É LÚ-lim
+5) is-sà-ap-pa-aḫ
+6) UD iz-bu ḫa-ši-i la i-šu-ú ḫu-ša-aḫ-ḫu
+7) da-an-nu-um i-ma-qú-ut ù šum-ma KUR-at LUGAL i-ḫal-li-i[q]
+8) UD iz-bu ir-ri-šu i-na qa-qa-di-šu na-ši LUGAL qa-˹aq-qa-ri˺-šu
+9) [a-n]a LÚ.KÚR-šu ú-še-eṣ-ṣí DUB.1.KAM iz-[bu …]
+$ ABC
+10) [x] URU.KI iz-bu an-nu-tum la-a dam-qú-[tum ša KÁ.DINGIR].RA.KI
+11) [UD S]AL UR.GIRx(KU) ú-li-id ri-ig-mu [ù]
+12) pu-uḫ-pu-uḫ-ḫu-ú i-na É LÚ-lim iš-ša-ak-kà-an
+13) šum-[ma be]-el iz-bi i-ma-[a]-at
+14) UD iz-[bu x] ˹x˺ ma a 8 […] tar-ba-aṣ LÚ-lim
+15) i-sà-[ap-pa-aḫ …] ú bu
+16) nu ˹x˺ [… ta]-aš-ni-in-tum
+@col. iii
+1) [UD iz-bu …] ˹x˺ É ˹x˺ […]
+2) […]-ak be-lí-šu […] ˹…˺
+3) […] ˹x˺ i-ḫal-li-iq
+4) [UD iz-bu …] 1-en GÌR-šu ṣe-ḫe-er KUR-ti
+5) [… UD iz-bu] qa-an-na-šu i-na pu-ti-šu
+6) [ša-ak-na t]i-bu da-an-nu a-na LUGAL
+7) i-te-eb-bi [UD iz-bu] qa-an-na-šu
+8) i-na i-ir-ti-šu [ša-ak-na D]UMU LUGAL
+9) [a-na a]-bi-šu le-mu-ut-ta-am i-ip-pu-uš
+10) UD iz-bu iš-di qa-an-ni-šu qa-an-nu-um
+11) ša-ni-tum-ma wa-ṣi-a-at te-bu da-an-nu
+12) a-na LUGAL i-te-eb-bi UD iz-bu ab-bu-tá ša UZU
+13) ša-[ki-in] KÚR UGU KUR-šu i-dá-an-ni-in
+14) UD iz-bu a-na ku-ta-al-li-šu im-ta-na-qú-ut
+15) LUGAL ki-i-lum i-ṣa-bat [UD iz-b]u ap-pí e-ri-i
+16) ša-ki-in […] i-ṣa-aḫ-ḫi-ir
+17) [UD iz-bu …] ša ZAG.LU la-a i-ba-aš-[ši] LUGAL i-ma-at
+18) [UD iz-bu …] ta KUR LUGAL […]
+19) [UD iz-bu …] ˹x˺

@@ -1,0 +1,46 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: Babylonia (unprovenanced, British Museum)
+tradition: Babylonian
+counting: šum-ma
+publication: BM 12875; eBL (barutu ch. 4 Padanu, OB forerunner)
+note: "Old Babylonian padanu forerunner (pa-da-nu-um), fully syllabic. A SECOND OB Path witness beside YBC 4639 (YOS 10 11); cf. YOS 10 46 i 43-44. Confirms the OB syllabic baseline (LDI ~0.0). Pulled from eBL ATF."
+---
+
+@obverse
+1. šum-ma pa-[d]a-nu-u[m 2-ma]
+2. te-eṣ!-bu-ta ba-[ar-tum]
+3. u₂-mu uš-t[a]-a[d-da-ru]
+4. šum-ma pa-da-nu-u[m a-di]
+5. ša-la-ši i[t-lu-up]
+6. ar-bu-[ut um-ma-nim]
+7. š[um]-ma pa-da-nu-u[m]
+8. ka#-bi#-is ma-[li-ku]
+9. la i-ba-aš-š[i-ma]
+$ (cf. YOS 10.46, col. I 43-44)
+10. ha-ra-an# um-m[a-ni-im]
+11. it-ti i-[li-im]
+12. u₂-la wu-u[š-šu-ur]
+13. ta-aq-t[i-it pa-li-im]
+14. šum-ma pa-d[a-nu-um]
+15. la-ri-a-a[m i-šu]
+16. ha-ra#-na-a[m ...]
+17. li-t[a-...]
+18. ta-ta-a[r]-ta-x#
+19. ša-ni-ta-[a]m? ta-lak#?
+@reverse
+20. šum-ma pa-da-nu-um#
+21. a-na ru-qi₂ a-mu-tim
+22. im-ta-qu₂-ut
+23. a-na ma-ar-ṣi₂-im
+24. u₂-mu-šu ga-am-ru#-ma#*
+25. i-ma-a-at
+26. šum-ma in-ne₂-°\x° sar-ri-ti-š[u?]
+27. im-ta-aq-ta-am!*
+28. pa-lu₂-u₂-um# ga-me-er
+29. šum-ma pa#-da-nu-um#
+30. i-mi₃-ta u₂ šu-me₈-lam
+31. uš-šu-ur₂-m[a]
+32. r[u]-bu-u[m] pi ma-li-ki-šu
+33. u₂#-la# i-ma-ha-<<ma>>-ar

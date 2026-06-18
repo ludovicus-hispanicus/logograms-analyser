@@ -1,0 +1,45 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 38 = VAT 10821 (KAR 400). Middle Assyrian Šumma Ālu forerunner; ≈ animal/behaviour.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+[ ] SÁ ÁŠ SI.ḪÁ [ ]
+[ S]ÌG.SÌG-ma SÁ ÁŠ DIŠ nig [ ]
+[ Á]Š zé ta? in? pa gi ma ˹x˺ [ ]
+[ i]s-si NU SÁ ÁŠ GUR!-ma SÁ ÁŠ bu-[ ]
+[ ]-šú is-si SÁ ÁŠ DIŠ TÉŠ &lt;BI&gt;? it-gu-ru-m[a ]
+[ ] x TUŠ.MEŠ ana IGI-šú GIB NU SÁ ÁŠ ana ˹EGIR˺-[šú ]
+[ NU] SÁ ÁŠ GAZ-šú-ma SÁ ÁŠ DIŠ MUŠ ana EGIR-šú [ ]
+[ ] x tu ITI 5-KÁM ÁŠ-su NU SÁ DIŠ x [ ]
+[ ] x GIB ana PÚ SIG₄.AL.ÙR.RA ú-šar-m[a? ]
+[ a]na IGI-šú GIB NU SÁ ÁŠ ana EGIR-šú GUR! [ ]
+[ SILA] DAGAL-ti ana IGI-šú GIB SAḪAR ana MURUB₄-ši-na ŠUB-˹ma˺ [ ]
+[ ] ana IGI-šú MIN NU SÁ ÁŠ šum-ma SÁ ÁŠ DIŠ SI ˹GU₄˺ MIN NU [ ]
+[ SIG₄].AL.ÙR.RA GAZ MIN NU SÁ ÁŠ bi-pí NA GUR! [ ]
+[ -m]a zi qa GAZ ana IGI-šú GIL-ip NU KUR ÁŠ šum-ma [ ]
+[ ] ana ZI ana IGI-šú ˹x˺ [x N]U KU]R ÁŠ šum-ma [ ]
+[ ] ana ˹IGI˺ ˹x˺ [ ] GÙB-šú i-ba[r(oder: maš) ]
+[ ] ana IGI [ u]l?-la ana U[GU ]
+[ ] ana IGI [ ] ˹x˺ ma [ ]
+[ IGI] ZAG-[šú] ú-z[aq-qap ]
+[ ] ˹MIN˺ IGI GÙB-šú ú-ḫa-˹na˺-a[ṣ ]
+[ ] MIN IGI GÙB-šú ú-kát-˹tam˺ NA BI [ ]
+[ ] MIN IGI GÙB-šú ú-zaq-qap NA BI [ ]
+[ ] ú-su-uk ZAG-šú ú-ḫa-na-˹aṣ˺ [ ]
+[ ] MIN ZAG-šú ú-ša!-am NA BI ˹x˺ [ ]
+[ ] MIN ZAG-šú ú-za-qap NA BI [ ]
+[ ] MIN GÙB-šú ú-ḫa-na-aṣ N[A BI ]
+[ ] MIN GÙB-šú ú-ša-a[m] NA [BI ]
+[ ] ˹MIN˺ GÙB-šú ú-za-q[a]p!? NA B[I ]
+[ ša-pa]t-su AN.TA ú-pa-at-t[a x x] ˹x˺ [x x x (x)]
+[ MI]N uš-ta-[na]-ta-˹ak˺ NA B[I x x x] ˹x˺ di [x x x]
+[ ša-pat]-su K[I].˹TA˺ ú-pa-at-ta ˹NA˺.B[I ]
+[ MIN uš-t]a-at-ta-ak NA B[I ]
+[ ZA]G?-šú ú-na-di? [ ]
+[ ] ˹x˺ ab NA [BI ]

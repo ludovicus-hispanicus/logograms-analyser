@@ -1,0 +1,39 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Emar (western periphery)
+recension: Western periphery
+counting: line
+topic: medical symptoms (bennu/epilepsy, miqtu "falling", Lamaštu)
+series: pre-canonical diagnostic-medical (Late Bronze Age Emar)
+canonical_parallel: Sakikkû Tablets 3, 12, 26, 33 (Schmidtchen 2021 concordance, book p.709-713 — 694:6=3:103 & 33:97, :21=3:94, :11f=12:4, :7-8=26:4, :9-10=26:56; Tablet 26 = 4th sub-series Šumma miqtu imqussuma, per Heeßel 2000:103, edited AOAT 43 pp.278ff)
+dating: end 13th / beginning 12th century BCE (Heeßel 2000:103)
+edition: Arnaud 1987, Emar VI/4 no. 694 (Msk 74122a)
+source: hand-transcribed from Arnaud's edition. NB Arnaud prints Sumerograms in lowercase (French convention); they are converted to UPPERCASE here per project convention. Heavily fragmentary (both edges broken on most lines); genuinely ambiguous tokens left lowercase (conservative). Not in eBL.
+note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = restoration; x = illegible (ignored). '?' marks uncertain reading.
+---
+
+@obverse
+1. [...] TAR x [...]
+3. [...] KÚM NU x [...]
+4. [...] GÙB [...] KÚ-šú MAŠ.SÌL-[šu]
+5. [...] UZU bir-šu [...] ŠU.SI.MEŠ GÌR.MEŠ-šú it-te-ni[n-ṣi-la-šu]
+6. [BE iš-tu] UZU da-da-ni-š[u a-di UZU] eq-bi-šu SA.MEŠ-šu sag-g[u]
+7. [BE mi]-iq-tu₄ ŠUB-šu-ma [ù] e-nu-ma ŠUB-šu i-te an-nu-ú [...]
+8. [...] be-en-nu ṣa-i-d[u] DIB-šu u[s-...]
+9. [BE mi-]iq-tu₄ ŠUB-š[u-ma] UD.KAM 2-šu 3-šu ŠUB-šu [...]
+10. [BE mi-i]q-tu₄ ŠUB-š[u-ma] UD.KAM 2-šu 3-šu ŠUB-šu [...]
+11. [BE ...] KÚM la'-hi-šu NUNDUN-šu SIG₇ ru-uq-qi uz-ne
+12. [...]-šu du-ku
+13. [...] {d}DÌM.ME-ma GEŠTU-ni ú-ka-al SAG ŠÀ-šu [...]
+14. [...] MURUB₄-šu ina GI₆ ku?-šu ina ŠU-šu KÚM [...]
+15. [...]-šu GÍD.DA-ma gu-uh-hu DIB-šu GIŠ NU.ÚR.M[A.MEŠ]
+16. [...]-šu GÍD.DA-ma ŠU-šu KÚ si-ka-a-ti ša [...]
+17. [...] SIG₇-tú ina lib-bi bur-ru-qu x [...]
+18. [...] GÍD.DA-ma x [...]
+19. [...] GÌR.MEŠ-š[u ...]
+20. [...] šá-kam-ma KÚ KURUM-at [...]
+21. [...] ri-it SAG.DU-šu sak-pât ina [...]
+22. [...] ša ZAG i-kap-pa-aṣ GIG u [...]
+23. [...] ša GÙB i-kap-pa-aṣ GIG [...]
+24. [...] i-kap-pa-aṣ u li-x [...]

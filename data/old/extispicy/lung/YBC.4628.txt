@@ -1,0 +1,92 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+counting: DIŠ
+topic: lung
+publication: YOS 10, 36
+feature: ubān ḫašîm qablītum
+---
+
+@obverse
+1. DIŠ A₂.ZI MUR šu-ul-ma-am tu-ku-pa-at [ḫ]u-ur-pa-tim [x-x-tu]m i-ik-kal
+2. DIŠ A₂.GUB₃ MUR ḫa-li-iq ma-a-at {lu₂}KUR₂ i-ḫa-li-iq [u₄]-mu ud-du-ur {d}IŠKUR i-[ra]-aḫ-ḫi-iṣ [na-ru ḫu]-ur-ḫu-ma-tam it-ta-na-ad-di m[i-l]um i-ṭe₄-ḫi-a [a-b]ub ša-al-gu la-ma a-li-[ku] [š]a-nu-um i-za-nu-un
+3. DIŠ A₂.ZI MUR ta-ar-[k]a-at mi-qi₂-ti [u]m-ma-ni-ia
+4. DIŠ A₂.ZI MUR u₂ A₂.GUB₃ MUR tu-ur-ru-ka-at ša-mu-um ra-ab-bi-t[um] i-za-an-na-an u₄-ma-am re-qa₂-am LUGAL ma-as-su ma-r[u]-u[š]-ta-am u₂-ka-al-l[a-a]m
+5. DIŠ MUR za-ra-ni i-šu ḫu-ur-pa-tim [x x i]-ik-kal
+6. DIŠ MUR ki-ma NIG₂.NA₄ ḫu-ur-ru-ra-a[t] a-mu-ut i-bi-{d}EN.ZU ša ma-tum ip-ḫur[u-ni]m
+7. DIŠ MUR ša A₂.ZI ša-pa-as-sa₃ ṣa-al-ma-at A.ŠA₃-am ša be₂-e-el ni-qi₂-im {d}IŠKUR i-ra-[aḫ]-ḫi-iṣ
+8. DIŠ [MUR] ša A₂.ZI [...] x x m[a ...] x x [...] x [...] x x x [...]
+9. DIŠ [MUR š]a A₂.[GUB₃ ša-p]a-as-sa₃ ṣa-al-ma-at A.ŠA₃ {lu₂}KUR₂ [{d}IŠK]UR [i]-ra-aḫ-ḫi-iṣ
+10. DIŠ [MUR] na-pa-ar-qu₂-d[a-a]t LUGAL ma-as-su₂ ib-ba-la-ka-su₂
+11. DIŠ [MU]R A₂.ZI MUR u₂ A₂.[G]UB₃ MUR [n]a-pa-ar-qu₂-da-at [a-ḫ]u-um a-na a-ḫi-im [{giš}TUKUL] u₂-ul i-na-ad-di
+12. DIŠ [MUR A₂.G]UB₃ ša-al-qa₂-at me-ḫi-iṣ qa₂-qa₂-ad {lu₂}KUR₂
+13. DIŠ [MUR A₂].ZI u₂ A₂.GUB₃ ṣa-ar-pa-at i-ša-a-tum i-li-a-am
+14. DIŠ MUR pa-na-am u₂ wa-ar-ka-tam pu-ṣi ma-li-a-at {d}IŠKUR i-ra-aḫ-ḫi-iṣ-ma ḫu-ša-ḫu-um ma-a-tam i-ṣa-ba-at
+15. DIŠ MUR ša-a-ar er-bi-ti-ša ku-up-pu-ṣa-at 2 LUGAL-u₂ na-ak-ru-tum i-ru-bu-nim-ma a-li LUGAL i-la-wu-u₂
+16. DIŠ MUR ša-a-ar er-bi-ti-ša na-pa-ar-qu₂-da-at LUGAL-u₂ na-ak-ru-tum sa-li-ma-am i-ša-ak-ka-nu-ma ma-as-su₂-nu a-bu-ur-ri uš-ša-bu
+17. DIŠ MURGU₂ MUR qe₂-er-bi-nu-um A₂.ZI u₂ A₂.GUB₃ ku-pu-ut na-wu-u₂-ka a-na a-al BAD₃ i-ka-mi-is
+18. DIŠ MURGU₂ MUR A₂.ZI u₂ A₂.GUB₃ na-pa-ar-qu₂-du-u₂ ma-a-at ik-mi-su₂ a-na a-bu-ur-ri iṣ-ṣi-a-am
+19. DIŠ MURGU₂ MUR A₂.ZI u₂ A₂.GUB₃ ip-ṭu₃-ur te-eš-mu-um ṣa-ba-a-k[a] ša a-na ki-ir-ri-im ta-ṭa-ra-du [i]t-ti {lu₂}KUR₂ in-na-ma-ar
+20. DIŠ MURGU₂ MUR še₂₀-pe-tum A₂.ZI u₂ A₂.GUB₃ it-ta-aṭ-la wa-ṣi a-bu-ul-li-ka it-ti {lu₂}KUR₂ u₂-la in-na-mar
+21. DIŠ MURGU₂ MUR A₂.ZI pa-ri-is ne₂-ke-em-tum
+22. DIŠ MURGU₂ MUR A₂.ZI šu-ta-aš-nu-u₂-ma pa-ri-is qi₂-it-ru-bi-iš {lu₂}KUR₂ i-ik-ki-im-ka
+23. DIŠ MURGU₂ MUR A₂.GUB₃ šu-ta-aš-nu-u₂-ma pa-ri-is {lu₂}KUR₂-am qi₂-it-ru-bi-iš te-ki-im
+24. DIŠ MURGU₂ MUR A₂.GUB₃ pa-ri-is u₂ {uzu}GU₂.MUR e-di-iḫ a-al {lu₂}KUR₂-im u₄-ma-am ur-ra-da-am
+25. DIŠ ṣe-ra-an ša MUR A₂.ZI u₂ A₂.GUB₃ it-ta-aṣ-ba-tu ma-a-tum it-ti ma-a-at {lu₂}KUR₂-im i-ta-ka-al
+@reverse
+26. DIŠ EGIR M[UR x-ša-a]n-nu-u₂ [...] u₂ še₂₀-p[u-um ...] lu um [...] tu-š[e₂₀]-ṣe-ma [...]
+27. DIŠ EGIR [MUR] ša-an-nu-u₂-um u₂ [...] u₂ [x x] x lu ub bu ti zi-ti-šu [...]
+28. DIŠ A₂.ZI MUR e-ti-im u₂ še₂₀-pu-um i-na A₂[.GUB₃] ša-ak-na-at {lu₂}KUR₂ i-na ma-ti-ka ša-al-[la-tam u₂-še₂₀-eṣ-ṣe]
+29. DIŠ A₂.ZI MUR e-ti-im u₂ še₂₀-pu-um i-na A₂.Z[I] ša-ak-na-at {lu₂}KUR₂ i-na ma-ti-ka ša-al-l[a-tam u₂]-še₂₀-eṣ-[ṣe]
+30. DIŠ A₂.ZI e-ki-im u₂ [š]e₂₀-pu-um i-n[a] A₂.GUB₃ u₂ li-b[i] ne₂-ke-em-tim ta-ri-ik ša-al-l[a-a]t i-ša-al-la-lu {lu₂}KUR₂ i-da-a-ak
+31. DIŠ A₂.GUB₃ e-ki-im u₂ še₂₀-pu-um i-na A₂.ZI MUR u₂ li-bi ne₂-ke-em-tim ta-ri-ik ša-al-la-at ta-ša-al-la-lu ta-da-a-ak
+32. DIŠ A₂.ZI MUR e-ki-im u₂ i-na li-bi-im se₂-ḫu na-di i-[n]a A₂.ZI MUR še₂₀-pu-um {lu₂}KUR₂-um ša-al-la-at i-ša-al-la-lu {d}IŠKUR i-ra-aḫ-ḫi-iṣ
+33. DIŠ A₂.GUB₃ MUR e-ki-im u₂ i-na li-bi-ša se₂-ḫu na-di i-na A₂.ZI MUR še₂₀-pu-um ša-al-la-at a-ša-al-la-lu {d}IŠKUR i-ra-aḫ-ḫi-iṣ
+34. DIŠ A₂.ZI [MU]R e-ki-[im n]e₂-ke-em-ta-ša ṣa-ab-ta-at A₂.GUB₃ MUR ši-pu-u[m {lu₂}]KUR₂-um ša-al-la-as-su₂ u₂-[la] u₂-še₂₀-ṣe
+35. DIŠ A₂.GUB₃ MUR e-ki-im ma-su pa-aš-ṭa-at i-na A₂.ZI MUR še₂₀-pu-um ša-al-la-at ta-ša-al-la-lu u₂-la tu-še₂₀-ṣe
+36. DIŠ MUR MURGU₂ ša ša-ap-la-nu-um pa-[ri]-is i-si₂-il-ti ma-a-tim ip-pa-aṭ-ṭa-ar [bu-t]u-uq-tum ib-ba-at-[t]a-aq
+37. DIŠ i-na A₂.ZI MUR 5 še₂₀-pe-tum a-[na bi₂]-el nu-ku-ur-ti-ka ti-bu-ut ḫu-up-ši-im te-te-eb-bi-šum
+38. DIŠ i-na A₂.ZI 2 še₂₀-pe-tum a-na re-ṣi-i-ka qa₂-du-um ti-il-la-ti-ka te-te-eb-bi-šum
+39. DIŠ i-na A₂.ZI MUR še₂₀-pu-um ne₂-ke-em-tum i-na A₂.GUB₃ um-ma-an a-na ki-ir-ri-im ta-ṭa-ar-[r]a-du ḪA.LA i-ik-kal e-li {lu₂}KUR₂-im li-ta-am i-ša-ak-[k]a-an
+40. DIŠ i-[n]a A₂.GUB₃ MUR še₂₀-pu-um ne₂-ke-em-tum i-na A₂.ZI um-[m]a-an a-na ki-ir-ri-im ta-ṭa-ra-du it-ti {lu₂}KUR₂ e[t]-ru-ša-[a]t
+41. DIŠ i-na A₂.ZI MUR še₂₀-pu-um u₂ ma-aṣ-ṣa-ar-ti MUR A₂.GUB₃ ip-ṭu₃-ur um-ma-an a-na ki-ir-r[i-im] [ta-ṭa]-ar-ra-du ni-ṣi-ir-ti {lu₂}KUR₂ u₂-še₂₀-ṣe-a-am
+42. DIŠ i-na A₂.GUB₃ MUR še₂₀-pu-um u₂ pi-iṭ-ru-um i-na A₂.ZI {lu₂}KUR₂-um i-ru-ba-am-ma ša-al-la-tam u₂-še₂₀-ṣe
+43. DIŠ i-na A₂.ZI MUR še₂₀-pu-um u₂ pi-iṭ-ru-um i-na A₂.GUB₃ še₂₀-ep-ka a-na ma-a-at {lu₂}KUR₂ ur-ra-ad-ma wa-ṣi-a-am i-le-eq-qe₂
+44. DIŠ i-na A₂.GUB₃ MUR še₂₀-pu-um še₂₀-ep {lu₂}KUR₂-im a-na ma-ti-ka ur-ra-ad
+45. DIŠ i-na A₂.ZI MUR še₂₀-pu-um še₂₀-ep-ka a-na ma-a-at {lu₂}KUR₂-im ur-ra-ad
+46. DIŠ MUR A₂.ZI u₂ A₂.GUB₃ še₂₀-pa-an ša-ak-na na-an-mu-ur-[tu]m
+47. DIŠ i-na MURGU₂ ša A₂.ZI MUR še₂₀-pu-um ša-ad-da-at še₂₀-ep-ka it-ti i-lim u₂-[t]a-aš-ša-ar
+48. DIŠ GU₂.MAR MUR A₂.ZI ša-ti-iq a-al wa-aš-ba-a-ti in-na-aq-q[a₂]-ar
+49. DIŠ GU₂.MAR MUR A₂.GUB₃ ša-ti-[i]q a-al {lu₂}KUR₂-im in-na-a[q]-qa-ar
+50. DIŠ GU₂.MAR MUR A₂.ZI u₂ [A₂].GUB₃ e-ki-im ka-mu-um ka-mi-šu i-[k]a-am-mu
+51. DIŠ GU₂.MAR MUR su-ma-a[m] x du ut i-ša-tum in-na-ap-pa-aḫ
+52. DIŠ GU₂.MAR MUR ša A₂.ZI wu-ur-qa₂-am ki-ma 1 ŠU.SI-ša e-di-iḫ {d}ŠEŠ.[KI].DALLA ša {d}UTU
+53. DIŠ i-na G[U₂].MAR MUR še₂₀-pu-um ŠU.SI MUR i-na-ṭ[a]-al GABA.RA-ḫu-um
+54. DIŠ i-[n]a GU₂.MAR MUR ša A₂.GUB₃ še₂₀-pu-um ša A₂.GUB₃ GIR₃ ma-ṣa-ar-ti [MUR] i-na-ṭa-al [ḫa-a]t-tum e-li um-ma-an {lu₂}[KUR₂] i-ma-qu₂-[u]t
+55. DIŠ EGIR MUR it-te-en₆-mi-id sa-li-mu-[u]m iš-ša-ka-an
+56. DIŠ EGIR MUR x x x x x am MUR pa-ri-is [a-al d]u-ri-ka {lu₂}KUR₂ i-ta-ab-ba-al
+57. DIŠ m[a]-aṣ-ṣa-ar-ti MUR ša A₂.ZI ip-[ṭu₃-u]r [ni]-ṣi-ir-ta-ka iṣ-[ṣi]
+58. DIŠ m[a]-aṣ-ṣa-ar-ti MUR ša A₂.GUB₃ [i]p-ṭu₃-[ur] [n]i-ṣi-ir-ti {lu₂}KUR₂-k[a tu-še₂₀-ṣe-a-a]m
+59. DIŠ GU-um re-eš ŠU.SI MUR ṣa-bi-it-ma [...] x da mur [...] gi-iš-ra-a-am ra-bi-a-am ma a pil₂ [...]
+60. DIŠ GU-um re-eš ŠU.SI ṣa-bi-it a-na x [...] a-li-ik pa-ni um-ma-nim i-ma-qu₂-[ut]
+61. DIŠ GU₂.MUR e-ṣi-ip ṭe₄-mu-um i-ša-an-[ni]
+62. DIŠ GU₂.MUR da-ma-am ma-li wa-ši-ib E₂.GAL-im [p]i-ri-iš-tam u₂-še₂₀-eṣ-ṣe
+63. DIŠ [GU₂.M]UR ša-am-mi ma-li wa-ši-ib a-li-i[m] [pi-ri-iš-tam] u₂-še₂₀-eṣ-ṣe
+64. DIŠ GU₂.MUR me-e ma-li ša-mu-um [i]-za-nu-un
+65. DIŠ GU₂.MUR ŠU.SI iṭ-ṭu₃-ul MUNUS nam-za-[qa₂]-am u₂-še₂₀-ṣe
+66. DIŠ ŠU.SI MUR GU₂.MUR iṭ-ṭu₃-ul LUGAL i-na a-li-šu
+67. DIŠ GU₂.MUR na-ap-ša-ra-am iḫ-lu-ut LUGAL šu-ut ba-ar-ti-šu qa₂-as-su i-ka-aš-ša-ad
+68. DIŠ na-ap-ša-rum GU₂.MUR iḫ-lu-ut LUGAL-am SUKKAL-šu i-da-ak-šu
+69. DIŠ GU₂.MUR u₂-na-ap-pa-aḫ ša-ḫu-ra-tum it-ta-ba-ka
+70. DIŠ ba-as-ki-il-tum ša ŠU.SI MUR ḫu-ur-ḫu-da-am iṭ-ṭu₃-ul MUNUS a-wa-at pu-uḫ-ri-im uš-te-ne₂-ṣe
+71. DIŠ pu-ug-lum A₂.ZI ta-ri-ik ša li-ša-ni-ia i-na ma-a-tim it-ta-na-al-la-ak
+72. DIŠ pu-ug-lum A₂.GUB₃ ta-ri-ik mu-nu-ut ki-si-im i-na ma-a-at {lu₂}KUR₂ it-ta-na-al-la-ak
+73. DIŠ pu-ug-lum A₂.ZI u₂ A₂.GUB₃ ta-ri-ik pi₂-it-ru-uš-tum 2 pu-ug-lu di-ik-šum ib-ba-aš-ši
+74. DIŠ pu-ug-lum e-pi-iq ma-a-tum bu-lu-tam i-la-ak
+75. DIŠ i-na šu-pa-at A₂.ZI {giš}TUKUL ma-a-tum a-na pi-ka uš-ša-ab
+76. DIŠ GU₂.MUR pi-iṭ-ra-am la i-šu LUGAL da-an-na-tum iṣ-ṣi
+77. DIŠ GU₂.MUR UZU la-wi u₂ A₂.GUB₃ ša-ti-iq du-ur {lu₂}KUR₂-ka ta-na-aq-qa₂-ar
+78. DIŠ GU₂.MUR UZU la-wi u₂ A₂.ZI ša-ti-iq a-al du-ri-ia {lu₂}KUR₂ i-na-aq-qa₂-ar
+79. DIŠ GU₂.MUR na-ba-al-ku-ut ṭe₄-e-em ma-a-tim iš-ta-na-an-ni
+80. DIŠ GU₂.MUR ta-ri-ik mi-qi₂-it-ti ru-be₂-e-em

@@ -1,0 +1,13 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+counting: šum-ma
+topic: lung
+publication: YOS 10, 5
+feature: ubān ḫašî qablītu
+note: lung model (illustrative, one omen)
+---
+
+1. šum-ma u₂-ba-an ḫa-ši-im qa₂-ab-li-tum ib-ba-al-ki-it-ma ḫu-ur-da-am iṭ-ṭu₃-ul na-ru-um i-se₂-ki-ir-ma mu-ša i-ba-lu-u₂ er-ṣe₂-tam i-lu-ša i-zi-bu-ši ma-tum ḫa-ar-bu-tam i-la-ak u₂-lu-u₂ pa-lu-um i-na-ki-ir
+#tr.en: If the Middle Finger of the lung turns upside down and faces the trachea — the canal will become dammed up and its water will dry up; (or:) the gods of the land will abandon it, the country will go to ruin; or: the dynasty will change.

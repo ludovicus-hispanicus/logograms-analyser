@@ -1,0 +1,56 @@
+---
+genre: diagnostic omens
+period: Old Babylonian
+provenance: unknown
+counting: §
+---
+@obverse
+1'. [...] x-ma
+2'. [...] x
+$ single ruling
+§1 3'. [...] x x [...] la i-šu
+§1 4'. [...] x-šu qu₂-ta-a-šu u₃ ši-pa-a-šu ka-ṣi-a
+§1 5'. [u₂-ul i]b-ṭi-la# mu-ru-us-su i-ir-ri-ik
+§1 6'. [u₂-u]l ba#-li#-iṭ# a#-we-lu ba-li-iṭ
+$ single ruling
+§2 7'. [šu]m-ma a-we-lum ṣe-ra-am i-ba-ha-am-ma
+§2 8'. [u]l-la-nu-um-m i-na ma-ak-ka-ap-ti-šu ma-hi-iṣ
+§2 9'. ($___$) u₃ it-ta-na-ab-lu-uṭ
+§2 10'. h[i]-pi-i-iṭ# ṣe-ri-im ša-ag-ga-a-šum
+$ single ruling
+§3 11'. šum-ma mar-ṣum i-na-a-šu da-ma-am ma-li-a
+§3 12'. li-ib-ba-šu iš-ta-na-hi-iṭ-ma qa₂-tam i-sa₃#-ki#-ip
+§3 13'. mar-ṣu₂ šu-u₂ u₂-ul i-ba-lu-uṭ
+$ single ruling
+§4 14'. šum-ma mar-ṣu₂ di-gi-il-šu ga-li-it
+§4 15'. e-li bu-ul-ṭi-šu pa-nu-u₂-šu du-um-qa₂-am
+§4 16'. iš-ku-nu mar-ṣu šu-u u₂-ul ba-li-iṭ
+$ double ruling
+§5 17'. šum-ma mar-ṣu₂ qa₂-ta-a-šu u3 ši-pa-a-šu
+
+@bottom
+§5 18'. ($___$) i-ik-ka-la-a-šu
+§5 19'. ši-ta-as₂-sa-a-am mi-im la pa-te₄-er
+
+@reverse
+§5 20'. pa-ga-ar-šu mi-im-ma la e-em
+§5 21'. qa₂-at ki-iš-pi₂
+$ single ruling
+§6 22'. šum-ma mar-ṣu₂ šu-u₂ u₂-ni-a-at li-ib-bi-šu
+§6 23'. ($___$) i-ta-na-ka#-la#-a-šu
+§6 24'. mar-ṣum# hi-mi-iṣ ṣe-e-tim
+$ single ruling
+§7 25'. šum-ma mar#-su₂# UD.4.KAM UD.5#.KA[M] UD.6#.K[AM]
+§7 26'. x x gi#-il# [... ma-h]i-iṣ
+§8 27'. šum#-ma# x nu x [... -a]b-ba
+28'. x [...] u₂# qa₂-ta-x x [...] x x-ri-šu
+29'. [...] x ki#-ma# x [...] x
+30'. [...] x [...] li#-ib#-ba#-šu#
+31'. [...] x x [...] x-ab#-ba# u₃ n[a-š]i-i
+32'. [...] x-ṣa-am šum#-ma a-we-[l]u
+33'. [šu-u₂ ...] u₂#-ul ba-li-iṭ
+$ double ruling
+§9 34'. [šum-ma mar-ṣu₂ li-i]b-ba-šu i-ik-kal-šu-ma
+§9 35'. [li-ib-bi li-ib-b]i iš-ta-na-as₂-si
+§9 36'. [mar-ṣu₂ šu-lu e]k-ke-et-tim
+$ double ruling

@@ -1,0 +1,34 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 15 = VAT 10805. Middle Assyrian; snake (MUŠ) omens ≈ Šumma Ālu 23. (page_008 head + page_009 continuation.)
+counting: DIŠ
+source_note: Extracted from KAL 1 via structured OCR. Determinatives {}, restorations [], breaks x/…/[...]. Trust the preserved-only LDI.
+---
+@obverse
+[ EN é NÍG.GI]G IGI-ma ÚŠ
+[ SÁ.DUG₄-š]ú LAL!-ṭi
+[ LÚ BI DINGIR-šú ana SIG₅-ti] UŠ.UŠ-šu
+[ ḪU]L-ma SÁ.SÁ
+[ NA] BI ina MUNUS.KALA.GA
+[EN INIM-šú] KUR-ád
+[ MU SI]G₅.GA TUK-ši
+[ MU-šú ina] MUNUS.ḪUL DU₈-ár
+[ MU] 3-KÁM ina K[I.ŠÚ] ŠUB
+[DINGIR i-saḫ-ḫar-ma] TI-uṭ
+[ GIZKIM-šu] DIB!-iq-šú
+[ ] x du
+[ ] x [ ]
+DIŠ MUŠ [ ]
+DIŠ e-nu-[ma ]
+ti-[ ]
+DIŠ MUŠ x [ ]
+ri x [ ]
+DIŠ MUŠ [ ]
+DIŠ MUŠ [ ]
+x [ ]
+x [ ]
+x [ ]
+DIŠ M[UŠ ]
+DIŠ [ ]

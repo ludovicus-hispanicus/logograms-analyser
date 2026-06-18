@@ -1,0 +1,41 @@
+---
+genre: izbu omens
+period: Neo-Babylonian
+provenance: Babylon
+publication: eBL fragment BM.33793; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Tablet 22 (pig/sow, sahu)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@obverse
+1'. [BE {munus}ŠAH 7] U₃.TU#-ma# TEŠ₂.BI BABBAR-MEŠ LU₂ i-z[a-ak ku-u₂ ...]
+2'. [BE {munus}]ŠAH# 7?# U₃.TU-ma SAG.KI-su-nu GE₆ K[UN ...]
+3'. [BE {munus}]ŠAH 8 U₃.TU ṭuh-du [ina KU]R GAL₂#-ši# at#-hu#-u [...]
+4'. [BE {munus}]ŠAH# 10# U₃.TU# E₂# LU₂ N[U SI.SA₂ U]ZU.BI ul [...]
+5'. [BE {munus}ŠAH 10] U₃.TU# BURU₁₄ KUR SI.SA₂ EN-ša₂ [...]
+6'. [BE {munus}ŠAH] 15 U₃.TU A₂.DAM LU₂ ana ŠA₃ URU i-pa-ah-[hu-ru]
+7'. [BE {munus}ŠA]H 20 U₃.TU nu#-kur₂-t[u₄ GID₂.DA]
+8'. [BE {munus}Š]AH 25 U₃.TU PAP SAG.KI KA.BI rit-t[u₄ ...]
+9'. [BE {munus}Š]AH 30 U₃.TU nu-kur₂-tu₂ GAL₂-ma KA KUR LUGAL [BAL]
+10'. [BE {munus}Š]AH U₃.TU-ma BABBAR-MEŠ EN-ša₂ i-šar₂-ru₃ a-me-lu-t[a₅ DU-ak]
+11'. [BE {munus}ŠAH] U₃.TU-ma# GE₆-MEŠ EN-ša₂ UŠ₂ dan-na-tu₂ [...]
+12'. [BE {munus}ŠAH] U₃.TU-ma SA₅-MEŠ hu-ud lib₃-bi : {munus}ŠAH U₃.TU-ma [...]
+13'. [BE {munus}ŠAH] U₃.TU-ma SIG₇-MEŠ EN-ša₂ u[l-tab-bar]
+14'. [BE {munus}ŠAH] U₃.TU-ma GIR₃-MEŠ-šu₂ nu-uk-ku-sa E₂ NA BIR-ah KUR [ŠA₃ HUL IGI]
+15'. [BE {munus}ŠAH] U₃.TU-ma GIR₃-MEŠ NU GAL₂-MEŠ TUR₃ E₂ NA BIR-a[h ...]
+16'. [BE {munus}ŠAH] U₃.TU-ma 2 SAG.DU-MEŠ-šu₂ EN {munus}ŠAH UŠ₂ E₂ [EN BIR-ah]
+17'. [BE {munus}ŠAH] U₃.TU-ma 3 SAG.DU-MEŠ-šu₂ E₂ EN-ša₂ [...]
+18'. [BE {munus}ŠAH U₃].TU-ma SAG.DU NU GAL₂ LU₂ BI UŠ₂#-ma# E₂ E[N ...]
+19'. [BE {munus}ŠAH U₃].TU-ma SAG.DU-MEŠ-šu₂-nu nu-uk-ku-[sa ...]
+20'. [BE {munus}ŠAH SAG].DU? U₃.TU [...]
+@reverse
+1'. [...] uš#-tap#-pil# mu#-de#-e# [...]
+2'. [... a-si]r-tu₄ E₂ NA K[U₄-ub]
+3'. [... n]e-hi-iš i-te-ne-pu-uš GIG ina a#-[hi-ti ...]
+4'. [...] BURU₅.HI.A KU₆.HI.A GAL₂ [...]
+5'. [...] KU₄-ub EN BI i-šar₂-[ru₃]
+6'. [...] EN-šu₂ E₃ EN BI I.BI₂.ZA IGI [...]
+7'. [...] EN-šu₂ KU₄-ub ne₂-me-lam IGI [...]
+8'. [... E]N-šu₂ E₃ EN-ši I.BI₂.ZA# [IGI-mar]
+9'. [... Z]I-am [...]

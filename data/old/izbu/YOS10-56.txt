@@ -1,0 +1,127 @@
+---
+genre: izbu omens
+period: Old Babylonian
+provenance: unknown (purchased; southern Babylonia, Rim-Sin/Hammurabi era)
+publication: YOS 10 56 (Goetze 1947); ed. Leichty TCS 4, 201-206 (Old Babylonian Version)
+counting: DIŠ
+source_note: Transliteration from Leichty TCS 4 (1970) text layer. Classic syllabic OB style. Glyphs OCR-approximate (lowercase s=š, ~=ṣ/ḫ) but letter CASE is accurate, so the LDI (logogram/syllabic) distinction is reliable; DIŠ/ANŠE/GIŠ/MAḪ normalised. [ ]=restoration.
+---
+
+@obverse
+1. DIŠ iz-bu-um [ul-la]-nu-um-ma li-ib-ba-šu pe-ti-i-ma
+2. ir-ru-[šu wa-ṣu]-ú ma-tum su-un-qá-am i-mar-ma
+3. [x] ⌈x⌉ […] ⌈x⌉-ri-im ú-ši-iṣ-ṣi
+4. [DIŠ iz-bu-um … x]-li-it sà-aḫ-ma-aš-tum
+5. [i-na] ma-[tim ib-ba-a]š-ši
+6. DIŠ iz-bu-um ki-ma UR.BAR.RA bi-bu-um i-na ma-tim
+7. ib-ba-[aš]-ši
+4. DIŠ iz-bu-um ki-ma li-bi-tim ma[tam da ]-an-na-tum i-~a-ab-ba-at-ma ku-ru-um i-ma-qu-ut
+5. DIŠ iz-bu-um ul-la-nu-um-ma i-mi- ta-su sa i-mi-ti na-as-~a-at a-Cal] pa-ti-i-ka LU.KUR i-~a-ba-at
+6. DIŠ iz-bu-um ul-la-[nu]-um-ma sipa-tim na-si HAL LUGAL ga-mi-ir [LU.KuRFka1 um-ma-an-ka a-na GIŠ.TUKUL-ki u-sa-am-qa-at-ma ma-tum ma-li-aam i-na-as-si
+7. DIŠ iz-bu-um ul-la-nu-um-ma pi-[su] u-pu-uq LUGAL mu-ut i-li-su i-ma-at-[ma] kaab-tum ma-tam u-wa-e-ir
+8. DIŠ iz-bu-um i-na mu-u~-~i-su zi-i~ ~u-um sa-ki-in LU.KUR ma-tam u-sa-am-qa-at a-na mu-us-ke-nim bi-is-su u u-ni-ti-su ]i.GAL i-re-di-e
+9. DIŠ iz-bu-um qi-na-as-su pe-rM!-a!L at ma-tam da-an-na-tum i-~a-ab-ba-at-ma ~u-sa-a~-[~u]-um ib-ba-aS-si
+10. DIŠ iz-bu-um mu-us-ti-nam la i-su mi-lu-um i-na na-ri-im i-pa-ra-sa-am zi-nu i-na sa-me-e is-sa-aq-qa-lu
+11. DIŠ iz-bu-um pa-ni UR.MAḪ sa-ki-in LUGAL [da]-an-nu-um ib-ba-as-si-ma ma-tam sa-ti u-na-as
+12. DIŠ iz-bu-um pa-ni i-~u-ri-im le-mu- [tim] sa-ki-in ma-tum si-i su-un-qa-am i-mar LU. KUR-sa e-li-sa it-ta-za-az
+31. DIŠ iz-bu-um ir-ru-šu i-na mu-uh-hi-šu ša-ak-nu
+32. bi-ša-am ša ma-tim ša-a-ti [ma]-tum [ša]-ni-tum
+33. i-ta-ab-ba-al
+34. DIŠ iz-bu-um ši-in-na-šu wa-ṣa-a LUGAL UD.[MEŠ-šu] ga-am-ru
+35. i-na GIŠ.GU.ZA-šu ša-nu-um uš-[ša]-ab
+36. DIŠ iz-bu-um i-in-šu i-na pu-ti-i-šu {d}GÌR.UNU.GAL
+37. i-ik-ka-al LUGAL ki-iš-ša-tim i-na ma-tim ib-ba-aš-ši
+38. DIŠ iz-bu-um ki-ma ṣi-ri-im bu-lum i-ṣe-hi-ir
+39. i-na GIŠ.TUKUL-ki um-ma-an LUGAL ma-hi-ri ú-ul i-ra-aš-ši
+40. DIŠ iz-bu-um up-pu-uq a-mu-ut I-bi-{d}EN.ZU
+41. ša-ah-lu-uq-tum
+42. DIŠ iz-bu-um ki-ma pa-ap-pa-ar-hi-tim bu-lum
+43. i-ṣe-eh-hi-ir
+44. DIŠ iz-bu-um ir-[ru-šu] i-ṣú-ma! ù ma-aš-tam ma-ši-id
+45. sú-un-qú-um [ma-tam i-ṣa]-ab-ba-at
+@column 2
+1. DIŠ iz-bu-um i-na i-ir-ti-šu pe-ti-i-ma ù da-al-tum
+2. ša ši-[i]-ru ša-ak-na-at-ma ip-pe-et-te ù i-di-il
+3. ma-tum ši-i in-na-an-di ha-ra-na-tu-ša
+4. ip-pe-hi-a
+5. DIŠ iz-bu-um [x x] pi [x] im ú-ṣú-úr-tum
+6. DIŠ iz-bu-um [x x] ga [x] bu-ru-um a-mu-ut A-pi-ša-li-im
+7. ša {m}Na-ra-[am-{d}]EN.ZU ik-šu-du-ú-šu
+8. DIŠ iz-bu-um 2 SAG.DU-šu ša la a-wa-as-sú-ú
+9. GIŠ.GU.ZA i-ṣa-ab-ba-at
+10. DIŠ iz-bu-um 2 KUN-šu ta-aq-ti-a-at BAL
+11. DIŠ iz-bu-um qá-qá-as-su ka-a-a-nu-um ša-ki-in-ma
+12. ù ša-nu-um i-na i-mi-tim ša-ki-in
+13. ti-bu-um ka-aš-du-um LÚ.KÚR-ka ma-at-ka ú-ḫa-al-la-aq
+14. DIŠ iz-bu-um iš-tu pa-ni na-ag-la-bi-šu ša i-mi-tim
+15. ku-ri-is-su ù ku-ur-sí-na-šu la i-ba-aš-ši
+16. ti-bu-um ka-aš-du-um ša la a-wa-as-sú GIŠ.GU.ZA [i]-ṣa-ba-at
+17. DIŠ iz-bu-um pi-šu ka-a-a-nu-um ša-ki-in-ma ù ša-nu-um
+18. i-na šu-me-lim ša-ki-in a-na LÚ.KÚR-ka pi-a-am ma-ṭi-a-am
+19. ta-aš-ta-ka-an
+20. DIŠ iz-bu-um pi-šu ka-a-a-nu-um ša-ki-in-ma ù ša-nu-um
+21. i-na i-mi-tim ša-ki-in LÚ.KÚR-ka pi-a-am ma-ṭi-a-am
+22. iš-ta-ak-ka-na-ak-ku
+23. DIŠ iz-bu-um uz-na-šu i-ni-šu ik-ta-⌈ta⌉-ma
+24. a-wi-lum i-ḫa-al-li-iq
+25. DIŠ iz-bu-um ki-ma il-la-bu-ḫi-im ša-ra-am ma-li
+26. É.GAL i-ri-aq {d}IM ri-ṭi-ib-tam i-ra-ḫi-iṣ
+27. DIŠ iz-bu-um ki-ma mu-qá-ri-im ku-bu-ut-ma ù da-an
+28. ma-tum i-ḫa-al-li-iq-ma ma-li-a-am in-na-aš-ši
+29. DIŠ iz-bu-um ta-ri-ik-ma ṣa-li-im ⌈ta⌉-li-it-ti
+30. bu-li-im i-ṣe-ḫi-ir
+31. DIŠ iz-bu-um qá-qá-as-su a-na ḫa-al-li-šu ka-mi-is-ma
+32. it-ti zi-ib-ba-ti-šu ti-iṣ-bu-ut
+33. a-wi-lum ṣe-ḫe-er bi-ti-šu ù ú-ni-ti-šu
+34. i-na-šu i-ma-ra
+35. DIŠ iz-bu-um qá-qá-as-su ka-a-a-nu-um ša-ki-in-ma
+36. ù iš-tu li-ib-bi pi-šu qá-qá-as-su ša-nu-um wa-ṣi
+37. šar-ru-um šar-ra-am i-na GIŠ.TUKUL-ki i-da-ak-ma
+38. a-la-ni-šu na-wi-šu du-ra-ni-šu er-ṣe-es-su
+39. ù ṭi-iḫ-ḫi-šu qá-as-su-ú i-ka-aš-ša-ad
+40. DIŠ iz-bu-um li-ša-nam la i-šu pa-lu-um pa-li-e
+41. ra-gi-im sà-ar-ra-ru i-te-eb-bu-nim-ma
+42. ma-tam ú-ḫa-al-la-qú-ú
+43. DIŠ iz-bu-um i-mi-ta-šu ṣe-lu-šu ù pe-em-šu ša šu-me-lim
+44. la i-ba-aš-ši šar-ra-am ša it-ti-i-ka na-ak-ru-ú i-na GIŠ.TUKUL-ki ta-da-ak-ma
+45. a-al-šu na-wi-šu er-ṣe-es-su qá-at-ka
+46. i-ka-aš-ša-ad
+@column 3
+1. DIŠ iz-bu-um i-in-šu iš-ti-a-at-ma ma-tum ra-pa-aš-tum
+2. a-na da-an-na-tim [i]-pa-aḫ-ḫu-ur
+3. DIŠ iz-bu-um pa-ni UR.BAR.RA ša-ki-in mu-ta-nu
+4. da-an-nu-tum ib-ba-aš-šu-ú-ma a-ḫu-um a-na bi-it
+5. a-ḫi-im ú-ul i-ru-ub
+6. DIŠ iz-bu-um sú-qá-as-su pu-us-su ik-ta-ša-ad
+7. šar-ra-am da-an-na-tum i-ṣa-ab-ba-at
+8. DIŠ iz-bu-um ki-ma UR.MAḪ a-mu-ut {m}Na-ra-am-{d}EN.ZU
+9. ša ki-ša-tam i-bé-lu-ú
+10. DIŠ iz-bu-um ki-ma ANŠE.KUR.RA a-mu-ut {d}Šul-gi
+11. ša pa-aṭ LIMMÚ.BI i-bé-lu-ú
+12. DIŠ iz-bu-um ki-ma ši-li-bu-ti BAL {d}EN.LÍL
+13. ma-tum i-ši-ir LUGAL Šu-mi-ri-im ma-[tam] i-bi-el
+14. DIŠ iz-bu-um ki-ma ku-ul-ku-ul-lu ša [x]-šu e-li-ḫa
+15. ma-tum i-ši-ir
+16. DIŠ iz-bu-um 2 SAG 2 GÚ.MURGU 2 KUN 8 GÌR.ḪI.A
+17. DUMU LUGAL GIŠ.GU.ZA i-ṣa-ab-ba-at
+18. DIŠ iz-bu-um 1 SAG 2 GÚ.MURGU 2 KUN 8 GÌR.ḪI.A
+19. LUGAL er-ṣe-tam la ša-tam ù ma-tam la ša-tam
+20. qá-as-su i-ka-aš-ša-ad
+21. [DIŠ] iz-bu-um qá-qá-as-su ka-a-a-nu-um ša-ki-in-ma
+22. [ù] ša-nu-um ṣi-iḫ-ru-um i-na šu-me-lim ša-ki-in
+23. [ma]-at LÚ.KÚR-ka tu-ša-am-qá-at
+24. [DIŠ] iz-bu-um iš-tu li-ib-bi um-mi-šu qá-ar-na-šu
+25. [wa]-ṣa-a LUGAL ki-iš-ša-tim i-na ma-tim ib-ba-aš-ši
+26. DIŠ iz-bu-um pa-ni ANŠE ši-pa-šu ma-aḫ-ri-<a>-tum
+27. ši-ip UR.MAḪ ši-pa-šu wa-ar-ki-a-tum ši-ip ANŠE
+28. ma-tum ši-i LÚ.KÚR-ša i-na GIŠ.TUKUL-ki i-sà-ki-ip
+29. e-li LÚ.KÚR-ša it-ta-za-az
+30. DIŠ iz-bu-um pa-ni ŠAH ma-tum šu-ub-tam ni-ih-tam uš-ša-ab
+31. DIŠ iz-bu-um i-na i-mi-ti-šu ša i-mi-ti
+32. ša-ra-at UR.MAH ša-ki-in a-mu-ut Šar-ru-ki-in
+33. DIŠ iz-bu-um mi-di-nu-um LUGAL ki-ša-tim
+34. i-na ma-tim ib-ba-aš-ši
+35. DIŠ iz-bu-um qa2-ra-an al-pi-im a-mu-ut Šar-ru-ki-in
+36. DIŠ iz-bu-um tu-ra-hu-um LUGAL KALAG.GA i-na ma-tim
+37. ib-ba-aš-ši
+38. ŠU.NIGIN2 53 te-[er]-ti iz-bu-um

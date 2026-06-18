@@ -1,0 +1,132 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+counting: BE
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 52 (VAT 10125 = KAR 428)
+feature: lung (KI.TA/AN.TA KAR "covered below/above"); complete tablet
+note: forerunner to Bārûtu šumma ḫašû Tablet 10; 113 omens; eponym Ilī-uballissu; translations in Heeßel 2012
+---
+
+@obverse
+1. [BE SAG MUR ša₂ ZAG ina SIG-ša₂] KI.TA KAR ina GU₄.UD-iṭ {d}UTU-ši [KUR₂ GAZ-an-ni]
+2. [BE] AN.TA KAR ina GU₄.UD-iṭ {d}UTU-ši [KUR₂ a-dak]
+3. [BE ku-tal MUR ša₂ ZAG] KI.TA KAR DINGIR.MEŠ A₂ ERIN₂ KUR₂ DU.MEŠ-ma KUR₂ [GAZ-an-ni]
+4. [BE a-aḫ ID₂ MUR ša₂ ZAG] AN.TA KAR DINGIR.MEŠ A₂ ERIN₂-ia DU.MEŠ-ma KUR₂ [a-dak]
+5. [BE MAŠ.GAN₂ le-et ša₂ ZA]G KI.TA KAR KUR₂ ina SAG A.ŠA₃-ia ERIN₂-ni u₂-[šam-qat]
+6. [BE] AN.TA KAR ERIN₂ KUR₂ ina SAG A.ŠA₃-ša₂ tu?-[šam-qat]
+7. [BE SAG ŠU.SI MUR] TUR ša₂ IGI GU₂.LAGAB ina KUR-ša₂ KI.TA KAR KUR₂ ina ŠA₃ KI-ia x [x]
+8. [BE] ina EGIR-ša₂ KAR KUR₂ i x ri ka x x x [ ]
+9. [BE ZAG ŠU].SI MUR TUR ša₂ IGI GU₂.LAGAB KI.TA KAR ina {giš}TUKUL KUR₂ ZAG-ti GAZ-ak
+10. [BE] AN.TA KAR ina {giš}TUKUL [(o)] ZAG-ti KUR₂ GAZ-ak
+11. [BE ZAG Š]U.SI MUR TUR ana A₂ ŠU.SI MUR GAL-ti KI.TA KAR KUR₂ GUB-ma KUR-ka [x]
+12. [BE] AN.TA KAR KUR₂ ZI-ma GAZ-šu
+13. [BE b]i-rit SAGŠU MUR u₃ MAŠ.GAN₂ le-et ZAG KI.TA KAR IM.ŠEG₃ LAL.MEŠ-ma e-bur KUR [ ]
+14. [BE] AN.TA KAR AN-tu ṭa-ḫi-tu SUR-nun ILLU DU-ma x [ ]
+15. [BE SAG] SAGŠU [M]UR BAR-ma KI.TA KAR DUMU DAM.GAR₃ ana KUR SU₃ DU-ma NIG₂.NA₄-su ZAḪ₂ S[U₃-su GU]R-ra
+16. [BE] AN.TA KAR GABA.RI di id mim-ma aq-ra TI-ma ana LUGAL SUM-in
+17. [BE] SAG SAGŠU [M]UR ša₂ ZAG KI.TA KAR ERIN₂-ni DINGIR.MEŠ-ša₂ TAG₄.MEŠ-ši
+18. [BE] AN.TA KAR ERIN₂-ni ina A₂ DINGIR DU-ak LU₂ UGU EN INIM?-[š]u GUB-az
+19. [BE nak-ka]p SAGŠU MUR BAR-ma KI.TA KAR GAL E₂.GAL BA.UŠ₂ ŠUB-at x x x [ ]
+20. [BE] AN.TA KAR GAL E₂.GAL ki ma x en šu dugud x [ ]
+21. [BE ŠU.SI] MUR GAL ša₂ ZAG ana A₂ GU₂.MUR KI.TA KAR UŠ-ut LU₂ E₂.GAL UŠ-d[i]
+22. [BE] AN.TA KAR LU₂ ir-nin-ta-šu KUR-ad ša₂? mim-ma ŠU-su [ikaššad]
+23. [BE SAG ŠU.SI MU]R G[AL] ša₂ ZAG ina KUR-ša₂ KI.TA KAR ILLAT.MEŠ LUGAL BIR.MEŠ-ma GAZ.M[EŠ]
+24. [BE] AN.TA KAR LUGAL ILLAT.MEŠ-šu u₂-dan-na-na-šu-ma KU[R₂ ]
+25. [BE MU]R ša₂ ZAG KI.TA KAR a-di-ir KUR₂ ger-ru ŠUB-šu-ma ana KUR-šu G[UR-ar]
+26. [BE] AN.TA KAR ERIN₂-ni ina KASKAL DU-ku ger-ru ŠUB-ši-ma SU₃-sa₃ G[UR-ra]
+27. [BE MU]R ša₂ ZAG KI.TA KAR KUR₂ URU₃-ti TI-qe₂
+28. [BE] AN.TA KAR URU₃-ti KUR₂ TI-qe₂
+29. [BE MU]R ša₂ ZAG KI.TA KAR KUR₂ NAM.RA TI-u₂ uš-ta-at-bak
+30. [BE] AN.TA KAR KUR₂ NAM.RA TI-u₂ u₂-šat-bak-an-ni
+31. [BE kap-pi MU]R ša₂ ZAG KI.TA KAR KUR₂ ana URU₃-ti-ia ana i-bi₂-se-e u₂-šar-ra
+32. [BE] AN.TA KAR a-rad URU KUR₂ URU₃-ti KUR KUR₂ TI-qe₂
+33. [BE x x] MUR ša₂ ZAG KI.TA KAR KUR₂ ina ŠA₃ KUR ši-pir GABA DU.MEŠ
+34. [BE] AN.TA KAR ina ŠA₃ KUR KUR₂ ši-pir GABA DU.MEŠ
+35. [BE ni-ir] MUR ša₂ ZAG KI.TA KAR qit-ru-biš KUR₂ GAZ-[an-ni]
+36. [BE] AN.TA KAR KUR₂ ina URU ZAG-šu GAZ-šu
+37. [BE du-un]-ni MUR ša₂ ZAG KI.TA KAR KUR₂ a-ṣu-ta DU-ku a-ṣi ERIN₂.TAḪ₂
+38. [BE] AN.TA KAR NUN ana KUR₂-šu ZI-ta GAR-ma du šu [(x)]
+39. [BE x x] MUR ša₂ ZAG KI.TA KAR BURU₁₄ KUR {d}IŠKUR RA-i[ṣ]
+40. [BE] AN.TA KAR BURU₁₄ KUR SI.SA₂ kur₃-ru DU₈-a₂r
+41. BE A₂ ID₂ MUR ša₂ ZAG ina MURUB₄-šu KI.TA KAR KUR₂ KI-ka KAR-ka
+42. [BE] AN.TA KAR NUN KI KUR₂-šu KAR-im
+43. BE A₂ ID₂ MUR ša₂ ZAG ina SAG-šu KI.TA KAR KUR₂ DINGIR A₂-ia TI-qe₂
+44. BE AN.TA KAR DINGIR A₂ KUR₂ TI-qe₂
+45. BE kit-tab-ri MUR ša₂ ZAG ŠA₃-nu KI.TA KAR ana KUR₂-ka KA LAL-a GAR-an
+46. BE AN.TA KAR KUR₂-ka KA LAL-a GAR-an
+47. BE E₂.GAL MUR ša₂ ZAG KI.TA KAR ša₂ AD.ḪAL LUGAL IL₂-u₂ ina-bit
+48. BE AN.TA KAR tuš-ši KUR₂ AD.ḪAL KUR₂ E₃.ME-ku
+49. BE EN.NU.UN E₂.GAL MUR ša₂ ZAG KI.TA KAR ŠU.I LUGAL a-ge-e EN-šu TI-qe₂-ma ina-bit
+50. BE AN.TA KAR INIM LUGAL UGU KUR₂-šu DUGUD-it
+51. [BE KU]N₄ ŠU.SI MUR MURUB₄ KI.TA KAR qit-ru-biš KUR₂ KAR-ka
+52. [BE] AN.TA KAR URU URU₃-ti KUR₂ DAB-bat-ma ILLAT.MEŠ-šu KAR-im
+53. [BE x x (x)] ŠU.SI MUR MURUB₄ KI.TA KAR LU₂ i-ʾa-dar-ma I.BI₂.ZA-a IGI-mar
+54. [BE] AN.TA KAR LU₂ i-ḫad-du-ma A₂.TUK IGI-mar
+55. [BE SAG] ŠU.SI MUR MURUB₄ ana E₂.GAL-ša₂ KAR nu-kur-tu₄ ina KUR GAL₂-ši
+56. [BE] ana DAGAL ZAG-ša₂ KAR SILIM-im ki-na-a-te ina KUR GAL₂-ši
+57. [BE SAG EDIN ZAG ŠU.S]I MUR MURUB₄ ana E₂.GAL-ša₂ KAR MAN.MEŠ-nu ina ni-iš DINGIR uš-ta-ad-da-[nu]
+58. [BE] ana DAGAL ZAG-ša₂ KAR MAN.MEŠ-nu ina ni-iš DINGIR DU₈.MEŠ
+59. [BE MURUB₄ EDIN ZAG ŠU.SI] MUR MURUB₄ ana E₂.GAL-ša₂ KAR bu-še GAL URU.DIDLI ana E₂.GAL KU₄-ub
+60. [BE] ana DAGAL ZAG-ša₂ KAR E₂ GAL URU.DIDLI DAGAL-iš
+61. [BE SUHUŠ EDIN ZAG ŠU.SI MUR MURUB₄] ana E₂.GAL-ša₂ KAR KUR₂ ID₂ LUGAL i-se-ker₆-ma UGU bu-še-šu MAŠKIM
+62. [BE] ina EGIR-ša₂ KAR NUN ID₂ KUR₂-šu i-se-ker₆-ma UGU bu-še-šu MAŠKIM
+
+@reverse
+1. [BE SAG EDI]N GUB₃ ŠU.SI MUR MURUB₄ ana KUR-ša₂ KAR MAN ana MAN SILIM.MA KIN-ar E₂ LU₂ DAGAL-iš
+2. [BE ana DAG]AL GUB₃-ša₂ KAR MAN ana MAN KUR₂-ta KIN-ar a-rad URU
+3. [BE MURUB₄] EDIN GUB₃ ŠU.SI MUR MURUB₄ ana KUR-ša₂ KAR DUMU {lu₂}ḪAL {giš}TUKUL DU₃-uš-ma KUR₂ GAZ URU ZAG KUR₂ DAB-bat
+4. BE [ana] DAGAL GUB₃-ša₂ KAR DUMU {lu₂}ḪAL ina ME₃ EDIN u₂-tar-ru-ni
+5. BE SUHUŠ EDIN GUB₃ ŠU.SI MUR MURUB₄ ana KUR-ša₂ KAR DU IGI ERIN₂-ia MU SIG₅ TI-qe₂
+6. BE ana DAGAL GUB₃-ša₂ KAR DU IGI ERIN₂-ia ina ḪUL lib₃-bi DU.MEŠ
+7. BE SAG MUR ša₂ GUB₃ ina SIG-šu KI.TA KAR gi-piš ERIN₂-ia ana KUR KUR₂
+8. BE AN.TA KAR gi-piš ERIN₂ KUR₂ ana KUR-ia
+9. BE ku-tal MUR ša₂ GUB₃ KI.TA KAR {d}MAŠ.TAB.BA ERIN₂ KUR₂ TAG.MEŠ ana {giš}TUKUL ri-iṣ DINGIR ana NUN
+10. BE AN.TA KAR {d}MAŠ.TAB.BA ERIN₂-ka TAG.MEŠ
+11. BE MAŠ.GAN₂ le-et GUB₃ KI.TA KAR IGI DU ERIN₂ KUR₂ ŠU ERIN₂-ia KUR-ad
+12. BE AN.TA KAR IGI DU ERIN₂-ia GAZ-ak
+13. BE SAG GUB₃ SAGŠU MUR KI.TA KAR KUR KUR₂ SU.GU₇ DAB-bat
+14. BE AN.TA KAR SU.G[U₇] ina KUR GAL₂-ši
+15. BE MURUB₄ GUB₃ SAGŠU MUR KI.TA KAR URU [ZAG] KUR₂ e-la-a ta-na-qar
+16. BE AN.TA KAR URU ZA[G-i]a KUR₂ ina-qar
+17. BE nak-kap GUB₃ SAGŠU MUR KI.TA KAR la mit-gur-ta ina KUR GAL₂-ši
+18. BE AN.TA KAR INIM MUNUS.SIG₅ ina KUR GAL₂-ši
+19. BE MAŠ.GAN₂ gi-piš MUR ša₂ GUB₃ KI.TA KAR ŠUB-ti SIG-i ša₂ KUR KUR₂
+20. BE AN.TA KAR ŠUB-ti IGI DU ERIN₂-ia
+21. BE [ŠU.S]I MUR GAL ša₂ GUB₃ ana A₂ GU₂.LAGAB KI.TA KAR a-na KUR₂-ka tu-ṣa-mar-ma NU KUR-ad
+22. BE AN.TA KAR a-na KUR₂-ka tu-ṣa-mar-ma KUR-ad
+23. [BE x Š]U.SI MUR GAL ša₂ GUB₃ ana A₂ AN.DUL₇-ti-ša₂ KI.TA KAR KUR₂ ZI-ma a-sa-kip-šu
+24. [BE] AN.TA KAR KUR₂ DU-ma KUR-ka
+25. [BE SAG Š]U.SI MUR GAL ša₂ GUB₃ ana KUR-ša₂ KI.TA KAR su-ḫur-ti ERIN₂ KUR₂ GAR-an
+26. [BE] AN.TA KAR su-ḫur-ti ERIN₂-ia ku-tal ERIN₂-ia KUR₂ IGI-mar
+27. [BE x] kur MUR ša₂ GUB₃ KI.TA KAR SUHUŠ ERIN₂-ia u₂-ka-an-ma KUR₂ GAZ-ak
+28. [BE] AN.TA KAR SUHUŠ ERIN₂-ia NU GI.NA
+29. [BE] MU SAG MUR ša₂ GUB₃ KI.TA KAR ana KUR₂ i-ta-am NU DIB.BA
+30. [BE] AN.TA KAR BAD.BAD KUR₂ GAZ-ak
+31. [BE kap]-pi MUR ša₂ GUB₃ KI.TA KAR KUR-ti ŠU-ia ERIN₂-ni ḪA.LA e-kal
+32. [BE] AN.TA KAR ERIN₂ KUR₂ ḪA.LA e-kal
+33. [BE x] MUR ša₂ GUB₃ KI.TA KAR KAR-ut ERIN₂ KUR₂
+34. [BE] AN.TA KAR KAR-ut ERIN₂-ni
+35. [BE n]i-ir MUR ša₂ GUB₃ KI.TA KAR gaba-raḫ ERIN₂ KUR₂
+36. [BE] AN.TA KAR gaba-raḫ ERIN₂-ia
+37. [BE du]-un-ni MUR ša₂ GUB₃ KI.TA KAR ki[š]-šat šar-ra-qi GAZ-ak
+38. [BE] AN.TA KAR šar-ra-qu E₂ LU₂ GAM.M[E]Š
+39. [BE x] x ru MUR ša₂ GUB₃ KI.TA KAR DUMU EGIR-u₂ E₂ AD-šu u₂-d[a-n]a-an
+40. [BE] AN.TA KAR DUMU EGIR-u₂ E₂ AD-šu BIR.M[EŠ]-aḫ
+41. [BE] A₂ ID₂ MUR ša₂ GUB₃ ina MURUB₄-šu KI.TA KAR ger-re-et KUR₂ GAZ-ak
+42. [BE] AN.TA KAR KUR₂ ina ŠA₃ KUR NAM.RA E₃-ṣi
+43. [BE A₂] ID₂ MUR ša₂ GUB₃ ina du-ni-šu KI.TA KAR ṭe₃-bi ERIN₂ KUR₂ x [x]
+44. [BE] AN.TA KAR UGU šal-ma-ti-ia KUR₂ i-ba-ʾa
+45. [BE] kit-tab-ri MUR ša₂ GUB₃ KI.TA KAR KUR₂-ka ša₂ i-tu-u₂ ZAḪ₂ ṣu₂-me-ra-te KUR.MEŠ
+46. [BE] AN.TA KAR LU₂ mim-ma ša₂ i-tu-u₂ ZAḪ₂
+47. [BE E₂.GA]L MUR ša₂ GUB₃ KI.TA KAR INIM NIG₂.GIG ana KUR KUR₂ ŠUB-ut
+48. [BE] AN.TA KAR ḫa-tu ŠA₃.MUD [x x] ŠUB-at INIM NIG₂.GI[G-te]
+49. [BE EN.NU].UN E₂.GAL MUR ša₂ GUB₃ KI.TA KAR bi-rat BAD₃ KUR₂ i-qa₂-a-[ap]
+50. [BE] AN.TA KAR bi-rat BAD₃ KUR₂ i-dan-ni-in
+51. [BE MUR ina] ZAG-šu u₃ GUB₃-šu KAR.MEŠ SA₅.MEŠ BA₃-ut {d}IŠ₈-tar₂? ša₂ ṭe₃-UMUM ina KUR u₂-ša₂-an-ni
+$ ruling
+52. [BE ina MU] SAG! MUR ša₂ ZAG {giš}TUKUL GAR-ma AN.TA IGI ina {giš}TUKUL! KUR KUR₂ GAZ-ni-ma UGU NIG₂.ŠU-[ia] MAŠKIM
+$ colophon: ŠU.NIGIN 1 ME 13 M[U].MEŠ AL.[TI]L IGI.KAR₂ GABA.RI LIBIR.RA-šu — total 113 entries, finished, collated
+$ ŠU {m}Ub-ri [DUMU {d}UTU]-ŠEŠ-SUM-na GAL ḪAL.MEŠ — hand of Ubru son of Šamaš-aḫa-iddina, chief diviner
+$ [ITI U₄ x]-KAM₂ [l]i-mu {m}DINGIR-u₂-TI-su — eponym Ilī-uballissu

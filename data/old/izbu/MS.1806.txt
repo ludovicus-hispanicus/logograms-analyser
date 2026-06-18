@@ -1,0 +1,59 @@
+---
+genre: izbu omens
+period: Late Old Babylonian
+provenance: unknown
+counting: šum-ma
+---
+
+@obverse
+$ (§ 1)
+1. [šum-ma iz]-bu 1 SAG-su₂ 2 pa-nu-šu 1 hur#-hu-us-su₂-nu
+#tr.en.(o 3): [If a miscarried] foetus has one head but two faces, (which have only) one throat (and) one [...] a king who does not talk like a king will be heeded, and the land(!) will heed the word of the king, his royal authority will have control.
+2. ($___$) 1# [x-š]u-nu LUGAL ša ki LUGAL la i-ta-wu-u₂ iq-qal
+3. ($___$) u₃# DIŠ-na# |KA×U| LUGAL ma-<tum> i-qa-al-šu LUGAL-su i-ša-par₂
+
+$ (§ 2)
+4. šum-ma MUNUS iz-ba ul-dam-ma ši₂-in-<ni> u₂-še-li ap-pi₂ {mušen}e-ri-i
+#tr.en.(o 7): If a woman miscarries a foetus and it has already grown teeth, it is provided with an eagle’s beak, you open (it) and inside it has grown teeth(!): it is favorable; the king will cover the lands with his wings like an eagle, and will gore the lands like a wild bull. For its “crossing over.”
+5. ($___$) ŠA₃ te-ep-te-ma <i-na> ŠA₃# ši₂-in-ma u₂-še-li SIG₅
+6. ($___$) LUGAL KUR.KUR GIM {mušen}e-ri-i ŠE₃ kap-pi₂-šu u₂-ka-tam
+7. ($___$) u₃ GIM AM KUR.KUR u₂-na-ak-kap ME KI.BAL-šu
+
+$ (§ 3)
+8. UD MUNUS iz-ba ul-dam-ma MUNUS bi-iṣ-ṣu₂#-ur-šu ki [q]i₂-in-na-ti šu-pa₂-al-ku
+#tr.en.(o 10): If a woman miscarries a foetus and it is female, its vulva is open wide like an anus (and) something(?) is passing through the opening: it is favorable; peoples who are not parleying will speak to our lord; peace; Adad will bring about the resettlement of the land.
+9. ($___$) i-na KA₂ 1-ma i-il-la-ak SIG₅ KUR.KUR ša la i-da-bu-bu
+10. ($___$) a-na EN-ni i-qa-ab-bu-u₂ sa-li-mu {d}IŠKUR DUR₂#.ŠA₃ KUR i-ip-pe₃-eš
+
+$ (§ 4)
+11. šum-ma MUNUS iz-ba ul-dam IGI-MEŠ-šu NU GAL₂-ma ŠE₃ ŠU-šu u₂-ka-al
+#tr.en.(o 12): If a woman miscarries a foetus (and) it has no eyes, it is holding (the place where the eyes should be?) with its hands, and (all) ten fingers(!) have risen up and grasped its head: it is not favorable;
+12. ($___$) u₃-<ba>-na-a-°\°-tum! °\° 10 it-bu-ma SAG-su₂ iṣ-ṣa-ab-tu NU SIG₅
+13. ($___$) ŠE₃ A.ŠA₃ dar₆-sa-nu ŠE₃ DI le-e-nu ME KI#.BAL-ti-šu# MAŠ#-ni ME SAG-ni i-il#-l[i]
+#tr.en.(o 14): in the field, we are repulsed; in court, we are overcome; for its “crossing over”: our peasants(?) will rise [up] to our fore (=against us?); for its “crossing over”: to our peasants(?) their master [will] ... [...]
+14. ($___$) ME KI.BAL-šu ME {lu₂}MAŠ-ni {lu₂}EN-šu# x [...] x x [x]
+
+$ (§ 5)
+15. [šu]m-ma# MUNUS iz-ba ul-dam i#-ša#-[ar-šu %n lā ibašši-ma ...]
+#tr.en.(o 16): If a woman miscarries a foetus (and) [it has no] penis [and ... there is] a cleft in its pubic triangle as far [as ...]
+16. ($___$) [D]UH su₂-uh-si-šu! a-d[i ...]
+$ traces
+
+@reverse
+$ (§ 38)
+1'. ($___$) sa-ah-lu x x x x x x x [...]
+#tr.en: [If a woman miscarries a foetus and ...] are pierced ... [...]:
+2'. ($___$) {giš}TUKUL! {d}IŠKUR UD e-ri-iš-ti bi-la-[at x x]
+#tr.en: (it is) a symbol of Adad. If (ditto): request for the produce [of ...]
+3'. ($___$) it-x-ba-al qa-qa-ad bi-ti a-n[a x x x]
+#tr.en: The head of a household will take (it?) away to [...]:
+4'. ($___$) ME KI.BAL-šu UD ME A.ŠA₃ ni-il-la-ak ša x [(x) x]
+#tr.en.(r 5'): for its “crossing over.” If (ditto): we can go on campaign; [some ... ] will kill their chief.
+5'. ($___$) SAG.DU-šu-nu ($___$) i-du-uk-ku
+
+$ (§ 39)
+6'. UD MUNUS iz-ba ul-dam-ma GIR₃-MEŠ-šu ša GUD SAG.DU-s[u]
+#tr.en.(r 8'): If a woman miscarries a foetus and its feet are those of an ox, [its] head that of alion: it is favorable; Adad will raise our lord to kingship, like a lion he will devour the lands, like Adad he will lay everywhere waste.
+7'. ($___$) ša UR.MAH SIG₅ EN-ni {d}IŠKUR ME LUGAL-tim iš-ši-šu#
+8'. ($___$) ki#-ma# PIRIG₃# KUR.KUR i-kal GIM {d}IŠKUR ir-ta-na#-hi-iṣ
+9'. ($___$) 39

@@ -1,0 +1,40 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 28 = VAT 13802. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 1.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+DIŠ SIPA{mušen} lu(über Rasur) ina URU lu ina BÀD IGI URU BI ŠUB BÀD BI in-n[a-qar]
+DIŠ ÍGIRA{mušen} ana ŠÀ URU KU₄-am ŠUB-ti ḫu-up-ši [(x)]
+DIŠ MIN ina AMBAR Ú.KI.SÌ.GA AN.TA-ma iq-nun A {giš}GI ib-b[a-lu]
+DIŠ MIN ina AMBAR Ú.KI.SÌ.GA KI.TA-ma iq-nun A.ZI.GA D[U-ka]
+DIŠ IR₇.SAG{mušen} ana ŠÀ URU KU₄-am te-eb-ri-it ZÁLAG ru x
+DIŠ IR₇.SAG{mušen}.MEŠ ina UGU URU GÙ.GÙ.MEŠ-[šu]
+ana URU BI GÙ GIG Š[UB?]
+DIŠ Ù.KU.KU{mušen} ina ŠÀ URU Ú.KI.SÌ.GA iq-n[un]
+it-lu IGI ILLU D[U]
+[DIŠ] Ù.KU.KU.BA.ÚŠ{mušen} MIN &lt;&lt;ina&gt;&gt; URU BI KÚR NIGIN-ma URU BI Š[UB]
+[DIŠ x x{muš}]{en} ina A.Š[À in]a A.GÀR IGI URU BI Š[UB]
+[DIŠ MIN ina] ŠÀ URU ú-qar-ri-[ba]
+[pu-uš-q]a? u dan-na-ta₅ I[GI]
+[ ] x x ša-mu-ú u IM [ ]
+[ ] x GE₆ ina URU I[GI URU BI ]
+[ ] x sud ka x [ ]
+[DIŠ a]na ŠÀ URU KU₄-am URU B[I x x]
+[ ] x-ka-la (leer) [x (x)]
+[DIŠ M]URUB₄ URU IGI URU BI ina ur ru x [(x)]
+[DIŠ ḫ]a-tu₄ ana ŠÀ URU e-te-ru-bu URU BI Š[UB]
+lu bi-ib-lu₄ ù-lu IM ZI-b[i]
+[DI]Š MUŠEN KUR.RA ša ma-ti-ma man-ma-an
+NU ZU-šú ip-pár-ša-am-ma
+ana ŠÀ URU ŠUB A.ZI.GA DU-ka
+DIŠ MUŠEN KUR.RA ma-da-tu ana ŠÀ URU ŠUB.MEŠ-ni
+ÍD is-se-kir
+DIŠ MUŠEN.MEŠ ina u₄-mi er-bé ina pa-an AN-e
+GÙ.GÙ.MEŠ ri-iḫ-ṣu GÁL-ši
+DIŠ ina URU MAŠ.TAB.BA.MEŠ ma-a-du ŠUB URU

@@ -1,0 +1,52 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+counting: line
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 48 (VAT 10206 + VAT 14320 = Ass 20583 + Ass 19598)
+feature: niṣirti ḫašî (the "hidden part" / nēkemtu of the lung)
+note: fragmentary; upper edge, one side preserved (21 lines)
+---
+
+@obverse
+1. [ ] SAG A.[ŠA₃-ša₂ ]
+#tr.en: [... its] destination [...].
+2. [ ni]-ṣi-ir-ti MUR š[a ]
+#tr.en: [... the hi]dden part of the lung o[f ...].
+3. [ ] pi u₃ URU{ki} [ ]
+#tr.en: [...] ... and the city [...].
+4. [ ] x te-er-tim i+na te-er-[tim ]
+#tr.en: [...] a sign within a sig[n ...].
+5. [ ] i+na u₄-mi re-qi₂-i[m ]
+#tr.en: [...] alternatively (on a future day) [...].
+6. [ ] ku [ ] su₂-ku-up-t[i ERIN₂-ia/ERIN₂ KUR₂]
+#tr.en: [...] downfal[l of my army / of the enemy army].
+7. [ e-ni]-a-at-ma [ n]i-ṣi-ir-ti MU[R ]
+#tr.en: [... is turn]ed over and [... the hi]dden part of the lun[g ...].
+8. [ {lu₂}]KUR₂ URU{ki} [i-na-a]n-di-ma bal x [ ]
+#tr.en: [... the] enemy will [aban]don the city and ... [...].
+9. [ ] i+na ni-qi₂ x [ ] x ki-num [ ]
+#tr.en: [...] in the offering ... [...] firm [...].
+10. [ ] e-ni-a-at-ma GUB₃-[ša₂ D]U₈ zir ra? [ ]
+#tr.en: [...] is turned over and [its] left side is [no]tched: ... [...].
+11. [ ] x mu iš-ša-ak-nu-[š]u šum₄-ma a-na te [ ]
+#tr.en: [...] happens to him, or to ... [...].
+12. [ t]u₄ BA.UŠ₂-ma e-zi-ib?-tu₄ a-na E₂ [ ]
+#tr.en: [...] dies and the remainder(?) into the house [...].
+13. [ š]a ab šum-ma URU{ki} pa-ṭi-i[a ]
+#tr.en: [...] or my border city [...].
+14. [ e-n]i-a-at-ma ZAG-ša DU₈ x [ ]
+#tr.en: [... is turn]ed over and its right side is notched: ... [...].
+15. [ ] x la ka aš it tu₄ x [ ]
+16. [ e]-ni-a-at-ma GUB₃-ša DU[₈ ]
+#tr.en: [... is turn]ed over and its left side is notch[ed: ...].
+17. [ e]-ni-a-at-ma GUB₃ x [ ]
+#tr.en: [... is turn]ed over and the left side ... [...].
+18. [ e]-ni-a-at-ma u₃ ni [ ]
+#tr.en: [... is turn]ed over and ... [...].
+19. [ ] a-na! {lu₂}KUR₂ i-sa₃-ḫu-[ur ]
+#tr.en: [...] turns toward the enemy [...].
+20. [ te-er-ti]m i+na te-er-t[im ]
+#tr.en: [... a sig]n within a sig[n ...].
+21. [ ] x x [ ]

@@ -1,0 +1,37 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: BE
+publication: VAT 10331 (KAR 424); Heeßel 2012 KAL 5 no. 34 (pp. 136-137); "forerunner" to Šumma martu Tablet 8
+note: "martu (the gall-bladder, written ZE2) omens; Middle Assyrian fragment. Vs. 5'-13' // Rm 273+ (CT 30/20). Mostly apodoses preserved (the protases were in the broken left edge). 15->ZAG, 150->GUB3"
+---
+
+@obverse
+
+1. BE [...] x tu SU.GU₇ IGI-[mar]
+#tr.en: ... will experience a famine.
+2. BE [URU ZAG] KUR₂ [NIGIN-ka]
+#tr.en: ...: the enemy's [border-city will muster against you].
+3. BE [URU ZA]G-ka ana KUR₂ N[IGIN]-ur
+#tr.en: ...: your [bor]der-city will muster against the enemy.
+4. BE [KUR₂] KUR N[UN] TI-qe₂
+#tr.en: ...: [the enemy] will take the land of the prin[ce].
+5. BE [ana {giš}]TUKUL SUḪ₃-u₂ ina U₄ SU₃ GU₃-mu x
+#tr.en: ...: for battle, confusion; alternatively (in the distant future): wailing ...
+6. BE [NU]N ṭa-ri-du-ta₅ DU-a[k]
+#tr.en: ...: the prin[ce] will become an exile.
+7. BE [URU] ZAG-ka KUR₂ DAB-bat
+#tr.en: ...: your border-[city] the enemy will seize.
+8. BE [URU ZA]G KUR KUR₂ DAB-bat
+#tr.en: ...: the border-[city] of the enemy land you will seize.
+9. BE [LUGAL KUR-su u]n-na-aš₂ I₃.[DUB SA₅] SU₃
+#tr.en: ...: [the king] will weaken [his land], a [full] granary will become empty.
+10. BE [KUR₂] ina MURUB₄ KUR-k[a ID₂] i-ḫe-er-ri
+#tr.en: ...: [the enemy] will dig [a canal] in the midst of [your] land.
+
+@reverse
+
+11. BE [AD.ḪAL-k]a ana KUR₂ E₃-[ṣi]
+#tr.en: ...: [your secret] will go out to the enemy.

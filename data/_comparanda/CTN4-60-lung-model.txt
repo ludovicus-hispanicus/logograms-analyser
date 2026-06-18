@@ -1,0 +1,254 @@
+---
+exclude: true   # COMPARANDUM — extispicy (lung) label-model, kept out of the genre LDI
+genre: extispicy model
+period: Neo-Babylonian
+provenance: Kalḫu (Nabû temple); written at Šapiya
+counting: line
+topic: lung
+publication: eBL IM.64183 = CTN 4 60 (Wiseman–Black 1996, pl. 34–37); De Zorzi 2021, WdO 51/2
+feature: orientation/label model of Šumma ḫašû Tablet 10 (each lung part + KI KAR / AN KAR)
+note: near-fully logographic label model (119 entries, no apodoses) — separate genre so it does not skew the lung-OMEN LDI; eBL 15/150 normalized to ZAG/GUB₃, ditto-notation <(…)> expanded
+---
+
+1. [SAG MUR ša₂] ZAG ina SIG-ša₂ KI# KAR
+#tr.en: [Top of the lung, to the] right, in its narrow part, stripped off downward
+2. [SAG MUR ZAG ina SIG-ša₂ AN KAR]
+#tr.en: [(Top of the lung, to the right, in its narrow part), stripped off upward]
+3. [k]u-tal# MUR ša₂ ZAG KI KAR
+#tr.en: Reverse of the lung, to the right, stripped off downward
+4. ku-tal MUR ša₂ ZAG AN# KAR
+#tr.en: (Reverse of the lung, to the right), stripped off upward
+5. MAŠ.GAN₂ let ZAG KI# KAR
+#tr.en: Threshing floor on the right cheek, stripped off downward
+6. MAŠ.GAN₂ let ZAG AN KAR
+#tr.en: (Threshing floor on the right cheek), stripped off upward
+7. SA[G ZAG] SA[GŠU! MUR KI KAR]
+#tr.en: Top of the [right side] of the turban [of the lung, stripped off downward]
+8. SAG ZAG SAGŠU MUR AN KAR
+#tr.en: (Top of the right side of the turban of the lung), stripped off upward
+9. [MURUB₄ ZAG SAGŠU MUR KI KAR]
+#tr.en: [Middle of the right side of the turban of the lung, stripped off downward]
+10. [MURUB₄ ZAG SAGŠU MUR AN KAR]
+#tr.en: [(Middle of the right side of the turban of the lung), stripped off upward]
+11. na-kap SAGŠ[U] MUR ša₂ ZAG KI K[AR]
+#tr.en: Tip of the turban of the lung, to the right, stripped [off] downward
+12. na-kap SAGŠU MUR ša₂ ZAG AN KAR
+#tr.en: (Tip of the turban of the lung, to the right), stripped off upward
+13. [MAŠ.GAN₂ gi-piš] MUR# [ša₂ ZAG KI KAR]
+#tr.en: [Threshing floor on the uprising] of the lung, [to the right, stripped off downward]
+14. [MAŠ.GAN₂ gi-piš MUR ša₂ ZAG AN KAR]
+#tr.en: [(Threshing floor of the uprising of the lung, to the right), stripped off upward]
+15. [SAG U MUR TUR-ti ša₂ IGI GU₂.MUR ina KUR-ša₂ KAR]
+#tr.en: [Top of the small finger of the lung, in front of the windpipe, stripped off in its palace]
+16. [SAG U MUR TUR-ti ša₂ IGI GU₂.MUR ina EGIR-ša₂] KAR
+#tr.en: [(Top of the small finger of the lung, in front of the windpipe)], stripped off [in its rear]
+17. [ZAG U MUR TUR-t]i [ša₂ IGI GU₂.MUR KI KAR]
+#tr.en: [Right side of the] small [finger of the lung, in front of the windpipe, stripped off downward]
+18. [ZAG U MUR TUR-ti ša₂ IGI GU₂.MUR AN KAR]
+#tr.en: [([Right side of the small finger of the lung, in front of the windpipe), stripped off upward]
+19. ZAG U MUR TUR#-ti₃ ana A₂# U MUR GAL-ti KI K[AR]
+#tr.en: Right side of the small finger of the lung, next to the big finger of the lung, stripped [off] downward
+20. ZAG U MUR TUR-ti₃ ana A₂ U MUR GAL-ti AN KAR
+#tr.en: (Right side of the small finger of the lung, next to the big finger of the lung), stripped off upward
+21. bi-ri[t! S]AGŠU MUR u MAŠ.[GAN₂ l]et ZAG KI KAR
+#tr.en: Between the turban of the lung and the threshing [floor] on the right cheek, stripped off downward
+22. bi-rit SAGŠU MUR u MAŠ.GAN₂ let ZAG AN KAR
+#tr.en: (Between the turban of the lung and the threshing floor on the right cheek), stripped off upward
+23. DIG ŠA₃ ZAG
+#tr.en: Right “soft bit” of the heart
+24. BAD₃ ŠA₃ ZAG
+#tr.en: Right wall of the heart
+25. ZAG ŠA₃ ZAG
+#tr.en: Right part of the heart: positive
+26. DIG ŠA₃ GUB₃
+#tr.en: Left “soft bit” of the heart
+27. BAD₃ ŠA₃ GUB₃
+#tr.en: Left wall of the heart
+28. SAG!?# tal-li!?# ŠA₃!?#ZAG
+#tr.en: @i{Head of the carrying-pole of the heart}
+29. tal-li# ŠA₃ ina ŠA₃ Š[A₃] BE-ma IGI pu-qut-ti ŠA₃
+#tr.en: Carrying-pole of the heart, in the middle of the heart, opened and in front of the spike of the heart
+30. SAG U! MUR GAL-ti₃! ša₂ ZAG ana KUR-ša₂ KI KAR
+#tr.en: Top of the big finger of the lung, to the right, toward its palace, stripped off downward
+31. SAG U MUR GAL-ti₃ ša₂ ZAG ana EGIR-ša₂ AN KAR
+#tr.en: (Top of the big finger of the lung, to the right), toward its rear, stripped off upward
+32. GUB₃ U MUR# GAL#-ti₃# ša₂ ZAG KI KAR
+#tr.en: Left side of the big finger of the lung, to the right, stripped off downward
+33. GUB₃ U MUR GAL-ti₃ ša₂ ZAG AN KAR
+#tr.en: (Left side of the big finger of the lung, to the right), stripped off upward
+34. ZAG U MUR# GAL#-ti₃# ana A₂! U MUR TUR#-ti₃# KI K[AR]
+#tr.en: Right side of the big finger of the lung, next to the small finger of the lung, stripped [off] downward
+35. ZAG U MUR GAL-ti₃ ana A₂ U MUR TUR-ti₃ AN KAR
+#tr.en: (Right side of the big finger of the lung, next to the small finger of the lung), stripped off upward
+36. [ṣu₂-l]ul!?-ti M[UR] [š]a₂ ZAG KI# KAR
+#tr.en: @i{Roofing} of the lung, to the right, stripped off downward
+37. ṣu₂-lul-ti MUR ša₂ ZAG AN KA[R]
+#tr.en: (Roofing of the lung, to the right), stripped off upward
+38. kap-pi MUR# ša₂ ZAG KI KAR
+#tr.en: Wing of the lung, to the right, stripped off downward
+39. kap-pi MUR ša₂ ZAG AN KAR
+#tr.en: (Wing of the lung, to the right), stripped off upward
+40. NIG₂.TAB MUR ša₂ ZAG KI KAR
+#tr.en: Dyeing vat of the lung, to the right, stripped off downward
+41. [NIG₂.TAB MUR ša₂ ZAG AN] KAR#
+#tr.en: [(Dyeing vat of the lung, to the right)], stripped off [upward]
+42. [MAŠ.G]AN₂ um-mat [MUR] ša₂ ZAG KI KAR
+#tr.en: [Threshing] floor of the mainstay of [the lung], to the right, stripped off downward
+43. MAŠ.GAN₂ um-mat MUR ša₂ ZAG AN KA[R]
+#tr.en: (Threshing floor of the mainstay of the lung, to the right), stripped off upward
+44. [ni-ir MUR] ša₂ ZAG K[I KAR]
+#tr.en: [Yoke of the lung], to the right, [stripped off] downward
+45. ni-ir MUR ša₂ ZAG AN KAR
+#tr.en: (Yoke of the lung, to the right), stripped off upward
+46. dun-ni MUR ša₂ ZAG KI KAR
+#tr.en: Fortified part of the lung, to the right, stripped off downward
+47. dun-ni MUR ša₂ ZAG AN KAR
+#tr.en: (Fortified part of the lung, to the right), stripped off upward
+48. na-al-bat MUR ša₂ ZAG KI KAR
+#tr.en: Brick mould of <the lung>, to the right, stripped off downward
+49. na-al-bat MUR ša₂ ZAG AN KAR
+#tr.en: Brick mould of the lung, to the right, stripped off upward
+50. a-aḫ ID₂ MUR ša₂ ZAG ina dun-ni-šu₂ KI KAR
+#tr.en: Bank of the river of the lung, to the right, in its fortified part, stripped off downward
+51. a-aḫ ID₂ MUR ša₂ ZAG ina dun-ni-šu₂ AN KAR
+#tr.en: (Bank of the river of the lung, to the right, in its fortified part), stripped off upward
+52. a-aḫ ID₂# MUR ša₂ ZAG ina MURUB₄-šu₂ KI KAR
+#tr.en: Bank of the river of the lung, to the right, in its middle part, stripped off downward
+53. a-aḫ ID₂ MUR ša₂ ZAG ina MURUB₄-šu₂ AN KAR
+#tr.en: (Bank of the river of the lung, to the right, in its middle part), stripped off upward
+54. kit!-tab!-ri MUR ša₂ ZAG KI KAR
+#tr.en: @i{kittabru}-mark of the <lung>, to the right, stripped off downward
+55. kit-tab-ri MUR ša₂ ZAG AN KAR
+#tr.en: (@i{kittabru}-mark of the lung, to the right), stripped off upward
+56. KI PAP.ḪAL ZAG# KI KAR-[ma] ḪUL#
+#tr.en: Right place of narrowness, stripped off downward: negative
+57. KI PAP.ḪAL ZAG AN KAR-ma! SIG₅
+#tr.en: (Right place of narrowness), stripped off upward: positive
+58. KUR MUR ša₂ ZAG KI KAR
+#tr.en: Palace of the lung, to the right, stripped off downward
+59. KUR MUR ša₂ ZAG AN KAR
+#tr.en: (Palace of the lung, to the right), stripped off upward
+60. EN.NUN KUR MUR ša₂ ZAG KI KAR
+#tr.en: Palace guard of the lung, to the right, stripped off downward
+61. EN.NUN KUR MUR ša₂ ZAG AN KAR
+#tr.en: (Palace guard of the lung, to the right), stripped off upward
+62. KUN! U MUR MURUB₄ KI KAR
+#tr.en: Tail of the middle finger of the lung, stripped off downward
+63. KUN U MUR MURUB₄ AN KAR
+#tr.en: (Tail of the middle finger of the lung), stripped off upward
+64. NIG₂.GEŠTUG U MUR# MURUB₄# ana KUR-ša₂ KAR
+#tr.en: Ring of the middle finger of the lung, stripped off toward its palace
+65. NIG₂.GEŠTUG U MUR MURUB₄ AN KAR
+#tr.en: (Ring of the middle finger of the lung), stripped off upward
+66. SUḪUŠ EDEN# ZAG U MUR MURUB₄! ana KUR;-ša₂ KAR
+#tr.en: Base of the right steppe of the middle finger of the lung, stripped off toward its palace
+67. SUḪUŠ EDEN ZAG U MUR MURUB₄ ana DAGAL ZAG-ša₂ KAR
+#tr.en: (Base of the right steppe of the middle finger of the lung), stripped off toward its right breadth
+68. MURUB₄ EDEN ZAG U# MUR MURUB₄ ana KUR-šu₂ KAR
+#tr.en: Middle of the right steppe of the middle finger of <the lung>, stripped off toward its palace
+69. MURUB₄ EDEN ZAG U MUR MURUB₄ ana DAGAL ZAG-ša₂ KAR
+#tr.en: (Middle of the right steppe of the middle finger of the lung), stripped off toward its right breadth
+70. SAG EDEN ZAG U MUR MURUB₄ ana KUR-ša₂ KAR
+#tr.en: Top of the right steppe of the middle finger of the lung, stripped off toward its palace
+71. SAG EDEN ZAG U MUR MURUB₄ ana DAGAL ZAG#;-ša₂ KAR
+#tr.en: (Top of the right steppe of the middle finger of the lung), stripped off toward its right breadth
+72. SAG U MUR MURUB₄ ana KUR-ša₂ KAR
+#tr.en: Top of the middle finger of the lung, stripped off toward its palace
+73. SAG U MUR MURUB₄ ana EGIR?#;-ša₂ KAR
+#tr.en: (Top of the middle finger of the lung), stripped off toward its @i{rear}
+74. SAG# EDEN# GUB₃# U# MUR# [MU]RUB₄ ana KUR-ša₂ KAR
+#tr.en: Top of the left steppe of the middle finger of the lung, stripped off toward its palace
+75. [SAG EDEN GUB₃ U MUR MURUB₄ ana DAGAL GUB₃-ša₂ KAR]
+#tr.en: [(Top of the left steppe of the middle finger of the lung), stripped off toward its left breadth]
+76. [MURUB₄ EDEN GUB₃ U MUR MURUB₄ ana KUR-ša₂ KAR]
+#tr.en: [Middle of the left steppe of the middle finger of the lung, stripped off toward its palace]
+77. [MURUB₄ EDEN GUB₃ U MUR MURUB₄ ana DAGAL GUB₃-ša₂ KAR]
+#tr.en: [(Middle of the left steppe of the middle finger of the lung), stripped off toward its left breadth]
+78. SU[ḪUŠ? EDEN 1]50 U# MUR# MURUB₄ [ana KUR-š]a₂? K[AR]
+#tr.en: @i{Base} [of the] left [<steppe>] of the middle finger of the lung, stripped [off toward] @i{its} [palace]
+79. [SUḪUŠ EDEN GUB₃ U MUR MURUB₄ ana DAGAL] GUB₃-ša₂ KAR
+#tr.en: [(Base of the left steppe of the middle finger of the lung)], stripped off [toward] its leftt [breadth]
+80. SAG MUR# ša₂ GUB₃ ina S[IG!?]-ša₂ KI KAR
+#tr.en: Top of the lung, to the left, in its @i{narrow} part, stripped off downward
+81. SAG MUR ša₂ GUB₃ ina SIG?-ša₂ AN# KAR
+#tr.en: (Top of the lung, to the left, in its @i{narrow} part), stripped off upward
+82. ku!-tal M[UR ša₂ GUB₃ KI KAR]
+#tr.en: Reverse of the lung, [to the left, stripped off downward]
+83. ku-tal MUR ša₂ GUB₃ AN# KAR
+#tr.en: (Reverse of the lung, to the left), stripped off upward
+84. [MAŠ.GAN₂ let GUB₃ KI KAR]
+#tr.en: [Threshing floor on the left cheek, stripped off downward]
+85. [MAŠ.GAN₂ let GUB₃ AN KAR]
+#tr.en: [(Threshing floor on the left cheek), stripped off upward]
+86. SAG GUB₃ SA[GŠU!] MUR KI [KAR]
+#tr.en: Top of the left side of the turban of the lung, [stripped off] downward
+87. SAG GUB₃ SAGŠU MUR AN KAR
+#tr.en: (Top of the left side of the turban of the lung), stripped off upward
+88. [na-kap SAGŠU MUR ša₂ GUB₃ KI KAR]
+#tr.en: [Tip of the turban of the lung, to the left, stripped off downward]
+89. [na-kap SAGŠU MUR ša₂ GUB₃ AN KAR]
+#tr.en: [(Tip of the turban of the lung, to the left), stripped off upward]
+90. [MAŠ.GAN₂ gi-piš MUR ša₂ GUB₃] KI KAR
+#tr.en: [Threshing floor on the uprising of the lung, to the left], stripped off downward
+91. [MAŠ.GAN₂ gi-piš MUR ša₂ GUB₃ AN KAR]
+#tr.en: [(Threshing floor of the uprising of the lung, to the left), stripped off upward]
+92. [S]AG? U MUR# GAL#-ti# ša₂?# [GUB₃] ana# GUB₃ KI KAR
+#tr.en: @i{Top} of the big finger of the lung, to [the left], stripped off downward to the left
+93. [SAG U MUR GAL-ti ša₂ GUB₃ ana GUB₃ AN KAR]
+#tr.en: [(Top of the big finger of the lung, to the left), stripped off upward (to the left)]
+94. ṣu₂-l[ul-ti MUR] ša₂# [1]5[0 KI KAR]
+#tr.en: Roofing [of the lung], to the left, [stripped off downward]
+95. ṣu₂-lul-ti MUR ša₂ GUB₃ AN KA[R]
+#tr.en: (Roofing of the lung, to the left), stripped [off] upward
+96. [kap-pi MUR ša₂ GUB₃ KI KAR]
+#tr.en: [Wing of the lung, to the left, stripped off downward]
+97. [kap-pi MUR ša₂ GUB₃ AN KAR]
+#tr.en: [(Wing of the lung, to the left), stripped off upward]
+98. NIG₂.TAB [MUR] ša₂# [GUB₃ KI KAR]
+#tr.en: Dyeing vat [of the lung], to [the left, stripped off downward]
+99. [NIG₂.TAB MUR ša₂ GUB₃ AN KAR]
+#tr.en: [(Dyeing vat of the lung, to the left), stripped off upward]
+100. MAŠ.GAN₂ um-mat MUR ša₂ GUB₃ KI KAR
+#tr.en: Threshing floor of the mainstay of the lung, to the left, stripped off downward
+101. MAŠ.GAN₂ um-mat MUR ša₂ GUB₃ AN KAR
+#tr.en: (Threshing floor of the mainstay of the lung, to the left), stripped off upward
+102. [ni-ir MUR ša₂ GUB₃ KI KAR]
+#tr.en: [Yoke of the lung, to the left, stripped off downward]
+103. ni-ir MUR ša₂ GUB₃ AN K[AR]
+#tr.en: (Yoke of the lung, to the left), stripped [off] upward
+104. dun-ni MUR ša₂ GUB₃ KI KAR
+#tr.en: Fortified part of <the lung>, to the left, stripped off downward
+105. [dun-ni MUR ša₂ GUB₃ AN KAR]
+#tr.en: [(Fortified part of the lung, to the left), stripped off upward]
+106. na#-al-bat MUR ša₂ GUB₃ KI# KAR#
+#tr.en: Brick mould of the lung, to the left, stripped off downward
+107. na-al-bat MUR ša₂ GUB₃ AN KAR
+#tr.en: Brick mould of the lung, to the left, stripped off upward
+108. a-aḫ ID₂ MUR ša₂ GUB₃# ina dun-ni-šu₂ KI KAR
+#tr.en: Bank of the river of the lung, to the left, in its fortified part, stripped off downward
+109. a-aḫ ID₂ MUR ša₂ GUB₃ ina dun-ni-šu₂ AN KAR
+#tr.en: (Bank of the river of the lung, to the left, in its fortified part), stripped off upward
+110. a-aḫ ID₂# MUR# ša₂ GUB₃# ina MURUB₄-šu₂ KI KAR
+#tr.en: Bank of the river of the lung, to the left, in its middle part, stripped off downward
+111. a-aḫ ID₂ MUR ša₂ GUB₃ ina MURUB₄-šu₂ AN# KAR#
+#tr.en: (Bank of the river of the lung, to the left, in its middle part), stripped off upward
+112. kit!-tab-r[i MUR] ša₂ GUB₃ KI# [KAR]
+#tr.en: @i{kittabru}-mark [of the lung], to the left, [stripped off] downward
+113. kit-tab-ri MUR ša₂ GUB₃ AN K[AR]
+#tr.en: (@i{kittabru}-mark of the lung, to the left), stripped [off] upward
+114. K[I PAP.ḪAL GUB₃] K[I KAR-ma SIG₅]
+#tr.en: [Left] place [of narrowness, stripped off] downward: [positive]
+115. KI PAP.ḪAL GUB₃ AN KAR-[ma] ḪU[L]
+#tr.en: (Leftt place of narrowness), stripped off upward: negative
+116. KUR MUR ša₂ GUB₃ KI KAR
+#tr.en: Palace of the lung, to the left, stripped off downward
+117. KUR MUR ša₂ GUB₃ AN KAR
+#tr.en: (Palace of the lung, to the left), stripped off upward
+118. EN.NUN KUR MUR ša₂ GUB₃ KI K[AR]
+#tr.en: Palace guard of the lung, to the left, stripped [off] downward
+119. EN.NUN KUR MUR ša₂ GUB₃ AN KAR
+#tr.en: (Palace guard of the lung, to the left), stripped off upward
+
+@colophon
+$ 120: 1 UŠ 59?# [MU?.MEŠ? KAR?-MEŠ?] ša₂ MUR# GIM# [SUMUN-šu₂] {m}{d}AG-p[a?-šer₃?] DUMU MU-li[b₃?-ši? x x] {lu₂}MAŠ₂.Š[U.GID₂.GID₂]  — @i{119} (?) [@i{lines}, @i{strippings}] of the lung, according [to its original], Nabû-pāšer (?), son of Šumu-libši (?) [(…)], the diviner, has @i{written and collated}. Šapīya, @i{Month} [N], day 24, year 9 of [Marduk-apla-iddina (II) (?)], king.
+$ 121: SAR!?SI-ma U[D?.DU] {uru}ša₂-pi-ia! {i[ti?}x] U₄.24.KAM MU.9.KAM {m}{d#}[AMAR?.UTU?-A?-ŠUM₂?] LUGAL.[E]

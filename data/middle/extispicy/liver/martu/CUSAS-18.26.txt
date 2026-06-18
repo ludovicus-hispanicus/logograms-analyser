@@ -1,0 +1,164 @@
+---
+genre: extispicy omens
+period: Early Middle Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: DIŠ
+---
+
+@obverse
+
+$ (§1')
+1'. [DIŠ {giš}TUKUL GUB₃ i+na SAG? ZE₂ GAR-ma U? IGI] gaba-ra-a[h ERIN₂ {lu₂}KUR₂-ri]
+#tr.en: ¶ (If) a left-side weapon-mark occurs at the top(?) of the gall-bladder and points toward the "finger"(?): mutiny [of the enemy's army.]
+
+$ (§2')
+2'. [DIŠ {giš}TUKUL GUB₃ i+na MURUB₄? ZE₂ GAR-ma U? I]GI i-ṣu₂-tu-ka {l[u₂}KUR₂-ra GAZ-ku]
+#tr.en: ¶ (If) a left-side weapon-mark occurs at the waist(?) of the gall-bladder and points toward the "finger"(?): your few men [will defeat the enemy.]
+
+$ (§3')
+3'. [DIŠ {giš}TUKUL GUB₃ i+na SUR? ZE₂ GAR-ma U?] IGI te-šu-u₂ i+na KUR {l[u₂}KUR₂ ib-ba-aš-ši]
+#tr.en: ¶ (If) a left-side weapon-mark occurs at the maṣrahu (cystic duct) of the gall-bladder and points toward the "finger"(?): there will be] chaos in the [enemy's] land.
+
+$ (§4')
+4'. [DIŠ {giš}TUKUL GUB₃ i+na SUR? ZE₂] GAR#-ma# DAL.BA.NA MAŠ₂ u₃ U IGI {lu₂}KUR₂? [...]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the maṣrahu(?) of the gall-bladder] and points toward the area between the "increment" and the "finger": the ene-my(?) [. . .]
+
+$ (§5')
+5'. [DIŠ {giš}TUKUL GUB₃ i+na SAG ZE₂] GAR-ma MAŠ₂ IGI {giš}TUKUL ba-ar-ti mu-ki-[il %n rēš lemutti]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the top of the gall-bladder] and points toward the "increment": (it is) a weapon-mark of revolt; (presence of the demon) Who Fosters [Evil.]
+
+$ (§6')
+6'. [DIŠ {giš}TUKUL GUB₃ i+na MURUB₄ ZE₂] GAR-ma MAŠ₂ IGI {lu₂}KUR₂ dab₂-de-e ERIN₂+NI-ka i+n[a ME₃? EDIN? GAR-an]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the waist of the gall-bladder] and points toward the "increment": the enemy will [accomplish] your army's defeat in [an open battle(?).]
+
+$ (§7')
+7'. [DIŠ {giš}TUKUL GUB₃ i+na SUR Z]E₂ GAR-ma MAŠ₂ IGI na-ap-ta-ka {lu₂}KUR₂ i-ša!-hi-[iṭ]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the maṣrahu of the gall]-bladder and points toward the "increment": the ene-my will attack a breach in your (wall).
+
+$ (§8')
+8'. [DIŠ {giš}TUKUL GUB₃ i+na SUR? Z]E₂ GAR-ma ZE₂ ir-de a-la-ak-ta-ka {lu₂}KUR₂ i-D[AB-at?]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the maṣrahu(?) of the] gall-bladder and points parallel to the gall-bladder: the ene-my will [capture(?)] your supply-line.
+
+$ (§9')
+9'. [DIŠ {giš}TUKUL GUB₃ i+na MURU]B₄? ZE₂ GAR-ma ZE₂ ir-de {giš}TUKUL [ga]ba-ra-ah ERIN₂+NI-ia [(...)]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the waist(?)] of the gall-bladder and points parallel to the gall-bladder: mutiny of my army [(. . .)]
+
+$ (§10')
+10'. [DIŠ {giš}TUKUL GUB₃ i+na SU]R? ZE₂ GAR-ma a+na A₂ ZE₂ is-ni-iq-ma ZE₂ ir-de x [...]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the maṣrahu(?)] of the gall-bladder, reaches the side of the gall-bladder and points parallel to the gall-bladder: [. . .]
+
+$ (§11')
+11'. [DIŠ {giš}TUKUL GUB₃ i+na MURU]B₅? ZE₂ GAR-ma KIMIN {giš}TUKUL {d}UTU re-eṣ {lu₂}KUR₂-ri [...]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs [at the waist(?)] of the gall-bladder and dit-to (i.e. reaches the side of the gall-bladder and points parallel to the gall-bladder): (it is) a weapon-mark of Šamaš, an ally of the enemy [will defect to you(?).]
+
+$ (§12')
+12'. [DIŠ {giš}TUKUL GUB₃ i+na SU]HUŠ ZE₂ GAR-ma ZE₂ gu-um-mu-ur {lu₂}KUR₂ E₃-ma a+na [...]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the base of the gall-bladder: the enemy will set out and […] to […]
+
+$ (§13')
+13'. [DIŠ {giš}TUKUL GUB₃ i+na SA]G ZE₂ GAR-ma ZE₂ i-ti-iq {giš}TUKUL i-te-e {lu₂}KUR₂ i-se-[er-ka?]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the top of the gall-bladder and passes the gall-bladder: (it is) a weapon-mark of the frontier; the enemy will hem [you in(?).]
+
+$ (§14')
+14'. [DIŠ {giš}TUKUL GUB₃ i+na SA]G? ZE₂ GAR-ma ṭu₃-ur-ri NU.TA i-ti-iq DINGIR# LU₂ ka-[as-pa? %n irriš]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the top(?) of the gall-bladder and passes the inside corner of the "dyeing vat": a god [requires silver(?)] from the man.
+
+$ (§15')
+15'. [DIŠ {giš}TUKUL GUB₃ i+na SA]G? ZE₂ GAR-ma ZE₂ IGI ba-ri-ri-ka {lu₂}KUR₂ i-le-[eq-qe₂?]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the top(?) of the gall-bladder and points toward the gall-bladder: the enemy will [take(?)] your stragglers(?).
+
+$ (§16')
+16'. [DIŠ {giš}TUKUL GUB₃ i+na GI]R₂ GUB₃ GAR-ma GIR₂ GUB₃ IGI LU₂ E₂.GI₄.A ša KUR ru-uq-t[i ih-ha-az?]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the left "path" and points toward the left "path": the man [will take] a bride from a far-away land.
+
+$ (§17')
+17'. [DIŠ {giš}TUKUL GUB₃ i+na GI]R₃ GUB₃ GAR-ma tu-bu-uq GUB₃ BAR.IGI IGI ba-ri-ri š[a {lu₂}KUR₂ te-le-eq-qe₂?]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the left "path" and points toward the left corner of the "pouch": [you will take(?)] the enemy's stragglers(?).
+
+$ (§18')
+18'. [DIŠ {giš}TUKUL GUB₃ i+na ki]-ṣir-ti GUB₃ GAR-ma U IGI URU{ki} ša a+na {giš}TUKUL?-šu LUGAL [...]
+#tr.en.(o 19'): [¶ (If) a left-side weapon-mark] occurs [at the] left ridge and points toward the "finger": a town that the king to his weapon(?)[.] . . . . your enemy [will sue] for peace in abject submission.
+19'. [...] šu tu {lu₂}KUR₂-ka i+na ki#-pi-ir ki#-ša-di a+na sa-li-m[i i-ša-ap-pa-ra-ak-ku]
+
+$ (§19')
+20'. [DIŠ {giš}TUKUL GUB₃ i+na k]i-ṣir-ti GUB₃ GAR-ma ki-ṣir-ti GUB₃ IGI te?-a-tu-šu# i?#-[...]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the left ridge and points toward the left ridge: . . . […]
+
+$ (§20')
+21'. [DIŠ {giš}TUKUL GUB₃ i+na ṭu₃]-ur#-ri NU.TA GAR-ma KI.TA IGI {lu₂}KUR₂ BAD₃-ka i-na-a[q-qa₂-ar]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the inside corner of the "dyeing vat" and points downward: the enemy will demolish your city wall.
+
+$ (§21')
+22'. [DIŠ {giš}TUKUL GUB₃ i+na ṭ]u₃-ur-ri NU.TA GAR-ma AN.TA IGI BAD₃ {lu₂}KUR₂-ri ta-na-[aq-qa₂-ar]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the inside corner of the "dyeing vat" and points upward: you will demolish the enemy's city wall.
+
+$ (§22')
+23'. [DIŠ {giš}TUKUL GUB₃ i+na] ṭu₃#-ur-ri NU.TA GAR-ma ZE₂ IGI al-ka-ka-at# [{lu₂}KUR₂-ri ta-la-am-ma-ad]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs at the inside corner of the "dyeing vat" and points toward the gall-bladder: [you will learn] the strategies of [the enemy.]
+
+$ (§23')
+24'. [DIŠ {giš}TUKUL GUB₃ i+n]a ṭu₃-ur-ri# NU.TA GAR-ma ṭu₃-ur-ri NU.TA IGI a-la-ak-t[a-ka {lu₂}KUR₂ i-la-am-ma-ad]
+#tr.en: [¶ (If) a left-side weapon-mark] occurs($1)t the inside corner of the "dyeing vat"($1)nd points toward the inside corner of the "dyeing vat": [the enemy will learn your]($1)trategy.
+
+$ (§24')
+25'. [DIŠ {giš}TUKUL GUB₃ s]u-hu-ur# ar-bu-ut ERIN₂+NI {lu₂}KUR₂-ri#-[(ka)]
+#tr.en: [¶ (If) a left-side weapon-mark is] bent($1)round: rout of [(your)] enemy's army.
+
+$ (§25')
+26'. [DIŠ {giš}TUKUL GUB₃ s]u-hu-ur-ma ki-ṣir-ti GUB₃ IGI a+na KUR {lu₂}KUR₂-ri ta-ah#-ha-b[a-at]
+#tr.en: [¶ (If) a left-side weapon-mark is] bent($1)round and points toward the left ridge:($1)ou will invade the enemy's land.
+
+$ (§26')
+27'. [DIŠ {giš}TUKUL GUB₃] su-hu-ur-ma NU.TA GUB₃ kap-ṣa-at-ma u₃ SAG-sa {giš}TUKUL GUB₃ x [...]
+#tr.en.(o 28'): [¶ (If) a left-side weapon-mark] is($1)ent around, the left "dyeing vat" is con-($1)ave and its top [reaches(?)] the left-side($1)eapon-mark: [...] the enemy will cap-($1)ure one of your fortified towns and take it($1)rom you.
+28'. [...] URU#-ki BAD₄-ka# {lu₂}nak-KUR₂ DAB-ma i-ki-im-ka [(x)]
+
+$ (§27')
+29'. [DIŠ {giš}TUKUL GU]B₃ su-hu-ur-[ma AN].TA IGI ERIN₂ i+na la KI-ša ŠUB-ut [(x)]
+#tr.en: [¶ (If) a left-side weapon-mark] is bent($1)round [and] points upward: the army will($1)all in foreign territory.
+
+$ (§28')
+30'. [DIŠ {giš}TUKUL GU]B₃ su-hu-u[r-ma K]I.TA IGI {lu₂}KUR₂-ra {giš}TUKUL-MEŠ-šu tu-ša-at-ba-[ak-šu]
+#tr.en: [¶ (If) a left-side weapon-mark] is bent($1)round [and] points downward: you will($1)orce the enemy to drop his weapons.
+
+$ (§29')
+31'. [DIŠ {giš}TUKUL GU]B₃ ZE₂ IGI-m[a i+na IGI]-šu UB ŠUB-di {lu₂}KUR₂ i-ge-er-re-ka-ma GAZ-š[u]
+#tr.en: [¶ (If) a left-side weapon-mark] points($1)oward the gall-bladder and an outside cor-($1)er is located [in front] of it: the enemy will($1)ake war on you but you will defeat him.
+
+$ (§30')
+32'. [DIŠ {giš}TUKUL GU]B₃ ZE₂ IGI-ma [i-n]a EGIR-šu UB ŠUB-di {lu₂}KUR₂ te-ge-er-re-ma ERIN₂+NI-ka GAZ-a[k]
+#tr.en: [¶ (If) a left-side weapon-mark] points($1)oward the gall-bladder and an outside($1)orner is located behind it: you will make($1)ar on the enemy but he will defeat your($1)rmy.
+
+$ (§31')
+33'. [DIŠ {gi}TUKUL GU]B₃ ki-ma GIR₂ GUB₃ ZE₂ su-hu-ur-ma U IGI {lu₂}KUR₂-ra qa₂-du A.DAH-šu u₃# %n [tillāti-šu ...]
+#tr.en: [¶ (If) a left-side weapon-mark] is bent($1)round like the "path" on the left of the($1)all-bladder and points toward the "fin-($1)er": [you will defeat(?)] the enemy($1)ogether with his allies and [auxiliaries.]
+
+$ (§32')
+34'. [DIŠ {giš}TUKUL GU]B₃ [i+n]a? GUB₃ GAR-ma KI-ar tu-a-mi IGI {lu₂}KUR₂ {lu₂}KUR₂-ra GAZ-ak A.DAH-ia x [...]
+#tr.en.(o 35'): [¶ (If) a left-side weapon-mark] occurs($1)n the left and points toward the "place of($1)he twins": enemy will defeat enemy; my($1)llies [...]
+35'. ($___$) i-le-x x [...]
+
+$ (§33')
+36'. [DIŠ {giš}TUKUL GU]B₃ ka-pi-iṭ mi-li GABA {lu₂}KUR₂-ri
+#tr.en: [¶ (If) a left-side weapon-mark] is con-($1)ave: confidence for the enemy.
+
+$ (§34')
+37'. [DIŠ {giš}TUKUL GU]B₃ ka-pi-iṭ-ma SAG-su na!?-par!?-qu₂-ud ERIN₂-an iz zi iš ta x [...]
+#tr.en: [¶ (If) a left-side weapon-mark] is con-($1)ave but its top is flat(!): the army [...]
+
+$ (§35')
+38'. [DIŠ {giš}TUKUL GUB₃ k]u-mu-ur-ri-iš# NIGIN {lu₂}KUR₂ DU-ma NIGIN ši [...]
+#tr.en: [¶ (If) a left-side weapon-mark] gathers (itself) into a heap: the enemy will go and return, [...]
+
+$ (§36')
+39'. [DIŠ {giš}TUKUL GUB₃ na?]-par?#-qu₂#-ud# ar-bu-ut {lu₂}KUR₂-ri [(x)]
+#tr.en: [¶ (If) a left-side weapon-mark is] flat: rout of the enemy.
+
+$ (§37')
+40'. [DIŠ {giš}TUKUL GUB₃ ...] HUL {lu₂}KUR₂-ri [(x)]
+#tr.en: [¶ (If) a left-side weapon-mark ...:] misfortune for the enemy.
+
+$ (§38')
+41'. [DIŠ {giš}TUKUL GUB₃ ...] x n[a-par-q]u₂-ud#? [x x] x at x x [...]
+#tr.en: [¶ (If) a left-side weapon-mark ...] is flat(?): ... [...] remainder illegible

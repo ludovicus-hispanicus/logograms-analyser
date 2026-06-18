@@ -1,0 +1,87 @@
+---
+genre: astrological omens
+period: Old Babylonian
+provenance: unknown
+topic: lunar eclipse
+---
+@obverse
+1. AN.TA#.L[U₃] i#-na# ba-ra-ri-tim [a-n]a mu-ta-n[i]
+2. AN.[TA.LU₃ i]-na MURU₂ a-na KI.LAM [TU]R.[RA]
+3. AN.T[A.LU₃ i-na š]a-tu#-ur-ri a-na q[i₂-t]i pa-le-[e-e-(em)]
+4. AN.T[A.LU₃ na-ba]-al-ku-ut mi-im#-ma# u₂#-ul# in-ne₂-ze-eb a#-bu#-ub mi-i[t-ha-ri-iš] | iš-ša-ak-ka-an
+5. AN.T[A.LU₃ i-n]a MURU₂-a-ti-šu iš-ti-ni-iš i-ʾa₃-di-ir iš-ti-ni-iš u₂#-na-wi-ir | LUGAL i-ma-at ša#-ah#-lu#-uq-ti ELAM.MA{ki}
+6. AN#.TA#.LU₃# i#-na# šu#-u₂#-tim u₂-ša-ar-ri-ma u₃ ut-ta-wi#-[ir] RI.RI.GA šu-ba-ri-i u₃ ak-ka-di-i
+7. A[N.TA.LU₃ i-na a-mu-ur]-ri# A[N.TA.LU₃] a#-mu-ur-ri-i
+8. A[N.TA.LU₃ i-na il-ta-nim] [AN.TA.LU₃ a]k-ka-d[i]-i
+9. AN.[TA.LU₃ i-na ša-di]-i# [AN.TA.LU₃ šu]-ba-ri-i#
+10. {d}EN.ZU [ad-ri-iš u₂-ṣi-a-a]m-ma u₃ ut-ta-wi-ir [a-mu-ut ELAM.MA] u₃# KUR qu₃#-tu-um ha-la-qi₂-im
+11. {d}EN.ZU [iš-tu šu-u₂-tim u₂-ša-ar]-ri-a-am-ma a-na [il-ta-nim il-l]i-ik AN#.TA#.LU₃# KUR ak-ka-di-i | [šu-ba-ri-i u₃] MAR.TU a-na ELAM#.M[A{ki} u₃ KUR] qu₃#-TU-i u₃#-u[l i-ṭe₄-e]h-he
+12. {d}EN.ZU [ad-ri-iš u₂-ṣi-a-am]-ma a-di na-ma-ri-im iz-zi-iz AN.TA.LU₃ ki-iš#-ša#-tim
+13. {d}EN.ZU [ad-ri-iš u₂-ṣi-a-am] a#-bu-ub na-aš₂-pa-an-tim
+14. AN.T[A.LU₃ i-na {iti}BARA₂.ZAG.GAR UD.14.KAM] GAR# RI.RI.GA LUGAL ak-ka-di-i URU{ki} u₃ ni-šu ša-al-ma | [šum-ma LUGAL ak-ka-di-i la im-tu-u]t ub#-bu-ṭu₂ iš-ša-ak-ka-nu ni-šu i-ṣe₂-eh-he-ra
+15. AN.TA#.[LU₃] i#-na# {iti#}BARA₂#.ZAG#.GAR# UD#.15.KAM GAR# [ub-bu-ṭu₂] ib-ba-aš-šu-u₂ ni-šu# še-er-ri-ši-na | a-na KU₃.BABBAR i-pa-aš-ša-ra ṣu₂-hu#-ur#-re#-e ni-ši ib-ba-aš-ši
+16. AN#.TA#.[LU₃ i]-na {iti}BARA₂.ZAG.GAR UD.16.KAM GAR DINGIR-lum i-na l[u-mu-u]n ŠA₃ it-ba-[a]l | [MUL.G]AL im-qu₂-ut URU{ki} kab-tam LUGAL u₃ ni-ši-šu qa₂#-tum i-ka-aš-š[a-a]d | [ṣa-al-b]a-ta-nu-um i-ta-ab-bi-a-am-ma bu-lam u₂-hal#-la#-aq# [šu]m-ma DINGIR su₂-um-šu pe₂-li nu-hu-uš ni-ši
+17. [AN.TA.LU₃ {i]ti}BARA₂.ZAG.GAR UD.19.KAM GAR su₂-um-šu pe₂-li nu-hu#-uš# ni-ši
+18. [AN.TA.LU₃ {it]i}BARA₂.ZAG.GAR UD.20.KAM GAR LUGAL a-na LUGAL nu-ku-ur₂#-tam i-ša-ap-pa-ar
+19. [AN.TA.LU₃ {it]i}BARA₂.ZAG.GAR UD.21.KAM GAR KI.LAM# i-ṣe₂-eh-he-er
+20. [AN.TA.LU₂ {iti}GU₄.S]I.SA₂ UD.14.KAM GAR LUGAL ki-iš-ša-tim i-ma-at KUR i-hal-liq na-as₂-pu-uh₂-ti ni-ši
+21. [AN.TA.LU₃ {iti}GU₄.SI.SA₂ U]D.15.KAM GAR URU{ki} LUGAL u₃ ni-šu la ša-al-mu | [LUGAL-rum a-na LU]GAL ak-ka-di-i nu-ku-ur₂-tam i-ša-ap-pa-ar i-na e-bu-ri-im nu-šu-re-<e> ŠE-im | i#-na pi₂-ši-ir#-tim
+22. [AN.T]A.LU₃# {iti#}[GU₄].S[I.SA₂ UD].16#.KAM# GAR# LUGAL# a-mu-ur-ri i-ma-at-ma KUR a-na bi#-ra-a i-hal-li-iq
+23. [AN.TA.LU₃] {iti#}SIG₄#.A# [UD].14.KAM GAR LUGAL ša šu-ma-am i-šu-u₂ i-hal-liq# DUMU# LUGAL ša a-na šar-ru-tim | [l]a za-ak-ru šar-ru-tam i-ṣa-ab-ba-at-ma KUR i-ha-a[r-ru-ub]-ma KUR-su₂ i-ṣe-eh-he-er
+24. [AN.TA.LU₃ {iti}SI]G₄.A UD.15.KAM GAR LUGAL a-mu-ur-ri-i IR₃#-MEŠ#-<šu> i#-na# ba-ar#-tim i-du-uk#-ku#-šu
+25. [AN.TA.LU₃ {iti}SIG₄].A UD.16.KAM GAR LUGAL EGIR ERIN₂-MEŠ-šu#? [u]ṣ-ṣi₂-ma i-na {giš}TUKUL i-ma-at KUR₂-šu ERIN₂#-šu# | [i-da-ak?-ma {giš}GU].ZA i-ṣa-ab-ba-at ID₂#-š[u] i#-ib-ba-al hi-ṣi₂-ib-ša i-hal-li-iq
+26. AN.T[A.LU₃ {iti}ŠU.NUMUN].A UD.14.KAM GAR m[u-ta-a-nu? i]š-ša-ak-ka-nu LUGAL ša šu-ma-am i-šu-u₂ i-hal-li-iq | z[u-un-nu i-na ša-me-e] mi#-lum# i-na ID₂# i#-[il-l]a-kam EDIN.MU {d}IŠKUR i-ra-ah-hi-iṣ | KUR GAL a-na KUR TUR a-na bu-ta-al-lu-ṭi-im [ø] i-il-la-ak
+27. AN.TA.LU₃ {iti}ŠU.NUMUN.A <UD>.15.KAM GAR zu-un-nu i-na š[a-m]e-e mi-lum i-na ID₂ i-pa-ar-ra-as₂ | hu-ša-ah-hu-um ib-ba-aš-ši-ma <ma-ru-um> er-re-bu-um i-na {giš}GU.ZA <a-ba-šu> u₂-ša-at-ba-šu-ma LUGAL# KUR# šu#-ba#-ri#-i#
+28. AN.TA.LU₃ {iti}ŠU.NUMUN.A UD.16.KAM GAR hu-ša-ah-hi IN.NU iš-ša-ak-ka-an | RI.RI.GA GU₄{HI.A} ib-ba-as-ši tar-ba-ṣum i-r[i]-ʾa₃-[aq]
+29. AN.TA.LU₃ {iti}ŠU.NUMUN.A UD.20.KAM GAR RI.RI.GA ELAM.MA{ki} i-na EDIN KUR i-ha-[ru-ub]
+30. AN.TA.LU₃ {iti}ŠU.NUMUN.A UD.21.KAM GAR {d}IŠKUR hi-ṣi₂-ib ia-a-ba u₂-hal-[la-aq]
+31. AN.TA.LU₃ {iti}NE.NE.GAR UD.14.KAM <GAR> ub-bu-ṭu₂ ib-ba-aš-šu-u₂ LUGAL M[AR.TU i-ha]l-liq | KUR i-hal-liq ID-šu i-ib-ba-al ERIN₂-MEŠ e-ma i-il-la-ku i-na {giš}TUKUL i-m[a-aq-q]u₂-ut
+32. AN.TA.LU₃ {iti}NE.NE.GAR UD.15.KAM GAR zu-un-nu i-na AN mi-lum i-na ID₂ ib-ba-aš#-šu#-u₂# | BURU₁₄ i-še-er šar-rum a-na šar-ri sa-li-ma-am i-ša-ak-ka-an AN.TA.LU₃ an-nu-um# a#-na# la#-ta#-ki <<DIŠ>>
+33. AN.TA.LU₃ {iti}NE.NE.GAR UD.16.KAM GAR {d}ne₃-eri₁₁-gal i-kal mu-ta-nu [iš-ša-ak]-ka-nu <<DIŠ>> | RI.RI.GA ERIN₂ SU.BIR₄{ki} [ib-ba-aš-ši]
+34. AN.TA.LU₃ {iti}NE.NE.GAR UD.16.KAM GAR {munus}PEŠ₄-MEŠ ša ŠA₃-ši-na u₂-[ul u₂-ša-al-la-ma]
+@edge
+35. AN.TA.LU₃ {iti}NE.NE.GAR UD.20.KAM GAR UR.MAH-MEŠ in-na-d[a-ru-(ma) ...]
+36. AN.TA.LU₃ {iti}NE.NE.GAR UD.21.KAM GAR a-ga-ar-ga-ru-u₂ ša i[a-a-ba ina ID₂] | i-ba-[aš-šu-u₂]
+37. [AN.T]A.LU₃ {iti}KIN.{d}INANNA UD.14.KAM GAR ba-ar-tum a-na LUGAL ERIN₂ r[a-ap-šum] | i-ma-qu₂-ut šum-ma AN.TA.LU₃ LUGAL u₃ ERIN₂-MEŠ it-ti-i[q nu-šu-ur-re-e] | ZU₂.LUM ib-ba-aš-ši
+@reverse
+38. [AN].TA.LU₃ {iti}KIN.{d}INANNA <<x>> UD.15.KAM GAR DUMU LUGAL a-ba-šu i-da-ak-ma {giš}G[U.ZA i-ṣa-bat]
+39. AN.TA.LU₃ {iti}KIN.{d}INANNA UD.16.KAM# GAR LUGAL KUR ha-li-iq-tim a-na ma-tim ša-li-i[m-tim] | i-ru-um-ma {giš}GU.ZA i-ṣa-bat
+40. AN.TA.LU₃ {iti}KIN.{d}INANNA UD.20.KAM GAR DUMU LUGAL a-na E₂ a-bi-šu i-ru-um-ma {giš}GU.ZA i#-[be₂-el?]
+41. AN.TA.LU₃ {iti}KIN.{d}INANNA UD.21.KAM# GAR {giš}GU.ZA LUGAL# u₂-ul [ul-t]a-ab-ba-ar
+42. AN.TA.LU₃ {iti}DU₆.KU₃ UD.14.KAM GAR TI DINGIR i#-kal ERIN₂-MEŠ# [ra-ap-šu]m i#-ma-qu-ut | ti-bu-ut ERIN₂ ELAM.MA{ki} a-na KUR [me-re-eš-tum] i-še-er
+43. AN.TA.LU₃ {iti}DU₆.KU₃ UD.15.KAM i-na pa-ni ša!-a[t-tim BURU₅] i-ta-ab-bi-a-am-ma | BURU₁₄ i-ma-ah-ha-aṣ hu-ša-ah-hu-um [ib-ba-aš]-ši
+44. AN.TA.LU₃ {iti}DU₆.KU₃ UD.16.KAM# GAR LUGAL ki-iš-[ša-tim i-ma-at BALA] ga#-me#-er | šar-ru-tum [in-na-ad-d]i
+45. AN.TA.LU₃ {iti}DU₆#.KU₃# UD.20.KAM# GAR li-ih-[bu-um (i-na ma-tim) ib-ba-aš]-ši
+46. AN.TA.LU₃ {it[i}[DU₆.K]U₃ UD.21.KAM GAR ti-bu-[ut BURU₅ a-na KUR ib-ba-aš]-ši
+47. AN.TA.LU₃ {iti}[APIN.DU₈].A! UD.14#.KAM GAR zu-u[n-nu i-na AN mi-lum i-na ID₂ i-ša]-aq-qi₂-lu | RI.RI.GA bu-[lim] u₃ na-ma-aš-te-e i[b-ba-aš-ši i-na pa-ni ša-at-tim] zu-un-nu ip-[pa-ra-su₂-ma] | bi-bi-il [me]-e# ma-[tam ub-ba-al] ø
+48. AN.TA.LU₃ {iti}APIN.DU₈#.A# UD.15.KAM GAR i#-na#? [pa-ni ša-at-tim? ID₂ ib-ba-al-ma hi-ṣi₂-i]b-ša i-hal#-l[iq] | [m]i-ṭe₄-er-tum ir-r[a-ah-hi-iṣ?] ø
+49. AN.TA.LU₃ {iti}AP]IN.DU₈.A UD.16.KAM GAR# [ša-al-pu-ut-ti UNUG{ki}] KI.1
+50. AN.TA.LU₃ [{iti}API]N.DU₈.A UD.20.KAM GAR RI.RI.GA [LUGAL i-na {giš}TUKUL] ø
+51. [AN.TA.LU₃ {iti}APIN].DU₈.A UD.21.KAM GAR KUR [is-sa₃-pa-a]h
+52. [AN.TA.LU₃ {iti}GAN].GAN#.E₃ UD.14.KAM GAR ti-bu-ut ERIN₂-MEŠ ELAM.MA[{ki} a-na KUR iš-ša-a]k-ka-an | [ma-at it-t]e-eb-bu-u₂ u₂-ha-al-la#-aq#
+53. [AN.T]A.LU₃ GAN.GAN.E₃ UD.15.KAM GAR {LU₂}KUR₂ a-na ma-at i-te-eb-bu-[u₂] BAD₃-MEŠ | i-na-qar
+54. [AN.TA].LU₃# GAN.GAN.E₃ UD.16.KAM GAR LUGAL ti-la-tu-šu i-du-ka-šu | u₃ ERIN₂-MEŠ u₂-ša-am-qa₂#-tu
+55. [AN.TA].LU₃ GAN.GAN.E₃ UD.20.KAM GAR i#-ba#-[rum ib-ba-š]i ri-gi-im {d}IŠKUR ka-ia-ma-nu-um
+$ (-um moved to the end of the next line)
+56. [AN.TA].LU₃ GAN.GAN.E₃ UD.[21.KAM GAR i-na ši-ir ma-ti]m nu-kur₂-tum ib-ba-as-ši
+57. [AN.TA.LU₃ {it]i}AB.[E₃ UD.14.KAM GAR DINGIR i-ka]l a-we-lu-tam bu-lam na-ma-aš-te-e ṣe-ri | u₃# [ŠE-am i-ra-ah-hi-iṣ ...] x# x# ib-ba-aš-ši
+$ (ṣe-ri moved to the end of the next line)
+58. AN.TA.LU₃ {iti#}[AB.E₃ UD].15#.KAM GAR# zu-un-nu i-na AN mi-LAM i-na ID₂ i-mi-id-du | u₃ KI.LAM na-ap-šu ib-ba-aš-ši
+59. AN.TA.LU₃ {iti}AB.E₃ UD.16.KAM GAR la ha-as-su₂ {giš}GU.ZA i-ṣa-bat | i-na KUR nu-ku-ur₂-tum ib-ba-aš-ši
+60. AN.TA.LU₃ {iti}AB.E₃ UD.20.KAM GAR KUR ša ša-ah-lu-qu-tam i-mu-ru uš-ša-ab
+61. AN.TA.LU₃ {iti}AB.E₃ UD.21.KAM GAR LUGAL KUR ha-li-iq-tim uš-ša-ab
+62. AN.TA.LU₃ {iti}ZIZ₂.A UD.14.KAM GAR AN u₃ mu-u₂ ib-ba-aš-šu-u₂ BURU₁₄ i-še-er | wa-ṣi₂-it a-lim {LU₂}KUR₂ i-ta-ab-ba-al LUGAL a-na na-ah-ra-ru-tim it-ti ERIN₂-MEŠ-ni-šu | uṣ-ṣi₂-ma qa₂-tum i-ka-ša-as-su₂-ma te-ri-iṣ ma-tim i-še-er
+63. AN.TA.LU₃ {iti}ZIZ₂.A UD.15.KAM GAR KUR ša ša-ah-lu-uq-tam u₃ ša-al-lu-tam i-mu-ru | KUR ši-i da-mi-iq-tum i-ṣa-ab-ba-as-si₂ LUGAL i-ma-at DUMU LUGAL la ta-ak-LAM {giš}GU.ZA i-ṣa-bat
+64. AN.TA.LU₃ {iti}ZIZ₂.A UD.16.KAM GAR URU{ki} il-la-wu-u₂ LUGAL-šu ik-ka-aš-ša-ad | BAD₃-šu in-na-qa₂-ar LUGAL KUR ha-li-iq-tim a-na LUGAL KUR ša-li-im-tim₂ i-ir-ru-um-ma | {giš}GU.ZA i-ṣa-ab-ba-at
+65. AN.TA.LU₃ {iti}ZIZ₂.A UD.20.KAM GAR bi-ib-LAM KUR u₂-ub-ba-al
+66. AN.TA.LU₃ {iti}ZIZ₂.A UD.21.KAM GAR KUR a-na bi-ra-a i-ha-ar-ru-ub
+67. AN.TA.LU₃ {iti}ŠE.KIN.TAR UD.14.KAM <GAR> UR.GI₇ iš-še-gu-ma ma-la i-na-aš-ša-ku u₂-ul i-ba-al-lu-ṭu₂ | na-ap-ha-nu ib-ba-aš-ši-ma ni-šu še-er-ri-ši-na a-na KU₃.BABBAR i-pa-aš-ša-ra
+$ (-lu-ṭu₂ moved to the end of the next line)
+68. AN.TA.LU₃ {iti}ŠE.KIN.TAR UD.15.KAM GAR KUR bi-ib-LAM ub-ba-al UR.MAH in-na-da-ru-ma | a-la-ak-tam i-pa-ar-ra-su₂
+69. AN.TA.LU₃ {iti}ŠE.KIN.TAR UD.16.KAM GAR KUR la-a šu-ul-pu-ut-tam uš-ta-al-pa-at
+70. AN.TA.LU₃ {iti}ŠE.KIN.TAR UD.20.KAM GAR ša-al-pu-ut-ti UNUG{ki} KI.2
+71. AN.TA.LU₃ {iti}ŠE.KIN.TAR UD.21.KAM GAR qu₂-tu-um pa-ṭi KUR ak-ka-di-im u₂-ša-al#-pa-at
+72. AN.TA.LU₃ {iti}DIRI.ŠE.KIN.TAR UD.14.KAM GAR HI!.GAR da-an-na-tum ib-ba-aš-ši ni-šu še-er-ri-ši-na a-na KU₃#.BABBAR | i-pa-aš-ša-ra
+@edge
+73. AN.TA.LU₃ {iti}DIRI.ŠE.KIN.TAR UD.15.KAM GAR ša-ah-lu-uq-ti UNUG{ki} KI.3
+74. AN.TA.LU₃ {iti}DIRI.ŠE.KIN.TAR UD.16.KAM GAR KUR ak-ka-di-im uš-ta-al-pa-at

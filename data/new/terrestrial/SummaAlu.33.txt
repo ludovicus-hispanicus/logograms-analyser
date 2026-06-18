@@ -1,0 +1,132 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: first-millennium canonical Šumma Ālu (Nineveh, Kalḫu, Assur, Uruk, Sultantepe); Tablet 24 colophon names Kalḫu + an eponym of Sargon II
+publication: S. Freedman, If a City Is Set on a Height, Vol. 2 (OPKF 19, 2006), Tablet 33 (lizard omens), Reconstruction (composite text). OCR of the printed Reconstruction; footnotes/translation/colophons excluded.
+counting: DIŠ
+topic: lizard omens — canonical Šumma Ālu Tablet 33
+source_note: OCR'd from Freedman 2006. Logograms uppercase, {d} determinatives, subscript indices, [] restoration, x illegible. Italic/markup, collation notes and recension labels stripped. Composite reconstruction (primed line-numbers = omens preserved only on excerpt/duplicate texts); for Tablet 32 the omen numbers restart per recension.
+note: Neo canonical lizard omens — topic-controlled counterpart to the Middle-Assyrian lizard tablet VAT.10167 (KAL 1). Pools Freedman's three recensions (Nineveh / Assur / Sultantepe) of canonical Tablet 32, or the gecko/skink omens of Tablet 33.
+---
+
+@text
+
+1. DIŠ MUŠ.GIM.GURUN.NA ina E₂ NA GI[M ...] E₂ LU₂ ir-ba [...]
+2. [DIŠ MUŠ.G]IM.GURUN.NA ina TUR₃ LU₂ [...]
+3. [DIŠ MUŠ].GIM.GURUN.NA ina ur-ši E₂ LU₂ [...]
+4. [DIŠ MUŠ.GIM].GURUN.NA ina MURU₄ E₂ LU₂ [...]
+5. [DIŠ MUŠ.GIM].GURUN.NA ina KA₂ E₂ LU₂ [...]
+6. [DIŠ MUŠ.GIM].GURUN.NA TA E₂ LU₂ [...]
+7. [DIŠ MUŠ.GIM.GURUN].NA TA [...] (gap?)
+8'. [DIŠ MUŠ.GIM.GURUN.NA ...] KIMIN EN E₂ [...]
+9'. [DIŠ MUŠ.GIM.GURUN.NA ...L]U₂ KIMIN EN E₂ BI [...]
+10'. [DIŠ MUŠ.GIM.GURUN.NA ...] LU₂ KIMIN EN E₂ BI [...]
+11'. [DIŠ MUŠ.GIM.GURUN.NA ...] E₃.MEŠ E₂ B[I ...]
+12'. [DIŠ MUŠ.GIM.GURUN.NA ...].MEŠ x EN E₂ [...]
+13'. [DIŠ MUŠ.GIM.GURUN.NA ina E₂ NA E₂.S]IG₄ E₁₁.MEŠ E₂ [...]
+14'. [DIŠ MUŠ.GIM.GURUN.NA ina E₂ NA] E₂.SIG₄ ur-du-ni EN E₂ BI [...]
+15'. [DIŠ MUŠ.GIM.GU]RUN.NA [ina] E₂ LU₂ TA E₂ ana KA₂ E₃.MEŠ EN E₂ BI PAD i-[...]
+16'. [DIŠ MUŠ].GIM.GURUN.NA ina E₂ LU₂ TA KA₂ ana E₂ TU.MEŠ-ni EN E₂ BI DUMU [...]
+17'. [DIŠ MUŠ].GIM.GURUN.NA ina E₂ LU₂ TA KI ana UR₃ E₁₁.MEŠ EN E₂ BI SAG.KAL-ta₅ DU
+18'. [DIŠ MUŠ].GIM.GURUN.NA ina E₂ LU₂ TA UR₃ ana KI ur-ra-du-ni ina SAL.KALAG.GA E₃
+19'. DIŠ MUŠ.GIM.GURUN.NA BABBAR ina E₂ LU₂ IGI-ir EN E₂ SAL.KALAG.GA.DIB-su
+20'. DIŠ MUŠ.GIM.GURUN.NA SA₅ ina E₂ LU₂ IGI-ir EN E₂ BI ḪE₂.GAL₂ uš-ta-bar-ra
+21'. DIŠ MUŠ.GIM.GURUN.NA GUN₃ ina E₂ LU₂ IGI-ir EN E₂ BI ina šag-ga-aš-ti BA.UG₇
+22'. DIŠ MUŠ.GIM.GURUN.NA SIG₇ ina E₂ LU₂ IGI-ir EN E₂ BI ina ITI BI BA.UG₇
+23'. DIŠ MUŠ.GIM.GURUN.NA GAL ina E₂ LU₂ IGI-ir EN E₂ BI ina ITI BI SIG₅ IGI
+24'. DIŠ MUŠ.GIM.GURUN.NA ša₂ KUN GAR-nu ina E₂ LU₂ IGI-ir EN E ₂ BI UŠ₂ ar₂-ni UG₇
+25'. DIŠ MUŠ.GIM.GURUN.NA ša₂ 2 KUN.MEŠ GAR-nu ina E₂ LU₂ IGI-ir ina E₂ BI I.BI₂.ZA ra-kis
+26'. DIŠ MUŠ.GIM.GURUN.NA ša₂ SI.MEŠ GAR-nu ina E₂ LU₂ IGI-ir EN E₂ BI maš-ra-a u₂-wa-tar
+27'. [DIŠ MUŠ.GIM.GUR]UN.NA ša₂ kap-pi GAR-nu ina E₂ LU₂ IGI-ir EN E₂ BI ina NU ZU-u DIB-bat
+28'. [DIŠ MUŠ.GIM.GURUN.NA ša₂ k]ap-pi GAR-n[u ... ] x ŠUB-ut NA BI UG₇-ma E₂-su BIR
+29'. [DIŠ MUŠ.GIM.GURUN.NA ...] EN E₂ BI maš-ra-a ZAḪ₂
+30'. [DIŠ MUŠ.GIM.GURUN.NA ...] E₂ BI : E₂ BI še-am TUK-ši
+31'. [DIŠ MUŠ.GIM.GU]RUN.NA BABBAR ina [...] EN E₂ BI ŠA₃.BI NU DUG₃.GA
+32'. DIŠ MUŠ.GIM.GURUN.NA S[A₅] ina E₂ LU₂ [...] EN E₂ BI NIG₂.TUK TUK-[ši]
+33'. DIŠ MUŠ.GIM.GURUN.NA GUN₃ ina E₂ LU₂ MIN [EN] E₂ BI DAM-su UG₇
+34'. DIŠ MUŠ.GIM.GURUN.NA SIG₇ [ina] E₂ LU₂ MIN [E]N E₂ BI SUḪUŠ.BI NU GI.NA
+35'. DIŠ MUŠ.GIM.GURUN.NA ina mut-tab-bil-ti MIN EN E₂ BI NIG₂.GA-šu₂ ig-gam-mar
+36'. DIŠ MUŠ.GIM.GURUN.NA ana UGU MUNUS PEŠ₄ M[IN] MUNUS BI ša₂ ŠA₃-ša₂ NITA
+37'. DIŠ MUŠ.GIM.GURUN.NA ana UGU MUNUS NU PE[Š₄ E]₁₁ MUNUS BI PEŠ₄ U₃.TU-ma ŠA₃.BI DUG₃.GA
+38'. [DIŠ MUŠ.GIM.GURUN.NA ana UGU MUNUS [E]₁₁ MUNUS BI MU SAL.SIG₅ TUK-ši
+39'. DIŠ MUŠ.GIM.GURUN.NA ana UGU LU₂ [E₁₁] ana LU₂ BI ŠA₃.BI DUG₃.GA : bu-su₂-rat ḫa-de-e ana NA TE.MEŠ-šu₂
+40'. [DIŠ MUŠ.GIM.GURUN.NA ana ... NA] E₁₁ LU₂ BI ŠA₃.ḪUL.LA
+41'. [DIŠ MUŠ.GIM.GURUN.NA ana ...] NA E₁₁ DAM u DAM in-da-ga-ru-ma E₂ BI SI.SA₂
+42'. [DIŠ MUŠ.GIM.GURUN.NA ana GIŠ.N]A₂ GIG E₁₁ GIG BI ina u₄-me šu-a-tu₄ GIG BI TAG₄-šu₂
+43'. [DIŠ MUŠ.GIM.GURUN.NA ana GIŠ.GU].ZA NA E₁₁ NA BI NIG₂.TUK IGI-mar
+44'. [DIŠ MUŠ.GIM.GURUN.NA ana GIŠ].BANŠUR NA E₁₁ NA BI SIG₅-ta₅ IGI-mar
+45'. [DIŠ MUŠ.GIM.GURUN.NA ana ...] NA ŠUB-ut NA BI ŠA₃.ḪUL₂.LA : ŠA₃.ḪUL
+46'. [DIŠ MUŠ.GIM.GURUN.NA ana IGI] NA SUB-ut EN KA-šu₂ UGU-šu₂ GUB-az : UGU EN KA-šu₂ GUB-az
+47'. DIŠ MUŠ.GIM.GURUN.NA ana EGIR NA SUB-ut KI.ŠU₂ DIB-su
+48'. DIŠ MUŠ.GIM.GURUN.NA ana ZAG NA ŠUB-ut LU₂ BI SIG₅ IGI-mar
+49'. DIŠ MUŠ.GIM.GURUN.NA ana GUB₃ NA ŠUB-ut LU₂ BI ru-qu i-qer-rib-šu
+50'. [DIŠ MUŠ.GIM.GURUN.NA ...] x NA IGI-ir LU₂ BI ŠA₃.BI DUG₃.GA
+51'. [DIŠ MUŠ.GIM.GURUN.NA ...] NA IGI-ir GI₆ IGI
+52'. [DIŠ MUŠ.GIM.GURUN.NA ... G]IG IGI-ir GIG-su GID₂.DA-ma TI-uṭ
+53'. [DIŠ MUŠ.GIM.GURUN.NA ...] ŠUB-ut KUR-ad₂ A₂.AŠ₂ : ŠA₃.ḪUL
+54'. DIŠ MUŠ.GIM.GURUN.NA [...] x IGI-ir ŠA₃.BI NU DUG₃.GA
+55'. [DIŠ] MUŠ.GIM.GURUN.NA ina x [... IGI]-ir ŠA₃.BI NU DUG₃.GA
+56'. [DIŠ] MUŠ.GIM.GURUN.NA ina E₂ [...] ŠUB-e E₂
+57'. [DIŠ MUŠ.GIM.GURUN.NA ...]-ab ŠUB-e E₂
+58'. [DIŠ MUŠ.GIM.GURUN.NA ... E]N E₂ ina UD šu-a-tu₄ : ina ITI BI UG₇
+59'. [DIŠ MUŠ.GIM.GURUN.NA ...] ru-qu ana E₂ NA i-qer-ru-ba
+60'. [DIŠ MUŠ.GIM.GURUN.NA ...] E₂ BI še-am TUK-ši
+61'. [DIŠ MUŠ.GIM.GURUN.NA ... B]I NIG₂.GIG IGI-mar
+62'. [DIŠ MUŠ.GIM.GURUN.NA ...] DU₁₄ sad-rat
+63'. [DIŠ MUŠ.GIM.GURUN.NA ...] x BA.UG₇
+64'. [DIŠ MUŠ.GIM.GURUN.NA ...] DUG₃.GA
+65'. [DIŠ MUŠ.GIM.GURUN.NA ...BI]R-aḫ
+66'. [DIŠ MUŠ.GIM.GURUN.N]A ina E₂ [...]
+67'. [DIŠ MUŠ.GIM.GURUN.N]A ina ku-x-[...]
+68'. [DIŠ MUŠ.GIM.GURU]N.NA ina E₂ NA [...]
+69'. [DIŠ MUŠ.GIM.GU]RUN.NA ina E₂ NA x [...]
+70'. [DIŠ MUŠ.GIM].GURUN.NA ina E₂ N[A i-ḫ]ad-du-ud [...]
+71'. [DIŠ MUŠ.GIM].GURUN.NA ina ka [...] la IGI-ma [...]
+72'. [DIŠ MUŠ.GIM].GURUN.NA ina GI.PISAN NINDA IGI-ir [...]
+73'. [DIŠ MUŠ.GIM].GURUN.NA ina GI.PISAN ZID₃ IGI-ir [...]
+74'. DIŠ MUŠ.GIM.GURUN.NA ina E₂ NA ik-tap-lu [...]
+75'. DIŠ MUŠ.GIM.GURUN.NA ina E₂ NA MUŠ GAZ x [...]
+76'. DIŠ MUŠ.GIM.GURUN.NA ina DUG.ḪA.LA.AN KAŠ [...]
+77'. DIŠ MUŠ.GIM.GURUN.NA ina IM.ŠU.RIN.NA a-[...]
+78'. [DIŠ MUŠ.GIM.GURUN.NA] ina SI.GAR E₂ [...]
+79'. [DIŠ MUŠ.GIM.GURUN.NA] ina bi-rit p[i-...]
+80'. [DIŠ MUŠ.GIM.GURUN.N]A ina MURU₄ E₂ x [...]
+81'. [DIŠ MUŠ.GIM.GURUN.N]A ina UR₃ E₂ [...]
+82'. [DIŠ MUŠ.GIM.GURUN.NA] ina GIŠ.UR₃ [...]
+83'. [DIŠ MUŠ.GIM.GURUN.NA ina ...] i-sur E₂ B[I ...]
+84'. [DIŠ MUŠ.GIM.GURUN.NA ina ...] NA i-sur E₂ BI ŠA₃ [...]
+85'. [DIŠ MUŠ.GIM.GURUN.NA ina ... ] x NA i-sur E₂ BI i-si-[...]
+86'. DIŠ MUŠ.GIM.GURUN.NA ina E₂ [...]-ti i-sur E₂ BI SIG₅ i-ma-al-[la]
+87'. DIŠ MUŠ.GIM.GURUN.NA ina GIŠ.BAN x [...] i-sur E₂ BI SIG₅ i-ma-al-la
+88'. DIŠ MUŠ.GIM.GURUN.NA ina DUG.NIG₂.DUR₂.BUR₃ i-sur EN E₂ BI a-ra-an DINGIR GAL₂
+89'. DIŠ MUŠ.GIM.GURUN.NA ina mut-tab-bil-ti [E₂ i-s]ur EN E₂ BI ina NU ZU-u UG₇
+90'. DIŠ MUŠ.GIM.GURUN.NA ina GIŠ.NA₂ LU₂ [i-su]r GIŠ.NA₂ KUR₂ ša TA URU.KI.MEŠ TU : GIŠ.NA₂ EN MAN-ma TUK-ši
+91'. DIŠ MUŠ.GIM.GURUN.NA ina GIŠ.GU.ZA LU₂ [i-sur ] ana GIŠ.GU.ZA BI KI DUR₂ GUR-ši
+92'. DIŠ MUŠ.GIM.GURUN.NA ina GIŠ.BANŠUR LU₂ i-[sur] ana GIŠ.BANŠUR BI is-qu GUR-šu₂
+93'. DIŠ MUŠ.GIM.GURUN.NA ina KI.GUB E₂ LU₂ GUB-iz ŠUB-e E₂
+94'. DIŠ MUŠ.GIM.GURUN.NA ina KA₂ E₂ LU₂ GUB-iz ŠUB-e E₂
+95'. DIŠ MUŠ.GIM.GURUN.NA ina KUN₄ E₂ LU₂ GUB-iz ŠUB-e E₂
+96'. DIŠ MUŠ.GIM.GURUN.NA ina GIŠ.BANŠUR E₂ LU₂ GUB-iz ŠUB-e E₂
+97'. DIŠ MUŠ.GIM.GURUN.NA ina UGU LU₂ GUB-iz LU₂ BI GIG
+98'. DIŠ MUŠ.GIM.GURUN.NA ina UGU GIŠ.NA₂ LU₂ GUB-iz DAM LU₂ GIG IGI
+99'. DIŠ MUŠ.GIM.GURUN.NA ana IGI LU₂ LAḪ₄-ma GUB-iz NA BI KI DU-ku ŠA₃-šu₂ [DUG₃.GA]
+100'. DIŠ MUŠ.GIM.GURUN.NA U₅.MEŠ-ma ana E₂ LU₂ TU.MEŠ EN E₂ BI NAM-šu₂ KI-šu₂ i-[...]
+101'. DIŠ MUŠ.GIM.GURUN.NA U₅.MEŠ-ma ina MURU₄ E₂ LU₂ DU₈.MEŠ a-ra-an EN E₂ BI [...]
+102'. DIŠ MUŠ.GIM.GURUN.NA U₅.MEŠ-ma ina E₂ NA lu-ḫu-mu GAR DU.DU ana E₂ LU₂ ZI.GA sad-[rat]
+103'. DIŠ KUN.DAR ina E₂ LU₂ ip-ru E₂ BI DUMU.MEŠ [...]
+104'. DIŠ KUN.DAR ma-aʾ-du-tu₄ ina E₂ LU₂ DU.MEŠ E₂ [...]
+105'. DIŠ KUN.DAR ina E₂ LU₂ KASKAL.MEŠ pu-ut-t[u ...]
+106'. DIŠ KUN.DAR ina ur-ši E₂ LU₂.KU[RUN₂ ...]
+107'. DIŠ KUN.DAR ina UGU kan-ni LU₂.KURUN₂ KAŠ [x] it-ta-ab-ba-x [...]
+108'. [DIŠ] KUN.DAR ana UGU NA i-li NA BI i-ḫad-du
+109'. [DIŠ KU]N.DAR ana UGU.GIŠ.NA₂ GIG i-li GIG BI ar₂-ḫiš ZI-bi
+110'. DIŠ KUN.DAR ina UGU SAL.PEŠ₄ DU.DU-ak MUNUS BI NITA U₃.TU
+111'. DIŠ KUN.DAR ina UGU SAL.KAL.TUR DU.DU-ak MUNUS BI IDIM i-ḫa-as-si
+112'. DIŠ KUN.DAR ina ḫi-du-tu₂ ina UGU NA DU.DU-ak DINGIR-šu₂ ARḪUŠ GAR-šu₂
+113'. DIŠ KUN.DAR BABBAR ina E₂ NA IGI EN E₂ BI ina SU.KU₂ UG₇
+114'. DIŠ KUN.DAR GI₆ ina E₂ NA IGI EN E₂ BI NIG₂.TUK TUK-ši
+115'. DIŠ KUN.DAR SA₅ ina E₂ NA IGI EN E₂ BI A₂.TUK TUK-ši
+116'. DIŠ KUN.DAR GUN₃ ina E₂ NA IGI a-lak-tu₄ ina E₂ NA sad-rat
+117'. DIŠ KUN.DAR SIG₇ ina E₂ NA IGI [EN] E₂ BI NAM.ERIM₂ DIB-su
+118'. DIŠ KUN.DAR ša₂ 2 KUN.2-šu₂ ina E₂ NA DU.DU-ak E₂ NA x x a TUK-ši
+119'. DIŠ KUN.DAR ša₂ 2 KUN.2-šu₂ ana UGU GIŠ.NA₂ [GIG] E₁₁ GIG BI ar₂-ḫiš ZI-bi

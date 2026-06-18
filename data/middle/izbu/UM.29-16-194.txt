@@ -1,0 +1,31 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Nippur (probable)
+publication: eBL fragment UM.29-16-194 (+ N 1502 + N 1503); De Zorzi 2014, linked to canonical Tablet 20 (equids)
+canonical_tablet: Tablet 20 (equid/mare, ANSE.KUR.RA)
+counting: line
+source_note: Clean ATF from eBL (ebl.lmu.de). Middle Babylonian Nippur witness. Brackets=restoration, #=damaged, x=illegible.
+---
+
+1'. BAD {munus}ANŠE.KUR.RA# 1 [U₃.TU-ma ...]
+2'. BAD {munus}ANŠE.KUR.RA 1 U₃#.[TU-ma ...]
+3'. BAD {munus}ANŠE.KUR.RA 1 U₃.T[U-ma ...]
+4'. ($___$) ti-bu-ut bi-ib-bi x [...]
+5'. BAD {munus}ANŠE.KUR.RA 1 U₃.TU-ma [...]
+6'. {( {d}+en-lil₂! )} KUR DU₃.A.BI a+na LUGAL URI{ki} ZI.GA-ma x [...]
+7'. BAD {munus}ANŠE.KUR.RA U₃.TU-ma 2# x [...]
+8'. ($___$) ERIN₂ LUGAL DU₃.A.BI i+na {giš}TUKUL x [...]
+9'. BAD {munus}ANŠE.KUR.RA U₃#.[TU-ma ...]
+10'. BAD {munus}ANŠE.KUR.RA U₃#.[TU-ma ...]
+11'. ($___$) KUR₂ ZI-MA mi-šil KUR x x x [...]
+12'. ($___$) {d}+en-lil₂ a-na [x x] x x x x [...]
+13'. BAD {munus}ANŠE.KUR.RA U₃#.TU#-ma# x x x x x x x [...]
+14'. BAD {munus#}AN[ŠE.KUR.RA] U₃#.TU#-ma# 2?# KUN?#-MEŠ?#-šu?# x x x [...]
+15'. [BAD {munus}ANŠE.KUR.RA] U₃.TU-ma 2# KUN#-MEŠ#-šu 1 IGI#/GEŠTU#-šu 1 x x [...]
+16'. [BAD {munus}ANŠE.KUR.RA 1] U₃#.TU#-ma GIR₃-MEŠ-šu IGI-MEŠ#-šu# NU GAL₂-ME# x x x [...]
+17'. [BAD {munus}ANŠE.KUR.RA 1] U₃?#.TU?#-ma GIR₃-MEŠ-šu pu-us-su#-la# KUN?#-su?# x GAR x x [...]
+18'. [BAD {munus}ANŠE.KUR.RA 1 U₃].TU#-ma KUN-su BABBAR SAG.DU-su GE₆# GIR₃-šu ku-u₂-[ru ...]
+19'. [...] IZI [a#-na E₂.GAL₂ ...]
+20'. [BAD {munus}ANŠE.KUR.RA DIŠ U₃.TU-ma ...] x x x [G]IR₃-šu ku-u₂-r[u ...]
+21'. [BAD {munus}ANŠE.KUR.RA DIŠ U₃.TU-ma ...] x-MEŠ-šu# [...]

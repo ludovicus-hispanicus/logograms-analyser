@@ -1,0 +1,39 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: LKU 77 (Schmidtchen 2021 Tafel 4, ms G)
+recension: canonical Sakikkû Tablet 4, manuscript G (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 4
+source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript G rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+---
+
+@text
+38. DIŠ ina SAG.[KI-šú ...]
+39. DIŠ ina SAG.[KI-šú ...]
+40. DIŠ ina SAG.[KI-šú ...]
+41. DIŠ ina SAG.[KI-šú ...]
+42. DIŠ ina SAG.[KI-šú ...]
+43. DIŠ ina SAG.[KI-šú ...]
+44. DIŠ ina SAG.[KI-šú ...]
+45. DIŠ ina SAG.[KI-šú ...]
+46. DIŠ ina SAG.[KI-šú ...]
+47. DIŠ ina SAG.KI-šú [...]
+48. DIŠ ina SAG.KI-šú [...]
+49. DIŠ ina [S]AG.KI.II-šú [...]
+50. DIŠ SAG.KI.II-šú [...]
+51. DIŠ SAG.KI.II-šú [...]
+52. DIŠ [SA]G.KI-šú [...]
+53. DIŠ] [SA]G.KI.II-šú [...]
+55. DIŠ SAG.KI.II-šú [...]
+56. DIŠ SAG.KI.II-šú GEŠ[TU ...]
+57. DIŠ SAG.KI.II-šú MURUB₄.M[EŠ-šú GU₇.MEŠ-šú A]D₆-šú KÚM [...]
+58. DIŠ SAG.KI.II-šú GU₇.MEŠ-šú u S[E]D.MEŠ [...]
+59. DIŠ SAG.KI.II-šú MURUB₄.MEŠ-šú GU₇.MEŠ-šú-ma S[ED ...]
+60. DIŠ SAG.KI.II-šú ki-ma GEŠTU.II-šú S[E]D.MEŠ [...]
+61. DIŠ SAG.KI.II-šú TÉŠ.BI DU.MEŠ u I[R-su ...]
+62. DIŠ SAG.KI.II-šú ki-lat-tan DIŠ-niš [...]
+63. DIŠ SAG.KI.II-šú ⸤m⸥[a-aq-ta₅ ...]
+64. [DIŠ ina] SAG.K[I ...]
+65. [DIŠ ina S]⸤AG⸥.[KI ...]

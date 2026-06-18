@@ -1,0 +1,50 @@
+---
+genre: izbu omens
+period: Neo-Assyrian
+provenance: Kuyunjik
+publication: eBL fragment K.2242; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Tablet 1 (human births; ms F)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@obverse
+1'. [...] me₂-hu-u₂ i-b[a-ʾu-uš?]
+2'. [...]
+3'. [...] AL.[BIR]
+4'. [...] BIR-ma ana KI-ša₂ NU GUR
+5'. [... NAM.LU₂.U₁₈].LU ina ŠA₃-šu₂ GAR KI.MIN
+6'. [...] DINGIR#-MEŠ ta-lit-tu₄ i-pe₂-tu-u₂
+7'. [...] x# x#-ma URU# ERIN₂-šu₂# LUGAL# u# IDIM-MEŠ-šu₂ KUR-ad
+8'. [... KUR i-be]-el
+9'. [... TIL]-ti
+10'. [...] x
+11'. [...] UŠ₂?
+12'. [... B]IR?
+13'. [... Z]AH₂
+14'. [...]-di
+15'. [... Z]AH₂
+16'. [... ZA]H₂
+@reverse
+1'. [...] x [...]
+2'. [BE MUNUS 2 MUNUS-MEŠ še-pa-nu-ši-na U₃.TU EN E₂ BI] BA#.U[Š₂]
+3'. [BE MUNUS 3 NITA-MEŠ U₃.TU KUR KI.KAL DAB-ma ŠA₃.HUL IGI EN E₂] BA.U[Š₂]
+4'. [BE MUNUS 3 NITA-MEŠ U₃.TU-ma TI-ME KUR BI ŠUB-ma ŠA₃].HUL# IGI
+5'. [BE MUNUS 3 NITA-MEŠ U₃.TU-ma UŠ₂-ME KUR BI] DAGAL-eš#
+6'. [BE MUNUS 3 NITA-MEŠ U₃.TU-ma ŠA₃-šu₂-nu 1-ma KUR BI] ŠUB-di
+7'. [BE MUNUS 3 U₃.TU-ma 2 NITA-MEŠ 1 MUNUS SUH₃ UGU KUR ŠUB-ma KUR NU ŠE.ŠE.GA U₂.GU]G!? GAL₂-ši-ma UN-MEŠ DUMU-MEŠ-ši-na ana KU₃.BABBAR BUR₂-MEŠ
+8'. [BE MUNUS 3 U₃.TU-ma 2 MUNUS-MEŠ 1 NITA DINGIR SUH₃ UGU KUR KUR₂ ŠUB-ma KUR LUGAL ŠA₃-BI DUG₃.GA] SUHUŠ KUR GI.NA
+9'. [... KUR SU.GU₇ DAB-m]a in-neš-ši
+10'. [... ZI-ME-n]im-ma ina KUR KUR₂ ŠE.ŠE.GA
+11'. [... KUR₂ ZI-ma] KUR un-na-aš
+12'. [... EN E₂] BA.UŠ₂
+13'. [... KUR] BI DAGAL LU[GAL] a#-ia#-bi#-šu# ŠU#-MIN#-šu# [KUR]-ad
+14'. [... Š]A₃-ši-na 1-ma KUR KI.TUŠ ne-eh-tu₂ TUŠ-ab
+15'. [... NIG₂.HA].LAM.MA ina KUR GAL₂ : GAR-an#
+16'. [...] KUR₂ URU NIGIN-ma DAB-bat : SIG-u₂ GAZ
+17'. [...] URU NIGIN-ma NU DAB-bat IDIM KUR₂ GAZ : LUGAL UŠ₂ : KUR₂ MAN TI
+18'. [...] KI.KAL KUR DAB-bat E₂ NA BIR
+19'. [...] dan-nu GAL₂-ma KUR NUN ZAH₂
+20'. [...] x x x 4 U₃.TU KUR uš-tal-pat
+21'. [...] x KUR₂ GAL₂
+22'. [... I]GI-mar

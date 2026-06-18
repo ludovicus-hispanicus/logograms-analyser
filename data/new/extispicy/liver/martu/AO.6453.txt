@@ -1,0 +1,176 @@
+---
+genre: extispicy omens
+period: Late Babylonian
+provenance: Uruk
+tradition: Babylonian
+counting: BE
+publication: AO 6453 (eBL); Bārûtu ch. 6 Martu (gall-bladder)
+note: Hellenistic/Seleucid martu (gall-bladder) tablet, 82 omens; eBL score apparatus dropped; 15/2.30(=150) normalized to ZAG/GUB₃
+---
+
+@obverse
+1. BE U₅ TA SIG ZE₂ ša₂ ZAG uš-tam-ḫi-ṣa-am-ma SAG ZE₂ ša₂ ZAG iṣ-bat LUGAL ŠU KUR-ad₂
+#tr.en: If a rikbu is detached from the neck of the gall bladder on the right and reaches the top of the gall bladder on the right: the king will be victorious.
+2. BE U₅ TA SIG ZE₂ ša₂ GUB₃ uš-tam-ḫi-ṣa-am-ma SAG ZE₂ ša₂ GUB₃ iṣ-bat LUGAL ša₂ KUR KUR₂ ŠU KUR-ad₂
+#tr.en: If a rikbu is detached from the neck of the gall bladder on the left and reaches the top of the gall bladder on the left: the king of an enemy's land will be victorious.
+3. BE U₅ TA SIG ZE₂ ša₂ ZAG uš-tam-ḫi-ṣa-am-ma MURU₂ ZE₂ ša₂ ZAG iṣ-bat sa-di-di-ia KUR₂ GAZ-ak
+#tr.en: If a rikbu is detached from the neck of the gall bladder on the right and reaches the middle of the gall bladder to the right: the enemy will eliminate my raiding party.
+4. BE U₅ TA SIG ZE₂ ša₂ GUB₃ uš-tam-ḫi-ṣa-am-ma MURU₂ ZE₂ ša₂ ZAG iṣ-bat sa-di-di KUR₂ a-dak
+#tr.en: If a rikbu is detached from the neck of the gall bladder on the left and reaches the middle of the gall bladder to the left: I will eliminate the enemy’s raiding party.
+5. BE U₅ TA NIG₂.TAB ša₂ ZAG uš-tam-ḫi-ṣa-am-ma ina SAG ZE₂ ša₂ ZAG ka-nik₂ KEŠ₂ E₂.GAL NUN KUR₂ TI-qe₂
+#tr.en: If a rikbu is detached from the Crucible on the right and imprinted on the top of the gall bladder to the right: the enemy will take the contracts of the prince's palace.
+6. BE U₅ TA NIG₂.TAB ša₂ GUB₃ uš-tam-ḫi-ṣa-am-ma ina SAG ZE₂ ša₂ GUB₃ ka-nik₂ KEŠ₂ E₂.GAL KUR₂ NUN TI-qe₂
+#tr.en: If a rikbu is detached from the Crucible on the left and imprinted on the top of the gall bladder to the left: the prince will take the contracts of the enemy's palace.
+7. BE ina SIG ZE₂ U₅ GIM eriš-tu₄ eriš-tu₄ KU₃.BABBAR
+#tr.en: If (there) is a rikbu like a request on the neck of the gall bladder: a request for silver.
+8. BE ina ZAG ZE₂ U₅ kub-bu-tu ŠUB-di DUMU šip-ri-ka ana KUR KUR₂ DU-ak
+#tr.en: If a very heavy rikbu is located to the right of the gall bladder: your messenger will go to the enemy's land.
+9. BE ina GUB₃ ZE₂ U₅ kub-bu-tu ŠUB-di DUMU šip-ri ša₂ KUR KUR₂ TU₄-ba
+#tr.en: If a very heavy rikbu is located to the left of the gall bladder: a messenger from the enemy's land will enter here.
+10. BE ina ZAG ZE₂ U₅ nu-ur₂-ru-bu ZE₂ TA SIG-ša₂ EN SAG-ša₂ iṣ-bat BA₃-ut MAN-GI man-gi ERIN₂-ni DAB-bat
+#tr.en: If a very soft rikbu on the right of the gall bladder reaches the gall bladder from its neck as far as its top: omen of Sargon; mangu-disease will seize my army.
+11. BE ina ZAG ZE₂ ši-ši-tu₄ a-rim SUḪ₃ a-na ERIN₂-ni ŠUB-ut
+#tr.en: If the gall bladder is covered with a membrane on the right: chaos will befall my army.
+12. BE ina GUB₃ ZE₂ ši-ši-tu₄ a-rim SUḪ₃ a-na ERIN₂-ni KUR₂ ŠUB-ut
+#tr.en: If the gall bladder is covered with a membrane on the left: chaos will befall the enemy's army.
+13. BE ZE₂ ši-ši-tu₄ ar-mat SUḪ₃ TEŠ₂.BI UGU LU₂ ŠUB-ut
+#tr.en: If the gall bladder is covered with a membrane: chaos will completely befall the man.
+14. BE ZE₂ TA ZAG ana GUB₃ dak-šat-ma di-ki-is-sa uš-šur EN MUNUS.ḪUL-ka ša₂ ZI-ka!(KU) ŠU-ka KUR-ad₂
+#tr.en: If the gall bladder is swollen from the right to the left and its swelling is hanging down: you will defeat your adversary who attacked you.
+15. BE ZE₂ TA GUB₃ ana ZAG dak-šat-ma di-ki-is-sa uš-šur ZI-ib ana NUN ip-pa-qid
+#tr.en: If the gall bladder is swollen from the left to the right and its swelling is hanging down: an attack will be entrusted to the prince.
+16. BE ZE₂ TA ZAG ana GUB₃ dak-šat-ma di-ki-is-sa LA₂-mi ERIN₂-ka ŠA₃.SI₃.SI₃.KI-šu₂ NU KUR-ad₂
+#tr.en: If the gall bladder is swollen from the right to the left and its swelling is bound: your army will not achieve its aims.
+17. BE ZE₂ TA GUB₃ ana ZAG dak-šat-ma di-ki-is-sa LA₂{+mi} ERIN₂ KUR₂ ŠA₃.SI₃.SI₃.KI-šu₂ NU KUR-ad₂
+#tr.en: If the gall bladder is swollen from the left to the right and its swelling is bound: the enemy's army will not achieve its aims.
+18. BE ZE₂ TA ZAG ana GUB₃ dak-šat-ma SAG di-ik-ši-šu₂ GU ṣa-bit SAG.ZI-ka KUR₂ LA₂-mu
+#tr.en: If the gall bladder is swollen from the right to the left and a filament holds fast the top of its swelling: the enemy will capture your leader.
+19. BE ZE₂ TA GUB₃ ana ZAG dak-šat-ma SAG di-ik-ši-šu₂ GU ṣa-bit SAG.ZI KUR₂ LA₂-mu
+#tr.en: If the gall bladder is swollen from the left to the right and a filament holds fast the top of its swelling: you will capture your enemy's leader.
+20. BE ZE₂ TA ZAG ana GUB₃ dak-šat-ma di-ki#-is-sa SIG-ša₂ IGI EN MUNUS.ḪUL-ka ša ZI-ka ŠU-ka KUR-ad₂
+#tr.en: If the gall bladder is swollen from the left to the right and its swelling faces its neck: you will defeat your adversary who attacked you.
+21. BE ZE₂ ina SIG-ša₂# AN.TA dak-šat {lu₂}ḪAL MU MUNUS.SIG₅ TI{+qe₂}
+#tr.en: If the gall bladder is swollen upwards from its neck: the diviner will gain a good reputation.
+22. BE ZE₂ ina MURU₂#-ša₂ AN.TA dak-šat ša₂ NUN UGU GAL-MEŠ INIM-MEŠ-šu₂ GIG-MEŠ-ṣa
+#tr.en: If the gall bladder is swollen upwards from its middle: the prince's words will displease the noblemen.
+23. BE ZE₂ ina SAG#-ša₂ AN.TA dak-šat MU SAG NUN
+#tr.en: If the gall bladder is swollen upwards from its top: a pre-eminent reputation for the prince.
+24. BE ZE₂ ina SIG#-ša₂ KI.TA dak-šat {lu₂}ḪAL KISLAḪ₃ DAB-bat
+#tr.en: If the gall bladder is swollen downwards from its neck: distress will afflict the diviner.
+25. BE ZE₂ ina MURU₂-ša₂ KI.TA dak-šat ERIN₂-ka# KISLAḪ₃ DAB-bat
+#tr.en: If the gall bladder is swollen downwards from its middle: distress will afflict your army.
+26. BE ZE₂ ina SAG-ša₂# KI.TA dak-šat NUN# KISLAḪ₃ DAB-bat
+#tr.en: If the gall bladder is swollen downwards from its top: distress will afflict the prince.
+27. BE ZE₂ ZAG it#-ku#-šat#-ma di-ki-is-[sa] SAG#-sa₃ IGI ana NUN UZU.SU-šu₂ ana MUNUS.ḪUL ZI-šu₂
+#tr.en: If the gall bladder is pushed away to the right and its swelling faces its top: (as) for the prince, his relatives will attack him with evil (intent).
+28. BE ZE₂ GUB₃ it-k[u-šat-m]a di#-ki-is#-[sa] SAG-sa₃ IGI ana KUR₂ UZU.SU-šu₂ ana MUNUS.ḪUL ZI-šu₂
+#tr.en: If the gall bladder is pushed away to the left and its swelling (faces) its top: (as) for the enemy, his relatives will attack him with evil intent.
+29. BE ZE₂ ZAG KI.TA dak#-šat# ŠA₃.ḪUL ERIN₂-ni
+#tr.en: If the gall bladder is swollen to the right (and) downwards: sorrow for my army.
+30. BE ZE₂ GUB₃ KI.TA dak-šat ŠA₃.ḪUL ERIN₂ KUR₂
+#tr.en: If the gall bladder is swollen to the left (and) downwards: sorrow for the enemy's army.
+31. BE ZE₂ ZAG ina SIG-ša₂ KI.TA dak-šat ŠA₃.ḪUL ERIN₂-ni man-gu ERIN₂ DAB-bat
+#tr.en: If the gall bladder is swollen to the right (and) downwards from its neck: sorrow for my army; mangu-disease will afflict my army.
+32. BE ZE₂ GUB₃ ina SIG-ša₂ KI.TA dak-šat ŠA₃.ḪUL ERIN₂ KUR₂ man-gu ERIN₂ KUR₂ DAB-bat
+#tr.en: If the gall bladder is swollen to the left (and) downwards from its neck: sorrow for the enemy's army; mangu-disease will afflict the enemy's army.
+33. BE ina SAG ZE₂ 2 di-ik-šu₂ GAR-MEŠ-ma ša₂ GUB₃ ku-ri BURU₁₄! KUR KUR₂ GU₇#
+#tr.en: If two swellings are located on the top of the gall bladder and the left one is short: you will devour the enemy land's harvest.
+34. BE ina SAG ZE₂ 2 di-ik-šu₂ GAR-MEŠ-ma ša₂ ZAG ku-ri BURU₁₄!.GU₁₀ KUR₂ GU₇
+#tr.en: If two swellings are located on the top of the gall bladder and the right one is short: the enemy will devour my harvest.
+35. BE ZE₂ ZAG u GUB₃ it-ku-šat GABA.UŠ
+#tr.en: If the gall bladder is pushed away to the right and to the left: ambiguous omen.
+36. BE ZE₂ ZAG u GUB₃ it-ku-šat-ma di-ik-šu-šu₂ SIG-ša₂ IGI GABA.UŠ ina U₄ SU₃ GU₃-mu
+#tr.en: If the gall bladder is pushed away to the right and to the left and its swellings face its neck: ambiguous omen; clamour on a distant day.
+37. BE ZE₂ ZAG it-ku-šat-ma di-ki-is-sa SAG-sa₃ KUR-ud ZI-ut ERIN₂.GU₁₀ ana KUR KUR₂
+#tr.en: If the gall bladder is pushed away to the right and its swelling reaches its top: attack of my army on the enemy's land.
+38. BE ZE₂ GUB₃ it-ku-šat-ma di-ki-is-sa SAG-sa₃ KUR-ud ZI-ut ERIN₂ KUR₂ ana KUR.GU₁₀
+#tr.en: If the gall bladder is pushed away to the left and its swelling reaches its top: attack of the enemy's army on my land.
+39. BE ZE₂ ZAG it-ku-šat-ma di-ki-is-sa ZE₂ ir-de ERIN₂-ka ŠA₃.SI₃.SI₃.KI-šu₂ NU KUR-ad₂
+#tr.en: If the gall bladder is pushed away to the right and its swelling runs the length of the gall bladder: your army will not achieve its aims.
+40. BE ZE₂ GUB₃ it-ku-šat-ma di-ki-is-sa ZE₂ ir-de ERIN₂ KUR₂ ŠA₃.SI₃.SI₃.KI-šu₂ NU KUR-ad₂
+#tr.en: If the gall bladder is pushed away to the left and its swelling runs the length the gall bladder: the enemy's army will not achieve its aims.
+41. BE ZE₂ ZAG it-ku-šat-ma di-ki-is-sa ku-ri ERIN₂-ka ŠA₃.SI₃.SI₃.KI-šu₂ NU KUR-ad₂
+#tr.en: If the gall bladder is pushed away to the right and its swelling is short: your army will not achieve its aims.
+42. BE ZE₂ GUB₃ it-ku-šat-ma di-ki-is-sa ku-ri ERIN₂ KUR₂ ŠA₃.SI₃.SI₃.KI-šu₂ NU KUR-ad₂
+#tr.en: If the gall bladder is pushed away to the left and its swelling is short: the enemy's army will not achieve its aims.
+43. BE ZE₂ zi-iq-tu₄ SA₅-at ZI-ib ḫup₂-ši ana NUN
+#tr.en: If the gall bladder is covered in pimples: attack of the rabble against the prince.
+44. BE ZE₂ di-ik-ši SA₅-at me-ḫu-u₂ ina KUR GAL₂-ši
+#tr.en: If the gall bladder is covered in swellings: there will be a storm wind in the land.
+45. BE ZE₂ di-ik-ši SA₅-at-ma di-ik-šu-ša₂!(DIŠ) ṣar-pu ina KASKAL-MIN-MEŠ LUGAL KUR KUR₂ u₂-šam-qat
+#tr.en: If the gall bladder is covered in swellings and its swellings are reddened: the king's campaign-troops will defeat the enemy's land.
+46. BE ZE₂ di-ik-ši SA₅-at-ma di#-ik-šu-ša₂ GE₆-MEŠ ŠUB-ti SAG.KAL.GU₁₀
+#tr.en: If the gall bladder is full of swellings and its swellings are black: downfall of my leader.
+47. BE ZE₂ TA ZAG ana GUB₃ it-ku-šat# ŠUB-ti ERIN₂-ni
+#tr.en: If the gall bladder is pushed away from the right to the left: downfall of the army.
+48. BE ZE₂ TA GUB₃ ana ZAG it-ku-šat ŠUB-ti ERIN₂ KUR₂
+#tr.en: If the gall bladder is pushed away from the left to the right: downfall of the enemy's army.
+49. BE SAG ZE₂ di-ḫu a-li[t] ERIN₂-ni ḪA.LA GU₇
+#tr.en: If the top of the gall bladder has absorbed a dīhu-mark: my army will enjoy a profit.
+50. BE di-ḫu SAG ZE₂ a-li[t] KUR₂ ina ŠA₃ KUR NAM.RA E₃
+#tr.en: If a dīhu-mark has absorbed the top of the gall bladder: the enemy will bring out booty from the interior of the land.
+51. BE di-ḫu SAG ZE₂ a-lit-ma ru-uš-šuk NUN ina E₂.GAL-šu₂ ḪI.GAR-MEŠ-šu₂
+#tr.en: If a dīhu-mark has absorbed the top of the gall bladder and it is dried out: they will revolt against the prince in his palace.
+52. BE ZE₂ di-ḫu ul-lu-lat ŠEG₃! ina KUR GAL₂-ši
+#tr.en: If the gall bladder is hung about with dīhu-marks: there will be rain in the land.
+53. BE KI.MIN-ma di-ḫu-SIG-ša₂ ina GU rak-su ši-bu ERIN₂-ni DAB-bat
+#tr.en: If ditto (the gall bladder is hung about with dīhu-marks) and its dīhu-marks are fastened onto a filament: šibbu-disease will afflict my army.
+54. BE KI.MIN-ma A-MEŠ la₃ E₃-MEŠ U₄ ŠU₂-ma AN-u₂ NU SUR-nun
+#tr.en: If ditto (the gall bladder is hung about with dīhu-marks) and water does not come out (of them): the day will set and rain will not fall.
+55. BE ina SAG ZE₂ di-ḫu ŠUB-ma nu-ur₂-ru-bu ša₂-mut ina SAG ITI ṭa-ḫu-ut-tu₄ SUR-nun
+#tr.en: If dīhu-marks are located at the top of the gall bladder and they are very soft: it will rain plentiful rain at the start of the month.
+@reverse
+1. BE ina MURU₂ ZE₂ di-ḫu ŠUB-ma nu-ur₂-ru-bu ša₂-mut U₄.17.KAM SUR-nun
+#tr.en: If dīhu-marks are located on the middle of the gall bladder and are very soft: it will rain on the 17th day (of the month).
+2. BE ina SIG ZE₂ di-ḫu ŠUB-ma nu-ur₂-ru-bu ša₂-mut U₄.NA₂.AM₃ SUR-nun
+#tr.en: If dīhu-marks are located on the neck of the gall bladder and are very soft: it will rain on the day of the moon's disappearance.
+3. BE AN.TA ZE₂ di-ḫu ŠUB-di GU₃-mu {d}IŠKUR KUR i-ta-nam-dar
+#tr.en: If a dīhu-mark is located above the gall bladder: roar of Adad; the land will go on the rampage.
+4. BE ina ZAG ZE₂ di-ḫu ŠUB-di GU₃-mu KUR₂ KUR i-ta-nam-dar
+#tr.en: If a dīhu-mark is located on the right of the gall bladder: roar of the enemy; the land will go on the rampage.
+5. BE ina GUB₃ ZE₂ di-ḫu ŠUB-di GU₃-mu ERIN₂.GU₁₀ KUR i-ta-nam-dar
+#tr.en: If a dīhu-mark is located on the left of the gall bladder: roar of my army; the land will go on the rampage.
+6. BE ina ZAG ZE₂ di-ḫu ŠUB-di-ma SA₅ ER₂ ana KUR NUN KU₄-ub
+#tr.en: If a dīhu-mark is located on the right of the gall bladder and it is red: mourning will enter the prince's land.
+7. BE ina GUB₃ ZE₂ di-ḫu ŠUB-di-ma SA₅ ER₂ ana KUR KUR₂ KU₄-ub
+#tr.en: If a dīhu-mark is located on the left of the gall bladder and it is red: mourning will enter the enemy's land.
+8. BE ina ZAG ZE₂ di-ḫu ŠUB-di-ma ru-uš-šuk ERIN₂-ka KISLAḪ₃ DAB-bat
+#tr.en: If a dīhu-mark is located on the right of the gall bladder and it is dried out: distress will grip your army.
+9. BE ina GUB₃ ZE₂ di-ḫu ŠUB{+di}-ma ru-uš-šuk ERIN₂ KUR₂ KISLAḪ₃ DAB-bat
+#tr.en: If a dīhu-mark is located on the left of the gall bladder and it is dried out: distress will afflict the enemy's army.
+10. BE ina ZAG ZE₂ di-ḫu ŠUB-di-ma nu-ur₂-ru-bu DU₁₀-ub ŠA₃-bi
+#tr.en: If a dīhu-mark is located on the right of the gall bladder and it is very soft: contentment.
+11. BE ina ZAG ZE₂ di-ḫu ŠUB-di-ma du-un-nu-un ŠA₃.ḪUL
+#tr.en: If a dīhu-mark is located on the right of the gall bladder and it is very hard: sorrow.
+12. BE ina ZAG ZE₂ di-ḫu ŠUB-di-ma A-MEŠ ZE₂ ana di-ḫi A-MEŠ di-ḫi ana ZE₂ uš-ta-na-ad-da-nu ILLU u AN-u₂ IGI.IGI-lu₄
+#tr.en: If a dīhu-mark is located on the right of the gall bladder and liquid of the gall bladder has intermingled with the dīhu-mark, the liquid of the dīhu-mark has intermingled with the gall bladder: flood and rain will equal each other.
+13. BE ina SUR ZE₂ di-ḫu ŠUB-di ša₂-mut U₄.5.KAM SUR-nun
+#tr.en: If a dīhu-mark is located on the cystic duct of the gall bladder: rain will rain on the 5th day (of the month).
+14. BE UGU-nu ZE₂ di-ḫu ŠUB-di-ma di-ḫu UGU di-ḫu ERIN₂-ka ṣa-mi-ti {d}IŠKUR A-MEŠ AN-ti NAG-ši
+#tr.en: If a dīhu-mark is located above the gall bladder and (there is) a(nother) dīhu-mark above the dīhu-mark: Adad will give rain water to your thirsty army to drink.
+15. BE UGU-nu ZE₂ UZU GIM ši-kin di-ḫu ZI-iḫ NUN ina E₂.GAL-šu₂ ḪI.GAR-MEŠ-šu₂
+#tr.en: If flesh in the form of a dīhu-mark is torn out above the gall bladder: they will revolt against the prince in his palace.
+16. BE ina ZAG ZE₂ di-ḫu ŠUB-di-ma ina ŠA₃-šu₂ ZALAG₂ GIM a-a-ar₂-tu₄ ŠUB-MEŠ NA₄ SUR-nun
+#tr.en: If a dīhu-mark is located above the gall bladder and bright spot is located inside it like white coral: it will rain hailstones.
+17. BE ina ZAG ZE₂ di-ḫu ina ŠA₃ di-ḫu ra-a-du SUR-nun
+#tr.en: If (there is) a dīhu-mark inside a dīhu-mark on the right of the gall bladder: a rainstorm will rain.
+18. BE ina SUR ZE₂ di-ḫu ŠUB-di-ma A-MEŠ-šu₂ SUM-MEŠ KUR₂-ka ina ŠA₃ gam-ri KI-ka i-ta-mi
+#tr.en: If a dīhu-mark is located in the cystic duct of the gall bladder and its liquid intermingles: your enemy will speak with you whole-heartedly.
+19. BE ZE₂ ana di-ḫu GUR-ar₂ E₂ LU₂ BIR-aḫ
+#tr.en: If the gall bladder has turned into a dīhu-mark: the man's household will be scattered.
+20. BE ZE₂ GIM di-ḫu pu-uḫ-ḫu!(RI)-rat NUN ina {giš}TUKUL GUR-MEŠ-šum-ma GAZ-MEŠ-šu₂
+#tr.en: If the gall bladder is configured like a dīhu-mark: they will turn against the prince with weapons and kill him.
+21. BE ZE₂ nu-uḫ-ḫu-ta-at-ma ina ŠA₃-šu₂ di-ḫu ŠUB-ma nu-ur₂-ru-bu ERIN₂-ka ṣa-mi-ti {d}IŠKUR A-MEŠ AN-ti NAG-ši
+#tr.en: If the gall bladder is cut off and dīhu-marks are located on it and are very soft: Adad will give rain water to your thirsty army to drink.
+22. BE AN.TA ZE₂ di-ḫu nu-ur₂-ru-bu ŠUB-di ša₂-mut ina SAG ITI ṭa-ḫu-ut-tu₄# SUR#-nun
+#tr.en: If a very soft dīhu-mark is located above the gall bladder: it will rain plentiful rain at the start of the month.
+23. BE KI.TA ZE₂ di-ḫu nu-ur₂-ru-bu ŠUB-di ša₂-mut U₄.5.KAM SUR-nun#
+#tr.en: If a very soft dīhu-mark is located beneath the gall bladder: rain will rain on the 5th day (of the month).
+24. BE KI.TA ZE₂ di-ḫu ŠUB-di-ma SAG ZE₂ UGU-šu₂ ŠUB-di ILLU DU#-kam₂# ša₂#-niš# DU₁₀-ub ŠA₃-bi
+#tr.en: If a dīhu-mark is located beneath the gall bladder and the top of the gall bladder is located above it: flood will come; alternatively, contentment.
+25. BE ina ŠA₃ ZE₂ di-ḫu ŠUB-di LUGAL ARAD-MEŠ-šu₂ KAN₅#-MEŠ-šu₂
+#tr.en: If a dīhu-mark is located inside the gall bladder: (as for) the king - his slaves will frighten him.
+26. BE ina ID₂ TUN₃ di-ḫu ŠUB-di ILLU# ina IDIM TE-am
+#tr.en: If a dīhu-mark is located on the bile duct: flood will approach the underground waters.
+28. BE GU TA# ZAG ZE₂ ZI-ma SAG ZE₂ ša₂ ZAG iṣ-bat LUGAL ŠU KUR-ad₂
+#tr.en: “If a filament rises from the right of the gall bladder and reaches the top of the gall bladder: the king will be victorious.”

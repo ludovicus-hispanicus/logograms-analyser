@@ -1,0 +1,114 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: šum-ma
+---
+@obverse
+@column 1
+1'. [x x x (x)] x [x x (x)]
+2'. šum-ma mar-tum ši-p[a-tim]
+#tr.en.(o i 6'): If the gall-bladder is full of wool: one with access to the palace will wear šaḫḫûm-linen but will conceal (it).
+3'. ma-li-a-[at]
+4'. e-ri-ib E₂.GAL-li-[im]
+5'. ša-ah-ha-am la-bi-iš-m[a]
+6'. u₂-ka-ta-am
+7'. šum-ma i-na li-ib-bi mar-tim
+#tr.en.(o i 11'): If inside the gall-bladder a white spot keeps rolling around: by the will of his god the man will go around in good fortune.
+8'. pu-ṣu₂-um i-ta-na-ag-ra#-ar#
+9'. a-wi-lum i-na li-ib-bi i₃-li₂#-šu#
+10'. i-na dum-qi₂-im
+11'. it-ta-na-ag-ra-ar
+12'. šum-ma mar-tum li-ib-ba#-ša#
+#tr.en.(o i 15'): If the gall-bladder's inside is full of blood: mistakes by the diviner, downfall of the army.
+13'. da-ma-am ma-li#
+14'. ni-ip-ha-at MAŠ₂.ŠU.GID₂.G[ID₂]
+15'. mi-qi₂-it-ti um-ma-ni-i[m]
+16'. šum-ma mar-tum i-ši-sa₃ l[e]-t[i]
+#tr.en.(o i 18'): If the gall-bladder's base is split: Šūlum (the cough-demon) will attack the people.
+17'. šu-lum a-na ma-t[im]
+18'. i-te-be₂-a-a[m]
+$ single ruling
+19'. šum-ma mar-tum hu-ru-ra-at
+#tr.en.(o i 20'): If the gall-bladder is puckered up: there will be cold weather.
+20'. ku-uṣ-<ṣu₂>-um i-ba-aš-ši
+$ single ruling
+21'. šum-ma mar-tum / ka-ar-ṭa-at
+#tr.en.(o i 23'): If the gall-bladder is speckled: misery, losses and sickness.
+22'. lu-mu-un li-ib-bi-im
+23'. i-bi-su₂-um u₃ mu-ur-ṣum
+$ single ruling
+24'. šum-ma mar-tum / na-as-ha-at-ma
+#tr.en.(o ii 2): If the gall-bladder is loose and [rolls around: the sign is indecisive.]
+
+@column 2
+1. [i-ta-na-ag-ra-ar]
+2. [{giš}TUKUL mi-it-ha-ar]
+3. [šum-ma mar-tum KIR₄-ša]
+#tr.en.(o ii 5): [If the gall-bladder's tip is smeared with blood: the chief minister will be wounded.]
+4. [da-ma-am la-pi-it]
+5. [SUKKAL.MAH im-ma-ha-aṣ]
+6. [šum-ma mar-tum qa₂-ab-la-ša]
+#tr.en.(o ii 8): [If the gall-bladder's flanks are smeared with blood: the diviner will be wounded.]
+7. [da-ma-am la-ap-ta]
+8. [MAŠ₂.ŠU.GID₂.GID₂ im-ma-ha-aṣ]
+9. [šum-ma mar-tum ša-pa-as-sa₃]
+#tr.en.(o ii 11): [If the gall-bladder's “lip” is smeared] with [blood:] the [cup-bearer will be wounded.]
+10. d[a-ma-am la-pi-it]
+11. Z[ABAR.DAB₅ im-ma-ha-aṣ]
+12. š[um-ma mar-tum ta-a-a-ra-tim]
+#tr.en.(o ii 13): If [the gall-bladder has reconciliation marks: it is lucky for the king.]
+13. [i-šu-u₂ a-na LUGAL da-mi-iq]
+$ single ruling
+14. [šum-ma mar-tum qa₂-ab-la-ša]
+#tr.en.(o ii 16): [If the gall-bladder's flanks come close(to each other): on the field (of battle) the king will] escape [from danger.]
+15. [iṭ-ha-a i-na ṣe-ri-im]
+16. [i-na da-na-tim LUGAL uṣ-ṣ]i
+17. [šum-ma mar-tum qa₂-ab-la]-ša!#
+#tr.en.(o ii 19): [If the gall-bladder's flanks are in contact (with each other): the king's] eunuchs [will] kill him.
+18. [ṣa-ab-ta LUGAL šu-ut] re#-[ši]-i#-šu
+19. [i-du-uk]-ku#-u₂-šu
+$ single ruling
+20. [šum-ma mar]-tum
+#tr.en.(o ii 23): [If the gall]-bladder is covered with a network of [veins: your army] will keep losing in battle.
+21. [še-er-ha-n]i u₂-du-ha-at
+22. [u]m-m[a-an-ka] i-na t[a]-ha#-zi-im
+23. [i]m-[ta-na-q]u₂-ut
+24. šum-ma mar#-tum# ṣa-al-ma-at#
+#tr.en.(o ii 25): If the gall-bladder is black: there will be hot weather.
+25. um#-šu#-um! °x\° ib-ba-aš-ši#
+$ single ruling
+26. šum#-ma mar-tum#
+#tr.en.(o ii 28): If the gall-bladder is dark on the right: many tribesmen will perish.
+27. i#-mi#-ta#-am# ta-ar-[ka]-at#
+28. [n]a-wu#-tum# im-ta-n[a-q]u₂-tu!#
+$ double ruling
+$ end of side
+
+@reverse
+@column 3
+1. šum-ma mar-tum
+#tr.en.(r iii 5): If the gall-bladder enters inside the “palace”: they will assassinate the king in the palace.
+2. a-na li-ib-bi E₂.GA[L-l]im
+3. i-te-ru-ub
+4. šar-ra-am i-na E₂.GAL-[l]im
+5. i-du-ku#-u₂
+6. šum-ma mar-tum#
+#tr.en.(r iii 9): If the gall-bladder contains a film: regarding the lamb's owner, he contains a sickness.
+7. ši-ši-ta-am u₂#-ka#-al#
+8. a-na be-li₂ im-me-ri# mu-ur-ṣa-am
+9. u₂-ka-al
+$ single ruling
+10. šum-ma mar-tum
+#tr.en.(r iii 13): If the gall-bladder's tip and base are firmly fixed but its waist is loose: counsel is confounded.
+11. ap-pa-ša u₃ i-ši-is-sa₃ ki-na-ma
+12. qa₂-ab-la-ša# na-as-ha
+13. mi-el-ku-um sa₃-pi-ih
+14. šum-ma ki-ma mar-tim
+#tr.en.(r iii 17): If instead of a gall-bladder a cyst has grown: the enemy will split the army in two.
+15. ze-eh-hu-um i-ta-ab-ši
+16. na-ak-ru um-ma-na-a-am
+17. a-na ši-na i-le-te
+$ end of preserved martu section
+#note: reverse col. iii 18 - col. iv of MS 3295 are naplastum ("eye-slit") omens, filed under liver/naplastu/MS.3295.txt

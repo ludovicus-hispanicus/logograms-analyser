@@ -1,0 +1,20 @@
+---
+genre: izbu omens
+period: Neo-Babylonian
+provenance: Sippar
+publication: eBL fragment BM.52728; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Tablet 3 (human births)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+1'. [...] E₂ LU₂# [...]
+2'. [...] x ina E₂ LU₂ IGI [...]
+3'. [...] x GAR IBILA LU₂ E₂ LU₂ [...]
+4'. [...] x GAR IBILA LU₂ E₂ LU₂ BIR [...]
+5'. [...] NU GAL₂ DINGIR-MEŠ šab-su-tu₄ ana KUR GUR-ME mim [...]
+6'. [...] ZAG NU GAL₂ GALGA KUR BIR [...]
+7'. [...] MEŠ# šab-su-tu₄ ana KUR GUR-ME mim-ma KUR DAG ne [...]
+8'. [...] x KUR UR.BI BIR [...]
+9'. [...] SA.A [...]
+10'. [...] LUGAL ŠU₂ ina KUR [...]

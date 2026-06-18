@@ -1,0 +1,46 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: BE
+publication: VAT 10914; Heeßel 2012 KAL 5 no. 29 (pp. 125-126); "forerunner" to Šumma martu Tablet 9
+note: "martu (the gall-bladder) omens; Middle Babylonian. Protases lost in the broken left edge — only the apodoses survive (hence the [...] after each BE). 1'-17' // AO 6454 (TCL 6, 4) and CT 30/39-40, the start of Šumma martu Tablet 9. 15->ZAG, 150->GUB3"
+---
+
+@obverse
+
+1. BE [...] URU ZAG-ka KUR₂ APIN-iš-ka i-na [{giš}]TUKUL li-it x [...]
+#tr.en: ...: the enemy will demand your border-city of you; for battle, defeat ...
+2. BE [...] URU ZAG-ka KUR₂ i-tab-bal i-na {giš}TUKUL KAL-an KU[R₂]
+#tr.en: ...: the enemy will carry off your border-city; in battle, superiority of the enemy.
+3. BE [...] na-me-e-ka KUR₂ KUR-a[d]
+#tr.en: ...: the enemy will conquer your pasture-lands.
+4. BE [...] LUGAL up-ša₂-še-e DU₃-šu a-na DINGIR NU SUM-in
+#tr.en: ...: the king will not present the sorcery he performed before the god.
+5. BE [...] x pa-ši-šu UGU DINGIR NU DUG₃.GA
+#tr.en: ...: a pašišu-priest is not pleasing to the god.
+6. BE [...] eriš-tu in-ner-šu NU SUM-in
+#tr.en: ...: the wish that was wished will not be granted.
+7. BE [...] URU ZAG KUR₂ APIN-iš i-na {giš}TUKUL li-ta₅ UGU ER[IN₂ KUR₂ GAR-in]
+#tr.en: ...: you will demand the enemy's border-city; in battle you will [gain] victory over the [enemy] army.
+8. BE [...] URU ZAG KUR₂ ta-GU₄.UD-iṭ
+#tr.en: ...: you will attack the enemy's border-city.
+9. BE [...] na-mi-e KUR₂ ŠU-ka KUR-ad
+#tr.en: ...: you will conquer the enemy's pasture-lands.
+10. BE [...] URU ZAG KUR₂ NIGIN-ma ta-GU₄.UD-iṭ
+#tr.en: ...: you will surround and attack the enemy's border-city.
+11. BE [...] KUR₂ te-ne₂-e-ʾe
+#tr.en: ...: you will repel the enemy.
+12. BE [...] ana ur-pa-at KUR₂ IZI ŠUB-di
+#tr.en: ...: fire will be thrown upon the enemy's encampment.
+13. BE [...] ŠUB-ti ERIN₂-ni i-na nar-pa-še ša-niš KAR-tu₄
+#tr.en: ...: fall of the army in a pursuit-battle; alternatively, devastation.
+14. BE [...] ERIN₂-ka KI DINGIR a-na GAZ APIN-et
+#tr.en: ...: your army is marked out by the god for death.
+15. BE [...] ŠUB-ti ERIN₂ KUR₂ i-na nar-pa-še ša-niš KAR-tu₄
+#tr.en: ...: fall of the enemy army in a pursuit-battle; alternatively, devastation.
+16. BE [...] ERIN₂ KUR₂ KI DINGIR a-na GAZ APIN-et
+#tr.en: ...: the enemy army is marked out by the god for death.
+17. BE [...] x DINGIR APIN-iš-ka
+#tr.en: ...: the god will demand ... of you.

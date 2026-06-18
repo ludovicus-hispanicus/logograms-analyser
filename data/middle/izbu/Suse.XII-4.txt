@@ -1,0 +1,94 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Susa (Ville Royale, level A XII; end of the sukkalmah period, late 15th/early 14th c. BCE)
+publication: MDP 57 no. 10 (Labat 1974), Suse XII/4
+colophon: 71 omens (naphar 71), hand of Ili-ma-ilu; ruling/lower edge signed Šurri-Šamaš
+canonical_parallel: Summa izbu (animal teratology; sow/piglet, cf. izbu tablets 20-23 domestic animals); only indirect contact per Labat MDP 57 p.196
+counting: DIŠ
+source_note: Transcription from MDP 57 (Labat 1974) pp.221-224 (Obv 1-43, Rev 1-35). Subject = MÍ.ŠAH (šumma šahītu, "if a sow"). Square brackets = editor's restoration; angle <> = scribal omission supplied; (?)/(!) editorial marks dropped; only the transliteration line kept.
+---
+
+@obverse
+1. DIŠ MÍ.ŠAḪ LÚ GINₓ <UDU.>NITA SÍG DIR É šu DÚR-bat-sú KÚR-ar
+2. DIŠ MÍ.ŠAḪ Ù.TU-ma UGU ŠÀ.TIR UR É šà-tu NIŠ-ni
+3. DIŠ MÍ.ŠAḪ Ù.TU-ma TUR-šà ÉŠ IGI.GIN-šà KÚR-ir 3.20 KUR NIŠ-ni
+4. DIŠ MÍ.ŠAḪ Ù.TU-ma i-zi-ir ŠÀ.TIR KUR GAL
+5. DIŠ MÍ.ŠAḪ Ù.TU-ma TUR-šà na-šà-at NU É.MEŠ
+6. i-te-ne-er-ru-ub ÉŠ ZÁḪ-aq É EN-šà-a
+7. DIŠ MÍ.ŠAḪ Ù.TU-ma kí-ri-im-ma-šà na-šà-at
+8. NU É.MEŠ i-te-ne-er-ru-ub DÍM.MA MU-šu
+9. DIŠ MÍ.ŠAḪ iš-še-gu KUR-bu MAN-tum MÍ GAM-mu
+10. DIŠ MÍ.ŠAḪ ÉŠ UGU NU GIR ÉŠ UGU SUKUD KÚR KUR DA MÍ A.KA DÍM-uš
+11. DIŠ MÍ.ŠAḪ at-nu-tú-šà IGI-šà GUB-zu ŠÀ.TIR U₄ MÍ BA.TIL
+12. DIŠ MÍ.ŠAḪ 1 Ù.TU É EN-šà i-ra-aq
+13. DIŠ MÍ.ŠAḪ 2 Ù.TU TUR É-šà MAN-tum ŠÀ.TIR
+14. DIŠ MÍ.ŠAḪ 3 Ù.TU tam-ṭi-tu KUR ḪUL-ti
+15. DIŠ MÍ.ŠAḪ NU GIR Ù.TU BAL KÚR.MEŠ ŠÀ.TIR DAM NU DAM
+16. DIŠ MÍ.ŠAḪ Ù.TU-ma SAG-sú NU Ì.GÁL ZI.GA SAG DAM NU DAM TAK₄-bu
+17. DIŠ MÍ.ŠAḪ Ù.TU-ma SAG-sú KÚR MÍ ÉŠ DAM-šà ÉŠ ḪUL-ti KUR-bi ù GAM
+18. DIŠ MÍ.ŠAḪ Ù.TU-ma SAG-sú NU šà GIR DÍM.MA MU-šu
+19. DIŠ MÍ.ŠAḪ Ù.TU-ma 2 SAG.DU-šu KUR-bu MAN-tum BAR-tum MÍ A.KA DÍM-uš
+20. DIŠ MÍ.ŠAḪ Ù.TU-ma IGI-šu TA SAG.KI-šu GAR i-gi-da-ru
+21. MU-šu KUR-ut 3.20 KIŠ-ti ŠÀ.TIR KUR BAR-aḫ
+22. DIŠ MÍ.ŠAḪ Ù.TU-ma 1 IGI-šu TA SAG-šu GAR DÍM.MA MU-šu
+23. DIŠ IGI 15-šu NU Ì.GÁL KUR ḪUL-ti NIŠ UR <ŠÀ.>TIR MÍ A.KA DÍM-uš
+24. DIŠ IGI 2.30-šu NU Ì.GÁL KUR KÚR i-ḫar-ru-ub MÍ DUGUD-it
+25. DIŠ IGI 15-šu KÚR-at KÚR KUR KUR-ad MÍ A.KA DÍM-uš
+26. DIŠ IGI 2.30-šu KÚR-at KUR KÚR KUR-ad MÍ DUGUD-it
+27. DIŠ IGI 15-šu šà NU GIR É LÚ TUR MÍ A.KA DÍM-uš
+28. DIŠ IGI 2.30-šu šà NU GIR É LÚ DAGAL.LA MÍ DUGUD-it
+29. DIŠ IGI 15-šu 2 KÚR a-da-ar-ri-is LÚ MU TUK-ší
+30. DIŠ IGI 2.30-šu 2 KÚR i-da-ar-ri-sà-an-ni LÚ BAR-tam TUK-ší
+31. DIŠ 3 IGI-šu 3.20 ELLAT.MEŠ TUK-ší
+32. DIŠ 3 IGI-šu-ma GI.NA-tum KÚR-ru KUR SAL.ḪUL-ti
+33. DIŠ 4 IGI-šu 3.20 GABA NU TUK-ší DAGAL.LA-aš KUR BAL GÍD.DA
+34. DIŠ ka-aja-nu-tu KÚR-ru KUR in-ne-eš-šu
+35. DIŠ IGI-šu NU Ì.GÁL ŠÀ.TIR NIŠ UR KUR GAL-ti
+36. DIŠ IGI-šu KÚR-ru MÍ A.KA DÍM-uš KUR ḪUL-ti TUR KUR ZI.GA SAG
+37. DIŠ IGI-šu šà la GIR KUR in-ne-eš-šu MÍ A.KA DÍM ŠÀ.TIR
+38. DIŠ GEŠTU 15-šu NU Ì.GÁL UR KUR NIŠ-ni É LÚ TUR ŠÀ.TIR
+39. DIŠ GEŠTU 2.30-šu NU Ì.GÁL UR KUR KÚR NIŠ-ni É LÚ DAGAL.LA
+40. DIŠ GEŠTU 15-šu KÚR-at UR KUR <NIŠ>-ni bar-tum Ì.GÁL
+41. DIŠ GEŠTU 2.30-šu KÚR-at UR KUR KÚR NIŠ-ni KÚR GAZ-ak
+42. DIŠ GEŠTU 15-šu šà NU GIR KUR ḪUL-ti NIŠ UR-mi
+43. DIŠ GEŠTU 2.30-šu šà NU GIR KUR SIG₅-ti UR KUR KÚR NIŠ-ni
+
+@reverse
+1. DIŠ [GEŠ]TU 15-šu 2 ELLAT i-šal-la-ṭan-ni [... ...]
+2. DIŠ [GEŠ]TU 2.30-šu 2 KÚR Á.ME-sú i-šal-la-as-sú
+3. DIŠ GEŠTU-šu NU Ì.GÁL KUR ḪUL-ti TUR KUR É LÚ BAR-aḫ
+4. DIŠ GEŠTU-šu KÚR-ra KÚR KUR ŠUB.BA ŠÀ.TIR NIŠ UR [KUR]
+5. DIŠ GEŠTU-šu šà NU GIR DÍM.MA MU-šu
+6. DIŠ LU.ÚŠ-šu NU Ì.GÁL BAR-aḫ É LÚ
+7. DIŠ LU.ÚŠ-šu KÚR-úr NIŠ UR ḪUL ŠÀ-bi
+8. DIŠ LU.ÚŠ-šu 2 KUR-bu MAN-tum KUR ḪUL MÍ A.KA DÍM-uš
+9. DIŠ LU.ÚŠ-šu šà la GIR KUR in-ne-eš-šu É LÚ BAR-aḫ
+10. DIŠ GÚ-sú GABA-sú DAGAL-šu Á.ZI-šu NU IGI šu-ḫa-ta-šu
+11. [S]A₅ Ì.GÁL lu 2 lu KÚR-kur lu NU Ì.GÁL lu šà NU GIR
+12. ŠUB É DAGAL-ti NU me-še-er-ti KUR BIR-aḫ
+13. DIŠ SUḪ-MU-šu SA₅ Ì.GÁL TA x mi NU me-še-er-ti
+14. lu 2 lu KÚR-kur lu <NU> Ì.GÁL lu šà NU GIR DÍM.MA MU-šu
+15. DIŠ 2.30-šu SA₅ Ì.GÁL TA x x mi NU me-še-er-ti
+16. lu 2 lu KÚR lu NU Ì.GÁL lu NU šà NU GIR KUR KÚR BIR-aḫ
+17. DIŠ GÌR 15-šu GÁL-šà TUR KUR NIŠ UR-mi
+18. DIŠ GÌR 2.30-šu GÁL-šà DAGAL.LA KUR UR KUR KÚR NIŠ-ni
+19. DIŠ GÌR 15-šu 2 IGI-tu NU-lu 2 EGIR 3.20 ELLAT TUK-ší
+20. DIŠ GÌR 2.30-šu 2 IGI-tu NU-lu 2 EGIR KÚR Á.ME TUK-ší
+21. DIŠ GÌR 15-šu NU Ì.GÁL KUR KUR ŠUB.BA-at
+22. DIŠ GÌR 2.30-šu NU Ì.GÁL KUR KÚR ŠUB.BA-at
+23. DIŠ GÌR 15-šu KÚR-at KÚR dáb-di KUR GAZ-ak
+24. DIŠ GÌR 2.30-šu KÚR-at KÚR dáb-di
+25. DIŠ GÌR 15-šu šà NU GIR KUR ḪUL-ti
+26. DIŠ GÌR 2.30-šu šà NU GIR KUR SIG₅-ti
+27. DIŠ GÌR-šu NU Ì.GÁL KÚR KUR KUR-ad
+28. DIŠ GÌR.MEŠ-šu KÚR-ru ŠUB ERÍN-ni-a
+29. DIŠ GÌR-šu šà la GIR KUR in-ne-eš-šu DIŠ 3 GÌR-šu
+30. DIŠ 2 GÌR-šu ŠUB.BA 1 GÌR-šu KUR TUR KUR GAL
+31. DIŠ ir-ru-šu NU Ì.GÁL NU-lu ÉŠ EDIN NU KI.TA GAR-nu NÍG KUR BAR-aḫ
+32. DIŠ 2 GÍR+ZAL-šu DUMU 2.30 GABA-ra NU TUK-šu šà EDIN
+33. DIŠ 2 GÍR+ZAL-šu-ma it-gu-ra KUR ḪUL-ti MAN-tum
+34. DIŠ qí-in-na-as-sú NU Ì.GÁL KUR KALA.SAL IGI-mar
+35. DIŠ LAGAB-uq ZÁḪ KUR-ti
+36. MU.BI NIGIN 60+11 ŠU Ì-li-ma-ilu
+37. {m}Šu-úr-ri-{d}UTU

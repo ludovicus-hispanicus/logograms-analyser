@@ -1,0 +1,38 @@
+---
+genre: extispicy omens
+period: Neo-Babylonian
+provenance: Babylonia
+tradition: Babylonian
+counting: BE
+publication: K 3786; eBL; barutu ch. 4 Padanu
+note: "Neo-Babylonian recension witness of canonical padanu (BE GIR2 series), first millennium. Tradition-Babylonian counterpart to the Neo-Assyrian Nineveh recension (K 3671). eBL 15/150 normalised to ZAG/GUB3."
+---
+
+@obverse
+1. BE šal-šu₂ GIR₂ ana ZAG PA ŠUB ERIN₂-ka ṣu₂#-mi#-ra-te-ša₂ NU KU[R-ad]
+2. BE 4-u₂ GIR₂ ana AN.TA-nu PA TUKU#-ši# x a e?# DU₃?# x x x x [x x x (x)]
+3. ($___$) ana/ša₂ AN-nu ana ZAG# [...]
+4. [B]E 5#-šu₂# GIR₂# x [x x] PA T[UKU?-ši? ...]
+5. [BE 6-šu₂ GIR₂ ZAG-šu₂ an]a AN-nu P[A TUKU-ma PA BI DAG ZAG GIR₂ IGI KAL-an KUR₂ mu-kil] SAG {munus}HUL
+6. [BE 7-u₂ GIR₂ ZAG-šu₂ an]a KI-nu PA T[UKU-ši KAL-an KUR₂ la-aʾ-bu] ERIN₂#-ni# [i-la-ʾi]-ib
+7. [BE 8-u₂ MURUB₄ GIR₂ ana] AN-nu MIN KUR₂ [ILLAT-MEŠ TUKU-ši DINGIR-MEŠ] re-ṣu-ut# ER[IN₂ KUR₂] DU-MEŠ
+8. [BE 9-u₂ MURUB₄ GIR₂ ana] KI-nu MIN NUN KIMIN BE 10-u₂# SUHUŠ# [GIR₂ ana AN.T]A-nu MIN ERIN₂-ni
+9. ($___$) in[a sar-r]i-ti-ša₂ ŠUB-ut
+10. B[E 11-u₂ SUHUŠ GI]R₂ ana KI-nu MIN ERIN₂ KUR₂ KIMIN
+#note: §§ 50-51 omitted
+11. BE G[IR₂ ana GUB₃ PA TUK]U-ši DAB-MEŠ# KUR₂ tu-maš-sar DUMU šip-ri ša₂ KUR KUR₂ ana LUGAL TE#-am
+12. BE M[AN-u₂ GIR₂ ana PA]P.HAL GUB₃# PA TUKU-ši LU₂ ina BAD₄ [D]AB-šu₂ E₃
+13. BE šal!-š[u₂ GIR₂ ana] GUB₃# PA# ŠUB-di ERIN₂ KUR₂ ṣu₂-mi-ra#-ti-ša₂ NU KUR-ad
+14. BE 4?#-u₂?# [GIR₂ GUB₃-šu₂ an]a AN-nu PA TUKU-ma PA# [BI DA]G GUB₃ IGI NUN til#-la-a-ti-š[u₂ x (x)]
+$ end of side
+
+@reverse
+1. BE 5-šu₂ GIR₂ GUB₃-šu₂ ana KI-nu MIN la-ʾ-bu ERIN₂ KUR₂ i-la-ʾ[i-ib]
+2. BE 6-šu₂ MURUB₄# GIR₂ ana AN-nu MIN DINGIR-MEŠ re-ṣu-ut ERIN₂ KUR₂ D[U-MEŠ]
+3. BE 7-u₂ MURUB₄ GIR₂ ana KI-nu MIN <(DINGIR-MEŠ re-ṣu-ut ERIN₂)> & [NUN KIMIN?]
+4. BE 8-u₂ MURUB₄ GIR₂ ana AN-nu PA TUKU-ma PA BI ZE₂ [IGI]
+5. ($___$) KAL-an LU₂ a-mi-ru-u₂-a KASKAL-ša₂ [x (x)]-ad
+6. BE# 9-u₂ SUHUŠ GIR₂ ana AN-nu PA TUKU-ši [x (x)] (x) KUR₂
+7. ($___$) [i]na sar-ri-ti-ša₂ [Š]UB-ut
+#note: not @akk{her-re-ti-ša₂}!
+$ double ruling

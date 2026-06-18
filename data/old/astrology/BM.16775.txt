@@ -1,0 +1,45 @@
+---
+genre: astrological omens
+period: Old Babylonian
+provenance: unknown
+counting: BAD
+topic: lunar eclipse
+---
+@obverse
+1. BAD AN.TA {d}EN.ZU {iti}ZIZ₂.A UD.14.KAM GAR
+2. {lu₂#}KUR₂ a-ṣi-it KA₂.GAL i-ta-ab-ba-al
+3. LUGAL it-ti ERIN₂-MEŠ-šu uṣ-ṣi₂-i-ma
+4. qa₂-tu i-ka-aš-ša-as-su wa-ar-ki LUGAL šu-a-tu
+5. ma-tu i-še-er ša-li-mu ib-ba-aš-ši
+$ single ruling
+6. BAD AN.TA {d#}EN#.ZU# {iti}ZIZ₂.A UD.15.KAM GAR.RA
+7. ma-tu ša ša-ah-lu-uq-tam ma-at#-ta# i-mu-ru
+8. da-mi-iq-tu i-ṣa-ab-ba-as-si₂
+9. LUGAL i-ma#-at# DUMU LUGAL la da-ag-lu-u₂
+10. {GIŠ}GU.ZA i-ṣa-bat E₂.GAL u₂-ul u₂-ša-al-la-am
+$ single ruling
+11. BAD AN.TA {d}EN.ZU {iti}[ZIZ₂].A UD.16.KAM GAR.RA
+12. URU LUGAL il-la-mi-ma LUGAL šu-u₂# ik#-ka-aš-ša-ad
+13. BAD₃-šu in-na#-aq#-qa₂#-ar um-ma-an-šu i-ma-qu₂-ut
+$ single ruling
+14. BAD AN.TA {D#}EN#.ZU# {iti#}ŠE.KIN.TAR UD.14.KAM
+15. UR.GI₇ in-[na]-an-da-ru-ma LU₂ i-du-uk-ku
+$ single ruling
+16. BAD AN.TA {d}EN.ZU {iti}ŠE.KIN.TAR UD.15.KAM
+17. UR.MAH in#-na#-an-da-ru-ma
+18. a-la-ak#-tam i-pa-ra-su₂
+$ single ruling
+19. BAD AN.TA {d}EN.ZU {iti}ŠE.KIN.TAR UD.16.KAM
+20. UD.18#.KAM# UD.19.KAM UD.20.KAM UD.21.KAM
+@edge
+21. ma#-tu la šu-ul-pu-ut-tu | uš-ta-al-pa-at
+@reverse
+22. BAD AN#.TA# {d}EN#.ZU {iti}DIRI.ŠE.KIN.TAR UD.14.KAM
+23. da-an-na-tu ib-ba-aš-ši-ma
+24. ni-šu še-er-ri-ši-na a-na KU₃.BABBAR i-pa-aš-ša-ra
+$ single ruling
+25. BAD AN.TA {d}E[N.ZU {iti}DIRI].ŠE#.KIN#.TAR UD.15.KAM
+26. ša-ah-lu#-[uq-ti URIM₂{KI}] x#-x#
+$ single ruling
+27. BAD AN.TA [{d}EN.ZU {iti}ŠE.K]IN.TAR UD.16.KAM GAR KUR LUGA[L URI{KI}] i#-hal-li-iq
+$ single ruling

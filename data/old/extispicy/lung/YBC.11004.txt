@@ -1,0 +1,14 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+counting: šum-ma
+topic: lung
+publication: YOS 10, 4
+feature: ubān ḫašîm šaplītum
+---
+
+@obverse
+1. šum-ma u₂-ba-an ha-ši-im ša-ap-li-tum a#-na# šu-me-lim iš-hi-iṭ-ma a#-na# ṣe-er ha-ši-im šu-me-lam a-na pa-ni-ša i-šu-u₂#
+@reverse
+2. šar-ru-um er-ṣe₂-tam la ša-tam qa₂-at-su i-ka-ša-ad u₃# šum-ma a-lam la-wi-at a-na li-bi-šu te-ru-ub

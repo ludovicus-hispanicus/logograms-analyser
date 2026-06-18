@@ -1,0 +1,32 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur (Ass 2958)
+publication: Heeßel 2007 (KAL 1) no. 17 = VAT 9793 (KAR 393, = B). Middle Assyrian; fragmentary duplicate of Nr. 16 (VAT 10167).
+counting: DIŠ
+exclude: true   # B = fragmentary duplicate of VAT 10167 (Nr.16) — kept, not double-counted
+source_note: B-lines of the Nr. 16/17 score, extracted from KAL 1; siglum stripped.
+---
+@obverse
+[ ] MIN [ ]
+[DIŠ NA ina S]ILA MIN la-it-ma ]
+[ ]
+[DIŠ NA MI]N EME.DIR U[₅ ]
+[ ]
+[DIŠ N]A MIN EME.DIR EGIR N[A ]
+[a]na UGU-šu! GU₄.UD-iṭ! [ ]
+[DIŠ N]A MIN EME.DIR ana IGI-š[ú ]
+NÍG.GA NIG[IN-ru ]
+[DI]Š NA MIN EME.DIR 7 GÚ.DA.R[I-ma ]
+DIŠ EME.DIR ina É NA TA {giš}Ù[R.MEŠ ] (Strich)
+DIŠ EME.DIR kit-pu-lu-ma ana UGU N[A ]
+DIŠ KI.MIN ŠUB.MEŠ-ma DU₈.MEŠ-ma ana [ ]
+DIŠ KI.MIN ana IGI NA ŠUB.MEŠ-ma NU [ ]
+DIŠ KI.MIN ŠUB.MEŠ-ma DU₈.MEŠ-ma [ ]
+[DIŠ] KI.MIN ana ÚR NA KU₄.MEŠ-ma [ ]
+[DIŠ KI].MIN KU₄.MEŠ-ma DU₈.MEŠ-ma [ ]
+DIŠ KI.MIN A.ḪI NA ŠUB.MEŠ-ma NU [ ]
+DIŠ KI.MIN ŠUB.MEŠ-ma DU₈.MEŠ NA BI [ ]
+DIŠ KI.MIN ana UGU GÌR NA ZAG ŠUB.MEŠ-m[a ]
+DIŠ KI.MIN [x].MEŠ-ma DU₈.MEŠ [ ]
+[DIŠ KI.MIN] UGU [ ] ŠUB.MEŠ [ ]

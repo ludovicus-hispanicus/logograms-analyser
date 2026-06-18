@@ -1,0 +1,28 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Babylon (Babylonian; from the Merkes private libraries, late Kassite period)
+publication: VAT 17259 (TCS 4, 101); De Zorzi 2014 ms D of canonical Tablet 7
+canonical_tablet: Tablet 7 (head of the izbu)
+counting: line
+source_note: Transliteration read from De Zorzi 2014 (HANE/M 15), book p.554 (ms D catalogue block). Half-brackets rendered plain; [ ] = restoration; x = illegible; four opening lines of pure traces omitted.
+---
+
+@obverse
+5. [...] kur É [...]
+6. [...] É.GAL NUN [...]
+7. [...] GAR NUN ina NU UR₅ x [...]
+8. [...] GAR GAR LUGAL [...]
+9. [...] AŠ GAR LUGAL [...]
+10. [...] SAG.DU MUŠ GAR [...]
+11. [...] SAG.DU MUŠ x [...]
+12. BE iz-bu SAG.DU [...]
+13. BE iz-bu SAG.[DU ...]
+
+@reverse
+14. [BE] iz-[bu ...]
+15. BE iz-bu [...]
+16. BE iz-bu 2 [...]
+17. BE iz-bu 2 GIŠ.KUN [...]
+18. BE iz-bu MURUB₄-šu pa-[an-qa ...]
+19. ŠU.NIGIN [...]

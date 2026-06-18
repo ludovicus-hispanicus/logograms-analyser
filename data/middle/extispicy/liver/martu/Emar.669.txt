@@ -1,0 +1,52 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Emar (western periphery)
+tradition: Western periphery
+counting: BE
+topic: martu (gall-bladder, ZÉ)
+publication: Arnaud 1987, Emar VI/4 no. 669 (Msk 731029), hepatoscopic divination, la martu; Late Bronze Age
+note: martu (gall-bladder) omens, LBA Emar. Hand-transcribed from Arnaud; his lowercase Sumerograms converted to UPPERCASE per project convention. Well-preserved obverse (40 omens) given; fragmentary animal-comparison reverse omitted. Colophon counts 62 martu omens. GAG TI = sikkat ṣēli (peg of the rib). Logograms uppercase, syllabic lowercase, {} determinatives, [] restoration, x illegible. Not in eBL.
+---
+
+@obverse
+1. BE SAG ZÉ us-su-ur ana KASKAL a-lik ana di-ni sí-ni-iq
+2. BE SAG ZÉ pár-ku ana KASKAL la ta-la-ak ana di-ni la ta-a[s-ni-iq]
+3. BE ZÉ ti-bu ana IGI-šu ti-bu dan-nu ana LÚ i-te-bi
+4. BE ZÉ ti-bu ana IG[I-š]u u ti-ba-šu ša-hi-ip ti-bu i-te-bi-ma ta-da-ak-šu
+5. [BE S]AG ZÉ ina ki-di-[i]t GÙB is-su-uk ki-si-it-ti ŠU-ia BE GIG BA.UŠ₂
+6. [BE S]AG ZÉ ina ki-di-[it] ZAG is-su-uk ki-si-it-ti ŠU LÚ.KÚR BE GIG TI.LA
+7. [...] GÙB is-su-uk ki-si-it-ti ŠU-ia
+8. [...] ZAG is-su-uk ki-si-it-ti ŠU LÚ.KÚR
+9. [...] is-su-uk ki-si-it-ti ŠU-ia
+10. [... i]s-su-uk ki-si-it-ti ŠU LÚ.KÚR
+11. [...] i-ri-ib-ma ina GAG TI ša GÙB SAG-su ir-hi-iṣ
+12. [...]-ma ina UGU ša-lam-ti-šu a-bi-it
+13. [...] i-ṣi-ip-ma ina GAG TI ša ZAG SAG-su ir-hi-iṣ
+14. [... i-]du-ka-an-ni-ma ina UGU ša-lam-ti-ia i-bi-it
+15. [...]-šu GAG TI ša GÙB GAM-ma u-ṣi KUR LÚ.KÚR dan-na-tu DIB ina dan-nu-ti u-ṣi
+16. [...]-šu GAG TI ša ZAG GAM-ma u-ṣi KUR LUGAL dan-<na>-ta DIB-ma ina dan-na-t[i]
+17. [...] lu-mu-un ŠÀ ina É LÚ I.GÁL
+18. [...] HUL ŠÀ ina É LÚ.KÚR I.GÁL
+19. [BE ZÉ ki-m]a NÍG.GUL da-na-an LÚ
+20. [BE ZÉ ki-m]a GIR.TAB GIŠ.TUKUL LUGAL.GI.NA
+21. [BE ZÉ x x] da-ki-iš LUGAL z[a]-i-r[u-šu] i-du-ku-šu
+22. [BE ZÉ x x d]a-ki-iš LUGAL za-i-r[e]-šu i-da-ak
+23. BE ZÉ ana ZAG da-ki-iš-ma u di-ki-šá ka-mi LUGAL za-i-ru-šu i-du-ku-šu
+24. BE ZÉ ana GÙB da-ki-iš-ma u di-ki-šá ka-mi LUGAL za-i-re-šu i-da-ak
+25. BE ZÉ ku-ub-b[i] GAR ni-si-it ma-li LÚ DIB
+26. BE ZÉ SI.[MEŠ] GAR LUGAL ga-mi-ru-ta₅ i-la-ak
+27. BE ZÉ SI.MEŠ GAR-ma SI.MEŠ-šu BABBAR LUGAL a-šar i-la-ku ri-qu-su i-tu-ra
+28. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu SIG₇ ERIM LUGAL ina KASKAL i-la-ku HA.LA i-kal
+29. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu GI₆ ERIM LUGAL ina KASKAL i-la-ku {d}IŠKUR i-ra-hi-iṣ
+30. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu ina le-te-šu <su>-tu-ra É LUGAL i-na-zi-iq
+31. BE SI ZÉ ša GÙB GAR-ma u ša ZAG la i-ba-aš-ši KUR LUGAL i-hal-liq
+32. BE SI ZÉ ša ZAG GAR-ma u ša GÙB la i-ba-aš-ši KUR LÚ.KÚR i-hal-liq
+33. BE ZÉ ki-ma pi-ti-il-ti pa-ti-il ip-šu u ba-ar-tu ina URU{ki} I.GÁL
+34. BE ZÉ ki-ma pi-ti-il-ti pa-ti-il-ma u GI₆ ma-mi-it a-bi LÚ DIB
+35. BE ZÉ 2-ma 1 SIG₇ 1 GI₆ LÚ ina ša-lam-ti il-li-ik-ma u a-ra-an ša-lam-ti it-ta-na-bal
+36. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up KUR LUGAL dan-na-tu₄ DIB
+37. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up-ma ina ŠÀ-šu U ŠUB
+38. ($___$) ERIM LUGAL {d}IŠKUR i-ra-hi-iṣ u BE LÚ ina pu-uh-ri i-du-k[u-šu]
+39. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up-ma ina ŠÀ-šu KÀM Š[UB]
+40. ($___$) ERIM LUGAL il-ti DINGIR-li ana da-ki er-sat

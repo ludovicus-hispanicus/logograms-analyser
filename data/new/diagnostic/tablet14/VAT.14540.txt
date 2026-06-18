@@ -1,0 +1,47 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: VAT.14540
+recension: canonical Sakikkû Tablet 14, manuscript G (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 14
+source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript G rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+---
+
+@text
+137. [ ša]p-la-tu-šú nap-ḫ[a ...]
+138. [DIŠ Ú]R ZAG-šú SA₅-át ú-šap-šaq?-[ma TIN?]
+140. DIŠ ÚR.MEŠ-šú SA₅.MEŠ na-ʾ-id :
+142. DIŠ ÚR GUB₃-šú SIG₇-át x [...]
+143. DIŠ ÚR.MEŠ-šú SIG₇.MEŠ na-ḫi-id [: ...]
+145. DIŠ ÚR GUB₃-šú GE₆-át na-ḫi-id :
+147. DIŠ ÚR ZAG-šú tar-kát GIG-su MAN-ni :
+149. DIŠ ÚR.MEŠ-šú tar-ka na-ḫi-id :
+150. DIŠ ÚR [...]
+151. DIŠ ÚR GUB₃-šú du-ʾ-ú-mat ú-[...]
+152. DIŠ ÚR.MEŠ-šú du-ʾ-ú-ma [...]
+153. DIŠ ÚR ZAG-šú nap-ḫat ú-za-bal-ma [...]
+154. DIŠ ÚR GUB₃-šú nap-ḫat GI[G-su ...]
+155. DIŠ ÚR.MEŠ-šú nap-ḫa na-ḫi-id :
+156. DIŠ ÚR [...]
+157. DIŠ ÚR GUB₃-šú muq-qú-ta-át GI[G-su ...]
+158. DIŠ ÚR.MEŠ-šú muq-qú-ta5 [...]
+159. DIŠ ÚR ZAG-šú šu-uḫ-ḫu-ṭa-át [...]
+160. DIŠ ÚR GUB₃-šú šu-uḫ-ḫ[u-ṭa-át ...]
+161. DIŠ ÚR.MEŠ-šú [šu-uḫ-ḫu-ṭa ...]
+203′. [ ] NU ZU-e [u] UMUŠ-šú [NU] DAB [...]
+204′. [ ] x-gi-ra ŠU dUTU
+205′. [ ]-ṣi-la u it-ta-nak-na-an-na [ŠU dX]V? GAR ana!? KUR ME RU?
+206′. [ it-ta-n]a-aš-gag-ga ina KI.ÚS MAŠKIM GUB-iz TIN
+207′. [ i-šam-ma?]-ma-šú ru-mi-ka-a-ti ik-bu-us
+208′. [ i-nap-pa?]-ṣa ŠUII-šú ne-e-ḫa na-ḫi-id
+209′. [ ŠUII-šú?] SED.MEŠ DU₈-ár GIG
+210′. [DIŠ GÌRII-šú ... mi-šit-t]i? DAB-su BÚR-ma TIN
+211′. [DIŠ GÌRII-šú ... mi-šit?]-ti DAB-su ina? BÚR-šú-ma TIN
+212′. [DIŠ GÌRII-šú ...] MUNUS? DIŠ-ma
+213′. [DIŠ GÌRII-šú ...] x NA BI x [...]
+214′. [DIŠ GÌRII-šú? ...] LÚG? NU TUK ki-iṣ-ṣ[a-tu x]
+215′. [...] GIG-su [...]
+216′. [...] x du [...]
+217′. [...]x ta [...]

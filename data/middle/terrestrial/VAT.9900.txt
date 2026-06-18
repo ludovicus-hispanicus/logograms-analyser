@@ -1,0 +1,59 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 5 = VAT 9900 + 11322. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 19/10/21.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+DIŠ KI?.UŠ? [ ] x [ ]
+DIŠ {d}ALAD [ina] É ?NA? IG[I].DU₈ BI[R-aḫ É]
+DIŠ {d}ALAD ina É up-ta-na-[ra-ad KI.MIN]
+DIŠ {d}ALAD ana É KÁ G[Ù].GÙ-si [KI.MIN]
+DIŠ GIDIM₄ ina É IGI.DU₈ BI[R-aḫ É]
+DIŠ GID[I]M₄ ina É up-ta-na-ra-ad KI.MIN [o]
+DIŠ GIDIM₄ ina É KÁ GÙ.GÙ-si KI.MIN [o]
+DIŠ G[ID]IM₄ is-si-[m]a še-mu-u iš-me-šu ni-di [ṭēmi]
+DIŠ ?GIDIM₄? ug-d[a-n]a-la-su qí-ti u₄-m[i]
+DIŠ G[IDIM]₄ KI.TA {giš}NÁ-šú i-na-az-zu nu-kúr KI.NÁ ina [ ]
+DIŠ mi-tu₄ GIM TI.LA i+na É IGI.DU₈ BIR-aḫ É
+DIŠ mi-tu₄ GIM TI.LA i+na É up-ta-na-rad KI.MIN
+DIŠ mi-tu₄ GIM TI.LA ana É KÁ GÙ.GÙ-si KI.MIN
+DIŠ ḫal-lu-la-a-a ana É uš-ta-na-ar É BI i-ḫar-ru-ub
+DIŠ ḫal-lu-la-a-a ina A[B] É a-sur-re i-ša-az-na-an KI.MIN
+DIŠ ḫal-lu-la-a-a ina ka-la u₄-mi KI.MIN DAG.GI₄.A i-ḫar-ru-ub
+DIŠ ina É LÚ DINGIR ana qé-re-ti KU₄ ti-bu ṣal-tu₄ pu-uḫ-pu-ḫu-u ana É BI sa-dir
+DIŠ ina É LÚ NINDA na-din KI.MIN
+DIŠ ina É LÚ {munus}UD.SAL.ḪÚB i+na É.GAR₈ sa-ni-ip KI.MI[N]
+DIŠ ina É LÚ UR.[M]AḪ i+na É.GAR₈ e-ṣir [KI].MIN
+DIŠ [ina] É LÚ UR.[A] i+na É.GAR₈ e-ṣir KI.MIN
+[ ni]-ziq-tu₄ sad-rat-su
+[ s]a-dir-šu
+[ ] DÙG.GA
+[ ] x
+[ ] x x [ ]
+[DIŠ] ina É NA x [ ] x
+[DIŠ?] ina É?.MEŠ-šú x [ ] KÚR-ir
+[DIŠ ina (x)] É ?NA? BÁRA IGI [ ] x x [ ] ZI
+[DIŠ ina (x)] É ?NA? BÁRA e-mi?-id [ ] É
+[DIŠ ina ZA]G É NA BÁRA GAR É BI iš-di-ḫa TUK-š[i]
+[DIŠ ina GÙ]B É NA BÁRA GAR EN É ina ŠÀ-šú ina ŠÀ NU DÙG.GA TUŠ-ab
+[DIŠ ina MURUB]₄ É NA BÁRA GAR É BI ul-tab-bar
+[DIŠ ina EGIR] É NA BÁRA e-mi-id SUḪUŠ.ÀM ki-na-a-tu₄
+[DIŠ ina É].SIG₄ É NA BÁRA šu-uq-qú-ma DÙ-uš EN É KÚR-ir EN min-du TUK-ši
+[DIŠ ina/TA É] LÚ ša NIR.DA SA₅ GÁL-ši e-neš É LÚ
+[DIŠ KI.MIN] ša SAḪAR.ŠUB.BA SA₅ GÁL-ši KI.MIN
+[DIŠ KI.MIN] ša um-ṣa-ti SA₅ GÁL-ši KI.MIN
+[DIŠ KI.MIN] ša a-ga-nu-ti-<la> SA₅ GÁL-ši KI.MIN
+[DIŠ KI.MIN] ša ṣer-šá SA₅ GÁL-ši KI.MIN
+[DIŠ] ša MUŠ.LÚ.U₁₉.LU IGI.DU₈ É BI MU TUK-[ši]
+[ ] gub-bu-ḫu IGI.DU₈ É BI NITA TUK-[ši]
+[ ] x gam ú IGI.DU₈ É BI x [ ]
+[ ] IGI.DU₈ É BI ul-[tab-bar]
+[ d]u-tu₄ GÁL.MEŠ É BI x [ ]
+[ ] x GÁL.MEŠ É BI [ ]
+[ ] GÁL.MEŠ ki? [ ]
+[ GÁ]L.MEŠ [ ]

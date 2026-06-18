@@ -1,0 +1,40 @@
+---
+genre: terrestrial omens
+period: Middle Babylonian
+provenance: Babylonia (heartland)
+publication: "BM 108874 = CT 40 48-49 (Gadd 1927). Edition: de Zorzi 2009 (KASKAL 6); the eBL ATF follows it. Colophon dates it to the Kassite king Meli-Sipak (1186-1172 BCE) — the only datable late-2nd-millennium Babylonian-proper Šumma Ālu witness. de Zorzi: probably belongs to the series Šumma ālu (ina mēlê šakin); cf. Koch 2015 §4.5.2 (aḫû tradition later partly incorporated into the standard series)."
+counting: DIŠ
+source_note: eBL fragmentarium ATF, TextLines only (translation/notes/parallels dropped). Already in project ATF (logograms uppercase, {} determinatives, Unicode subscripts).
+note: Bird-flight AUGURY omens (falcon SUR₂.DU₃{mušen}, raven UGA{mušen} crossing left/right of a traveller) — Šumma Ālu aḫû. The non-Assur, heartland Middle-Babylonian counterweight to the Middle-Assyrian KAL 1 set.
+---
+
+@obverse
+1. DIŠ NA ana A₂.AŠ₂-šu₂ ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA i-ti-iq A₂.AŠ₂-su KUR-ad
+2. DIŠ KIMIN SUR₂.DU₃{mušen} 15 NA iṣ-bat-ma ta-he-e NA GIN-ak NA BI KI GIN-ku A₂.TUK TUK-ši
+3. DIŠ KIMIN UGA{mušen} iz-zi-iz-ma GUB₃ NA GU₃-si NA BI KI IGI-MEŠ-šu₂ GAR-nu GIN-ma HA.LA GU₇
+4. DIŠ KIMIN KASKAL ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA i-ti-iq-ma ana ku-tal-li-šu₂ GUR NA BI KI GIN-ku HA.LA GU₇ ŠA₃-BI DUG₃.GA!
+5. DIŠ KIMIN KASKAL ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA i-ti-iq NU KUR A₂.AŠ₂
+6. DIŠ KIMIN KASKAL ZI-ma UGA{mušen} ina 15 NA GUB-ma GU₃-si NA BI KI IGI-MEŠ-šu₂ GAR-nu NU GIN-ak ŠA₃-BI NU DUG₃.GA
+7. DIŠ NA ana KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana ku-tal₂ NA NIGIN-ma ana 150 NA i-ti-iq NA BI KUR₂-šu₂ KUR-ad
+8. DIŠ NA ana KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA i-ti-iq ta-he-e NA ŠUB-ma GIN NA BI ina ŠA₃ KUR₂ HA.LA GU₇
+9. DIŠ NA ana KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA te-bi-ma a-na EGIR-šu₂ GUR NA BI EN KUR₂-šu₂ KUR MUNUS* DUB* ana E₂-šu₂ KU₄
+10. DIŠ NA ana KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA i-ti-iq u₃ 150 NA iṣ-bat-ma ta-he-e NA GIN NA BI di-ik-ta₅ GAZ
+11. DIŠ NA ana KUR₂ ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana ku-tal NA NIGIN-ma ana 15 NA i-ti-iq NA BI KI GIN-ku hu-bu-us-su ih-ha-bat ŠA₃-BI NU DUG₃.GA
+12. DIŠ NA SISKUR₂ ana DINGIR-šu₂ ana na-qe₂-e ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA i-ti-iq NA BI DINGIR-šu₂ SISKUR₂-šu₂ ma-hi-ir
+13. DIŠ NA SISKUR₂ ana DINGIR-šu₂ BAL-ma TA E₂ DINGIR-šu₂ ana E₂-šu₂ ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana ku-tal NA NIGIN-ma ana 150 NA DIB NA BI U₄-MEŠ-šu₂ GID₂-MEŠ TI.LA U₄-MEŠ GID₂-MEŠ
+14. DIŠ NA SISKUR₂ ana DINGIR-šu₂ ana na-qe₂-e ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana ku-tal NA NIGIN-ma ana 15 NA DIB NA BI U₄-MEŠ-šu₂ LUGUD₂-MEŠ ina MU šu₂-a-ti₃* UŠ₂
+15. DIŠ NA SISKUR₂ ana DINGIR-šu₂ ana na-qe₂-e ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA DIB šib-sat DINGIR-šu₂ u iš₈-tar₃-šu₂ UGU-šu₂ GAL₂ SISKUR-šu₂ u₂-la₃ na-qi₂
+16. DIŠ NA GIM EN.NU.UN ana E₂.GAL IL₂-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA DIB UGU EN INIM-šu₂ GUB-az GABA.RI NU TUK
+@reverse
+1. DIŠ NA GIM EN.NU.UN ana E₂.GAL IL₂-ma SUR₂.DU₃ TA 15 NA ana 150 NA DIB LU₂ BI KI.ŠU₂-šu GID₂.DA
+2. DIŠ NA UŠ₈ E₂ BAD-ma SIG₄ ŠUB-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA DIB E₂ BI DAGAL-iš EN E₂ BI LIBIR.RA
+3. DIŠ NA UŠ₈ E₂ BAD-ma SIG₄ ŠUB-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA DIB ŠA₃ E₂ NA BI NU DUG₃.GA
+4. DIŠ ina E₂ NA GIG GIG-ma ina še-ri₃ ina ku-tal* E₂ GIG SUR₂.DU₃{mušen} TA za-mi-i ša 150 ana za-mi-i ša 15 DIB GIG BI ar₂-hiš ZI-bi
+5. DIŠ ina E₂ NA GIG GIG-ma ina še-ri₃ ina ku-tal* E₂ GIG SUR₂.DU₃{mušen} TA za-mi-i ša 15 ana za-mi-i ša 150 DIB GIG BI GIG-su GID₂.DA
+6. DIŠ ina E₂ NA GIG GIG-ma ina še-ri₃ ina ku-tal* E₂ GIG SUR₂.DU₃ i-ša-aʾ GIG BI BA.UŠ₂
+7. DIŠ NA SAG A.ŠA₃ ana ma-ha-ṣi ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA DIB TI.LA ŠA₃ ša A.ŠA₃ IGI-mar
+8. DIŠ NA ŠE.NUMUN E₃-ma UGA{mušen} ina UGU-šu₂ GIN-ma ina 150 NA GU₃-si AB.SIN₂ GUN-sa₃ ut-tar
+9. DIŠ NA SAG A.ŠA₃ ana ma-ha-ṣi ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA DIB AB.SIN₂ GUN-sa₃ LA₂-ṭa
+10. PAB 25 MU.BI GABA.RI KUR SU.BIR₄{ki} {iti}APIN.DU₈.A U₄.8.KAM@v MU.3.KAM@v 2.KAM@v
+11. ($___$) me-li-ši-pak LUGAL KIŠ!(|IGI.UD|) NIG₂.ŠU {m}EN-AŠ-ŠIM DUMU {m}AN-TUK-ni
+12. ($___$) DUB.SAR TUR.RA IN.SAR

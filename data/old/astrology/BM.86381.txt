@@ -1,0 +1,89 @@
+---
+genre: astrological omens
+period: Old Babylonian
+provenance: unknown
+counting: BAD
+topic: lunar eclipse
+---
+@obverse
+@column 1
+1. [AN].TA#.LU₃# ba-ra-ar-tim a-na mu-ta-ni
+2. [AN.T]A.LU₃ qa₂-ab-li-tim a-na KI.LAM TUR.RA
+3. [AN.T]A.LU₃ ša-at-ur-ri a-na mu-ur-ṣa-ni ba-la-ṭi qi₂#-ti? BAL KUR URI
+4. [BAD] AN#.TA#.LU₃# ZAG-šu na-bal-ku-ta-at mi-im-ma u₂-ul in-ne-ze-eb A.MAR.TU mi-it-ha-ri-iš | : iš-ša-ka-an
+5. [BAD AN.TA] i#-na MURU₂-šu iš-ti-ni-iš ih-ha-di-ir iš-ti-ni-iš i-wi-ir | LUGAL BA.UŠ₂ ša-ah-lu-uq-ti ELAM.MA{KI}
+6. [BAD AN.TA.L]U₃ i#-na šu-ti-im u₂-ša-ar-ri-ma u₃ ut-ta-wi-ir RI.RI.GA S[U.BI]R₄{KI} | : u₃!# [UR]I
+7. [BAD AN.TA.LU₃ i-n]a a-mu-ur-ri AN.TA.LU₃ a-mu-ur-ri-i
+8. [BAD AN.TA.LU₃ i-n]a il-ta-nim AN.TA.LU₃ URI BAD AN.TA.LU₃ i-na! ša-ad-di-[i AN.TA.LU₃ SU].BIR₄{KI}
+9. [BAD 30 ad-ri-i]š E₃-ma u₃ ut-ta-wi-ir a-mu-ut ELAM.MA{KI} u₃ KUR qu₃-ti-i [ha-la-qi₂]
+10. [BAD 30 iš-tu šu]-u₂#-ti u₂-ša-ri-ma a-na il-ta-nim il-li-ik AN.TA.LU₃ [KUR URI]{KI#} | [K]UR SU.BIR₄{KI} KUR MAR.TU a-na KUR ELAM.MA{KI} u₃ KUR qu₃-ti-i u₂-u[l i-ṭe₄]-he
+11. [BAD 30 ad-ri-i]š E₃-ma a-di na-ma-ri iz-zi-iz AN.TA.LU₃ ki-iš-ša-at ni-ši
+12. [BAD 30 ad-ri-i]š E₃ a-bu-ub u₄-um na-aš₂-pa-an-tim
+13. [BAD 30 EN.NU].USAN.A u₃ EN.NU.MURU₂ uš-ta-ni-ih LUGAL URI BA.UŠ₂
+14. [BAD EN.NU].USAN.A u₃ EN.NU.MURU₂ uš-ta-ni-ih LUGAL MAR.TU BA.UŠ₂
+15. BAD 3[0 E₃-ma? a]-di na-ma-ri uš-ta-ni-ih AN.TA.LU₃ LUGAL GAL ŠU.NIGIN₂ KUR!-šu# [i]-hal#-liq
+16. BAD 30 AN#.TA#.LU₃# [i-n]a {ITI}BARA₂.ZAG#.GAR UD.14#.KAM# GAR# RI#.RI.GA LUGAL URI a-lum u₃# ni-šu-š[u] | ša-al-mu BAD LUGAL URI la im-tu-ut ub-bu-ṭu₂ GAR-nu ni-šu i-ṣe-he-ra
+17. BAD UD.15.KAM ub-bu-ṭu₂ ib-ba-aš-šu-u₂ ni-šu še-er-ri-ši-na a-na KU₃.BABBAR i-pa-aš-ša-ra | ṣu₂-hu-ur-re-e ni-ši ib-ba-aš-ši
+18. BAD UD.16.KAM DINGIR i-na lu-mu-un ŠA₃ it-bal MUL GAL im-qu₂-ut URU{KI} kab-tam LUGAL | u₃# ni-ši-šu ŠU i-ka-aš-ša-ad ṣa-al-ba-ta-nu i-ša-pu-ma bu-lam u₂-hal-la-aq
+19. [B]AD UD.19.KAM su-um-šu pe₂-li nu-hu-uš ni-ši BAD UD.20.KAM LUGAL a-na LUGAL nu-kur₂-tam i-ša-par₂
+20. BAD UD.21.KAM KI.LAM TUR.RA
+$ end of column
+@column 2
+21. BAD {ITI}GU₄.SI.SA₂ UD.14.KAM LUGAL ki-iš-ša-tim BA.UŠ₂ KUR i-h[al!-li-iq]
+22. BAD UD.15.KAM URI{KI} LUGAL u₃ ni-šu-šu ša-al-mu LUGAL a-na LUGAL n[u-kur₂-tam i-ša-par₂] | nu-šu-ur-re-e ŠE-e i-na pi₂-še-er-ti i[b-ba-aš-ši]
+23. BAD UD.16.KAM LUGAL MAR.TU BA.UŠ₂ KUR-su₂ a-na bi-ra#-a# [i-har-ru]-ub#
+24. BAD {ITI}SIG₄.A UD.14.KAM LUGAL ša šu-ma-am i-šu-u₂ BA.UŠ₂ DUMU-š[u ša a-na LU]GAL-tim <la> za-ak-ru₃ | LUGAL-tam i-ṣa-bat-ma <nu>-ku-ra-tum ib-ba-aš-ši-a KUR# TUR#.RA#
+25. BAD UD.15.K[AM L]UGAL MAR.TU IR₃-MEŠ-šu# i#-na# ba-ar-tim i-du-ku-šu
+26. BAD UD.16.KAM LUGAL SU#.BIR₄#{KI} ina {GIŠ}TUKUL ŠUB.BA ŠEŠ LUGAL GU.ZA DAB ID₂ i-bal | hi-ṣi-ib-ša i-hal-liq zu-un-nu i-na ša-me-e mi-lum i-na ID₂# i-la-kam | EDIN.MU {D}IŠKUR i-ra-hi-iṣ KUR GAL a-na KUR TUR a-na bu-t[a]-lu-ṬAM₂ i-la-ak
+27. BAD {ITI}ŠU.NUMUN.A UD.14.KAM na-ap-<pa>-ah-tum GAR-an LUGAL ša šu-m[a-a]m i-šu-u₂ i-hal-liq | zu-un-nu i-na AN mi-lum i-na# ID₂ i-la-kam EDIN.MU {D#}[IŠKUR] i-ra-hi-iṣ {(qi₂-tu ki-ma mah-ri-i)}
+28. BAD UD.15.KAM zu-un-nu i-na AN mi-lum i-na ID₂ ip-pa-r[a-s]u₂ hu-ša-hu ib-ba-aš-ši | ma-rum er-re-bu i-na GU.ZA a-ba-šu u₂-ša-at-ba-[šu LU]GAL KUR SU.BIR₄{KI}
+29. BAD UD.16.KAM hu-ša-hi IN.NU GAR-an RI#.RI#.GA# GUD#{HI#.A} i[b-b]a-aš-ši-i-ma TUR₃ TUR
+30. BAD UD.20.KAM RI.RI.GA LUG[AL ELAM.MA{KI} i-na EDIN KUR i-har-ru-ub BAD UD.21.KAM] {D}IŠKUR hi-ṣi₂-ib a-ab-ba-a u₂-hal-la-aq
+31. [B]AD [{ITI}]NE#.NE#.GAR# UD#.14#.[KAM LUGAL GAL i-ma-at GU.ZA-šu i-hal-li-i]q KUR-su₂ i-har-ru-ub | [ID₂-šu i-ib-ba-a]l RI.RI.GA ERIN₂ ki-di i-na {GIŠ}TUKUL
+32. BAD UD.15#.[KAM zu-un-nu i-na] AN# mi-lum# i#-[na ID₂ ib-b]a-aš-šu#-u₂# BURU₁₄ iš-še-er | LUGAL a-na LUGAL sa#-li-ma i-ša-par₂ {(AN.TA.LU₃ an-nu-u₂ a#-na la-ta-ki na!-di)}
+33. BAD UD.16.KAM {D}NE₃.ERI₁₁.GAL i-kal mu-ta-nu ib-ba-aš-šu-u₂ RI.RI.GA ERIN₂ ki-di | i-na EDIN ib-ba-aš-ši
+@edge
+34. BAD UD.19.KAM a-ri-a-tum ša ŠA₃-ši-na NU u₂-ša-al-la-ma |
+35. [BAD UD.20.KAM] UR.MAH# wa-ṣi-it KA₂.KAL i-par₂-ra-as₂ BAD UD.21.KAM <A>.KAR₂.KAR₂.KU₆ a-ab-ba-a | i-na ID₂ ib-ba-aš-šu-u₂
+$ end of column
+@reverse
+@column 3
+36. BAD {ITI}KIN.{D}INANNA UD.14.KAM ba-ar-tum a-na LUGAL u₃ ERIN₂ ra-ap-šu ŠUB.BA | BAD AN.TA.LU₃ LUGAL i-te-ti-iq nu-šu-ur-re-e ZU₂.LUM ib-ba-aš-ši
+37. BAD UD.15.KAM DUMU LUGAL a-ba-šu i-da-ak-ma GU.ZA a-bi-šu i-ṣa-bat
+38. BAD# UD#.16.KAM LUGAL KUR ha-liq-tim a-na KUR ša-lim-tim i-ru-ub-ma GU.ZA i-ṣa-bat
+39. [BAD UD].20.KAM DUMU LUGAL a-na GU.ZA E₂! a-bi-šu i-ru-ub BAD UD.21.KAM GU.ZA LUGAL NU ul-ta-bar
+40. [BAD {ITI}]DU₆#.KU₃# UD.14.KAM DINGIR i-kal ERIN₂ ra-ap-šu ŠUB.BA ti-bu-ut ELAM.MA{KI} | a#-na# KUR ib-ba-aš-ši me-re-eš-tum i-iš-še-er
+41. BAD [UD.15.KAM i-na pa-ni ša]-tim BURU₅ i-tab-bi-a-am-ma BURU₁₄ i-ma-ah-ha-aṣ | [h]u-ša-ah-hu ib-ba-aš-ši
+42. BAD [UD.16.KAM LUGAL ki]-iš-ša-tim BA.UŠ₂ BALA-šu ga-me-er DUMU-šu a-na GU.ZA-šu | u₂-ul i-ir#-ru-ub
+43. BAD UD.2[0.KAM li-ih-bu i-na KUR i]b-ba-aš-ši BAD UD.21.KAM ti-bu-ut BURU₅# a-na KUR ib-ba-aš-ši
+44. BAD {ITI}APIN#.DU₈#.A# UD#.14#.KAM zu-un-nu i-na AN mi-lum i-na ID₂ i-ša-qi₂-lu | RI#.RI#.GA# bu-lim ib-ba-aš-ši
+45. [BAD UD.15.KAM] ID₂# i#-bal hi-ṣi-ib-ša i-hal-liq mi-še-er-TAM NU ib-ba-aš-ši
+46. [BAD UD.16.KAM ša-a]l-pu-ut-ti ŠEŠ#.UNUG{KI}
+47. [BAD UD.20.KAM] RI#.RI.GA LUGAL i#-na# {GIŠ}TUKUL BAD UD.21.KAM ti-bu-ut BURU₅ a-na KUR ib-ba-aš-ši
+48. BAD# {ITI#}GAN#.GAN#.E₃# UD.1[4.K]AM zu-un-nu# u₃# mi-lum ib-ba-aš-šu-ma | {D}IŠKUR KISLAH{HI.A} i-[ra-h]i-iṣ ti-bu-ut ELAM.MA{KI} a-na KUR iš-ša-ka-an-ma KUR i-hal-liq
+49. BAD UD.15.KAM {LU₂}KUR₂ URU{DIDLI} i-na-qar
+50. BAD UD.16.KAM LUGAL ti-la-tu-šu i-du-uk-ka-šu ERIN₂ ra#!-[ap-šu] ŠUB#.BA
+51. BAD UD.20.KAM ri!-hi!-iṣ-ti DINGIR ka-ia-a-nu
+52. BAD UD.21.KAM i-na ši-ir KUR nu-kur₂-tum ib-ba-aš-ši
+$ end of column
+@column 4
+53. BAD {ITI}AB.E₃ UD.14.KAM BURU₁₄ i-iš-še-er DINGIR i-kal MAŠ₂ u₃ na-ma-aš-ta-a i-n[a EDIN] i#-ra-ah-hi-iṣ
+54. BAD UD.15.KAM zu-un-nu i-na AN mi-lum i-na ID₂ ib-ba-šu-u₂# sa-li-im dam-qa₂-ti# | u₃ KI.LAM dam-qu# ib-ba-aš-š[u-u₂]
+55. BAD UD.16.KAM la ha-as-su₂ GU.ZA i-ṣa-bat-ma i#-[na KUR nu-kur₂-tum ib-ba-aš-š]i
+56. UD.20.KAM KUR ša ša-ah-lu-uq-tam i-mu-ru uš-[ša-ab BAD UD.21.KAM] LUGAL KUR ZAH₂ uš#-ša#-ab#
+57. BAD {ITI}ZIZ₂.A UD.14.KAM zu-un-nu u₃# mi-lum ib#-[ba-aš]-šu#-u₂# [BURU₁₄ i-i]š-še#-er# | wa#-ṣi#-it# URU{KI} KUR₂ i-ta-bal LUGAL a-na na-ah-<ra>-ru-tim it-t[i ERIN₂-šu uṣ-ṣi-ma] | qa₂-tum i-ka-aš-ša-as#-su₂# KUR i-i[š-še-er]
+58. BAD UD.15.KAM <KUR> ša ša-ah-lu-uq-tam <<i-mu-ru>> u₃# šal#-lu#-[tam i-mu-ru] | KUR ši-i da-mi-iq-tam i-mar u₃ BAD L[UGAL i-ma-at-ma DUMU LUGAL la ta-ak-lu] GU#.ZA# i#-ṣa#-bat#
+59. BAD UD.16.KAM URU{KI} il-la-i LUGAL qa₂-tum i-ka-aš-ša#-a[d-m]a BAD₃# KUR# in-na-qar ERIN₂-š[u ŠUB] | LUGAL KUR ha-liq-tim a-na KUR ša-lim-tim KU₄-ma i#-na GU.ZA u[š-ša-a]b
+60. BAD UD#.20.KAM bi-ib-lum KUR ub-bal BAD UD.21.KAM# KUR# a#-na# bi#-[ra-a i-ha-r]u-ub
+61. BAD {ITI}ŠE.KIN.TAR UD.14.KAM LUGAL ELAM.MA [{KI} BA.UŠ₂ UR.GI₇ iš-še-gu-ma a-we-lu-ta]m | i-na-aš-ša-ak lu NITA lu# MUNUS NU TI.LA na-ap-[ha-nu ib-ba-aš-ši-ma ni-šu še-er-ri-ši-n]a | a-na [K]U₃.BABBAR i-na-ad-di-[na ...]
+62. [B]AD UD#.[1]5.KAM bi-ib-lum KUR ub-bal UR.M[AH in-na-da-ru-ma a-la-ak-tam i-pa-ar-ra-su₂]
+63. [B]AD UD.16.KAM KUR la šu#-ul-pu-ut-[tu uš-ta-al-pa-at]
+64. [B]AD UD.20.KAM ša-ah-lu-[uq-ti ŠEŠ.UNU]G{KI} BAD UD.21.KAM# qu₃-tu-u₂# KUR u₂-šal-pa-at#
+$ (-at moved to the end of the next line)
+65. [B]AD {ITI}DIRI.ŠE.KIN.TA[R UD.14.KAM i-na KUR da]n-na-tum ib-ba-aš-ši-a-ma ni-šu | [še-er-ri-š]i-na a-na KU₃.BABBAR i-pa-aš-ša-ra
+66. [BAD UD.15.KAM] ša#-ah#-lu#-uq#-ti# ŠEŠ#.UNUG#{KI#} BAD# UD#.16#.KAM# KUR!# URI uš-ta-al-pa-at
+$ end of column
+@edge
+67. [BAD 30 i-na na-an-m]u-ri-šu un-nu-ut#-[ma ... AN.T]A.LU₃ GAR-an
+68. [BAD 30 i-na na-an-m]u-ri-šu ša-me-e ṭe-ri KUR# x# x# [x]-ša in-na-ad-di
+69. [BAD 30 {D}UT]U? UD.12.KAM ip-pa-li-is-ma ṣe-es-su₂ qa₂-al-la-at AN.TA.LU₃ GAR-a[n] 

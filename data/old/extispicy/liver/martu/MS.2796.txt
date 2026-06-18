@@ -1,0 +1,29 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: line
+---
+
+1'. [...] x ri# i x [...]
+2'. [... q]u₂-tu-un mar-ti hu-ub#-[b]u-u[r-ma ...]
+#tr.en: [If …] the neck of the gall-bladder is very plump […]
+3'. [... i-m]i-it-tam na-si-ih u₃ iš-tu i-mi-[it-tim ...]
+#tr.en: [If …] is loose [on the] right and from the right […]
+4'. [... m]e-eh-re-et ma-aṣ₂-ra-ah na-aṣ₂-[ra-ap-tim ...]
+#tr.en: [If …] opposite the @i{m}. of the “dyeing vat” […]
+5'. [... h]u-ub-bu-ur ni-i-lu i-k[a-...]
+#tr.en: [If …] is very plump: semen will … […]
+6'. [... q]u₂-tu-un mar-ti šu-me-la [...]
+#tr.en: [If …] the neck of the gall-bladder on the left […]
+7'. [...]-ma i-pu-ul hu-u[b-bu-ur ...]
+#tr.en: [If …] and it corresponds, it is very [plump …]
+8'. [...] x i-mi-it-ti mar-[ti ...]
+#tr.en: [If …] of the right side of the gall-bladder […]
+9'. [... ši-i]t-ta ma-ra-a-t[um ...]
+#tr.en: [If …] (and there are) two gall-bladders […]
+10'. [... iš-t]e-en-ma x [...]
+#tr.en: [If …] there are two gall-bladders but only [one cystic duct(?) …]
+11'. [...] x-li-i[š ...]
+12'. [...] x [...]

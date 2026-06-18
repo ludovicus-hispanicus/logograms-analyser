@@ -1,0 +1,55 @@
+---
+exclude: true  # Rochberg source subsumed in EAE20/RecA-RecB composites; held out to avoid double-count
+genre: astrological omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: DIŠ
+topic: lunar eclipse
+series: Enūma Anu Enlil 20
+recension: A (Assyrian)
+edition: Rochberg-Halton 1988 (AfO Beih. 22), EAE 20 source C = Sm 246+561; §§ I–IV, X–XII (standard library copy)
+source: eBL fragment Sm.246 (transliteration verbatim from electronic Babylonian Library)
+note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = editorial restoration; '#' = damaged-but-legible; '($___$)' = continuation line (ignored by loader).
+---
+
+@obverse
+@column 1
+1'. [...] x-ka#
+$ single ruling
+2'. [...] A₂# {tum₉}MAR KI-TA iz-ku
+3'. [... KAN₅]-šu₂ A₂ {tum₉}KUR AN-TA KAN₅-ma
+4'. [... {tum₉}S]I.SA₂ ina ŠU-ka tu-kal
+5'. [...] SU#.GU₇ IGI UŠ₂-MEŠ i-man-du
+6'. [... {d}UT]U KUR-su ina KI.HUL AD-šu₂ UŠ₂
+7'. [... U₄.2]8.KAM SAG IGI.DU₈.A-šu₂ IGI-ma
+8'. [... U₄.2]8.KAM SAG IGI.DU₈-šu₂ IGI-ma
+9'. [...] AN.GI₆ u₂-kal-lam-ka
+$ single ruling
+10'. [...] KAN₅-ma A₂ IM.1 KI-TA iz-ku
+11'. [... i]m-šul-ma
+12'. [... AN-T]A E₃-MEŠ-ni
+13'. [... KI-T]A iz-ku-u₂
+14'. [...] EŠ.BAR ŠUM₂-in
+15'. [...] x
+@column 2
+1'. [...] x x x x x [...]
+2'. ($___$) [...] tu?#-kal?# ina ŠA₃ SU.BIR₄{ki} EŠ.BAR ŠUM₂-in [...]
+3'. ($___$) LU₂ LU₂ i-ra-sip UN-MEŠ ŠUB-MEŠ [al-ma-na-tu i-min₃-da]
+4'. ($___$) LUGAL SU.BIR₄{ki} KI KUR.KUR i-šal-lim DIGIR ša i-[...]
+5'. ($___$) EN.NUN MURU₂.BA MU₂-ma la u₂-qat-ti ki-a-a[m GIŠKIM-šu₂ u EŠ.BAR-šu₂]
+$ single ruling
+6'. DIŠ ina {iti}AŠ₂ U₄.14.KAM AN.GI₆ GAR-ma AN ina KAN₅-šu₂ ana A₂ IM.1 AN-T[A KAN₅ ...]
+7'. ($___$) {tum₉}SI.SA₂ EN.NUN U₄.ZAL MU₂-ma KI {d}UTU IGI-ir SI-MEŠ [AN-e nak-pa]
+8'. ($___$) ŠU.NIR kal-šu₂ NU DUL-ma it-bal ina U₄.28.KAM ina I[GI? ...]
+9'. ($___$) AN.GI₆ qit-ru-ub MU₂-ma KALAG-ma AN.[GI₆ u₂-kal-lam-ka]
+10'. ($___$) DIGIR ša ina KAN₅-šu₂ IGI-ma TUM₃ KAN₅-šu₂ IGI-ma {tum₉}S[I.SA₂ ...]
+11'. ($___$) ina ŠA₃ IRI KA₂.DIGIR.RA{ki} EŠ.BAR ŠUM₂-in KA₂.DIGIR.RA[{ki} ZAH₂-šu₂ qit-ru-ub]
+12'. ($___$) KUR BIR-tu₄ BIR ša qit-ru-ub {d}+en.lil₂ KUR DU₃.A-BI-[ša i-ru-ur it-ta-za-ar]
+13'. ($___$) LUGAL ša₂ an-na-a iq-bu-šu₂ UN-MEŠ-šu₂ BIR-MEŠ BAL-šu₂ [TIL ina KA DIGIR-MEŠ ZAH₂-šu₂]
+14'. ($___$) qit-ru-ub BAL IRI KA₂.DIGIR.RA{ki} URI₂{ki} KAR# x [ŠU₂-ut KA₂.DIGIR-RA{ki} URI₂{ki} TI-qi₂]
+15'. ($___$) AN ina KAN₅-šu₂ GI₆ is-su[h ki-a-am GIŠKIM-šu₂ u EŠ.BAR-šu₂]
+$ single ruling
+16'. [DIŠ ina] {iti#}ŠE U₄.14.KAM AN.GI₆ GAR-ma AN ina KAN₅-šu₂ ana A₂ IM.2 AN-TA KAN₅ [...]
+17'. ($___$) [{tum₉}]KUR#.RA EN.NUN U₄.ZAL u₂-qat-ti SI-MEŠ-šu₂ ina MU₂-šu₂ la# [in-na-ṭa-la-ma ...]
+18'. ($___$) [... {tum₉}KUR.RA ina] ŠU#-ka tu-kal ina ŠA₃ M[AR.TU{ki} EŠ.BAR ŠUM₂-in ...]
+19'. ($___$) [...] x x [...]

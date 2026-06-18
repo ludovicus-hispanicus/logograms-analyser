@@ -1,0 +1,47 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Hattusa / Bogazkoy (Late Bronze Age, ca. 14th-13th c. BCE; Akkadian recension)
+publication: KUB 37 183; Akkadian version from Bogazkoy (Leichty TCS 4, 207ff.)
+counting: UD
+source_note: Hand-checked Akkadian transliteration (clean). UD = šumma. Half-brackets/[ ] preserved; sigla & sub-numbers marked $ (skipped).
+---
+
+@obverse
+1) [… ú]-li-id […]
+2) […] at ti ˹x˺ […]
+3) […] AD DINGIR.MEŠ dUTU i-[…]
+4) [… i]-˹pá˺-aš-ša-ru UD iz-bu […]
+5) […] i-ba-aš-ši UD iz-bu ˹x˺ […]
+6) […] ˹x˺ SILA4 ú-li-id nu […]
+7) […] ˹x x˺ ši ud ˹x˺ SAL 2 KUN […]
+8) […] ú-li-id-ma iš-tu GU.[…]
+9) […] UD iz-bu 2 ú-li-id-ma […]
+10) […]-ti KUR-ti [x x] id ˹x˺ […]
+11) […] ú-li-id-ma 3-šu-nu […]
+12) […] ša-aḫ-lu-uq-ti ˹x˺ […]
+13) […] ú-li-id-ma […]
+14) […] ˹x x˺ […]
+@reverse
+1) […] ˹x x˺ […]
+2) […] mu-ut-ta-as-sú […]
+3) […] mu-ut-ta]-as-sú a-di […]
+4) […] ana(?) ma-ti-šu da-a[n-nu …]
+5) […]-ma ar-ki-šu […]
+6) […] SAL pa-nam la-a i-[šu …]
+7) […] ˹x˺ šà-šu […]
+8) […] LÚ-lum […]
+@column 1
+1. […]-nam
+2. […]-šu
+3. […]-mar
+4. […]-ti
+5. […] a-na
+6. […]-bi
+7. […]-mar
+@column 2
+1. UD [iz-bu …]
+2. ga-[…]
+3. UD iz-bu […]
+4. ra-[…]
+5. UD […]

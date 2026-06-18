@@ -1,0 +1,169 @@
+---
+genre: extispicy omens
+period: Neo-Babylonian
+provenance: Sippar (Sippar Library)
+tradition: Babylonian
+counting: BE
+publication: IM 132510 (eBL; Fadhil 2023, FS Maul 184-197); Bārûtu ch. 3 Manzāzu
+note: canonical manzāzu = the OB "naplastu" (the View); first-millennium name for the same liver zone. 79 omens; eBL score apparatus dropped; 15/150 normalized to ZAG/GUB₃
+---
+
+@obverse
+1. [BE NA GI]M AB₂{ku₆} NUN {giš}TUKUL-MEŠ-šu₂ UG[U {giš}TUKUL-MEŠ KUR₂-šu₂ ŠEŠ-MEŠ]
+#tr.en: [Wenn die Präsenz w]ie ein dādu-Fisch (aussieht): Die Streitkräfte des Fürsten werden sich gegen [die Streitkräfte seines Feindes durchsetzen].
+2. BE# NA# GID₂.DA-ik U₄-MEŠ NUN [GID₂.DA-MEŠ]
+#tr.en: Wenn die Präsenz lang ist: Die Tage des Fürsten [werden lang sein].
+3. BE NA LUGUD₂.DA U₄-MEŠ NUN [LUGUD₂.DA-MEŠ]
+#tr.en: Wenn die Präsenz kurz ist: Die Tage des Fürsten [werden kurz sein].
+4. BE NA ka-bi-is₃ ŠUB-ti [...]
+#tr.en: Wenn die Präsenz weggedrückt ist: Fall [...].
+5. BE NA ina MURUB₄-šu₂ pa-šiṭ {giš}TUKUL-MEŠ#-[šu₂ ...]
+#tr.en: Wenn die Präsenz in ihre Mitte ausradiert ist: [Sein] Kampf [...].
+6. BE NA GI₆-ik ERIN₂-n[i DINGIR-M]EŠ-ša₂ TAG₄#-ME[Š-ša₂]
+#tr.en: Wenn die Präsenz dunkel ist: Die [Gött]er werden me[in] Heer verla[ssen].
+7. BE NA GIM ad-di-im-ma DIRI SI[LIM?] x [x]
+#tr.en: Wenn die Präsenz wie ein Wurfstock riesig ist: ... [...] ... [...].
+8. BE NA SIG₇ u SA₅ ma-ṭir₅ x [x] x [x]
+#tr.en: Wenn die Präsenz mit gelbgrünen Flecken gesprenkelt ist: ... [...] ... [...].
+9. BE NA ina GUB₃ ŠUB-di N[UN KU]R NU UR₅-tu₂ ŠU-su# KU[R-ad₂]
+#tr.en: Wenn die Präsenz auf der linken Seite liegt: Der Fü[rst] wird ein [La]nd ero[bern], das ihm nicht gehört.
+11. BE NA ina SAL.LA BA₃ ZAG ŠUB-di U₄#-MEŠ# NUN KI DINGIR T[IL-MEŠ]
+#tr.en: Wenn die Präsenz auf der dünnen Stelle der rechten Seite der Leber liegt: Die Tage des Fürsten werden mit Gott(es Zustimmung) en[den].
+12. BE NA pa-rik ša₂# {giš}TUKUL GU₃-mu ana# ERIN₂-ni ŠUB-tu₂ ina U₄# SU₃ [DINGIR-MEŠ GU₇]
+#tr.en: Wenn die Präsenz querliegt: Waffenlärm wird das Heer überfallen, in den künftigen Tagen: [Die Pest].
+13. BE NA ana SIG ni-ri is-ḫur-ma ina SIG ni-ri ZAG GAR-in NUN ina NU KI#-šu DAG.DA[G-giš]
+#tr.en: Wenn die Präsenz zu der schmalen Stelle des Joches hin gewendet ist und in der schmalen Stelle des Joches liegt: Der Fürst wird an einem fremden Ort umher[gehen].
+14. BE NA GIR₂ KUR-ud NUN ina KASKAL DU-ku KUR-[ad₂]
+#tr.en: Wenn die Präsenz den Pfad erreicht: Der Fürst wird bei dem Feldzug, auf den er zieht, sein Ziel errei[chen].
+15. BE NA GIR₂ i-bir NUN ina KASKAL DU-ku NU G[UR-ra]
+#tr.en: Wenn die Präsenz über den Pfad hinausreicht: Der Fürst wird von dem Feldzug, auf den er zieht, nicht zurück[kehren].
+16. BE NA GUB-iz {giš}TUKUL-MEŠ rab-ṣu#-tu₂# ZI-MEŠ-ni ina U₄ SU₃ NUN ZI#-ma ina ŠA₃ KUR-šu₂ BA[D₃ DU₃-uš]
+#tr.en: Wenn die Präsenz hochsteht: Die niedergelegten Keulen werden sich erheben; in künftigen Tagen: ein Fürst wird sich erheben und inmitten seines Landes eine Ma[uer bauen].
+17. BE NA GUB-iz-ma EN 2# DU₈ LUGAL BAD₃ DU₃-uš in[a?-qar?]
+#tr.en: Wenn die Präsenz hochsteht und in zwei (Teile) gekerbt ist: Der König wird eine Mauer bauen (und wieder) ein[reißen].
+18. BE NA GIM ŠU.GUR NIGIN-mi LUGAL KUR-su BAL-su-ma NIG[IN-mi]
+#tr.en: Wenn die Präsenz wie ein Ring kreisförmig verläuft: Das Land des Königs wird rebellieren gegen ihn und (ihn) einkr[eisen].
+19. BE KI.MIN-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di URU šu-bat LUGAL A.DAM-MEŠ-šu₂ NIGIN-MEŠ-šu₂-ma# u₂-šam-qa-[tu₂-šu₂]
+#tr.en: Wenn dito und darin ein Loch liegt: (In) der Residenzstadt des Königs und den umliegenden Gebieten werden sich (Leute) versammeln und [ihn] nieder[werfen].
+21. BE KI.MIN-ma {giš}TUKUL-MEŠ sa₃-ḫi-ir URU-MEŠ ŠUB#-MEŠ BARA₂-MEŠ uš-tal₂-pa-[tu₂]
+#tr.en: Wenn dito und von Keulen umgeben ist: Die Städte werden aufgegeben, die Thronpodeste zerstö[rt].
+22. BE KI.MIN-ma BUR₃-MEŠ sa₃-ḫi-ir URU šu-[ba]t LUGAL uš-tal₂-pat
+#tr.en: Wenn dito und von Löcher umgeben ist: Die Residenzstadt des Königs wird zerstört.
+25. BE KI.MIN-ma DU₈-MEŠ URU šu-bat LUGAL ina BAD₄ DAB-šu₂ E₃
+#tr.en: Wenn dito und Einkerbungen vorhanden sind: Die Residenzstadt des Königs wird der Gefahr, die sie ergreift, entgehen.
+26. BE NA GIM PAP šu-bat-ka ana šu#-bat# KUR₂ SI.SA₂-er
+#tr.en: Wenn die Präsenz wie ein PAP-Zeichen (assieht): (Das Verhältnis) deines Wohnsitzes zum Wohnsitz des Feindes wird ausgeglichen sein.
+27. BE NA GIM ḪAL UŠ₄ KUR MAN-ni
+#tr.en: Wenn die Präsenz wie eine ḪAL-Zeichen (assieht): Die Stimmung des Landes wird sich ändern.
+28. BE NA GIM BUR₃ šad-dim-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di nu-bal-lu₄ ERIN₂-ni ŠUB#-ut
+#tr.en: Wenn die Präsenz wie ein langgezogenes Loch (assieht) und in der Mitte ein Loch liegt: Die Vorhut des Heeres wird fallen.
+29. BE NA GABA-MEŠ TUKU-ši KUR₂ x [x]
+#tr.en: Wenn die Präsenz Brüste hat: Der Feind … […].
+30. BE NA iḫ-bu-uš-ma KA GEŠTU+MIN TUKU-ši KUR BAD₄ DIB#-[a]t
+#tr.en: Wenn die Präsenz anschwillt und Mund (und) Ohren hat: Not wird das Land ergreifen.
+32. BE NA ip-ḫur GU₃-mu ina KUR GAL₂-ma# KUR ana BAD₄ NIGIN-ur₂#
+#tr.en: Wenn die Präsenz zusammengezogen ist: Es wird Wehgeschrei im Land entstehen und das Land wird sich in der Festung versammeln.
+33. BE NA ip-ḫur-ma ana {giš}TUKUL GUR-ur₂ U₄-MEŠ NUN TIL-MEŠ
+#tr.en: Wenn die Präsenz zusammengezogen ist und sich zu einer Keulemarke umdreht: Die Tage des Fürsten werden enden.
+34. [B]E NA ip-ḫur-ma ana KAM-tu₄ GUR-ur₂ URU DIB-bat
+#tr.en: [We]nn die Präsenz zusammengezogen ist und sich zu einem Samenkorn umdreht: Die Stadt wird erobert werden.
+35. [B]E NA ip-ḫur-ma ana KAM-tu₄ GUR-ma GE₆ URU DIB-ma ERIN₂-šu₂ id-dak
+#tr.en: [We]nn die Präsenz zusammengezogen ist und sich zu einem Samenkorn umdreht und dunkel ist: Die Stadt wird erobert werden und seine Heer wird getötet.
+36. [B]E NA# 2 ana {giš}TUKUL IZI.GAR ina SISKUR₂ NUN DINGIR DINGIR GU₃-si ina U₄ SU₃ NUN {d}ALAD u {d}LAMMA TUK-ši
+#tr.en: [We]nn die Präsenz zweifach da ist: Für den Kampf (bedeutet es) ein nipḫu-Merkmal, beim Opfer des Fürsten wird ein Gott einen Gott anrufen. In künftigen Tagen: Der Fürst wird šēdu-und lamassu-Schutzgottheiten (zur Seite) haben.
+37. [B]E NA# 2-ma ŠEŠ ana IGI ŠEŠ ZI-MEŠ-ma IGI.IGI-lu₄ LUGAL KI-su ina ŠA₃ KUR-šu₂ i-paq-qa-ru-šu₂
+#tr.en: [We]nn die Präsenz zweifach da ist und die eine über die Vorderseite der anderen hinausragt und sie auf einander zeigen: Das Territorium des Königs wird man ihm inmitten seines Landes streitig machen.
+38. BE NA SAG.UŠ GAR-ma MAN-u₂ ina GUB₃ ŠUB-di LUGAL KI-su ŠUB-ta₅ TUŠ-eb
+#tr.en: Wenn die reguläre Präsenz vorhanden ist, aber eine zweite auf der linken Seite liegt: Der König wird sein verlassenes Territorium wieder besiedeln.
+39. BE KI.MIN-ma MAN-u₂ ina SAL.LA BA₃ ZAG ŠUB-di LUGAL KI-su ḫa-ru-ub-tu₄ TUŠ-eb
+#tr.en: Wenn die reguläre Präsenz dito, aber eine zweite an der rechten schmalen Stelle der Leber liegt: Der König wird sein verwüstetes Territorium wieder besiedeln.
+40. BE KI.MIN-ma MAN-u₂ ina sip-pi₂ GUB₃ ME.NI GAR-ma BAL-ut EN SILIM-mi-ka KUR₂-ka
+#tr.en: Wenn die reguläre Präsenz dito, aber eine zweite am linken Pfosten des Palasttores vorhanden und umgewendet ist: Dein Freund wird dir zum Feind werden.
+42. BE KI.MIN-ma ina UGU-šu₂ NA M[AN-ma] e-ṣir U₄-MEŠ NUN GID₂.D[A-MEŠ]
+#tr.en: Wenn dito und eine zweite Präsenz über der ersten eingezeichnet ist: Die Tage des Fürsten werden lan[g sein].
+43. BE ina sip-pi₂ NA UGU-nu NA N[A] MAN#-[ma GAR in]a {giš}TUKUL DINGIR-MEŠ re-ṣu-ut EN UDU.NITA₂ GIN-MEŠ ina U₄ S[U₃ NU DINGIR-šu₂ UGU LU₂ ŠUB-ut]
+#tr.en: Wenn am Pfosten der Präsenz, oberhalb der Präsenz, eine zw[eite] Präs[enz vorhanden ist]: Im Kampf werden die Götter dem Herrn des Opferschafs zur Hilfe kommen; alternativ: In kün[ftigen] Tagen [wird ein Gott, der nicht seiner ist, den Mann anfallen].
+44. BE NA SAG.UŠ GAR-ma MAN-u₂# ina# SAG# [NA] e#-ṣir {d}ALAD-MEŠ ŠUB-MEŠ ana NUN GUR.[MEŠ-ni]
+#tr.en: Wenn die reguläre Präsenz vorhanden ist und eine zweite Prä[senz] darauf gezeichnet ist: Die abgefallenen šēdu-Schutzgottheiten werden zum Fürsten zurück[kehren].
+45. BE NA# SAG.UŠ# ša₂-kin# MAN#-u₂ ina MURU[B₄ NA] e#-ṣir {d}ALAD-MEŠ ŠUB-MEŠ ana ERIN₂-ni G[UR-MEŠ-ni]
+#tr.en: Wenn die reguläre Präsenz vorhanden ist und eine zweite Prä[senz] in der Mi[tte] gezeichnet ist: Die abgefallenen šēdu-Schutzgottheiten werden zum Heer zurück[kehren].
+47. [BE NA k]a-lu-šu-ma BAL-u[t u UR₅.U]Š₂ SILIM-at₂ LUGAL ID₂ ŠUB-ti BAL-ma ina a-ḫi-šu₂ KI.TUŠ [ne-eḫ-ti TUŠ-eb]
+#tr.en: [Wenn die ge]samte [Präsenz] umgewen[det und] die [Opfer]schau günstig ist: Der König wird den verfallenen Kanal neu ausgraben und (die Leute) an seinem Ufer [friedvoll wohnen lassen].
+48. [BE NA ka-l]u-šu-ma BAL#-ut u UR₅.UŠ₂ NU SILIM-at₂ BAL-u₂ KUR₂-ir UŠ₄ KUR [MAN-ni]
+#tr.en: [Wenn die gesa]mte [Präsenz] umgewendet und die Opferschau ungünstig ist: Die Dynastie wird wechseln, die Stimmung des Landes [wird sich ändern].
+49. [BE NA SI-MEŠ-š]u₂ NIGIN.M[E]Š-ma ZE₂# IGI-MEŠ NUN KUR KUR₂-šu₂ ina {giš}TUKUL u₂-[saḫ-ḫar]
+#tr.en: [Wenn die Hörner der Präsenz] sich verdrehen und zur Gallenblase zeigen: Der Fürst wird das Land seines Feindes im Kampf zur[ückschlagen].
+50. [BE NA SI-MEŠ-šu₂ NIGIN-ME]Š-ma ZAG ŠU.SI IGI-MEŠ KUR₂ KUR NUN ina {giš}TUKUL u₂-s[aḫ-ḫar]
+#tr.en: [Wenn die Hörner der Präsenz sich verdre]hen und zur rechten Finger zeigen: Der Feind wird das Land des Fürsten im Kampf zurück[schlagen].
+52. [BE NA ša₂-miṭ ana {giš}TUKUL Š]UB-ti ERIN₂-ni ina U₄ SU₃ NAM.UŠ₂-MEŠ ina KUR G[AL₂-MEŠ]
+#tr.en: Wenn die Präsenz spitz heraussteht: Für den Kampf (bedeutet es) Fa]ll des Heeres, (alternativ) in den künftigen Tagen wird es eine Seuche im Land ge[ben].
+53. [BE NA 3] UŠ₄ EN UDU.NITA₂ MAN-ni ana {giš}TUKUL I[ZI.GAR]
+#tr.en: [Wenn die Präsenz dreifach da ist]: Die Stimmung des Herrn des Opferschafes wird sich ändern; für den Kampf (bedeutet es) ein nip[ḫu]-Merkmal.
+@reverse
+1. [BE NA 3-ma NA ZAG BAL]-ma S[AG.UŠ IGI NUN ILLAT-MEŠ-šu₂ BAL-MEŠ-šu₂-ma ana MUNUS.ḪUL ZI-MEŠ-šu₂]
+#tr.en: [Wenn die Präsenz dreifach da ist und die rechte Präsenz umgewendet ist] und no[rmal aussieht: Die Hilfstruppen des Fürsten werden gegen ihn rebellieren und sich zum Unheil erheben gegen ihn].
+2. [BE NA 3-ma NA GUB₃ BAL-ma] S[AG?.UŠ IGI KUR₂ ILLAT-MEŠ-šu₂ BAL-MEŠ-šu₂-ma ana MUNUS.ḪUL ZI-MEŠ-šu₂]
+#tr.en: [Wenn die Präsenz dreifach da ist und die linke Präsenz umgewendet ist und] no[rmal aussieht: Die Hilfstruppen des Feindes werden gegen ihn rebellieren und sich zum Unheil erheben gegen ihn].
+3. [BE NA 3-ma NA ZAG u NA GUB₃ BAL-MEŠ-ma SAG.UŠ IGI-MEŠ NUN ILLAT]-MEŠ#-šu₂ BAL-MEŠ#-[šu₂-ma u₂-šam-qat-su]
+#tr.en: [Wenn die Präsenz dreifach da ist und die rechte Präsenz und die linke Präsenz umgewendet sind und normal aussehen: Die Hilfs]truppen [des Fürsten] werden gegen ihn rebel[lieren und ihn besiegen].
+4. [BE NA 3-ma MIN?-ma] ina ŠA₃# [SAG.UŠ] BUR₃# ŠUB-di NUN ILLAT-MEŠ-šu₂ BAL-MEŠ-šu₂-m[a u₂-šam-qa-ta-šu₂]
+#tr.en: [Wenn die Präsenz dreifach da ist und dito und] ein Loch in der Mitte [der normalen] liegt: Die Hilfstruppen des Fürsten werden gegen ihn rebellieren un[d ihn besiegen].
+7. [BE] NA 4 SU.GU₇ ina KUR GA[L₂-ši]
+#tr.en: [Wenn] die Präsenz vierfach da ist: Eine Hungersnot wird es im Land ge[ben].
+8. BE NA 4-ma [ina ŠA₃-šu₂-nu BU]R₃-MEŠ ŠUB-MEŠ SU.GU₇ LU₂.UŠ₂ ina SILA ŠUB-u₂# [GAL₂-ši]
+#tr.en: Wenn die Präsenz vierfach da ist und [in ihrer Mitte Löche]rn liegen: Es wird eine Hungersnot und liegende Leichen auf der Straße [geben].
+10. BE NA 5# ni-ip-ḫat [{lu₂}ḪAL]
+#tr.en: Wenn die Präsenz fünffach da ist: nipḫu-Mehrkmale des [Opferschauers].
+11. BE NA 5-ma ina ŠA₃-šu₂-nu BUR₃-MEŠ ŠUB-MEŠ ni-ip-ḫat {lu₂}ḪAL ŠUB-t[i ERIN₂-ni]
+#tr.en: Wenn die Präsenz fünffach da ist und in ihrer Mitte Löcher liegen: nipḫu-Merkmale des Opferschauers, Fa[ll des Heeres].
+12. BE NA 6 ZI-ut ELAM.[MA{ki} KUR? GU₇?]
+#tr.en: Wenn die Präsenz sechsfach da ist: Ein Aufstand Ela[ms wird das Land verschlingen].
+13. BE NA 6-ma ina ŠA₃-šu₂-nu BUR₃-MEŠ ŠUB-MEŠ ELAM.MA{ki} ZI-am-ma ana ŠA₃ [KUR ŠUB]-ut
+#tr.en: Wenn die Präsenz sechsfach da ist und in ihrer Mitte Löcher liegen: Elam wird sich erheben und das Kern[land befall]en.
+16. BE# NA 7 ZI-[ut ERI]N₂ gu-ti-i
+#tr.en: Wenn die Präsenz siebenfach da ist: Auf[stand des Hee]res der Gutäer.
+17. [BE N]A 7-ma ina ŠA₃-šu₂-nu BUR₃-MEŠ ŠUB-MEŠ# E[RIN₂ g]u-t[i-i ZI]-am#-ma# ana ŠA₃ KUR# ŠUB#-ut#
+#tr.en: [Wenn die Präs]enz siebenfach da ist und in ihrer Mitte Löcher liegen: Das Heer der Gu[täer wird sich erhe]ben und bis ins Kernland einfallen.
+20. [BE] NA 8 ZI-ut ERIN₂-man-da
+#tr.en: [Wenn] die Präsenz achtfach da ist: Angriff der Ummān-manda.
+24. BE# NA# 9 BA₃-ut {d}GIŠ-gim₂-maš LUGAL dan-nu ša₂# GABA#.RI# NU TUK-u₂# LUGAL dan-nu ina KUR GAL₂-ši
+#tr.en: Wenn die Präsenz neunfach da ist: Omen des Gilgameš, des starken Königs, der seinesgleichen nicht hat, es wird einen starken König im Land geben.
+25. BE NA 10 BAL-e mit-gur-ti MU-MEŠ mi-ša₂-ri teš₂-mu-u₂ u SILIM-mu ina KUR GAL₂-ši
+#tr.en: Wenn die Präsenz zehnfach da ist: Dynastie der Einigkeit, Jahre der Gerechtigkeit, es wird Einverständnis und Wohlergehen im Land geben.
+26. BE NA DU₈-MEŠ ZI-ut ERIN₂-ni
+#tr.en: Wenn die Präsenz eingekerbt ist: Aufstand des Heeres.
+27. BE NA D[U₈-M]EŠ-ma DU₈-MEŠ-šu₂ SA₅ ṣar-pu ZI-ut ERIN₂ SU₃-tu ana KUR-ia₅
+#tr.en: Wenn die Präsenz eingekerbt ist und ihre Einkerbungen rot sind: Ein ferner Aufstand eines Heeres gegen mein Land.
+28. BE NA DU₈-MEŠ#-ma# DU₈-MEŠ-šu₂ SA₅# pe#-la-a ṣar-pu ZI-ut BURU₅.ḪI.A ana KUR-ia₅#
+#tr.en: Wenn die Präsenz eingekerbt ist und ihre Einkerbungen dunkelrot gefärbt sind: Heuschreckeninvasion in meinem Land.
+29. BE NA DU₈-MEŠ-ma DU₈-MEŠ-[šu₂ SIG₇] ṣar-pu UR.GI₇-MEŠ IDIM-MEŠ
+#tr.en: Wenn die Präsenz eingekerbt ist und ihre Einkerbun[gen gelbgrün] gefärbt sind: Hunde werden wild werden.
+30. BE NA BABBAR ma-ṭir₅ I.{d}UTU!(NA) DINGIR ana NUN
+#tr.en: Wenn die Präsenz weiß gesprenkelt ist: Klage des Gottes gegen den Fürsten.
+31. BE NA GU sa#-di-id MU DINGIR NUN DIB-bat
+#tr.en: Wenn die Präsenz mit einem Äderchen überzogen ist: Ein Gottesschwur wird den Fürsten ergreifen.
+33. BE ina SAG NA GU pa-rik ik-rib NU[N D]INGIR ul iš-me ina {giš}TUKUL ERIN₂ NUN ina DUGUD-ša₂ ŠUB-ut#
+#tr.en: Wenn an der Spitze der Präsenz ein Äderchen querliegt: Der Go[tt] hat das Gebt des Fürs[ten] nicht erhört. In der Kampf: das Heer des Fürsten wird im Gros fallen.
+34. BE ina MURUB₄ NA GU pa-rik NU KU₃ ana IGI SISKUR₂ ip-rik
+#tr.en: Wenn in der Mitte der Präsenz ein Äderchen querliegt: Eine unreine Person bereitete Schwierigkeiten beim Opfer.
+35. BE ina SUḪUŠ NA GU pa-rik BAD-it pu-ri-du ERIN₂ NUN KI DINGIR GU₃-si
+#tr.en: Wenn auf der Basis der Präsenz ein Äderchen querliegt: Laufen; das Heer des Fürsten wird nach dem göttlichen Willen schreien.
+36. BE SAG NA ka-bi-is₃ NUN# I.{d}UTU ŠA₃-šu₂ NU KUR-ad₂
+#tr.en: Wenn die Spitze der Präsenz weggedrückt ist: Die Klage des Fürsten wird (den Gott) nicht erreichen.
+37. BE MURUB₄ NA ka-bi-is₃ NU KU₃ SISKUR₂# TAG-ut
+#tr.en: Wenn die Mitte der Präsenz weggedrückt ist: Eine unreine Person hat das Opfer berührt.
+38. BE SUḪUŠ NA ka-bi-is₃ up-ša₂#-še-e NUN DU₃-šu₂ mam-ma KU₄#-[eb]
+#tr.en: Wenn die Basis der Präsenz weggedrückt ist: Das Ritual, das der Fürst durchgeführt hat, wird jemand anderes (im Tempel) einfüh[ren].
+39. BE SAG NA GAM-iš en-nu# AZAG [GU₇?-MEŠ?]
+#tr.en: Wenn die Spitze der Präsenz durchbohrt ist: Der en-Priester wird Tabuisiertes [entwenden].
+40. BE MURUB₄ NA GAM-iš KID.MAŠ AZAG# [GU₇?-MEŠ?]
+#tr.en: Wenn die Mitte der Präsenz durchbohrt ist: Der šangû-Priester wird Tabuisiertes [entwenden].
+41. BE SUḪUŠ NA GAM-iš D[AM KID.MAŠ AZA]G [GU₇?-MEŠ?]
+#tr.en: Wenn die Basis der Präsenz durchbohrt ist: Die Ehefrau des šangû-Priesters wird Tabuisiertes [entwenden].
+43. [B]E SAG NA GAM-iš-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di e[n-nu AZAG GU₇-ME]Š-ma DAB-m[a-ma GAZ-ak]
+#tr.en: [We]nn die Spitze der Präsenz durchbohrt ist und in ihrer Mitte ein Loch liegt: [Der en-Priester wird Tabuisiertes entwen]den, und er wird gefasst un[d getötet].
+44. BE MURUB₄ NA GAM-iš-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di K[ID.MAŠ AZAG GU₇-MEŠ-m]a DAB-m[a GAZ-ak]
+#tr.en: Wenn die Mitte der Präsenz durchbohrt ist und in ihrer Mitte ein Loch liegt: Der šangûPriester wird Tabu[isiertes entwenden, u]nd er wird gefasst u[nd getötet].
+45. BE SUḪUŠ NA GAM-iš-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di DAM# KID.M[AŠ AZAG GU₇-ME]Š-ma D[AB-ma GAZ-ak]
+46. BE SAG NA DU₈ [...]
+#tr.en: Wenn die Spitze der Präsenz abgelöst ist: …

@@ -1,0 +1,27 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: unknown
+counting: BE
+topic: lung
+publication: eBL HS 1951
+---
+
+1'. [BE ŠU.SI GIM SAG.DU EME.ŠID {giš}]TUKUL?# [LUGAL-GI.NA]
+#tr.en: [If the "finger" is like the head of a lizard:] weapon [of Sargon].
+2'. [BE ŠU.SI GIM SAG.DU al-lal-li] UMUŠ# KUR [MAN-ni]
+#tr.en: [If the "finger" is like the head of an allallu-bird:] the mood of the land [will change].
+$ single ruling
+3'. [BE ZAG ŠU.SI GIM kap-pi su-tin-ni ir-qiq] SU.GU₇ ina KUR GAL₂-š[i]
+#tr.en: [If the right side of the "finger" is thin like the wings of a bat:] there will be famine in the land.
+4'. [BE GUB₃ ŠU.SI GIM kap-pi su-tin-ni ir-qiq] SU.GU₇ ina KUR KUR₂ GAL₂-ši
+#tr.en: [If the left side of the "finger" is thin like the wings of a bat:] there will be famine in the enemy land.
+5'. [BE ZAG ŠU.SI u? GUB₃? ŠU.SI GIM kap-pi su-tin-ni ir-q]iq SU.GU₇ ŠE-im IN.NU u₃ U₂-MEŠ ina KUR GAL₂-š[i]
+#tr.en: [If the right and left side of the "finger" are thin like the wings of a bat:] there will be lack of barley, straw, and fodder in the land.
+$ single ruling
+6'. [BE ŠU.SI GIM ŠU.SI MUR MURUB₄ x x IG]I U₄-MEŠ NUN GID₂.DA-MEŠ
+#tr.en: [If the "finger" is like the middle "finger" of the lung and poi]nts towards [...:] the days of the prince will be long.
+7'. [BE ŠU.SI GIM ŠU.SI MUR x x x x x IGI-ma ZAG-ša₂ D]U₈ NUN KUR-su BALA-su
+#tr.en: [If the "finger" is like the ... "finger" of the lung, points towards ... and its right side is spl]it: the prince's land will rebel against him.
+8'. [BE ŠU.SI GIM ŠU.SI MUR x x x x IG]I GUB₃-ša₂ DU₈ NUN KUR-su BALA-su
+#tr.en: [If the "finger" is like the ... "finger" of the lung, points towards ... ] its left side is split: the prince's land will rebel against him.

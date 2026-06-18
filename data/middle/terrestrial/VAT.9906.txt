@@ -1,0 +1,73 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 18 = VAT 9906. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 32.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+[ ] x [ ] ina É NA ḪI.A te-bé TÙR?
+DIŠ MIN ina É NA ma nu šid i-du-la NÍG.x É BI GU7
+DIŠ MIN ana IGI NA ina SILA GIB KUR-ad ÁŠ
+DIŠ MIN ana IGI NA ina SILA iṣ?-ṣur KUR-ad ÁŠ
+DIŠ MIN ina DA? É NA Ù.TU? É BI ár?-bu-ta5 DU
+DIŠ MIN ina É NA ḫu-ṣa-ba ana KÁ È EN É
+mim-ma i-ḫal-laq
+DIŠ MIN ana DUG A.GEŠTIN.NA ŠUB-ma NU ÚŠ e!-peš É
+DIŠ MIN ana DUG KAŠ ŠUB-ma ÚŠ ZI.GA È
+DIŠ MIN ana DUG A.MEŠ ŠUB-ma ÚŠ INIM ki-num ina ŠÀ-šú NU DÙG
+DIŠ MIN ana DUG Ì ŠUB-ma ÚŠ INIM ḪUL-te ana IGI NA GIB
+DIŠ [M]IN ana I.DUB lǐ? šal x ŠUB-ma BA.ÚŠ
+ina É NA BI ZI.GA È INIM ḪUL-te IGI
+DIŠ MIN ina É NA ir-da-na-qu-ud É BI ŠÀ-šú DÙG
+DIŠ MIN ina É NA 2 U4 3 U4 4 U4 5 U4 6 U4 7 U4 U4.ME
+im-me-lil-ma ina É NA GU4.UD GU4.UD
+TUK-ši É BI NU SI.SÁ
+[DIŠ MIN ] ana É? [U]MBIN.MEŠ GAR.GAR-ma
+[ ] x nig ḪUL ana KI.GAR GIB
+[ ] x iq-ru-ur
+[ ] DAB-at
+[ (NU) KUR]-ad ÁŠ
+D[IŠ ]
+[DIŠ] MIN [ ]
+x [ ]
+[D]IŠ MIN ki? [ ]
+EN [ ]
+DIŠ MIN x ana DINGIR x [ ]
+É BI x [ ]
+DIŠ MIN ina KI.NÁ-šu i-[ ]
+DIŠ MIN x re?-e x [ ]
+DIŠ MIN ina SAG.MEŠ NA x [ ]
+DIŠ MIN ina GÌR.MEŠ' NA [ ]
+DIŠ MIN ina ŠÀ x [ ]
+DIŠ MIN lu ina ta?-[ ]
+ZI É [ ]
+DIŠ MIN TA x [ ]
+x [ ]
+DIŠ M[IN ]
+[DI]Š MIN [ ]
+DIŠ [M]IN ina É ri [ ]
+DIŠ MIN ina É ri sa[l ]
+DIŠ MIN ina É NA di [ ]
+[DIŠ MIN] x x [ ]
+[DIŠ MIN x].MEŠ x [ ]
+[ ] x x [ ] É NA x DU₈ [ ]
+[ ] x x [ ] x x UGU UDUN x [ ]
+[ ] x šum₄-ma x x [x] ši kàt ša e-li INIM S[IG₅ ]
+[ ] x x ina GE₆ IGI-šú ana {túg!}(Text: ki)GADA e-li INIM HUL [ ]
+[DIŠ MIN šá] 2 KUN.MEŠ-šá ina É NA IGI.DU₈ KUN-[sa?]
+x x x ma ina i-x x šú x x [u]š-te-ṣi? x [(x)]
+šum₄-ma GAZ!-ma il-te-qú [(x)] GIZKIM SIG₅ IGI x [(x)]
+šum₄-ma GAZ-ma NU il-te-qú GIZKIM HUL IGI x [(x)]
+DIŠ MIN ina UGU NA DU.DU U₄.MEŠ-šu GÍD.DA.MEŠ ana INIM SIG₅ GAR-š[ú]
+DIŠ MIN šá 2 [K]UN.MEŠ-šá ina É NA IGI INIM GÁL-ši
+[DIŠ MIN šá 3? K]UN.[MEŠ]-šá ina É NA IGI KI.MIN
+[DIŠ MIN ina É NA ina PAP u₄-me K]A-šu? ŠUB.ŠUB-di mi-qit-tu GÁL-[ši]
+[DIŠ MIN mi-it-tu₄ ina É N]A IGI É BI LAL
+[DIŠ MIN ina É NA ma-gal] ḪI.A ŠUB É [NA]
+[ ] da [ ] x ŠUB NA BI ÚŠ x zi
+[ ]-šú li x [ ] x
+[ ] x [ ] x

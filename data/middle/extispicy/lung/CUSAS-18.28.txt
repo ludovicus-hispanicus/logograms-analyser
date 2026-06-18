@@ -1,0 +1,172 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Sealand (First Sealand Dynasty; king Pešgal-darameš)
+counting: DIŠ
+topic: lung
+publication: CUSAS 18 no. 28 (George 2013)
+feature: ubān ḫašî qablītu (middle lobe of the lung)
+---
+
+@obverse
+
+$ (§1)
+1. [DIŠ U MUR MURUB₄ ši-n]a-ma# U# MUR# MURUB₄# 2#-tum# a#+na# SAG#.US₂# i#-la#-a# GIR₃# ša#-di#-i# a#+na# KUR#-ka# <ur>-ra#-d[a]
+#tr.en: [¶ (If) there are] two middle lobes of the lung and the second middle lobe of the lung rises up on the normal (one): foreign feet (lit. a foot from the mountain) will descend on your land.
+
+$ (§2)
+2. [DIŠ U MUR MURUB₄ ši]-na-ma# U# MUR# MURUB₄# 2#-tum# a#-na# SAG.US₂ i-la-am-ma u₃ GUB₃ DUH-er x x x im [... KUR]
+#tr.en.(o 3): [¶ (If) there are] two middle lobes of the lung and the second middle lobe of the lung rises up on the normal (one) and is fissured: . . . [the people of] a distant [land] will bring a saqū-garment(?) to the king.
+3. ($___$) [x] ru-uq-ti sa#-qa₂-a a#+na# LUGAL#-ri# u₂-ub-ba-la
+
+$ (§3)
+4. [DIŠ i+na EGI]R-at U MUR MURUB₄ GIR₃ eṣ-re-et x x i#+na# E₂# LU₂ u₂-uṣ-ṣi
+#tr.en: [¶ (If) on the] back of the middle lobe of the lung a foot-mark is drawn: . . . will leave the man's household.
+
+$ (§4)
+5. [DIŠ i+na UGU?] EGIR-a[t] U MUR MURUB₄ GIR₃ a+na KALAM er-be₂-et# KUR₂# u₂#-še-er-re-ba-am-ma i+na ŠA₃ KUR-ka N[AM.RA u₂-še-ṣe]
+#tr.en: [¶ (If) on top(?)] of the back of the middle lobe of the lung a foot-mark intrudes on the "land": the enemy will invade and [take plunder] from within your land.
+
+$ (§5)
+6. DIŠ SAG# [U MUR MURUB₄] a#+na# 1 DUH-er ši#-ni-it ṭe-e-mi
+#tr.en: ¶ (If) the top [of the middle lobe of the lung] is fissured once: loss of reason.
+
+$ (§6)
+7. DIŠ SAG U# MUR# MURUB₄# a#+na 2-šu DUH-er ba-ar-ti SUKKAL
+#tr.en: ¶ (If) the top of the middle lobe of the lung is fissured in two places: revolt by the vizier.
+
+$ (§7)
+8. DIŠ SAG U MUR MURUB₄ a+na 3-šu DUH-er LUGAL#-ra SUKKAL-šu KUM-šu
+#tr.en: ¶ (If) the top of the middle lobe of the lung is fissured in three places: the king's vizier will kill him.
+
+$ (§8)
+9. DIŠ SAG U MUR MURUB₄ a+na 4-šu DUH-er ki#-ṣir-ti ERIN₂-ni-ka KUR₂ u₂-par-ra-ar
+#tr.en: ¶ (If) the top of the middle lobe of the lung is fissured in four places: the enemy will turn your army's good order into disarray.
+
+$ (§9)
+10. DIŠ SAG U MUR MURUB₄ a+na 5-šu DUH-er {d}IŠKUR KALAM-ta <i>-ra-hi-iṣ
+#tr.en: ¶ (If) the top part of the middle lobe of the lung is fissured in five places: Adad will devastate the land.
+
+$ (§10)
+11. [DIŠ Z]I U MUR MURUB₄ i+na SAG-šu DUH-er me-hi-iṣ SAG.DU ši-ni-it ṭe-e-mi KUR₂ pa-li-li-ia u₂-KU-b[a]
+#tr.en: [¶ (If)] the right of the middle lobe of the lung is fissured at its top: a blow on the head, loss of reason; the enemy will force my vanguard to come home.
+
+$ (§11)
+12. [DIŠ ZI U MUR] MURUB₄# i+na MURUB₄-šu DUH-er ṣi-it ba-ab-ti i+na E₂ LU₂ u₂-uṣ-ṣi
+#tr.en: [¶ (If) the right of] the middle lobe of the lung is fissured at its waist: commercial liabilities will leave the man's household.
+
+$ (§12)
+13. [DIŠ ZI U MUR] MURUB₄ i+na SUHUŠ-šu DUH-er mi-il-[la-t]um pi-ri-it-tum i+na E₂ LU₂ ṣi-t[um]
+#tr.en: [¶ (If) the right of] the middle [lobe of the lung] is fissured at its base: pilfering; terror in the man's household; loss.
+
+$ (§13)
+14. [DIŠ GUB₃ U] MUR MURUB₄# i+na# SAG-šu DUH-er me-hi-iṣ S[AG.DU š]i-ni-it ṭe-e-mi pa-li-il KUR₂-ri [KU₄-eb]
+#tr.en: [¶ (If) the left of] the middle [lobe] of the lung is fissured at its top: a blow on the head, loss of reason; [you will force] the enemy's vanguard [to go home.]
+
+$ (§14)
+15. [DIŠ GUB₃] U# MUR MURUB₄# i+na# MURUB₄-šu DUH-er 1-ta-at x x x tu-ur-ra-ak ku i x x x x x [...]
+#tr.en: [¶ (If) the left of] the middle lobe of the lung is fissured at its waist: for one . . . you must prolong (your wait?); . . . [. . .]
+
+$ (§15)
+16. [DIŠ GUB₃ U MU]R MURUB₄ i+na SUHUŠ-šu DUH-er LU₂ ši-bu-tam i#-ši#-eb#-bi
+#tr.en: [¶ (If) the left of] the middle lobe of the lung is fissured at its base: the man will attain ripe old age.
+
+$ (§16)
+17. [DIŠ ŠU.SI MU]R MURUB₄# ZI-ša a#+na# ZI# DUH-[er] [gab]a-ra-ah ERIN₂.ERIN₂-ni ERIN₂.ERIN₂+an-ka i#+na# SAG A#.ŠA₃# DINGIR#-[MEŠ-ša iz-zi-bu-ši]
+#tr.en: [¶ (If)] the middle [lobe of] the lung's right side is fissured to the right: mutiny of the army; your army's gods [will desert it] at the destination.
+
+$ (§17)
+18. [DIŠ ŠU.SI MU]R MURUB₄ ZI-ša a+na GUB₃ DUH#-er i+na {giš}TUKUL KUR₂-rum ERIN₂.ERIN₂-ni# i-sa₃-a[k]-ki#-i[p]
+#tr.en: [¶ (If)] the middle [lobe of the lung,] its right side is fissured to the left: in war, the enemy will repulse my/our army.
+
+$ (§18)
+19. [DIŠ ŠU.SI MUR] MURUB₄# GUB₃#-ša# a#+na# [ZI] DUH-er gaba-ra-ah ERIN₂.ERIN₂ KUR₂-ri ERIN₂.ERIN₂ KUR₂-r[i i+n]a [SAG A.ŠA₃ DINGIR-MEŠ-ša iz-zi-bu-ši]
+#tr.en: [¶ (If)] the middle [lobe of the lung,] its left side is fissured to the right: mutiny of the enemy's army; [the gods of] the enemy's army [will desert it at the destination.]
+
+$ (§19)
+20. [DIŠ ŠU.SI MUR MURUB₄ GUB₃-ša a-na GUB₃ D]UH-er i+na {giš}TUKUL ERIN₂.ERIN₂ KUR₂-ri ta-sa₃-[ak-k]i-i[p]
+#tr.en: [¶ (If) the middle lobe of the lung, its left side] is fissured [to the left:] in war, you will repulse the enemy's army.
+
+$ (§20)
+21. [DIŠ SAG U MUR MURUB₄ ZI u₃ GUB₃] DUH-ur pi-it-ru-[uš/iš-t]um
+#tr.en: [¶ (If) the top of the middle lobe of the lung] is fissured [on the right and the left:] divergence.
+
+$ (§21)
+22. [DIŠ MURUB₄ U MUR MURUB₄ ZI u₃ GU]B₃ DUH-ur NIN.DINGIR uš-ta-ah-ha [x x x x] x an x [x x]
+#tr.en: [¶ (If) the waist of the middle lobe of the lung] is fissured [on the right and the left:] a high priestess will be defiled by sexual intercourse; . . .
+
+$ (§22)
+23. [DIŠ SUHUŠ U MUR MURUB₄ ZI u₃ GU]B₃ DUH-ur eš-re-et KUR in-na-a-di-a KUR har-b[u-tam %n illak]
+#tr.en: [¶ (If) the base of the middle lobe of the lung] is fissured [on the right and the left:] the sanctuaries of the land will be abandoned; the land [will be] depopulated.
+
+$ (§23)
+24. [DIŠ ...] x-tum DUH-er KUR₂-rum KI-ka i-b[a-q]a₂-[ar]
+#tr.en: [¶ (If) . . . ] is fissured: the enemy will [claim] some of your territory.
+
+$ (§24)
+25. [DIŠ ...] x DUH-er KI KUR₂-ri t[a-ba-qa₂-ar]
+#tr.en: [¶ (If) . . . ] is fissured: you [will claim] some of the enemy's territory.
+
+$ (§25)
+26. [DIŠ ... D]UH-er EN-el a-ma-ti-ka [UGU-ka iz-za-az]
+#tr.en: [¶ (If) . . . is] fissured: your opponent in court [will triumph over you.]
+
+$ (§26)
+27. [DIŠ ... DUH]-er# UGU## EN a-ma-ti-k[a ta-az-za-az]
+#tr.en: [¶ (If) . . . is] fissured: [you will triumph] over your opponent in court.
+$ rest of obverse missing
+#note: §§ 22-62 lost
+
+@reverse
+
+$ (§63)
+1'. [DIŠ ŠU.SI] MUR# MURUB₄# [...]
+#tr.en: [¶ (If) the] middle [lobe] of the lung [. . . . . .]
+
+$ (§64)
+2'. [DIŠ ŠU.S]I MUR MURUB₄ u₂#-x# x [...]
+#tr.en: [¶  (If) the] middle lobe of the lung is . . . [ . . . . .]
+
+$ (§65)
+3'. [DIŠ ŠU.S]I MUR MURUB₄ bu-ub-bu-u[h-tam ma-li-a-at? ...]
+#tr.en: [¶ (If) the] middle lobe of the lung [is full(?)] of boils: [. . .]
+
+$ (§66)
+4'. [DIŠ ŠU.S]I MUR MURUB₄ ki-ma u-ṣi r[u-ša GAR-at₂-ma ...]
+#tr.en: [¶ (If) the] middle lobe of the lung [has a ruddy sheen] like an arrowhead: [. . .]
+
+$ (§67)
+5'. [DIŠ ŠU.S]I MUR MURUB₄ ki#-ma# u-ṣi ru-ša# GAR#-[at₂-ma ...]
+#tr.en: [¶ (If) the] middle lobe of the lung has a ruddy sheen like an arrowhead [and . . . : . . .]
+
+$ (§68)
+6'. [DIŠ ŠU.S]I MUR MURUB₄# <ki-ma u>-ṣi ru-ša GAR-at₂-ma GU₂.MUR x [...]
+#tr.en: [¶ (If) the] middle lobe of the lung has a ruddy sheen [like an] arrowhead and [. . .] the windpipe: [. .]
+
+$ (§69)
+7'. [DIŠ ŠU].SI MUR MURUB₄ ki-ma lu-hu-um-me₂-e ṣa-al-m[a-at ...] x x [...] x x [x]
+#tr.en: [¶ (If) the] middle lobe of the lung is black like mud: . . .
+
+$ (§70)
+8'. [DIŠ Š]U.SI MUR MURUB₄# ar-qa₂-at [...]
+#tr.en: [¶ (If) the] middle lobe of the lung is yellow: [. . .]
+
+$ (§71)
+9'. [DIŠ S]AG? U MUR MURUB₄-ti TAR-ri-ik KUR₂ is-sa-ak-k[i-ip] x x x iz [x]
+#tr.en: [¶ (If) the] top(?) of the middle [lobe] of the lung is dark: the enemy will be repulsed [. . .]
+
+$ (§72)
+10'. DIŠ ŠU.SI MUR MURUB₄ tar-ka-at x [x x] ki i x x x [x]
+#tr.en: ¶ (If) the middle lobe of the lung is dark: . . .
+
+$ (§73)
+11'. DIŠ EGIR-at U MUR MURUB₄ TAR-ri-ik [(x)] ta-ah-ha-[ba-at?]
+#tr.en: (If) the back of the middle lobe of the lung is dark: you shall make a [raid(?).]
+$ single ruling
+
+@colophon
+12'. ŠU#.NIGIN# 73 MU ŠU!.[SI MU]R MURUB₄# KI#.3
+#tr.en.(r 15'): Total 73 lines, middle lobe [of the] lung, third (section). By hand of Ištar[-. .]-nīri, 2nd day of Addar, year king Pešgal-darameš (. . .)
+13'. NIG₂.ŠU iš₈-tar-x [x] x-ni-ri
+14'. ITI.ŠE.KIN.KUD UD.2.KAM
+15'. %sux mu peš₁₁-gal-dara₂#-meš lugal-e

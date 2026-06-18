@@ -1,0 +1,52 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+counting: line
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 57 (VAT 10142 = KAR 437)
+feature: ubān ḫašî qablītu (middle lung-finger)
+note: fragmentary; obverse mostly apodoses; translations in Heeßel 2012
+---
+
+@obverse
+3. [ K]UR₂ [ ]
+7. [ ] A.DAM.MEŠ-šu x [x] x
+8. [ ] ša₂ KUR KUR₂ ina A.DAM.MEŠ-šu TUŠ-ab
+9. [ NUN ina BAD₄] DAB-šu E₃-ṣi ša₂-niš li-it KUR₂ DUGUD GAR-an
+10. [ NUN ina BA]D₄ DAB-šu NU E₃-ṣi ša₂-niš KUR₂ li-ti DUGUD G[AR]-an
+11. [ URU ZAG]-ka KUR₂ TI-qe₂ ina {giš}TUKUL KUR₂ ina KI.GUB-ka GUB-ma BAD.BAD-ka GAZ-ak
+12. [ ] URU ZAG KUR₂ TI-qe₂ ina {giš}TUKUL ina KI.GUB KUR₂ GUB-ma BAD.BAD KUR₂ GAZ-ak
+13. [ ] KUR₂ ana KUR-ia iḫ-ḫab-ba-tu₂-ma GAZ-ni
+14. [ ] ana KUR KUR₂ iḫ-ḫab-bat-ma KUR₂ GAZ-ak
+15. [ ] IGI ni-tu KUR NIGIN-mi
+16. [ I]GI ni-tu KUR KUR₂ NIGIN-mi
+17. [ ] EN-šu ḪI.GAR-a₂r
+18. [ ] EN-šu DAB-bat
+19. [ ina {giš}TUKUL KUR₂ ina KI.GU]B-ka GUB-ma BAD.BAD-ka GAZ-ak
+20. [ ina {giš}TUKUL ina KI.GUB KUR₂ GU]B-ma BAD.BAD KUR₂ a-dak
+21. [ BA]D.BAD KUR₂ a-dak
+22. [ KUR₂ BAD.BAD]-ka GAZ-a[k]
+23. [ ] x GIG TI
+24. [ ] x GIG [UŠ₂]
+
+@reverse
+2'. [ ] x tu ina E₂ NA GAL₂-ši x x [ ]
+3'. [ ] si-li-ʾi-ti MUNUS u [ ]
+4'. [ ] EN in-na-aš-ši URU MAN EN.MEŠ.BI [ ]
+5'. [ ] URU KUR₂ EN.MEŠ.BI x [ ]
+6'. [ NUN DINGIR.ME]Š-šu ze-nu-tu GUR.MEŠ-šu-ma EGIR MU KUR NU ša₂-tu₄ KUR-[ad]
+7'. [ ]-šu₂ DU₃ DAM BI E₂-su DAGAL-ma [x]
+8'. [ ši]-bu-ut URU ana KUR₂ iš-ta-na-pa-ru šum₄-ma {uru}BAD₄ x [x] SUM.M[E]Š
+9'. [ D]U₃ DAM BI MAN-ma BA.TUK
+10'. [ ] x : BE NIG₂.GEŠTU ŠU.SI MUR MURUB₄ i-ṣu-ud KI.MIN-ma
+11'. [ : BE] ŠU.SI MUR MURUB₄ ana ZAG saḫ-pa-at KUR₂ ina KI.GUB-ia₅ GUB-az
+12'. [ : BE Š]U.SI MUR MURUB₄ pur-qi₂-dam ŠUB NA BI DAM-su uš-dak-šu
+13'. [ ] x URU ZAG-ka ša₂ BAL-ka GUR-ki
+14'. [ ] x URU ZAG-ia ana KUR₂ BAL-at
+15'. [ :] BE NIG₂.GEŠTU ŠU.SI MUR MURUB₄ ana GUB₃ qu-bu-rat! KUR KUR₂ ana BAD₄ NIGIN-ur
+16'. [ ] x kur me meš? ana {giš}TUKUL IGI.IGI-tu[₄]
+17'. [ ] SUHUŠ ERIN₂-ia NU GI.NA
+18'. [ ] SUHUŠ ERIN₂-ia NU GI.N[A]
+19'. [ ] SUHUŠ.AM₃ K[I.TUŠ ne-eḫ-tu₄]
+20'. [ ] (Rasur) [EG]IR? BI [ ]

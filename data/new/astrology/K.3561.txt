@@ -1,0 +1,107 @@
+---
+exclude: true  # Rochberg source subsumed in EAE20/RecA-RecB composites; held out to avoid double-count
+genre: astrological omens
+period: Neo Babylonian
+provenance: Nineveh (Babylonian recension)
+counting: DIŠ
+topic: lunar eclipse
+series: Enūma Anu Enlil 20
+recension: B (Babylonian)
+edition: Rochberg-Halton 1988 (AfO Beih. 22), EAE 20 source S = K. 3561(+)6141, recension B backbone. Transcribed paragraphs — Intro, §§ I, I.2, II, III, IV, X, XI, XII (matching the coverage of Rec. A witness Sm 246+561 for a topic-controlled A-vs-B comparison).
+source: hand-transcribed from Rochberg's "Recension B Transliteration" partitur (the numbered reference line ≈ source S, with brackets where S is broken; restorations in §§ III and X–XII partly from sources U/T). Not in eBL. Determinatives normalized to {} to match the eBL-sourced files.
+note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = editorial restoration; the schematic Intro (§§ before §I) is a recension-B-only paradigm and is kept in a separate @introduction section.
+---
+
+@introduction
+1. DIŠ ina {iti}[...] AN.MI GAR-ma ina IM.SI SAR-[ma ina IM.SI ZALAG₂ AN.MI LUGAL URI{ki}]
+2. DIŠ ina UD.14.KAM AN.MI GAR-ma ina IM.SI SAR-[ma ina IM.SI ZALAG₂ AN.MI LUGAL NIM.MA{ki}]
+3. DIŠ ina UD.14.KAM AN.MI GAR-ma ina IM.KUR SAR-[ma ina IM.KUR ZALAG₂ AN.MI LUGAL MAR.TU{ki}]
+4. DIŠ ina UD.14.KAM AN.MI GAR-ma ina IM.MAR SAR-[ma ina IM.KUR ZALAG₂ AN.MI LUGAL SU.BIR₄{ki}]
+5. DIŠ ina la mi-na-ti-šú AN.MI GAR ub-bu-tú [GÁL-ši ...]
+
+@obverse
+6. DIŠ ina {iti}BARA₂ UD.14.KAM AN.MI GAR-ma DINGIR ina KA×MI-šú Á IM.U₁₈.LU AN.TA KA×MI-ma
+7. [Á IM.SI.SÁ KI.TA iz-ku ina ŠÀ.HUL ir-b]i-ma [...]-ú-qat-ti
+8. ilu šá ina KA×MI-šú Á IM.U₁₈.LU AN.TA KA×MI-m[a Á IM.SI.SÁ] KI.TA iz-ku-ú
+9. [ina ŠÀ.H]UL-šú ir-bu-ú KA×MI-šú IGI-[ma] IM.[MAR.TU ina ŠU-ka tu-kal]
+10. [ina ŠÀ ana KUR] A.GA.DÈ{ki} ù LUGAL A.GA.DÈ{ki} [EŠ.BAR] SUM-in
+11. LUGAL A.GA.DÈ{ki} URU{ki}-šú u ni-ši-[šú šal-mu BAL A.GA.DÈ{ki} in-niš-ši]
+12. EGIR.MEŠ-šú i-da-mi-qá DINGIR šá ina KA×MI-[šú EN.NUN U₄.ZAL.LI SAR-ma]
+13. 2/3.TA.ÀM uh-hu-ra-ma iz-ku-ú u ina ŠÀ.HUL ir-bu-ú ina {iti}B[ARA₂ UD.28.KAM]
+14. [šu-ri-in]-ni-šú IGI-ma {mul}dil-bat ina ŠÀ-šú T[U DUMU] LUGAL ana É AD-šú TU-ub
+15. [ina] {iti}GAN UD.28.KAM SAG IGI.DU₈.A-šú IGI-m[a]
+16. [UD.NÁ.À]M [AN.MI ú-kal-lam]-k[a ...]
+17. [...] GABA.RI KI [...]
+
+@section-I-2
+18. [DIŠ ina] {iti}BARA₂ UD.14.KAM A[N.M]I GAR-ma DINGIR ina KA×MI-šá Á IM.SI.SÁ AN.TA KA×MI-ma Á IM.U₁₈.LU KI.TA iz-ku
+19. IM.MAR.[TU EN.NUN U₄.ZAL.LI im-šu-ul]-ma EN ša-mi-ir i-lik {d}UTU [ina] IGI DINGIR šá ina KA×MI-šú
+20. [Á IM].SI.SÁ AN.TA KA×MI-ma Á IM.U₁₈.LU KI.TA iz-ku-ú Á KA×MI-šú IGI-ma IM.MAR.TU ina ŠU-ka tu-kal
+21. ina ŠÀ ana NIM.MA{ki} EŠ.BAR SUM-in KUR.NIM.MA{ki} ana DU₆-tú KAR-aʾ [...] MEŠ NÍG.ŠU ana KAR.MEŠ [...]
+22. LUGAL [LUGAL] i-šag-gi-iš KUR sa-ki-il-tum KUR u [...]
+23. [LUGAL AŠ].TE GAL BE-na LUGAL ana AŠ.TE GAL E₁₁-ma UN.MEŠ NU TAK₄-šú ú-kal-l[am ...]
+24. [LUGAL qa]-du IM.RI.A-šú GAZ-ma KUR ana KUR i-ru-biš uš-tal-pat
+25. KUR GAL ana KUR TUR ana TI.LA DU KUR [URI] ilu šá ina SAG IGI.DU₈.A-šú
+26. [ŠI ZAG]-šú AN ti-ri-at ana {iti}BARA₂ UD.14.KAM AN.MI ta-qab-bi UD.NÁ.ÀM AN.MI ú-[kal-lam-ka]
+
+@section-II
+27. DIŠ ina {iti}GU₄ UD.14.KAM AN.MI GAR-ma DINGIR ina KA×MI-šú Á IM.SI.SÁ AN.TA KA×MI-ma
+28. [Á] IM.U₁₈.LU KI.TA iz-ku IM.KUR.RA EN.NUN AN.USAN₂ [...]
+29. [EN na]-pa-hi šá ina GUD-ma KI {d}UTU IGI DINGIR šá ina KA×MI-šú Á IM.SI.SÁ AN.TA K[A×MI-ma]
+30. [Á IM].U₁₈.LU KI.TA iz-ku KA×MI-šú IGI-ma IM.KUR.RA in[a ŠU-ka tu-kal]
+31. [...] ub-bu-tú GÁL.MEŠ KUR NÍG.TUK [TUK]
+32. [ina ŠÀ ana URI₅]{ki} LUGAL URI₅{ki} EŠ.BAR SUM-in ina URI₅{ki} {d}šal-bat-a-nu [...]
+33. {d}šal-bat-a-nu HÉ.NUN GAR [...]
+34. [LUGAL] URI₅{ki} BAL-šú TIL ina {iti}BARA₂ [...]
+35. ina {iti}BARA₂ UD.28.KAM SAG [IGI.DU₈.A-šú] IGI-ma ina {iti}GU₄ UD.14.KAM AN.MI [ta-qab-bi UD.NÁ.ÀM AN.MI ú-kal-lam-ka]
+
+@section-III
+36. DIŠ ina {iti}SIG₄ UD.14.KAM AN.MI GAR-ma DINGIR ina KA×MI-šú Á IM.KUR.RA AN.TA KA×MI-ma
+37. [Á IM.MAR.TU KI.TA iz-ku] IM.SI.SÁ EN.NUN AN.USAN₂ [im-šu-ul k]i [...]
+38. [DINGIR š]á ina KA×MI-šú Á IM.KUR.RA AN.TA KA×MI-ma Á IM.MAR.TU KI.TA
+39. iz-ku-ú KA×MI-šú IGI-ma IM.SI.SÁ ina ŠU-ka tu-kal [...]
+40. A.KAL KIŠ DU-kam {giš}TUKUL BURU₁₄.RA-ú ÉRIN.HI.A i-na-hat [...]
+41. [ina ŠÀ URI₅]{ki}-ma EŠ.BAR SUM-in URI₅{ki} Ú.GUG IGI NAM.BE.MEŠ i-[man-du LUGAL URI₅{ki}]
+42. [DUMU] URI₅-šú i-ha-bil-šú-ma DUMU ha-bil a-bi-šú MAN KUR-su-ma ina GI.HUL [AD]-šú BE
+43. [DUMU] LUGAL šá ana NAM.LUGAL la zak-ru AŠ.TE DIB-bat
+44. ina {iti}BARA₂ UD.28.KAM SAG IGI.TAB-šú IGI.TAB-ma ina {mul}Á{mušen} [...]
+45. ina {iti}SIG₄ UD.14.KAM AN.MI ta-qab-bi U[D.NÁ.ÀM AN.MI ú-kal-lam-ka]
+
+@section-IV
+47. DIŠ ina {iti}ŠU UD.14.KAM AN.MI GAR-ma DINGIR ina KA×MI-šú Á IM.KUR.RA AN.TA KA×MI-ma
+48. Á IM.U₁₈.LU KI.TA iz-ku IM.SI.SÁ EN.NUN AN.USAN im-šu-ul
+49. ina ša-ri-in-ni-šú MUL.MEŠ AN.TA È.MEŠ-ni DINGIR šá ina KA×MI-šú Á IM.KUR.RA AN.TA KA×MI-ma
+50. Á IM.U₁₈.LU KI.TA iz-ku KA×MI-šú IGI-ma IM.SI.SÁ ina ŠU-ka tu-kal ina {iti}ŠU ina la mi-na-tí-šú [...]
+51. ub-bu-tú GÁL.MEŠ LUGAL ša EN BE URU.DIDLI ZÁH.MEŠ ina ŠÀ URI₅{ki} EŠ.BAR SUM-in
+52. ina URI₅{ki} EZEN.MEŠ-šú i-mid-da UN.MEŠ-šú nu-uh-šá IGI.MEŠ
+53. UZU.MEŠ-šú-nu DÙG.MEŠ KI.LAM SIG₅ [...] DUMU DUMU šá LUGAL GIŠ.GU.ZA DIB-bat
+54. [LUGAL] qá-du qin-ni-šú GAZ EN.NUN AN.USAN im-tu-ul-ma [...] EN IM.RI.A [...]
+55. ina {iti}BARA₂ UD.28.KAM SAG IGI.TAB-šú IGI.TAB-ma ina {iti}ŠU UD.14.KAM AN.MI ta-qab-bi [UD.NÁ.ÀM AN.MI ú-kal-lam-ka]
+
+@section-X
+24. [DIŠ ina] {iti}AB UD.14.KAM AN.MI GAR-ma [DINGIR ina KA×MI-šá Á IM.KUR.RA AN.TA KA×MI-ma Á IM.U₁₈.LU KI.TA iz-ku]
+25. [IM].MAR.TU EN.NUN U₄.ZAL.LI SAR-ma la ú-qat-ti SI.MEŠ-šú mit-ha-ra DIŠ NU ik-[bi]-ir DIŠ NU iq-tin DINGIR šá ina KA×MI-šú SI.MEŠ-šú
+26. [mit-ha-ra DIŠ] NU ik-bi-ru DIŠ NU iq-ti-nu KA×MI-šú IGI-ma IM[.MAR.TU ina ŠU-ka tu-kal]
+27. [...] GÁL KI.LAM [TUR ...]
+28. [...] ina ŠÀ ana SU.BIR₄{ki} EŠ.BAR SUM-in [...] ŠEŠ ŠEŠ i-ra-sip [... UN.MEŠ]
+29. [ŠUB.MEŠ] al-ma-na-tu ú-[min-da LUGAL SU.BIR₄{ki}] KUR.KUR [i-sa-lim ...]
+30. [...] EN.NUN MURUB₄.BA ú-šar-ri-ma la ú-qat-ti ki-a-am GISKIM-šú EŠ.BAR-šú
+
+@section-XI
+31. [DIŠ ina] {iti}ZÍZ UD.14.KAM AN.MI GAR-ma [DINGIR ina KA×MI-šá Á IM.U₁₈.LU AN.TA KA×MI-ma Á IM.KUR.RA KI.TA iz-ku]
+32. [IM.SI.SÁ EN].NUN U₄.ZAL.LI ú-šar-r[i-ma KI {d}UTU IGI-ir ŠU.NIR x-šú NU] DUL-ma it-bal [...]
+33. [ina UD.28.KAM IGI]-šú-ma u AN.MI qur-ru-ub SAR-ma SA₅-ma AN.M[I ú]-šá-kal-lam-ka DINGIR šá ina KA×MI-šú [...]
+34. [KA×MI-šú] IGI-ma IM.SI.S[Á ina ŠU-ka tu-kal ina ŠÀ] ana KA.DINGIR.RA{ki} EŠ.BAR SUM-in [KA.DINGIR.RA{ki} ZÁH-šú qur-ru-ub]
+35. [...] KUR.KUR SAG [...] GAR.MEŠ [...]
+36. [...] GAR-an [...] ina DINGIR ina KA×MI-šú [MI is-suh]
+37. [...] EBUR.SI.SÁ GAR [...]
+
+@section-XII
+38. [DIŠ ina] {iti}ŠE UD.14.KAM AN.MI GAR-ma [DINGIR ina KA×MI-šá Á IM.SI.SÁ AN.TA KA×MI-ma Á IM.KUR.RA KI.TA iz-ku]
+39. [IM.KUR.RA EN.NUN U₄.ZAL.LI] BE DINGIR ŠI-šá NU IGI-ir ina GAL-šú IGI-ir [DINGIR šá ina KA×MI-šú ...]
+40. [...] KA×MI-šú IGI-ma IM.KUR.RA ina [ŠU-ka tu-kal ...]
+41. [...] A.ZI.GA ina ZU.AB.BA ib-bu-tú GÁL.MEŠ ÉRIN-ma-a-[du ...]
+42. [...] IGI.NIGIN GÁL.MEŠ ina ŠÀ ana KUR.MAR.TU{ki} EŠ.BAR SUM-in KUR.MAR.TU{ki} [...]
+43. [...] KUR MAN x x URU.DIDLI uš-tal-[pat ...]
+44. [... {mul}SIPA.ZI.AN].NA EN [...] KI NAM.LÚ.U₁₈.LU MÁŠ.{anše} AB.GUD.HI.A IGI-ir
+45. [KUR is-ar-ru-ur uh]-hur-rat UN.MEŠ BE.MEŠ DINGIR ina KA×MI-[šá EN.NUN U₄.ZAL.LI BE KA×MI-ma ...]

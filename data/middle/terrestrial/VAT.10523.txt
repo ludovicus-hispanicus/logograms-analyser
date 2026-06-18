@@ -1,0 +1,113 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 14 = VAT 10523 (+) A 10. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 22-23 (snakes).
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+[ ]
+[ IT]I 3-KÁM
+[ ] TI-uṭ
+[ ] BA.ÚŠ
+[ ] DAB-su
+[ ] x GAR-an
+[ ] ina la-li-šu BA.ÚŠ
+[ É B]I BIR-aḫ
+[ B]A.ÚŠ
+[ ] (leer)
+DIŠ i+na {iti}BÁRA T[A ]
+DIŠ i+na {iti}BÁRA TA U[₄ 1-KÁM ]
+DIŠ ina ZAG.MU ina {iti}BÁRA' [U₄ 1-KÁM lu ina {iti}GU₄ U₄ 1-KÁM lu ina kal u₄-mi lu ina kal GE₆ MUŠ LÚ IGI(.DU₈) LÚ BI]
+ina ŠÀ MU.BI BA.ÚŠ šum₄?-ma? LÚ? [BI TI ḫa-šiḫ SAG.DU-su ú-ḫar-ra-ár TE.MEŠ-šú ú-gal-lab 3 ITI.MEŠ šú-nu-ti]
+uš-ta-pa-šaq-ma TI-uṭ KI.MIN [ZI-bu kaš-du LÚ BI Á.GU ZI.GA ana {d}AMAR.UTU ú-še-di-ma SIG₅ KI.MIN KI.ŠÚ]
+GIG IGI LÚ BI a-na {d}AMAR.UTU i-[še-e'-ú-ma ḪUL.BI DU₈]
+DIŠ {iti}GU₄ MUŠ ana UGU LÚ ŠUB-ut LÚ B[I ]
+DIŠ {iti}SIG₄ MUŠ lu ana IGI LÚ &lt;lu&gt; a-na [EGIR LÚ ŠUB-ut ]
+DIŠ {iti}ŠU MUŠ LÚ IGI.DU₈ [ ]
+DIŠ {iti}NE MUŠ LÚ IGI.DU₈ [ ]
+DIŠ {iti}KIN MUŠ LÚ IGI.DU₈ [ ]
+D[IŠ {i}]{ti}DU₆ MUŠ LÚ IGI.DU₈ [ ]
+[DIŠ {iti}APIN M]UŠ L[Ú IGI].DU₈ [ ]
+DIŠ MUŠ a-[na UGU LÚ ša di-na gi-r]u-ú ŠUB-ut DI BI [0] GÍD.DA.MEŠ
+DIŠ MUŠ a-na UGU LÚ ša DI-na GÍD.DA.ME ŠUB-ut DI BI TIL-ár
+DIŠ MUŠ iṣ-bur-ma a-na UGU LÚ ša DI gi-ru-ú ŠUB-ut EN INIM-šú uš-te-me-eq-šú
+DIŠ LÚ ša DI gi-ru-ú MUŠ iš-šu-uk-šu ŠU.BI.AŠ.ÀM
+DIŠ MUŠ iṣ-bur-ma KI.MIN ŠU.BI.AŠ.ÀM
+DIŠ MUŠ a-na UGU LÚ šá ina KI.ŠÚ ŠUB ŠUB-ut LÚ BI ina KI.ŠÚ-šu È-ma LÚ kár-šu SILIM
+DIŠ MUŠ LÚ IGI-ma GAZ-šú LÚ BI a-di-ra-tu-šú NU TE-šú MUŠ BI ḪUL-šú it-bal
+[D]IŠ MUŠ LÚ IGI-ma ú-gal-lit-su ú-lu SAG.DU-su ik-bu-us-ma i-ta-dar ZI.GA še-im
+LÚ BI {d}AMAR.UTU ú-šal-la-ma SIG₅ IGI
+[DIŠ M]UŠ gi-na-a ka-la-šu a-na IGI LÚ ip-ta-na-ar-rik SAG-tuk na LAL-ti
+[DIŠ MU]Š a-na bi-rit NITA u MUNUS ŠUB-ut lu i+na-bít lu ina ze-nu-ti TAR.MEŠ
+[DIŠ MUŠ] a-na bi-rit NITA u MUNUS ŠUB-ut-ma NU È GAZ-šú ḪUL-šu DU₈-ir
+[DIŠ MUŠ a-ša]r [N]ITA u MUNUS KI.TUŠ.MEŠ ù-lu GUB.MEŠ a-na bi-ri-šú-nu ŠUB-ut-ma IGI.MEŠ NITA u MUNUS TAG₄ NITA &lt;TI?&gt;-uṭ?
+[DIŠ MUŠ a-ša]r EN é NIN É! DUMU.MEŠ É ÌR u GÉME NIGIN.MEŠ ana bi-ri-šú-nu ŠUB-ut EN É úŠ-ma É BIR
+[DIŠ MUŠ ana UGU MUNUS.UŠ.BAR.MEŠ ŠUB-ut-ma ú-dal-li-iḫ-ši-na-ti TÚG BI ina ŠÀ.BI NU DÙG.GA ut-ta-ka-as
+[DIŠ MUŠ ana UGU MUNUS.UŠ.B]AR.MEŠ ŠUB-ut-ma ana ŠÀ GU-e iḫ-lu-qú MUNUS.UŠ.&lt;BAR&gt;.MEŠ ši-na ana 2 ITI BA.ÚŠ.ME ti-bu dan-nu
+[TÚG BI] ina ŠÀ BI NU DÙG.GA KUD.KUD
+[DIŠ MUŠ ina É LÚ ma-gal ŠU]B.ŠUB-ut ina É LÚ ÚŠ BA.ÚŠ
+# --- page_002 ---
+[DIŠ MUŠ ina É LÚ DU.DU-ak] É BI [Š]UB-di
+[DIŠ MUŠ ina É LÚ GUB.MEŠ-az] LÚ BI NAM.ÉRIM DAB-su
+[ ] x a-na ÙR E₁₁.MEŠ É BI BIR-aḫ
+[ ] LÚ BI MU-šú!?(HU)[L] iz-za-kar
+[ LÚ B]I {d}ALAD!? TUK-ši!(Text: šú)
+[ ] ti zi šú NU SI.SÁ
+[ DAM u D]AM TAG₄.ME
+[ L]Ú-šú ŠÀ-šú
+[ ] x BI BA.ÚŠ
+[ ] É BI BIR-aḫ
+[ ] SAG-su-nu GAR
+[ ] BI x
+[ ] kiš
+[ ] É
+[ ] É
+[ ] É
+[ M]UŠ BI NU GAZ-šú EN ḪUL-šú uš-te-me-eq-šú
+[ ] EN ḪUL-šu GAZ-šu
+[ ] x ti UKKIN-ši-na BIR-aḫ
+[ ] NIGIN LÚ BI MU 3-KÁM ina KI.ŠÚ ŠUB-di DINGIR NIGIN-ma TI-uṭ
+[LÚ B]I? {d}AMAR.UTU i-še(Text: kur)!-ú!-ma GIZKIM KI.ŠÚ &lt;DIB&gt;-iq-šú
+[ N]IGIN LÚ BI ina pú-uš-qí u MUNUS.KALA.GA È-ṣi
+[DIŠ MUŠ ina É? L]Ú še-ni-šú NIGIN LÚ BI NU dul-lu DAB-su
+[DIŠ MUŠ ina?] É? KI.ŠÚ IGI-ir-ma GUR-ru LÚ NU SI.SÁ uš-ta-pa-šaq-ma TI-uṭ
+[DIŠ MUŠ] LÚ i-gi-ir ina-an-ziq
+[DIŠ MU]Š ina É LÚ tap-pa-šú GAZ É BI BIR-ma UŠ-su É.GAL UŠ-di
+[DIŠ MU]Š ana IGI LÚ GIB.GIB DINGIR ina šá-lim-tú LÚ UŠ.UŠ-di
+[DIŠ M]UŠ ina É LÚ i-tak-ka-lu ŠEŠ.MEŠ TAR.MEŠ É BI BIR
+DIŠ MUŠ.MEŠ ina É LÚ ir-tak-ka-bu É BI ŠUB-di šum₄-ma &lt;su&gt;-un-qu šum₄-ma ÚŠ BA.ÚŠ
+DIŠ MUŠ MUŠ GAZ-ma ina SILA ina SILA.DAGAL.LA IGI SILA SILA i+na-kir LÚ ŠEŠ-šú GU₇ UN.MEŠ SA₁₀ DUMU.ME-ši-na GU₇.MEŠ
+
+DIŠ MUŠ ina É LÚ tap-pa-šú GAZ KUR-ad Á.ÁŠ
+DIŠ MUŠ ina É LÚ tap-pa-šú GU₇ ŠUB-ti EN INIM-šú
+DIŠ MUŠ ina É LÚ ŠUB-ma NU È-ma GAZ-šú ZI DU₁₄ GE₆ IGI
+DIŠ MUŠ ina É LÚ i-dam-mu-um É BI dul-la SA₅
+DIŠ MUŠ IGI.MEŠ-šú LÚ i-suḫ bi-ir-ka-šu ut-tab-ba-ka
+[DIŠ MUŠ GAZ]-ma [ ]
+[DIŠ MUŠ G]AZ-ma x [ ]
+[DIŠ MU]Š GAZ-ma x [ ]
+[DIŠ] MUŠ GAZ-ma i-[ ]
+DIŠ MUŠ GAZ-ma i-[ ]
+DIŠ MUŠ GAZ-ma x [ ]
+DIŠ MUŠ GAZ-ma x [ ]
+DIŠ MUŠ GAZ-ma TE-[ ]
+DIŠ MUŠ GAZ-ma TE-š[ú ]
+DIŠ MUŠ GAZ-ma GÌR.MEŠ-š[ú ]
+DIŠ MUŠ GAZ-ma GEŠTUG-šú x [ ]
+DIŠ MUŠ GAZ-ma SU-šú iš-[šuk ]
+DIŠ MUŠ GAZ-ma SI.GAR [ ]
+DIŠ MUŠ GAZ-ma SAG.DU-s[u ]
+DIŠ MUŠ GAZ-ma KUN-s[u ]
+DIŠ MUŠ GAZ-ma ka na [ ]
+DIŠ MUŠ GAZ-ma IGI.MEŠ-š[ú ]
+DIŠ MUŠ GAZ-ma SÍK x [ ]
+DIŠ MUŠ GAZ-ma SÍK x [ ]
+DIŠ MUŠ GAZ-ma AKKIL [ ]
+DIŠ MUŠ GAZ-ma búr? ki [ ]
+DIŠ MUŠ GAZ-ma x [ ]
+DIŠ MUŠ GAZ-[ma ]
+DIŠ M[UŠ ]

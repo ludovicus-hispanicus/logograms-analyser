@@ -1,0 +1,35 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 10 = VAT 13804. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 22-23 (snakes).
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ana GÙB LÚ ŠUB-ut NÍG.TUK ÚK]U MAŠ.EN.GAG [išarru]
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ana MURUB₄ DAM u DAM ŠUB TAR.MEŠ NU T]I.MEŠ É BI [GAZ]
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ana MURUB₄ UKKIN ŠUB UKKIN] AL.BIR NU SI.S[Á]
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ina É LÚ IGI ŠU {d}AMAR.UTU ár-ḫiš] KUR-su É BI GAZ?
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ina SILA LÚ IGI šum₄-ma GI]G šum₄-ma is-sa-láḫ-ma BA.ÚŠ
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ina SILA TA ZAG NA ana GÙB LÚ is-ḫur LÚ BI in]a KUR KÚR dul-l[um] GIG ú-za-bal
+[DIŠ ina {iti}BÁRA KI.MIN MUŠ ina SILA TA GÙB NA ana ZAG LÚ is-ḫur] šum₄-ma ina ni-kip GU₄ [šum₄-m]a ina zi-qít GÍR.TAB ÚŠ
+[ ] ur šú ù [ ] x šú ti
+[ ]-šú LÚGUD.DA sag … [ … ] x.MEŠ ina ŠÀ MU.B[I ÚŠ]
+[ ] (leer) [(x)] É x [x]
+[DIŠ ina zag-muq ina {iti}BÁRA U₄ 1-KÁM lu ina {iti}GU₄ U₄ 1-KÁ]M lu ina ka-la u₄-m[i l]u ina [ka-la GE₆]
+[MUŠ NA IGI L]Ú BI ina Š[À] MU BI Ú[Š]
+[šum₄-ma NA BI TI.LA ḫa-šiḫ SAG.DU-su ú-ḫar-ra-a]r TE.[M]EŠ-šú ú-gal-la[b] U₄ 1-KÁM ul-ta-nap-šá-q[a-ma TI-uṭ]
+[KI.MIN ZI-bu kaš-du NA BI ina Á.GU.ZI.GA ana {d}AMAR.UTU ú-še-di-ma SI]G₅ KI.MIN KI.Š[Ú] GIG IGI
+[NA BI {d}AMAR.UTU i-še-eʾ-ú-ma ḪUL-šú DU₈ LÚ] BI ina PAP.ḪA[L] u MUNUS.KALA.GA È
+[DIŠ ina {iti}GU₄ MUŠ ana UGU NA ŠUB-ut l]u GIG lu-ú KI.ŠÚ KALA.GA DAB-su
+[DIŠ ina {iti}SIG₄ MUŠ lu ana IGI NA lu ana EGIR NA ŠUB-u]t niṣ-zíq-tu₄
+[DIŠ ina {iti}ŠU NA MUŠ IGI] niṣ-zíq-tu₄
+[DIŠ ina {iti}NE MIN] niṣ-zíq-tu₄
+[DIŠ ina {iti}KIN MIN] niṣ-zíq-tu₄
+[DIŠ ina {iti}DUL MIN ni]₅-zíq-tu₄
+[DIŠ ina {iti}APIN MIN ni₅-z]íq-tu₄
+[DIŠ ina {iti}GAN MIN ni₅-zíq-t]u₄
+[DIŠ ina {iti}ZÍZ ina BAD₄ EN.TE.NA NA MUŠ ina SILA.DAGAL.LA IGI UN.MEŠ TUR.MEŠ-ši-na NÍG.ŠU-ši-na ana KI.LAM] È-a

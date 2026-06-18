@@ -1,0 +1,77 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+exclude: true
+provenance: Nippur
+excavation: 2 N-T 336 — Oriental Institute / University Museum, Second Campaign (10/11/1949–06/04/1950)
+findspot: Scribal Quarter (Tablet Hill), area TA III/2, Locus 70 — a Neo-Babylonian stratum (632–538 BCE, per the dated-tablet list in OIP 78, 74–76), per the eBL team
+counting: DIŠ
+topic: prognosis by days of illness; head/temples (SAG.KI), eyes (IGI), kidneys (ÉLLAG), temple-veins (SA SAG.KI)
+series: 2nd tablet of a pre-canonical Nippur series ana marṣi ina teḫêka (colophon, 169 lines); reordered relative to the canonical handbook (Labat 1956)
+canonical_parallel: Sakikkû Tablets 3, 4, 5, 12, 16, 17, 18, 21, 22 (Schmidtchen 2021 concordance, book p.709-712 — Rs.2=3:108, Rs.4-6=3:107/105/30, Rs.7-8=5:64/71, Rs.10-14=4:89-101, Vs.1-5=16:65-74, Vs.10-12=18:10-12, Vs.15=17:41-42, Vs.18-19=17:69/78, Vs.6/23-24=21-22). NB at 16:45 (= obv. line 5 here) Labat/Heeßel read UD.5.KÁM but Labat's copy notes UD.6.KAM (Schmidtchen p.711 fn.4)
+edition: Labat 1956, Syria 33, 119-130; tablet 2 NB 336 (= 2 N-T 336 = IM 57947), Nippur
+dating: late Kassite / late Middle Babylonian by PALEOGRAPHY (Labat 1956:128 — ša not šá; ZAG/KAB not 15/2.30 for right/left; ṣu~ṣú; the šú forms preclude an early MB date, so it sits at the late end of MB). Its ARCHAEOLOGICAL findspot, however, is a Neo-Babylonian stratum (see findspot), which is why eBL dates IM 57947 'Neo-Babylonian'; the eBL team confirms the script nonetheless looks Kassite. Most likely a Kassite (late MB) composition preserved/recovered in a later context. Counted here as Middle Babylonian (date of composition).
+note: >
+  Sign-level reading collated by L. Sáenz against Labat's hand copy and photo
+  (Syria 33, pl. V-VII); Labat's 1956 transliteration is normalized (logograms
+  read as Akkadian), so it could not be scored directly. Right/left = ZAG/GUB₃
+  on the tablet; SAG.KI=nakkaptu (temple), SA=šer'ānu (vein), IGI=īnū (eyes),
+  SAG.DU=qaqqadu (head), ÉLLAG=kalītu (kidney), UMUŠ=ṭēmu. KI of SAG.KI written
+  with a period (part of the logogram), not as a {} determinative. Residual
+  uncertain signs '?'; damaged '#'; [] restoration; x illegible. Heavily
+  fragmentary (line-ends broken throughout); apodoses largely lost.
+  HELD OUT of the Middle aggregate (exclude: true) and used as a late-MB CASE
+  STUDY in §III: at 0.67 (excl. particle) it sits near the Neo ceiling, and
+  including it would raise the Middle diagnostic LDI from 0.49 to 0.57. Its
+  high logographic density independently corroborates Labat's late-Kassite
+  dating. Standalone score is informational only.
+---
+
+@obverse
+1. [DIŠ GIG UD]-5-KAM GIG-ma i[na ...]
+2. [DIŠ GIG UD]-5-KAM GIG-ma i[na ...]
+3. [DIŠ GIG UD]-5-KAM GIG-ma i[na ...]
+4. [DIŠ GIG UD]-5-KAM GIG-ma i[na ...]
+5. DIŠ GI[G] ina UD-5-KAM TI-iṭ ina [UD ...]
+6. DIŠ [GIG ina D]U₁₁ il-la-tu il-[la-ka ...]
+7. DIŠ GIG MIN x [...]
+8. DIŠ GIG MIN UŠ₂?# x x x [...]
+9. DIŠ GIG MIN IR ú-kal [...]
+10. DIŠ GIG mar-ṣú TA šer-ti GIG ina KIN.SI GIG-š[u ...]
+11. EN si-mi-tan ina ha-am-ši EN a-dan-ni-šu ina š[u-uš-ši ...]
+12. ina sa-ma-ni-i EN ša-tu-ur-ri ina ti-ši-i E[N ...]
+13. DIŠ GIG mar-ṣú UZU-MEŠ-šú i-ta-nar-ri-qu SAG.DU x [...]
+14. LU₂.BI UD-DA ina e-te-qi-šu šum-ma KAŠ NAG-šú-ma [...]
+15. DIŠ GIG mar-ṣú ina GIG-šú ki-ma TI-šu KI DAM-šú DUMU-[šú ...]
+16. DIŠ GIG MIN ÉLLAG(?)-su ša ZAG GU₇.GU₇-šú [...]
+17. DIŠ GIG MIN ÉLLAG(?)-su ša GUB₃ GU₇.GU₇-šú [...]
+18. DIŠ GIG mar-ṣú ina u₄-mi ša im-ra-ṣu [...]
+19. DIŠ GIG MIN-m[a] MIN KA-šú BAD.BAD [...]
+20. DIŠ GIG mar-ṣú ina u₄-mi ša GIG-šu Ú.HUB-ma SU-šú G[U₇-šú ...]
+21. [DIŠ GIG] MIN GU₃.GU₃-si it-ta-na-ak-na-an u i-ta-n[a-ša-aš(?) ...]
+22. [DIŠ GIG] MIN šit-tum DAB.DAB-su [...]
+23. [DIŠ GIG UMU]Š-šú KUR₂.KUR₂-šum [...]
+24. [DIŠ GIG MIN] u UMUŠ#-šú NU DAB-iṭ [...]
+25. [DIŠ GIG] x x x-šú [...]
+
+@reverse
+1. [DIŠ GIG] ú-ru-uh-šu be-[e-e]r [...]
+2. [DIŠ GIG SI]G₂ SAG.DU-šú SA? [...]
+3. [DIŠ GIG] MIN saḫ-rat u SA? [...]
+4. [DIŠ GIG] MIN ki-ma SIK₂ UR.MAH te-ba-a#-[at ...]
+5. [DIŠ GIG] MIN u₃ SU-šú zu-uq-qu₂-qu-pat [...]
+6. [DIŠ GI]G kal-li SAG.DU-šú su-uh-hur [...]
+7. [DIŠ GI]G SA IGI-MEŠ-šú ki-ma ŠU.GUR kap-pu [...]
+8. DIŠ GIG SA IGI-MEŠ-šú DU-ma ša na-kap-t[i-šú ...]
+9. DIŠ GIG SA IGI-šú DUH-MEŠ [...]
+10. DIŠ GIG SA SAG.KI-šú eb-ru-nim [...]
+11. DIŠ GIG SA SAG.KI-šú ŠUB-tu [...]
+12. DIŠ GIG SA SAG.KI-šú UŠ iš-te-qu₂-u₂ [...]
+13. DIŠ GIG SA SAG.KI-šú ša ZAG u GUB₃ ina DU-MEŠ-šú [...]
+14. DIŠ GIG SA SAG.KI-šú ša ZAG u GUB₃ DU-MEŠ-šú [...]
+15. DIŠ GIG SA SAG.KI-šú ša ZAG u GUB₃ x [...]
+16. DIŠ GIG SA SA[G.KI-šú ...]
+
+# Colophon (edge), not an omen:
+#   PAP 2 ŠU 49.ÀM MU.BI.IM            = "Total: 169 lines"
+#   DUB.2.KÁM ana marṣi ina teḫê-ka    = "2nd tablet: 'when you approach the sick man'"

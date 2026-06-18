@@ -1,0 +1,107 @@
+---
+genre: astrological omens
+period: Old Babylonian
+provenance: unknown
+counting: line
+topic: lunar eclipse
+---
+$ obverse
+1. [...]
+2. [...]
+3. [...]
+4. [... iš-ša-ak-k]a-an
+#tr.en: [(If the moon-god in)] eclipse, his right-hand side is the wrong way around: nothing will be spared, a deluge will] occur [everywhere.]
+5. [...]
+6. [...]
+7. [...]
+8. [...]
+9. [AN.T]A.[LU₃ ...]
+#tr.en: [(If the moon-god in)] eclipse [(begins and clears)] in the east: an eclipse pertaining to Subartu.]
+10. 30# ad-r[i-iš ...]
+#tr.en: (If) the moon-god [comes forth in an] obscured [state and clears: it is a portent that Elam and Gutium perish.]
+11. 30 i-na šu#-u₂#-[ti ...]
+#tr.en: (If) the moon-god [comes forth (or begins)] in the south [and moves to the north: it is an eclipse signifying the downfall of Akkad, Subartu and Amurru; it will not affect Elam and Gutium.]
+12. 30 ad-r[i-iš ...]
+#tr.en: (If) the moon-god [comes forth in an] obscured [state and remains present until daylight: an eclipse pertaining to the whole world (or to all the people).]
+13. 30 ad-ri#-iš# u₂#-[ṣi-a-am ...]
+#tr.en: (If) the moon-god comes [forth] in an obscured state: [a cataclysmic deluge (or deluge of the day of cataclysm).]
+14. i#+na# {iti#}BARA₂#.ZAG#.GAR# [UD.1]4.KAM# RI#.RI#.GA## š[ar₃ ...]
+#tr.en: (If the moon-god brings about an eclipse) in Nisannu, [day] 14: downfall of the king [of Akkad; the city and people will be safe.]
+15. i#+na# {iti#}BARA₂#.ZAG#.GAR# [UD.1]5.KAM# ub#-bu#-ṭu₂# ib#-ba#-šu#-[u₂ ...]
+#tr.en: (If) in Nisannu, [day] 15: there will be famine; [people will trade their infant children for silver.]
+16. i#+na# [{iti#}BAR]A₂.[ZAG.GAR UD.1]6.KAM# DINGIR# i#+na# lu#-mu#-[un l]i-ib#-bi# i[t-ba-al ...]
+#tr.en: (If) in [Nisannu, day] 16, the god sets in angry mood [and a great meteorite falls: someone will conquer an important city, the king and his people, and also Mars will arise and destroy livestock.]
+17. i+na {iti}[GUD.SI.SA₂ UD.14.KAM] šar₃# [...]
+#tr.en: (If) in Ay yaru, day 14: the] king of [the world will die, the land will perish (var. adds scattering of the people).]
+18. i+na {iti}[GUD.SI.SA₂ UD.15.KAM] URU{ki} LUGAL u₃# ni#-šu#-šu# ša#-al#-mu# LUGAL# a#+na# [LUGAL nu#-k]u-ur#-t[am ...] / a+na# BURU₁₄#? m[a-a-ti]m? nu-šu#-ur#-re še-e# ib#-b[a-aš-š]i
+#tr.en: (If) in Ayyaru, day 15: the] city, the king and his people are safe; king [will declare] war on [king.] As for the land's harvest(?), there will [be] a shortfall of barley.
+19. i+na {iti}GUD.SI.SA₂# [UD.16.KA]M šar₃ MAR.DU₂ i-ma-at-ma KALAM#-su₂# [a+na bi-ra]-a# i-ha-al-li-iq
+#tr.en: (If) in Ayyaru, [day] 16: a king of Amurru will die and [his people] will perish [everywhere.]
+20. i+na {iti}SIG₄.A UD.14.K[AM LUGAL š]a šu-ma i-šu#-u₂# i-ma-at-ma DUMU# LUGAL# ša# a+na šar#-ru#-tim# la# šak-nu / {giš}GU.ZA i-ṣa-bat-ma [a]-lu-šu ha-ar-bu-tam i-il-[l]a-ku KALAM-su₂ i-ṣe-eh-he-er
+#tr.en: (If) in Simanu, day 14: [a king who] is famous will die, a royal prince not appointed to kingship will seize the throne and his cities will become depopulated, his people will diminish.
+21. i#+[na {it]i}SIG₄.A UD.15.KAM [LUGAL i+na ba-a]r-tim IR₃-MEŠ i-du#-uk#-ku#-šu#
+#tr.en: (If) in Simanu, day 15: servants will kill [the king in a] revolt.
+22. i+na {iti}SIG₄#.A# UD.16.KAM LU[GAL i+na {giš}TUKU]L i-ma-aq#-qu₂#-ut#-ma# ID₂-šu i-ba#-al#-ma# hi-ṣi₂-ib-ša i-ha-li-iq
+#tr.en: (If) in Simanu, day 16: the king will fall [in] battle, his watercourse will dry up and its bounty will be lost.
+23. i#+na# {iti}ŠU#.NUMUN#.NA# UD.14.KAM! mi-lu# i#-il#-la-kam-m[a] i+na ma-aš-ka-na-tim še-am i-na-aš-ša-ar / KALAM GAL a+na KALAM TUR a+na bu-ta-al-lu-ṭi i-il-la-ak
+#tr.en: (If) in Dumuzi, day 14: an inundation will come and reduce the amount of barley at the threshing-floors; a large people will go to a small people in order to save itself.
+24. [i+n]a {iti}ŠU#.NUMUN.NA UD#.15.KAM zu-un-nu i+na AN ip#-pa#-ar#-ra#-su₂#-ma# hu-ša#-hu ib-ba#-aš-ši#
+#tr.en: (If) in Dumuzi, day 15: rains will be removed from the sky and there will be starvation.
+25. i#+na {iti}ŠU.NUMUN.NA UD#.16#.KAM lu-um-nu i+na KALAM i[b-ba-aš-ši] h[i-ṣi₂-ib-ša?] i#-ha-li-iq
+#tr.en: (If) in Dumuzi, day 16: there [will] be evil in the land; [its bounty(?)] will be lost.
+26. i+na {iti}NE#.NE.GAR UD.14#.KAM ub-bu-ṭu₂ ib-ba-[aš-š]u-u₂# šar₃ M[AR.D]U₂ i-ma-at
+#tr.en: (If) in Abu, day 14: there will be famine; a king of [Amurru] will die.
+27. i#+na {iti}NE#.NE.GAR UD.15.KA[M] {d}ne₃-eri₁₁-gal i-ka-al RI.RI.GA [i+na] KALAM ib-ba-aš-ši
+#tr.en: (If) in Abu, day 15: Nergat will devour; there will be fatalities [in] the land.
+28. i#+na {iti}NE.NE.GAR UD.16.KAM U₈.UDU.HI.A ša li-ib-bi#-ši-na u₂#-ul# u₂-ša-al-la-ma
+#tr.en: (If) in Abu, day 16: ewes will not bring their unborn (lambs) to term.
+29. i#+na {iti}KIN.{d}INANNA UD.14.KAM a-hi# LUGAL i+na ba-ar-tim {giš}GU.ZA i-ṣa-bat ZU₂.LUM ib-ba-aš-šu-u₂#
+#tr.en: (If) in Elūlu, day 14: the king's brother will seize the throne in a revolt. There will be dates.
+30. i#+na {iti}KIN.{d}INANNA UD.15.KAM! DUMU LUGAL a-ba#-šu i-da-ak-ma {giš}GU.ZA i-ṣa-b[at]
+#tr.en: (If) in Elūlu, day 15: the king's son will kill his father and seize the throne.
+31. i+na {iti}KIN.{d}INANNA UD.16.KAM šar₃ KALAM e-li-tim a+na KALAM na-di-tim i-r[u-ub-ma] / {giš}GU.ZA i-ṣa-bat
+#tr.en: (If) in Elūlu, day 16: a king of the upper land will [enter] a deserted land and seize the throne.
+
+$ reverse
+32. i#+na {iti}DU₆.KU₃ UD.14.KAM ti-bu-ut NIM{ki#} a+na ma-ti-ia me-re-šu i#-[še-er]
+#tr.en: (If) in Tašrītu, day 14: attack by Elam on my land. Agriculture will [thrive.]
+33. i+na {iti}DU₆.KU₃ UD.15.KAM i+na pa-ni ša-at#-tim BURU₅{mušen} i-ta-ab-bi-a-ma BU[RU₁₄ ...]
+#tr.en: (If) in Tašrïtu, day 15: a locust swarm will arise in spring and [strike my land's] crops.
+34. i+na {iti}DU₆.KU₃ UD.16.KAM LUGAL i-ma-at BALA ga-me-er DUMU LUGAL i+na {giš}GU.ZA u₂-[ul ...] / ma-tum nu-uk-ku-ra-at
+#tr.en: (If) in Tašritu, day 16: the king will die; the dynasty is over; no son of the king [will sit] on the throne. The land will be at war.
+35. i+na {iti}APIN.DUH.E₃ UD.14.KAM {DIŠ} zu-un-nu i+na AN mi-lum i+na na-aq-bi i-ša-aq-qi₂-lu-[ma] / i+na pa-ni ša-at-tim mi-lum ib-ba-aš-ši-ma BURU₁₄ KALAM mu-u₂ u₂-ba-lu bu-ti-qa₂-tum
+#tr.en: (If) in Araḫsamna, day 14: rain will become scarce in the sky, floodwater will become scarce in the deep [but] there will be an inundation in spring and the waters will carry off the land's crops; breaches in the dikes.
+36. i+na {iti}APIN.DUH.E₃ UD.15.KAM ta-am-tum i-ba-al-ma mi-še-er-tum i-ha-al-li-iq
+#tr.en: (If) in Araḫsamna, day 15: the sea will dry up and fish-stocks disappear.
+37. i+na {iti}APIN.DUH.E₃ UD.16.KAM ša-ah-lu-uq-ti URIM₂{ki}
+#tr.en: (If) in Araḫsamna, day 16: the destruction of Ur.
+38. i+na {iti}GAN.GAN.E₃ UD.14.KAM ti-bu-ut ERIN₂ qu₃-ti-i ma-tum i-ha-al-li-iq
+#tr.en: (If) in Kiṣlimu, day 14: attack by the Gutian army; the people will perish.
+39. i+na {iti}GAN#.GAN.E₃ UD.15.KAM {lu₂}KUR₂ i+na KALAM-ia BAD₃-ia i-na-aq-qa₃-ar
+#tr.en: (If) in Kiṣlimu, day 15: in my land the enemy will demolish my fortifications.
+40. i+na {iti}GAN.GAN.E₃ UD.16.KAM LUGAL ti-il-la-tu-šu u₃ ERIN₂-šu i-na-ak-ki-ru-šu
+#tr.en: (If) in Kiṣlimu, day 16: the king's auxiliaries and troops will turn hostile to him.
+41. i+na {iti}AB.E₃ UD.14.KAM {d}IŠKUR i+na ṣe-ri-im MU.1.KAM! a-i-lu-tam bu-lam u₃ na-ma-aš-ta-a / i-ra-ah-hi-iṣ
+#tr.en: (If) in Šebētu, day 14: in the countryside Adad will devastate men, livestock and wild animals for one year.
+42. i+na {iti}AB.E₃ UD.15.KAM mi-lum i+na ID₂ zu-un-nu i+na AN ip-pa-ar-ra-su₂ / BURU₁₄ KALAM i-ha-al-li-iq
+#tr.en: (If) in Šebētu, day 15: floodwater will be removed from the rivers, rain from the sky; the land's crops will be lost.
+43. i#+na {iti}AB.E₃ UD.16.KAM LUGAL ša la a-ma-as-su₂ {giš}GU.ZA i-ša-bat-ma nu-ku-ur-tum ib-ba-aš-ši
+#tr.en: (If) in Šebētu, day 16: a king without claim will seize the throne and therewill be war.
+44. i+na {iti}ZIZ₂.A UD.14.KAM {lu₂}KUR₂! a-ši-it E₂.GAL-ia i-ta-ab-ba-al LUGAL it#-ti ERIN₂-šu / u₂-ṣi-i-ma qa₂-tum i-ka-aš-ša-as-su₂-ma EGIR LUGAL ša-a-tu KALAM i-še-er / sa-li-mu iš-ša-ak#-ka-an
+#tr.en: (If) in Šabātu, day 14: the enemy will carry off a force leaving my palace; the king will go forth with his troops but someone will capture him, and after that king the land will prosper; peace will be established.
+45. i+na {iti}ZIZ₂.A UD.15.KAM KALAM ša ša-ah-lu-uq-tam i-mu-ru da-mi-iq-tam i-ma-ar / LUGAL i-ma-at-ma DUMU LUGAL la da-an-nu {giš}GU.ZA i-ṣa-bat-ma E₂.GAL u₂-ul u₂-ša-lam
+#tr.en: (If) in Šabātu, day 15: a people that has known destruction will experience good fortune. The king will die and a weak prince will seize the throne but will not keep the royal household intact.
+46. i+na {iti}ZIZ₂.A UD.16.KAM URU{ki} LUGAL i-il-la-mi-ma ik-ka-ša-ad-ma um-ma-an-[šu ...] / BAD₃-šu in-na-aq-qa₃-ar
+#tr.en: (If) in Šabātu, day 16: a city of the king will be besieged and captured, [his] army [will fall and] his fortification will be demolished.
+47. i+na {iti}ŠE.KIN.KUD UD.14.KAM UR.GI₇ in-na-ah-a-da-ru-ma a-i-lu-tam i-k[a-lu]
+#tr.en: (If) in Addaru, day 14: dogs will grow nervous and bite people.
+48. i#+na {iti}ŠE.KIN.KUD UD.15.KAM UR.MAH{hi.a} in-na-ad-da-ru-ma a-la-ak-tam i-na [...]
+#tr.en: (If) in Addaru, day 15: lions will go on the rampage and [cut off] traffic from [the land(?).]
+49. [i+na {i]ti}ŠE.KIN.KUD UD.16.KAM UD.17.KAM! UD.18.KAM! UD.19.KAM! UD.20.KAM UD.21.[KAM] / [KA]LAM la šu-ul-pu-ut-tum uš-ta-al-pa#-[at]
+#tr.en: [(If) in] Addaru, days 16, 17, 18, 19, 20, 21: [an] undefeated land will be defeated.
+50. [i+na {iti}]DIRI#.ŠE.KIN.KUD UD.14.KAM i+na KALAM da-an-na-tum ib-ba-aš-[š]i / [ni-šu š]e-er-ri-ši-na a+na KU₃.BAB.BAR i-pa-aš-ša-ra
+#tr.en: [(If) in] Leap-Addaru, day 14: there will be hard times in the land; [people] will trade their infant children for silver.
+51. [i+na {iti}DIRI.ŠE.KIN.KUD UD].15.KAM ša-ah-lu-uq-ti u₂-ri-im
+#tr.en: [(If) in Leap-Addaru, day] 15: the destruction of Ur.
+52. [i+na {iti}DIRI.ŠE.KIN.KUD UD.1]6.KAM šar₃ KALAM ak-ka-di-i i-ha-li-iq
+#tr.en: [(If) in Leap-Addaru, day] 16: the king of the land of Akkad will perish.

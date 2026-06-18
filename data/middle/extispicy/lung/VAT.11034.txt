@@ -1,0 +1,19 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+counting: line
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 54 (VAT 11034)
+feature: lung (SAGŠU, ŠU.SI MUR MURUB₄)
+note: fragmentary, single side
+---
+
+4'. [ ] x-ma KI.TA x x x di? ud x x ina KUR ug-[ ]
+5'. [ ]-ša₂ GAR-in MAN kiš-š[a-ti ]
+6'. [ ] MUR SAGŠU MUR ina MAŠ.GAN₂ ŠU.SI MUR MURUB₄ GAR-in I[D₂ ]
+7'. [ ] x ut IGI-mar šum₄-ma x dam x [ ]
+8'. [ -m]a ina SAGŠU MUR ša₂ ZAG KAR x x ina u₄-me [ ]
+9'. [ -m]a ina SAGŠU MUR ša₂ GUB₃ KAR x x x x [ ]
+10'. [ ] x GAR-at KUR₂ ana x x IGI [ ]
+15'. [ ] KUR x [ ]

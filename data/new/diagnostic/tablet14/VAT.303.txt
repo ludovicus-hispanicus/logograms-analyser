@@ -1,0 +1,166 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: VAT.303
+recension: canonical Sakikkû Tablet 14, manuscript C (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 14
+source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript C rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+---
+
+@text
+34. [ ]-šu SIG₇-át GIG-su MAN-ni
+36. [ ] x-šu SIG₇.MEŠ na-ḫi-id
+38. [ 1]50-šu GE₆-át! na-ḫi-id
+40. [DIŠ GU.D]U ZAG-šu tar-kát ú-zab-bal-ma TIN
+42. [DIŠ GU].DU.MEŠ-šu tar-ku GAM
+44. [DIŠ GU].DU GUB₃!-šu du-ʾ-ú-mat GIG-su MAN-ni
+46. [DIŠ] GU.DU ZAG-šu nap-ḫat GIG-su MAN-ni
+48. [DIŠ] GU.DU.MEŠ-šu nu-up-pu-ḫu GIG-su MAN-ni
+50. DIŠ GU.DU GUB₃-šu muq-qú-ta-át GIG-su GÍD
+51. [DIŠ GU.DU.MEŠ-šu muq-qú-ta5
+52. [DIŠ G]U.DU ZAG-šu šu-uḫ-ḫu-ṭa-át GIG-su MAN-ni
+54. [DIŠ GU.DU.MEŠ]-šu šu-uḫ-ḫu-ṭa na-ḫi-id
+56. [DIŠ GU.D]U GUB₃-šu DU₈-át GIG-su na-ḫi-id
+58. [DIŠ] GU.DU.MEŠ-šu šal-ma TIN
+59. [ ] x u A NU ú-še-red A.GA SÌG-iṣ GAM
+60. [ ] u GU.DU-šu SÌ[G-iṣ] ŠU dXV
+61. [ ] u kin-ṣi-šu SÌG-iṣ ŠU dXV
+62. [DIŠ šá]-pu-la-šu BAL.BAL-ta5 GIG-su MAN-ni
+63. [DIŠ šá]-pu-la-šu BAL.BAL-ta5 UMUŠ LÍL-šú KÚR-šú ŠU XX? TIN : ina GUB-az [x x x x]
+64. [DIŠ ina šá]-pu-li-šu šá ZAG SÌG!-iṣ UMUŠ-šú NU DAB ina NU ZU ú-rap-[pad ...]
+65. [DIŠ] ina šá-[p]u-li-šu šá GUB₃ SÌG!-iṣ-ma GEN₇
+66. DIŠ SA šá-pu-li-šu šá ZAG ZI.MEŠ u GE₆.MEŠ ana UD.3.KAM GAM?
+67. [DIŠ] SA šá-pu-li-šu šá GUB₃ ZI.MEŠ u GE₆.MEŠ ár-ḫiš G[AM?]
+68. DIŠ DÚR-šú GUB-iz GAM :
+69. DIŠ DÚR-šú GUB-iz TU₁₅ ina x]-šú? È.MEŠ-a? [GAM?]
+70. DIŠ DÚR-šú ÚŠ.ÚŠ-ir GAM! :
+71. DIŠ ina? DÚR-šú GUB-iz T[U₁₅ ...]
+72. DIŠ ina DÚR-šú A.MEŠ SA₅.MEŠ DU-ku GIG-su GÍD :
+73. DIŠ [ina DÚR-šú] A.MEŠ SIG₇.MEŠ DU-ku na-ḫ[i-id?]
+74. DIŠ ina DÚR-šú ZÉ SA₅ DU-ak GÍD-ma TIN
+75. DIŠ [ina] DÚR-šú ZÉ SIG₇
+76. DIŠ ina DÚR-šú ZÉ GE₆ [D]U-ak GAM :
+77. DIŠ ina DÚR-šú Ì ŠÀ-šú DU!-ku GAM
+78. DIŠ ina DÚR-šú šu?-ḫa! ḫi?-at?-ti ŠÀ!?-šú ŠUB.ŠUB-a GAM :
+79. DIŠ ina DÚR-šú! UZU ŠUB.ŠUB-a [...]
+80. DIŠ ina DÚR-šú MÚD MUD ŠUB.ŠUB-a GAM :
+81. DIŠ ina DÚR-šú MÚD! u? TU₁₅
+82. [DIŠ ina] DÚR-šú MÚD i-[t]e-ez-zí ŠU!? DI[NGIR? ...]
+89. DIŠ ŠE₁₀-ú-šú d[u!- ...]
+90. [ ] GÍD :
+91. DIŠ ŠE₁₀-ú-šú x [...]
+92. [...] da id? [x] ŠÀ? di-ik MUR GIG [...]
+93. [DIŠ GÌŠ-šú SA₅-át] GÍD-ma TIN :
+94. DIŠ GÌŠ-šú SIG₇-át G[IG-su ...]
+95. [DIŠ GÌŠ-šú GE₆-át] GAM
+96. DIŠ GÌŠ-šú tar-kát na-[ḫi-id?]
+97. [DIŠ GÌŠ-šú du-ʾ-ú-mat?] GIG-su ú-šá-an-na-aḫ :
+98. DIŠ GÌŠ-šú nap-ḫat na-[ḫi-id?]
+99. [DIŠ GÌŠ-šú muq-qú-t]a-át TIN :
+100. DIŠ GÌŠ-šú šu-uḫ-ḫu-ṭ[a-át ...]
+102. DIŠ GÌŠ-šú is-se-ker GAM :
+103. DIŠ GÌŠ-šú MU[D ]
+104. [DIŠ (NA) GÌŠ-šú u SAG ŠÀ-šú KÚM] ÚḪ ú-kal TÙN ŠÀ-šú GU₇-šú u ŠÀ-šú ma!-ḫ[u (x x)] [
+105. [ -š]ú MÚD ŠUR ŠU dUTU MU KI DIN GI [...]
+106. [ -š]u u SIR₄-šú nap-ḫu ŠU ddil-bat ina KI.[NÁ ...]
+107. [DIŠ KÀŠ.MEŠ-š]u SA₅.MEŠ ŠU DINGIR-šú TIN! :
+108. DIŠ KÀŠ.MEŠ-šu SIG₇.MEŠ GI[G-su ...]
+109. [DIŠ KÀŠ].MEŠ-šu GE₆.MEŠ TAG ÚŠ TAG-it GAM :
+110. DIŠ KÀŠ.MEŠ-šu ta[r-ka ...]
+111. [DIŠ KÀŠ].MEŠ-šu it-te-né-es-ki-ru GAM :
+112. DIŠ KÀŠ.MEŠ-šu D[U ...]
+113. [DIŠ KÀ]Š.MEŠ-šu u A.RI.A-su DU.MEŠ GAM :
+114. DIŠ [KÀŠ.MEŠ-šu GE[N₇
+115. [DIŠ K]ÀŠ.MEŠ-šu GEN₇ A.MEŠ GIG-su GÍD-ma TIN :
+116. DIŠ KÀŠ.MEŠ-šu GEN₇
+117. [DIŠ K]ÀŠ.MEŠ-šu GEN₇ GEŠTIN GIG-su DUGUD-ma TIN :
+118. DIŠ KÀŠ.MEŠ-šu GEN₇ GA [...]
+119. [DIŠ KÀ]Š.MEŠ-šu taq-na [TIN?]
+120. [DIŠ KÀ]Š.MEŠ-šu IGI-ma li-piš-tú È.MEŠ-ni ina EDIN T[AG-it? ...]
+121. [DIŠ KÀ]Š.MEŠ-šu IGI-ma UZU.ME-šu2 È.ME-ni ina EDIN T[AG-it? ...]
+122. [DIŠ S]IR₄-šu SA₅.MEŠ TIN :
+123. DIŠ SIR₄-šu SIG₇.[MEŠ ...]
+124. DIŠ SIR₄-šu GE₆.MEŠ GAM :
+125. DIŠ SIR₄-šu tar-ka [...]
+126. [DIŠ] SIR₄-šu du-ʾ-ú-ma GIG-su DUGUD :
+127. DIŠ SIR₄-šu muq-qú-[...]
+128. [DIŠ SIR₄]-šu šu-uḫ-ḫu-ṭa GAM :
+129. DIŠ SIR₄-šu šal-[ma ]
+130. [DIŠ SIR₄-š]u zi-ra GAM : ana NIN.DINGIR.RA [DINGIR-šú TE-ḫi]
+131. [DIŠ SIR₄-šu] zi-ra EME-šu i-te-néq-qí-iq NUNDUM.MEŠ-[šu? ...]
+132. [DIŠ] SIR₄-š[u na]p-ḫu na-ḫi-id : ana NIN.DINGIR.RA [DINGIR-šú TE-ḫi]
+133. [DIŠ] SIR₄-šu MÚ.MEŠ-ḫu GÌŠ-šú sik-ka-ta5 DIRI ana NI[N.DINGIR.RA DINGIR-šú TE-ḫi?]
+134. [DIŠ ina] SIR₄-šu SÌG!-iṣ ana NIN.DINGIR.RA DINGIR-šú TE-ḫi : NIN.[DINGIR.RA? ...]
+135. [DIŠ] ina SIR₄-šu SÌG!-iṣ ḫe-pí-šú it-te-né-[es-ki-ra ...]
+136. [DIŠ] DÙG.GAN zi-kar-ti-šu GAZ-át pa-pa!-a[n ŠÀ-šú? ...]
+137. [DIŠ] šap-la-tu-šu nap-ḫ[a ...]
+138. [D]IŠ ÚR ZAG-šu SA₅-át ú-[ ]
+140. [DIŠ] ÚR.MEŠ-šu SA₅.[MEŠ? ]
+166′. [ ] x SÌG!-iṣ [ ]
+167′. [DIŠ re-bit-su šá ZAG G]U₇-šú ŠU DINGIR-šú TIN :
+169′. [DIŠ re-bit-su šá ZAG] nap-ḫat-ma GE₆-át ina NU ZU(-)ú [...]
+170′. [DIŠ re-bit-su šá] GUB₃ nap-ḫat-ma GE₆-át ina NU ZU ú-[rap-pad ...]
+171′. [DIŠ re-biti r]e-biti GÙ.GÙ-si ina DÚR-šú ZÉ i-[ ]
+172′. [ -š]u SÌG-iṣ Š[U ]
+173′. [ ]-šu? SÌG!-iṣ-ma ina KA-šú MÚD MUD ŠUB.[ŠUB-a ...]
+174′. [ S]ÌG-iṣ-ma DÚR-šú ÚŠ.ÚŠ-ir [ ]
+175′. [ uš]-qa-ma-am-ma ina E[DIN ...]
+176′. [ ] MÚŠ?-[šú i-n]a?-aḫ!-ḫi-su SUḪUŠ.MEŠ-[šú ...]
+177′. [ re-biti] re-biti GÙ!.GÙ-si [...] [ ]-ḫu!(ri) ŠU d[...]
+178′. [ ]-ti-šú SÌG-iṣ ŠU d[...]
+179′. [DIŠ] bir-ka-[šu] GU₇.[MEŠ-šú] AZAG d[...]
+180′. [ ]-ka-a-[ ] MURUB₄ [x x] ina GE₆ G[U₇ ...]
+181′. [DIŠ] pu-qa-a-š[u ]
+182′. DIŠ pu-qa-a-šu it-[ta-n]a-a[z-qa]-pa T[IN]
+183′. DIŠ ki-in?-[ṣi-šu]1386 šá ZAG GU₇-šú KÚM-[šú] mit-ḫar [...]
+184′. DIŠ ki-i[n?-ṣi-šu] šá GUB₃ G[U₇-šú KÚ]M-šú NU! mit-ḫar G[IG ...]
+185′. DIŠ [ -š]u? GU₇.[MEŠ?]-šu [KÚ]M-šú NU! mit-ḫar […]
+186′. DIŠ x [ ]-šu ŠU DINGIR URU-šu : Š[U ]
+187′. DIŠ kin-ṣa-a-š[u ]-šu ŠU dUTU MU x [ ]
+188′. DIŠ kin-ṣa-[a-šu ki-is]-sa-tu4 i-šá-a ina DU₁₁.DU₁₁-šú [ ] ina BAL! BÚR? ru-mi-[ka?]-ti
+189′. DIŠ kin-ṣa-a-šu GI[G.MEŠ UZU?].MEŠ-šú GU₄.UD.MEŠ u mim-[...]
+190′. DIŠ ina kin-ṣi-šu SÌG-iṣ [ ] :
+191′. DIŠ ina kin-ṣi-šu šá ZAG [SÌG-iṣ ]
+192′. DIŠ ina kin-ṣi-šu šá GUB₃ SÌG?-iṣ? u ina KA-šú MÚD M[UD ]
+193′. DIŠ GÌRII-šu šá ZAG? GU₇-šu ŠU dXX? BA.[ÚŠ? :?]1387
+194′. DIŠ GÌRII-[š]u šá 1[50 GU₇-šu? ]
+195′. DIŠ GÌRII-šu GU₇.MEŠ-šu ŠU d+INNIN?.NA? [:?] ana? [ ]
+196′. DIŠ GÌRII-šu šá ZAG i-maš-šar [K]A-šú ṣu-un-d[u-ur ]
+197′. DIŠ [GÌR]II-šu šá GUB₃ i-maš-šar[SÌG]-iṣ dBA.B[A₆ ]
+198′. [DIŠ GÌR]II-šu šá ZAG ik!-te-ner-ru ŠU dXV [:] DAB GIDI[M₇ GAM]
+199′. [DIŠ GÌR]II-šu šá GUB₃ ik-te-ner-ru ŠU] d]XV :
+200′. DIŠ GÌRII.MEŠ-šú!?(šá) [ ]
+201′. [DIŠ GÌRII?-šu šá 1]5 ana šá ZAG[0] LÁ?-at [...]
+202′. [ ] x [NU?] ZU-e ÉN? i-la x [...]
+203′. [ ] NU ZU-e u UMUŠ-šú NU DAB [...]
+204′. [ ] x-[x]-nen-g[i]-ra [ ]
+205′. [ n]a!-ak-na-an-na Š[U ]
+219′. [DIŠ GÌR]II-šu TA DU₈ tuḫ-ri [x] ki EN?! x [...]
+221′. [DIŠ GÌR]II-šu ú-él-a GI[G-s]u MAN-ni :
+222′. DIŠ GÌRII-šu [...]
+223′. [DIŠ GÌR]II-šu SA₅
+224′. DIŠ ina GÌRII-šu SÌG-iṣ! ŠU? d?[x (:)] ŠU dMAŠ.TAB.BA
+225′. [DIŠ ina GÌRII?]-šu šá ZAG SÌG-iṣ ŠU dUTU ana [UD.3.KAM? GAM] :
+226′. DIŠ [ina G]ÌRII-šu šá GUB₃ SÌG-iṣ ŠU dXV GÍD-ma GAM
+227′. [DIŠ ina GÌRII]-šu šá ZAG SÌG-iṣ u GÙ.G[Ù-si pu-qud-de]-e dUTU TA dMAŠ.TAB.BA
+228′. [DIŠ ina GÌRII-š]u šá GUB₃ SÌG-iṣ u G[Ù.[GÙ-si pu-qud-de]-e dXV ana dMAŠ.TAB.BA
+229′. [DIŠ ina GÌR(II)-šu] SÌG-iṣ u G[Ù].G[Ù-si pu-qud-de-e] dXV ana dMAŠ.TAB.BA
+230′. [DIŠ ina GÌR]II-šu MURUB₄.[MEŠ?]-šu? Á!?II!(MEŠ)-šú u ki!-ṣir! 1-[KÙŠ].MEŠ-šú? [SÌG-iṣ x] UD.41.KAM
+231′. DIŠ U.MEŠ GÌRII-šú [G]E₆.M[EŠ] GÍD-ma GAM :
+232′. DIŠ U.MEŠ GÌRII-šú u[ṣ?]-ṣu?-la! ŠU diš-ḫa-ra
+233′. DIŠ [U].MEŠ GÌRII-šú šu-[tu]-qá ina DU₁₁.DU₁₁
+234′. [DIŠ U].MEŠ GÌRII-šú MÚD DIRI.MEŠ-ma GU₇.MEŠ-šú ana la-ba-ṣu? GUR-[šum-ma] GAM?
+236′. [ UM]BI[N x x].MEŠ [...]
+240′. [ ] GÌ[R? …]
+241′. [ SA]G.DU-[su] DAB.DAB-s[u ...]
+242′. [ 1]50 : ZAG [i?-ka]n-na-an u [ ]
+243′. [ n]e-e-ḫ[u á]r-ḫiš ÚŠ [ ]
+244′. [ KI].TA GIG KU₄-šú NÍG.G[IG ]
+245′. [ ÍL]-e? DUGUD SAG.DU-su u SAG Š[À-šú] [x x] ŠU [x] x
+246′. [ NU] TUK ki-iṣ-[ṣa]-tu4
+247′. [ ] DIRI SA₅
+# Kolophon. DUB?.[x].KAM […]
+# Kolophon. [...] x UD ḪAL? [...]
+# Kolophon. [...] ŠU? [...]

@@ -1,0 +1,20 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: VAT.14548
+recension: canonical Sakikkû Tablet 14, manuscript J (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 14
+source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript J rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+---
+
+@text
+178′. [DIŠ]ina re-biti-šú u su-ḫ[a-t]i-šú SÌG-i[ṣ ...]
+179′. DIŠ bir-ka-šú GU₇.MEŠ-šú AZAG dU[TU ...]
+180′. DIŠ bir-ka-šú u MURUB₄.MEŠ-šú ina GE₆ GU₇.ME-šú SU-šú KÚM NU TUK lu-ʾ-x [...]
+181′. DIŠ pu-qa-šú it-te-né-ep-ta-a-a [ ]
+182′. DIŠ pu-qa-šú it-ta-na-az-qa-pu [...]
+183′. DIŠ ki-mi-is-su šá ZAG GU₇-šú KÚM-šú mi[t-ḫ]ar ŠU [...]
+184′. [ ] x-šú NU mit-ḫar GI[G-su ...]
+185′. [ ]-ḫar? ŠU? […]

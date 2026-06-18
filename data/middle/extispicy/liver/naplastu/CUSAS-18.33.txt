@@ -1,0 +1,77 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: BE
+publication: MS 3176/2 = CUSAS 18 no. 33 (George 2013); eBL (script.period = Middle Babylonian)
+note: "manzazu (KI.GUB = the OB naplastu, 'the Station/View') section of a First-Sealand (Middle Babylonian) liver compendium; the KI.GUB run, obv 1 - rev 31. Same Sealand tradition as the MB martu (CUSAS 18) — the tradition-matched MB-Babylonian comparandum the naplastu Middle cell was missing. The tablet's later lines (SILIM/šulmu, lung) are not included here. KI.GUB=Station, GIR2=path, DAL.BA(.NA)=between."
+---
+
+@obverse
+
+1. [BE KI.GUB ki-m]a PAP [DA]M LU₂ [in-na-ak]
+#tr.en: [If the Station is lik]e the PAP-sign: the man's wife [will be fornicated with].
+2. [BE KI].GUB# ki-ma PAP-ma i+na ZAG.BI BUR₃ ŠUB [DA]M LU₂ in-na-uk-m[u GAZ-ši?]
+#tr.en: If the Station is like the PAP-sign and a hole lies on its right: the man's wife will be fornicated with [and killed?].
+3. [BE K]I.GUB ki-ma PAP-ma i+na GUB₃#.BI# BUR₃# ŠUB D[A]M LU₂# in-na-a[k-ma la GAZ-ši?]
+#tr.en: If the Station is like the PAP-sign and a hole lies on its left: the man's wife will be fornicated with [but not killed?].
+4. [BE] KI.GUB ki-ma HAL UMUŠ KUR [MAN-ni]
+#tr.en: If the Station is like the ḪAL-sign: the mood of the land [will change].
+5. [BE] KI.GUB ki-nu HAL-ma# u₃# BUR₃# p[a-liš] EN GAL iq#-qal#-[lil]
+#tr.en: If the Station is firm, ḪAL-shaped and pierced by a hole: the great lord will be brought low.
+6. BE# KI.GUB# ki-m[a BAD? ...] ŠUB-ti ERIN₂-i[a]
+#tr.en: If the Station is like [a wall?...]: fall of my army.
+7. BE KI.[GUB k]i-[ma x (x)] DINGIR-MEŠ DA ERIN₂-ia DU-MEŠ
+#tr.en: If the Station is like [...]: the gods will march at the side of my army.
+8. BE KI#.[GUB ki-ma x (x)] EGIR MU {d}IŠKUR RA-iṣ
+#tr.en: If the Station is like [...]: afterwards Adad will strike.
+9. BE KI#.[GUB ki-ma x š]a {giš}MA₂ er-re-bu E₂ LU₂ TUM₄#
+#tr.en: If the Station is like [... o]f an entering boat: the man's house will be carried off.
+10. {(U)} BE KI.[GUB ki-ma k]u-uk-ki {d}+en-lil₂ a-na KUR a-na HUL-ti u₂-šar#
+#tr.en: If the Station is like [a d]ark recess: Enlil will release the land to evil.
+11. BE KI.[GUB ki-m]a E KUR ma#-li-a IL₂#-ši
+#tr.en: If the Station is like a dike: the land will rise up full(?).
+12. BE KI#.[GUB ki]-ma E-ma i+na UGU.BI KI.GUB MAN-ma# e-ṣir# {d}en-lil₂ ma#-le#-e KUR# BI LUH-[š]i
+#tr.en: If the Station is like a dike and above it a second Station is drawn: Enlil will sweep away the fullness of that land.
+13. BE# KI.[GUB ki]-ma E-ma i+na UGU.BI eriš-tum GAR-at NUN! u₃ ERIN₂-šu# KI DINGIR a-na GAZ [e]r-šu
+#tr.en: If the Station is like a dike and above it a wish-mark lies: the prince and his army are marked out by the god for death.
+14. BE# [KI.GUB ki]-ma E-ma i+na UGU.BI BUR₃ ŠUB# NUN u₃ DUMU-MEŠ-BI! KI DINGIR a#-[na MI]N?-ki er-šu
+#tr.en: If the Station is like a dike and above it a hole lies: the prince and his sons are marked out by the god for ditto.
+15. BE [SUHUŠ? KI.GUB] ki-ma zi-qit GIR₂.TAB ik-pu-up# NUN GIR₂.TAB i-za-qi₂-[su]
+#tr.en: If the base of the Station curves like a scorpion's sting: a scorpion will sting the prince.
+16. BE [SUHUŠ? KI.GU]B ki#-ma KIMIN-ma i+na KIR₃.BI BUR₃ ŠUB NUN i+na zi-qit GIR₂.TAB B[A.UG₇]
+#tr.en: If the base of the Station is ditto and a hole lies in its "nose": the prince will die of a scorpion's sting.
+17. BE [KI.GUB i]s-hu-ur-ma i+na SIG ŠUDUN₄ GAR NUN i+na la KI#-šu it-ta#-nam-giš
+#tr.en: If the Station turns and lies on the thin part of the yoke: the prince will be displaced from his rightful position.
+18. B[E KI.GUB ina] ŠA₃.BA KI.GUB NUN {d}ALAD u₃ {d}LA[MMA] [T]UK-ši
+#tr.en: If within the Station there is a (second) Station: the prince will acquire a protective god and goddess.
+19. [BE KI.GUB ina] ŠA₃.BA KI.GUB-ma u₃ mid-du-du ti-ib me-he-e {d}IŠKUR# RA-[i]ṣ
+#tr.en: If within the Station there is a Station and it is measured(?): rising of a storm; Adad will strike.
+20. {(U)} [BE 2 KI.GU]B TEŠ₂.BI-iš GAR-MEŠ [S]ISKUR₂ NUN ma-hi-ir a-n[a {gi]š}TUKUL ni-ip-hu
+#tr.en: If 2 Stations lie together: the prince's offering is accepted; for battle, a niphu-mark.
+21. [BE 2 KI.GU]B TEŠ₂.BI-iš GAR-MEŠ-ma i+na bi-ri-šu-nu# BUR₃ ŠUB ge-ru#-u₂ SUB-[u]t
+#tr.en: If 2 Stations lie together and a hole lies between them: an adversary will fall.
+22. [B]E 3# [K]I.GUB# TEŠ₂.BI-iš GAR-MEŠ ni-pi-ih ERIN₂-ia KALAG-an!# KUR₂#
+#tr.en: If 3 Stations lie together: a niphu of my army; the enemy will be strong.
+23. BE# 3 KI.GUB-ma ša ZAG BAL-ut NUN ILLAT.BI BAL-š[u]
+#tr.en: If there are 3 Stations and the right one is turned: the prince's auxiliaries will rebel against him.
+24. BE 3 KI.GUB#-ma ša GUB₃# BAL-ut KUR₂ ILLAT.BI BAL-š[u]
+#tr.en: If there are 3 Stations and the left one is turned: the enemy's auxiliaries will rebel against him.
+25. BE 3 KI.GUB-ma SAG.US₂ BAL-ut gaba-ra-ah ER[IN₂ KUR₂]
+#tr.en: If there are 3 Stations and the regular one is turned: defeat of the [enemy] army.
+26. BE 3 KI.GUB-ma a-hu-tu-ma SAG.US₂ IGI-MEŠ gaba-ra-ah ER[IN₂-i]a
+#tr.en: If there are 3 Stations, separate, and they face the regular one: defeat of [my] army.
+27. BE (ina) DAL.BA KI.GUB u₃ GIR₂ {giš}TUKUL GUB-iz kaš-šap-tu SAHAR-ha₂ GIR₃ LU₂ TI.[T]I-qe
+#tr.en: If between the Station and the Path a weapon-mark stands: a witch will take the dust of the man's foot.
+28. [B]E (ina) DAL.BA KI.GUB u₃ GIR₂ {giš}TUKUL GUB-iz-ma i+na.UGU.BI BUR₃ ŠUB KIMIN-ma DAB-ši-ma G[AZ]-MEŠ#-ši#
+#tr.en: If between the Station and the Path a weapon-mark stands and a hole lies above it: ditto, and they will seize and kill her.
+29. [BE] (ina) DAL.BA [K]I.GUB u₃ GIR₂ {giš}HUR HUR-et DINGIR LU₂ ŠU.NIR URU₄-iš u-lu ma-ka-lu [KI DINGIR URU₁₄?]
+#tr.en: If between the Station and the Path a drawing is drawn: the man's god will cultivate a standard, or food [with the god...].
+30. [BE] (ina) DAL.BA [K]I.GUB u₃# GIR₂ 2 {giš}HUR-MEŠ# eṣ-ra DAM LU₂ DAM-sa₃ uš-dak-[šu?]
+#tr.en: If between the Station and the Path 2 drawings are drawn: the man's wife — her husband will have her killed(?).
+
+@reverse
+
+31. [BE (ina) DAL.BA KI.GUB u₃ GIR₂ 3 {giš}HUR-MEŠ eṣ-ra DA]M LU₂ <ana> muš-<tar>-ri-qi₂#-ša iš-ta-na[p-par]
+#tr.en: [If between the Station and the Path 3 drawings are drawn: the m]an's wife keeps sending to her thief-lover.

@@ -1,0 +1,32 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 33 = VAT 11154. Middle Assyrian Šumma Ālu forerunner; ≈ ŠÀ 84.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+[ ] x
+[ ] x ur
+[ ] DU-ak
+[ ]-su
+[ ] ŠUB
+[ ] ú-lu IBILA LÚ BA.ÚŠ
+[ ina la] u₄-mi-šú BA.ÚŠ
+[ ] x DAB-su ina URU-šú È
+[ ] x ZI-aḫ
+[ ] É TE
+[ ] TUK-ši
+[ ] x
+x [ ]
+x [ ]
+DIŠ LÚ [ ]
+DIŠ LÚ [ ]
+DIŠ LÚ -šú x [ ]
+DIŠ LÚ -šú [ ]
+DIŠ LÚ [ ]
+DIŠ LÚ [ ]
+DIŠ [LÚ ]

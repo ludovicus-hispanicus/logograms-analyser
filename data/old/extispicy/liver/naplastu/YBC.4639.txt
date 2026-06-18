@@ -1,0 +1,34 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: šum-ma
+publication: YBC 4639 = YOS 10 11 (cols. i-ii); eBL
+note: "naplastum (na-ap-la-aš-tum / pl. na-ap-la-sa₃-tum = the View) section of the OB liver compendium YOS 10 11 — the 'four Views' omens and the ring-seal omen (the latter // MS 2225). The padanu section of the SAME tablet is filed under liver/padanu/YBC.4639.txt; one physical tablet legitimately appears under each liver feature it covers. Fully syllabic OB."
+---
+
+@obverse
+@column 1
+
+1. šum-ma i-na a-mu-tim 4 na-ap-la-sa₃-tum!(TIM)
+#tr.en: If on the liver four Views are present at the same time: the enemy will launch an attack against the heart of your city and will capture your cities and carry (their people) away.
+2. iš-te-ni-iš iz-za-az-za
+3. na-ak-rum a-na li-ib-bi a-li-i-ka
+4. i-te-bi-a-am-ma a-la-ni-i-ka
+5. i-ki-im-ma i-ta-ba-al
+
+@column 2
+
+6. šum-ma 4 na-ap-la-sa₃-tum qa₂-ab-lum
+#tr.en: If there are four Views: battle will happen in the land.
+7. i-na li-ib-bi ma-tim ib-[ba-aš-ši]
+8. šum-ma [ina a-mu-tim] 4 na-ap-la-sa₃-tum
+#tr.en: If [on the liver] there are four Views: usurper kings will rise up in the four world-regions; this one will fall, that one will rise.
+9. šar-ru-u₂ ha-am-me-e ki-ib-ra-at
+10. ma-a-tim i-te-bu-u₂-nim
+11. an-nu-u₂-um i-ma-qu₂-ut an-nu-u₂-um i-te-be₂
+12. šum-ma na-ap-la-aš-tum ki-ma un-qi₂-im
+#tr.en: If the View is like a ring seal: the country will become enclosed and its mouth will revert to one (opening).
+13. ma-a-tum u₂-te-es-si₂-ir
+14. pi-i-ša a-na iš-te-en i-ta-ar

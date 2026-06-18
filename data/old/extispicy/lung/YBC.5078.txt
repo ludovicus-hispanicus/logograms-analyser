@@ -1,0 +1,22 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+counting: DIŠ
+topic: lung
+publication: YOS 10, 37
+---
+
+@obverse
+1. DIŠ u₂-ba-an ha-ši-im ša-ra-am la i-ma-ah-ha-ar
+#tr.en: If the "finger" of the lung does not take in wind:
+2. ši-it-ti ba-bi-im a-na E₂ LU₂-lim
+3. i-ša-tam i-na-ad-di
+#tr.en: a neighbour woman of the same quarter will set fire to the house of the man.
+4. re-ṣu₂-u₂-ka i-ša-la-ṭu₂-u₂-ka
+#tr.en: Your allies will dominate you.
+@reverse
+1. ša-nu-um šum-šu šar-ru-um
+2. mi-li-ik wa-ar-di-i-šu
+3. e#-li-i-šu u₂-ul ṭa-a-ab
+#tr.en: Its second interpretation: as for the king, the advice of his servant will not be favourable for him.

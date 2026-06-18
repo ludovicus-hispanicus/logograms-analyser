@@ -1,0 +1,71 @@
+---
+genre: terrestrial omens
+period: Old Babylonian
+provenance: unknown (Schøyen Collection)
+publication: George 2013, CUSAS 18 no. 16 = MS 3104, obverse (domestic / ṣubātum-garment / animal-sighting / "Hand of god" diagnostic omens). Šumma Ālu forerunner.
+counting: DIŠ
+source_note: Converted from a normalized-reading transcription (reading(SIGN) + accent vowels) to project ATF — logograms uppercased from the sign-glosses, accents → subscripts, half-brackets ⸢⸣ dropped, line-wrap '/' removed. Readings otherwise preserved; ungloss'd ambiguous tokens left as given. NEEDS REVIEW.
+---
+
+@obverse
+# illegible
+DIŠ LU₂ a-n[a] E₂ i₃-li₂-šu i-ru-ub-ma x x x x a-na pa-ni-šu [i]n-ne₂-ru-ub [u₂]-mu-šu it-ti DINGIR ar-ku
+DIŠ DILI i+na ši-ir-tim ir-ru-šu i-ḫa-nu-ru{ x x x x x x x in-na-di
+DIŠ DILI i+na qa₂-ab-li-ti uz-na-šu i-ḫa-za-a [x] x [x] x-us-su₂
+[DIŠ DILI]x x-šu i+na a-x-tim?) [x] x bi x šu nu? x x [i-na E] u₂-še-ṣe-a-šu
+[DIŠ] DILI SILA i+na a-la-ki-šu [x] x x x x-mna [a-na] pa-ni-šu it-te-ne₂-ru-ub [LU₂? šu?] it-ti DINGIR ḫa ni? aš?
+# (= ḫašiḫ!?)
+[DIŠ LU₂ x x] i+na GI₆ i-x x] [a-na x x x ]x i-ru-ub [x x x x x] x x
+DIŠ x x x x x] x x x [ x x x] [x x x x x]
+DIŠ DILI x [ x x x] si₂-x[ x x x] it-t[a-x x x]
+DIŠ DILI i+na x [x x ]x me i+na na-ri i-ra-mu-uk it?-tum i-la-kam za x ḫi ge-er-gi-x mu-ur-ṣa le-en-nam i-im-mar
+DIŠ DILI ITI 7 i₃.la₂.a i-la?-ak-ma i-na na-ri me i-ra-mu-uk zu-mu-ur-šu? kal-ma-tam u₂-ka-al
+DIŠ i+na E₂ DILI ŠA₂Ḫ i-ka-al E₂ DILI a-na EGIR NINDA u₂-za-ma
+DIŠ i+na E₂ DILI UDU i-ka-lu E₂ DILI a-na EGIR NINDA i-ra-ši
+DIŠ DILI a-na sirrimim ANŠE.EDIN.NA a-na ibUr si? gar x x x x x x x [x] x x x ka-pi-id lemutti(ḫul! <IGI>+UR)-š[u]? i-qa₂-ab-bi-šum
+DIŠ DILI i+[na] {iti}SIG₄-A E₂ i-pe-eš i-na E₂ DILI šu-ru-pu ra-ki-is
+DIŠ DILI MUŠEN i-ṣa-bat u₂-wa-šar ma-mi-iṭ i-tam-mu-u₂ u₂-ul i-ṭe₄-ḫe-šum
+[DIŠ i3]-si₂ kal-bi i-na [x x] x x x-ku-u₂ [x x x x] x x
+DIŠ x [ x x x] it-[x x x x] mu-uḫ-ḫi x [ x x]
+DIŠ i+na E₂ DILI i+na a-su₂-ri ḫa-[bu]-rum wa-ṣi E₂ DILI a-na war] ka₂tim [EG]IR NINDA i-ra-š[i]
+DIŠ i+na E₂ LU₂ MUŠ it-ta-aš-ši-qu₂ KALAM I.TUR?]
+DIŠ i+na E₂ DILI {d}NIN.KILIM it-ta-aš-ši-qa₂ ra-bu-tam i-pe₂-eš
+DIŠ DILI TUG₂-su₂ i+na li-it-bu-ši pa-ni-šu ik-ta-na-na a-šar i-la-ku rie₃-it-ta-šu in-ne₂-mi-da i-nu-mi-šu-ma TUG₂ ša-ti i-[ša-da]-ad-ma [x x] x a-na šu-ti-i t6-le-te-ma a-na ma-aš-ka-nim i-ša-ka-an ki-ṣa-IL ta su₂(ba nu(BAD a-šar i-la-ku UGU LUGAL INIM GUB.BA
+DIŠ DILI TUG₂ i+na li-it-bu-ši ki-ri-mu ka-ap-lu-u₂ ir-x x a-na su₂-ni-šu [x x x ]x-ur(ib [x x x x] x
+[DIŠ LU₂ x x] i-na {giš}GU.ZA [x x x x] x x x [x x x x x x] [x x x x x x] x x[ x x] za x a-šar i-la-ku qa₂-as-su₂ i-ka-ša-ad
+DIŠ DILI i+na {giš}GU.ZA it-ba-a i+na ka-pa-al {giš}GU.ZA si₂-si₂-ik-tam ik-bu-u₂ṣ i+na te-be₂-šu it-ta-ki-is wa-ši-ib E₂-šu kar-ṣi-šu i-ka-al DILI šu-u₂ {giš}GU.ZA uš-ba-la-ka-at ka-ap-lam šu-a-ti u₂-še-er?-da wa-aš-b[u [K]A-šu i-ma-ṭi
+DIŠ TUG₂ i+na pa-ga₃r LU₂ ŠUB?.BA? IZI it-ta-na-an-pa-ah u₃ i+na šu-ub-ti-šu ig-da-na-lu-ut LUGAL TUG₂ u₂-su₂-ur-tum! i-ṣa-bat ri-ig-mu-um šu-u₂ e-li-šu iš-ša-ka-an TUG₂ ša-ti me i-ṣa-pu {giš}NU₂-šu uš-ba-la-ka-a re-ši-šu a-na ši-[pe-ti]m i-ša-[ka-an] [x x ]x uš-te-ṣe-ep i-x][ x x x ]x x si₂-si₂-ik-tam a-na re-ši-šu [x x x] a i-ra-sa₃-an [x x x x] x ši-pe-t[im?]
+# illegible traces
+x x [x x x x] x x x [x x x] [x] x x x [x x] ši-mi-x[ x x x] x x x x [x] x te [x X] x x li x ka x x x x x [x] x x x [x x x]
+DIŠ TUG₂ i+na pa-ga₃r LU₂ IGI NU il-ta-pa-at u₃ ir-ti ib? biuš šu? i+na zu-um-ri-šu NU GI a-na LUGAL TUG₂ i-bi-su₂-u₂? x x x x uš-qal₄-lal? x x-pa-ti-šu x x uš-te-ṣe-ep-ma si₂-si₂-ik-tam a-na ŠA₃ i-ka-pi-iṣ-[ma] UGU x [x x ]x TUG₂ x [x x x] x i-x x [x] x a-na x x x x-tim i-na ru-x x x x a-na ma-še-er-tim i-ša-ka-an LUGAL TUG₂ x ša x x u₂-ul i-mar
+DIŠ i-na ŠA₃ TUG₂ mi-iq-tum x x x-ma
+DIŠ AN.TA KI.TA uš-te-eb-ni LUGAL TUG₂ it-ta-šu u₂-ul u₂-ma-la ALAM IM i-pe-eš MU LUGAL TUG₂ i-za-kar [x] x x a x [x]
+# illegible traces
+[x x x x x] ad [x x x x] x a x x [x] x x x x pa-nam? a-na pa-nim šu-te-eb-x [ki]-ma me-gi₄-x [x] x x x lu₂ x [x] x it-ta-na-x x x x x
+DIŠ mi-iq-t[um?] x x x ki-ma me-gi₄-x x x x x x x x x x x ši-x x x x tir ta-ba-al x x x x x BA.UG₇ 1,16 NU.E₃
+DIŠ i+na E₂ LU₂ UR? i-na GI₃R i-ga-ra u₂-ṣa-ar E₂ LU₂ a-na IGI-šu i-ma--at u₄-mu-šu qer-bu
+DIŠ i+na {giš}BANŠUR <awilim> EME.ŠID pe-li-ša iš-ta-ka-an i+na ni-šu-ti-šu x x x ib-ba-aš-ši
+DIŠ DILI i-na bu-di-im i+na E₂ DINGIR i+na kurum-PAD-šu x x-mu-ug ki-a-am? ša-ak-na-šu? i-na MURUB₄)? KASKAL.KUR-ti-šu NAM GIG-ma? x gar
+DIŠ {d}NIN.KILIM DUMU-MEŠ-šu a-na ḫu-ur-ri
+# traces
+x x x x šu x x x x x [x] x [x]-aš-ši [x x x] x [x] [x x x] x [x] x x x x x x x x x x
+DIŠ x x x x x x [x x]-am i-ra-aš-ši [x x x x] x-ti i-x x x x il? UG₇
+DIŠ TU.RA na-ḫi-ra-šu šu-ta-as-nu-qa₂ UG₇
+DIŠ ši-ir-ḫa-nu-šu SIG₇ TI.LA
+DIŠ ši-ir-ḫa-nu-šu GID BA.UG₇
+DIŠ ši-ir-ḫa-an ŠU-šu ku-bu-tu BA.UG₇
+DIŠ SAG ma-ḫi-iṣ ŠU DINGIR.MAḪ
+DIŠ i+na EGIR ma-ḫi-iṣ ŠU {d}UTU
+DIŠ i+na IGI-šu ma-ḫi-iṣ ŠU {d}NANNA
+DIŠ tu₃-li-ma ma-ḫi-iṣ ŠU{d}IŠKUR
+DIŠ i+na ŠA₃ ma-ḫi-iṣ ŠU [{d}]nin-šubur
+DIŠ i+na šu-bur-ri ma-ḫi-iṣ ŠU {d}ti.mu₂.a
+DIŠ i+na GI₃R ma-ḫi-iṣ ŠU {d}maši(maš.tab.ba
+[DIŠ i+na x ma]-ḫi-[iṣ] [x x x x] x [x x] x x x x x x u₂-kal [x x] x igi a-na DINGIR iš-ku-un-ma sar i-pa-ri-ik ud 7.KAM NINDA NU GAR
+DIŠ ŠU.SI-šu iš-tu li-b[i ri]-tim {u₂} ka-ṣa-a ŠU GIDIM
+DIŠ ŠU.SI-šu it-te-ne₂-eḫ-le-a u₄-mu-šu qer-bu
+DIŠ i+na UD.N[A₂.A] GI₂R.TAB SA[G.DU]? awilim iz-qu-ut? GISSU ša-ki-šum
+DIŠ i+na UD.NA₂.A EME.ŠID KUN 2-ta i-ta-mar i-šar-ru
+DIŠ i+na {iti}AB.E₃ BIL.ZA.ZA KUN i-ta-mar i-mar-<ra>-aṣ
+DIŠ i+na E₂-šu EME.ŠID ša KUN NU GAR IGI! D[AM]-su₂ DUMU]-MEŠ ma-du-ti u[l-la-ad]-ma NINDA a-na pi]-šu NU GAR
+[DIŠ x x] x x

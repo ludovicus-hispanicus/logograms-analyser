@@ -1,0 +1,50 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Susa (Ville Royale, level A XII; end of the sukkalmah period, late 15th/early 14th c. BCE)
+publication: MDP 57 no. 9 (Labat 1974), Suse XII/6
+canonical_parallel: Summa izbu tablets I-IV (human births; only rare, indirect points of contact per Labat MDP 57 p.196 and Leichty TCS IV)
+counting: DIŠ
+source_note: Transcription from MDP 57 (Labat 1974) pp.199-200, Fig.22 (Face). Square brackets = editor's restoration; angle <> = scribal omission supplied by editor; (?)/(!) editorial marks dropped. Only the transliteration line kept (Akkadian normalisation in the edition omitted).
+---
+
+@obverse
+1. DIŠ MÍ Ù.TU-ma pi-in-di-i DIR MU.NI SIG₅ É Ù.TU i-TUK-rù
+2. DIŠ MÍ Ù.TU-ma ḫa-li ma-li ḪUL-šu ÉŠ AD-šu ù AMÁ-šu
+3. DIŠ MÍ Ù.TU-ma ṣer-ni-it-ta DIR É Ù.TU i-ZÁḪ
+4. DIŠ MÍ Ù.TU-ma ep-qa DIR ḪUL-šu ÉŠ AD-šu ù AMÁ-šu
+5. DIŠ MÍ Ù.TU-ma Ú.GÍR ma-li ERÍN.ERÍN 2.30 TA É.GAL-šu i-bar-šu
+6. É LÚ is-sa₈-ap-pa-aḫ
+7. DIŠ MÍ Ù.TU-ma SIG₇ DIR 2.30 GAL.MEŠ i-GAZ-šu É DIŠ is-sa₈-ap-pa-aḫ
+8. DIŠ MÍ Ù.TU-ma GINₓ ší-da-ší-ri TIR KÚR KALA.GA i-ZI-a
+9. É LÚ is-sa₈-ap-pa-aḫ
+10. DIŠ MÍ Ù.TU-ma GE₆.GE₆ me-el-lu-uḫ-ḫa-nu MU.NI KÚR KALA.GA i-ZI-a
+11. É Ù.TU i-TUK-in
+12. DIŠ MÍ Ù.TU-ma IGI-šu 1 TA SAG.KI-šu GAR i-gi-da-lu MU.NI
+13. BAL 2.30 TIL 2.30 KILÍ TA KUR Ì.GÁL ZI ḪUL-ti KUR i-TUR É DIŠ is-sa₈-ap-pa-aḫ
+14. DIŠ MÍ Ù.TU-ma IGI 15-šu NU Ì.GÁL É LÚ is-sa₈-ap-pa-aḫ
+15. DIŠ MÍ Ù.TU-ma IGI 16-šu NU Ì.GÁL DÍM.MA MU.NI
+16. DIŠ MÍ Ù.TU-ma IGI.IGI-šu NU Ì.GÁL-a KUR KALA.SAL IGI bu-še KUR BAR-aḫ
+17. i-ši-tuₓ ù di-li-iḫ-tuₓ TA KUR GAR-an 2.30 GAM-mu LÚ IBILA NU TUK
+18. DIŠ MÍ Ù.TU-ma 3 IGI-šu 2 TA 15 1 TA 16 GAR É Ù.TU i-TUK-rù
+19. [DIŠ MÍ Ù.]TU-ma 3 IGI-šu 2 TA 16 1 TA 15 GAR DUMU 2.30 1.20 i-DÁB
+20. [É L]Ú is-sa₈-ap-pa-aḫ
+21. [DIŠ MÍ Ù.T]U-ma 4 IGI-šu 2.30 GABA.RI NU TUK É Ù.TU i-TUK-rù
+22. [DIŠ MÍ Ù.T]U-ma GEŠTU 15-šu GAM ŠUB.BA SAG.KAL.MEŠ-a
+23. [DIŠ MÍ Ù.T]U-ma GEŠTU 16-šu GAM ŠA₄.SÙ ni-šu šer₈-ri-ší-na
+24. [ÉŠ KU.BABBAR] i-pa-aš-ša₄-ra
+25. [DIŠ MÍ Ù.TU]-ma DIB DINGIR GAR 2.30 we-du-tam i-TUK LÚ MU NU ba-na-a GAR-an
+26. [DIŠ MÍ Ù.TU-]ma pa-al-lu-ur-ta ma-ši-id ka-šu-šu GAR DINGIR.UGU i-RA
+27. [DIŠ MÍ Ù.TU]-ma 2 da-pa-ti ma-ší-id KUR TA ṭuₓ-ba-ti GIN
+28. [........] 2.30 ÉŠ KÚR-šu i-GAM-uš
+29. [DIŠ MÍ Ù.TU]-ma ṭup-pa ša₄ UZU ma-ší-id DIŠ ḪUL.ŠA₄ IGI
+30. [DIŠ MÍ Ù.TU]-ma ke-zì-ir 2.30 ṭà-ri-du-tam GIN TUK DINGIR DIŠ
+31. [DIŠ MÍ Ù.TU-]ma ma-li-i na-ší EBURₓ i-šer₈ É DIŠ i-TUK-rù
+32. [DIŠ MÍ Ù.TU-ma] GEŠTU.MEŠ-šu NU Ì.GÁL.MEŠ Á.DAM.MEŠ-a
+33. [KAR.MEŠ-'u] É DIŠ i-ḫar-rù-ub
+34. [DIŠ MÍ Ù.TU-ma GEŠTU].MEŠ-šu na-ḫi-ra-šu ù IGI.IGI-šu NU Ì.GÁL
+35. [... ...] DIŠ DINGIR-šu TAK₄-šu
+36. [DIŠ MÍ Ù.TU-ma 1 ZÚ.MEŠ]-šu wa-ṣá-at DINGIR te-ša₄-a ÉŠ KUR ŠUB.BA TUK DINGIR DIŠ
+37. [DIŠ MÍ Ù.TU-ma 2 ZÚ.MEŠ]-šu wa-ṣá-a 2.30 U₄.MEŠ-šu i-TIL ni-ri-ma TUK DINGIR DIŠ
+38. [DIŠ MÍ Ù.TU-ma ZÚ.MEŠ]-šu ka-lu-ší-na-ma wa-ṣá-a
+39. [... ...] ŠA₄.SÙ TUK DINGIR DIŠ

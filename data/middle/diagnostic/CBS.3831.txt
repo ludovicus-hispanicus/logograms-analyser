@@ -1,0 +1,40 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Nippur
+topic: symptoms (diagnostic-prognostic, SA.GIG forerunner)
+exclude: true
+edition: Rutz, "Threads for Esagil-kīn-apli," ZA 101 (2011) 294–308, Appendix B (CBS 3831 = P260201)
+note: >
+  EXCLUDED FROM THE LDI. CBS 3831 is a genuine Middle Babylonian diagnostic
+  extract from Nippur (the companion of CBS 12580, same Rutz 2011 study), but it
+  is too fragmentary to score: Rutz states "a connected translation is impossible"
+  and that only "certain fragmentary words and phrases on the obverse secure the
+  tablet's identification." Of the few legible tokens, most are broken (x) or the
+  non-lexical numeric tally "ilimmu.u". Its surviving content is NOT a divergent
+  tradition — it parallels canonical Sakikkû 3 (qāt eṭemmi šaggāši "hand of the
+  ghost of a murderer", obv. 4; ana muršišu itūr imât "he relapsed, he will die",
+  obv. 5). It is kept here for documentation only. Every line below is commented
+  out (#) so the loader counts nothing from this file.
+---
+
+# --- CBS 3831, transliteration (Rutz 2011, Appendix B); documentation only, not counted ---
+# @obverse
+# 1. [...] u GIR₃-MIN-šú TEŠ₂.BI x [x (x)]
+# 2. [...]-ak ŠU x [x (x)]
+# 3. [...] x ki ŠU ZAG u mu? ma x [
+# 4. [ŠU?] GIDIM šag-ga-ši x [
+# 5. [...]-šú i-tur BA.[UG₇?]
+# 6. [...] ilimmu.u ilimmu.u ilimmu.u ilimmu.u ilimmu.u ilimmu.u ilimmu.u ilimmu.u [(blank?)]   (numeric tally, not omen text)
+# (blank) / (lacuna)
+# @reverse
+# (lacuna)
+# 1'. [...] x [
+# 2'. [...] iz-za(-)[
+# 3'. [...] x bal-ṭam-ma? [
+# 4'. (blank?)
+# 5'. [...] x (x) ki-ma id [
+# 6'. [...] x EGIR-nu ki? [
+# 7'. [...] x ú-suk-ka-a x [
+# 8'. [...] x-šú ib-bal-la-x [
+# 9'. [...] ilimmu.u ilimmu.u ilimmu.u ilimmu.u ilimmu.[u?]   (numeric tally, not omen text)

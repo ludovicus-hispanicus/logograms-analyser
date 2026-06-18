@@ -1,0 +1,115 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: first-millennium canonical Šumma Ālu (Nineveh/Assur/Uruk etc.); 11 manuscripts
+publication: eBL corpus D/2/6 chapter SB 103 = canonical Šumma Ālu Tablet 103 (Project Ālu Geneva). Composite (reconstruction) read off the chapter score.
+counting: DIŠ
+topic: human-behaviour/sex omens (≈ Middle VAT.11192 / Nr.34)
+source_note: eBL composite text. '#tr.en:' = eBL translation; '//' and '#note:' = parallels/notes (commented out); '# var:' = a second variant. Logograms uppercase, {} determinatives, [] restoration.
+note: Neo canonical counterpart for the topic-controlled MB→Neo terrestrial comparison.
+---
+
+@text
+1. DIŠ NA ana MUNUS u₂-zu-uz-za-ta DU-ik LU₂ BI [...]
+   #tr.en: If a man has intercourse with a woman while standing up: that man [...]
+2. [DIŠ NA ...]
+   #tr.en: [If a man ...]
+3. [DIŠ NA ...]
+   #tr.en: [If a man ...]
+4. [DIŠ NA] ana# MUNUS# qid#-dam#-ta# ana# GU#.DU# DU [TA ŠA₃ GU.DU ana] GAL₄.LA DU x# [...]
+   #note: The reconstruction of the protasis follows omen 6. Cf. also @bib{Guinan2022Female@71 n. 65}, who uses the unpublished Uruk manuscript.
+   #tr.en: [If a man] has anal intercourse with a woman while bending over [(and) from inside the anus] he goes [to] the vagina: ... [...]
+5. [DIŠ N]A ana MUNUS pur-qi₂-dam DU-ma pi r[i? ... k]i-a-am i-mur ki-a-a[m] u₂#-še-e[ṣ-ṣi]
+   #note: @bib{Guinan2022Female@73 n. 71} tentatively restores the end of the protasis as @akk{pi-r[e-es-sa uš-šu-ra-rat?]}, translated as “her tre[sses hang down(?)]”.
+   #tr.en: [If a m]an has intercourse with a woman while on his back and ... [...] he will look after (her?) for a time, the[n] he well se[nd] (her?) away.
+6. [DIŠ N]A ana MUNUS pur-qi₂-dam DU-ma GIR₃.MIN-ša₂ ana?# [l]a?-ba-ni-šu₂ D[U-x] a#-šar DU-ku DINGIR LUGAL IDIM ŠE.GA.MEŠ-[šu₂]
+   #tr.en: [If a m]an has intercourse with a woman while on his back and her feet go onto his neck: wherever he will go, god, king (and) dignitary will be favorably inclined toward him.
+7. [DIŠ N]A ana MUNUS pur-qi₂-dam ana GU.DU DU TA ŠA₃ GU.DU ana GAL₄.LA D[U-(ik) S]AG.HUL.HA.ZA TUKU-ši šum₄-m[a] MUNUS UŠ₂ šum₄-ma NITA UŠ₂
+   #note: @bib{RN3135@188} translates “(Demon) Saghulhazu will have her.”
+   #tr.en: [If a m]an has anal inter[course] with a woman while on his back (and) from inside the anus he moves to the vagina: he/she will have the ...-demon, eith[er] the woman will die or the man will die.
+7R. [ana] NU TE-e KI.NU₂-ka TI-qe₂ IGI-ša ŠEŠ₂-ma NU TE-ši
+   #note: The translation “bedding” (rather than “bed”) follows @bib{RN3135@188}. @bib{RN1156@108} translates “Schlafmatte”.
+   #tr.en: [So that] it does not approach: You take your bedding, anoint her face and it will not approach her.
+8. [DIŠ N]A ana MUNUS pur-qi₂-dam DU-ma ki-ma K[I].NU₂-šu₂# uq#-ta-at-tu#-u₂# [K]I.UŠ-su A TAG-ma A₂.TUKU TUKU-ši KIMIN I.BI₂#.ZA# IGI-[mar]
+   #note: The translation of the apodosis given above follows the commentary entry, which @bib{CCP 3.5.103} translates as “‘you will touch a track on the water’ – I do not know (what this means).” @bib{Guinan2022Female@78} translates “he smears his footprint with semen.”
+   #tr.en: [If a m]an has intercourse with a woman while on his back and they finish as if at his sleeping place: he will touch his [t]racks with water and he will make profit. Alternatively, he will see financial loss.
+8R. ana# NU TE-e še-er!(NI)-tam-ma ina KUN₄ KA₂ ša₂ KU₄ u E₃-[šu₂] u₂-šu-uz-za-ta KI-šu uš-ta-at-ti KI#.NU₂ GAR IGI-ša₂ ŠEŠ₂-m[a] [MU]NUS BI 7-šu₂ i-na-ši-iq KA₂ E₃-ma sip-pu 7-šu₂ ina-šiq-ma NU# T[E-šu₂]
+   #note: For a different interpretation of this ritual, cf. @bib{Guinan2022Female@75 with n. 76}. The verb @i{šutātû} (“to face one another”) is also found in T.104 omens 20 and 36. @bib{RN12011@478 n. 32} discusses its sexual connotations and suggests a more explicit meaning “to hammer”.
+   #tr.en: So that it does not approach: In the morning she faces him standing up on the threshold of the door through which [he] enters and leaves. He prepares a sleeping place, anoints her face and kisses this woman seven times. He goes out the door and kisses the door frame seven times, and it will not app[roach him.]
+9. [DIŠ N]A ana MUNUS ina {giš}GU.ZA DU ŠA₃.HUL₂#.LA# DUG₃.GA ŠA₃ G[AR-ma] ina {giš}GU.ZA i-sa-dir-ma maš-ka-di [...]
+   #tr.en: [If a m]an has intercourse on a chair: happiness (and) contentment will be pl[aced and] it will regularly occur on a chair and @i{maškadu}-disease [...]
+10. [DIŠ N]A ana MUNUS ina GIŠ.NU₂ : ina {giš}GU.ZA ip-rik-ma G[IR₃.MIN-šu₂ ...] DINGIR ŠE.GA
+   #tr.en: [If a m]an lies across a woman on a bed (or) on a chair and [his] f[eet ...]: the god will be favorably inclined.
+11. [DIŠ N]A ana MUNUS ina KUN₄ KA₂.AN.AŠ.A.AN DU-ik ana {d}i-šum EN SI[LA.DAGAL.LA ...] MUNUS BI ul uš-tak-lal mu-ru-uṣ [...]
+   #note: For the translation of the Št-stem as “to become fully formed”, see @bib{RN2721@Š/3 226}. Probably, the intended meaning is “to carry to term”, one of the translations of the Š-stem; cf. the translation of AššNA1 o 6' as “[diese Frau wird (ihr Kind) nicht austra]gen” by @bib{RN1156@108}.
+   #tr.en: [If a m]an has intercourse on the threshold of the outer gate: to Išum, master of the sq[uare ...]; this woman will not become fully formed, illness of [...]
+11R. ana NU TE SAHAR KUN₄ KA₂ 15 u 150 te-leq-q[e₂] ṣa-lam MUNUS [DU₃-uš-ma] ina KUN₄ KA₂.AN.AŠ.A.AN te-te-mer-ma N[U TE-ši]
+   #tr.en: So that it does not approach: You take earth right and left from the threshold of the door, [you make] a figurine of a woman [and] you bury (it) under the threshold of the outer gate and it will n[ot approach her.]
+12. [DIŠ NA ana] MUNUS# ina# pe#-ti-ti DU šum-ma ana A₂.AŠ₂ IGI-šu₂ GAR-nu KUR-ad₂-s[u]
+   #tr.en: [If a man] has intercourse in a ...: if he sets an objective, he will achieve i[t.]
+13. [DIŠ NA ana MUNUS ina pe-t]i-ti u₂-zu-uz-za-ta DU-ik A₂.AŠ₂-su [...]
+   #tr.en: [If a man] has [intercourse in a ...] ... while standing up: his objective [...]
+14. [DIŠ NA ana MUNUS] ina u₂-re-e DU šum₄-ma be-en-nu DAB-su šum₄-ma UŠ₂ šum₄-ma G[IG? ...]
+   #tr.en: [If a man] has [intercourse] in a shed: either @i{bennu}-disease will seize him or he will die or ... [...]
+14R. [ana NU T]E-e KI.NU₂-ka TI-qe₂ IGI AB₂.GU₄.HI.A u US₅.UDU.HI.A ŠEŠ₂-ma N[U TE-šu₂]
+   #note: The translation “bedding” (rather than “bed”) follows @bib{RN3135@188}. @bib{RN1156@108} translates “Schlafmatte” and interprets this as the direct object of @akk{ŠEŠ₂}.
+   #tr.en: [So that it does not app]roach: You take your bedding and anoint the face of cattle and flock, and [it will] n[ot approach him.]
+15. [DIS NA] ana# MUNUS# ina {giš}MA₂ DU LU₂ BI ana {d}30 ka-rib DINGIR-šu lib-ba-ti-šu₂ m[a?-li?]
+   #tr.en: [If a man] has intercourse on a ship: this man prays to Sîn, his god [is filled?] with anger against him.
+15R. [ana NU TE-e x] ša₂ {giš}MA₂.DIRI.GA i-lak GIŠ.MA₂ ru-ku-b[i ...] x# [x] gar# DU NU TE-š[u₂]
+   #tr.en: [So that it does not approach:] He will go to a ferry, [...] a cargo boat [...] ... it will not approach h[im.]
+16. [DIŠ NA ana MUNUS ... D]U šum₄-ma ŠU DINGIR šu[m₄-m]a ŠU LUGAL KUR-s[u]
+   #tr.en: [If a man has intercourse ...]: either the hand of a god or the h[an]d of the king will reach h[im.]
+16R. ana [NU TE-e] {tug₂}GU₂.E₃-šu₂ i#-qal-lu-ma NU TE-he
+   #tr.en: So that [it does not approach]: He burns his cloak and it will not approach.
+17. [DIŠ NA] ana# MUNUS# ina til₄-li# DU me₂-si-ru DAB-su NU DUG₃.GA UZU GAR-an-[šu₂]
+   #note: @bib{RN1156@107} connects this omen with NinLBCom1 o 4' and reads @akk{ina hal-l[i-š]a}.
+   #tr.en: [If] a man has intercourse on a ruin heap(?): imprisonment will seize him, misery will befall [him.]
+17R. [ana NU TE-e x s]u AN.TA-tu₄ ina-šiq-ma NU TE-š[u₂]
+   #tr.en: [So that it does not approach ...] ... he kisses the upper part and it will not approach.
+18. [DIŠ NA ...] NA BI mim-ma ma-la i#-dab-bu-bu ŠU-su KUR#-ad₂# [... d]u is-sa₃-ha[r]
+   #tr.en: [If a man ...]: this man, his hand will reach whatever he talks about [...] ... he will retur[n.]
+19. DIŠ NA ana hal-li-ša₂ DU [bu]-ul#-lul# MUNUS.SIG₅-ti₃ TUKU KIMIN ka-šad ṣi-bu-t[i]
+   #note: For the reconstruction of the protases see T.104 omens 9 and 10.
+   #tr.en: If a man comes onto her thighs (and) [is sp]lattered (with his semen?): he will have good luck. Alternatively, achievement of an objecti[ve.]
+20. [DIŠ NA ... ha]-an-ṭiš# KU₄-ib ni-iš ŠA₃ TUKU-ši A₂.TUKU [TUKU-ši]
+   #note: The reconstruction of @i{hanṭiš} “quickly” follows @bib{RN1156@107}.
+   #tr.en: [If a man qui]ckly brings in [...]: he will have sexual desire, [he will make] profit.
+21. [DIŠ NA ...] x# x# x# x# u₂-še-rib UGU EN INIM-šu₂ GUB?#-[az?]
+   #tr.en: [If a man ...] ... brings in [...]: he will [triumph(?)] over his adversary.
+22. [DIŠ NA ...] x# ba-aš₂-tu šir₃-ka-as-su x# [...] EG[IR ina] SIG₅-šu₂ DU.D[U?]
+   #note: The reconstruction and interpretation of this omen remain difficult.
+   #tr.en: [If a man ...] ... the genitals(?) of his female oblate(?): [...]; afterwa[rd] he will liv[e in] his good fortune.
+23. [...]
+   #tr.en: [...]
+24. [DIŠ NA ...]
+   #tr.en: [If a man ...]
+25. [DIŠ NA ...]
+   #tr.en: [If a man ...]
+26. [DIŠ NA ... D]U? A₂#.T[UKU? T]UKU-[ši ...]
+   #tr.en: [If a man ... has interco]urse(?):he will ma[ke a profit ...]
+27. [DIŠ NA ...] DU MUNUS BI I.BI₂#.ZA IGI ana NITA [...] x# ud IBILA# u MAŠ.EN.GAG ina L[A-šu₂ UŠ₂? KIMIN ina m]a-mit A₂?#.SAG₃?# DAB?# UŠ₂ KIMIN UD.MEŠ-šu₂ i-ṣu#-t[i x (x)]
+   #note: The reconstruction of @akk{ina L[A-šu₂ UŠ₂]} follows @bib{RN1156@107}, who seems to interpret these two lines as two separate omens. For the current reconstruction with two alternative apodoses, cf. omen 34.
+   #tr.en: [If a man] has intercourse [...]: this woman will experience losses, for the man [...] an heir or a commoner [will die] in the prime [of his live(?). Alternatively,] he will be seized(?) [by the c]urse of the @i{asakku}-demon(?) (and) he will die. Alternatively, his sho[rt] days [...]
+28. [DIŠ NA ana e-me-t]i-šu₂ DU ina NU DUG₃.GA ŠA₃ [DU.DU]
+   #note: Or @akk{[ana kal-la-t]i-šu₂}? Cf. @bib{RN3135aa@33} (with n. e) and @bib{RN1156@107, 109}. With @i{emētīšu}, the omen is also found in line 14 of the “Prodigies of the Fall of Akkad” (Rm.155 = CT 29, 48–49); see @bib{RN3135aa@33, 38}. The reconstruction of @akk{DU.DU} follows Heeßel.
+   #tr.en: [If a man] has intercourse [with] his [mother-in-l]aw / his [daughter-in-l]aw: [he will live] in misery.
+29. [DIŠ NA ana NIN₉?.A].NI DU DINGIR u {d}LAMMA TUKU-[ši]
+   #note: The tentative reconstruction of the protasis follows @bib{RN1156@107}. For the translation “(luck bringing) god” cf. @bib{RN2721@I–J 102a}.
+   #tr.en: [If a man] has intercourse [with] his [sister(?)]: he will have a god and a protective spirit.
+30. [DIŠ NA ana NIN₉? D]AM.A.NI DU DINGIR-šu₂ u {d}iš₈-tar₂-šu₂ i-gam-[mi-lu-šu₂]
+   #note: The tentative reconstruction of the protasis follows @bib{RN1156@107}.
+   #tr.en: [If a man] has intercourse [with] his wife’s [sister]: his god and his protective goddess will spare [him.]
+31. [DIŠ] NA ana DUMU.MUNUS DUMU NIN₉.A.NI TE (a-ni) AD lum-ni-šu₂ ša₂ iš-tu MUNUS [...] EN TI.LA-šu₂ bi : [...]
+   #note: As @bib{RN1156@109} points out, this omen is the only to use the verb @i{tehû} (@akk{TE}), rather than @i{alāku} (@akk{DU}).
+   #tr.en: [If] a man approaches a daughter of his sister’s son (for sex): (at once) father of his misfortune, that from the woman [...], until he recovers ... (or) [...]
+32. DIŠ NA ana DUMU.MUNUS ŠEŠ.A.NI DU a-šar DU-ku tam-ṭa-a-[tu₄]
+   #tr.en: If a man has intercourse with a daughter of his brother: wherever he will go, (there will be) loss[es.]
+32R. ana NU TE-e ki-a-am DUG₄.GA DINGIR A₂.MU [...]
+   #note: Alternatively, with @bib{RN1156@108}, translate “god, my strength”.
+   #tr.en: So that it does not approach: He speaks as follows: god of my strength [...]
+33. DIŠ NA ana DUMU.MUNUS DUMU.MUNUS ŠEŠ-šu₂ DU mim-ma la šu-a-tu₄ Š[U-su KUR-ad₂] A₂.TUKU TUKU-ši E₂.A.BA i-[šar₂-ru₃]
+   #note: The reconstruction of @i{išarru} follows @bib{RN3135@188 n. 11} (also @bib{RN1156@109}).
+   #tr.en: If a man has intercourse with a daughter of his brother’s daughter: [his] ha[nd will reach] something that is not his, he will make profit, the family will [become rich.]
+34. DIŠ NA DAM ŠEŠ-šu₂ uz-na GAR-su DINGIR TUKU?#-[ši?] KIMIN tu-kul-ta-šu₂ KIMIN DINGIR ŠE.GA-šu₂
+   #tr.en: If a man, the wife of his brother desires him: he will ha[ve(?)] luck. Alternatively, his trust. Alternatively, the god will be favorably inclined toward him.

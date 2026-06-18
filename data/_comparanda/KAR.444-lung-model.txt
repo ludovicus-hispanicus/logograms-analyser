@@ -1,0 +1,16 @@
+---
+exclude: true   # COMPARANDUM — extispicy (lung) label-model, kept out of the genre LDI
+genre: extispicy model
+period: Middle Assyrian
+provenance: Assur
+counting: line
+topic: lung
+publication: VAT 9580 = KAR 444; Heeßel 2012 KAL 5 no. 78 (pp. 250-253); Koch 2005, 518-521; quoted in De Zorzi 2021, WdO 51/2
+feature: orientation tablet (liver obverse, lung reverse); parallel to CTN 4 60 (imēr ḫašî)
+note: snippet — only the imēr ḫašî (Saw-horse) labels of the lung reverse, after De Zorzi 2021; eBL has no transliteration yet; full edition Heeßel 2012 no. 78. 15/150 normalized to ZAG/GUB₃
+---
+
+1. ANŠE MUR ša₂ ZAG ka-lu-šu₂-ma ZAG
+#tr.en: The Saw-horse of the right lung is totally right.
+2. ANŠE MUR ša₂ GUB₃ ka-lu-šu₂-ma GUB₃
+#tr.en: The Saw-horse of the left lung is totally left.

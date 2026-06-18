@@ -1,0 +1,22 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+provenance: Hattusa / Bogazkoy (Late Bronze Age, ca. 14th-13th c. BCE; Akkadian recension)
+publication: KUB 29 12; Akkadian version from Bogazkoy (Leichty TCS 4, 207ff.)
+counting: UD
+source_note: Hand-checked Akkadian transliteration (clean). UD = šumma. Half-brackets/[ ] preserved; sigla & sub-numbers marked $ (skipped).
+---
+
+@col. ii
+1) […] KUR […]
+2) UD iz-bu GÌR.ḪI.A AM.SI GAR […]
+3) i-lak UD iz-bu GÌR.ḪI.A-šu […]
+4) GIM ŠU.ŠIR pát-lu LUGAL UGU […]
+5) UD iz-bu GÌR.ḪI.A maḫ-ru-tù […]
+6) tu-ub-bu-kà KUR LUGAL i-sa-[…]
+7) GÌR.ḪI.A-šu maḫ-ru-tù ti-iṣ-[bu-tá …]
+8) KUR LUGAL DAGAL-iš […]
+9) UD iz-bu GÌR.ḪI.A-šu maḫ-ru-[tù …]
+10) ti-iṣ-bu-tá KUR LUGAL DAGAL-[iš …]
+11) GÌR.ḪI.A-šu EGIR-ti 3-˹tù˺ […]
+12) KUR LUGAL DAGAL-[iš …]

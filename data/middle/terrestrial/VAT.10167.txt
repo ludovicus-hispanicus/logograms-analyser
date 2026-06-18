@@ -1,0 +1,149 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur (Ass 4347)
+publication: Heeßel 2007 (KAL 1) no. 16 = VAT 10167 (KAR 382, = A). Middle Assyrian; lizard (EME.DIR) omens ≈ Šumma Ālu 24. Largely-preserved two-sided tablet (the substantial MA lizard witness).
+counting: DIŠ
+source_note: A-lines of the Nr. 16/17 score, extracted from KAL 1 via structured OCR; siglum stripped. Determinatives {}, restorations [], breaks x/…/[...]. Trust the preserved-only LDI.
+---
+@obverse
+[ ] x x [ ]
+[ ]-su NA [ ]
+[DIŠ EME.DIR a-na x NA] ŠUB-ut SÚḪ ni-zíq-tu4
+[DIŠ EME.DIR a-na x NA] ŠUB-ut mim-mu-šu ZÁḪ
+[DIŠ EME.DIR a-na IGI NA] ŠUB-ut UGU EN INIM-šu GUB-az
+[DIŠ EME.DIR a-na x NA] ŠUB-ut KUR-ad Á.ÁŠ
+[DIŠ EME.DIR a-na x NA] ŠUB-ut EN INIM-šu KUR-ad
+[DIŠ EME.DIR a-na x N]A ŠUB-ut a-na di-ni-šu i-ger-ru-šu
+[DIŠ EME.DIR a-na EGIR NA Š]UB-ut-ma it-tap-pi-iṣ ḪUL IGI-mar
+[DIŠ EME.DIR a-na EGIR NA] ŠUB-ut-ma TAG KALA.GA-su pí-is-la-at ḪUL IGI-mar
+[DIŠ EME.DIR TA AN-e] a-na UGU NA ŠUB-ut NA BI ḪA.LA GAL GU7
+[DIŠ EME.DIR ] a-na UGU NA GU4.UD!-iṭ NA BI INIM SIG5 IGI-mar
+[DIŠ EME.DIR TA] KI a-na UGU NA E11 NA BI Á.TUK IGI-mar
+[DIŠ EME.DIR] TA É.GAR8 ana UGU NA GU4.UD-iṭ NA BI mim-ma la-a šu-a-&lt;ti&gt; ŠU-su KUR-ad
+[DIŠ EME.DIR] a-na UGU ŠU NA ZAG ŠUB-ut NA BI Á.TUK TUK-ši Á.TUK-šú GU7
+[DIŠ EME.DIR] a-na UGU ŠU NA GÙB ŠUB-ut ina KÙ.BABBAR.MEŠ DUMU.MUNUS.MEŠ-šú É DÙ-uš
+[DIŠ EME.DIR] a-na bir-ki NA ŠUB-ut Á.TUK DUMU-šú TUK-ši mim-ma PÀ ana ku-širi ŠID
+[DIŠ EME.DIR] a-na UGU GÌR NA ZAG ŠUB-ut mim-mu-šu [ZÁ]Ḫ
+[DIŠ EME.DIR] a-na UGU GÌR NA GÙB ŠUB-ut MUNUS.LUḪ GÌR.MEŠ-šu [TUK-ši]
+[DIŠ EME].DIR a-na pu-ut NA ŠUB-ut-ma TAG-su NA BI INIM NU ZU [KUR-ád]
+[DIŠ EM]E.DIR a-na UGU {giš}GU.ZA NA ŠUB-ut KA×MI EN.NU.UN [u4-me]
+[DIŠ] EME.DIR a-na UGU {giš}GU.ZA NA E11 is-sa-la-[’a]
+DIŠ EME.DIR a-na KI.TA {giš}GU.ZA NA KU4-ma ir-bi-iṣ KÚR! É BI [TUŠ-ab]
+DIŠ EME.DIR a-na UGU {giš}GU.ZA NA E11-ma ir-bi-iṣ [ ] x [ ]
+DIŠ EME.DIR a-na UGU {giš}BANŠUR NA ŠUB-ut ina-[an-ziq]
+DIŠ EME.DIR a-na UGU {giš}BANŠUR NA ana DUG &lt;kal&gt;-li ŠUB-ut GIG [DAB-su]
+DIŠ EME.DIR a-na UGU {giš}BANŠUR NA E11-ma ir-bi-iṣ šá KASKAL SÙ-te TE-a šá [ ]
+DIŠ EME.DIR a-na KI.TA {giš}BANŠUR NA KU4-ma ir-bi-iṣ SUḪUŠ.BI [NU GI.NA]
+DIŠ EME.DIR a-na UGU {giš}NÁ NA ŠUB-ut-ma! ir-bi-iṣ SUḪUŠ.BI [GI.NA]
+DIŠ EME.DIR a-na UGU {giš}NÁ NA E11 INIM.[GAR SIG5]
+DIŠ EME.DIR a-na UGU {giš}NÁ NA E11-ma ir-bi-iṣ DUMU.MEŠ [NU IGI]
+DIŠ EME.DIR a-na KI.TA {giš}NÁ NA KU4-ma ir-bi-iṣ ŠÀ.BI [DÙG.GA]
+DIŠ EME.DIR a-na UGU {giš}NÁ NA GIG ŠUB-ut GIG-su Š[UB-u]t
+DIŠ EME.DIR a-na UGU LÚ ša a-na di-ni i-ger-ru-šu lu šá ina KI.ŠÚ ŠUB-ú Š[UB]-ut NA BI ina di-ni-šú TI-qé ina KI.ŠÚ NA È
+DIŠ EME.DIR a-na KI.NE ana IZI ŠUB-ut-ma È NA BI ina KI.ŠÚ-šu È
+DIŠ EME.DIR a-na KI.NE ana IZI ŠUB-ut-ma ib-šal ÚŠ BA.ÚŠ
+DIŠ EME.DIR a-na UGU IZI.GAR ŠUB-ut-ma ku-pu-ut É BI KAR-ta5 DU-ak
+DIŠ EME.DIR a-na IM.ŠU.RIN.NA ŠUB-ut-ma È ZI.GA ÌR ù GÉME
+DIŠ EME.DIR a-na IM.ŠU.RIN.NA ŠUB-ut-ma ib-šal É BI KU4-ba ú-za-am-ma
+DIŠ EME.DIR a-na IM.ŠU.RIN.NA ŠUB-ut-ma NU ib-šal ZI.GA È-šu
+DIŠ EME.DIR a-na {gi}PISAN NINDA ŠUB-ut NINDA i-qir-šu
+DIŠ EME.DIR a-na {gi}PISAN NINDA KU4-ma ir-bi-iṣ ŠU.BI.GIM.NAM
+DIŠ EME.DIR a-na DUG A.GEŠTIN.NA ŠUB-ut NÍG.BA DINGIR GÁL-ši-šu
+DIŠ EME.DIR a-na DUG A lu ana DUG KAŠ ŠUB-ut NA BI ina-ziq
+DIŠ EME.DIR a-na DUG nàr-ṭa-bi ŠUB-ut É BI maš-qa-a ú-za-am!(Text: mar)-ma
+DIŠ EME.DIR a-na {dug}ÚTUL ŠUB-ut GÙ ina É NA GÁL-ši
+DIŠ EME.DIR a-na Ì.DUB SA5 ŠUB-ut É BI še-am i-ḫa-šaḫ
+DIŠ EME.DIR a-na Ì.DUB SÙ ŠUB-ut É BI NINDA i-šeb-bi
+DIŠ EME.DIR a-na KUŠ.LU!(Text: ku).ÚB KU4-ma ir-bi-iṣ LÚ BI ina-ziq
+DIŠ EME.DIR ina UGU NA DU.DU-ak U4.MEŠ-šú GÍD.DA.MEŠ INIM SIG5-ti GAR-šu
+DIŠ EME.DIR ina É NA ina DÙ u4-me GÙ-šú ŠUB.ŠUB-di ŠUB-tu4 GÁL-ši
+DIŠ EME.DIR ina É NA ina GE₆ GÙ-šú ŠUB.ŠUB-di ZI.GA ÌR ù GÉME
+DIŠ EME.DIR ina É NA ma-gal ḪI.A ŠUB-di É NA! (Text: te)
+DIŠ EME.DIR mi-it-tu₄ ina É NA IGI É BI LAL
+DIŠ EME.DIR na-kíl-tu ina É NA it-tab-ši e-néš É É BI ŠE i-qir-šu
+DIŠ EME.DIR lu ina A lu ina KAŠ ÚŠ-ma IGI.DU₈ É BI ZI.GA ZI-šu
+DIŠ EME.DIR KI.TA-nu sa-at É NA Ù.TU ŠUB É
+DIŠ EME.DIR KI.TA-nu na₄UR₅ Ù.TU EN É BI ina ŠÀ LUGAL KAR
+DIŠ EME.DIR ina ŠEN MUNUS Ù.TU MUNUS BI MAŠ.TAB.BA TUK-ši ina ŠÀ.ḪUL DU.DU-ak
+DIŠ EME.DIR ina tal-lak-ti É NA Ù.TU ŠUB-di É
+[DIŠ E]ME.DIR ina mut-tab-bíl-ti É NA Ù.TU BIR-aḫ É
+[DIŠ EME].DIR ina ḫa-ru-ur É NA Ù.TU BIR-aḫ É
+[DIŠ EME.D]IR ina É NA ma-gal ŠUB.MEŠ-ni ŠUB-di [É]
+[DIŠ EME.DI]R nu-pùl-tu ina KUN₄ É NA IGI.DU₈ É BI x [ ]
+[DIŠ EME.DIR] x ina É NA GÁL-ši EN É BI [ ]
+[DIŠ EME.DIR x ina É] NA GÁL-ši É BI [ ]
+[DIŠ EME.DIR x ina É] NA GÁL-ši NA BI [ ]
+[DIŠ EME.DIR x x N]A ina GE₆ GÙ-šú ŠUB.ŠUB-di ŠUB-ti [ ]
+[DIŠ EME.DIR ana UGU N]A E₁₁-ma i-du-ul NA [BI ]
+[DIŠ EME.DIR x x] NA GU₄.UD-iṭ NA [BI ]
+[DIŠ EME.DIR x x x] E₁₁ NA BI ᵈALAD u ᵈL[AMA TUK-ši ]
+[ ] x [ ]
+[DIŠ EME.DIR ] tu₄ ina É [ ]
+[DIŠ EME.DIR šá 2] SAG.DU.MEŠ-šú ana UGU NA ŠUB-ut [ ]
+[DIŠ EME.DIR šá] 2 SAG.DU.MEŠ-šú kit-pu-lu-ma ana UGU NA x [ ]
+[DIŠ EME.DIR š]á 2 SAG.DU.MEŠ-šú TA KI ana UGU NA E₁₁ [ ]
+[DIŠ EME.DIR] šá 2 SAG.DU.MEŠ-šú kit-pu-lu-ma ana UGU NA ŠUB-ut x [ ]
+[DIŠ EME].DIR ki-ma ŠU.S[AR] pat-lu-ma ina É NA DU.DU-ak EN [ ]
+[DIŠ] EME.DIR kit-pu-lu-su-nu TA ᵍⁱšÙR.MEŠ ŠUB.MEŠ-ni x [ ]
+DIŠ EME.DIR ana DUG.GIŠ.Ì.MEŠ ŠUB-ut EN É BA.ÚŠ-ma is x [ ]
+DIŠ EME.DIR ana ÚR NA KU₄-ub MUNUS.BI BA.ÚŠ-ma KI.ḪU[L ]
+DIŠ EME.DIR ana ŠÀ TÚG.SAG.ÍL.EZEN.NITA KU₄-ub ÍL-ma tu [ ]
+DIŠ EME.DIR ana ÚR NA KU₄-ub i-šár-ru-ma!(Text: da) ma-nu-me-e ki-i ia-a-ti-ma i-qab-be
+DIŠ EME.DIR GÚ NA NIGIN KÚR SÙ NAM IGI-ma šu-ma EN TI INIM KÚR-ir EME la i-šem-me
+DIŠ EME.DIR AN.TA!(Text: id) PAP.ḪAL NA È-ma GUR-ma UGU-šu GU₄.UD-iṭ NA BI ina PAP.ḪAL u MUNUS.KALA.GA È-ma ina KI.UŠ SILIM DU.DU
+DIŠ EME.DIR ina KI.TA NA TUŠ DU.DU NA BI UGU EN INIM-šu GUB-az
+DIŠ NA ina NU ZU EME.DIR KI.UŠ-ma ÚŠ ina di-nim i-le-e
+DIŠ NA ina NU ZU EME.DIR KI.UŠ NU ÚŠ N[A BI] Á.TUK TUK-ši
+DIŠ NA ina SILA ina DU-šú EME.DIR Ù.TU IGI.DU₈ NÍG.ŠU KALA.GA EN-el
+DIŠ NA ina SILA ina DU-šú MIN i-a-ru-ma IGI.DU₈ NA BI NÍG.TUK TUK-ši
+DIŠ NA ina SILA MIN EME.DIR EME.DIR la-it-ma IGI.DU₈-šu-nu-ma NU DU₈-šú-nu-‹ti› ina ŠU KÚR-šu ÚŠ-ma
+NU È
+DIŠ NA MIN EME.DIR U₅ IGI.DU₈ DAB-su-nu-ti-ma NU DU₈.MEŠ GAZ.MEŠ-šú-nu-ti EN TI EME UŠ-šú-ma
+ina EME.SIG ÚŠ
+DIŠ NA MIN EME.DIR EGIR NA GU₄.UD-ma me-di-šu EGIR NA DU-ku-ma KUR-du ir-di-šú-ma ana IGI-šú DU-ma
+ana UGU-šú GU₄.UD-iṭ NA BI i-šár-rù-ma u₄-me-šú GÍD.DA.MEŠ DUMU NU TUK-ši
+DIŠ NA MIN EME.DIR ana IGI-šú is-ḫur is-ḫur NIGIN-šú NA BI ŠU {d}UTU ana? MU 1-KÁM gíšNÁ TUŠ-su-ma
+NÍG.GA NIGIN-ru GU₇-ma BA.ÚŠ
+DIŠ NA MIN 7 GÚ.DA.RI-ma U₅.MEŠ ú-gal-lit-su-nu-te NU [DU₈].MEŠ KUR.BI NÍG.ḪA.LAM.MA IGI
+DIŠ EME.DIR ina É NA TA {giš}ÙR.MEŠ ma-gal ŠUB.MEŠ-ni ŠUB-di É (Strich)
+DIŠ EME.DIR kit-pu-lu-ma ana UGU NA ŠUB.MEŠ-ma NU DU₈.MEŠ SÙḪ ni-ziq-tu₄
+DIŠ EME.DIR MIN ŠUB.MEŠ-ma DU₈.MEŠ-ma ana IGI SILA TUŠ ŠUB-at EN I[NIM]-šu IGI-mar
+DIŠ EME.DIR MIN ŠUB.MEŠ-ma NU DU₈.MEŠ-ma a-na UGU NA iš-lu-uṭ NA BI KI.ŠÚ IGI-mar
+DIŠ EME.DIR MIN ŠUB.MEŠ-ma DU₈.MEŠ-ma 1-en ZAG u GÙ[B] x [x x x x] BI [x] x ki? KAR-ir
+DIŠ EME.DIR MIN ana ÚR NA KU₄.MEŠ-ma NU DU₈.MEŠ [ ] DAB-bat
+DIŠ EME.DIR MIN KU₄.MEŠ-ma DU₈.MEŠ-ma EGI[R ] DAB-bat
+[DIŠ] EME.DIR MIN ḪI.A NA? ŠUB.ME[Š]-ma NU DU₈.MEŠ [ ] x ka
+[DIŠ EME.]DIR MIN ŠUB.MEŠ-ma DU₈.MEŠ NA BI x [x x] EN INIM-šu KUR-ad
+[DIŠ EME.DIR M]IN ana UGU GÌR NA ZAG ŠUB.ME[Š-ma DU₈.MEŠ] lu [m]e-se-ru lu KI.ŠÚ dan-nu DAB-su
+[DIŠ EME.DIR MIN x.ME]Š-ma [(0)] DU₈.MEŠ MUNUS?.LUḪ GÌR.MEŠ-šú TUK-ši
+[ ] x x ŠUB.MEŠ-ma NU DU₈.MEŠ ta-dir-ti U₄ 1-KÁM
+] ŠÀ.BI DÙG.GA U₄.MEŠ-šú GÍD.DA.[MEŠ]
+Š]UB.MEŠ-ma DU₈.MEŠ NA BI I.BÍ.ZA [IGI-mar]
+] DU₈.MEŠ [x] x li x x x [ ]
+Š]UB.MEŠ-ma ina x x [ ] x ŠUB
+] x [ ] di? x
+] x x x ad! x x
+] x ši x ti EN {giš}GU.ZA MAN-ni
+] x x ḪUL
+] i-šár-ru
+] x É NA [x] x
+ŠU]B.MEŠ-ma NU DU₈.MEŠ EME.DIR
+[ ] ina É-šú GAM-aš
+[ ] G]AR-an
+[ ] É x
+[ ] x x [ ] KU₄-ub
+[ ] x sa x [x] x x DU-ku-ma a-mi-ru
+[ ] x EN NÍG.ŠU NU GÁL-e DU-ak
+[ ] ZI.GA ḪUL-ti
+[ NA B]I ina PAP.ḪAL u MUNUS.KALA.GA È
+[ ] GÌR ḪUL ana É NA KU₄
+[ D]U₈-ma GAZ-šú-nu-ti ana É BI ir-bu KU₄-ub
+[ ] lu ina É i-mi-du ŠUB É
+[ ] DIŠ MIN? šá a-gap-pi GAR-nu ina É NA it-ta-nap-ra-šú u GÙ-mu GÁL-šú É BI BIR
+[ ina] É GÙ.DÉ.DÉ ŠUB É
+[ G]Ù.MEŠ-si ḫa-rab É
+[ ] x MIN ina ḫa-ru-ur {na4}UR₅ BIR É
+[ ] ŠUB É
+[ ] (leer)
+[ ] É

@@ -1,0 +1,30 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Emar (western periphery)
+recension: Western periphery
+counting: line
+topic: medical prognostic (timeframes; seed-of-Šulpae / bennu)
+series: pre-canonical diagnostic-medical (Late Bronze Age Emar)
+canonical_parallel: Sakikkû Tablet 29 (Schmidtchen 2021 concordance, book p.713 — 695:3=29:4-5, :4=29:22-24; also a fragment at 29:20; 4th sub-series Šumma miqtu imqussuma, per Heeßel 2000:103, Tablet 29 edited AOAT 43 pp.318ff)
+dating: end 13th / beginning 12th century BCE (Heeßel 2000:103)
+edition: Arnaud 1987, Emar VI/4 no. 695 (Msk 74127a)
+source: hand-transcribed from Arnaud's edition. NB Arnaud prints Sumerograms in lowercase (French convention); they are converted to UPPERCASE here per project convention. Heavily fragmentary; ambiguous tokens left lowercase (conservative). Not in eBL.
+note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = restoration; x = illegible (ignored). Recurring formula KI.MIN GAR ina N MU.MEŠ = (ditto) occurs within N years.
+caveat: Poorly preserved (~35 countable tokens). Its elevated LDI (~0.65) rests largely on the repeated logographic prognostic formula and should NOT be read as more logographic than the better-preserved CBS 12580.
+---
+
+@obverse
+1. [...] DIB.DIB-šu BE-ma [...]
+2. [...] ÍD ŠUB-di [...]
+3. [KI.]MIN GAR ina 50 MU.[MEŠ]
+4. [...] A.RI.A {d}ŠUL.PA.È [...]
+5. [...] NU gir.bal [...]
+6. [KI.MI]N GAR ina 3 MU.MEŠ [...]
+7. [...]-šu ša x [...]
+8. [KI.MIN GA]R ina 6 M[U.MEŠ]
+9. [KI.MIN] GAR ina x [...]
+12. KI.MIN [...]
+13. MIN lu ša x [...]
+14. a-di {d}U x [...]
+15. [KI.MIN] GAR ina 15 M[U.MEŠ]

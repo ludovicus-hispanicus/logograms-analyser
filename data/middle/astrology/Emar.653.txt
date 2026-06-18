@@ -1,0 +1,26 @@
+---
+genre: astrological omens
+period: Middle Babylonian
+provenance: Emar (western periphery)
+recension: Western periphery
+counting: BE
+topic: solar omens (Šamaš — halo, setting, eclipse)
+series: parallel to Enūma Anu Enlil (Šamaš section)
+publication: Arnaud 1987, Emar VI/4 no. 653 (Msk 74229), Présages astrologiques Šamaš; LBA
+note: Hand-transcribed from Arnaud; lowercase Sumerograms converted to UPPERCASE; Adad normalized to {d}IŠKUR. Representative well-readable omens only; uncertain spans marked [...] or x. Logograms uppercase, syllabic lowercase, {} det. Not in eBL.
+---
+
+@obverse
+1. BE {d}UTU GIŠ.HUR NIGIN-mi KÁ.GAL ina ZAG muš-šur [...] ŠUB-ut
+2. BE {d}UTU GIŠ.HUR NIGIN-mi KÁ.GAL ina GÙB muš-šur KUR NÍ.HUL i-mu-rù SIG₅ IGI.LÁ
+3. BE {d}UTU GIŠ.HUR NIGIN-mi ina ŠÀ GIŠ.HUR-šu 2 3 MUL.MEŠ iz-zi-zu u im-ta-na-qu-tu ERIM.MEŠ DAGAL ina [G]IŠ.TUKUL ŠUB-ut
+4. [BE {d}]UTU ina KU₄-šu U dú-'-um [ERIM.MEŠ] DAGAL ina GIŠ.TUKUL ŠUB-ut
+5. [BE {d}UTU] ina KU₄-šu U GI₆ KI.MIN [ERIM.MEŠ] DAGAL ina GIŠ.TUKUL ŠUB-ut
+6. [BE {d}UTU] ina KU₄-šu U SU₉ SAG.PA.LAGAB ina KUR I.GÁL
+7. [BE {d}UTU] ina KU₄-šu SIG₇ {d}IŠKUR ra-iṣ u BE {d}NÈ.IRI₁₁.GAL ina KUR KÚ
+8. [BE {d}UTU] ina KU₄-šu ŠÚ G[ÙB-šu GI₆] LUGAL ana NUN k[i ...]
+9. [BE {d}UTU] ina KU₄-šu MUL.MEŠ [...] ÚŠ.MEŠ GAL ŠÀ.GAR [...]
+10. [BE {d}UTU] ina KU₄-šu IM x [...] u SAHAR.RA ki-i IM [...] ERIM.MEŠ DAGAL x [...]
+11. [BE {d}UTU] ina KU₄-šu ša-ru[...] IM.ŠÈG i-ma [...]
+12. [BE {d}UTU] ina KU₄-šu ša [...] di-in K[UR ...]
+13. [BE {d}]UTU AN.GI₆ GAR [...] LUGAL ina BAL [...]

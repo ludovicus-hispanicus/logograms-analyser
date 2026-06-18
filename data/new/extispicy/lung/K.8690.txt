@@ -1,0 +1,54 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: BE
+topic: lung
+publication: eBL K.8690 (Boissier, Choix I 130-132); Bārûtu ch. 9, Šumma ḫašû Tablet 9
+feature: ubān ḫašî kidītu (outer lung-finger)
+note: canonical first-millennium lung chapter; Assurbanipal library colophon (DUB.9.KAM₂ EŠ₂.GAR₃ BE MUR); eBL 15/150 normalized to ZAG/GUB₃
+---
+
+@obverse
+1. BE ŠU.SI MUR ki-di-tu₄ TUR-tu₄ ša₂ ZAG ḫal-qat KUR₂ ina BAR TI-MU TI-qi₂
+2. BE ŠU.SI MUR ki-di-tu₄ GAL-tu₄ ša₂ ZAG ḫal-qat mu-ut NUN
+3. BE ŠU.SI MUR ki-di-tu₄ GAL-tu₄ ša₂ GUB₃ ḫal-qat mu-ut NUN ša₂ KUR₂
+4. BE ŠU.SI MUR ki-di-tu₄ ša₂ ZAG SAG-sa₃ DU₈ MAN-e UMUŠ-mi
+5. BE ŠU.SI MUR ki-di-tu₄ ša₂ ZAG AN.TA DU₈-at₂ ERIN₂-ka ŠA₃.SI₃.SI₃.KI-ša₂ NU KUR-ad₂
+6. BE ŠU.SI MUR ki-di-tu₄ ša₂ GUB₃ AN.TA DU₈-at₂ ERIN₂ KUR₂ ŠA₃.SI₃.SI₃.KI-ša₂ NU KUR-ad₂
+7. BE ŠU.SI MUR ki-di-tu₄ ša₂ ZAG KI.TA DU₈-at₂ su-kup-ti ERIN₂-MU GAR-an
+8. BE ŠU.SI MUR ki-di-tu₄ ša₂ GUB₃ KI.TA DU₈-at₂ su-kup-ti ERIN₂ KUR₂ GAR-an
+9. BE ŠU.SI MUR ki-di-tu₄ ša₂ ZAG ŠA₃-nu DU₈-at₂ KUR₂ IGI KA₂.GAL-MU TI-qi₂
+10. BE ŠU.SI MUR ki-di-tu₄ ša₂ GUB₃ ŠA₃-nu DU₈-at₂ IGI KA₂.GAL KUR₂ TI-qi₂
+11. BE ŠU.SI MUR ki-da-a-tu₄ ša₂ ZAG u GUB₃ AN.TA DU₈-MEŠ IGI.IGI-tu₄
+12. [B]E ŠU.SI MUR ki-da-a-tu₄ ša₂ ZAG u GUB₃ KI.TA DU₈-MEŠ DU₈.UŠ
+13. [BE Š]U.SI MUR ki-di-tu₄ ša₂ ZAG EN 2 DU₈-at₂ KUR₂ KI-ka TI-qi₂
+14. [BE ŠU.S]I MUR ki-di-tu₄ ša₂ GUB₃ EN 2 DU₈-at₂ KI KUR₂ TI-qi₂
+15. [BE ŠU.S]I MUR ki-di-tu₄ ša₂ ZAG EN 3 DU₈-at₂ ni-ip-ḫat ERIN₂ KUR₂ KAL-an ERIN₂-MU
+16. [BE ŠU.SI MU]R ki-di-tu₄ ša₂ GUB₃ EN 3 DU₈-at₂ ni-ip-ḫat ERIN₂-MU KAL-an ERIN₂ KUR₂
+17. [BE ŠU.SI MUR k]i-di-tu₄ ša₂ ZAG EN 4 DU₈-at₂ GABA.RAḪ ERIN₂-MU
+18. [BE ŠU.SI MUR k]i-di-tu₄ ša₂ ZAG EN 4 DU₈-at₂ GABA.RAḪ ERIN₂ KUR₂
+19. [BE ŠU.SI MUR k]i-di-tu₄ ša₂ ZAG DU₈-MEŠ-at₂ gi-piš ERIN₂-MU ana KUR KUR₂
+20. [BE ŠU.SI MUR ki]-di-tu₄ ša₂ GUB₃ DU₈-MEŠ-at₂ gi-piš ERIN₂ KUR₂ ana KUR-MU
+21. [BE ŠU.SI MUR ki]-da-a-tu₄ ša₂ ZAG u GUB₃ DU₈-MEŠ KA-MU
+22. [BE ŠU.SI MUR x x x] x x KUD-at re-ṣu-ka ana KUR₂ BALA-MEŠ
+23. [BE ŠU.SI MUR x x x x x K]UD-at KUR₂ re-ṣu-šu₂ BALA-MEŠ-šu₂
+24. [...] x-MEŠ ip-pa-qid
+25. [...] x-na-aq u₂-lu AD.ḪAL-ka KUR₂-ka E₃
+26. [...] x-ka u₂-lu URU ZA[G] KUR₂ x x [x]
+27. [...] x-ka ana KUR KUR₂ [x x x (x x)]
+28. [...] x-lu x x [x x x (x x)]
+
+@reverse
+1'. [...] x ŠUB-ut x GUB₃ x [(x)]
+2'. [...] x-MEŠ DU₃-MEŠ
+3'. [BE ŠU.SI MUR ki-di-tu₄ ša₂ ZAG/GUB₃ G]IŠ.ḪUR ana IGI GU₂.MUR eṣ-ret GIR₃ GE₆ ana EN.NUN-ka NU te-eg-gi
+$ // F K.9460 5'
+4'. [BE ŠU.SI MUR ki-di-tu₄ ša₂ ZAG/GUB₃ G]IŠ.ḪUR ana IGI GU₂.MUR eṣ-ret-ma E₃ {d}ALAD-MEŠ ŠUB-MEŠ ana NUN GUR-MEŠ-ni
+5'. [BE ŠU.SI MUR ki-di-tu₄ x x-M]EŠ IGI e-pir-tu₄ i-te-ep-pi-ra ma-ši-iʾ-tu₄ im-taš-ša₂-aʾ
+6'. [BE ŠU.SI MUR x x (x)] x x šu x GIR₂ ša₂ NUN ILLAT-MEŠ-šu₂ TAG₄-MEŠ-šu₂ BE-ma ana MAŠ.EN.GAG DU₃-uš TAG₄ DAM u DAM
+$ single ruling
+7'. [BE SAG MUR] ša₂ ZAG ina SIG-ša₂ KI.TA KAR-im ina GU₄.UD-iṭ {d}UTU-ši KUR₂ GAZ-an-ni
+$ // F VAT.10125 o 1  (catch-line = incipit of Tablet 10)
+$ colophon: [DUB].9.KAM₂ EŠ₂.GAR₃ BE MUR — Tablet 9 of the series "If the lung"
+$ ṭup-pi {m}AN.ŠAR₂-DU₃-IBILA LUGAL GAL LUGAL dan-nu LUGAL ŠU₂ LUGAL {kur}aš-šur{ki} — Assurbanipal colophon

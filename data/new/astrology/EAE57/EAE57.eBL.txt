@@ -1,0 +1,348 @@
+---
+genre: astrological omens
+period: Neo-Assyrian / Late Babylonian
+provenance: first-millennium canonical; 32 manuscripts (Nineveh (27), Babylonia (3), Uruk (2))
+recension: Enūma Anu Enlil 57, eBL composite (Standard Babylonian)
+counting: DIŠ
+series: Enūma Anu Enlil 57
+edition: electronic Babylonian Library (eBL), corpus D/1/4 chapter SB 57; fetched from /api/texts/D/1/4/chapters/SB/57. Composite (reconstruction) line read off the chapter score.
+note: Composite text as reconstructed in eBL. Logograms uppercase, syllabic lowercase, {} determinatives, [] restoration, x illegible. '#tr.en:' lines are the eBL English translation; '//' and '#note:' are eBL parallels/notes; '# var:' is a second eBL variant of the line.
+---
+
+@text
+1. DIŠ {mul}UGA{mušen} KASKAL {d}UTU KUR-ud GAN₂.BA TUR-ir
+   #note: See @bib{Renzi-Sepe2023Pleiades@216}
+   # // (SIT 6 24)
+   # var: ša₂-ni-iš ri-ig-mu GAR-an
+   #tr.en: If the Raven reaches the path of the sun, the market rate will decrease. (Var.: secondly, there will be clamor)
+2. [DIŠ {mul}UGA{mušen} ... i]t-te-eq [...]
+   #tr.en: [If the Raven ..., it will p]ass [...].
+3. [DIŠ {mul}UGA{mušen}] ana {mul}šul-pa-e₃-a TE [...]
+   #note: see @bib{Renzi-Sepe2023Pleiades@216-217}
+   # // (SIT 6 24a)
+   #tr.en: If the Raven comes close to Jupiter [...].
+4. [DIŠ {m]ul}UGA{mušen} it-ta-nab-la-kat₃ ina ŠA₃ [...]
+   #tr.en: [If] the Raven passes the due date/keeps tumbling into [...]
+5. DIŠ {mul}UGA{mušen} A₂ {im}U₁₈.LU in-na-bal x [...]
+   #tr.en: If the Raven, the south side is lit up ... [...].
+6. DIŠ {mul}UGA{mušen} A₂ {im}MIR MIN KI.LAM GI.NA BURU₁₄ ŠE.GIŠ.I₃ N[IM? ...]
+   #tr.en: If the Raven the north side ditto (i.e., is lit up), the market rate will be stable; the harvest (and) the sesame (will be) ear[ly? ...].
+7. DIŠ {mul}UGA{mušen} MUL-BI ma-diš SA₅ BURU₁₄ ŠE.GIŠ.I₃ SI.SA₂
+   #tr.en: If the star of the Raven is very red, the harvest of sesame will prospe[r].
+8. DIŠ {mul}UGA{mušen} MUL-BI NU SA₅ GIG-MEŠ ina KUR [...]
+   #tr.en: If the star of the Raven is not red, illnesses in the country [...].
+9. DIŠ {mul}UGA{mušen} MUL-BI SIG₇ ILLU ina IDIM : LAL [...]
+   #tr.en: If the star of the Raven is yellow/green, floods in groundwater (var.: land) - (var.) will diminish [...].
+10. DIŠ {mul}UGA{mušen} ina KI.GUB-šu₂ SAG-šu₂ AN i-na-ṭa-la ina MU BI ŠEG₃-ME-MEŠ ina KUR ŠUR
+   #tr.en: If the Raven, in its position, its head looks (at) the sky, in that year rains (var.: floo[ds]) will fall in the country.
+11. DIŠ {mul}UGA{mušen} ina KI.GUB-šu₂ NU SAG-šu₂ KI i-na-ṭa-la ina MU BI ŠEG₃-ME-MEŠ ina KUR DU-[kam?]
+   #tr.en: If the Raven, (it is not) in its position, its head looks (at) the earth, in that year rains (var.: floods) will fall in the country.
+12. %sux DIŠ {mul}uga{mušen} mul-bi an-bar₇-ga₂-gin₇ i₃-gal₂ a-zi-ga gin [x]
+   # // (Zweisprachiges Omenkompendium § 3)
+   #tr.en: If the star of the Raven produces a flare, there will be a flood [...].
+13. %sux DIŠ {mul}uga{mušen} mul-bi an-bar₇-ga₂-gin₇ murub₄-bi-ta 3 mul-me lul-aš al-gun₃-gun₃-nu nam-tu-ra kalam-ta i₃-gal₂
+   # // (Zweisprachiges Omenkompendium § 4)
+   #tr.en: If the star of the Raven flares, from its center three stars are very red, there will be sickness in the country.
+14. DIŠ {mul}UGA{mušen} ana {mul}ERIDU{ki} TE GAN₂.ZI ina KUR DU₃.A-BI : SI GA[L₂]
+   #tr.en: If the Raven comes close to Eridu, there will [be] cultivated land in all the countries - (var.) surplus.
+15. DIŠ {mul}TI₈{mušen} ana {mul}UDU.IDIM TE ŠE.GIŠ.I₃ SI : NIM SA₂
+   #tr.en: If the Eagle comes close to a planet, the sesame will prosper - (var.) early.
+16. DIŠ {mul}TI₈{mušen} ana MUL.MUL TE {d}IŠKUR RA-iṣ
+   #note: see @bib{Renzi-Sepe2023Pleiades@211}
+   # // (SIT 6 12)
+   #tr.en: If the Eagle comes close to the Pleiades, Adad will devastate.
+17. DIŠ {mul}TI₈{mušen} ana {mul}UGA{mušen} i-mid ŠE.GIŠ.I₃ : NIM SI.SA₂ : SIG₅-iq
+   #tr.en: If the Eagle comes in contact with the Raven, the sesame - (var.) early will prosper - (var.) will be good.
+18. DIŠ {mul}TI₈{mušen} ina ŠA₃ 30 GUB-iz LUGAL ŠU₂ BA.UŠ₂
+   #tr.en: If the Eagle stands into the moon, the king of all will die.
+19. DIŠ {mul}TI₈{mušen} ina SI ZAG 30 GUB-iz KUR i-par-ru-ud
+   #tr.en: If the Eagle stands in the right horn of the moon, the country will be afraid.
+20. [DIŠ] {mul}TI₈{mušen} ina SI GUB₃ 30 GUB-iz KUR in-neš-[ši]
+   #tr.en: [If] the Eagle stands in the left horn of the moon, the country will fall into anarc[hy].
+21. [DIŠ {m]ul}TI₈{mušen} a-dir MAŠ₂.ANŠE TUR.TUR UN.MEŠ ina KA x x x [x]
+   #tr.en: [If] the Eagle darkens, the herd will constantly reduce, the people by the command [...].
+22. [DIŠ {mu]l}TI₈{mušen} meš-ha im-šu-uh {mul}UDU.IDIM MAŠ₂.ANŠE KUR ZAH₂ : ŠEG₃ [...]
+   #tr.en: [If] the Eagle produces a glow, a planet, the herd of the country will perish - (var.) rain [...].
+23. [DIŠ ina? A]N-e meš-hu ša {mul}TI₈{mušen} IGI RI.RI.GA ERIN₂ LUGAL [...]
+   # var: [DIŠ ina? AN-e meš-hu ša {mul}TI₈{mušen} NI]G₂.HA#.LAM.MA ERIN₂ DAGAL GAR-an KIMIN RI.RI.GA E[RIN₂? ...]
+   #tr.en: [If] a glow of the Eagle is visible [in? the s]ky, catastrophe for the the army of the king [...]; Variant: If a glow of the Eagle is visible [in? the sky, down]fall of the great army will occur.
+24. DIŠ {mul}KA₅.A ina ŠA₃ {mul}AŠ.GAN₂ GUB-iz AB.SIN₂ NU SI.SA₂ ina KUR NU [...]
+   #tr.en: [If] the Fox stands into the Field, the furrow will not prosper; in the country will not [...].
+25. DIŠ {mul}KA₅.A ina ŠA₃ {mul}AŠ.GAN₂ pa-nu-šu₂ A₂ I[M.U₁₈.LU? ...] GAR-nu BURU₁₄ NU SIG₅
+   #tr.en: If the Fox (is) inside the Field, its front, the s[outh?] side [...] will occur; the harvest will not be good.
+26. [DIŠ {mul}KA₅.A ...] x-šu₂ ma-diš SA₅ IGI.DU₈.A-BI MUL BI GIM ka-ra-re-e GAL₂ um-šu₁₄ dan-nu GAL₂-ši
+   #tr.en: [If the ... of the Fox] is very red, there is the appearance of that star like the sun at midday, there will be a strong frost.
+27. DIŠ {mul}KA₅.A MUL BI NU SA₅ ina IGI MUL GIM ka-ra-[re-e ...] ina? MURUB₄-šu₂ GAL₂ BURU₁₄ KUR {d}I[ŠKUR? ...]
+   #tr.en: If the the star of the Fox is not red, when visible a star like the brilli[ance of the sun at midday…]; there is [...] in(?) its center; A[dad? will ...] the harvest of the country.
+28. %sux DIŠ {mul}ka₅-a mul-bi nu-gun₃-gun₃ igi mul-bi an-bar₇-ga₂-gin₇ 1 mul al-e₃ im kalag ba-ab-zi-zi
+   #note: NinNAEx3 (@url{K.8634}) contains an excerpt with an Akkadian version. Cf. @bib{RN1876@36-37} (BPO 2 II 3a)
+   # // (Zweisprachiges Omenkompendium § 1)
+   #tr.en: If the stars of the Fox are not red, the front of its stars is like the brilliance of the sun at midday (and) one star shines brightly, a strong wind will rise.
+29. DIŠ {mul}KU₆ MUL-BI SIG₇ u GE₆ AN.GE₆ {d}e₂-a
+   #tr.en: If the star of the Fish is yellow/green and black, (there will be) an eclipse of Ea.
+30. DIŠ {mul}KU₆ MUL-šu₂ SIG₇ mi-šir₃-tu₄ NU SI.SA₂
+   #tr.en: If the star of the Fish is yellow/green, [the prod]uce of the sea and rivers will not prosper.
+31. DIŠ {mul}KU₆ MUL ina ŠA₃-šu₂ ma-diš SA₅ BAD₅.BAD₅ KU₆-HI.A# {d}e₂-a GAR-an
+   #tr.en: If the star into the Fish is very red, Ea will cause a massacre of fishes.
+32. DIŠ {mul}KU₆ ana {mul}UGA{mušen} i-mid KU₆-HI.A u M[UŠEN-HI].A ud-da-aš₂-šu₂-u₂
+   #note: see @bib{Renzi-Sepe2023Pleiades@217-218}
+   # // (SIT 6 28)
+   #tr.en: If the Fish comes in contact with the Raven, fishes and b[ird]s will become abundant.
+33. DIŠ {mul}KU₆ ana {mul}AŠ.GAN₂ TE AB.SIN₂ NU SI.SA₂
+   #tr.en: If the Fish comes close to the Field, the furrow will not prosper.
+34. DIŠ {mul}KU₆ ana {mul}zi-ba-ni-tu₄ TE SU.GU₇ i-mad
+   #tr.en: If the Fish comes close to the Scales, famine will be severe.
+35. [DIŠ] {mul}KU₆ ana {mul}SI[PA.ZI.A]N.NA TE SU.GU₇ i-ma-ad
+   #tr.en: [If] the Fish comes close to the Tr[ue Shepher of] Anu, famine will be severe.
+36. DIŠ {mul}KU₆ ina ŠA₃ {d}30 GUB ina KUR DU₃.A.BI KU₆-MEŠ [...] ZAL.ZAL-u
+   #tr.en: If the Fish stands into the moon, in all the lands fishes [...] (they) will continue.
+37. DIŠ {mul}KU₆ ina <MAŠ>.SILA₃-MEŠ {d}30 GUB ina MU BI ina KUR TEŠ₂.B[I x x] GAN₂.BA ZAH₂
+   #tr.en: If the Fish stands on the shoulders of the moon, in that year the whole country [...]; the market rate will perish.
+38. DIŠ {mul}KU₆ ina SI 15 {d}30 GUB ina MU BI ina [KUR elam.m]a?{ki} KIMIN
+   #tr.en: If the Fish stands at the right horn of the moon, in [that year in Ela]m? ditto (i.e., the market rate will perish).
+39. DIŠ {mul}KU₆ ina SI 150 {d}30 GUB ina MU BI ina KU[R UR]I{ki} KIMIN
+   #tr.en: If the Fish stands at the left horn of the moon, in that year in [Akka]d ditto (i.e., the market rate will perish).
+40. DIŠ {mul}KU₆ a-dir KU₆ ina ID₂ e-ru-ta₅ NU DU₃ MUŠEN ina AN-e NUNUZ NU ŠUB
+   #tr.en: If the Fish darkens, the fish in the river will not drop the spawn, the bird in the sky will not lay the egg.
+41. DIŠ {mul}KU₆ meš-ha im-šuh mi₃-šir₃-tu₄ ina [KUR] GAL₂
+   #tr.en: If the Fish produces a glow, there will be the product of the sea and the rivers in [the country].
+42. DIŠ {mul}NU.MUŠ.DA kal U₄-mi GUB-iz ina GE₆ NU IGI a-bu-bu KUŠ₇-ti₃ GAR-an [...] x
+   #tr.en: If the Herd stands throughout the day and it is not visible in the night, a devastating flood will occur [...] ...
+43. DIŠ {mul}NU.MUŠ.DA A₂ {im}MIR.RA {mul}GE₆ ra-kib AN.GE₆ {d}UTU x [...]
+   #tr.en: If the Herd lies over the north side of the Black one, an eclipse of the sun ... [...].
+44. DIŠ {mul}e₄-ru₆ KIMIN [{m]ul}{d}AMAR.UTU ana MUL.MUL KUR-ud ina MU BI {d}IŠKUR RA-iṣ
+   #note: see @bib{Renzi-Sepe2023Pleiades@209}, @bib{Hunger2019@107}
+   # // (SIT 6 8; MUL.APIN II GAP B 2)
+   #tr.en: If Eru, alternatively, the Marduk-star, reaches the Pleiades, in that year Adad will devastate.
+45. DIŠ {mul}e₄-ru₆ KIMIN {mul}{d}AMAR.UTU ana {mul}UGA#{mušen} KUR-ud ŠE.GIŠ.I₃ NIM [SIG₅ x (x)]
+   #note: see @bib{Renzi-Sepe2023Pleiades@209-210}, @bib{Hunger2019@107}
+   # // (SIT 6 9; MUL.APIN II GAP B 3)
+   #tr.en: If Eru, alternatively, the Marduk-star, reaches the Raven, the early sesame [will be good].
+46. DIŠ {mul}e₄-ru₆ KIMIN {mul}{d}AMAR.UTU pa-gar LU₂ IGI LU₂ BI be-[en-nu DAB-su]
+   #note: See @bib{Hunger2019@108}
+   # // (MUL.APIN II GAP B 4)
+   #tr.en: If Eru, alternatively, the Marduk-star sees the body of a man, ep[ilepsy will seize] that man.
+47. DIŠ ina IGI {mul}e₄-ru₆ KIMIN {mul}{d}AMAR.UTU LU₂ A-MEŠ ir-muk ub-[...]
+   #tr.en: If in front of Eru, alternatively, of the Marduk-star, a man bathed in water, ... [...]
+48. DIŠ {mul}ne₂-be₂-ri ina E₃-šu LU₂ IGI-šu₂ LU₂ BI [...]
+   #tr.en: If when the Ford comes out a man sees it, that man [...].
+49. DIŠ {mul}ne₂-be₂-ri ina E₃-šu GE₆ ELAM.MA{ki} ZI-ma KUR [...]
+   #note: See @bib{RN1876@36-37}
+   # // (BPO 2, II 5-5a)
+   #tr.en: If when the Ford comes out is black, Elam will attack; the country [...].
+50. DIŠ {mul}{d}AMAR#.UTU MUL BI ma-diš SA₅ HE.GAL₂ [...]
+   #tr.en: If the star of the Marduk-star is very red, abundance [...].
+51. DIŠ {mul}{d}AMAR.UTU MUL BI ma-diš SIG₇ SU.GU₇ i[na? KUR? GAL₂?-ši?]
+   #tr.en: If the star of the Marduk-star is very yellow/green, [there? will be?] famine [in? the country?].
+52. DIŠ {mul}{d#}AMAR.UTU MUL BI ma-diš GE₆ NAM.UŠ₂-ME[Š ...]
+   #tr.en: If the star of the Marduk-star is very dark, deaths [...].
+53. DIŠ {mul}{d}AMAR.UTU a-dir KUR DU₃.A.BI ina KA {d}+en-lil₂ {d}e₂-a u {d}x [...] a-na 2 GIN₂.TA.AM₃ KU₃.BABBAR I₃.GAL₂ KUR₂ KUR-ma ZI-ma KUR EN-el m[u-ta?-bal? ...]
+   #note: For the restoration of @akk{mutabal}, see EAE 55 § 18; cf. SAA 8, 4 obv. 8 (@url{K.750}); SAA 8,300 r 11 (@url{Rm.193}); SAA 8, 535 r 7. (@url{1880,0719.103}).
+   #tr.en: If the Marduk-star darkens, all the lands by the command of Enlil, Ea, and the god ... [...] there will be silver for 2 šiqlu; the enemy will reach and attack; the country of the lord of Mu[tabal? ...].
+54. DIŠ {mul}{d}AMAR.UTU GIŠ.HUR SIG₇ NIGIN AN.GE₆ x [...]
+   #tr.en: If the Marduk-star is surrounded by a yellow/green drawing, eclipse ... [...].
+55. DIŠ {mul}{d}AMAR.UTU meš-hu im-šuh MU.10.KAM₂ KUR NINDA nap-ša₂ GU₇ DINGIR-ME [...]
+   #tr.en: If the Marduk-star produces a glow, the tenth year the country will eat a lot of bread, the gods [...].
+56. DIŠ {mul}{d}AMAR.UTU meš-ha i[m-šu]-uh {d}ne₂-be₂-ri MU-NI {d}e₂-a IDIM-MEŠ-šu₂ {d}IŠKUR ŠEG₃-[MEŠ-šu₂ ...] ana KUR uš-te-eš-še-[er? x x GAL]GA? KUR ana {munus}SIG₅ GALGA-MEŠ x [...] HE₂.GAL₂ ŠE u IN.NU ina KUR GAL₂-ši DUMU KI AD-šu₂ kit-tu₂ i-ta-m[u? sa-lim kiš-ša₂-ti DUMU?.MU]NUS? ana AMA-ša₂ ARHUŠ? [...]
+   #note: Apodosis Restored after SAA 8, 168 obv. 8-9 (@url{K.711})
+   #tr.en: If the Marduk-star p[roduc]es a glow (var.: crosses the sky and stands), his name is “Ford”, Ea his underground water, Adad his rain[s ...]; for the country he/she/it makes thriv[e? ... coun]sel?; the country for good counsels ... [...] in the country there will be abundance of barley and chaff; the son will speak truth with his father; [(there will be) universal peace; the daught]er will have compassion? for her mother [...].
+57. DIŠ {mul}{d}AMAR.UTU ina SAG MU IGI MU BI AB.SIN₂-ša SI.SA₂
+   #note: See @bib{Renzi-Sepe2023Pleiades@218}, @bib{Hunger2019@107}
+   # // (SIT 6 31; MUL.APIN II GAP B 1)
+   #tr.en: If the Marduk-star is visible at the beginning of the year, its furrow will prosper.
+58. DIŠ {mul}{d}AMAR.UTU ina SAG MU KI 30 IGI-ma 30 KUR-ud a-[...]
+   #tr.en: If the Marduk-star is visible with the moon at the beginning of the year and reaches the moon, ... [...].
+59. DIŠ {mul}{d}AMAR.UTU GE₆-ma IGI ina M[U? BI? ...]
+   #tr.en: If the Marduk-star is black and it is visible, in [that?] ye[ar?...] ... [...].
+60. DIŠ {mul}{d}AMAR.UTU SA₅ GURUN lal dam?
+   #tr.en: If the Marduk-star is red, the offspring ... [...].
+61. DIŠ {mul}{d}AMAR.UTU ana {mul}AŠ.GAN₂ TE {mu[l} ... i]ṭ-ṭe₄-h[i ...]
+   #tr.en: If the Marduk-star comes close to the Field, the sta[r ... he/she/it w]ill come clos[e ...].
+62. DIŠ {mul}LU.LIM MUL.MUL KUR-u[d u₂]-kul-ti {d}[IMIN.BI]
+   #note: See @bib{Renzi-Sepe2023Pleiades@210}
+   # // (SIT 6 10)
+   #tr.en: If the Stag reaches the Pleiades, (there will be) [an a]ttack of the [Seven].
+63. DIŠ {mul}LU.LIM KI MUL.MUL it-ten-tu i[d-ra-na-a-tu ina KUR GAL₂-MEŠ]
+   #note: See @bib{Renzi-Sepe2023Pleiades@210-211}
+   # // (SIT 6 11)
+   #tr.en: If the Stag with the Pleiades go parallel to each other, [there will be] s[alinity in the country].
+64. DIŠ {mul}LU.LIM ana {mul#}SIPA.ZI.AN.NA i-mid n[u? ...]
+   #tr.en: If the Stag comes in contact with the True Shepherd of Anu ... [...].
+65. DIŠ {mul}LU.LIM a-dir MUŠEN ina AN-e {d}IŠKUR RA-iṣ BI₂.[ZA.ZA ...]
+   #tr.en: If the Stag darkens, birds (will be) in the sky, Adad will devastate, fr[og...].
+66. DIŠ {mul}UR.BAR.RA KASKAL {d}UTU KUR-ud maš-ru-u₂ [ki-nu]
+   #note: See @bib{RN1876@38-39}. Reiner and Pingree suggested relating BPO 2 II 13b to K.6185+ (NinNB4) r 10 and K.6211 (NinNA3) r 5. Zsombor Földi has joined @url{K.12761} (BPO 2 II ms. C) to Rm.493, which adds several more lines to the text. Line 15' @akk{[...] maš#-ru-u₂ ki-nu} appears to be the apodosis of this omen. The context of omens related to @akk{{mul}UR.BAR.RA} reinforces this reconstruction. Information courtesy of Parker Zane, who is currently completing a PhD thesis on commentaries to EAE at Yale University.
+   # // (BPO 2 II 13b)
+   #tr.en: If the Wolf reaches the path of the Sun, prosperity [and justice].
+67. DIŠ {mul}UR.BAR.RA {mul}UR.MAH KUR-ud U₄-MEŠ SUD-MEŠ šu[b-tu?] ana ma-a-ti [...]
+   #note: see @bib{Renzi-Sepe2023Pleiades@218}
+   # // (SIT 6 30)
+   #tr.en: If the Wolf reaches the Lion, there will be long-lasting days for the abode, for the country ... [...].
+68. DIŠ {mul}UR.BAR.RA u {mul}UR.MAH TEŠ₂.BI it-ten-t[u ...]
+   #tr.en: If the Wolf and the Lion (together) go parallel with each other (var.: - the Swallow to the sun? ... [...]).
+69. DIŠ {mul}UR.BAR.R[A] UGU {mul}UZ₃ GUB-iz : {mul}UZ₃ [KUR-ud KI.LAM TUR BURU₁₄ NU SI.SA₂]
+   #note: see @bib{Renzi-Sepe2023Pleiades@215}
+   # // (SIT 6 22)
+   #tr.en: If the Wolf stands above the She-goat - (var.) [reaches] the She-goat, [the market rate will decrease, the harvest will not prosper].
+70. DIŠ {mul}GAN₂.UR₃ u {mul}APIN KIMIN {mul}PAN? A₂ {im}U₁₈.[LU GUB-MEŠ ...]
+   #tr.en: If the Harrow and the Plow, alternatively, the Bow? [stand (on)] the south sid[e ...].
+71. DIŠ {mul}GAN₂.UR₃ u {mul}APIN A₂ {im}MIR.RA GUB-[MEŠ ...]
+   #tr.en: If the Harrow and the Plow stand (on) the north side [...].
+72. DIŠ {mul}GAN₂.UR₃ u {mul}APIN A₂ [I]M.3 GUB-M[EŠ ...]
+   #tr.en: If the Harrow and the Plow stand (on) the east side [...].
+73. DIŠ {mul}GAN₂.UR₃ u {mul}APIN A₂ IM.4 GUB-MEŠ KI.A [x] x [...] MU-NI x [...]
+   #tr.en: If the Harrow and the Plow stand (on) the west side, the irrigated land ... [...]; its name ... [...].
+74. DIŠ {mul}APIN KASKAL {d}UTU KUR-ud SU.GU₇ ina KUR G[AL₂]
+   #tr.en: If the Plow reaches the path of the sun, there wil[l be] famine in the country.
+75. DIŠ {mul}APIN u ṣa-ru-u₂ ana {mul}x TE-MEŠ [...]
+   #tr.en: If the Plow and the False come close to the star ... [...].
+76. DIŠ {mul}APIN u ṣa-ru-u₂ A₂? {im}MAR.TU ana {mul}MAR.[GID₂.DA ...]
+   #tr.en: If the Plow and the False, the west side? to the W[agon ...].
+77. DIŠ {mul}APIN u ṣa-ru-u₂ A₂? {im}MAR.TU ana {mul}x [...]
+   #tr.en: If the Plow and the False from the west side? to the star ... [...].
+78. %sux DIŠ {mul}apin mul-bi lul-aš al-gun₃-gun₃ murub₄-[bi-ta ... al-gun₃-gun₃ en-te-na sag ud kum₂ x ...]
+   # // (Zweisprachiges Omenkompendium § 10)
+   #tr.en: If the stars of the Plow are very red, between [them ... are red, cold, devastation, storm, heat ...].
+79. [DIŠ ...] x x x x [...]
+   #tr.en: [If ...] ... [...].
+80. [DIŠ ...]
+   #tr.en: [If ...].
+81. [DIŠ ...] x da-ʾ-[im? ...]
+   #tr.en: [If...] ... is d[im? ...].
+82. [DIŠ {mul}KA.MUŠ.I₃.GU₇].E {mul}EN.TE.NA.B[AR.HUM ...] ina MU BI [...]
+   #tr.en: [If Pašitt]u, the Mo[use ...] in that year [...].
+83. %sux DIŠ {mu[l}ka-muš-i₃-g]u₇-e mul-bi igi-bi a[l-gun₃-gun₃ im kalag ba-ab-zi-zi]
+   # // (Zweisprachiges Omenkompendium § 11)
+   #tr.en: If the front of the star of Pašittu i[s red, a strong wind will rise].
+84. DIŠ {mu[l}ANZU]{mušen} MUL-BI ma-diš SA₅ [UD.DA ku-uṣ-ṣu hur-ba-šu₂ i-ba-aš-ši UD.DA um-ma-tu₄] E₂-MEŠ um-š[u₁₄ dan-nu i-ba-aš-ši]
+   # // (Zweisprachiges Omenkompendium § 12)
+   #tr.en: If the star of Anzu is very red, [if it is winter, there will be cold (and) frost; ifit is summer,] houses; [there will be a strong] he[at].
+85. DIŠ {mul}MAR.GID₂.DA ṣir-ha GAR-un [...]
+   #tr.en: If the Wagon sets up a flare [...].
+86. DIŠ {mul}MAR.GID₂.DA ṣir-ha NU GAR-un LUGAL ana KUR DAGAL? x [...]
+   #tr.en: If the Wagon does not set up a flare, the king to the wide country ... [...].
+87. DIŠ {mul}AB.SIN₂ MUL-BI GE₆ MU.1.KAM@v :. BI x [...]
+   #tr.en: If the star of the Furrow is black, the first year - (var.) that (year) [...].
+88. DIŠ {mul}AB.SIN₂ MUL-BI mah-ru-u₂ a x [...]
+   #tr.en: If the star of the Furrow is first ... [...].
+89. DIŠ {mul}e₂-a ana {mul}AŠ.GAN₂ TE :. x [...] ZAH₂
+   #tr.en: If Ea comes close to the Field - (var.?) ... [...] will perish.
+90. DIŠ {mul}e₂-a ana {d}PAP.SUKKAL x x [...] x x ZAH₂
+   #tr.en: If Ea to Papsukkal ... [...] ... will perish.
+91. DIŠ {mul}e₂-a ana IGI {d}x x [...] x x
+   #tr.en: If Ea in front of the star/god/planet ... [...] ...
+92. DIŠ {mul}AL.LUL {mul}MAN-ma TE-šu₂ LUGAL MAN?-ni : DIŠ {m[ul}AL.LUL a]na IGI {d}30 GUB KUR TEŠ₂.BI pa-šuq-tu₂ IGI-mar
+   #tr.en: If the Strange star comes close to the Crab, the king will change?. - (var.) If the [Crab] stands in front of the moon, the whole country will experience a hardship.
+93. DIŠ {mul}AL.LUL ana EGIR {d}30 GUB KALAM [LAL-e?]
+   #tr.en: If the Crab stands at the back of the moon, the land will diminish?.
+94. DIŠ MUL₅.MUL₅ ŠIR-MEŠ-šu₂ SIG₇-MEŠ-ma KI.A SI.S[A₂]
+   #note: See @bib{Hunger2019@101}
+   # // (MUL.APIN II iii 16)
+   #tr.en: If the ŠIR-MEŠ of the Pleiades are yellow/green (var.: red), the irrigated land will prosper.
+95. DIŠ {mul₅}KAR₂.ŠUL ina {iti}ŠE uš-pa-la-ka-ma UŠ₂ u₂-sa-naq UŠ₂-nu
+   #note: See @bib{Hunger2019@101}
+   # // (MUL.APIN II iii 17)
+   #tr.en: If KAR₂.ŠUL is wide opened, in Month XII death will strike; (there will be) pestilence.
+96. DIŠ ina ŠA₃ {mul₅}KAR₂.ŠUL 1 MUL ma-gal KUR-ma {lu₂}KUR₂
+   #note: See @bib{Hunger2019@101}
+   # // (MUL.APIN II iii 18)
+   #tr.en: If one star into KAR₂.ŠUL is very bright, (there will be) the enemy.
+97. DIŠ UD.DA 4 lu 2 GAL.ME SIG₇-ME-ma UŠ₂-MEŠ
+   #note: See @bib{Hunger2019@101}
+   # // (MUL.APIN II iii 19)
+   #tr.en: If 4 or 2 big lights are yellow/green, (there will be) pestilence.
+98. [DIŠ NIGIN x x dan-niš SA₅-MEŠ-ma IL]LU u ŠEG₃
+   #note: See @bib{Hunger2019@101}. Considering the variant in F NinNB1 r 35', it is likely that the subject of the protasis is UD.DA, ṣētu, "light"; cf. §98.
+   # // (MUL.APIN II iii 20)
+   #tr.en: [If the total of lights? is str]ongly red (var.: and 3 are yellow/green), (there will be) flood and rain.
+99. [DIŠ {mul₂}KU₆ ina x x x] BAD SA₅? GAR u ba-il₃ BAD-ma un-nu-un u TUR UŠ₂-nu
+   #note: See @bib{Hunger2019@102}
+   # // (MUL.APIN II iii 21)
+   #tr.en: [If the Fish in ...]; if it shows redness? and it is bright; if it is ... and small, (there will be) pestilence.
+100. [DIŠ {mul₅}U.RI.RI IGI.LA₂ ŠEG₃ u I]LLU
+   #note: See @bib{Hunger2019@102}
+   # // (MUL.APIN II iii 22)
+   #tr.en: [If U.RI.RI is visible, (there will be) rain and f]lood (var.: ušû-tree and [...]).
+101. [DIŠ {mul₅}U.RI.RI ana {mul₅}{giš}GIGIR KU.NU]-ma ANŠE.PA.GIN₂-ME UŠ₂-[MEŠ]
+   #note: See @bib{Hunger2019@102}
+   # // (MUL.APIN II iii 23)
+   #tr.en: [If U.RI.RI approaches the Chariot], the horses will die.
+102. [DIŠ {mul₅}U.RI.RI ana {mul₅}AB.SIN₂ KU.NU-m]a ŠU.BI.AŠ.A[M₃]
+   #note: See @bib{Hunger2019@104}
+   # // (MUL.APIN II iii 24)
+   #tr.en: [If U.RI.RI approaches the Furrow], ditto (i.e., the horses will die).
+103. [DIŠ {mul₅}U.RI.RI ana {mul₅}ALLA KU.N]U UR₅ MAH₂ GAM
+   #note: See @bib{Hunger2019@102}
+   # // (MUL.APIN II iii 25)
+   #tr.en: [If U.RI.RI approaches the Crab], omen (for) an exalted one; he will die.
+104. [DIŠ {mul₅}U.RI.RI ana {mul₅}ALLA 15 KU.NU] UR₅ MAH₂ GAM
+   #note: See @bib{Hunger2019@102-103}
+   # // (MUL.APIN II iii 26)
+   #tr.en: [If U.RI.RI approaches the right of the Crab], omen (for) an exalted one; he will die.
+105. DIŠ {mul₅}U.RI.[RI ana {mul₂}ALLA 150 KU.NU] IDIM GAM
+   #note: See @bib{Hunger2019@103}
+   # // (MUL.APIN II iii 27)
+   #tr.en: If U.RI.[RI approaches the left of the Crab], an important person will die.
+106. DIŠ {mul₅}UG₅.GA [ana A₂ {im}1 KI.TA ina-pal] ŠE.GIŠ.I₃ [SI.SA₂]
+   #note: See @bib{Hunger2019@103}
+   # // (MUL.APIN II iii 28)
+   #tr.en: If the Raven [is torn down on the lower south side], sesame [will prosper].
+107. DIŠ {m[ul₅}U]G₅.GA [ana A₂ {im}2 AN.TA ina-pal] ina AB.SIN₂ [ŠE NU SI.SA₂]
+   #note: See @bib{Hunger2019@103}
+   # // (MUL.APIN II iii 29)
+   #tr.en: If the Raven is torn down on the lower south side, sesame will prosper.
+108. DIŠ {mul}UR.MAH MUL-MEŠ-šu₂ ul-tap-pu-u₂ 150 KI DU-ku NIG₂.E₃ [MUL BI MUL₅ KASKAL]
+   #note: See @bib{Hunger2019@103}
+   # // (MUL.APIN II iii 30-31)
+   #tr.en: If the stars of the Lion continually flare the king be victorious wherever he goes. [That star is a campaign star (lit. star of the road)].
+109. DIŠ {mul₅}KAL.N[E IB₂.TAG₄ RU ana 4 MUL₅-MEŠ ša₂ MUL₅].MUL₅ TE UMUN URU GAM.ME
+   #note: See @bib{Hunger2019@103-104}
+   # // (MUL.APIN II iii 32)
+   #tr.en: If KAL.N[E produces an ÍB.TAG4 (and) comes close to the 4 stars of the Plei]ades, the lord of the city will die.
+110. [DIŠ {mul₅}]{d}EN.GIŠG[AL.AN.NA KUR₄-ma ŠEG₃ u I]LLU [{d}TIR.AN.NA UD HE₂.NUN MU-NE]
+   #note: See @bib{Hunger2019@104}
+   # // (MUL.APIN II iii 33)
+   #tr.en: [If] EN.GIŠG[AL.AN.NA is bright, (there will be) rain and f]lood. [The name of the Rainbow is “day of abundance.”]
+111. [DIŠ {d}]UTU ina ni-du KUR-ha 3.20 ŠUR₂-ma GIŠ.TUKUL GAL₂-ši :. DIŠ {d}UTU ina ŠA₃ ni-d[i ŠU₂ LUGAL UŠ₂]
+   #note: See @bib{Hunger2019@105}
+   # // (MUL.APIN II iii 40-41)
+   #tr.en: [If] the Sun is bright into a cloudbank, the king will become furious, and he will raise the weapons (var.: there will be). [Variant: If] the Sun sets into a cloudba[nk, the king will die].
+112. DIŠ MUL TA {im}M[AR SUR-ma ana ŠA₃ {d}li₉-si₄ KU₄ HI.GAR GAL₂]
+   #note: See @bib{Hunger2019@105}
+   # // (MUL.APIN II iii 42)
+   #tr.en: If a star [flares up] from the w[est and enters Lisi, there will be revolt].
+113. DIŠ MUL TA {im}MAR [SUR-ma ana ŠA₃ {d}ni-ri KU₄] HI.GAR [GAL₂]
+   #note: See @bib{Hunger2019@105}
+   # // (MUL.APIN II iii 43)
+   #tr.en: If a star [flares up] from the west [and enters the Yoke, there will be] revolt.
+114. DIŠ MUL TA {im}MAR [SUR-ma ana ŠA₃ {d}30 KU₄] HI.GAR [GAL₂]
+   #note: See @bib{Hunger2019@105}
+   # // (MUL.APIN II iii 44)
+   #tr.en: If a star [flares up] from the west [and enters the moon, there will be] revolt.
+115. DIŠ MUL BI 3-šu₂-nu [E₃-ma ZI.GA NU kaš-du]
+   #note: See @bib{Hunger2019@106}
+   # // (MUL.APIN II iii 45)
+   #tr.en: If that star [comes out] as three stars, [the attack will not be accomplished].
+116. DIŠ MUL TA {im}KUR a[na {im}U₁₈.LU SUR-ma {mul}EN.TE.NA.BAR.HUM DIB-ma ina {im}MAR ŠU₂ 3 MU-MEŠ KUR HE₂.NUN IGI]
+   #note: See @bib{Hunger2019@106}
+   # // (MUL.APIN II iii 46-47)
+   #tr.en: If a star [flares up] from the east t[o the south, it passes the Mouse, and sets in the west, (for) three years the country will see abundance].
+117. DIŠ MUL TA {im}MAR [ana {im}KUR DIB 3 MU-MEŠ KUR HUL-ti₃ IGI.LA₂]
+   #note: See @bib{Hunger2019@106}
+   # // (MUL.APIN II iii 48-49)
+   #tr.en: If a star [passes] from the west [to the middle of the east] (var.: sets), [for three years the country will see evil].
+118. DIŠ MUL T[A MURUB₄ AN-e SUR-ma] ina [{d}UTU.ŠU₂.A ŠU₂-bi ZI.GA KALAG ina KUR E₃]
+   #note: See @bib{Hunger2019@106-107}
+   # // (MUL.APIN II iii 50-51)
+   #tr.en: If a star [flares up] fr[om the center of the sky and sets] at [sunset (i.e., west), a heavy loss will occur in the country].
+119. DIŠ M[UL x {m]ul}GIR₂.T[AB IGI {im}U₁₈.LU GIN MU BI SIG₅]
+   #note: See @bib{Hunger2019@107}
+   # // (MUL.APIN II iii 52)
+   #tr.en: If the s[tar ...] (of?) the Scor[pion is visible (and) the south wind blows, that year will be good].
+120. DIŠ {mul}dil-bat ṣir-ha [TUK ...]
+   #note: cf. @bib{Hunger2019@107}
+   #tr.en: If Venus [has] a flash [...]
+121. DIŠ {mul}dil-bat ṣir-ḫa NU [TUK SIG₅]
+   #note: See @bib{Hunger2019@107}
+   # // (MUL.APIN II iii 53)
+   #tr.en: If Venus does not [have a flash, it will be good].

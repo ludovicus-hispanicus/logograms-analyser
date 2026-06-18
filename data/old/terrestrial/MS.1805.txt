@@ -1,0 +1,92 @@
+---
+genre: terrestrial omens
+period: Late Old Babylonian
+provenance: unknown
+counting: šum-ma
+---
+
+@obverse
+
+$ (§1')
+1'. [x (x)] x-e#-ši#-ma# ša# x [...]
+#tr.en.(o 2'): ... and the rooms of the king's palacetogether with [...]
+2'. ($___$) u₃ E₂-MEŠ E₂.GAL LUGAL qa-di# x [...]
+3'. {(U)} šum-ma# [i]+na# URU#{ki} ša nu-ku-ur₂-t[um %n ibaššū ...]
+#tr.en.(o 5'): If (ditto): in a town where [there is] war [...] ... a weapon [...] a conqueror will take your (pl.) household goods and [...]
+4'. ($___$) x x x x bi ak-ak-ku-um [...]
+5'. ($___$) ka-ši-[du] e#-nu#-ti#-ku#-nu le-qe₂-e-ma x [...] x x x [...]
+
+$ (§2')
+6'. šum-ma {f}a-w[i-i]l-tum iz-ba-am ul-dam-ma zi-ka-ar qa-aq-[qa-su₂]
+#tr.en.(o 7'): If a woman miscarries a foetus and it is male, [its] head is a bird's and its mouth extends down to the region of its neck:
+7'. ($___$) ša iṣ-ṣu₂-ri u₃ pi₂-i-šu a-šar ki-ša-di-šu uš-ta-ap-pi₂-il#
+8'. ($___$) LUGAL a-na LUGAL-MEŠ ga-me-ru pa-tu₂-u₂-ni ša sa-an-qu₂ i-ra-ap-pi₂-iš
+#tr.en.(o 9'): the king will grow more powerful than (other) kings; our border region that had contracted (lit. weapons) will expand and our forces (lit. turned to their rear) will (now) move forward.
+9'. ($___$) u₃ ka-ak-ku-u₂-ni ša a-na wu-ur-ki!(DI)-šu-nu i-tu#-u₂-ru a-na pa-ni-šu-nu i#-il#-l[a-ku]
+
+$ (§3')
+10'. šum-ma {f}a-wi-il-tum iz-ba-am ul-dam-ma {f}si₂-in-ni-sa-at
+#tr.en.(o 15'): If a woman miscarries a foetus and it is female, both its hands are broken and twisted backward and its feet are twisted inward and face each other, (if) another foetus is located on its chest and harwatiša (is coupling with?) the normal one, (and if) the head of the abnormal one is a lion's(!) and with its hand it grasps the mouth of the normalfoetus:
+11'. ($___$) qa-ta-a-ša ki-la-al-lu a-na wu-ur-ki#-ša šu-ub-bu-ru i-ṣi₂-pu
+12'. ($___$) u₃ še-e-pa-šu a-na qe₃-er-be-nu i-ṣi₂-pu-ma it-ta-aṭ-ṭa₃#-lu#
+13'. ($___$) iz-bu-um ša-nu-um i+na i-ir-ti-ša ša-ki#-in#-ma u₃ ka-a-ia-ma-ni#-im#
+14'. {(KUR₂)} ha-ar-wa-tu-u₂-ša qa-aq-qa-ad la ka-a-ia-ni-i-im ša ne₂-e#-ti-i[m]
+15'. ($___$) u₃ i+na qa-ti-šu pi₂-i iz-bi-im ka-ia-ni-im ṣa-bi-it
+16'. {(U)} i+na li-ib-bi ma-ti-i-ni ṭa₃-ri-du na-ak-ru i+na la mu-de#-e-em
+#tr.en.(o 17'): into our land an exiled foreigner will enter without being noticed and the land will fall into (the hands of) the exile.
+17'. ($___$) i-ir-ru-ub#-ma# u₃ ma-a-tu-um a-na ṭa₃-ri-di-im-ma i-ma-aq-qu₂-tu
+18'. ($___$) ku-us-si₂ šar-ri ṭa₃-ri-du-um i-ṣa-ab-ba-at-ma u₃ MAŠKIM-MEŠ
+#tr.en.(o 19'): The exile will seize the king's throne and bailiffs will keep going about, each where he is minded.
+19'. ($___$) ma-an-nu-um a-šar li-ib-bi-šu i-ša-ad-da-du it-ta-al-l[a]-ku
+
+$ (§4')
+20'. šum-ma a-wi-il-tum iz-ba-am ul-dam-ma zi-ka-ar ša-ra-tu-um
+#tr.en.(r 1): If a woman miscarries a foetus and it is male, the hair on it head is emerging @akk{hurbēna}, the fingers of its hands are (the talons) of a quail(?), its chest is in the form of a lion's head: the king's vassals will arhi (rampage?) like a lion and bitalwa (gore?) like a wild bull; his weapons will grow strong and faced with his weapons no one will turn him aside, he will raise arms(?) high and there will be none to turn him aside.
+21'. {(KUR₂)} i+na re-ši-šu hu-ur₂-be-e-na i-lu-u₂-ni u₂-ba-na-at qa-ti-šu
+22'. ($___$) ša iṣ-ṣu₂-ri ši-la-hi-im i-ra-as-su₂ a-na qa-aq-qa-ad ne₂-e-ši-im#
+23'. {(KUR₂#)} i-pu-uš₂ wu-ur-du-ut-MEŠ šar-ri ki-ma ne₂-e-ši-im a-ar-hi
+24'. {(KUR₂#)} u₃#! ki!(DI)-ma ri-mi-im bi-ta-ah-wa ka-ak-ku-šu i-da-an-ni-nu-ma
+25'. ($___$) pa-ni ka-ak-ki#-šu ma-am-ma-an u₂-ul u₂-ta-a-ar i-ra-as-su₂#
+
+@reverse
+1. ($___$) i-is-he₂?# u₂-ša-aq-qi₂# u₃ [m]u-te-er i-ir-ti-šu u₂-ul i-ba-aš-ši
+
+$ (§5')
+2. šum-ma {f}a-wi-il-tum iz-ba-am ul-dam-ma {f}si₂-in-ni-iš₇ tu#-u₂-le!-e-ša
+#tr.en.(r 8): If a woman miscarries a foetus and it is female, its nipples are both located in its crotch and its vulva is located on its chest, and testicle and penis are located in the place where its vulva should be: the oil (and) honey that have been flowing in our land will stop flowing. The land of our enemy, that like a woman harwu belae (we are raping?), will raise at its fore a mighty weapon.
+3. ($___$) i+na su₂-uh-si-ša ki-la-al-tu šu-uk-ku-na u₃ bi-iṣ-ṣu-ur₂-šu
+4. ($___$) i+na i-ir-ti-šu ša-ak-na u₃ iš-ku-um i-ša-a-ru-um i+na ma-aš-ka-an
+5. ($___$) bi-iṣ-ṣu₂-ri-ša ša-ak-na ša-am-nu-um-MEŠ di-iš-pu-MEŠ ša i+na
+6. ($___$) ma-ti-i-ni i-il-li-ku i-ka-al-lu-<u₂> ma-at na-ak-ri-ni#
+7. {(KUR₂)} ša ki-ma {f}si-in-ni-iš₇-ti ha-ar-wu-u₂-be-la-e ka-ak-ka-am
+8. ($___$) ($___$) ($___$) da-an-na-am a-na pa-ni-šu i-na-aš-ši
+
+$ (§6')
+9. [šu]m-ma# {f}a-wi-il-tum iz-ba-am ul-dam-ma {f}si₂-in-ni-sa-at bi-iṣ-ṣu-ur₂-ša
+#tr.en.(r 14): If a woman miscarries a foetus and it is female, its vulva is located on its forehead, its left hand goes around to the right and is located at the top of its right arm: a mighty weapon will overtake us and the enemy will rape the land like a woman; also throne and power will pass (lit. go in) to him.
+10. ($___$) i+na pu-ti-ša ša-ak-na qa-as-sa₃ ša šu-me-li a-na i-mi-it-ti
+11. ($___$) i-is₂-hu-ur-ma i+na re-eš a-hi-šu ša i-mi-it-ti iš-ku-un
+12. ($___$) ka-ak-ku da-an-nu-um i+na mu-uh-hi-ni i-ka-aš-ša-ad-ma u₃ ma-a#-[tam]
+13. ($___$) na-ak-ru ki-ma {f}si-in#-ni-iš₇-ti i-ne₂-e-ek
+14. ($___$) u₃ ku-us-su₂-um be-lu-tu-um i-ir-ru-ub-šu
+
+$ (§7')
+15. šum-ma a-wi-il-tum iz-ba ul-dam-ma zi-ka-ar qa-aq-qa-as-su₂ ša %n [nēši?]
+#tr.en.(r 18): If a woman miscarries a foetus and it is male, its head is [a lion's(?)] but its body is clad(!) like a mouse in a mouse's skin: the king will open his mouth (wide) as a lion and [devour] the lands, and on the campaign he undertakes like a scorpion [he will ...] no plaintiff. Like water his motion will force his entry, like a snake [he will ...]
+16. ($___$) u₃ zu-mu-ur-šu ki-ma pe₃-a-zi-im pa-ra-am ša pe₃-a-zi u₂-la?!-ab-[bi-iš?]
+17. ($___$) LUGAL pi₂-i-šu ki-ma ne₂-e#-ši-im i-pe₃-et-te-e-ma ma-a-ta-tim i-i[k-ka-al]
+18. ($___$) u₃ i+na KASKAL i-il-la-ku ki-ma zu-qe₃-qi₂-pi₂-im da-bi-ba-am u₂-u[l x x]
+
+$ (§8')
+19. {(KUR₂)} ki₂#-ma me-e a-la-ak-ta-šu u₂-še-er-re-eb-šu ki-ma ṣe-ri-[im (x) x]
+#tr.en.(r 25): If a woman miscarries a foetus and [... ... its eye and nostril [...] ... its stomachs and [...] and in its hand [...] from [...] to [...]
+20. šum-ma {f}a-wi-il-tum iz-ba-am ul-dam#-ma# [x (x) x] x ṣi ṣi eš tu [(x x x)]
+21. ($___$) i-in-šu u₃ na-hi-ir-šu [...] x x x [x (x) x]
+22. ($___$) ta-ka-la-tu-šu u₃?# [...]
+23. {(KUR₂)} u₃ i-na qa-ti-šu# [...]
+24. ($___$) iš-tu tu#-[...]
+25. ($___$) a-na x [...]
+
+$ left
+1'. [...-p]u-šu-ma
+2'. [...] x-ṭa₃-lu?

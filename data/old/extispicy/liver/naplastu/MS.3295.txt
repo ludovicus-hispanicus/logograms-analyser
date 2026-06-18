@@ -1,0 +1,59 @@
+---
+genre: extispicy omens
+period: Old Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: šum-ma
+note: "naplaštum (the View / 'eye-slit') section of the multi-topic OB liver compendium MS 3295 (Schøyen; eBL). Reverse col. iii 18 - col. iv: the martu (gall-bladder) section of the same tablet is filed separately under liver/martu/MS.3295.txt. Fully syllabic OB baseline; second OB naplastu witness alongside MS.2225."
+---
+
+@reverse
+@column 3
+
+18. šum-ma na-ap-la-aš-tum
+#tr.en.(r iii 20): If the “eye-slit” nears the position of the “path”: the owner of the sacrificial animal [...]
+19. KI GIR₃ iq-ri-ib
+20. be-el ni-qi₂-im x [x x u]r?
+21. šum-ma na-ap-l[a-sa-tum ši-ta-ma]
+#tr.en.(r iii 22): If the “eye-[slit” is double:] a long life.
+22. u₄-mu ar-ku-[u₂-tu]m
+23. šum-ma ša-la-aš na-ap-la-sa₃-[tum]
+#tr.en.(r iii 24): If (there are) three “eye-slits”: a short life.
+24. u₄-mu i-ṣu₂-u₂-tum
+25. [šum-m]a ša-la-aš na-ap-la-sa₃-tum
+#tr.en.(r iii 26): [If (there are) three “eye-slits” and ...]
+26. [u₃ ...]
+
+@column 4
+
+27. [šu]m-ma na-ap-la-aš-tum
+#tr.en.(r iv 3): If the “eye-slit” has stood upright: losses.
+28. i-ta-zi-iz
+29. ta-am-ṭi-a-tum
+30. šum-ma na-ap-la-aš-tum
+#tr.en.(r iv 6): If the “eye-slit” lies obliquely: disorder.
+31. pa-ar-ka-at
+32. te-šu-u₂-um
+33. šum-ma na-ap-la-aš-tum
+#tr.en.(r iv 10): If the “eye-slit's” top end turns into a weapon-mark: promotion.
+34. re-iš-sa a-na ka-ak-ki-im
+35. i-tu-ur₂
+36. ni-iš re-ši-im
+37. šum-ma na-ap-la-aš-tum
+#tr.en.(r iv 15): If the “eye-slit's” flanks are concave: an unclean person has got in the way of the sacrificial animal.
+38. qa₂-ab-la-ša ka-ap-ṣa
+39. la e-lu-um
+40. a-na pa-ni ni-qi₂-i-im
+41. ip-ri-i-ik
+42. šum-ma na-ap-la-aš-tum
+#tr.en.(r iv 18): If the “eye-slit” turns into a weapon-mark: an attendant.
+43. a-na ka-ki-im i-tu-ur₂
+44. mu-ki-i[l] re-ši-im
+45. šum-ma qu₂-um it-ru-uṣ
+#tr.en.(r iv 21): If a filament stretches out: an [evil] “lurker”-demon has struck him and stands by his head.
+46. ra-bi-iṣ im-ha-as-su₂-u₂-ma
+47. i-na re-ši-i-šu iz-za-az
+48. šum-ma re-iš na-[a]p-la-aš-tim
+#tr.en.(r iv 24): If the top end of the “eye-slit” has a fissure: an unclean person [...]
+49. pa-ṭe₄-er
+50. l[a e-l]u-u₂-um

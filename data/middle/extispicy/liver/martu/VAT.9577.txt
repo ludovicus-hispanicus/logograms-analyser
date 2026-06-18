@@ -1,0 +1,51 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: BE
+publication: VAT 9577 (KAR 449); Heeßel 2012 KAL 5 no. 32 (pp. 132-133)
+note: "martu (the gall-bladder, written ZE2) omens; Middle Assyrian fragment. SAG.UŠ = the regular (gall-bladder), MAN-tu = a second one. 15->ZAG, 150->GUB3"
+---
+
+@obverse
+
+1. BE ZE₂ SAG.UŠ [GAR-ma MAN-tu ...]
+#tr.en: If the gall-bladder is set regularly [but a second one ...].
+2. BE ZE₂ SAG.UŠ GAR-ma [MAN-tu ...]
+#tr.en: If the gall-bladder is set regularly but [a second one ...].
+3. BE ZE₂ SAG.UŠ GAR-ma MAN-t[u ...]
+#tr.en: If the gall-bladder is set regularly but a secon[d one ...].
+4. BE ZE₂ SAG.UŠ GAR-ma MAN-tu [...]
+#tr.en: If the gall-bladder is set regularly but a second one [...].
+5. BE ZE₂ SAG.UŠ GAR-ma MAN-tu x [...]
+#tr.en: If the gall-bladder is set regularly but a second one ... :
+6. BE ZE₂ SAG.UŠ GAR-ma MAN-tu x [...]
+#tr.en: If the gall-bladder is set regularly but a second one ... :
+7. BE ZE₂ SAG.UŠ GAR-ma MAN-tu x [...]
+#tr.en: If the gall-bladder is set regularly but a second one ... :
+8. BE ZE₂ SAG.UŠ GAR-ma MIN u₃ x [...]
+#tr.en: If the gall-bladder is set regularly, ditto and ... :
+9. BE ZE₂ UGU ZE₂ ŠU.SI UG[U ...]
+#tr.en: If a gall-bladder is above a gall-bladder, the Finger abov[e ...].
+10. BE ZE₂ UGU ZE₂ ŠU.SI UG[U ...]
+#tr.en: If a gall-bladder is above a gall-bladder, the Finger abov[e ...].
+
+@reverse
+
+11. BE 2 ZE₂.MEŠ ki-ma ša₂ gi-na-a GAR [...]
+#tr.en: If two gall-bladders are set as usual: ...
+12. BE 2 ZE₂.MEŠ ki-ma ša₂ gi-na-a GAR [...]
+#tr.en: If two gall-bladders are set as usual: ...
+13. BE 3 ZE₂.MEŠ SAG.UŠ NIGIN-ši-n[a ...]
+#tr.en: If there are three gall-bladders and the regular one surrounds them: ...
+14. BE 2 ZE₂.MEŠ A.MEŠ-ši-na [...]
+#tr.en: If two gall-bladders ... their fluid: ...
+15. BE 2 ZE₂.MEŠ A.MEŠ-ši-na x [...]
+#tr.en: If two gall-bladders ... their fluid: ...
+16. BE ZE₂.MEŠ [...]
+#tr.en: If ... gall-bladders ... :
+17. BE ZE₂.MEŠ x [...]
+#tr.en: If ... gall-bladders ... :
+18. BE ZE₂.MEŠ [...]
+#tr.en: If ... gall-bladders ... :

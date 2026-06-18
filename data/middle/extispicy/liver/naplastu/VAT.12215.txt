@@ -1,0 +1,24 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: BE
+publication: VAT 12215; Heeßel 2012 KAL 5 no. 17 (p. 95)
+note: "manzazu (Präsenz, KI.GUB) = OB naplastu; small Middle Assyrian fragment"
+---
+
+1. [BE x K]I.GUB DU₈-at [...]
+#tr.en: If the ... of the Presence (manzāzu) is fissured: ...
+2. [BE K]I.GUB.MEŠ 2 [...]
+#tr.en: If there are two Presences: ...
+3. [BE] KI.GUB.MEŠ 3 [...]
+#tr.en: If there are three Presences: ...
+4. [BE KI.G]UB.MEŠ 4 [...]
+#tr.en: If there are four Presences: ...
+5. [BE KI.GU]B u SAL.LA BA₃ ZAG [...]
+#tr.en: If the Presence and the right thin-part of the liver ...
+6. [BE KI.GU]B IGI x [...]
+#tr.en: If the Presence ... the front ...
+7. [BE KI.GU]B x [...]
+#tr.en: If the Presence ... :

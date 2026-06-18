@@ -1,0 +1,21 @@
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# Manuscript drafts (kept local — not part of the public corpus/tooling)
+Doktorarbeit_final.md
+docs/The-Logographic-Shift.md
+
+# Copyrighted third-party material
+docs/Rochberg-1988-AfO-Beih-22-pp1-31.md
+
+# Working notes
+TODO.md
+
+# Scratch / debugging scripts and fixtures
+debug_loading.py
+reproduce_complex.py
+reproduce_issue.py
+test_parsing.py
+complex_input.txt
+ebl_ms3117.txt

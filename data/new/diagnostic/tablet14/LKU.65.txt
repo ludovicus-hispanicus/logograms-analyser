@@ -1,0 +1,23 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: LKU.65
+recension: canonical Sakikkû Tablet 14, manuscript L (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 14
+source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript L rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+---
+
+@text
+116. [... tar-k]a, auszuschließen.
+241′. [ ] šá KI.TA GÌRII-šú te-bi SAG.D[U …]
+242′. [ ] x-bit-ma GÌR-šú šá GUB₃ : ZAG ú-[kan-na-an ]
+243′. [ ]II-šú DU-ku-ma šá ŠUII-šú ne-e-ḫu [ ]
+244′. [ GÌ]RII-šú DU-ku-ma šá ŠUII-šú GAR-nu KI.TA [ ]
+245′. [DIŠ] SA GÌRII-šú ZI-ú IGIII-šú ana ÍL [ ] [ ] u SAG ŠÀ-šú KÚM Š[U ]
+246′. [DIŠ] TA DU₈
+247′. [DIŠ] TA DU₈
+# Stichzeile. [ ] UD.1.KAM GIG-ma ina SAG.DU [...]
+# Kolophon. [1]2-ú DUB ana GIG ina TE-k[a ...]
+# Kolophon. UD-ma ana É GIG KA.PIRIG DU-[ku ...]

@@ -1,0 +1,127 @@
+---
+genre: astrological omens
+period: Neo-Assyrian
+provenance: first-millennium canonical (Nineveh + sources)
+recension: Enūma Anu Enlil 22, Recension A composite
+counting: DIŠ
+topic: lunar eclipse
+series: Enūma Anu Enlil 22
+edition: Rochberg-Halton 1988 (AfO Beih. 22), EAE 22 score (ms A = reference); OCR-extracted from scanned edition; Appendix-1 bleed excluded.
+note: Logograms uppercase, syllabic lowercase, {} det., [] restoration, x illegible; BE/DIŠ=šumma, AN.TA.LÙ/AN.MI=eclipse. OCR of a scan.
+---
+
+@text
+15'. [DIŠ ina ITI.BARA₂ AN.MI GAR-ma SA₅-šú] pe-li nu-ḫuš UN.MEŠ
+16'. [DIŠ ina ITI.GU₄ … pi-ši-i]r-ti-ia GÁL-ši
+17'. [DIŠ ina ITI.SIG₄ GÚ.GAL] SI.SÁ
+18'. [DIŠ ina ITI.ŠU ŠE.GIŠ].Ì SI.SÁ
+19'. [DIŠ ina ITI.NE ŠE.GIŠ.Ì] SI.SÁ
+20'. [DIŠ ina ITI.KIN ZÚ.LUM] SI.SÁ
+21'. [DIŠ ina ITI.DU₆ me-šir-tu]m SI.SÁ
+22'. [DIŠ AN.MI ina EN.NU.UN AN.USAN₂] EN.NU.UN U₄.ZAL.LI uš-ta-ne-eḫ
+23'. [LUGAL ŠÚ KUR-su UR].BI i-ḫal-liq
+24'. […]UD šú NIM DU uš-ta-ne-eḫ AN.TA.LÙ x […]
+17'. [DINGIR.MEŠ mu-ši-tim ú-... ú-za-i-zu har]-ra-ni
+2'. [...]x -bi
+3'. [...]x -bi
+4'. [...]x -bi
+1'. [DIŠ UD.16.KAM IM].HUL BE i-ri-[...]
+2'. [DIŠ UD.20.KAM] LUGAL ŠÈ LUGAL ni-kur-tam i-[ša-ap-pa-ar]
+3'. [DIŠ UD.21.KAM] 1 GUR KUR [i-ma-aq-qu-ut]
+4'. [DIŠ II I]TI UD.14.KAM AN.TA.LÙ š[i-it-ku-un ...]
+5'. DIŠ UD.15.KAM LUGAL ŠÈ LUGAL [ (uninscribed ?) ]
+6'. ni-ku-ur-tam i-ša-ap-pa-[ar-ma ...]
+7'. DIŠ UD.16.KAM AN.TA.LI LUGAL A-mu-[ri-im ...]
+8'. DIŠ U[D.20].KAM LUGAL A-mu-ri-im [...]
+9'. DIŠ [UD.21.KAM] A.AB.BA e-ba-al la x [...]
+3. AN.TA.LÙ ri-ih-ṣu mur-ṣu mu-tum GAL₅.LÁ.MEŠ.GAL.MEŠ {d}IMIN.BI
+4. ma-har {d}30 it-ta-nap-ri-ku
+1. DIŠ ina ITI.ŠE TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ina IGI MU A.KAL ZI-ma A.MAḪ.MEŠ ú-bat-taq
+2. BE {d}IŠKUR KA-šú ŠUB UD.MEŠ ip-pi-rid-du-ma na-an-dur UR.MAḪ u UR.BAR.RA
+3. BE ri-i-bu i-ru-ub ger-ret KÚR GÁL.MEŠ
+4. BE IM.GÚ KUR is-ḫúp KUR.BI ub-bu-ṭa ḪUL IGI ka-ri-e KUR i-ri-iq-qu
+1. ta-mi-a-tum an-na-a-tum e-nu-ma {d}30 mit-lu-uk-ta GAR-nu DINGIR.MEŠ šá AN-e u KI-tim
+2. ep-šet a-me-lu-ti tu-bu-ul-šú-nu i-ši-im-ma
+1. DIŠ ina ITI.AB TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ZI-ut BURU₅.HI.A EBUR KUR TUR
+2. BE {d}IŠKUR KA-šú ŠUB UD.MEŠ ŠÚ.ŠÚ-ma IM.ŠÈG NU SUR šu-ri-pu GÁL-ši
+3. BE ri-i-bu i-ru-ub LUGAL ina URU KÚR uš-ša-ab
+4. BE IM.GÚ KUR is-ḫúp ana A.RA.ZU LUGAL DINGIR.MEŠ i-qul-lu
+1. DIŠ ina ITI.ZÍZ TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ḫe-pí
+2. BE {d}IŠKUR KA-šú ŠUB IM.U₁₈.LU ZI-ma É.MEŠ ub-bak
+3. BE ri-i-bu i-ru-ub ger-ret KÚR GÁL.MEŠ
+4. BE IM.GÚ KUR is-ḫúp KUR.BI ul-tab-bar MU.6.KAM ŠÀ.BI NU DÙG.GA
+2. BE {d}IŠKUR KA-šú ŠUB ŠÈG u mi-lum har-pu
+3. BE ri-i-bu i-ru-ub LUGAL KUR su-un-qam IGI-mar
+4. BE IM.GÚ KUR is-húp MU.6.KAM KUR SU.KÚ IGI-mar
+II § VII 1. DIŠ ina ITI.DU₆ TA UD.1.KAM AN.TA.LÙ it-tab-ši ŠÈG u A.KAL LÁ.MEŠ-ma EBUR KUR NU SI.SÁ
+II § VII 2. BE {d}IŠKUR KA-šú ŠUB A.KAL.MEŠ GÁL.MEŠ ŠE.GIŠ.Ì NU SI.SÁ
+II § VII 3. BE ri-i-bu i-ru-ub EBUR KUR SI.SÁ SAL.KÚR GÁL
+II § VII 4. BE IM.GÚ KUR is-húp EBUR KUR SI.SÁ KUR ina ŠÀ-bi DÙG.GA DU.DU
+3. BE ri-i-bu i-ru-ub ne-ru-ba-a-tum GÁL.MEŠ
+4. BE IM.GÚ KUR is-ḫúp MU.3.KAM {d}IŠKUR KUR KÚ KI.LAM TUR-ir
+II § V 1. DIŠ ina ITI.NE TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ZÚ.LUM.MA NU SI.SÁ
+II § V 2. BE {d}IŠKUR KA-šú ŠUB ŠÈG u A.KAL TAR.MEŠ me-ri-šú NU SI.SÁ
+II § V 3. BE ri-i-bu i-ru-ub LUGAL KUR su-un-qam IGI-mar
+II § V 4. BE IM.GÚ KUR is-ḫúp DINGIR.MEŠ ina SU KUR MU.5.KAM BAD.MEŠ
+II § VI 1. DIŠ ina ITI.KIN TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ri-iṭ-ba-tum NU SI.SÁ.MEŠ
+4. BE IM.GÚ KUR is-ḫúp MU 10.KAM KUR di-bi-ri IGI-mar
+II § III 1. DIŠ ina ITI.SIG₄ TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši EBUR KUR NU SI.SÁ
+II § III 2. BE {d}IŠKUR KA-šú ŠUB ŠE GU-um ina KISLAH. MEŠ TUR a-ru-ur-tum
+II § III 3. BE ri-i-bu i-ru-ub LUGAL še-eṭ KI IDIM.MEŠ-šú i-qal-lil
+II § III 4. BE IM.GÚ KUR is-ḫúp MU.3.KAM LUGAL KUR ina di-bi-ri DU.ME
+II § IV 1. DIŠ ina ITI.ŠU TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ŠE.GIŠ.Ì NU SI.SÁ
+II § IV 2. BE {d}IŠKUR KA-šú ŠUB-di ŠE.GIŠ.Ì u ZÚ.LUM.MA NU SI.SÁ
+2. BE {d}IŠKUR KA-šú ŠUB-di ŠE GU-um TUR-ir
+3. BE ri-i-bu i-ru-ub LUGAL KUR-su BAL-su nap-paḫ-tum in-nap-paḫ
+4. BE IM.GÚ KUR is-ḫúp ŠÈG.MEŠ ina KUR TAR.MEŠ
+1. DIŠ ina ITI.GU₄ TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ŠE ina GÁ×ŠE.MEŠ ia-ru-ur
+2. BE {d}IŠKUR KA-šú ŠUB-di ZÍZ.AN.NA u GÚ.GAL ina A.ŠÀ NU SI.SÁ.MEŠ
+3. BE ri-i-bu i-ru-ub ḫa-rab na-me-e
+2. DIŠ UD.15.KAM HA ḫe-pí ši-ip-ri-im
+3. DIŠ UD.16.KAM KUR lá HUL-tum uš-tál-pat
+4. DIŠ UD.20.KAM ša-aḫ-lu-uq-ti É.GIŠ.NU₁₁.GÁL
+5. DIŠ UD.21.KAM BAL 3,20 qá-ti KUR 3,20 ár-bu-tú DU-ak
+6. DIŠ TA BI TA-ma ina UD.15.KAM ina UD.16.KAM ina UD.20.KAM ina UD.21.KAM AN.MI GAR ZÁH ḫe-pí ZÁH-aq GUL
+7. DIŠ TA la a-dan-ni-šú a-dir 3,20 ḫe-pí ŠUB-ma BE-at
+Part II § I 1. DIŠ ina ITI.BARA₂ TA UD.1.KAM EN UD.30.KAM AN.TA.LÙ it-tab-ši ub-bu-ṭú GAR LUGAL šá-lim ŠE GU-um TUR
+1. DIŠ TA XI ITI TA UD.14.KAM 3,20 GAL BE ŠÈG.MEŠ ina AN-e DU.MEŠ-ni SILIM.MU SIG₅ ina KUR.KUR GAR
+2. DIŠ UD.15.KAM la ha-as-su AŠ.TE DIB-bat
+2. … DÁB-at
+3. DIŠ UD.16.KAM ZÁH-aq ⟨…⟩ BÀD.MEŠ in-na-qá-ru
+4. DIŠ UD.20.KAM 3,20 URI.KI BE-ma bi-ib-lu KUR ub-bal
+5. DIŠ UD.21.KAM KUR ina KA {d}KUR.GAL ZÁH
+1. DIŠ TA XII ITI TA UD.14.KAM ub-bu-ṭú GÁL ŠUB-tim ERIN₂ ra ti {d}IŠKUR RA
+1. ctd. UN.MEŠ šèr-ri-ši-na ana KÙ.BABBAR BÚR.MEŠ
+1. DIŠ TA IX ITI TA UD.14.KAM ŠÈG.MEŠ ina AN-e A.KAL.MEŠ ina IDIM-bi KUR.MEŠ-ni bi-ib-lu ub-bal KI GAL-a TUR.MEŠ SU.KÚ KI.LAM ŠUB-ut hu-šah-hu GÁL
+2. DIŠ UD.15.KAM BÀD.MEŠ in-na-qá-ru KUR ár-bu-tú DU
+3. DIŠ UD.16.KAM MAN KUR-su BAL-su-ma ZÁH
+4. DIŠ UD.20.KAM ŠÈG.MEŠ sa(text ŠÀ)-ad-ru GIŠ.MEŠ {d}IŠKUR TUR+DIŠ-na
+5. DIŠ UD.21.KAM GIG.MEŠ ina KUR GÁL.MEŠ KUR GIŠ.MEŠ {d}IŠKUR i-ta-na-ar-hi-iṣ
+3. DIŠ UD.16.KAM KUR šul-pu-ut-tum [ina GIŠ.GU.ZA 3,20 MAN-ma ] TUŠ-ab
+4. DIŠ UD.20.KAM DUMU 3,20 AD-šú [GAZ-ma AŠ].TE DIB-bat
+5. DIŠ UD.21.KAM LUGAL GIŠ.GU.ZA ú-lab-bar
+1. DIŠ TA VII ITI TA UD.14.KAM ERIN₂.MEŠ TA ki nu ŠÀ-ru-ba-tú
+2. DIŠ UD.15.KAM KUR-ut nam ga URU.MEŠ BAL.MEŠ-tum
+3. DIŠ UD.16.KAM qí-ti BAL ina GIŠ.GU.ZA 3,20 MAN-ma TUŠ-ab
+4. DIŠ UD.20.KAM GAN-bu ina SU KUR Ì.GÁL GIG TA gu he-pí
+5. DIŠ UD.21.KAM KUR-ut ag bi ERÍN ku kur a kur du
+4. … BAR …
+1. DIŠ TA IV ITI TA UD.14.KAM ŠÈG ina AN-e A.KAL ina IDIM ib-ba-lu {d}IŠKUR RA-iṣ hu-šah-hu GÁL-ma KUR GAL-tum ana KUR TUR ana TI-ṭi DU
+2. DIŠ UD.15.KAM ŠÈG ina AN-e A.KAL ina IDIM ib-ba-lu hu-šah-hu ina KUR GÁL
+3. DIŠ UD.16.KAM hu-šah-hu KUR-ti Ì.GÁL
+4. DIŠ UD.20.KAM ŠUB-tim 3,20 u ERIN₂-šú bar-tum Ì.GÁL
+5. DIŠ UD.21.KAM {d}IŠKUR GIŠ?-šú ŠUB-ma A.AB.BA hi-ṣib-šá ZÁH
+3. … he-pí …
+4. … AN … he-pí …
+1. DIŠ TA II ITI TA UD.14.KAM sah-maš-tum Ì-GÁL-ma ub-bu-ṭú GAR.MEŠ-ma 3,20 BA.BE
+2. DIŠ UD.15.KAM 3,20 ŠÈ 3,20 SAL.KÚR KIN-ma 3,20 kiš-ša-ti BE
+3. DIŠ UD.16.KAM 3,20 {d}MAR ina GIŠ.TUKUL ŠUB-ma KUR-su ZÁH
+4. DIŠ UD.20.KAM 3,20 {d}MAR TA GIŠ.GU.ZA KUR-bi
+5. DIŠ UD.21.KAM A.AB.BA -bal-ma hi-ṣib-šá ZÁH
+1. DIŠ TA III ITI TA UD.14.KAM ŠÈG ina AN-e A.KAL ina IDIM-bi DU-ni {d}IŠKUR RA-iṣ ERIN₂ URI.KI mat-tum ZÁH
+1. DIŠ TA SAG MU TA ITI.BARA₂ UD.14.KAM AN.TA.LÙ {d}EN.ZU GAR ú-ru-ba-a-tum ina KUR KÚR GÁL.MEŠ-ma KUR TUR 3,20 BE
+2. DIŠ UD.15.KAM AN.MI GAR ḫu-šaḫ-ḫu UN.MEŠ TUR.MEŠ-ši-na ana KÙ.BABBAR BÚR.MEŠ
+2. … TA …
+3. DIŠ UD.16.KAM AN.MI GAR im-ḫul-lu KUR-ma {d}Sal-bat-a-nu KUR-ma MÁŠ.ANŠE ZÁH
+4. DIŠ UD.20.KAM 3,20 ŠÈ 3,20 nu-kúr-tam KIN-ár
+5. DIŠ UD.21.KAM kùr-rum ŠUB-ut

@@ -1,0 +1,227 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: unknown
+counting: DIŠ
+---
+
+$obverse
+$ (§1')
+1'. [DIŠ KA DUG₃.GA x x x] x x [...]
+#tr.en: ¶ (If) there is a "pleasing mouth" [...]
+
+$ (§2')
+2'. [DIŠ] KA DUG₃.GA i+na? KI!-ar KALAG GAR-i[n ...]
+#tr.en: ¶ (If) there is a "pleasing mouth" instead of the "strength": [...]
+
+$ (§3')
+3'. [DIŠ K]A DUG₃.GA i+na KI.TUŠ GUB₃ GAR-in LU₂-l[am ...]
+#tr.en: ¶ (If) there is a "pleasing mouth" in the left-hand "seat": the man [...]
+
+$ (§4')
+4'. DIŠ KA DUG₃.GA 2 te-eš-l[i-it LU₂ DINGIR iš-me] / LU₂ re-ṣi %n u tillāti irašši
+#tr.en: ¶ (If) there are two "pleasing mouths": [a god has heard the man's] prayer; the man [will acquire] allies [and auxiliaries(?)].
+
+$ (§5')
+5'. DIŠ KA DUG₃.GA 2 šu-ta-hu-qu₂ LUGAL LU₂-lam x [...]
+#tr.en: ¶ (If) two "pleasing mouths" are intermingled: the king [will ...] the man.
+
+$ (§6')
+6'. DIŠ KA DUG₃.GA 2 šu-ta-hu-qu₂-ma DUGUD-ku LUGAL x [...]
+#tr.en: ¶ (If) two "pleasing mouths" are inter- mingled and dark: the king [...]
+
+$ (§7')
+7'. DIŠ KA DUG₃.GA 2 a-hu i+na ŠA₃ a-hi GAR-nu ši-i[l-la-tu ...]
+#tr.en: ¶ (If) two "pleasing mouths" are situated one inside the other: blasphemy [...]
+
+$ (§8')
+8'. DIŠ KA DUG₃.GA 2 a-hu i-na ŠA₃ a-hi GAR-nu-ma DUG-UD-ku x [...]
+#tr.en: ¶ (If) two "pleasing mouths" are situated one inside the other and are dark: [...]
+
+$ (§9')
+9'. DIŠ# KA DUG₃.GA 2 it-gu-ru LU₂ it-ti DINGIR-š[u %n sakip?]
+#tr.en: ¶ (If) two "pleasing mouths" are entan- gled: the man [is rejected(?)] by his god.
+
+$ (§10')
+10'. DIŠ# KA DUG₃.GA 3 LU₂ munus x še er x [...]
+#tr.en: ¶ (If) there are three "pleasing mouths": the man [...]
+
+$ (§11')
+11'. DIŠ# KA DUG₃.GA 4 su-ub-bi-il na-x [...]
+#tr.en: ¶ (If) there are four “pleasing mouths”: keep (him) waiting! ... [...]
+
+$ (§12')
+12'. DIŠ# KA DUG₃.GA 4 sa₃-ak-ki-iš eṣ-ru hu-mu-uṭ NINDA-l[i a-ku-ul?]
+#tr.en: ¶ (If) four “pleasing mouths” are obscurely drawn: hurry, [eat(?)] the bread!
+
+$ (§13')
+13'. [DIŠ] KA DUG₃.GA 5 ni-ip-hu ta-aš-ri-[ru]
+#tr.en: ¶ (If) there are five “pleasing mouths”: unreliability, falsity.
+
+$ (§14')
+14'. DIŠ KA DUG₃.GA 6 LU₂! ši-il-la-at KA T[UK]-ši
+#tr.en: ¶ (If) there are six “pleasing mouths”: the man [will suffer (the consequences of)] treasonous talk.
+
+$ (§15')
+15'. DIŠ KA DUG₃.GA 6 sa₃-ak-ki-iš eṣ-ru LU₂ i+na ši-il-la-a[t KA-šu BA.UG₄-at]
+#tr.en: ¶ (If) six “pleasing mouths” are obscurely drawn: the man [will die] as a result of [his] treasonous talk.
+
+$ (§16')
+16'. DIŠ KA DUG₃.GA 6 sa₃-ak-ki-iš eṣ-ru-ma DUGUD-ku LU₂ i+na ši-i[l-la-at KA-šu BA.UG-at]
+#tr.en: ¶ (If) six “pleasing mouths” are obscurely drawn and dark: the man [will die as a result of his] treasonous talk.
+
+$ (§17')
+17'. DIŠ KA DUG₃.GA GAR-ma AN.TA 3 la-ri-i ir-ši ri-ṣi DINGIR a+n[a LU₂?]
+#tr.en: ¶ (If) there is a “pleasing mouth” and it has three branches at the top: help of a god for [the man(?).]
+
+$ (§18')
+18'. DIŠ# KA DUG₃.GA GAR-ma KI.TA 3 la-ri-i ir-ši ze-nu-ut DINGIR a+n[a LU₂?]
+#tr.en: ¶ (If) there is a “pleasing mouth” and it has three branches at the bottom: wrath of a god for [the man(?).]
+
+$ (§19')
+19'. DIŠ ŠA KA DUG₃.GA DUH DINGIR a+na LU₂ a+na SIG₅-ti i#-[sa₃-ah-hu-ur?]
+#tr.en: ¶ (If) the inside of the “pleasing mouth” has a fissure: a god [will turn(?)] to the man with good intentions.
+
+$ (§20')
+20'. DIŠ ŠA₃ KA DUG₃.GA a+na 2-šu DUH ka-am-ma-šu-um [...]
+#tr.en: ¶ (If) the inside of the “pleasing mouth” has two fissures: kneeling(?) [...]
+
+$ (§21')
+21'. DIŠ ŠA₃ KA DUG₃.GA a+na 3-šu DUH LU₂# ši-il-la-at KA TUK-ši
+#tr.en: ¶ (If) the inside of the “pleasing mouth” has three fissures: the man will suffer (the consequences of) treasonous talk.
+
+$ (§22')
+22'. DIŠ ki-bi-ir KA DUG₃.GA AN.TA DUH# ma-ha-aṣ le-et [LU₂]
+#tr.en: ¶ (If) the rim of the “pleasing mouth” has a fissure at the top: slapping of [the man's] cheek.
+
+$ (§23')
+23'. DIŠ ki-bi-ir KA DUG₃.GA KI.TA DUH na-sa-ah zi-iq-ni [LU₂]
+#tr.en: ¶ (If) the rim of the “pleasing mouth” has a fissure at the bottom: pulling out of [the man's] beard.
+
+$ (§24')
+24'. DIŠ# ki#-bi-ir KA DUG₃.GA AN.TA u₃ KI#.TA DUH ša-ha-ah ši-i[n-ni LU₂]
+#tr.en: ¶ (If) the rim of the “pleasing mouth” has a fissure at the top and bottom: falling out of [the man's] teeth.
+
+$ (§25')
+25'. [DIŠ Z]I KA DUG₃.GA DUH mi-iq-ti u₂-ri [0]
+#tr.en: ¶ (If) the right of the “pleasing mouth” has a fissure: collapse of roof.
+
+$ (§26')
+26'. [DIŠ GU]B₃ KA DUG₃.GA DUH me-hi-iṣ ša-ap-ri [0]
+#tr.en: ¶ (If) the left of the “pleasing mouth” has a fissure: striking of thigh.
+
+$ (§27')
+27'. [DIŠ Š]A₃ KA DUG₃.GA pu-ṣa ur-qa₂ u₃ su-ma ma-ṭi-ir ma-qa₂-at bu-u₂#-[li]
+#tr.en: [¶ (If) the inside of] the “pleasing mouth” is spotted white, yellow or red: death of livestock.
+
+$ (§28')
+28'. [DIŠ] ŠA₃ KA DUG₃.GA li-pa-a ma-li a+na KASKAL a-ka-al NAM.RA-t[i]
+#tr.en: ¶ (If) the inside of the “pleasing mouth” is full of fat: regarding a campaign, taking of booty.
+
+$ (§29')
+29'. [DIŠ] ŠA₃ KA DUG₃.GA li-pa-a da-a-na ma-li ERIN₂+NI KASKAL-an DU-ku HA.LA G[U₇]-al
+#tr.en: ¶ (If) the inside of the “pleasing mouth” is full of hard fat; my army will win a share (of the spoils in) the campaign on which it is going.
+
+$ (§30')
+30'. DIŠ i+na ŠA₃ KA DUG₄.GA MI.IB.HI na-ar-bu na-di hu-ud li-ib-bi za-na-[an AN-e] a+na KASKAL a-ka-al NAM!.R[A]-[ti]
+#tr.en: ¶ (If) a soft cyst is located inside the “pleasing mouth”: happiness, fall [of rain;] regarding a campaign, taking of booty.
+
+$ (§31')
+31'. DIŠ i+na ŠA₃ KA DUG₄.GA MI.IB.HI da-an-nu na-di
+#tr.en.(32'): ¶ (If) a hard cyst is located inside the “pleasing mouth”: hardship will afflict my army; regarding a campaign, my army will become nervous of the enemy's army; [he will triumph(?) over me(?):]
+32'. da-an-na-tum ERIN₂+NI DAB₅-at a+na KASKAL ERIN₂+NI ERIN₂-an KUR₂-ri i-ta-na-an-da-ar UG[U-ia iz-za-az?]
+
+$ (§32')
+33'. DIŠ# i+na ŠA₃ KA DUG₄.GA MI.IB.HI SI₄.A na-di ni-ip-hi IZI ri-ig-m[u-(um)]
+#tr.en: ¶ (If) a red cyst is located inside the “pleasing mouth”: outbreak of fire, uproar.
+
+$ (§33')
+34'. DIŠ# i+na ŠA₃ KA DUG₄.GA MI.IB.HI ṣa-al-mu na-di kab-tum e-du-u₂ ŠUB-ut
+#tr.en: ¶ (If) a black cyst is located inside the “pleasing mouth”: a famous nobleman will drop dead.
+
+$ (§34')
+35'. DIŠ# i+na ŠA₃ KA DUG₄-GA MI.IB.HI ar-qu₂ na-di {d}IŠKUR KUR RA-iṣ
+#tr.en: ¶ (If) a yellow cyst is located inside the “pleasing mouth”: Adad will devastate the land.
+
+$ (§35')
+36'. [DIŠ i+n]a ŠA₃# KA DUG₄.GA MI.IB.HI ar-qu₂ na-di-ma u₃ UB-MEŠ la-m[u-šu]
+#tr.en.(37'): ¶ (If) a yellow cyst is located inside the “pleasing mouth” and “corners” surround [it; in] war, downfall of the vanguard of my army; on a distant day: downfall of diviners.
+37'. [i+na {gi]š}TUKUL ŠUB-ti IGI.DU ERIN₂+NI-ia u₄-ma ri-qa₂ ŠUB-ti DUMU-MEŠ MAŠ₂.ŠU#.[GID₂.GID₂]
+
+$ (§36')
+38'. [DIŠ x x x x x x] x x x nu#-ku#-ur GIR₃ ri-ig-mi na-an-mu-ur-ti x [(x x)]
+#tr.en: ¶ (If) [...] looks strange: foot-mark of commotion; convergence of [...]
+
+$ (§37')
+39'. [DIŠ ... sa-mu] na#-di# te-re-et bu-li a+na KASKAL DINGIR [...]
+#tr.en: ¶ (If a red ...) is located [...:] oracle concerning livestock; regarding a cam-paign, a god [will ...]
+
+$ (§38')
+40'. [DIŠ ... ṣa-a]l-mu na-di te-re-et ar-ha#-[a-tim]
+#tr.en: ¶ (If a) black [...] is located [...:] ora-cle concerning cattle.
+
+$bottom
+$ (§39')
+41'. [DIŠ ...] x ar#-qu₂ na-di an-ta-lu-u₂ n[a-an-mu-ur-tun?]
+#tr.en: ¶ (If) a yellow [...] is located [...:] eclipse; convergence(?).
+
+$ (§40')
+42'. [DIŠ ...] x-ti [GIR₃] GAR-at GIR₃# x [x x] x x [...]
+#tr.en: ¶ [... a foot-mark] is present: foot-mark of [...]
+
+$ (§41')
+43'. [DIŠ ...] x [... GIR₃ GAR-at ...]
+#tr.en: ¶ [... a foot-mark is present: [...]
+
+$reverse
+$ (§42')
+44'. [DIŠ KA DUG.G]A [... GIR₃ GAR-at ...]
+#tr.en: ¶ (If) the “pleasing mouth” ... a foot-mark is present: ...]
+
+$ (§43')
+45'. [DIŠ GIR₃] ši#-i# [SAG ar-ka-at ...]
+#tr.en: ¶ (If) that [foot-mark reaches/points to] the [top of the back of ...]
+
+$ (§44')
+46'. [DIŠ GIR₃] ši-i MURUB₄ a[r-ka-at ...]
+#tr.en: ¶ (If) that [foot-mark reaches/points to] the middle of the [back of ...]
+
+$ (§45')
+47'. [DIŠ GIR₃] ši-i SUHUŠ ar-[ka-at ...]
+#tr.en: ¶ (If) that [foot-mark reaches/points to] the base of the [back of ...]
+
+$ (§46')
+48'. [DIŠ GIR₃] ši-i KI.TUŠ G[UB₃ ...] x [...]
+#tr.en: ¶ (If) that [foot-mark reaches/points to] the left-hand “seat”: [...]
+
+$ (§47')
+49'. DIŠ GIR₃ ši-i KI.TUŠ GU[B₃ ...] x [...]
+#tr.en: ¶ (If) that foot-mark [reaches/points to] the left-hand “seat” [and ...]
+
+$ (§48')
+50'. DIŠ i+na# KI-ar K[A DUG₃.GA ...] x [...]
+#tr.en: ¶ (If) instead of the “[pleasing] mouth” [...]
+
+$ (§49')
+51'. DIŠ i+na# KI-ar K[A DUG₃.GA ...] x [...]
+#tr.en: ¶ (If) instead of the “[pleasing] mouth” [...]
+
+$ (§50')
+52'. DIŠ ŠA₃ x x [...] ri x [...]
+#tr.en: ¶ (If) inside [...]
+
+$ (§51')
+53'. DIŠ i+na x [...] x [...]
+#tr.en: ¶ (If) at the [...]
+
+$ (§52')
+54'. DIŠ x [...]
+#tr.en: ¶ (If) [...]
+
+$ (§53')
+55'. DIŠ [...]
+#tr.en: ¶ (If) [...]
+
+$ (§54')
+56'. DIŠ [...]
+#tr.en: ¶ (If) [...]

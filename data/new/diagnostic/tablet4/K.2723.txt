@@ -1,0 +1,134 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: K.2723 (+ K.3812 + K.4051 + K.7282 + K.10592 + K.10602 + K.12131 + K.13842 + K.16825 + K.19432) (Schmidtchen 2021 Tafel 4, ms A)
+recension: canonical Sakikkû Tablet 4, manuscript A (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 4
+source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript A rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+---
+
+@text
+Stichzeile:. DIŠ GIG IGI 15-šú G[U₇ ...]
+Kolophon A:. DUB.2.KAM ana GIG ina TE-k[a ...]
+1. DIŠ SAG.KI ḫe-si-ma KÚM-im [...]
+2. DIŠ SAG.KI ḫe-si-ma ŠÀ.MEŠ-šú [...]
+3. DIŠ SAG.KI ḫe-si-ma ŠÀ.MEŠ-šú it-[...]
+4. DIŠ SAG.KI ḫe-si-ma GEŠTU.II-šú NU ŠE.GA-a ŠU DINGIR [...]
+5. DIŠ SAG.KI-šú šal-mat TIN :
+6. DIŠ [...]
+7. DIŠ SAG.KI-šú ŠUB-ut-ma IGI.II-šú [...]
+8. DIŠ SAG.KI-šú DAB-su-ma GÙ.GÙ-si MÚD ina KIR₄-šú [...]
+9. DIŠ SAG.KI-šú DAB-su-ma KI.MIN SA SAG.KI-šú ma-gal ZI.MEŠ [...]
+10. DIŠ SAG.KI-šú DAB-su-ma KI.MIN SA SAG.KI-šú ma-gal ZI.MEŠ u [...]
+11. DIŠ SAG.KI-šú DAB-su-ma ŠÀ ŠÀ GÙ.GÙ-si ŠU GIDIM₇ šá-né- {d}[...]
+12. DIŠ SAG.KI-šú DAB-su-ma KI.MIN ma-gal i₁₆-à-ru u KI.N[Á ...]
+13. DIŠ SAG.KI-šú DAB-su-ma TA {d}UTU.ŠÚ.A EN EN.NUN.ZAL.LE [...]
+14. DIŠ SAG.KI-šú DAB-su-ma TA {d}UTU.È EN {d}UTU.ŠÚ.A G[U₇-šú ...]
+15. DIŠ SAG.KI-šú DAB-su-ma ina KIR₄-šú MÚD DU.DU x [...]
+16. DIŠ SAG.KI-šú DAB-su-ma SA GÚ-šú GU₇.MEŠ-[šú ...]
+17. DIŠ SAG.KI-šú DAB-su-ma SA IGI.II-šú GU₇.MEŠ-šú [...]
+18. DIŠ SAG.KI-šú DAB-su-ma KÚM SED u IGI.II-šú nu-up-pu-[ḫa ...]
+19. DIŠ SAG.KI-šú DAB-su-ma IG[I.ME]-šú NIGIN-du ZI-bi u ŠUB [...]
+20. DIŠ SAG.KI-šú DAB-su-ma S[U-šú] šim-ma-ta₅? ú-kal [...]
+21. DIŠ SAG.KI-šú SAG ŠÀ-šú {na4}[ ] ina ma-šal u₄-mi SÍK [...]
+22. [DIŠ] SAG.KI-šú šá 15 [...]
+23. [DIŠ] SAG.KI-šú šá 15 i-[...]
+24. DIŠ SAG.KI-šú šá 150 G[U₇-šú ...]
+25. DIŠ SAG.KI-šú šá 15 G[U₇-šú ...]
+26. DIŠ SAG.KI-šú šá 150 G[U₇-šú ...]
+27. DIŠ SAG.KI-šú šá 15 GU₇-šú u [...]
+28. DIŠ SAG.KI-šú šá 150 GU₇-šú u IGI-[šú ...]
+29. DIŠ SAG.KI-šú šá 15 u 150 GU₇-šú [ ] LÚ BI DINGIR-šú u DINGIR URU-šú iz-zur ik-[...]
+30. DIŠ SAG.KI 15-šú [G]U₇-šú-ma IGI 15-šú nap-[ ] x-qí ŠU GIDIM₇ šá-[né-e ...]
+31. DIŠ SAG.[KI 15]0-šú GU₇-šú-ma IGI 150-šú nap-ḫ[at ] x-qí ŠU GIDIM₇ šá-né-[e ...]
+32. DIŠ S[AG.KI-š]ú šá 15 u 150 GU₇-šú-ma KÚ[M-šú mit]-ḫar ŠU DINGIR-[šú TIN]
+33. DIŠ S[AG.K]I-šú šá 15 u 150 GU₇-šú-ma KÚM-šú NU mit-ḫar ŠU DINGIR URU-šú GIG-[su ...]
+34. DIŠ [SAG.K]I-šú GU₇-šú ú-maḫ-ḫa-ṣa-šu SA.[MEŠ?] IGI.II-šú ú-[zaq-qa-tu-šú] [S]A GÚ-šú GU₇.MEŠ-šú [...]
+35. DIŠ ina SAG.KI-šú SÌG-iṣ [ŠU] {d}k[ù-bi]
+36. DIŠ ina SAG.KI-šú šá 15 SÌG-iṣ ŠU? {d}UTU? M[U? ...]
+37. DIŠ ina SAG.KI-šú šá 150 SÌG-iṣ ŠU? [...]
+38. DIŠ ina SAG.KI-šú šá 150 SÌG-iṣ u IGI.II-šú ÍR-a ŠU? [...]
+39. DIŠ ina SAG.KI-šú šá 150 SÌG-iṣ u IGI.II-šú D[IRI].MEŠ-ḫa? ŠU {d}UTU MU KÙ.BABBAR Z[AG.GAR.RA]
+40. DIŠ ina SAG.KI-šú šá 15 SÌG-iṣ u i-ṭa-m[u] ŠU {d}UTU MU KÙ.BABBAR ZAG.GAR.[RA x]
+41. DIŠ ina SAG.KI-šú šá 150 SÌG-iṣ u i-ṭa-m[u] ŠU {d}UTU MU DAM [NA LÚ x]
+42. DIŠ ina SAG.KI-šú SAG ŠÀ-šú u TI-šú SÌG-i[ṣ] ŠU {d}DAM.KI.NA
+43. DIŠ ina SAG.KI-šú SÌG-iṣ-ma ŠÀ.MEŠ-šú it-te-nen-bi-ṭu ŠU {d}er-ṣe!-tú
+44. DIŠ ina SAG.KI-šú SÌG-iṣ-ma SA SAG.KI-šú ŠU.II-šú u [GÌR.II]-šú ZI.MEŠ ŠU DINGIR TI
+45. DIŠ ina SAG.KI-šú SÌG-iṣ-ma SA SAG.KI-šú ŠU.II-šú? u GÌR.II-šú DIŠ-niš GU₇?.MEŠ-šú SA₅ u i-mim KI.MIN?
+46. DIŠ ina SAG.KI-šú u MURUB₄-[šú] SÌG-[iṣ]-ma GÙ.GÙ-si ŠU {d}UTU
+47. DIŠ ina SAG.KI-šú KIR₄?-šú GU₇.MEŠ SIG₇.MEŠ GIB.MEŠ-ma EME-šú ú-na?-áṭ-ṭa!(AD) GAM
+48. [DIŠ ina S]AG.KI-šú KIR₄-šú ŠÀ-šú GU.MEŠ SIG₇.MEŠ GIB.MEŠ-ma MÚD i₁₆-ḫa-ḫu [x] GAM
+49. [DIŠ ina S]AG.KI-šú u pu-ti-šú ŠU.II-[š]ú GAR.GAR-an [(x x) GA]M
+50. [DIŠ] SAG.KI.ME-šú KÚM.MEŠ-ma GEŠTU.II-šú SED.MEŠ lu ŠU DINGIR-šú lu ŠU ?am-ma-a : Š[U ...]
+51. DIŠ SAG.KI.II-šú SED.MEŠ-ma GEŠTU.II-šú KÚM.MEŠ lu ŠU DINGIR-šú lu ŠU ?k[ù?-bi?]
+52. DIŠ SAG.KI.II-šú KÚM la ḫa-aḫ-ḫa-šú GEŠTU.II-šú SED.MEŠ u DAB-it SAG.DU T[UK(.TUK)-ši ...] GIG-su ŠU {d}XXX u {d}[...]
+53. DIŠ SAG.KI.II-šú GEŠTU.II-šú KÚM la ḫa-aḫ-ḫaš GÌR.II-šú SED.MEŠ u DAB-it SAG?.[DU ] lu ŠU {d}XXX lu ŠU {d}?[...]
+54. DIŠ SAG.KI.II-šú GEŠTU.II-šú KÚM la ḫa-aḫ-ḫaš lu ŠU DINGIR-šú lu ŠU DINGIR URU-šú x [...]
+55. DIŠ SAG.KI.II-šú GEŠTU.II-šú mit-ḫa-riš em-ma ŠU {d}XXX ana it-tab-šu? [...]
+56. DIŠ SAG.KI.II-šú GEŠTU.II-šú GU₇.MEŠ-šú AD₆-šú KÚM šá-né-e [...]
+57. DIŠ SAG.KI.II-šú MURUB₄.MEŠ-šú GU₇.MEŠ-šú AD₆-šú KÚM UD.3.KÁM ŠU DIN[GIR ...]
+58. DIŠ SAG.KI.II-šú GU₇.MEŠ-šú u SED.MEŠ ŠU {d}A.[ZU]
+59. DIŠ SAG.KI.II-šú MURUB₄.MEŠ-šú GU₇.MEŠ-šú-ma SED.MEŠ UD.5.KÁM ŠU {d}[...]
+60. DIŠ SAG.KI.II-šú ki-ma GEŠTU.II-šú SED.MEŠ lu ŠU DINGIR-šú lu ŠU {d}[kù-bi]
+61. DIŠ SAG.KI.II-šú DIŠ-niš DU.MEŠ u IR-su it-ta-naq-ra-ár UD.3.KÁM ŠU {d}[ X]X?
+62. DIŠ SAG.KI.II-šú ki-lat-tan DIŠ-niš i-rud-da-šú KI.MIN DU?.MEŠ u IR-su it-ta-naq-ra-ár ŠU {d}XXX u XX
+63. [DIŠ SA]G.KI.II-šú ma-aq-ta₅ IGI.II-šú ú-tar-ra-aṣ TU BI NU TIN
+64. [DIŠ ina SAG.KI]-šú šá 15 SA.MEŠ GIB.MEŠ TIN
+65. [DIŠ ina SAG.KI]-šú šá ⸤150⸥ SA.MEŠ GIB.MEŠ GIG-su GÍD-ma TIN
+66. [ ] ⸤GIB.MEŠ GIG-su⸥ GÍD
+67. [ ] GIB.MEŠ TIN
+80. [ ] x x TI?
+81. [ ] GIG?
+82. [ ] tar?-ku GAM
+83. [ ] šá x GE₆ [ ]-id?
+84. [ ] 150. GE₆ GIG-x [ ]-ma TIN
+84b. [ ] GE₆.MEŠ [... B]A?.ÚŠ
+85. [ ]-šú šá [15? D]U-ma šá 150 GAR-nu GABA.RI [SÌG-iṣ GI]G-su DUGUD-ma TIN
+86. [DIŠ SA SAG].KI.II-šú šá 150 DU?-ma? šá 15 GAR-nu GABA.RI SÌG-iṣ [ ]-ma GAM
+87. [DIŠ SA SAG.KI.II]-šú šá 15 x? DU-ma šá 150 n[e-e-ḫu (x x)] ⸤TIN⸥
+88. [DIŠ SA SAG.KI.II]-šú šá 150 gal-tìš GU₄.UD.MEŠ u ŠE U.MEŠ-[šú ...]
+89. [DIŠ SA SAG.KI.II]-šú ip-te-ru-ni₇ [...]
+90. [DIŠ SA SAG.KI.II]-šú ŠUB-t[u₄ ...]
+91. [DIŠ SA SAG.KI].II-šú MÚD il--qú-[ú ...]
+92. [DIŠ SA SAG.KI].II-šú ⸤a?⸥-lik-šu-nu [šu-taq-ru-ub? ...]
+93. [DIŠ SA SAG.KI].II-šú GAR-nu?-ma SA.MEŠ [...]
+94. [DIŠ SA] SAG.KI.II-šú x u IGI.II-šú [...]
+95. [DIŠ SA] SAG.KI.II-šú u GABA?.BI DIŠ-ni[š ...]
+96. [DIŠ SA SAG].KI.II-šú šá 15 u 150 GAR-n[u ...]
+97. [DIŠ SA SAG].KI.II-šú šá 15 u 150 ZI.MEŠ [x x x x]
+98. [DIŠ SA SAG].KI.II-šú šá 15 u 150 ZI.MEŠ GE₆.MEŠ [...]
+99. [DIŠ SA SAG.KI.II-šú šá 1]5 u 150 ZI.MEŠ u SAG ŠÀ-šú [...]
+100. [DIŠ SA SAG].KI.II-[šú šá 15] u 150 ina DU-ku im-[ ] [SÌG-iṣ?] MAŠKIM SÌG-iṣ x [...]
+101. [DIŠ SA] ⸤SA[G.KI.II]-šú šá 1[5 u 150 DU].MEŠ-ma SAG.KI-šú ú?-x [...]
+102. [DIŠ SA] SAG.KI.II-šú šá 15 [u 150 D]U.MEŠ-ma u IGI.II-šú ⸤ú⸥-x [...]
+103. [DIŠ S]A SAG.KI.II-[šú] šá 15 u 1[50 D]U.MEŠ-ma u ŠÀ-šú DAB-su [...]
+104. [DIŠ SA] SAG.KI.II-šú šá 15 u 150 [D]U.MEŠ-ma DUL.DUL BAL.BAL [...]
+105. [DIŠ SA SAG].KI.II-šú šá 15 u 150 DIŠ-ni[š] DU.MEŠ SAG ŠÀ-šú DAB.DAB-[su] [x] x [MA]ŠKIM? SÌG-iṣ [MAŠ.MA]Š-su DÙ-ma x x [...]
+106. [DIŠ SA SAG].KI.II-šú šá 15 u 150 DIŠ-niš D[U.MEŠ]-ma u šu-ú BAL.BAL SÌG-iṣ MAŠKIM [...]
+107. [DIŠ SA SA]G.KI.II-šú ŠU.II-šú u GÌR.II-šú [it-t]a-ku [...]
+108. [DIŠ SA SA]G.KI.II-šú ŠU.II-šú u GÌR.II-šú DU-ku-m[a ...]
+109. [DIŠ SA SA]G.KI[.II]-šú ŠU.II-šú u GÌR.II-šú šá 15 u [ ] [ ]-su? ú-šaq-qa-ma AD₆-šú [...]
+110. [DIŠ SA SAG].KI.II-šú ŠU.II-šú GÌR.II-šú GÚ-šú u SAG [...]
+111. [DIŠ SA SAG].KI.II-šú ŠU.II-šú GÌR.II-šú GÚ-šú u pa-pan Š[À-šú ...]
+112. [DIŠ SA] SAG.KI.II-šú ŠU.II-šú DAL.MEŠ GAR.MEŠ [PA] IGI.II-šú DAB.DAB?-[tu] [šu]-ú u ÚŠ! DAB!.DAB-tu TA É ana É KÚR-šú-ma [TIN]
+113. [DIŠ SA S]AG.KI.II-šú tal-lu [la ip]-rik let-su ra-mu-u ÉN ŠUB-šum-[ma TIN]
+114. [DIŠ ZI] SAG.KI TUK-ši-[ma u SU-š]ú GU₇-šú ŠU GÍDI[M]
+115. [DIŠ Z]I SAG.KI TUK [ i-ša]m-ma-am-šu ŠU GÍDI[M]
+116. [DIŠ ZI] SAG.KI [šim-ma-ta₅ u ri!-mu-t]a₅ TUK.TUK-ši ŠU GÍDI[M]
+117. [DIŠ] ú!-ru-uḫ SA[G.KI ] [DA]B-it ŠÀ TUK [...]
+118. [DIŠ S]AG.KI-su [...]
+120. [DIŠ S]AG.KI-su [...]
+121. DIŠ SAG.KI-su [...]
+122. DIŠ SAG.KI-su BA[BBAR ...]
+123. DIŠ SAG.KI-su u p[a-nu-šú ...]
+124. DIŠ SAG.KI-su SI[G₇ ...]
+125. DIŠ SAG.KI-su SA₅ [...]
+126. DIŠ SAG.KI-su SA₅ [...]
+127. DIŠ SAG.KI-su GE₆ u SA₅ [...]
+128. DIŠ SAG.KI-su GE₆ [...]
+129. DIŠ SAG.KI-su bar-mat [...]
+130. DIŠ SAG.KI-su šal-mat [...]
+131. [DIŠ] SAG.KI-su GEN₇ si-ka-[...]
+132. [DIŠ] SAG.KI-su GEN₇ si-ka-[...]

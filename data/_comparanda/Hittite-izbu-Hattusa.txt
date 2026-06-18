@@ -1,0 +1,18 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+language: Hittite
+provenance: Ḫattuša (Boğazköy), Hittite Empire — Late Bronze Age (Middle-period horizon)
+publication: Cohen 2017, AoF 44 (Parallel Hurrian and Hittite šumma izbu Omens). Mss incl. KBo 13.36, KBo 27.215, KUB 8.83, KUB 47.96.
+counting: line
+exclude: true   # COMPARANDUM, not Akkadian — kept OUT of the general LDI; side-note only.
+note: Hittite cuneiform izbu omens. The "LDI" here = Sumerogram + AKKADOGRAM density (uppercase), NOT a logogram-vs-Akkadian-syllabic measure. Illustrative value bin LDI ≈ 0.594 (38/64) — ~4x the contemporary OB *Akkadian* izbu (≈0.13), because content words are written as Sumerograms (GEŠTU "ear", LUGAL "king", U₄ "day", LÚ.KÚR "enemy", NU GÁL "is missing") and Akkadograms (IZ-BU "izbu", -ŠU "his"), with only native grammar/verbs syllabic. Shows LDI tracks the graphic convention, not the spoken language. Tiny sample; not statistically robust.
+---
+
+@text
+ták-ku IZ-BU GEŠTU.ḪI.A IGI.ḪI.A ga-ri-ia-an ḫar-kán-zi LUGAL a-ra-aḫ-zé-né-eš ku-na-an-zi
+ták-ku IZ-BU ZAG-an GEŠTU-an NU GÁL LÚ.KÚR KUR LUGAL e-ep-zi
+ták-ku IZ-BU GÙB-la-an GEŠTU-an NU GÁL LUGAL KUR LÚ.KÚR e-ep-zi
+ták-ku IZ-BU GEŠTU.ḪI.A-ŠU GÚ-ši ki-ia-an-ta-ri É LÚ ḫar-ak-zi na-aš-ma-kán LUGAL-uš LÚ.MEŠ ḫa-bi-ri-ia-aš an-da i-ia-an-da-ri
+ták-ku IZ-BU GEŠTU.ḪI.A-ŠU kap-pa-a-an Ú-UL iš-ta-ma-aš-ša-an ut-tar iš-ta-ma-aš-ši
+ták-ku IZ-BU GEŠTU.ḪI.A-ŠU NU GÁL LUGAL-wa-aš U₄.ḪI.A zi-in-na-an-te-eš na-aš-ma-kán LUGAL-uš LÚ.MEŠ ḫa-at-ta-an-du-šu-uš ku-en-zi

@@ -1,0 +1,30 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh
+counting: BE
+topic: lung
+publication: De Zorzi 2021, WdO 51/2 (quoting her edition of Šumma ḫašû Tablets 3 and 13); Bārûtu ch. 9
+feature: imēr ḫašî (Saw-horse), ubān ḫašî qablītu (Middle Finger)
+note: canonical omens excerpted from Šumma ḫašû Tablet 3 (15-16, 27-28, 37-38) and Tablet 13 (29', 70'); Tablet 13:69' omitted (= Rm 620 A5); eBL 15/150 normalized to ZAG/GUB₃
+---
+
+@section Šumma ḫašû Tablet 3
+15. BE KIR₄ ANŠE MUR ZAG GE₆ KUR₂ ana ur-pat-ia₅ IZI ŠUB-di
+#tr.en: If the Tip of the Saw-horse of the right lung is black — the enemy will throw fire on my tents.
+16. BE KIR₄ ANŠE MUR GUB₃ GE₆ ana ur-pat KUR₂ IZI ŠUB-di
+#tr.en: If the Tip of the Saw-horse of the left lung is black — you will throw fire on the enemy's tents.
+27. BE ANŠE MUR ša₂ ZAG EN GU₂.MUR ŠA₃-nu ZAG DU₈ URU ZAG-ia₅ KUR₂ DAB-ma u₂-še-ra-da
+#tr.en: If the Saw-horse of the right lung is split inside up to the trachea on the right — the enemy will take my border town and carry off (booty downstream).
+28. BE ANŠE MUR ša₂ GUB₃ EN GU₂.MUR ŠA₃-nu GUB₃ DU₈ URU ZAG KUR₂ DAB-ma u₂-še-ra-da
+#tr.en: If the Saw-horse of the left lung is split inside up to the trachea on the left — I will take an enemy border town and carry off (booty downstream).
+37. BE ANŠE MUR ša₂ ZAG SAG-su ina nap-šat ZAG KAR ina tak-ku-li-ia₅ KUR₂ TI-qe₂
+#tr.en: If the Head of the Saw-horse of the right lung is atrophied at the right opening — the enemy will take my … .
+38. BE ANŠE MUR ša₂ GUB₃ SAG-su ina nap-šat GUB₃ KAR ina tak-ku-li KUR₂ TI-qe₂
+#tr.en: If the Head of the Saw-horse of the left lung is atrophied at the left opening — you will take … of the enemy.
+
+@section Šumma ḫašû Tablet 13
+29'. BE ŠU.SI MUR MURUB₄ ana ZAG GU₄.UD-iṭ u GAM.GAM-at URU ZAG KUR₂ NIGIN-ma ina KA DU₁₀.GA E₃-ka
+#tr.en: If the Middle Finger of the lung jumps to the right and is pierced repeatedly — you will surround an enemy border city, but he will make you withdraw through blandishments.
+70'. BE MIN MIN-ma IGI.MEŠ-ša₂ KUR MUR ša₂ ZAG IGI.MEŠ URU ZAG-ia₅ x [...] LUGAL u IDIM.MEŠ-šu₂ NU ŠE.GA.MEŠ DAM NA E₂-sa₃ [...]
+#tr.en: If ditto (the Middle Finger) ditto (turns in its place) and its front parts face the Palace of the right lung — my border town … ; the king and his courtiers will not agree; the man's wife … her house … .

@@ -1,0 +1,97 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: BE
+publication: VAT 10536 (KAR 456) + dupls VAT 9598 (KAR 465), VAT 11552 (KAR 417); Heeßel 2012 KAL 5 nos. 13-15 (pp. 90-93); Koch-Westenholz BLO 70-77
+note: "manzazu (Präsenz, written KI.GUB) = the OB naplastu (the View); Middle Assyrian manzazu compendium, composite of mss A/B/C; parallels in MB Kiš (YOS 10 63) and Emar (Emar VI 670). 15→ZAG, 150→GUB₃"
+---
+
+@obverse
+
+3. [BE KI].GUB iḫ-bu-uš-m[a] ka p[i ...]
+#tr.en: If the Presence (manzāzu) swells and ...
+4. [BE] KI.GUB ir-qiq-ma x x [...]
+#tr.en: If the Presence becomes thin and ...
+5. [BE] KI.GUB NIGIN-ur [...]
+#tr.en: If the Presence contracts: ...
+6. [BE] KI.GUB NIGIN-ur-ma ana {giš}TUKUL GUR-[ur U₄ NUN TIL.MEŠ]
+#tr.en: If the Presence contracts and turns into a weapon: the days of the prince will end.
+7. [BE] KI.GUB NIGIN-ma ana KAM GUR-ur [URU{ki} DAB-bat]
+#tr.en: If the Presence contracts and turns into a seed: the city will be captured.
+8. [BE] KI.GUB NIGIN-ma ana KAM GUR-ma u₃ G[E₆ URU{ki} DAB-bat-ma ERIN₂-šu ina ...]
+#tr.en: If the Presence contracts, turns into a seed and is black: the city will be captured and his army ...
+9. [BE] KI.GUB 2 ana {giš}TUKUL IZI.GAR ina SISKUR₂ [NUN DINGIR DINGIR GU₃-si]
+#tr.en: If the Presence is doubled: for battle a niphu-mark; at the prince's offering a god will call to a god.
+10. [BE] KI.GUB 2-ma ŠEŠ ana IGI ŠEŠ Z[I.MEŠ-ma IGI.IGI-lu₄ LUGAL KI-su ...]
+#tr.en: If the Presence is doubled and one rises toward the front of the other and they face each other: the king his territory ...
+11. [BE KI.GU]B SAG.UŠ GAR-ma MAN-u₂ ina GUB₃ [ŠUB-di LUGAL KI-su] ŠUB-ta TUŠ-ab
+#tr.en: If the regular Presence is in place but a second lies on the left: the king will resettle his abandoned territory.
+12. [BE KI.GU]B SAG.UŠ GAR-ma MAN-u₂ ina SAL.LA BA₃ ZAG [ŠUB-di LUGAL KI-su] ḫa-rib-ta TUŠ-ab
+#tr.en: If the regular Presence is in place but a second lies at the right thin-part of the liver: the king will resettle his devastated territory.
+13. [BE KI.GUB SAG.UŠ] GAR-ma MAN-u₂ ina sip-pi₂ ZAG ME.NI [GAR-ma BAL-ut KUR₂-ka] ana SILIM-mi KIN-ku
+#tr.en: If the regular Presence is in place but a second lies in the right jamb of the Palace-Gate and is turned: your enemy will send you peace overtures.
+14. [BE KI.GUB SAG.UŠ GAR-m]a MAN-u₂ ina sip-pi₂ GUB₃ ME.NI [GAR-ma BAL-ut E]N SILIM-ka KUR₂-ka
+#tr.en: If the regular Presence is in place but a second lies in the left jamb of the Palace-Gate and is turned: your ally will become your enemy.
+15. [BE MAŠ.GAN₂ KI.GUB GIM i-mi za-qi₂-ir BA₃-ut] ma-li-i
+#tr.en: If the normal position of the Presence is pointed like a dike: an omen of mourning.
+16. [BE KI.MIN-ma ina UGU-šu KI.GUB MAN-ma e-ṣir U₄.MEŠ N]UN GID₂.DA.MEŠ
+#tr.en: If ditto and a second Presence is drawn above it: the days of the prince will be long,
+17. [ERIN₂ KUR₂ KI DINGI]R ana GAZ KAM-et
+#tr.en: the enemy army is by a god marked out for death.
+18. [BE ina sip-pi₂ KI.GUB UGU-nu KI.GUB KI.GUB MAN-ma GAR ina {giš}TUKUL.MEŠ DINGIR.MEŠ] re-ṣu-ut EN UDU.SISKUR NU DU-ku-ma
+#tr.en: If in the jamb of the Presence, above the Presence, a second Presence lies: in battle the gods will not come to the aid of the offerer, and
+19. [ina U₄ SUD la DINGIR-šu] UGU LU₂ ŠUB-ut
+#tr.en: alternatively, a god not his own will fall upon the man.
+
+@reverse
+
+1. [BE KI.GUB SAG.UŠ GAR-ma MAN-u₂ ina SAG KI.GUB ḪU]R A.RA₂.MEŠ ŠUB.MEŠ ana NUN GUR.MEŠ-ni
+#tr.en: If the regular Presence is in place but a second is drawn at the top of the Presence: the fallen protective deities will return to the prince.
+2. [BE KI.MIN-ma MAN-u₂ ina MURUB₄ KI.GUB ḪU]R A.RA₂.MEŠ ŠUB.MEŠ ana ERIN₂-ia₅ GUR.MEŠ-ni
+#tr.en: If ditto but a second is drawn in the middle of the Presence: the fallen protective deities will return to my army.
+3. [BE KI.MIN-ma MAN-u₂ ina SUḪUŠ KI.GUB ḪUR N]IN-tu₄ A.RA₂ u {d}LAMMA TUK-ši
+#tr.en: If ditto but a second is drawn at the base of the Presence: the lady will acquire a guardian-god and a guardian-goddess.
+4. [BE KI.GUB ka-lu-šu-ma BAL-ut u UR₅.UŠ₂ SILIM-at ID₂ ŠU]B-tu iḫ-ḫe-re-ma KUR DINGIR A₂-ša KI.TUŠ ne₂-eḫ-ta TUŠ-ab
+#tr.en: If the whole Presence is turned and the extispicy is favorable: the ruined canal will be re-dug, and the god will let the land dwell peacefully on its bank.
+5. [BE KI.GUB ka-lu-šu-ma BAL-ut u UR₅.UŠ₂ NU SILIM-at BAL KUR₂]-ir UŠ₄ KUR MAN-ni
+#tr.en: If the whole Presence is turned and the extispicy is unfavorable: the dynasty will change, the mood of the land will alter.
+6. [BE KI.GUB SI.MEŠ-šu is-ḫu-ra-ma ZE₂ IGI NUN KUR KUR₂]-šu ina {giš}TUKUL u₂-sa-ḫar
+#tr.en: If the horns of the Presence turn and face the gall-bladder: the prince will turn back the land of his enemy in battle.
+7. [BE KI.GUB SI.MEŠ-šu is-ḫu-ra-ma EDIN ZAG IGI KUR₂ KUR NUN] ina {giš}TUKUL u₂-sa-ḫar
+#tr.en: If the horns of the Presence turn and face the right back: the enemy will turn back the land of the prince in battle.
+8. [BE KI.GUB GUB-iz NUN DINGIR.MEŠ-š]u TAG₄.MEŠ-šu
+#tr.en: If the Presence stands high: his gods will forsake the prince.
+9. [BE KI.GUB ša-miṭ ana {giš}TUKUL ŠUB-ti ERIN₂-ni in]a U₄ SUD UŠ₂.MEŠ ina KUR GAL₂.MEŠ
+#tr.en: If the Presence is pointed/detached: for battle, fall of the army; alternatively, there will be deaths in the land.
+10. [BE KI.GUB 3 UŠ₄ EN UDU.NITA₂ MAN-ni ana {giš}TUKU]L IZI.GAR
+#tr.en: If the Presence is tripled: the mood of the owner of the sacrificial sheep will change; for battle, a niphu-mark.
+14. [BE ina KI.GUB ZAG u₃ GUB₃ BUR₃.MEŠ ŠUB.MEŠ NUN ILLAT.MEŠ-šu BAL.MEŠ-šu-ma u₂-šam-qat-si-na-a-ti]
+#tr.en: If in the Presence, right and left, holes lie: the prince's auxiliaries will rebel against him, but he will strike them down.
+15. [BE K]I.GUB 4 [SU.GU₇ ina KUR GAL₂-ši]
+#tr.en: If the Presence is fourfold: there will be famine in the land.
+16. [BE K]I.GUB 4-ma ina Š[A₃-šu-nu BUR₃.MEŠ ŠUB.MEŠ SU.GU₇ ...]
+#tr.en: If the Presence is fourfold and in their midst holes lie: famine ...
+17. [BE K]I.GUB 4-ma 2 UGU-nu 2 [KI.TA-nu GAR.MEŠ DINGIR.MEŠ ze-nu-tu₄ ana KUR GUR.MEŠ-ni ...]
+#tr.en: If the Presence is fourfold and two lie above, two below: the angry gods will return to the land ...
+18. [BE] KI.GUB 5 [ni-ip-ḫat {lu₂}ḪAL]
+#tr.en: If the Presence is fivefold: niphu-marks of the diviner.
+19. [BE] KI.GUB 5-ma ina ŠA₃-šu-nu BUR₃.[MEŠ ŠUB.MEŠ ni-ip-ḫat {lu₂}ḪAL ŠUB-ti ERIN₂-ni]
+#tr.en: If the Presence is fivefold and in their midst holes lie: niphu-marks of the diviner, fall of the army.
+20. [BE] KI.GUB 5-ma ina ŠA₃-šu-nu BAR.[MEŠ ŠUB.MEŠ ...]
+#tr.en: If the Presence is fivefold and in their midst crosses lie: ...
+21. [BE] KI.GUB 6 [ZI.GA NIM.MA{ki}]
+#tr.en: If the Presence is sixfold: uprising of Elam.
+22. [BE] KI.GUB 6-ma ina ŠA₃-šu-nu [BUR₃.MEŠ ŠUB.MEŠ NIM.MA{ki} ZI-am-ma ...]
+#tr.en: If the Presence is sixfold and in their midst holes lie: Elam will attack me and ...
+23. [BE] KI.GUB 6-ma ina ŠA₃-šu-nu BAR.[MEŠ ŠUB.MEŠ NIM.MA{ki} ZI ...]
+#tr.en: If the Presence is sixfold and in their midst crosses lie: Elam will attack ...
+24. [0] SUḪ₂ NI₂-šu ŠUB-šu-m[a ...]
+#tr.en: ... inner confusion will befall it and ...
+25. [BE] KI.GUB 7 [ZI.GA ...]
+#tr.en: If the Presence is sevenfold: uprising ...
+26. [BE] KI.GUB 7-ma ina ŠA₃-šu-[nu BUR₃.MEŠ ŠUB.MEŠ ...]
+#tr.en: If the Presence is sevenfold and in their midst holes lie: ...
+27. [BE K]I.GUB 7-ma ina ŠA₃-[šu-nu BAR.MEŠ ŠUB.MEŠ ...]
+#tr.en: If the Presence is sevenfold and in their midst crosses lie: ...

@@ -1,0 +1,24 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: VAT.14556
+recension: canonical Sakikkû Tablet 3, manuscript G (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 3
+source: auto-converted from Schmidtchen 2021 Tafel 3 OCR (score), manuscript G rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 3 lines.
+---
+
+@text
+34. DIŠ [...]
+35. DIŠ [...]
+36. DIŠ [...]
+38. DIŠ [...]
+39. DIŠ SA[G ...]
+40. DIŠ SA[G ...] [...] šá-niš ana x x x a-rì? u x [...]
+41. DIŠ SAG.DU-su DAB.DAB-su u KÚ[M ...]
+43. DIŠ SAG.DU-su DAB.DAB-su u KÚM [ ] LÁ-šú UMUŠ-šú KÚR-šum-m[a? ...]
+44. DIŠ SAG.DU-su TÉŠ.BI DAB.DA[B ...]
+45. DIŠ SAG.DU-su i-tar-ru-ur [ ] ina KA-šú ÚḪ-šú D[U ] ina DU-šú ana IGI-šú i?-[...]
+46. DIŠ SAG.DU-su ŠU-šú u GÌR[.II?-šú ...]
+52. DIŠ [...]

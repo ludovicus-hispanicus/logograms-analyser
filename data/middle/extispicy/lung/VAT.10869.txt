@@ -1,0 +1,21 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+counting: BE
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 62 (VAT 10869 = KAR 452)
+feature: lung wings (MUR ZAG/GUB₃)
+note: fragmentary, single side (10 lines)
+---
+
+1'. [BE] MUR [ ]
+2'. [BE] MUR ZAG [ ]
+3'. [B]E MUR GUB₃ TUR [ ]
+4'. BE MUR ša₂ ZAG U[GU ]
+5'. BE MUR ša₂ GUB₃ UG[U ]
+6'. BE ZAG MUR ina ZE₂ GE₆ [ ]
+7'. BE GUB₃ MUR ina ZE₂ GE₆ [ ]
+8'. [BE] MUR ana UGU-nu [ ]
+9'. [BE] MUR ša₂ ZAG an[a ]
+10'. [BE] MUR x [ ]

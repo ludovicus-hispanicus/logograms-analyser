@@ -1,0 +1,33 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+counting: line
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 58 (A 443 = Ass 7120)
+feature: ubān ḫašî qablītu (middle lung-finger)
+note: fragmentary; parallels VAT 10159 (no. 56) Vs 24'
+---
+
+@obverse
+1'. [ ] TUK [ ]
+2'. [ ŠU.SI MU]R MURUB₄ BAR-ma [DU₈ ]
+3'. [ ŠU.SI MU]R MURUB₄ EN 2 [DU₈ ]
+4'. [ ŠU.SI MU]R MURUB₄ EN 2 [DU₈ ]
+5'. [ ŠU.SI MU]R MURUB₄ UGU ŠU.SI MUR MURUB₄ [ ]
+6'. [ ŠU.SI M]UR MURUB₄ u NIG₂.GEŠTU ŠU.SI MUR MURUB₄ [ ]
+7'. [ ] ŠU.SI MUR MURUB₄ DU₈ ina ŠA₃ DU₈ be k[u? ]
+8'. [ ] x ŠU.SI MUR MURUB₄ [ ]
+9'. [ B]I um-tar-ri [ ]
+10'. [ ] x ZAG ŠU.SI MUR MURUB₄ [ ]
+11'. [ B]I um-tar-ri [ ]
+
+@reverse
+1'. [ ] x GUB₃ MUR GAR-i[n? ]
+2'. [ ] x GAR-in [ ]
+3'. [ ] x GAR-in [ ]
+4'. [ M]UR ši-it-ḫu GAR-in [ ]
+5'. [ ZA]G GIR₃ iḫ-ru-uṣ [ ]
+6'. [ GÙ]B GIR₃ iḫ-ru-uṣ [ ]
+7'. [ ] x GUB₃ GIR₃ x [ ]
+8'. [ ] ig bi x [ ]

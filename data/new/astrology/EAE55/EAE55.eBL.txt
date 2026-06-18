@@ -1,0 +1,269 @@
+---
+genre: astrological omens
+period: Neo-Assyrian / Late Babylonian
+provenance: first-millennium canonical; 36 manuscripts (Nineveh (34), Uruk (1), Babylonia (1))
+recension: Enūma Anu Enlil 55, eBL composite (Standard Babylonian)
+counting: DIŠ
+series: Enūma Anu Enlil 55
+edition: electronic Babylonian Library (eBL), corpus D/1/4 chapter SB 55; fetched from /api/texts/D/1/4/chapters/SB/55. Composite (reconstruction) line read off the chapter score.
+note: Composite text as reconstructed in eBL. Logograms uppercase, syllabic lowercase, {} determinatives, [] restoration, x illegible. '#tr.en:' lines are the eBL English translation; '//' and '#note:' are eBL parallels/notes; '# var:' is a second eBL variant of the line.
+---
+
+@text
+
+1. DIŠ {mul}ŠUDUN ina E₃-šu₂ ša₂-qu-um-ma it-tan-mar BURU₁₄ KUR SI.SA₂
+   #tr.en: If the Yoke is high and constantly visible when it comes out, the harvest of the land will prosper.
+2. DIŠ {mul}ŠUDUN ina E₃-šu₂ šup-pu-ul-ma it-tan-mar lum-[nu? ...]
+   #note: See @bib{Hunger2019@109}
+   # // (MUL.APIN II iv 2)
+   # var: DIŠ {mul}ŠUDUN ina E₃-šu₂ šup-pu-ul-ma da-ʾ-im [KUR] ar₂-bu-tu₂ il-la-ka
+   #tr.en: If the Yoke is low and constantly visible (var.: and dim) when it comes out, mis[fortune? ...] (var.: [the land] will go to ruin).
+3. DIŠ {mul}ŠUDUN ina E₃-šu₂ it-ta-na-an-pah A.ZI.GA har-pu
+   #note: See @bib{Hunger2019@108}
+   # // (MUL.APIN II Gap B 8)
+   #tr.en: If the Yoke constantly glows when it comes out, (there will be) early flood.
+4. DIŠ {mul}ŠUDUN ina E₃-šu₂ GIM IZI it-ta-na-an-pah BURU₁₄ SI.SA₂
+   #note: See @bib{Hunger2019@108-109}
+   # // (MUL.APIN II iv 1)
+   #tr.en: If the Yoke constantly glows like fire when it comes out, the harvest will prosper.
+5. DIŠ {mul}ŠUDUN ina E₃-šu₂ da-ʾ-im ILLU up-pu-lu E₃
+   #note: See @bib{Hunger2019@108}
+   # // (MUL.APIN II Gap B 7)
+   #tr.en: If the Yoke is dim when it comes out, a late flood will come.
+6. DIŠ {mul}ŠUDUN ina E₃-šu₂ GE₆ [...]
+   #tr.en: If the Yoke is black when it comes out [...].
+7. DIŠ {mul}ŠUDUN ina E₃-šu₂ ana {d}UTU.E₃ IGI-šu₂ GAR-nu {im}MAR.TU ZI-ma ana {im}U₁₈.LU is-hur ina {iti}KIN UD.10.KAM šal-pu₂-ti KUR GAR-an
+   #note: See @bib{Hunger2019@109}
+   # // (MUL.APIN II iv 3-4)
+   #tr.en: If the Yoke faces the east when it comes out, the west wind blows and turns towards the south, in Month VI, the tenth day, a destruction of the land will take place.
+8. DIŠ {mul}ŠUDUN ina E₃-šu₂ ana {d}UTU.ŠU₂.A IGI-šu₂ GAR-nu IGI AN-e IGI.BAR-ma IM mim-ma la i-zi-qa SU.GU₇ GAR-an BALA NAM.GILIM.MA BA₃-ut i-bi₂-{d}30 LAL-su ana an-ša₂-an{ki} DU-ku i-[...]
+   #note: The parallel omen in MUL.APIN includes various variants and introduces a second possibility in the apodosis: @akk{DIŠ {mul}ŠUDUN ina E₃-šu₂ ana {d}UTU.TU.TU IGI-šu₂ GAR-nu IGI AN-e IGI.BAR-ma IM mim-ma la i-zi-iq SU.GU₇ GAR-an BALA NAM.GILIM.MA ša₂ i-bi₂-{d}30 LUGAL ŠEŠ.UNUG{ki} ša₂ ka-mu-us-su a-na an-ša-an{ki} DU-ku ERIN₂-šu₂ EGIR-šu₂ i-bak-ku-u₂ KIMIN i-ma-aq-qu-tu}. For further details, see @bib{Hunger2019@109-110}
+   # // (MUL.APIN II iv 5-7)
+   #tr.en: If the Yoke faces the west when it comes out, and it looks at the front of the sky, and no wind blows, there will be famine; reign of catastrophe. Omen of Ibbi-Sîn, who goes in fetters to Anšan, [...].
+9. DIŠ {mul}ŠUDUN ina E₃-šu₂ LU₂ IGI-šu₂ LU₂ BI i-hi-ri [...]
+   #tr.en: If when the Yoke (var.: the Crown) comes out a man (is) in front of it (and) chooses (that) man [...].
+10. DIŠ {mul}ŠUDUN ina E₃-šu₂ ana A₂-šu₂ ki-lal-la-an MUL-MEŠ TE-MEŠ-ma GUB-MEŠ [...]
+   #tr.en: If when the Yoke (var.: the Crown) comes out the stars approach both its side(s) and stand [...].
+11. DIŠ ina IGI {mul}ŠUDUN {mul}GE₆ IGI GI.NA [... GA]L₂?
+   #tr.en: If the Black One is visible in front of the Yoke and it is steady, [there will b]e? [...].
+12. DIŠ {mul}ŠUDUN ina ŠA₃ {d}30 GUB LUGAL GAL UŠ₂-ma DUM[U? ... GA]L₂?
+   #tr.en: If the Yoke stands inside the moon, the great king will die, the so[n? ... there will b]e?.
+13. DIŠ {mul}ŠUDUN ina KI.GUB {d}UTU.ŠU₂ GUB-iz TAG? [...]-ma?
+   #tr.en: If the Yoke stands in the position of the sunset, touches? [...].
+14. DIŠ {mul}ŠUDUN ma-diš SA₅ HE₂.GAL₂ ina [KUR GA]L₂
+   #tr.en: If the Yoke is very red, [there will b]e abundance in [the land].
+15. DIŠ {mul}ŠUDUN ma-diš SIG₇ SU.GU₇ ina KUR GAL₂-ši
+   #tr.en: If the Yoke is very yellow/green, there will be famine in the land.
+16. DIŠ {mul}ŠUDUN ma-diš GE₆ AN.GE₆ KUR.KUR
+   #tr.en: If the Yoke is very black, (there will be) an eclipse (in) all the lands.
+17. DIŠ {mul}Š[UDUN ...] e AN?.[GE₆? ... GA]R-an
+   #tr.en: If the Y[oke ...] ... an ec[lipse? ... will occu]r.
+18. DIŠ {mul}ŠU[DUN] {im}KUR.RA a-dir x [...] an ti un-nu-ta-at NU.ME.A BAD KUR? [e-mut]-ba-lu₄
+   #note: The meaning of NU.ME.A, balu, "without", is unclear in this context. The logogram ME.A alone means qību, "prediction". NU.ME.A may represent "prediction" as a phonetic wordplay, drawing on the connection between NU.ME.A as "without" and ME.A as "prediction", along with the reconstructed e-mut-ba-lu (which contains the syllables ba-lu). The land of Emutbal is mentioned in the apodosis of an omen frequently cited in reports: "If a star darkens in the region of Pabilsag, prediction (EŠ.BAR) for Emutbal and Babylon" (K.750 obv. 8). The apodosis of this omen is somewhat analogous to that in EAE 55 § 18, and the presence of EŠ.BAR, "prediction", instead of NU.ME.A suggests a possible reading of NU.ME.A as "prediction".
+   # // F BM.30336 r 6
+   #tr.en: If the Yo[ke] darkens (in) the west ... [...] ... she is faint?, prediction of the lord of the land? of [Emut]bal.
+19. DIŠ {mul}ŠU.PA a-dir LUGAL URI{ki} ZI-ma KUR ELAM.MA{k[i} ina {ĝeš}TUKUL] SIG₃-aṣ
+   #tr.en: If the Bright One darkens, the king of Akkad will rise and will hit the land (var.: the army) of Elam [with weapon(s)].
+20. DIŠ {mul}ŠU.PA meš-ha im-šuh ina KUR DU₃.A.BI [...]
+   #tr.en: If the Bright One produces a flare, in all the lands [...].
+21. DIŠ {mul}ELLAG MUL BI ma-diš SA₅ {d}e₂-a IDIM-MEŠ-šu₂ {d}IŠKUR ŠEG₃-M[EŠ-šu₂ ...]
+   #tr.en: If the Kidney, (its star) is very red, Ea his underground water, Adad [his] rain[s ...].
+22. DIŠ {mul}ELLAG ma-diš SIG₇ AN.GE₆ [...]
+   #tr.en: If the Kidney is very yellow/green, an eclipse [...].
+23. DIŠ {mul}ELLAG ma-diš GE₆ SU.GU₇ ŠE u I[N.NU]
+   #tr.en: If the Kidney is very black, (there will be) famine of barley and s[traw.]
+24. DIŠ {mul}ELLAG GIŠ.HUR SIG₇ NIGIN AN.GE₆ LUGAL [x x]
+   #tr.en: If the Kidney is surrounded by a yellow/green drawing, an eclipse (will occur); the king [...].
+25. DIŠ {mul}ELLAG ana {mul}UDU.IDIM TE ŠE.GIŠ.I₃ SI.[SA₂]
+   #tr.en: If the Kidney comes close to a planet, the sesame will pro[sper].
+26. DIŠ {mul}ELLAG ana MUL.MUL TE {d}IŠKUR RA-[iṣ]
+   #tr.en: If the Kidney comes close to the Pleiades, Adad will devasta[te].
+27. DIŠ {mul}ELLAG ana {mul}UGA{mušen} i-mid ŠE.GIŠ.I₃ SIG₅-i[q]
+   #note: See @bib{Renzi-Sepe2023Pleiades@217}
+   # // (SIT 6 26)
+   #tr.en: If the Kidney comes in contact with the Raven, the sesame will be goo[d] (var.: ditto, i.e., will prosper).
+28. DIŠ {mul}ŠUDUN A.AB.BA a-dir {d}e₂-a a-dir {d}+en-lil₂ ana KUR ana HUL u₂-šar ZI-ut ERIN-man-da KUR NU HUL uš-tal₂-pat
+   #tr.en: If the Yoke of the sea darkens, Ea darkens; Enlil will descend to the land with evil intent; (there will be) an attack of the enemy horde; the land will not be destroyed (by) evil fate.
+29. DIŠ {mul}e-a a-dir GAN₂.ZI NU SI.SA₂ MU.3.KAM ŠEŠ ŠEŠ-šu₂ GU₇
+   #tr.en: If (the) Ea(-star) darkens, the cultivated land will not prosper; the third year a brother will eat his brother.
+30. DIŠ {mul}eridu{ki} meš-hu im-šuh BURU₁₄ GAN₂.ZI KUR SI.SA₂
+   #tr.en: If Eridu produces a flare, the harvest of the cultivated land will prosper.
+31. DIŠ {mul}EN.TE.NA.BAR.HUM ina E₃-šu₂ mu-lu-uh ina SAG {iti}ŠU IGI NIG₂.SI.SA₂ KIMIN BURU₁₄ SI.SA₂ KI.LAM GI.NA
+   #tr.en: If the Mouse flickers when it comes out it (and) it is visible at the beginning of Month IV, (there will be) justice; alternatively: the harvest (of the land) will prosper; the market rate will be stable.
+32. DIŠ {mul}EN.TE.NA.BAR.HUM ina E₃-šu₂ a-pi₂-il ina SAG {iti}NE IGI BURU₁₄ NU SI.SA₂ KI.LAM TUR
+   #tr.en: If the Mouse when it comes out is late (and) it is visible at the beginning of Month V, the harvest will not prosper; the market rate will decrease.
+33. DIŠ {mul}EN.TE.NA.BAR.HUM SAG-šu₂ AN-e i-na-ṭa-la ina MU BI A.ZI.GA ina KUR? GAL₂?-MEŠ
+   #tr.en: If the Mouse, its head(s) looks at the sky, in that year there will be? a flood in the land? (var.: ... will reach).
+34. DIŠ {mul}EN.TE.NA.BAR.HUM ana ABZU šu-ur₂ ina MU BI ILLU ana KUR.KUR ŠUB
+   # var: DIŠ {mul}EN.TE.NA.BAR.HUM ana ABZU šu-ur KI.BAL dan-na-tu₂ ina KUR GAL₂ EN.NUN la BAL ina MU BI A.ZI.GA KUR.KUR ŠUB
+   #tr.en: If the Mouse goes down to the Apsû, in that year a flood will fall on the lands (var.: there will be a strong revolt; the observation will not change).
+35. DIŠ {mul}EN.TE.NA.BAR.HUM ma-diš SA₅ GAN₂.ZI SI.SA₂
+   #tr.en: If the Mouse is very red, the cultivated land will prosper.
+36. DIŠ {mul}EN.TE.NA.BAR.HUM MUL-MEŠ-šu₂ hi-i-pu 1-niš it-ta-na-ba-ṭu₂ ne-eh-tu₄ ina KUR GAL₂-ši
+   #tr.en: If the Mouse, its stars are clean, (together) they shine brightly (var.: they keep being visible), there will be peace in the land.
+37. DIŠ {mul}EN.TE.NA.BAR.HUM MUL-ME-šu₂ da-ʾ-mu IGI-šu₂-nu ana {d}UTU.ŠU₂.A GAR-nu {lu₂}SA.GAZ-ME GAL₂-ME
+   #tr.en: If the stars of the Mouse are dim (and) they look west, there will be foreigners.
+38. DIŠ {mul}EN.TE.NA.BAR.HUM MUL-BI GE₆ ŠA₃.GAR : MAŠ₂.ANŠE I₃.GAL₂
+   #tr.en: If the Mouse, its star is black, there will be famine (var.) – herd.
+39. DIŠ {mul}EN.TE.NA.BAR.HUM ana 15 {mul}ni-ri TE AN.GE₆ GAR
+   #tr.en: If the Mouse comes close to the right of the Yoke, an eclipse will occur.
+40. DIŠ {mul}EN.TE.NA.BAR.HUM ina SI 15 {d}30 GUB-iz ina MU BI BURU₁₄ ša₂ KUR NU SI.SA₂
+   #tr.en: If the Mouse stands in the right horn of the moon, in that year the harvest of the land will not prosper.
+41. DIŠ {mul}EN.TE.NA.BAR.HUM ina SI 150 {d}30 GUB-iz ina MU BI BURU₁₄ ša₂ KUR SI.SA₂
+   #tr.en: If the Mouse stands in the left horn of the moon, in that year the harvest of the land will prosper (var.: will be favourable).
+42. DIŠ {mul}EN.TE.NA.BAR.HUM ina MAŠ.SILA₃ {d}30 GUB-iz ina MU BI {d}IŠKUR RA-iṣ
+   #tr.en: If the Mouse stands in the scapula of the moon, in that year Adad will devastate.
+43. DIŠ {mul}EN.TE.NA.BAR.HUM {mul}MAN-ma KUR : A₂-hi-šu KUR NIG₂.GIG-šu₂ GU₇
+   #tr.en: If the Mouse reaches the Strange One – (var.) reaches its side, he/she will infringe his/her taboo.
+44. DIŠ {mul}EN.TE.NA.BAR.HUM KI.GUB-su KUR₂.KUR₂ LU₃ KIMIN ŠU.SI LU₃ ina KUR GAL₂
+   #tr.en: If the Mouse keeps changing its position, there will be confusion; alternatively: confused intentions in the land.
+45. DIŠ {mul}EN.TE.NA.BAR.HUM a-dir {d}IŠKUR MU.3.KAM ITI.3.KAM UD.10.KAM MAŠ₂.ANŠE GU₇ ana NAM.LU₂.U₁₈.LU NU TE-[ma?]
+   #tr.en: If the Mouse darkens, Adad on the third year, the third month, the tenth day will eat the herd (but) he will not come close to the people.
+46. DIŠ {mul}EN.TE.NA.BAR.HUM meš-ha im-šuh {d}IŠKUR ŠUR-ma BURU₁₄ SI.SA₂ UŠ₂-MEŠ GAL₂-MEŠ
+   #tr.en: If the Mouse produces a flare, Adad will make rain, the harvest will prosper; there will be deaths.
+47. DIŠ [{m]ul}GIR₂.TAB ŠA₃ {d}30 GUB LUGAL KUR DU₃.A.BI UŠ₂-MEŠ
+   #tr.en: If the Scorpion stands into the moon, the king of all the lands will die.
+48. DIŠ {mul}GIR₂.TAB ina MAŠ.SILA₃ {d}30 GUB A.RA₂ ina K[UR T]EŠ.BI :. x [...]
+   #tr.en: If the Scorpion stands in the scapula of the moon, the road/protective spirit in land [ev]erywhere – (var.) ... [...].
+49. DIŠ {mul}GIR₂.TAB ina SI 15 {d}30 GUB [...]
+   #tr.en: If the Scorpion stands in the right horn of the moon [...].
+50. DIŠ {mul}GIR₂.TAB ina SI 150 {d}30 GUB [...]
+   #tr.en: If the Scorpion stands in the left horn of the moon [...].
+51. DIŠ {mul}GIR₂.TAB ina IGI {d}30 TE-ma GUB BALA-e LUGAL GID₂.DA-MEŠ {lu₂}KUR₂ ZI-ma ŠUB-ta-šu₂ GAR-an
+   #tr.en: If the Scorpion (comes close) to the front of the moon (and) stands, they will extend the reign of the king; an enemy will attack, but his downfall will take place.
+52. DIŠ {mul}GIR₂.TAB ina EGIR {d}30 GUB [...]
+   #tr.en: If the Scorpion stands at the back of the moon [...]
+53. DIŠ zi-qit {mul}GIR₂.TAB ina ŠA₃ 30 GUB [...]
+   #tr.en: If the sting of the Scorpion stands into the moon [...]
+54. [DIŠ] {mul}GIR₂.TAB UD SI-BI IGI.DU₈ Š[EG₃ ... ŠE]G₃ ŠUR-n[un]
+   #tr.en: If when the pincer of the Scorpion is visible, r[ain ... rai]n will fal[l].
+55. DIŠ {mul}GIR₂.TAB GE₆ ina ŠA₃-šu₂ [...] x BURU₁₄? ŠUB?
+   # var: DIŠ {mul}GIR₂.TAB GE₆ ina ŠA₃-šu₂ taš-mu-u SILIM-mu ina KUR GAL₂-ši
+   #tr.en: If the Scorpion is black in its middle [...] ... the harvest? will fall? (var.: there will be reconciliation and peace in the land).
+56. [DIŠ {mul}GIR₂.TA]B pa-nu-šu š[a? ...] ŠEG₃ SUR-n[un]
+   #tr.en: [If the Scorpio]n, its front ... [...] rain will fa[ll].
+57. [DIŠ {mul}GIR₂.TAB] pa-nu-šu [...] x x [...] ŠEG₃-MEŠ
+   #tr.en: [If the Scorpion,] its front [...] ... [...] rain.
+58. [DIŠ {mul}GIR₂.TAB p]a-nu-š[u ...] x GIŠ BURU₁₄? NU? SI?.SA₂
+   #tr.en: [If the Scorpion,] its [f]ront [...] ... the harvest? will not? prosper?.
+59. [DIŠ ...] ERIN₂-MEŠ i-lam-mi-na
+   #tr.en: [If ...] the armies will fall into misery.
+60. [DIŠ ...] KAL? ina MU BI ina SAG MU ŠEG₃ ŠUR
+   #tr.en: [...] ... in that year it will rain at the beginning of the year.
+61. DIŠ {mul}GIR₂.TAB BABBAR-ma ana ŠA₃ TUR₃ 30 SI-MEŠ-šu₂ ih-lu-pa-nim-ma teš-mu-u₂ ina KUR GAL₂
+   #tr.en: If the Scorpion is white, and into the halo of the moon it slips into its horns, there will be compliance in the land.
+62. %sux [DIŠ {mul}GIR₂.TAB u₄ si-bi igi-du₈-a-t]a šeg₃ al-šeg₃-ga₂ mu-e-ne sag-bi-ta a-šub sag-mu-ta šeg₃ nu-šeg₃
+   # // (Zweisprachiges Omenkompendium § 8)
+   #tr.en: If on the day when the pincers of the Scorpion becomes visible it rains, and at the beginning of that year (rain) falls, it will not rain after its beginning.
+63. %sux [DIŠ {mul}GIR₂.TAB u₄ si-bi] i[gi-du₈-a-ta] šeg₃ al-šeg₃-ga₂ mu-e-ne sag-bi-ta a-šub-ba sag-mu-ta šeg₃ šeg₃
+   # // (Zweisprachiges Omenkompendium § 9)
+   #tr.en: [If on the day when the pincers of the Scorpion became visible it rains and at the beginning of that year (rains) falls, it will rain after its beginning.
+64. %sux [DIŠ {mul}GIR₂.TAB u₄ si-bi] igi-du₈-a-ta šeg₃ al-šeg₃-šeg₃
+   #note: This line is probably incomplete.
+   #tr.en: If on the day when the pincers of the Scorpion became visible it rains, it will rain.
+65. DIŠ {mul}GIR₂.TAB a-dir LUGAL-MEŠ ša₂ KUR DU₃.A.BI {munus}KUR₂ GAR-MEŠ KIMIN LUGAL-MEŠ ša₂ KUR DU₃.A.BI iš-tan-na-an-na?
+   #tr.en: If the Scorpion darkens, the kings of all the lands will engage in hostilities; alternatively: the kings of all the lands will rival with each other?.
+66. [DIŠ {mul}GIR₂.TAB meš-h]a im-šuh UŠ₂-MEŠ GAL₂-MEŠ MAN KUR BI UŠ₂ KIMIN KUR is-si-iq-tu₂ LUGAL is-se-eq
+   #tr.en: [If the Scorpion] produces [a flar]e, there will be deaths; the king of that land will die; the king will apportion the assigned land.
+67. [DIŠ ...] {mul}GIR₂.TAB GUB ŠEG₃-ME ina AN-e ILLU-ME ina IDIM KU₅-MEŠ {munus}KALAG.GA GAR-ma GIŠGAL-ME SUH-ME-ma ta-ri-tu₄ SI[LA? TUR-ša₂ ŠUB-di]
+   #tr.en: [If ...] ... the Scorpion stands, rains in the sky (and) floods in the underground water will cease; there will be hardship; the abodes will become confused; the nurse [will leave her son] (in) the str[eet?].
+68. DIŠ {mul}[zi-ba-ni-t]u₄ {mul}{d}UTU ša₂ ki-na-a-ti ša₂ <AN?>-e u₂ KUR ana NAM.UŠ₂ e-ma ITI-MEŠ 20.UD.KAM@v [...]
+   #tr.en: [The Scale]s, the star of Šamaš of the justice of heaven? and earth, (is) for death, (every) month, the twentieth day.
+69. DIŠ {mul}zi-ba-ni-tu₄ ma-diš SA₅ taš-mu-u₂ x [x]-šu₂ SILIM?-mu x [(x)]
+   #tr.en: If the Scales is very red, reconciliation ... [...] ... peace? ... [...].
+70. DIŠ {mul}zi-ba-ni-tu₄ KI.GUB-za GI.NA DINGIR-MEŠ ana {munus}SIG₅ [...] u₂-sar-m[a?]
+   # var: DIŠ {mul}zi-ba-ni-tu₄ KI.[GUB.BA-za GI.NA] taš-mu-u₂ sa-li-[mu ina KUR GAL₂-ši]
+   #tr.en: If the Scales, (its) position is stable, the gods for good [...] and? will circle (var.: [there will be]reconciliation and pea[ce in the land]).
+71. DIŠ {mul}zi-ba-ni-tu₄ KI.GUB-za NU GI.NA GALGA? [...] x ga ki iq-q[ir]
+   #tr.en: If the Scales, (its) position is (not) stable, the counsel? [...] ... will be sc[arce.]
+72. [DIŠ ...] x x RI x x x x x x x x [... A]B.SIN₂ GU₂.UN-sa₃ [LA₂ (x)]
+   #note: Restored after AO.6450 obv. 38.
+   #tr.en: [If ...] ... the yield of the [fu]rrow [will diminish].
+73. [DIŠ] {mul}SIPA.ZI.AN.NA ana MUL.MUL TE x [...]
+   #tr.en: [If] the True Shepherd of Anu comes close to the Pleiades ... [...].
+74. DIŠ {mul}zi-ba-ni-tu₄ ana AGA.AN.NA TE A.AB.BA [hi-ṣib]-ša₂ ZAH₂ A.MAH ib-bat-taq-ma BAD₃-MEŠ ŠU[B-MEŠ] : BAD is-si-ka ŠE.GUN₃.NU i-ha-šah ina IGI MU BURU₅-HI.A ZI-ma KUR GU₇
+   #tr.en: If the Scales comes close to the Crown of the sky (or: Anu), [the yie]ld of the sea will perish; flood(s) will cease; the city walls will f[all] (– var.) the ruler will be removed; the crop will be needed; in spring the locusts will attack and eat the land.
+75. DIŠ {mul}zi-ba-ni-tu₄ a-dir ina KUR DU₃.[A.BI] zi-ba-ni-tu₄ la kit-ti DAB-ma KI.LAM MAN-ma ŠAM₂ ina A KUR x [...] du
+   #tr.en: If the Scales darkens, in a[ll] the lands the unjust scales will take hold, the market rate will change (var.: be low), the price in ... [...] ...
+76. [DIŠ] {mul}zi-ba-ni-tu₄ a-dir MU.3.KAM BURU₅-HI.A ZI-ma BURU₁₄? KUR GU₇ x ŠEG₃ x kur x [...] KI.LAM 2 GIN₂.TA.AM₃ 1/2 GIN₂.TA.AM₃ GAR-an ZAH₂ KI.LAM [BURU₁₄] im-ṭi-i KUR GU₇ KIMIN MU.3.KAM is-si-ka
+   # var: [DIŠ] {mul}zi-ba-ni-tu₄ a-dir MU.3.KAM₂ BURU₅-HI.A ZI-ma BURU₁₄ KUR GU₇ KIMIN BURU₅-HI.A KUR GU₇ [x] BURU₁₄ im-ṭi-i KUR GU₇ MU.3.KAM₂ is-si-ka
+   #tr.en: [If] the Scales darkens, (the third year) locusts will (attack and) eat the (harvest of?) the land; ... rain ... [...]; (var.: alternatively: the locusts will eat the land); the market rate will set (from) 2 šiqlu to ½ šiqlu; the land will eat a reduced [harvest]; alternatively: the third year will be removed.
+77. DIŠ {mul}ZI.BA.AN.NA meš-ha im-šuh su [...]
+   #tr.en: If the Scales produces a flare [...].
+78. DIŠ {mul}ZI.BA.AN.NA ŠUR-ma {d}UTU SI G[E₆ ...]
+   #tr.en: If the Scales flashes and the horn of the sun is blac[k ...].
+79. DIŠ {mul}UZ₃ {mul}AŠ.GAN₂ KUR-ma LU₂ i-qal? ši?-ʾ? [...]
+   #tr.en: If the She-goat reaches the Field (var.: [...]... it is visible), a man (or: sc[out ...]) will heed ... [...].
+80. DIŠ {mul}UZ₃ ina ŠA₃ {mul}AŠ.GAN₂ GUB-ma IGI [...-M]EŠ
+   #tr.en: If the She-goat stands into the Field and it is visible [...].
+81. DIŠ {mul}UZ₃ {mul}AŠ.GAN₂ KUR-ma GUB ina MU BI AZAG₂ GAL₂
+   #note: see @bib{Renzi-Sepe2023Pleiades@213}
+   # // (SIT 6 18)
+   #tr.en: If the She-goat reaches the Field and stands, in that year there will be an evil demon.
+82. DIŠ {mul}UZ₃ {mul}UR.BAR.RA KUR-ud ina MU BI ŠUB-ti₃ bu-li₃
+   #note: see @bib{Renzi-Sepe2023Pleiades@214}
+   # // (SIT 6 19)
+   #tr.en: If the She-goat reaches the Wolf, in that year (there will be) epidemic among the herd.
+83. DIŠ {mul}UZ₃ {mul}GAN₂.UR₃ KUR-ud ina MU BI ŠUB-ti₃ AB₂.GU₄-HI.A u U₈.UDU-HI.A
+   #note: see @bib{Renzi-Sepe2023Pleiades@214}
+   # // (SIT 6 20)
+   #tr.en: If the She-Goat reaches the Harrow, in that year (there will be) an epidemic among the herd and the flock.
+84. DIŠ {mul}UZ₃ {mul}GAN₂.UR₃ A₂ {im}1 KUR-ud ina MU BI AB₂.GU₄-HI.A u U₈.UDU-HI.A ŠUB-MEŠ
+   #tr.en: If the She-Goat reaches the south side of the Harrow, in that year the herd and the flock will fall.
+85. DIŠ {mul}UZ₃ {mul}eridu{ki} KUR-ma GUB [...]
+   #tr.en: If the She-goat reaches the Eridu star and stands [...].
+86. DIŠ {mul}UZ₃ KASKAL {d}UTU KUR SU.GU₇ bu-li₃ U₂.GUG GAL₂-ši
+   #note: see @bib{Renzi-Sepe2023Pleiades@214}
+   # // (SIT 6 21)
+   #tr.en: If the She-goat reaches (var. a star of) the path of the sun, there will be famine of the herd (and) starvation.
+87. DIŠ {mul}UZ₃ ina ŠA₃ {d}30 GUB [...]
+   #tr.en: If the She-goat stands into the moon [...].
+88. DIŠ {mul}UZ₃ ina SI 15 {d}30 GUB [...]
+   #tr.en: If the She-goat stands in the right horn of the moon [...].
+89. DIŠ {mul}UZ₃ ina SI 150 {d}30 GUB [...]
+   #tr.en: If the She-goat stands in the left horn of the moon [...].
+90. DIŠ {mul}UZ₃ ana {mul}AŠ.GAN₂ TE [...]
+   #tr.en: If the She-goat comes close to the Field [...].
+91. DIŠ {mul}UZ₃ ana {mul}UR.BAR.RA i-mid ina MU BI MAŠ₂.ANŠE KUR ZAH₂
+   #tr.en: If the She-goat comes in contact with the Wolf, in that year the herd of the land will perish.
+92. DIŠ {mul}UZ₃ A₂ {im}U₁₈.LU [...]
+   #tr.en: If the She-goat, the south side [...].
+93. DIŠ {mul}UZ₃ IGI-šu₂ ma-diš S[A₅ ...]
+   #tr.en: If the front of the She-goat is very r[ed ...].
+94. DIŠ {mul}UZ₃ a-dir [...]
+   #tr.en: If the She-goat darkens [...].
+95. DIŠ {mul}UZ₃ meš-ha im-šuh DINGIR-MEŠ ana KUR BUR₂-[MEŠ] ana KUR ARHUŠ [TUK-MEŠ]
+   #tr.en: If the She-goat produces a flare, the gods will forgive the land, [they will have] mercy on the land.
+96. DIŠ {mul}MAR.GID₂.DA [...]
+   #note: As a working hypothesis, we assume that NinNB₁ r 27' and NinNB₃ r 1' represent the same line. Since the bottom edge of NinNB₁ is partially preserved, the spatial constraints allow for no more than one or two lines, assuming that the colophon consisted of three or four lines. Therefore, we consider the number of 15 omens for the final section of @akk{{mul}MAR.GID₂.DA} to be plausible.
+   #tr.en: If the Wagon [...].
+97. DIŠ {mul}MAR.GID₂.DA A₂ {im}U₁₈.[LU ...]
+   #tr.en: If the Wagon, the sou[th side ...].
+98. DIŠ {mul}MAR.GID₂.DA ina ŠA₃ {d}30 GUB ina [...]
+   #tr.en: If the Wagon stands into the moon, in [...].
+99. DIŠ {mul}MAR.GID₂.DA ina MAŠ.SILA₃ {d}30 GUB ina KUR [...]
+   #tr.en: If the Wagon stands in the scapula of the moon, in the lan[d ...]. (var.: di[tto].)
+100. DIŠ {mul}MAR.GID₂.DA ina SI 15 {d}30 GUB ina KUR MAR.TU[{ki} ...]
+   #tr.en: If the Wagon stands in the right horn of the moon, in Amurru [...].
+101. DIŠ {mul}MAR.GID₂.DA ina SI 150 {d}30 GUB ina KUR URI{ki} [x x]
+   #tr.en: If the Wagon stands in the left horn of the moon, in Akkad [...].
+102. DIŠ {mul}MAR.GID₂.DA A₂ {im}U₁₈ {mul}GE₆ in[a n]a-ma-ri ina EN.NU.UN x [x]
+   #note: see @bib{Renzi-Sepe2023Pleiades@215-216}
+   # // (SIT 6 23)
+   #tr.en: If the Wagon (is at) the south side of the Black One a[t d]awn, in the watch ...[...]
+103. [DIŠ {mu]l}MAR.GID₂.DA A₂ {im}MER {mul}GE₆ ina na-ma-ri AN.GE₆ [GAR-an]
+   #tr.en: [If] the Wagon (is at) the north side of the Black One at dawn, an eclipse [will occur.]
+104. [DIŠ {mu]l}MAR.GID₂.DA A₂ {im}KUR.RA {mul}GE₆ i-na na-ma-ri i-na TUR ud [x x x]
+   #tr.en: [If] the Wagon (is at) the east side of the Black One at dawn, for the small [...]
+105. [DIŠ {mu]l}MAR.GID₂.DA A₂ {im}MAR.TU {mul}GE₆ ina na-ma-ri A.MA.RU [...]
+   #tr.en: [If] the Wagon (is at) the west side of the Black One a[t da]wn, the flood [...]
+106. [DIŠ {mu]l}MAR.GID₂.DA ana {mul}ŠUDUN pa-ni-ša₂ us-sah-[hi-ir] ŠE ina AB.SI[N₂] ir-ru-ur
+   #tr.en: If the Wagon turns a[way] towards the Yoke, the barley will rot in the furro[w.]
+107. [DIŠ {mul}]MAR.GID₂.DA ib-riq-ma GUB ZI-ut ERIM-man-da [ina K]UR ELAM.MA<{ki}> MU.1?.[KAM]
+   #tr.en: [If] the Wagon flashes and stands, (there will be) the attack of the enemy ho[rde in] Elam the first? year.
+108. [DIŠ {mu]l}MAR.GID₂.DA a-dir ERIN₂-man-da ZI-ma MU.4/5/6.KAM KUR ELAM.[MA{ki}...] ina KUR {munus}[KUR₂? ...]
+   #tr.en: [If] the Wagon darkens, the enemy horde will attack; the 4th/5th/6th year the land of Elam [...]; in the country [(there will be) hostilities? ...]
+109. [DIŠ {mu]l}MAR.GID₂.DA meš-ha im-šuh ina KUR SU.BIR₄{ki} u KUR M[AR?.TU{ki}...]
+   #tr.en: [If] the Wagon produces a flare, in Subartu and A[murru? ...]
+110. [DIŠ M]UL tak-tak-ku ša {mul}MAR.GID₂.DA iṣ-ru-uh {d}+en-lil₂ KUR₂ ZI x x [...]
+   #tr.en: [If the s]tar of the taktaku of the Wagon scorches, Enlil will extirpate the enemies ... [...]

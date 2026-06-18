@@ -1,0 +1,30 @@
+---
+genre: astrological omens
+period: Middle Babylonian
+provenance: unknown
+counting: DIŠ
+topic: lunar eclipse
+---
+
+@obverse
+1. DIŠ ina {iti}SIG₄ AN.MI EN.NU.UN.AN.TA GAR [...]
+2. DIŠ AN.MI MURUB₄ GAR a-na LUGAL til-[la-tu ...]
+3. DIŠ AN.MI ZAL.LE GAR ZAG.GAR.RA KUR
+4. DIŠ UD.1.KAM AN.MI GAR ni-ṣir-ti K[UR₂? ...]
+5. DIŠ UD.13.KAM AN.MI GAR ina E₂.[GAL ...]
+6. DIŠ UD.14.KAM AN.MI GAR LUGAL ga-[me-ru ...]
+7. ($___$) DUMU-šu₂ {giš}GU.ZA DAB-ma#! x [...]
+8. DIŠ AN.MI GAR-ma SA₅.BI pe-[li ...]
+$ single ruling
+9. [DIŠ] {d#}30 TAB-ma EN.NU.U[N.AN.TA ...]
+10. ($___$) AN.MI ŠAR₃ URI{ki}
+
+@reverse
+11. [DIŠ] {d#}30 AN.MI GAR-ma u {im}U₁₈.LU [...]
+12. [DI]Š MIN u {im}SI.SA₂ D[U ...]
+13. DIŠ MIN u {im}KUR.RA [...]
+14. DIŠ MIN u {im}MAR.DU₂ [...]
+15. DIŠ {d}30 AN.MI GAR-ma AN.MI.BI S[A₅ ...]
+16. DIŠ MIN AN.MI x x [...]
+17. DIŠ {d}30 ad-riš E₃ a-b[u-ub ...]
+18. DIŠ MIN-ma id-li-ip NIG₂.H[ALAM.MA ...]

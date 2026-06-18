@@ -1,0 +1,110 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Nineveh (Kuyunjik, Library of Assurbanipal)
+tradition: Assyrian
+counting: BE
+publication: K 3671 (CT 20); Koch-Westenholz 2000 BLO, Padanu Tablet 4; eBL
+note: "Canonical first-millennium padanu - the FOURTH tablet of the barutu series BE GIR2 (colophon DUB.4.KAM.MA ESZ2.GAR3 BE GIR2), Assurbanipal's Nineveh recension. The directly-comparable first-millennium Path cell, pulled from eBL clean ATF rather than hand-inverted from BLO's roman/italic score. Assurbanipal colophon (ll. 33-42) excluded from the omen LDI. eBL 15/150 normalised to ZAG/GUB3 per corpus convention."
+---
+
+@obverse
+1. [BE GIR₂ 2-ma ina bi-ri-šu₂-nu DI-hu nu-ur₂-r]u-bu# ŠUB-di BA₃-ut LUGAL-GI.NA
+2. ($___$) [ša₂ ERIN₂-šu₂ ra-a-du i]-si-ru {giš#}til-li-šu₂#-nu ana a-ha-meš uš-pe-lu
+3. BE GIR₂ 2-ma ina bi#-ri-šu₂-nu DI#-hu SIG₇ Š[UB-d]i ERIN₂-ka# {d}IŠKUR RA-iṣ
+4. BE GIR₂ 2-ma ina bi-ri-šu₂-nu [DI]-hu?# S[A₅ ŠUB-d]i ŠA₃.HUL ŠUB-ti IZI
+#note: for colour cf. Heeßel, Sieben Tafeln, 179:42
+5. BE GIR₂ 2-ma ina bi-ri-šu₂#-n[u DI-hu BABBAR ŠUB-d]i ILLU DU-kam₂
+#note: for colour cf. Heeßel, Sieben Tafeln, 179:41
+6. BE GIR₂ 2-ma ina bi-ri-[šu₂-nu DI-hu dan-nu] ŠUB-di ŠEG₃-nu ṭah-du ILLU mat-qu DU-ak
+#note: for reconstruction cf. also Heeßel, Sieben Tafeln, 179:43
+7. BE GIR₂ 2-ma ina bi-ri-[šu₂-nu šul-lu Š]UB-di DAM LU₂ NITA ul-lad
+#note: for @i{šullu} "(big) wart, pockmark" cf. K.6647 7'
+8. BE GIR₂ 2-ma ina bi-ri-[šu₂-nu BAR-tu₄] ŠUB-at₂ ERIN₂-ni KASKAL ŠA₃.MUD DU-ak
+9. BE GIR₂ 2-ma ina bi-ri-[šu₂-nu GIŠ.H]UR? eṣ-ret ERIN₂-ni KASKAL ŠA₃.MUD DU-ak
+10. BE GIR₂ 2-ma ina bi-ri-šu₂#-nu# BUR₃# ŠUB-di NUN ina E₂.GAL-šu₂ qu-bur-šu₂ BAD-ti
+11. BE GIR₂ 2-ma ina bi-ri-šu₂-nu {giš}TUKUL GAR-in {giš}TUKUL-MEŠ GIG-MEŠ IGI ABUL-MU TUŠ-MEŠ
+12. BE GIR₂ 2-ma ina bi-ri-šu₂-nu kar₂-šu-u₂ GAR-in ERIN₂-ni HA.LA GU₇
+13. BE GIR₂ 2-ma ina bi-ri-šu₂-nu kak-su-u₂ GAR-in {d}U+GUR GU₇ {d}IŠKUR RA-iṣ {d}+en-lil₂ ka-šu₂-šu₂
+14. ($___$) ka-liš GAR-an
+15. BE GIR₂ 2-ma ina bi-ri-šu₂-nu {giš}TUKUL GAR-ma AN.TA IGI# KUR₂ ZI-ma ERIN₂-ni i-dak
+16. BE GIR₂ 2-ma ina bi-ri-šu₂-nu {giš}TUKUL GAR-ma KI.TA IGI# ERIN₂-ni ZI-ma KUR₂ i-dak
+17. BE GIR₂ 2-ma ina bi-ri-šu₂-nu {giš}TUKUL GAR-ma ZAG IGI ZI-ut ERIN₂ KUR₂ ana KUR-MU
+18. BE GIR₂ 2-ma ina bi-ri-šu₂-nu {giš}TUKUL GAR-ma GUB₃ IGI ZI-ut ERIN₂-MU ana KUR KUR₂
+19. BE GIR₂ 2-ma GIM GIŠ.HUR eṣ-ru# ana KUR₂-ka la ta-ʾ-aš₂# mit-ha#-aṣ# ILLAT-ka KUR-am-ma TAG₄-ka
+20. BE GIR₂ 2-ma GIM PAP it-gu-ru KUR₂ ina ri-ʾi-ti ana KUR MAŠ₂.ANŠE i-hab-bat
+21. BE GIR₂ 2-ma# GIM BAR-tu₄ it-gu-ru GAL-{giš}GAG!(NI) en-šu₂ i-bar
+22. BE GIR₂ 2-ma GIM MUŠ it-gu-ru ana LUGAL HI.GAR ana MAŠ.EN.GAG la mit-gur-tu₄
+23. BE GIR₂ 2-ma AN.TA-u₂ GIM {giš}BAN KI.TA-u₂ GIM mat-ni ERIN₂-ni HA.LA GU₇
+24. BE GIR₂ 2-ma KI.TA-u₂ GIM {giš}BAN KI.TA-u₂ GIM# mat-ni ERIN₂ KUR₂ HA.LA GU₇
+25. BE GIR₂ 2-ma AN.TA-u₂ GIM gam-li₃ KI.TA-u₂ GI[M GU]G₂ URU KUR₂ NIGIN-ma DAB-bat ana ŠA₃ URU KU₄-ma
+26. ($___$) [ERIN₂-ni] HA.LA GU₇
+27. BE GIR₂ 2-ma [KI].TA#-u₂# [GIM gam-li₃ AN.TA-u₂ GIM GUG₂ URU-MU NIG]IN-ma DAB-bat ana ŠA₃ URU KU₄-ma
+28. ($___$) [ERIN₂ KUR₂ HA.L]A? GU₇
+29. BE GIR₂ 2-ma u₄-mi-šam-ma ina SI[SKUR₂ LUGAL ŠUB-MEŠ U₄-MEŠ N]UN TIL-MEŠ
+30. BE GIR₂ 2-ma ina# {uzu}I₃.UDU!(KU) šu-ur-ru#-u₂# [KUR NUN DAGAL-iš KI.TUŠ ne]-eh-tu TUŠ-ab
+31. BE GIR₂ 2-ma ina# [K]I ZAG sa-am-hu K[UR₂-ka SILIM-m]a? KIN-ka
+32. BE GIR₂ 2-ma ina# [K]I GUB₃ sa-am-hu ana KUR₂-[ka SILIM-ma] KIN-ar₂
+33. BE [GIR₂] 2#-ma i[na KI]R₄-šu₂-nu u SUHUŠ-šu₂-nu sa-am-hu ana-ku u# [KUR₂ SILIM-ma KIN-ME]Š?-ar₂
+34. BE [GIR₂] 2#-ma GID₂#.DA-šu₂-nu nen-mu-da-ma ina KIR₄-šu₂-nu u SU[HUŠ-šu₂-nu sa-am-hu KUR DINGIR-MEŠ-ša₂] TAG₄#-MEŠ?#-ši?#
+35. BE GIR₂ 2-ma SAG-su-nu GU ṣa-bit °\° LUGAL ana L[UGAL ka-lu-ti-šu₂ N]U BAR-MEŠ
+36. BE GIR₂ 2-ma MURUB₄-šu₂-nu GU ṣa-bit {giš}TUKUL-MEŠ-ka UGU [{giš}TUKUL-MEŠ KUR₂-ka uš-t]a-rab-ba-bu
+37. BE GIR₂ 2-ma SUHUŠ-su-nu GU ṣa-bit LUGAL [UR.SAG-MEŠ-š]u₂ KAN₅-MEŠ-šu₂
+38. BE GIR₂ 2-ma na-ah-su tam-ṭa-a-ti k[i-bi-is GIR₃-MIN LU₂ K]I DINGIR šu#-šur
+39. BE GIR₂ 2-ma SUHUŠ-su-nu DIŠ-ma LUGAL U[R.MAH GAZ u₂-lu LU]GAL GABA.RI-šu₂ GAZ-ak#
+40. [BE] G[IR₂ 2]-ma A[N.TA-u₂ ši-ši-tu₂ a-rim SUH₃ ana ERIN₂-ni ŠUB-ut]
+41. [BE GIR₂ 2-ma KI.TA-u₂ ši-ši-tu₂ a-rim SUH₃ ana ER]IN₂ KUR₂ ŠUB-ut
+42. BE [GIR₂ 2-ma ši-ši-tu₂ ar₂-mu BA₃-ut SUH₃ u sa-a]h-maš-tu₄
+43. BE G[IR₂ 2-ma NIGIN-MEŠ-ma DI-hu SIG₇ ar₂-mu BURU₁₄-ka u BURU₁₄ KU]R₂ {d}IŠKUR RA-iṣ
+44. BE GIR₂ [2-ma ina ŠA₃ AN.TA-i A-MEŠ SA₅-MEŠ u₂-lu BABBAR-MEŠ DU-MEŠ ERIN₂-ni ina KASKAL DU-ku ṣ]u₂-mu DAB-su-ma
+45. ($___$) [A-MEŠ NU DUG₃.GA-MEŠ NAG-ma] UŠ₂
+46. BE GIR₂ 2-ma [AN.TA-u₂ BAR-ma GI₆ KI.TA-u₂ pa-šiṭ ERIN₂-ni DINGIR-MEŠ-ša₂ TAG₄-MEŠ-š]i-ma
+47. ($___$) [ina ŠA₃.HUL DU-M]EŠ
+48. BE GIR₂ 2-ma KI.[TA-u₂ BAR-ma GI₆ AN.TA-u₂ pa-šiṭ ERIN₂ KUR₂ DINGIR-MEŠ-ša₂ TAG₄-MEŠ-ši-m]a
+49. ($___$) [ina ŠA₃.HUL DU-MEŠ]
+50. BE GIR₂ 2-ma ul-lu-ma# [SUHUŠ NA kaš-du KUR₂ KUR NUN ana BAD₄ KU₄-eb]
+51. BE GIR₂ 2-ma ul-lu-ma SUHUŠ# N[A kaš-du-ma PAP.HAL ZAG DU₈ ŠEŠ ŠEŠ-šu₂ i-dak]
+52. BE GIR₂ 2-ma ul-lu-ma SUHUŠ NA k[aš-du-ma PAP.HAL GUB₃ DU₈ ERIN₂ KUR₂ BIR-ah]
+53. BE GIR₂ 2-ma GIR₂ ZAG ana GIR₂ GUB₃ š[e-ri KASKAL-ka ana KASKAL KU]R₂ SI#.[SA₂-ir]
+54. [BE GI]R₂ 2#-ma GIR₂ GUB₃ ana GIR₂ ZAG še#-[ri KASKAL KUR₂ ana KASKAL]-ka SI.SA₂#-[ra/ir]
+55. [BE GIR₂] 2#-ma GIR₂ ZAG ana GIR₂ GUB₃ še-ri-ma ina bi#-[ri-šu₂-nu BUR₃ ŠUB-di KASKAL-ka ana KASKAL KUR₂ S]I.SA₂-ma KUR₂ GA[Z]
+56. [BE GIR₂ 2-m]a GIR₂ GUB₃ ana GIR₂ ZAG še-ri-ma i[na bi-ri-šu₂-nu BUR₃ ŠUB-di KASKAL KUR₂ ana KASKAL-MU] SI.SA₂-am-ma KUR₂ G[AZ-an-ni]
+$ end of side
+
+@reverse
+1. BE GIR₂ 2-ma GIR₂ ZAG ana GIR₂ GUB₃ GIR₂ GUB₃ ana GIR₂ ZAG še-ri KASKAL-ka ana KASKAL KUR₂ KASKAL KUR₂ ana KASKAL-ka SI.[SA₂-ra]
+2. BE GIR₂ 2-ma GIR₂ ZAG GU-MEŠ šup-pu-uṣ KUR BAD₄ [DAB-bat]
+3. BE GIR₂ 2-ma GIR₂ GUB₃ GU-MEŠ šup-pu-uṣ KUR KUR₂ BAD₄ [DAB-bat]
+4. BE GIR₂ 2-ma GIR₂ ZAG ana PAP.HAL ZAG ŠUB-ut ERIN₂-ka ina PAP.HAL u BAD₄ [NU E₃]
+5. BE GIR₂ 2-ma GIR₂ GUB₃ ana PAP.HAL GUB₃ ŠUB-ut ERIN₂ KUR₂# ina PAP.HAL u BAD₄ [NU E₃]
+6. BE GIR₂ 2-ma GIR₂ ZAG ina EGIR NIG₂.TAB ša₂ ZAG e-ṣir NUN ina NU KUR-ša₂ ṭa-ri-du-tu₂ [DU-ak]
+7. BE GIR₂ 2-ma GIR₂ GUB₃ ina EGIR NIG₂.TAB ša₂ GUB₃ e-ṣir NUN ša₂ KUR KUR₂ ina# NU# KUR-šu₂ ṭa-[ri-du-tu₂ DU-ak]
+8. BE GIR₂ 2-ma ina EGIR BA₃ eṣ-ru KUR [DINGIR-MEŠ]-ša₂# [TAG₄-MEŠ-ša₂]
+9. BE GIR₂ 2-ma ina EGIR BA₃ eṣ-ru PAP.HAL ZAG u GUB₃ DU₈-u Š[A₃.HUL? ana KUR ŠUB-di]
+10. BE GIR₂ 2-ma GIR₂ ZAG ina KIR₄ NIG₂.TAB ša₂ ZAG e-ṣir NUN ana# [KUR₂-šu₂ KA LA₂-a GAR-an]
+11. BE GIR₂ 2-ma GIR₂ GUB₃ ina KIR₄ NIG₂.TAB ša₂ GUB₃ e-ṣir KUR₂ ana# [NUN] KA# LA₂-a [GAR-an]
+12. BE GIR₂ 2-ma ina KIR₄ NIG₂.TAB eṣ-ru U₄-M[EŠ NUN] TIL-MEŠ/ME
+13. BE GIR₂ 2-ma AN.TA-u₂ KI#.TA#-a# NIGIN#-mi# UR[U KU]R₂ NIGIN-ma DAB-bat
+14. BE GIR₂ 2-ma KI.TA-u₂ [AN.TA-a NIGIN-mi KUR₂ URU-k]a NIGIN-ma DAB-bat
+15. BE GIR₂ 2-ma AN.TA-u₂# K[I.TA-a NIGIN-ma PAP.HAL ZAG DU₈ URU KUR₂ NIG]IN-ma <NU> DAB-bat ERIN₂-ka ina PAP.HAL NU E₃
+16. BE GIR₂ 2-ma KI.TA-u₂# [AN.TA-a NIGIN-ma PAP.HAL GUB₃ DU₈ ina] KI.GUB KUR₂ GUB-az
+17. [B]E G[IR₂ 2-ma šu-ta-hu-qu LUGAL ana LUG]AL ka-lu-ti-šu₂ NU BAR-MEŠ
+18. BE GIR₂ 2-[ma UZU IGI TUN₃ kab-su LUGAL SISKU]R₂ BAL-u₂ NU GUR-ma NU BAL-qi₂
+19. BE GIR₂ 2-m[a ina bi-ri-šu₂-nu DU₈ DU₈ LU₂ EN ša₂-sur-ri-šu₂] x-zu KUD-as SAG.DU LU₂ ŠUB-ti u₂-ri
+#note: parallel has EN ša₂-sur-ri-šu₂ UŠ₂ KUD-as
+20. BE GIR₂ 2-ma M[URUB₄-šu₂-nu pa-aš₂-ṭa DINGIR-MEŠ E₂.GAL ru-u₂-tu₂] IGI#-MEŠ#-ma ana E₂.GAL UR₅-tu₂ NU KU₄-MEŠ
+21. BE GIR₂ 2-ma ša₂ ZAG# [i-kun-ma ša₂ GUB₃ BAL-ut e-ma KUR-d]u KUR₂ a-dak
+22. BE GIR₂ 2-ma ša₂ GUB₃ [i-kun-ma ša₂ ZAG BAL-ut e-ma KUR-du KU]R₂ GAZ-an-ni
+23. BE GIR₂ 2-ma it-[ku?-mu? LUGAL URU{ki} u A.DAM-ME]Š?-šu₂ BAL-MEŠ-šu₂
+#note: aberratio oculi? parallel has BAL-MEŠ instead of it-ku-mu
+24. BE GIR₂ 2#-ma it-k[u-mu KUR₂ UGU NIG₂.GI]G NUN GUB-az
+25. BE GIR₂ 2#-ma# ZAG# D[U₈-MEŠ KUR₂ KI NU]N i-pa-qar
+26. BE GIR₂ 2-ma GUB₃ DU₈-MEŠ# [NUN] KI KUR₂-šu₂ i-pa-qar
+27. BE GIR₂ 2-ma {giš}TUKUL SILIM GAR-in KUR₂ [ni]-ta NIGIN-an-ni-ma KA-mu GAR-an ina {giš}TUKUL DINGIR-MEŠ
+28. ($___$) A₂# ERIN₂-MU DU-MEŠ-ma KUR₂ a-dak
+29. BE GIR₂ 2-ma {giš}TUKUL SILIM BAL-ut UR[U D]INGIR-MEŠ-šu₂ TAG₄-MEŠ-šu₂ {d}ALAD-MEŠ-šu₂ ŠUB-MEŠ-šu₂
+30. ($___$) {giš}TUKUL NU DU₃-uš KUR₂ ERIN₂-ka i-sa-kip
+31. BE GIR₂ 2-ma is-hu-ru-ma SUHUŠ [N]A KUR-du KUR₂ ERIN₂-ka ana BAD₄ KU₄-eb
+$ single ruling
+32. BE GIR₂ 2-ma MIN₃-u₂ ina Š[A₃?] GAR-ma DU₈ ZI.GA SAG SIG-i
+$ 1 line blank

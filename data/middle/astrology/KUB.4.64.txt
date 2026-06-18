@@ -1,0 +1,43 @@
+---
+genre: astrological omens
+period: Middle Babylonian
+provenance: Ḫattuša (Boğazköy), Hittite capital — Late Bronze Age (Middle-period horizon)
+publication: KUB 4.64(+). CTH 532 (hethiter.net AOxml). Akkadian lunar-eclipse omens (Enūma Anu Enlil tradition).
+counting: line
+source_note: Extracted from the hethiter.net AOxml; <sGr>→uppercase logograms, <d>→{d}, <del_in/></del_fin/>→[ ], half-brackets/erasure markers dropped. 
+note: AN.TA.LÙ/antalû = eclipse; EN.NU.UN = watch; AN.TA/MURUB₄ = upper/middle. Ḫattuša-periphery EAE eclipse witness — tests whether the "Ḫattuša = syllabic" effect (diagnostic StBoT 36) holds for celestial omens.
+---
+
+@text
+]x(-)x-un-š[u
+{d}]U₁₈.LU ú-sar-ri-m[a
+[AN.T]A.LÙ ina {d}MAR.TU ú-sar-ri-ma x[
+AN.TA.LÙ ina {d}KUR.RA ú-sar-ri-ma
+AN.TA.LÙ ina {d}SI.SÁ ú-sar-ri-ma Š[UB
+AN.TA.LÙ ina EN.NU.UN AN.TA GAR-an EN.NU.UN-[šu ig-mur
+AN.TA.LÙ ina EN.NU.UN AN.TA GAR-an EN.NU.UN-šu ig-m[ur
+AN.TA.LÙ ina EN.NU.UN AN.TA GAR-an EN.NU.UN-šu ig-mur
+[AN.TA.L]Ù ina EN.NU.UN AN.TA GAR-an EN.NU.UN-šu ig-mur
+[AN.TA.LÙ in]a EN.NU.UN MÚRU.BA GAR-an EN.NU.UN-šu ig-mur
+[AN.TA.LÙ ina E]N.NU.UN MÚRU.BA GAR-an EN.NU.UN-šu ig-mur
+[AN.TA.L]Ù ina EN.NU.UN MÚRU.BA GAR-an EN.NU.UN-šu i[g-mur
+[AN.TA.LÙ] ina EN.N[U U]N MÚRU.BA GAR-an E[N.NU.UN-šu ig-mur
+[AN.TA.LÙ] ina EN.NU.[U]N
+[AN.TA.LÙ in]a EN.NU.UN x[
+AN.[TA.LÙ
+AN.T[A.LÙ
+AN.TA.[LÙ
+AN.TA.LÙ
+AN.TA.L[Ù
+AN.TA.L[Ù
+[A]N.TA.[LÙ
+AN.TA.[LÙ
+]x[
+]x GAR x[
+]x[
+[AN].TA.[LÙ
+[AN.T]A.LÙ ina
+AN.TA.LÙ ina ga-še-er x(-)nu(-)x[
+[AN.TA.L]Ù ina MÚRU-šú DADAG LUGAL {d}SU.BIR₄
+n]a-bal-ku-ta-at a-na nu-ru-[
+]-šú MÚRU.BA ga-še-er

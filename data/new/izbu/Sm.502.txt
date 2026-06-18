@@ -1,0 +1,39 @@
+---
+genre: izbu omens
+period: Neo-Assyrian
+provenance: Kuyunjik
+publication: eBL fragment Sm.502; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
+canonical_tablet: Tablet 22 (pig/sow, sahu)
+counting: line
+source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de), clean ATF. Square brackets = restoration; # = damaged sign; x = illegible.
+---
+
+@obverse
+1'. BE# [...]
+2'. BE# [...]
+3'. BE K[IMIN ...]
+4'. BE K[IMIN ...]
+5'. BE K[IMIN ...]
+6'. BE K[IMIN ...]
+7'. BE KIMIN [...]
+8'. BE KIMIN [...]
+@reverse
+1'. BE ŠAH# [...]
+2'. BE ŠAH ina K[A₂ ...]
+3'. BE ŠAH i[n-...]
+4'. BE ŠAH Z[U₂-MEŠ-šu₂ ...]
+5'. BE ŠAH ina E₂ [...]
+6'. BE ŠAH ina E₂# [...]
+7'. BE ŠAH ana IGI N[A ...]
+8'. BE ŠAH ina IGI E[N-šu₂ ...]
+9'. BE ŠAH ina TU[R₃ ...]
+10'. [BE ŠAH] is#-h[ur ...]
+1. [...] UKU₂
+2. [... URU] BI ŠUB-ma
+3. [... D]U-ak
+4. [... U₂.GU]G DIB-bat
+1. BE ŠAH [...]
+2. BE ŠAH.GIŠ.G[I ...]
+3. BE ŠAH.GIŠ.[GI ...]
+4. BE x x x [...]
+5. BE x x [...]

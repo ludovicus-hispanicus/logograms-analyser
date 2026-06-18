@@ -1,0 +1,38 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: BE
+publication: VAT 10711 (KAR 440); Heeßel 2012 KAL 5 no. 20 (pp. 104-106)
+note: "padanu (the Path, written GIR2) omens; Middle Assyrian fragment, reverse only. Rs. 11'-13' // VAT 10788 (no. 18) Vs. 7'-11'. 15->ZAG, 150->GUB3"
+---
+
+@reverse
+
+1. BE GIR₂ ana ZAG kiš mur [...]
+#tr.en: If the Path on the right ... :
+2. BE GIR₂ ana ZAG ip-pu-u[q ...]
+#tr.en: If the Path becomes massive on the right: ...
+3. BE GIR₂ ana ZAG i-lu-ud [...]
+#tr.en: If the Path bends to the right: ...
+4. BE GIR₂ ana ZAG e-bir [...]
+#tr.en: If the Path is elongated on the right: ...
+5. BE GIR₂ 2-ma IGI.MEŠ-šu-nu IGI.IGI-lu₄ [...]
+#tr.en: If the Path is doubled and their fronts face each other: ...
+6. BE GIR₂ 2-ma IGI.MEŠ-šu-nu IGI.IGI-lu₄ [...]
+#tr.en: If the Path is doubled and their fronts face each other: ...
+7. BE GIR₂ 2-ma SAG ZE₂ NIGIN-mi [...]
+#tr.en: If the Path is doubled and encircles the tip of the gall-bladder: ...
+8. BE GIR₂ 2-ma SAG ZE₂ NIGIN-ma u₃ x [...] E₃.MEŠ-ma [...]
+#tr.en: If the Path is doubled and encircles the tip of the gall-bladder and also ... come out and: ...
+9. BE GIR₂ 2-ma ina ŠA₃ GIR₂ AN.TA BUR₃ Š[UB-di] x [...]
+#tr.en: If the Path is doubled and within the upper Path a hole li[es]: ...
+10. BE GIR₂ 2-ma ina ŠA₃ GIR₂ KI.TA BUR₃ [ŠUB]-di x [...]
+#tr.en: If the Path is doubled and within the lower Path a hole [li]es: ...
+11. BE GIR₂ 2-ma ina ŠA₃ GIR₂ AN.TA u₃ GIR₂ KI.TA BUR₃ ŠUB [...]
+#tr.en: If the Path is doubled and within the upper Path and the lower Path a hole lies: ...
+12. BE x KA DUG₃.GA.MEŠ ana MAN.MEŠ GAR-nu x [...]
+#tr.en: ... pleasant words are set for the ... :
+13. BE x KA DUG₃.GA.MEŠ ana MAN.MEŠ GAR-nu-ma u₃ SILIM [...]
+#tr.en: ... pleasant words are set for the ... and also well-being: ...

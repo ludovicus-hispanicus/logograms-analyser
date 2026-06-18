@@ -1,0 +1,50 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: BE
+publication: VAT 9570 (KAR 450); Heeßel 2012 KAL 5 no. 28 (pp. 123-124)
+note: "martu (the gall-bladder, ZE2) omens; Middle Babylonian tablet (found at Assur). Omens about multiple gall-bladders (ZE2.MEŠ), their fluid (A-šina), position right/left, and the regular one (SAG.UŠ). 15->ZAG, 150->GUB3"
+---
+
+@obverse
+
+1. BE x ZE₂.MEŠ A-ši-n[a ...]
+#tr.en: If ... gall-bladders ... their [fluid ...].
+2. BE x ZE₂.MEŠ A-ši-na x [...]
+#tr.en: If ... gall-bladders ... their fluid ... :
+3. BE x ZE₂.MEŠ A-ši-na x [...]
+#tr.en: If ... gall-bladders ... their fluid ... :
+4. BE x ZE₂.MEŠ i+na ZAG GAR.ME[Š ...]
+#tr.en: If ... gall-bladders lie on the right: ...
+5. BE x ZE₂.MEŠ i+na ZAG GAR.ME[Š ...]
+#tr.en: If ... gall-bladders lie on the right: ...
+6. BE x ZE₂.MEŠ i+na GUB₃ GAR.ME[Š ...]
+#tr.en: If ... gall-bladders lie on the left: ...
+7. BE x ZE₂.MEŠ TEŠ₂.BI GAR-n[u ...]
+#tr.en: If ... gall-bladders lie together: ...
+8. BE x ZE₂.MEŠ ana sa kap x [...]
+#tr.en: If ... gall-bladders are present (and) toward ... :
+9. BE x ZE₂.MEŠ SAG.UŠ x [...]
+#tr.en: If ... gall-bladders are present, the regular one ... :
+10. BE x ZE₂.MEŠ SAG.UŠ GID₂.[DA ...]
+#tr.en: If ... gall-bladders are present, the regular one is long ...
+11. BE x ZE₂.MEŠ i+na ZAG GAR.MEŠ-m[a ...]
+#tr.en: If ... gall-bladders lie on the right an[d ...].
+12. BE x ZE₂.MEŠ i+na ZAG GAR.MEŠ-ma [...]
+#tr.en: If ... gall-bladders lie on the right and [...].
+13. BE x ZE₂.MEŠ SAG.UŠ GID₂.DA-m[a ...]
+#tr.en: If ... gall-bladders are present, the regular one is long an[d ...].
+14. BE x ZE₂.MEŠ SAG.UŠ GID₂.DA-m[a ...]
+#tr.en: If ... gall-bladders are present, the regular one is long an[d ...].
+15. BE x ZE₂.MEŠ IGI-ši-na a-ḫe-e GAR-n[a ...]
+#tr.en: If the fronts of ... gall-bladders lie side by side: ...
+16. BE x ZE₂.MEŠ SAG.UŠ GID₂.DA-ma [...]
+#tr.en: If ... gall-bladders are present, the regular one is long and [...].
+17. BE x ZE₂.MEŠ SAG.UŠ GID₂.DA-ma [...]
+#tr.en: If ... gall-bladders are present, the regular one is long and [...].
+18. BE x ZE₂.MEŠ SAG.UŠ GID₂.DA-ma x [...]
+#tr.en: If ... gall-bladders are present, the regular one is long and ... :
+19. BE x ZE₂.MEŠ A-ši-na [...]
+#tr.en: If ... gall-bladders ... their [fluid ...].

@@ -1,0 +1,36 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: BM.38655
+recension: canonical Sakikkû Tablet 14, manuscript F (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 14
+source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript F rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+---
+
+@text
+104. [ Š]À?-šú ma-[ḫu] [
+105. [ ] KI DIN GI E? GAM
+106. [ N]Á-šú KUR-su
+107. [ DIN]GIR-šú? TIN
+108. [ ]-iṭ GAM
+109. [ ] TAG-it GAM
+110. [ ] GAM 1384
+111. [ ] GAM
+112. [ ] GAM
+178′. [ ]-šú SÌG!-iṣ!ŠU[...]
+179′. [ G]U₇.MEŠ?-šú AZAG dUTU GU₇
+180′. [ MUR]UB₄.ME-šú ina GE₆ GU₇.ME-šú SU-šú KÚM NU TUK lu-ʾ-tú DAB-[su]
+181′. [ ] it-te-né-ep-ta-a GAM
+182′. [ -š]ú it-ta-na-az-qa-pa TI[N]
+183′. [ ki-mi]-is-su šá ZAG GU₇-šú KÚM-šú mit-ḫar ŠU dda-m[u ...]
+184′. [ ki-m]i?-is-su šá GUB₃ GU₇-šú KÚM-šú NU mit-ḫar GIG-su GÍD-ma [...]
+185′. [DIŠ kin-ṣ]a-a-šú GU₇.MEŠ-šú KÚM-šú NU mit-ḫar ŠU DINGIR-šú BÚR-m[a? TIN?]
+186′. [DIŠ kin-ṣa]-a-šú GU₇.MEŠ-šú ŠU DINGIR URU-šú : ŠU DINGIR-š[ú]
+187′. [ ]-šú GU₇.MEŠ-šú ŠU dUTU MU KÙ.BABBAR ZAG.10.MEŠ T[IN]
+188′. [ ]-šú ki-iṣ-ṣa-ta5 i-šá-a! ina DU₁₁.DU₁₁-šú ÚḪ-su ana IGI!-šú? [x x] [(x x) BA]L ru-mi-ka-ti
+189′. [ GI]G.MEŠ UZU.ME-šú GU₄.UD.MEŠ u mim-ma šá GU₇ i-ḫa-[ḫu ...]
+190′. [ ] x ŠU dXX? x
+191′. [ ] x u ina KA-šú MÚD BURU₈ [GAM]
+192′. [ ] KA-šú MÚD MUD [ŠUB-di? GAM]

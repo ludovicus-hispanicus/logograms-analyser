@@ -1,0 +1,75 @@
+---
+genre: astrological omens
+period: Middle Assyrian
+provenance: Nineveh (Nabû Temple; Middle Assyrian tablet, probably imported from Assur)
+counting: DIŠ
+topic: lunar eclipse
+series: Enūma Anu Enlil (transitional Assyrian recension; = Rochberg Text E, class IA)
+reconstructed: true
+edition: Rochberg-Halton, AfO Beih. 22 (1988), Appendix 1, pp. 273–279 (= EAE Text E)
+note: >
+  Tablet broken down the middle; in Rochberg's edition the PROTASES are largely
+  restored from the Old Babylonian texts (A/B) and EAE 15, while what is actually
+  preserved is mostly the APODOSIS (line ends). The text is "transitional": protasis
+  written logographically, apodosis predominantly syllabic — the in-between data
+  point for the diachronic logographic shift. Eclipse written AN.MI (the post-OB
+  form; note AN.TA.LÚ retained only in rev. 24'). Restorations follow the editor's
+  brackets. Logograms uppercase, syllabic lowercase, determinatives in {}.
+---
+
+@obverse
+1. [DIŠ ...]
+2. [DIŠ ...]-in(?) [...]
+3. [DIŠ ...]-m(?) GIG?.AN.TI.LA(?)
+4. [DIŠ AN.MI ZAG-šú BAL-at] NÍG.NAM NU TAK₄ A.MA.RU KU[Š₅-túm GAR-an]
+5. [DIŠ AN.MI MURUB₄-šú] iʾ-a-dir iš-te-ni-iš i-wi(?)-ir LUGAL BA.UŠ
+6. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma ZALAG-i]r RI.RI.GA SU.BIR₄{ki} u [ak-ka-di-i]
+7. [DIŠ AN.MI ina IM.MAR.TU SAR-ma ZALAG-i]r RI.RI.GA ERÍN MAR.TU{ki}
+8. [DIŠ AN.MI ina IM.SI.SÁ SAR-ma ZALAG-i]r RI.RI.GA ERÍN ak-ka-di-[i]
+9. [DIŠ AN.MI ina IM.KUR.RA SAR-ma ZALAG-i]r RI.RI.GA ERÍN šu-bar-ri-i
+10. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma IM.U]₁₈.LU DU šal-pu-ut-ti šu-bar-ri-i
+11. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma IM.SI].SÁ DU LUGAL ak-ka-di-i BA.UŠ
+12. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma IM.KUR.R]A DU {d}ISKUR GÌR.BAL UŠ.MEŠ GAL.MEŠ x [...]
+13. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma IM.MAR.T]U DU šal-pu-ut gu-ti-um LUGAL ak-ka-di-i BA.UŠ
+14. [DIŠ AN.MI ina IM.SI.SÁ SAR-ma IM.U₁₈.LU DU] LUGAL ak-ka-di-i BA.UŠ KI[N]-su TUR-ir
+15. [DIŠ AN.MI ina IM.SI.SÁ SAR-ma IM.SI.SÁ DU nu-su-re-e(?)] ŠE u ŠE.GIŠ LUGAL KUR na-kar-ti BA.UŠ
+16. [DIŠ AN.MI ina IM.SI.SÁ SAR-ma IM.KUR.RA DU hu-ša-ah-hu ina] KUR ša-ad-mi-i GAL-ma KUR šu-bar-ri-i DINGIR KÚ
+17. [DIŠ AN.MI ina IM.SI.SÁ SAR-ma IM.MAR.TU DU ...] x rum GÁL-ma LUGAL GAL BA.UŠ
+18. [DIŠ AN.MI ina IM.KUR.RA SAR-ma IM.U₁₈.LU DU EBUR KUR šu-bar]-ri-i i-kal
+19. [DIŠ AN.MI ina IM.KUR.RA SAR-ma IM.SI.SÁ DU EBUR KUR ak-k]a-di-i KÚR KÚ
+20. [DIŠ AN.MI ina IM.KUR.RA SAR-ma IM.KUR.RA DU ZI-u]t ERÍN-ma-an-da
+21. [DIŠ AN.MI ina IM.KUR.RA SAR-ma IM.MAR.TU DU LUGAL BA.UŠ] DUMU-šu GIŠ.GU.ZA-šu DIB-bat
+22. [DIŠ AN.MI ina IM.MAR.TU SAR-ma IM.U₁₈.LU DU ina GN.K]I(?) hu-ša-ah-hu GAL
+23. [DIŠ AN.MI ina IM.MAR.TU SAR-ma IM.SI.SÁ DU] KUR SU.BIR₄{ki} TUR.RA
+24. [DIŠ AN.MI ina IM.MAR.TU SAR-ma IM.KUR.RA DU L]UGAL BA.UŠ ina ITI šu-a-tu-ma {d}UTU iʾ-a-dir
+25. [DIŠ AN.MI ina IM.MAR.TU SAR-ma IM.MAR.TU D]U šal-pu-ut-ti GN{ki}
+26. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma ina IM.U₁₈.LU ZA]LAG šal-pu-ut-ti KUR.MAR.TU{ki} ana NIM.MA{ki} u GÚ.DU₈.A{ki} NU [TE]
+27. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma ina IM.SI.SÁ ZALAG šal-pu-ut-ti KU]R.SU.BIR₄{ki}
+28. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma ina IM.MAR.TU ZALAG šal-pu-ut-ti KUR.NIM.MA.K]I u ERÍN MAR.TU{ki}
+29. [DIŠ AN.MI ina IM.U₁₈.LU SAR-ma ina IM.KUR.RA ZALAG šal-pu-ut-ti NIM.MA].KI u GÚ.DU₈.A{ki}
+
+@reverse
+1. [DIŠ ina {iti}ZÍZ.A(?) UD.n.KAM AN.MI GAR-ma ... DUMU LUGAL GIŠ.GU.ZA] DIB-ma É.GAL [...]
+2. [DIŠ ina UD.n.KAM AN.MI GAR-m]a SAL ŠUB-ut LUGAL KUR ha-[lì-iq-tim a-na KUR ša-lim-tim TU-ma GIŠ.GU.ZA DIB]
+3. [DIŠ ina UD.n.KAM AN.MI GAR-ma bi-ib-lum KUR ub]-bal
+4. [DIŠ ina UD.n.KAM AN.MI GAR-ma ...]-ub TU-ru[b ...]
+5. [DIŠ ina UD.n.KAM AN.MI] GAR LUGAL BA.UŠ EBUR SI.SÁ KI.LAM G[A.NA]
+6. [DIŠ ina {iti}ŠE UD.14.KAM AN.MI GAR-ma LUGAL NIM.MA.K]I BA.UŠ UR.GI₇.MEŠ-šú iš-še-gu-ú ú-[na-š]a-ku
+7. [DIŠ ina UD.15.KAM AN.MI GAR-ma UR.MAH.MEŠ] iš-še-gu-ú a-lak-ta i-su-par-ru
+8. [DIŠ ina UD.16.KAM AN.MI GAR-ma KUR la šu]-pu-tum uš-ta-al-pa-at
+9. [DIŠ ina UD.20.KAM AN.MI GAR-ma sa-al-pu-ut-ti ŠEŠ.U]NUG{ki}
+10. [DIŠ ina UD.21.KAM AN.MI GAR-ma KUR ana] DANNA-a i-ha-ru-ub [...] UN(?) in-ne-si-ma pi
+11. [DIŠ ... -m]a GAR ub-bu-tu GAR.MEŠ-ma ud-[...]
+12. [DIŠ ina {iti}DIRI.ŠE UD.14.KAM AN.MI GAR KALAG.GA] GAL UN.MEŠ šer-ri-ši-n[a ana KÙ.BABBAR] iʾ-pa-sa-ru
+13. [DIŠ ina UD.15.KAM AN.MI GAR-ma šah-lu-uq-ti] ŠEŠ.UNUG{ki}
+14. [DIŠ ina UD.16.KAM AN.MI GAR-ma KUR.URI] uš-tal-pa-at
+15. [DIŠ ina {iti}BARA₂ AN.MI GAR-ma SA₅-šú] pe-li nu-huš UN.MEŠ
+16. [DIŠ ina {iti}GU₄ ... pi-ši-i]r-ti-ia GAL-ši
+17. [DIŠ ina {iti}SIG₄ GU.GAL] SI.SÁ
+18. [DIŠ ina {iti}ŠU ŠE.GIŠ].Ì SI.SÁ
+19. [DIŠ ina {iti}NE ŠE.GIŠ.Ì] SI.SÁ
+20. [DIŠ ina {iti}KIN ZÚ.LUM] SI.SÁ
+21. [DIŠ ina {iti}DU₆ me-ši]r-tum SI.SÁ
+22. [DIŠ AN.MI ina EN.NU.UN AN.USAN₂] EN.NU.UN U₄.ZAL.LI uš-ta-ne-eh
+23. [... LUGAL ŠÚ KUR-su UR].BI i-hal-liq
+24. [...] UD šú NIM/DU(?) uš-ta-ne-eh AN.TA.LÚ x [...]

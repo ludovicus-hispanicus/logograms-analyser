@@ -1,0 +1,23 @@
+---
+genre: astrological omens
+period: Middle Babylonian
+provenance: Ḫattuša (Boğazköy), Hittite capital — Late Bronze Age (Middle-period horizon)
+publication: KBo 8.6. CTH 532 (hethiter.net AOxml). Lunar-eclipse omens (Enūma Anu Enlil tradition) — the AKKADIAN column of an Akkadian–Hittite BILINGUAL; only the Akkadian side is given here (the Hittite translation is not in this AOxml).
+counting: line
+exclude: true   # Akkadian column of an Akk–Hitt bilingual — mention only, do not count. Its syllabic Akkadian (LDI ≈ 0.09) is a bilingual-transmission effect, so it would distort the monolingual astrology cell.
+source_note: Extracted from the hethiter.net AOxml (Akkadian column); <sGr>→uppercase logograms, <d>→{d}, <del_in/></del_fin/>→[ ], half-brackets/erasure markers dropped. The repeated "an-ta-lu-ú it-ta-ab-ši" are the Akkadian entries being translated into Hittite.
+note: BILINGUAL (Akk–Hitt). Its Akkadian is almost fully SYLLABIC (antalû ittapši spelled out; LDI ≈ 0.09) — the syllabic spelling reflecting the bilingual/didactic context, NOT a monolingual scribal norm. Contrast the monolingual Akkadian KUB 4.64+ (AN.TA.LÙ…, ≈ 0.63). So the syllabic Ḫattuša profile is tied to bilingual transmission, not the site as such.
+---
+
+@text
+a]n-ta-lu-ú [it-ta-ab-ši
+an]-ta-lu-ú i[t-ta-ab-ši
+an-ta-lu]-ú it-t[a-ab-ši
+{d}IŠ]KUR i-ra-a[ḫ-ḫi-iṣ
+a]n-ta-lu-ú i[t-ta-ab-ši
+a]n-ta-lu-ú i[t-ta-ab-ši
+a]n-ta-lu-ú it-[ta-ab-ši
+a]n-ta-lu-ú i[t-ta-ab-ši
+an-ta-lu]-ú it-ta-[ab-ši
+KU]R-ti ṣ[e-eḫ-
+an-ta-lu]-ú i[t-ta-ab-ši

@@ -1,0 +1,25 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: unknown
+counting: DIŠ
+edition: Rutz 2011, ZA 101, 301-305
+canonical_parallel: Sakikkû Tablets 3, 11, 12, 14 (Schmidtchen 2021 concordance, read off the rendered table book p.709-711 — Vs.1=11:68, Vs.2=11:84, Vs.3=11:69, Vs.4=14:245, Vs.5=12:5, Vs.6-7=14:30, Vs.9-13=3:55; all Nippur-only, no cross-witness partner. NB earlier pdftotext-derived list was column-shifted and is corrected)
+---
+
+1. DIŠ SA ŠU-MIN-šu e-liš u₃ šap-liš DU-MEŠ [...]
+2. DIŠ SA ŠU-MIN-šu u₃ GIR₃-MIN-šu DU-MEŠ-ma KI.TA GI[R₃-MIN-šu? ...]
+3. DIŠ SA ŠU-MIN-šu tab-ku-ma ša GIR₃-MIN-šu te-bu-u₂ IGI-[MIN-šu?] x x [...]
+4. DIŠ SA GIR₃-MIN-šu te-bu-u₂ IGI-MIN-šu kab-ta-šu SAG.DU#-su# u₃# x [...]
+5. DIŠ SA GABA-šu MUD₂ il-te#-qu₂#-u [...]
+6. DIŠ SA ša#-pu-li-šu ša ZAG te-bu-u₂# u₃# ṣa-al-mu# [...]
+7. DIŠ SA ša#-pu-li-šu ša GUB₃ te-bu-u₂# u₃ ṣa-al-mu x# [...]
+8. DIŠ GIG ŠU.NIGIN₂ SA-MEŠ-šu GU₇-MEŠ-šu IGI-MIN-šu a#-na# na-še-e kab-t[a ...]
+9. DIŠ# GIG# SAG.DU-su e-em SA?# SAG.KI-šu ŠU#-MIN-šu u GIR₃-MIN-šu Z[I?-...]
+10. [x x k]i?-im?#-ṣi?#-šu ka-ṣi#-a SAG KIR₄-[(šu)] GE₆# kit-tab-ri ŠU.S[I? ...]
+11. [x x IG]I?-šu ir-ru-uq u₃ i-pe-eṣ?#-ṣi?# kap-pi IGI-M[IN-šu? ...]
+12. [na-pi]-is?# i-na KIR₄-šu ṣa-bit-ma i-[na] KA#-šu?# PA?#.[AN ...]
+13. [x x na]-piš#-ti-šu u₂-še-l[a?-a ...]
+$ single ruling
+# 14. [ilimmu.u ilimmu.u ili]mmu.u ilimmu.u ilimmu.u ilimmu.u il[immu.u ...] — numeric tally notation ("9.10" marks), not omen vocabulary; excluded from the count per Rutz 2011, 305 n. 14 (cf. Hunger 1968, 5)
+$ end of side

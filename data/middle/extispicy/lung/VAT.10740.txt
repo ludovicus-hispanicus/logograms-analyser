@@ -1,0 +1,35 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+counting: line
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 47 (VAT 10740 = Ass 2953)
+feature: kubuš ḫašî (lung-cap)
+note: fragmentary; single side preserved (12 lines)
+---
+
+1'. [ re]-eš ZAG [ ]
+#tr.en: [... the ti]p of the right side [...].
+2'. [ ku-b]u-uš MUR x [ ]
+#tr.en: [...] lung-c[a]p ... [...].
+3'. [ ku-b]u-uš MUR x [ ]
+#tr.en: [...] lung-c[a]p ... [...].
+4'. [ ku]-bu-uš MUR x [ ]
+#tr.en: [...] lung-c[a]p ... [...].
+5'. [ ku]-bu-uš MUR a-na x [ ]
+#tr.en: [...] lung-cap toward ... [...].
+6'. [ Z]AG ku-bu-uš MUR za x [ ]
+#tr.en: [... of the rig]ht of the lung-cap ... [...].
+7'. [ ] re-eš ZAG ku-bu-u[š MUR ]
+#tr.en: [...] the tip of the right side of the [lung-]ca[p ...].
+8'. [ ] re-eš GUB₃ ku-bu-u[š MUR ]
+#tr.en: [...] the tip of the left side of the [lung-]ca[p ...].
+9'. [ ] SUHUŠ ZAG ku-ub-ši [ ]
+#tr.en: [...] the base of the right side of the cap [...].
+10'. [ ] ḫi-pi₂ [ ]
+#tr.en: [...] break [...].
+11'. [ ] ḫi-pi₂ [ ]
+#tr.en: [...] break [...].
+12'. [ ] re-eš ZAG [ku-bu-uš MUR ]
+#tr.en: [... the] tip of the right side of the [lung-cap ...].

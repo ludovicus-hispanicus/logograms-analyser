@@ -1,0 +1,33 @@
+---
+genre: diagnostic omens
+period: Middle Assyrian
+provenance: Assur
+counting: DIŠ
+topic: prognosis by Hand-of-the-god diagnoses (Sin dEN.ZU, Šamaš dUTU aššu kasap asirti = on account of silver of the sanctuary); head, temples (SAG.KI), eyes, penis
+series: pre-canonical Middle Assyrian diagnostic text; a (partial) duplicate of VAT 10235 — entries 1-7 overlap VAT 10235 i 17'-23', then continue with Hand-of-Šamaš diagnoses (Heeßel 2010a:178)
+canonical_parallel: individual entries parallel canonical Sakikkû 12:5, 10:69, 11:19, 14:109 (Heeßel 2010a:181 philological commentary)
+edition: Heeßel 2010a, Assur-Forschungen (Maul and Heeßel eds.) 178-181; tablet VAT 10748 (previously unpublished, identified by F. Köcher), Assur
+dating: Middle Assyrian by paleography and syllabary (Heeßel 2010a:175); pre-dates Esagil-kīn-apli's serialization. Counted here as Middle Assyrian.
+note: >
+  Transliteration after Heeßel's sign-level Umschrift (2010a:178-179),
+  directly scoreable (logograms preserved). One side only; cannot tell obverse
+  from reverse. Lines 1-7 duplicate VAT 10235 i 17'-23'. mu-sar-ri-šu = his
+  penis (bišru). Logograms uppercase, syllabic lowercase, {} determinative,
+  [] restoration, x illegible. Heavily fragmentary.
+---
+
+@obverse
+2. e-nu-ma i-ḫi-ta-aš-[šu]
+3. DIŠ ŠUB-tu ŠUB-su-ma i-sal-li-[iḫ]
+4. DIŠ TA SAG.DU-šu EN GIR.MEŠ-šu U.BU.[BU.UL SA₅]
+5. DIŠ ina SAG.KI-šu ša ZAG SIG-iṣ-ma IGI.II-[šu ER-am qát Sîn]
+6. DIŠ ina SAG.KI-šu ša GUB SIG-iṣ-ma IGI.II-šu DIRI.[MEŠ-ḫa qát Sîn]
+7. ER DU-ak u UMBIN-[šu]
+9. IGI-šu ša ZAG GU pa-[ri-ik]
+10. kin-ṣa-šu TEŠ.BI
+11. DIŠ ana GABA-šu A.[MEŠ] i-sal-lu u KIR₄-šu i-la-[pi-in qát Šamaš aššu kasap asirti]
+12. DIŠ KUŠ.MEŠ-šu ana SU-šu la u-ta-aḫ-[ḫi qát Šamaš aššu kasap asirti]
+13. i-kaṣ-ṣa-ṣa-šu
+14. DIŠ ina mu-sar-ri-šu MÚD da-'a-ma
+15. DIŠ ina mu-sar-ri-šu MÚD iš-tin
+16. a-kal u A APIN-e[š] x

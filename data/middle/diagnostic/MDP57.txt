@@ -1,0 +1,58 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Susa (Elam)
+recension: Elamite periphery
+counting: line
+topic: prognosis; Hand-of-DN diagnoses (Adad, Kubu, Šamaš, steppe/open-country, Šulak, qajjalu, rabitu, mašda-of-the-roof); one fatal verdict
+series: pre-canonical medico-magical tablet (No. XI = Suse XII/9-10); the diagnostic omen-entries only, ritual/prayer columns excluded
+canonical_parallel: Schmidtchen 2021 concordance (mB Susa column, book p.711) cites MDP 57 Nr. 11 ii 1 = Sakikkû 13:63(?) and ii 2 = Sakikkû 14:71 — both uncertain, and Susa is the SOLE witness for them (no cross-witness parallel partner in the corpus). Individual entries otherwise echo TDP Hand-of-DN diagnoses. NB an earlier note here read 11:68-69; that was a column-misalignment of the concordance and is corrected.
+edition: Labat & Edzard 1974, MDP 57, No. XI (Suse XII/9-10), transcription pp. 241-247; hand-copies Figs. 26-29
+dating: the Susa XII literary group; Schmidtchen 2021 files it as mB (Middle Babylonian) Susa. An Old Babylonian horizon is possible for the Susa group (cf. the Ḫattuša early-import problem). Counted as Middle Babylonian per Schmidtchen.
+note: >
+  ONLY the medical/diagnostic omens are scored here. The tablet is medico-
+  magical: cols. III, IV, VI are dominated by long syllabic RITUAL and PRAYER
+  instructions (sacrifices, fumigations, the Ea-šarru prayer) which are NOT
+  diagnostic-series text and are OMITTED, to keep this comparable with the
+  other Sakikkû witnesses. Included: every šumma-marṣu (...) qāt-DN entry from
+  cols. II, III, IV, V, VI. Each entry is given on one line (tablet line refs
+  in [brackets after] each); counting:line is only for segmentation, the LDI
+  is a token ratio independent of it.
+  Orthography after Labat's transcription (logograms uppercase, normalized
+  reading was in parentheses in the edition). The opening šumma-sign, which
+  Labat copies as U₄, is rendered UD here (= the same sign u₄) so it is treated
+  as the formulaic opening particle, exactly like DIŠ in the canonical series.
+  Diagnoses are partly logographic (ŠU {d}IŠKUR, ŠU {d}UTU, ŠU {d}ku-bi) but
+  several deity-names are spelled SYLLABICALLY (ŠU šu-la-ak = qāt Šulak,
+  ŠU qa-a-a-li = qāt qajjāli, ŠU ra-bi-ti = qāt rabīti) — the peripheral trait.
+  Logograms uppercase, syllabic lowercase, {} determinative, [] restoration,
+  x illegible, < > scribal omission supplied by the editor.
+---
+
+@obverse-col-ii
+UD GIG [TA] ŠÀ-šu GAZ-iṣ ŠU {d}IŠKUR
+UD GIG [TA] ri-bi-ti-šu GAZ-iṣ ŠU {d}IŠKUR
+[UD GIG ig-da-n]a-al-lu-ut il-ta-[na-as-si ŠU {d}ku]-bi
+UD GIG GEŠTU.MEŠ-šu [i-šà-ag-gu-ma ŠU {d}k]u-bi
+[UD GIG SAG Š]À-šu it-ta-na-aṣ-[ba-at-su ŠU {d}ku-b]i
+UD GIG TA ší-pi [...] it-ta-aš-šu ŠU {d}ku-bi
+[UD GIG SA.MEŠ GÌR-š]u kab-ba-ru ŠU {d}ku-bi
+[UD GIG ší-in-na-šu] it-ta-na-aṣ-ba-ta [ik-ta-na-aṣ]-ṣa ù ik-[ka-aṣ-ṣa-aṣ ŠU {d}ku-b]i
+[UD GIG i-da-šu ù bir-ka-šu i-ta-na]-na-ḫa
+
+@obverse-col-iii
+UD GIG um-ma-šu ṣa-ru-uḫ zu-'-ta ki me-e ra-mi-ik ŠU {d}UTU ŠU ik-ri-bi-šu
+UD GIG na-kap-ti 2.30-šu GAZ-at ŠU EDIN ù ba-ma-a-ti
+
+@reverse-col-iv
+UD GIG GABA-sú TUḪ-at NU el-lu is-sú
+
+@reverse-col-v
+UD GI[G x m]a GEŠTU-šu GÙ-šu ŠU ù GÌR šà 2.30 ÉŠ 15 ù šà i-mi-it ÉŠ 2.30-šu i-šà-aḫ-ḫi-iṭ ŠU šu-la-ak ul TI.LA UGx-at
+UD GIG GEŠTU-šu <GÚ-šu> ù ší-in-na-šu ne-en-mu-da MURÚ-šu ul i-šà-a[ḫ-ḫi]-ṭá ŠU šu-la-ak
+UD GIG IGI-šu bu-ul-lu-ṣú ta-šà-[as-sí-šu-ma ul i-še-em-me-ka mi-im-ma šà tu-ka-al-lu-šu ul ú-ma-ṭì] ŠU qa-a-a-li
+UD GIG SAG-sú NIGIN-šu ri-ta-šu ù GÌR.MEŠ-šu i-ra-ú-[ba ŠU ra-bi-ti šà ki šà-aš-šà-ṭì]
+
+@reverse-col-vi
+UD GIG GEŠTU.MEŠ-šu sú-uk-ku-ka-ma la i-še-em-ma-a
+UD GIG GIG-sú TA SAG-šu NU TUḪ-ar MAŠ.DÀ ù-ri GAZ-sú

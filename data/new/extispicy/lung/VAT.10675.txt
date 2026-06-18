@@ -1,0 +1,34 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Assur
+counting: BE
+topic: lung
+publication: Heeßel 2012 KAL 5 no. 55 (VAT 10675/1 = KAR 461)
+feature: rēš ḫašî / MU SAG MUR (main elevation of the lung)
+note: early Neo-Assyrian; very fragmentary — only protasis openings preserved (no apodoses)
+---
+
+@obverse
+2'. [BE MU] SAG [MUR ]
+3'. [B]E MU SAG MU[R ]
+4'. BE MU SAG MU[R ]
+5'. BE MU SAG MU[R ]
+6'. [BE] MU S[AG M]U[R ]
+7'. [BE] MU S[AG] MU[R ]
+8'. BE MU S[A]G MU[R ]
+9'. BE M[U SA]G [MUR ]
+10'. BE M[U SAG MUR ]
+11'. BE MU [SAG MUR ]
+12'. BE MU [SAG MUR ]
+13'. BE MU [SAG MUR ]
+14'. BE MU [SAG MUR ]
+
+@reverse
+1'. [BE] M[U SAG MUR ]
+2'. [BE] M[U SAG MUR ]
+3'. [BE] M[U SAG MUR ]
+4'. [BE] MU S[AG MUR ]
+5'. [BE] SAG x [ ]
+6'. [BE] SAG x [ ]
+7'. [BE M]U SAG [MUR ]

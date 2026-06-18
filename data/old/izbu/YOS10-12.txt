@@ -1,0 +1,15 @@
+---
+genre: izbu omens
+period: Old Babylonian
+provenance: unknown (purchased; southern Babylonia)
+publication: YOS 10 12 (Goetze 1947); ed. Leichty TCS 4 (Old Babylonian Version); small OB teratomantic tablet
+counting: DIŠ
+source_note: Hand-checked transliteration (clean). [ ]=restoration.
+---
+
+@obverse
+1. DIŠ še-ru-um ap-pa-šu ki-ma i-di-im
+2. ṣa-li-im um-ma-an-ka
+3. ni-i-tum i-ṣa-ab-ba-at
+4. DIŠ qi2-na-tum i-mi-tam pa-ar-sa3-at
+5. ru-bu-u2 u2-la in-ni-mi-du

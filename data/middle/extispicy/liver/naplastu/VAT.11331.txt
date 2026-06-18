@@ -1,0 +1,26 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: BE
+publication: VAT 11331 + VAT 12262 (KAR 457); Heeßel 2012 KAL 5 no. 16 (pp. 93-95)
+note: "'forerunner' to canonical Šumma manzāzu Tablet 1; manzāzu = OB naplastu, written KI.GUB. Dupl. BM 51256 (BLO 1)"
+---
+
+@reverse
+
+1. [BE SAG KI].GUB GAM-iš [...]
+#tr.en: If the top of the Presence (manzāzu) is perforated: ...
+2. [BE MURUB₄ K]I.GUB GAM-iš [...]
+#tr.en: If the middle of the Presence is perforated: ...
+3. [BE SUḪUŠ K]I.GUB GAM-iš [...]
+#tr.en: If the base of the Presence is perforated: ...
+4. [BE SAG K]I.GUB MURUB₄ KI.GUB SU[ḪU]Š KI.GUB GAM [...]
+#tr.en: If the top of the Presence, the middle of the Presence, and the base of the Presence are perforated: ...
+5. [BE SAG K]I.GUB GAM-iš-ma ina ŠA₃-šu BUR₃ ŠUB-[di ...]
+#tr.en: If the top of the Presence is perforated and a hole lies in its midst: ...
+6. [BE MURUB₄ K]I.GUB GAM-iš-ma ina ŠA₃-šu BUR₃ ŠUB-[di ...]
+#tr.en: If the middle of the Presence is perforated and a hole lies in its midst: ...
+7. [BE SUḪUŠ KI.G]UB GAM-iš-ma ina ŠA₃-šu BUR₃ ŠUB-[di ...]
+#tr.en: If the base of the Presence is perforated and a hole lies in its midst: ...

@@ -1,0 +1,37 @@
+---
+genre: diagnostic omens
+period: Middle Babylonian
+provenance: Ḫattuša (Boğazköy)
+recension: Anatolian periphery
+counting: line
+topic: prognosis; Hand of Sin / Šamaš diagnoses; skin pustules from sexual contact (Sakikkû 3:91-95 parallel); ghost-seizure (ṣibit eṭemmi)
+series: pre-canonical Late Bronze Age diagnostic omens (Tafel C); notable for INTERLINEAR Hittite translation of the Akkadian omens (excluded here)
+canonical_parallel: Sakikkû 3:91-95 (skin/pustule omens), and the Hand-of-Sin cluster paralleled in the Assur text KAR 211 (Wilhelm 1994:44-45)
+edition: Wilhelm 1994, StBoT 36, 40-46; Tafel C = KUB 37,190 + KBo 14,58 = KBo 36,53 (Büyükkale)
+dating: 13th century BCE (Hittite Empire), Anatolian periphery. Counted as Middle Babylonian (chronological).
+note: >
+  After Wilhelm's sign-level Umschrift (1994:40), Akkadian only. The Hittite
+  INTERLINEAR TRANSLATION lines and Luwian glosses are OMITTED — only the
+  Akkadian omen text is scored. Same peripheral syllabic orthography.
+  Logograms uppercase, syllabic lowercase, {} determinative, [] restoration.
+---
+
+@obverse
+3. ḫu-ur-ba-a-šu im-ta-na-aq-qu-ut
+4. i-TA-a-am
+5. at-tar-šu-ma i-ma-a-at
+6. il₅-ta-na-an-ni-šu ŠU {d}XXX
+7. ŠU.MEŠ-šu GIR.MEŠ-šu ú-na-a-aš ŠU {d}XXX
+8. aš-šum ma-ka-le-e i-bal-lu-uṭ
+9. ŠU {d}XXX sà-de₄-er-šu iš-tu SAG.DU-šu a-di GIR.MEŠ-šu
+10. zu-um-mu-ur-šu sa-a-am it-ti si-ni-il-ti i-na ma-ia-li ka-ši-id ŠU {d}UTU
+11. ṣa-li-im-ta ma-li u zu-um-mu-ur-šu sa-a-am
+13. ŠU {d}UTU
+
+@reverse
+3. ṣi-bi-is-su
+4. ša GÙB
+7. ṣi-bi-it {d}I-ṭem-me
+8. re-eš ŠÀ-šu it-ta-na-an-pa-aḫ
+9. ṣi-bi-it {d}I-ṭem-me
+10. {d}I-ṭem-me

@@ -1,0 +1,83 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Assur (House of the Exorcist, N4)
+tradition: Babylonian-copy
+counting: šum₄-ma
+publication: VAT 8611 (KAR 150); Heeßel 2012 KAL 5 no. 30 (pp. 126-128); ed. Ebeling AfO 9 (1933-34) 326-329
+note: "martu (the gall-bladder, ZE2) omens; fully-preserved Neo-Assyrian tablet BUT copied from a Babylonian Vorlage and written almost entirely SYLLABICALLY (colophon Rs 16: GABA.RI KA2.DINGIR.RA{ki} SAR BA.AN.E3 = 'written and collated from a Babylon original'; scribe Nabu-etir). LDI ~0.22 despite NA date/findspot = the orthography of the exemplar travels with the text. Rulings and colophon (Rs 7,15-18) omitted from the body."
+---
+
+@obverse
+
+1. šum₄-ma šu-me-el ZE₂ pa-ṭe₄-er um-ma-an {lu₂}KUR₂ ṣu₂-mi-ra-ti-ša u₂-ul i-ka-aš-ša-ad
+#tr.en: If the left side of the gall-bladder is split: the enemy army will not reach its goals.
+2. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum re-eš ZE₂ iṭ-ṭu₂-ul pu-um ki-nu-um
+#tr.en: If on the left of the gall-bladder a fissure faces the top of the gall-bladder: a reliable word.
+3. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum iš-di ŠU.SI iṭ-ṭu₂-ul ni-ip-ḫu pu-um la ki-nu-um
+#tr.en: If on the left of the gall-bladder a fissure faces the base of the Finger: a niphu-mark, an unreliable utterance.
+4. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum MAŠ₂ iṭ-ṭu₂-ul ni-ip-ḫa-at MAŠ₂.ŠU.GID₂.GID₂ RI.RI.GA um-ma-ni
+#tr.en: If on the left of the gall-bladder a fissure faces the Increment: niphu-marks of the diviner, fall of the army.
+5. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum ne₂-pe₂-el₂-ku ni-ip-ḫu
+#tr.en: If on the left of the gall-bladder a fissure is spread out: a niphu-mark.
+6. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum a-na GIR₃ iṣ-ḫi-ir a-na pi₂-iṭ-ri-im ir-bi ni-ip-ḫu
+#tr.en: If on the left of the gall-bladder a fissure grows smaller toward the foot and larger toward the fissure: a niphu-mark.
+7. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum i-na ŠA₃ pi₂-iṭ-ri URU{ki} ša a-na la-wi-šu ta-la-ku i-na-ad-di-ma it-ta-ṣi
+#tr.en: If on the left of the gall-bladder a fissure lies within a fissure: the city you march to besiege will give up and march out;
+8. ni-ip-ḫu pu-um la ki-nu-um mar-ṣu i-ma-at
+#tr.en: a niphu-mark, an unreliable word, the sick man will die.
+9. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum i-na ŠA₃ pi₂-iṭ-ri u₃ {giš}TUKUL im-ḫu-ur₂-šu
+#tr.en: If on the left of the gall-bladder a fissure lies within a fissure and a mace faces it:
+10. {lu₂}KUR₂ a-lak bi-ir-ti-šu i-na-ad-di-ma um-ma-an NUN i-ru-ub
+#tr.en: the enemy will neglect the patrol of his fortress and the prince's army will enter it.
+11. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum i-na ŠA₃ pi₂-iṭ-ri u₃ ši-lum na-di URU{ki} šu-ta-la-ku ta-ṣa-ba-at
+#tr.en: If on the left of the gall-bladder a fissure lies within a fissure and a hole lies (in it): the city to which you march you will capture.
+12. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum i-na ŠA₃ pi₂-iṭ-ri e-ri-iš-tum na-ad-di-a-at
+#tr.en: If on the left of the gall-bladder a fissure lies and within the fissure a seed-grain lies:
+13. NUN bi-ši qa₂-ti-šu u₂-ša-ad-da-nu-šu
+#tr.en: they will force the prince to hand over his personal property.
+14. šum₄-ma me-eḫ-re-et qu₂-tu-un ZE₂ pa-ṭe₄-er ar-bu-ut um-ma-ni
+#tr.en: If the side opposite the narrow part of the gall-bladder is split: flight of the army.
+15. šum₄-ma i-na šu-me-el ZE₂ pi₂-iṭ-rum 2 pi₂-šu-nu iš-te-en-ma um-ma-an {lu₂}KUR₂ ar-bu-tam i-la-ak
+#tr.en: If on the left of the gall-bladder there are two fissures with a single opening: the enemy army will flee.
+16. šum₄-ma šu-me-el ZE₂ a-di 2 pa-ṭe₄-er pu-um ki-nu-um
+#tr.en: If the left side of the gall-bladder is split in two places: a reliable word.
+17. šum₄-ma šu-me-el ZE₂ a-di 3 pa-ṭe₄-er ni-ip-ḫu
+#tr.en: If the left side of the gall-bladder is split in three places: a niphu-mark.
+18. šum₄-ma šu-me-el ZE₂ pi₂-iṭ-rum 4 5 6 a-di ma-du-ti pu-uṭ-ṭu₂-ur₂ gi-pi₂-iš um-ma-an {lu₂}KUR₂
+#tr.en: If the left side of the gall-bladder is much split in four, five, six or many places: massing of the enemy army.
+19. šum₄-ma i-na i-mi-ti ZE₂ pi₂-iṭ-rum MAŠ₂ iṭ-ṭu₂-ul šu-lum MU 1-KAM₂
+#tr.en: If on the right of the gall-bladder a fissure faces the Increment: well-being for one year.
+20. šum₄-ma ru-qu₂ ša i-mi-ti ZE₂ a-na i-di ZE₂ pa-ṭe₄-er ṣi-it ka-ab-tim
+#tr.en: If the thin part on the right of the gall-bladder is split at the side of the gall-bladder: desertion of an important person;
+21. a-na {giš}TUKUL i-si-il-ti um-ma-ni-ia ip-pa-ṭa-ar
+#tr.en: for battle, control over my army will be lost.
+
+@reverse
+
+22. šum₄-ma me-eḫ-re-et re-eš ZE₂ pa-ṭe₄-er ṣi-it NUN ša-ni-iš mu-kilil re-eš le-mu-ut-tim
+#tr.en: If the side opposite the top of the gall-bladder is split: flight of a prince; alternatively, a mukil-reš-lemutti demon,
+23. qu₂-lum e-li um-ma-ni-ia i-ma-qu₂-ut
+#tr.en: silence will fall upon my army.
+24. šum₄-ma ni-si-iḫ ZE₂ i-mi-tam pa-ṭe₄-er um-ma-an-ka re-eš A.ŠA₃-ša u₂-ul i-ka-aš-ša-ad
+#tr.en: If the nishu of the gall-bladder is split on the right: your army will not reach its destination.
+25. šum₄-ma ni-si-iḫ ZE₂ šu-me-lam pa-ṭe₄-er um-ma-an {lu₂}KUR₂ re-eš A.ŠA₃-ša u₂-ul i-ka-aš-ša-ad
+#tr.en: If the nishu of the gall-bladder is split on the left: the enemy army will not reach its destination.
+26. šum₄-ma ni-si-iḫ ZE₂ i-mi-tam a-di 2 pa-ṭe₄-er NUN ti-il-la-as-su ip-pa-ṭa-ar-šu
+#tr.en: If the nishu of the gall-bladder is split in two places on the right: the prince's auxiliaries will abandon him.
+27. šum₄-ma ni-si-iḫ ZE₂ šu-me-lam a-di 2 pa-ṭe₄-er {lu₂}KUR₂ ti-il-la-as-su ip-pa-ṭa-ar-šu
+#tr.en: If the nishu of the gall-bladder is split in two places on the left: the enemy's auxiliaries will abandon him.
+28. šum₄-ma bi-ri-it i-mi-tim u₃ šu-me-lim i-na i-mi-tim ši-lum na-di NUN i-na pa-ṭi-šu i-ma-qu₂-ut
+#tr.en: If between the right and left a hole lies on the right: the prince will fall at his border.
+29. šum₄-ma bi-ri-it i-mi-tim u₃ šu-me-lim i-na šu-me-lim ši-lum na-di {lu₂}KUR₂ i-na pa-ṭi-šu i-ma-qu₂-ut
+#tr.en: If between the right and left a hole lies on the left: the enemy will fall at his border.
+30. šum₄-ma bi-ri-it i-mi-tim u₃ šu-me-lim i-na i-mi-tim ši-lum i-na ŠA₃ ši-lim na-di
+#tr.en: If between the right and left on the right a hole lies within a hole:
+31. um-ma-an NUN i-na na-ak-ba-ti-ša i-ma-qu₂-ut
+#tr.en: the bulk of the prince's army will be defeated.
+32. šum₄-ma bi-ri-it i-mi-tim u₃ šu-me-lim i-na šu-me-lim ši-lum i-na ŠA₃ ši-lim na-di
+#tr.en: If between the right and left on the left a hole lies within a hole:
+33. um-ma-an {lu₂}KUR₂ i-na na-ak-ba-ti-ša i-ma-qu₂-ut
+#tr.en: the bulk of the enemy army will be defeated.
+34. šum₄-ma i-na i-mi-ti ZE₂ ši-lum na-di-ma u₃ ra-ḫi-iṣ ki-lum um-ma-ni i-ṣa-ba-at
+#tr.en: If on the right of the gall-bladder a hole lies and is destroyed: captivity will seize my army.

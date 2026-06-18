@@ -1,0 +1,26 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: ND 4405/35 (Schmidtchen 2021 Tafel 4, ms C)
+recension: canonical Sakikkû Tablet 4, manuscript C (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 4
+source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript C rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+---
+
+@text
+1. DIŠ SAG.KI ḫe-si-ma K[Ú]M-im [...]
+2. [DIŠ] SAG.KI ḫe-si-ma ŠÀ.MEŠ-šú AL.[D]U? [...]
+3. DIŠ SAG.KI ḫe-si-ma [Š]À.[MEŠ]-šú it-te-ne[n- ...]
+4. DIŠ S[AG].KI ḫe-si-ma GEŠTU.ME[Š-šú?] NU ŠE.GA-a Š[U ...]
+5. DIŠ S[AG.K]I-šú šal-mat [x (:)]
+6. DIŠ? [...]
+7. DIŠ S[AG.KI]-š]ú ŠUB-ut-ma [ ]ÍR-a [...]
+8. [DIŠ S]A[G].KI-šú DAB-su-m[a GÙ.GÙ-s]i? [MÚ]D ina K[IR₄ ...]
+9. [x] .KI!(ku)-šú DAB-su!? [x] MEŠ? [x x] SAG? ŠÀ x [...]
+10. [DIŠ SA]G.KI-šú DAB-su-ma [x x x] SA SAG [...]
+11. [ D]AB-su-ma [...]
+12. [DIŠ S]A[G.KI-šú] DAB-su-m[a] ŠÀ ŠÀ [...]
+13. DIŠ SA[G.KI-šú [DA]B-[su-ma? T]A? . [...]
+14. [DI]Š SAG.KI.-šú [...]

@@ -1,0 +1,18 @@
+---
+genre: izbu omens
+period: Middle Babylonian
+language: Hurrian
+provenance: Ḫattuša (Boğazköy), Hittite Empire — Late Bronze Age (Middle-period horizon)
+publication: Cohen 2017, AoF 44 (Parallel Hurrian and Hittite šumma izbu Omens). Mss incl. KUB 29.12 and duplicates.
+counting: line
+exclude: true   # COMPARANDUM, not Akkadian — kept OUT of the general LDI; side-note only.
+note: Hurrian cuneiform izbu omens. The "LDI" here = Sumerogram + AKKADOGRAM density (uppercase), NOT a logogram-vs-Akkadian-syllabic measure. Illustrative value bin LDI ≈ 0.871 (27/31) — ~4x the contemporary OB *Akkadian* izbu (≈0.13), because content words are written as Sumerograms (GEŠTU "ear", LUGAL "king", U₄ "day", LÚ.KÚR "enemy", NU GÁL "is missing") and Akkadograms (IZ-BU "izbu", -ŠU "his"), with only native grammar/verbs syllabic. Shows LDI tracks the graphic convention, not the spoken language. Tiny sample; not statistically robust. NB the Hurrian fragments are badly broken — only the logographic protasis-skeleton (DIŠ IZ-BU-ni-e GEŠTU… NU GÁL…) survives while syllabic apodoses are lost, so 0.871 is inflated by preservation (cf. the Emar 700 artifact); the Hittite ≈0.59 is the sounder figure.
+---
+
+@text
+DIŠ IZ-BU-ni-e KA-ši šum-mi
+DIŠ IZ-BU-ni-e GEŠTU.ḪI.A-iš ši-i-il i-ra
+DIŠ IZ-BU-ni-e GEŠTU-i ZAG-en NU GÁL-ma LÚ.KÚR-ni
+DIŠ IZ-BU-ni-e GEŠTU-i GÙB-en NU GÁL-ma LUGAL-aš
+DIŠ IZ-BU-ni-e GEŠTU.ḪI.A-il GÚ-da
+DIŠ IZ-BU-ni-e GEŠTU.ḪI.A-il a-ši-i-bi

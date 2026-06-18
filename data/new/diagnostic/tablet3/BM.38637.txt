@@ -1,0 +1,35 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: BM.38637
+recension: canonical Sakikkû Tablet 3, manuscript F (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 3
+source: auto-converted from Schmidtchen 2021 Tafel 3 OCR (score), manuscript F rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 3 lines.
+---
+
+@text
+31. [ ]-mi x x [...]
+32. [ ḫ]e-ḫe-en KIR₄-šú i-r[aš-ši-šum-ma ...]
+33. [ ] u kìn-ṣa-a-šú ka-ṣa-a [...]
+34. [ ṭ]a?-mu GÌR-šú šá 15 i-kan-na-an-m[a ...]
+35. [ ṭ]a-mu GÌR-šú šá 150 i-kan-na-an-ma N[U ...]
+36. [ ] x-al SAG.DU-su i-šag-gúm GEŠTU.II-šú GÙ.DÉ.ME ŠU.SI.ME-šú? ú?-x-[...]
+37. [ šuk]-lul-ti-šú SA uk-tal-lim [x x]
+38. [ šuk]-lul-ti-šú SA NU TUK [x x]
+39. [ ti]-ik-ka-šú u šá-pu-la-šú DIŠ-niš GU₇.MEŠ-šú SA.[DUGUD]
+40. [ G]Ú-su TAG.TAG-su GABA-su GU₇.MEŠ-šú ŠÀ-šú GAZ.MEŠ-šú pi-qam la pi-qam in-[xx] [ GUR].RA-ma GU₇ u NAG {d}[X]V MU É er-bet-ti UŠ.ME-šú šá-niš ana MUNUS MU a-rì u sa-[ma-li?] [šal-šiš? ana KI].SIKIL!.BÀN.DA MU ki-gul-lim u áš-tam-[mi?]
+41. [ D]AB-su u KÚM ŠUB.ŠUB-su ŠU {d}X[V]
+42. [ DAB].DAB-su u KÚM NU TUK ŠU {d}XV
+43. [ ]DAB.DAB-su KÚM TÉŠ.BI TÚKUR!-su GIG-su TAG₄-[šum-m]a NÍG.NIGIN TUK-ši-šum-ma UD-ma! NÍG.LAL-šú LÁ-šú UMUŠ-šú KÚR?-šum-m[a] [ina N]U ZU-ú ú-rap-pad GEN₇ DAB-it GIDIM₇ [{d}KAMADx(DIM₈ ₁₁).M]E DAB-su uš-te-ze[b]
+44. [ T]ÉŠ.BI DAB.DAB-su ŠU SAG.ḪUL.ḪA.ZA
+45. [ i]-tar-ru-ur GÚ-su GÚ.MURGU-šú ka-p[í-ip ] x at-ma-a? NU ZU ina KA-šú ÚḪ.MEŠ-šú DU..MEŠ. [ŠU.II-šú kìn]-ṣa-a-šú u GÌR.II-šú DIŠ-niš i-tar-ru-[ra x x x (x x) IGI]-šú? i-sak-kil? kiš-pi DAB-šú NU [TIN?]
+46. [ G]ÌR.II-šú i-tar-ru-ra KA-šú ana a-ma-[ti? D]U₁₁-šú it-te-né-ep-rik-ku₈ lu-ʾ?-[tu₄? x x]
+47. [ ]x[G]ÌR.II-šú DIŠ-niš i-tar-ru-ra ina! KA-šú á[t-mu-šú? it-te-né-e]p-rik-ka ana ma-al-taq-[ti ...]
+48. [ ] u [G]ÌR.II-šú i-ra-ʾ-ú-ba KA-šú [ il-la-a]-ti ú-kal lu-ʾ?-[(a)-ti? šu-kul?]
+49. [ ] ŠU.II-šú u GÌR.II-šú DIŠ-niš i-ra-ʾ-ú-ba ŠÀ-šú [ana BURU₈ i-te-né]-el-[la]-a lu-ʾ-[(a)-tu₄ ti? ...]
+50. [ ]-su ŠU.II-šú u GÌR.II-šú DIŠ-niš i-rat-tu-ta KA-[šú ...]
+51. [ -s]u KÚM ḪA.ZA UD.1.KAM TAG₄-šum-ma UD.2.KAM [...] [(x x x)] [...]
+52. [ K]ÚM ḪA.ZA UD.1.KAM TAG₄-šum-ma UD!.2.KAM DUGUD-s[u] [ ] IR SED ŠUB.ŠUB-su GEN₇ DAB GIDIM₇ {d}?[...]
+53. [ Ḫ]A.ZA SA SAG.KI.II-šú ZI.MEŠ x [...]

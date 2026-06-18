@@ -1,0 +1,95 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: first-millennium canonical Šumma Ālu (Nineveh, Kalḫu, Assur, Uruk, Sultantepe); Tablet 24 colophon names Kalḫu + an eponym of Sargon II
+publication: S. Freedman, If a City Is Set on a Height, Vol. 2 (OPKF 19, 2006), Tablet 32 (Nineveh recension; EME.ŠID, omens 1'–63') (lizard omens), Reconstruction (composite text). OCR of the printed Reconstruction; footnotes/translation/colophons excluded.
+counting: DIŠ
+topic: lizard omens — canonical Šumma Ālu Tablet 32 (Nineveh recension; EME.ŠID, omens 1'–63')
+source_note: OCR'd from Freedman 2006. Logograms uppercase, {d} determinatives, subscript indices, [] restoration, x illegible. Italic/markup, collation notes and recension labels stripped. Composite reconstruction (primed line-numbers = omens preserved only on excerpt/duplicate texts); for Tablet 32 the omen numbers restart per recension.
+note: "Neo canonical lizard omens — topic-controlled counterpart to the Middle-Assyrian lizard tablet VAT.10167 (KAL 1). Pools Freedman's three recensions (Nineveh / Assur / Sultantepe) of canonical Tablet 32, or the gecko/skink omens of Tablet 33. Recension: Nineveh."
+---
+
+@text
+
+1. [DIŠ EME.ŠID] ša₂ 2 KUN.MEŠ-šu₂ ina E₂ NA IGI-ir [ša₂-li-mu IGI] KUN-su lil-qi₂-ma ina SU₇ ša₂ E₂-šu₂ [ša₂ ...] ina E₂ šu-a-tu₄ ša₂-tum {d}ALAD₃ u {d}LAMMA ina E₂-šu₂ [NU TE]
+2'. DIŠ EME.ŠID ša₂ 2 KUN.MEŠ-šu₂ u ša₂ ZAG GID₂.DA ina E₂ [NA IGI DIN]GIR.ŠA₃.DIB.BA ana LU₂ [ŠUB.MEŠ]
+5'. [DIŠ] EME.ŠID BABBAR ša₂ 2 KUN ina E₂ NA IGI E₂ BI [...] x-šu₂ ša₂ 2 KUN [...] IGI GIZKIM BI NU [...]
+6'. DIŠ EME.ŠID ša₂ 2 KUN.MEŠ-ša₂ KUN-sa₃ ša₂ [...] BI [...]-šu₂ ir-kab LU₂ ina KI.GUB-šu₂ i[n-na-sa]-aḫ
+7'. DIŠ EME.ŠID ša₂ 2 KUN.MEŠ-ša₂ ana IGI NA ŠUB-ut NA BI UGU EN KA-šu₂ GUB
+8'. DIŠ EME.ŠID ša₂ 2 KUN.MEŠ-ša₂ ana UGU NA ŠUB-ut x [...] [... KI] DU-ku SIG₅ IGI
+9'. DIŠ EME.ŠID ša₂ 2 KUN.MEŠ-ša₂ ana UGU NA [...] NIG₂.TUK-[šu₂] uṣ-ṣab
+10'. DIŠ EME.ŠID ša₂ 2 KUN.MEŠ-ša₂ ana UGU GIG [...]-ma NIG₂.GA DAGAL-aš₂
+11'. DIŠ EME.ŠID ša₂ KUN NU TUK [IGI]-ir DAM NA DUMU.MEŠ ma-ʾa-du-ti U₃.TU-ma NINDA ana KA-šu₂ NU GAR-an
+12'. DIŠ EME.ŠID SA₅ ana UGU NA [...] ŠA₃.BI DUG₃.GA
+13'. DIŠ EME.ŠID SA₅ ana UGU NA ŠUB-ut-[ma ...] x E₂.BI i-šar₂-ru₃
+14'. DIŠ EME.ŠID BABBAR ša₂ 2 KUN.MEŠ-[ša₂ ...] E₂.BI UKU₂-in
+15'. DIŠ EME.ŠID ina ḪUL₂ ana UGU NA ŠUB-ut LU₂ BI DINGIR-šu₂ ARḪUŠ-šu₂
+16'. DIŠ EME.ŠID ana UGU NA E[₁₁] ŠA₃.BI DUG₃.GA
+17'. DIŠ EME.ŠID ana UGU GIR₃ NA E₁₁ i-ḫad-du
+18'. DIŠ EME.ŠID ana UGU GIR₃ [NA ... ma]-qa₂-at INIM ina E₂ BI
+19'. DIŠ EME.ŠID ana UGU x [NA ŠUB]-ut ma-qa₂-at INIM ana LU₂ BI {d}LAMMA TE-šu₂ MAŠ.EN.KAK mi-li GAB ina-ḫi-iš
+20'. DIŠ EME.ŠID ana UGU LU₂ e-nu-ma aš₂-bu ŠUB-ut LU₂ BI mim-ma u₂-at-tar
+21'. DIŠ EME.ŠID ana IGI NA ŠUB-ut ŠUB-ti₅ EN KA-šu₂
+22'. [DIŠ EME.ŠID ... ŠUB]-ut LU₂ BI DINGIR u {d}LAMMA TUK
+23'. [DIŠ EME.ŠID ...-a]š₂
+24'. [DIŠ EME.ŠID ...] x u₄-me
+25'. [DIŠ EME.ŠID ...].MEŠ TUK-ši
+26'. [DIŠ EME.ŠID ...] ḪA.LA KU₂
+27'. [DIŠ EME.ŠID ...] x ad
+28'. [DIŠ EME.ŠID ...] ab x x x si
+29'. [DIŠ EME.ŠID ana EGIR NA ŠUB-ut a-na d]i-ni i-gir-[ru-šu]
+30'. [DIŠ EME.ŠID ana EGIR NA ŠUB-u]t-ma TAG-su pi₂-is-lat [ḪUL IGI]-mar
+31'. DIŠ EME.ŠID ana EGIR NA ŠUB-ut it-tap-pi-is Ḫ[UL IGI-mar]
+32'. DIŠ EME.ŠID ana UGU GIŠ.NA₂ E₁₁ LU₂ BI ḪA.LA KU₂
+33'. DIŠ EME.ŠID ana UGU GIŠ.NA₂ NA₂-iš DUMU.MEŠ TU[K-ši]
+34'. DIŠ EME.ŠID ana UGU GIŠ.NA₂ ṣa-lil-ma ŠUB-ut NA BI ḪA.LA KU₂ nu-kur₂ GIŠ.NA₂
+35'. DIŠ EME.ŠID ana UGU GIŠ.NA₂ LU₂.GIG E₁₁ LU₂.GIG BI GIG-su TAG₄-šu₂
+36'. DIŠ EME.ŠID ana UGU KI.NA₂ NA ŠUB-ut I.BI₂.ZA NA BI GIŠ.NA₂ DIB-su
+37'. DIŠ EME.ŠID ina UGU KI.NA₂ NA i-ḫa-az-zu nu-kur₂ GIŠ.NA₂
+38'. DIŠ EME.ŠID ina UGU KI.NA₂ NA ŠUB-ut nu-kur₂ GIŠ.[NA₂]
+39'. DIŠ EME.ŠID KI.TA GIŠ.NA₂ NA T[U ...]
+40'. DIŠ EME.ŠID ina UGU GIŠ.NA₂ NA DU.DU-ak nu-kur₂ GIŠ.NA₂
+41'. DIŠ EME.ŠID DIB.DIB-ta-ma ana UGU NA ŠUB.MEŠ NA BI KI DU-ku ḪA.LA KU₂
+42'. DIŠ EME.ŠID x [...]
+43'. DIŠ EME.ŠID BABBAR ina E₂ NA GAL₂-ši BIR-aḫ E₂
+44'. DIŠ EME.ŠID GI₆ ina E₂ NA GAL₂-ši E₂ BI DINGIR TUK-ši
+45'. DIŠ EME.ŠID SA₅ ina E₂ [NA GAL₂-š]i E₂ BI NIG₂.TUK TUK!-ši
+46'. DIŠ EME.ŠID na-pu-ul-t[u₄...] ku x [...] IGI DU₃-eš : {e-piš-eš} E₂
+47'. DIŠ EME.ŠID ina E₂ NA ka-la u₄-mi GU₃.DE₂.DE₂ ŠUB-e E₂
+48'. DIŠ EME.ŠID ina E₂ NA ka-la GI₆ GU₃.DE₂.DE₂ nu-kur₂ E₂
+49'. DIŠ EME.ŠID lu ina A lu ina KAŠ IGI E₂ BI ZI.BI ZI-šu₂
+50'. DIŠ EME.ŠID MUŠ KU₂-ma ina E₂ NA IGI ana E₂ BI SU.KU₂ ŠUB-su
+51'. DIŠ EME.ŠID MUŠ na-ši-ma MUNUS IGI MUNUS BI KI DAM TAB.BA in-na-ḫa-az
+52'. DIŠ EME.ŠID MUŠ na-ši-ma NA IGI LU₂ BI ša₂-ni-tam-ma iḫ-ḫaz
+53'. DIŠ EME.ŠID ina tal-lak-ti E₂ NA [U₃.TU] ŠUB E₂
+54'. DIŠ EME.ŠID ina mut-tab-bil-ti [E₂ NA U₃.T]U BIR-a[ḫ E₂]
+55'. DIŠ EME.ŠID ina ḫa-ru-ri E₂ NA U₃.TU BIR-a[ḫ E₂]
+56'. DIŠ EME.ŠID ina KI.TA-nu NA₄.ḪUR U₃.TU EN E₂ BI [ina ŠU LUGAL KAR]
+57'. DIŠ EME.ŠID ina mu-di-e E₂ NA U₃.TU E₂ [...]
+58'. DIŠ EME.ŠID ina E₂ NA [...] ka DIB E₂ B[I...]
+59'. DIŠ EME.ŠID [...]
+60'. DIŠ EME.ŠID ina mut-tab-bil-ti E₂ NA TU ŠUB-e E₂
+61'. [DIŠ EME].ŠID ina ur-ši E₂ NA sad-ru NIN E₂ ŠA₃-ša₂ DUG₃-ab
+62'. DIŠ EME.ŠID ina KASKAL IGI NA GI₄ NA BI KI DU-ku AŠ₂-su KUR-ad₂
+63'. [DIŠ EME.ŠID ina] UGU MUNUS PEŠ₄ DU.DU-ak MUNUS BI NITA U₃.TU
+64'. [DIŠ EME.ŠID ina] UGU KI.SIKIL DU.DU-ak MUNUS BI DUGUD i-ḫa-as-si
+65'. [DIŠ EME.ŠID ...] E₂ [...] x DINGIR TUK-ši EN E₂ BI DUMU NA DUG₃-ab
+66'. [DIŠ EME.].ŠID ina ku-[...] GIG-su [...]
+67'. DIŠ EME.Š[ID ...]
+68'. DIŠ [EME.ŠID ...]
+69'. DIŠ [EME.ŠID ...]
+70'. [DIŠ EME.ŠID ...] KIMIN ina UGU x [...] ŠUB-ut NA BI [...] NA BI [...]
+71'. DIŠ EME.[ŠID ...]
+1'. [DIŠ EME.DIR ...] tu₄ ina x [...]
+2'. [DIŠ EME.DIR š]a₂ 2 SAG.DU.MEŠ-šu₂ ana UGU NA ŠUB-ut [...]
+3'. [DIŠ EME.DIR ša₂] 2 SAG.DU.MEŠ-šu₂ kit-pu-lu-ma ana UGU NA [...]
+4'. [DIŠ EME.DIR š]a₂ 2 SAG.DU.MEŠ-šu₂ TA KI ana UGU NA E₁₁ [...]
+5'. [DIŠ EME.DIR] ša₂ 2 SAG.DU.MEŠ-šu₂ kit-pu-lu-ma ana UGU NA ŠUB-ut x [...]
+6'. [DIŠ EME].DIR ki-ma ŠU.SAR pat-lu-ma ina E₂ NA DU.DU-ak EN [...]
+7'. [DIŠ] EME.DIR kit-pu-lu-su-nu TA GIŠ.UR₃.MEŠ ŠUB.MEŠ-ni x [...]
+8'. DIŠ EME.DIR ana DUG.GIŠ.I₃.MEŠ ŠUB-ut EN E₂ BA.UG₇-ma is [...]
+9'. DIŠ EME.DIR ana UR₂ MUNUS TU-ub MUNUS BI BA.UG₇-ma KI.Ḫ[UL ...]
+10'. DIŠ EME.DIR ana ŠA₃ TUG₂.SAG.IL₂.KEŠ₂.NITA TU-ub IL₂-ma TU [...]
+11'. DIŠ EME.DIR ana UR₂ NA TU-ub i-šar₂-ru-ma ma-nu-me-e ki-i ia-a-ti-ma i-qab-be
+12'. DIŠ EME.DIR GU₂ NA NIGIN KUR₂ SUD NAM IGI-ma šu-ma EN TI INIM KUR₂-ir EME la i-šem-me
+13'. DIŠ EME.DIR AN.TA PAP.ḪAL NA E₃-ma GUR-ma UGU-šu₂ GU₄.UD-iṭ NA BI ina PAP.ḪAL u SAL.KALAG.GA E₃-ma ina KI.UŠ SILIM DU.DU

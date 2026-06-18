@@ -1,0 +1,28 @@
+---
+genre: diagnostic omens
+period: Neo Babylonian
+provenance: VAT 14550 (Schmidtchen 2021 Tafel 4, ms D)
+recension: canonical Sakikkû Tablet 4, manuscript D (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 4
+source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript D rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
+note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+---
+
+@text
+1. [ ] {d}[...]
+2. [ ] ŠU {d}kù-[bi]
+3. [ ] ŠU {d}kù-[bi]
+4. [ ] ŠU DINGIR-šú UGU-šú um-mu-da?-[at]
+6. [D]IŠ SAG.KI-šú ŠUB-ut [...]
+7. [ ] IGI.II-šú ÍR-a GAM
+8. [ M]ÚD ina KIR₄-šú DU-ku ŠU GIDIM₇
+9. [ ] UGU SAG.DU-šú DU₈ ŠU GIDIM₇ GAM
+10. [ ] e-li SAG.DU-šú ḫa-biš GAM
+11. [ {d}]XV GAM : ŠU GIDIM₇ GÍD-ma GAM
+12. [ ] ŠU GIDIM₇ GAM?
+13. [ ] : ú-šam-šá [...]
+14. [ ] ina-aḫ ŠU [...]
+15. [ ] ŠU [...]
+16. [ Š]U [...]
+17. [ Š]U [...]

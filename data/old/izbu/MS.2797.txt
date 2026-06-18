@@ -1,0 +1,61 @@
+---
+genre: izbu omens
+period: Late Old Babylonian
+provenance: unknown
+counting: šum-ma
+---
+
+$ obverse
+$ (§1′)
+1'. ($___$) [...]-du?#
+
+$ (§2′)
+2'. [šum-ma {f}a-wi-il-tum iz-ba ul-dam-ma si₂-in-ni]-iš₇?
+#tr.en.(4'): [If a woman miscarries a foetus and it is femal]e(?), […]
+3'. ($___$) [...]
+4'. ($___$) [...]
+
+$ (§3′)
+5'. [šum-ma {f}a-wi-il-tum iz-ba ul-dam-ma s]i₂-in-ni-iš₇
+#tr.en.(8'): [If a woman miscarries a foetus and it] is female, [… its… is] high, […: … will] lift […]
+6'. ($___$) [... i-ša-a]q-qu₂-ma
+7'. ($___$) [...]
+8'. ($___$) [... i-n]a-aš-ši
+
+$ (§4′)
+9'. [šum-ma {f}a-wi-il-tum iz-ba ul-dam-ma NIT]A₂
+#tr.en.(16'): [If a woman miscarries a foetus and it is mal]e, its [… above(?) is located [on(?) the… of] its right [side] and below points to the [… of] its right side, it has an ankle on the right side: the gods will hand the enemy's weapons to us and I shall smite the enemy with our wings like an eagle.
+10'. ($___$) [...-šu e-li-iš ... i-mi-it]-ti-šu
+
+$ bottom
+11'. ($___$) ša#-ki#-in#-ma ša#-ap#-li#-iš# i#-na# x [(x) x]
+12'. ($___$) i-mi-it-ti-šu-ma i-na-aṭ-ṭa₃-al k[a-bar-t]i!
+13'. ($___$) i-mi-it-ti-im-ma ša-ki-in ša na-ak-ri#
+14'. ($___$) ka-ak-ki-šu DINGIR-MEŠ a-na ne₂-e-ši-im
+
+$ reverse
+15'. ($___$) i-na-ad-di-in-ma u₃ na-ak-ra-am i+na#
+16'. ($___$) kap-pi₂-ni ki-ma na#-aš₂-ri-im a-da-ak
+
+$ (§5′)
+17'. šum-ma {f}a-wi-il-tum iz-ba ul-dam-ma NITA₂! GIR₃-šu ši-pi₂
+#tr.en.(19'): If a woman miscarries a foetus and it is male, its (right) foot… is missing but on the left of its foot (= its left foot?) it has a scab: our land will experience famine and Adad will give weapons into our enemy’s hands.
+18'. ($___$) NU GAL₂ u₃ i+na GUB₃ GIR₃-šu ši-pa₂ TUK-u₂#-ni KUR-ni
+19'. ($___$) su-nu-uq-tam i-IGI u₃ ME# ŠU KUR₂-ni {giš}TUKUL-MEŠ {d}IŠKUR ŠUB-in
+
+$ (§6′)
+20'. šum-<ma> {f}a-wi-il-tum iz-ba-am ul-d[a]m-ma NITA₂ SAG.DU#-su₂#
+#tr.en.(24'): If a woman miscarries a foetus and it is male, it has no head and on its chest is located an insubstantial growth: a king will not emerge (as) leader of the city but from somewhere they will fetch and install one who is a nonentity.
+21'. ($___$) NU GAL₂-ma i+na GABA-šu tu[p]-pu la# ma-du#-um#
+22'. ($___$) ša-ki-in LUGAL qa-aq-[q]a-ad a-li-im
+23'. ($___$) u₂-ul ib-ba-aš-ši-ma a-[i]a-nu-um-ma-an
+24'. ($___$) ša la we-du-um u₂-ub-ba-lu-nim-ma u₂-še-eš-še-bu
+
+$ (§7′)
+25'. šum-ma {f}a-wi-il-tum iz-ba ul#-dam-ma 2 pa-nu-šu
+#tr.en.(30'): If a woman miscarries a foetus and it has two faces like an @i{usummûm} (and) the top of its head is [squashed flat(?),] its feet are not present but formed into [the] head of a […] … […]: the king [will take] possession [of …]
+26'. ($___$) ki-ma ša u₂-su-um-mi-i m[u-uh]-hi qa-qa-di#-šu# k[a-bi-is?]
+27'. ($___$) še-pa-šu NU GAR-ma a-n[a qa]-aq#-qa#-ad a-x [x x]
+28'. ($___$) i-pu-šu ša ma-x [...] x x [(x)]
+29'. ($___$) qa#-at LUGAL [... %n ikaššad]
+30'. [x] x [...]

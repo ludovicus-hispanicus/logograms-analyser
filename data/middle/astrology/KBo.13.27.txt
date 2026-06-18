@@ -1,0 +1,22 @@
+---
+genre: astrological omens
+period: Middle Babylonian
+provenance: Ḫattuša (Boğazköy), Hittite capital — Late Bronze Age (Middle-period horizon)
+publication: KBo 13.27(+); Akkadian lines of an Akkadian–Hittite bilingual. CTH 532 (hethiter.net AOxml). Akkadian lunar-eclipse omens (Enūma Anu Enlil tradition).
+counting: line
+source_note: Extracted from the hethiter.net AOxml; <sGr>→uppercase logograms, <d>→{d}, <del_in/></del_fin/>→[ ], half-brackets/erasure markers dropped. Akkadian (lg=Akk) lines only; Hittite lines dropped.
+note: AN.TA.LÙ/antalû = eclipse; EN.NU.UN = watch; AN.TA/MURUB₄ = upper/middle. Ḫattuša-periphery EAE eclipse witness — tests whether the "Ḫattuša = syllabic" effect (diagnostic StBoT 36) holds for celestial omens.
+---
+
+@text
+]x[
+[KI.1] ITU KI.1 [{d}30 ir-bi-ma
+[GE₆]-ša uš-tén-m[e-er
+[KI].2 ITU KI.2 [{d}30 ir-bi-ma
+[ŠÈ] KUR-tim a-x[
+[B]URU₁₄ KUR
+[K]I.3 ITU KI.3 [{d}30 ir-bi-ma
+GE₆-ša uš-tén-m[e-er
+i-na {d}GU.ZA-šu u[š-ša-ab]
+KI.4 ITU KI.4 {d}30 i[r-bi-ma
+GE₆-ša uš-tén-me-er {d}S[U.BIR₄{d} i-ma-at]

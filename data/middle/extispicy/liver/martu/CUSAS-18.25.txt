@@ -1,0 +1,148 @@
+---
+genre: extispicy omens
+period: Early Middle Babylonian
+provenance: unknown
+tradition: Babylonian
+counting: DIŠ
+---
+
+@obverse
+1. [DIŠ {gi]š}TUKUL ZI i+na SAG ZE₂ GAR-ma GUB₃ IGI i+na {giš}TUKUL ZI ERIN₂+NI-ka! KUR₂#-rum KUM#-ak#
+
+$ (§2)
+2. [DIŠ] {giš}TUKUL ZI i+na MURUB₄# ZE₂ GAR-ma GUB₃ IGI i+na {giš}GIŠ a-bu-na-at ERIN₂+NI-ka! KUR₂-rum KUM-ak#
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder and points left: in war, the enemy will defeat the core of your army.
+
+$ (§3)
+3. DIŠ {giš}TUKUL ZI i+na SUR ZE₂ GAR#-ma GUB₃ IGI i+na {giš}TUKUL GUB₃ ERIN₂+NI-ka! KUR₂-ru KUM-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the maṣrahu (cystic duct) of the gall-bladder and points left: in war, the enemy will defeat the left (flank) of your army.
+
+$ (§4)
+4. DIŠ {giš}TUKUL ZI i+na SAG ZE₂ GAR-ma 1 ŠU.SI is-si-ma ZE₂ IGI i+na ši-ih-KUR TI KUR₂-ra KUM-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the top of the gall-bladder, is one “finger” away (from it) and points toward the gall-bladder: you will defeat the enemy in the morning(!).
+
+$ (§5)
+5. DIŠ {giš}TUKUL ZI i+na MURUB₄ ZE₂# GAR-ma 1 ŠU#.S[I] [i]s-si-ma ZE₂ IGI i+na mu-uṣ₄-la-li KUR₂-ra <KUM>-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder, is one “finger” away (from it) and points toward the gall-bladder: you will defeat the enemy in the afternoon.
+
+$ (§6)
+6. DIŠ {giš}TUKUL ZI i+na SUR ZE₂ GAR-ma 1 [Š]U.SI is-si#-ma ZE₂# IGI i+na ki-in-si#-gi °\° KUR₂-ra KUM-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the maṣrahu (cystic duct) of the gall-bladder, is one “finger” away (from it) and points toward the gall-bladder: you will defeat the enemy at suppertime.
+
+$ (§7)
+7. DIŠ {iš}TUKUL ZI i+na SAG ZE₂# GAR-ma 2 ŠU#.SI# is#-si-°\°-ma ZE₂ IGI i+na ba-ra-ar-ti KUR₂-ra [K]UM-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the top of the gall-bladder, is two “fingers” away (from it) and points toward the gall-bladder: you will defeat the enemy in the dusk watch.
+
+$ (§8)
+8. DIŠ {giš}TUKUL ZI i+na MURUB₄ ZE₂ GAR#-ma 2 ŠU.SI [i]s-si-na ZE₂ IGI i#+na qa₂-ab-li-ti# KUR₂-ra KUM-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder, is two “fingers” away (from it) and points toward the gall-bladder: you will defeat the enemy in the midnight watch.
+
+$ (§9)
+9. DIŠ {giš#}TUKUL# ZI# i+na SUR ZE₂# GAR-ma 2 ŠU.SI is-si-ma ZE₂ IGI i+na ša#-tu-ur-ri KUR₂-ra K[U]M-ak
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the maṣrahu (cystic duct) of the gall-bladder, is two “fingers” away (from it) and points toward the gall-bladder: you will defeat the enemy in the dawn watch.
+
+$ (§10)
+10. DIŠ {giš#}TUKUL# [ZI] i+na SUR ZE₂ GAR-ma ZE₂ ir-de ar-ka-ka-at KUR₂-ri te-le-eq-qe₂ i+na {giš}TUKUL KUR₂-ra# ta-sa₃#-ki#-[ip]
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the mašrahu (cystic duct) of the gall-bladder and points parallel to the gall-bladder: you will take the enemy's supply-lines(!). In war, you will repulse the enemy.
+11. DIŠ {giš}TUKUL ZI i#+na SUR ZE₂ GAR-ma ZE₂ ir!(NI)-de!(KI) a#+na KUR₂-ri DUMU-ka# DU-ak i+na# {giš}TUKUL KUR₂-ra# ta-sa₃-ki-ip
+
+$ (§12)
+12. [DIŠ {giš}TUKU]L ZI SAG ZE₂ gu-mu-ur u₄-mu i-ṣu₂-tum
+#tr.en: ¶ (If) a right-side [weapon]-mark occupies the entire area of the top of the gall-bladder: (life of) few days.
+
+$ (§13)
+13. [DIŠ {giš}TUKU]L Z[I] i#+na# MURUB₄# ZE₂ GAR-ma ZE₂ i-mi-id-ma ZE₂ ir-de {giš}TUKUL °\° qu₂-li
+#tr.en: ¶ (If) a right-side [weapon]-mark occurs at the waist of the gall-bladder, abuts the gall-bladder and points parallel to it: (it is) a weapon-mark of silence.
+
+$ (§14)
+14. [DIŠ {giš}TU]KUL ZI i+na SUR ZE₂# GAR-ma ZE₂# i-mi-<DIŠ>-id-ma ZE₂ ir-de {giš}TUKUL# še-<DIŠ>-di še-da u₃ {d}LAMMA# LU₂ i#-ra#-aš-š[i]
+#tr.en: ¶ (If) a right-side [weapon]-mark occurs at the mašrahu (cystic duct) of the gall-bladder, abuts the gall-bladder and points parallel to it: (it is) a weapon-mark of a protective genie; the man will acquire a protective genie and a guardian spirit.
+
+$ (§15)
+15. [DIŠ {gi]š}TUKUL ZI i+na MURUB₄ ZE₂ GAR-ma ŠU.SI is-si-ma SAG ZE₂ IGI {giš#}TUKUL [š]u-ul-mi
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder, is a "finger" away from it and points toward the top of the gall-bladder: (it is) a weapon-mark of [well]-being.
+
+$ (§16)
+16. [DIŠ {gi]š}TUKUL ZI i+na SAG ZE₂ GAR-ma MAŠ₂ IGI ša ta#-ag#-ge#-er#-ta na#-šu#-u₂# a+na E₂.GAL i-ru-ub
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the top of the gall-bladder and points toward the "increment": one under a denunciation will enter the palace (for an audience).
+
+$ (§17)
+17. [DIŠ {gi]š}[TUK]UL ZI i+na MURUB₄ ZE₂ GAR-ma MAŠ₂ IGI {giš}TUKUL# ta-ag-ge-er-ti u₃ ta-aš-ni-ti
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder and points toward the "increment": (it is) a weapon-mark of denunciation and contention(!).
+
+$ (§18)
+18. [DIŠ {gi]š}[TUK]UL ZI# i+na MURUB₄# ZE₂# GAR#-ma# MAŠ₂# IGI# u₃# i#-ri#-iq#/ik# ša ta-ag-ge-<er>-ta na-šu#-u₂ ta-ag-ge-er-ta-šu#-nu ul im-ma-ha!(ZA)-ar
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder, points toward the "increment" and goes yellow/long/empty: those under a denunciation, the denunciation against them will not be believed (lit. accepted).
+
+$ (§19)
+19. [DIŠ {giš}TUKU]L ZI# i#+na# [SUR ZE₂ GAR-ma MAŠ₂ IGI KUR₂-ri qi₂-it]-ru-bi-iš te!(ŠE)-e-ki!(ŠU)-im!(U₂)
+#tr.en: ¶ (If) a right-side [weapon]-mark occurs at the mašrahu (cystic duct) of the gall-bladder and points toward the "increment": you will capture(!) [the enemy at close] quarters.
+
+$ (§20)
+20. [DIŠ {giš}TUKUL] Z[I ... ṣa-ba-at?] pa-ar-ṣi#
+#tr.en: ¶ (If) a right-side weapon-mark [...: taking(?)] of office.
+
+$ (§21)
+21. [DIŠ {giš}TUKUL ZI ...] x x [...] LU₂ u₂-ka-aš-ša#-[ap]
+#tr.en: [¶ (If) a right-side weapon-mark ...ּ] will bewitch the man.
+
+@reverse
+1'. DIŠ {gi[š}TUKUL ZI ...]
+
+$ (§2')
+2'. DIŠ {giš}TUKUL ZI# uš#-[tu ZI i?-li?-a? ...]
+#tr.en: ¶ (If) a right-side weapon-mark [rises up(?)] from [the right: ...]
+
+$ (§3')
+3'. DIŠ {giš}TUKUL ZI uš-tu ZI [i?-li?-a?-a]m-ma u₃ x x x x x [(...)]
+#tr.en: ¶ (If) a right-side weapon-mark [rises] up(?) from the right and [...]
+
+$ (§4')
+4'. DIŠ i-na UGU-hi {giš}TUKUL ZI [BAR?-t]um te#-e#-šu#-u₂ UGU ERIN₂+NI ŠUB-ut
+#tr.en: ¶ (If there is) a [cross(?)] on top of a right-side weapon-mark: chaos will befall the army.
+
+$ (§5')
+5'. DIŠ i+na UGU-hi {giš}TUKUL Z[I MI.<IB>].HI ŠUB-di A.ŠA₃ be-el im-mi-ri mu-u₂ u₂-ba-lu
+#tr.en: ¶ (If) a cyst is located on top of a right-side weapon-mark: water will carry (off) the crops (lit. field) of the sheep's owner.
+
+$ (§6')
+6'. DIŠ i+na UGU-hi! {giš}TUKUL ZI# [MI.<IB>.HI] uš#-qa₂-la-al aš-qu₂-la-lu ERIN₂+NI-ka# DAB₅-at
+#tr.en: ¶ (If) [a cyst] hangs from the top of a right-side weapon-mark: ašqulālu (sickness) will afflict your army.
+
+$ (§7')
+7'. DIŠ i+na UGU-hi {giš}TUKUL# ZI M[I.<IB>.HI] ŠUB-ma TAR-[r]i-ik i+na ŠA₃-bi ša-at-ti
+#tr.en.(r 8'): ¶ (If) a cyst is located on top of a right-side weapon-mark and is dark: in that very year Adad will devastate; for barleycorn there will be a ten-litre measure of (only) five litres.
+8'. ($___$) ša-ti-ma# {d#}IŠKUR GIR₃#.B[A]L-iṣ# i+na še-e BAN₃-at 5 qa ib-ba-aš-ši
+
+$ (§8')
+9'. DIŠ i+na UGU-hi {giš}TUKUL ZI UB ŠUB#-di# ma-as₃-la-ah-ti ERIN₂+NI MAŠ₂.ŠU.GID₂.GID₂ iš-ša-al-la-al-ma#
+#tr.en.(r 10'): ¶ (If) an ub sign is located on top of a right-side weapon-mark: epidemic in the army; the diviner will be taken captive and will die of natural causes in the city (whither) he was taken.
+10'. ($___$) i+na URU-ki iš-š[a]-al-lu BA.UG₇-ut ši-in#-ti-šu BA.UG₇#-at
+
+$ (§9')
+11'. DIŠ {giš}TUKUL ZI ši-lum ka-ti-im a#+na# pa#-ni ERIN₂+NI-an KUR₂-ri bu-ri e-pe-ri tu-ma-al-la
+#tr.en.(r 12'): ¶ (If) a hole16 covers a right-side weapon-mark: in the path of the enemy's army you will fill the wells with earth, you will capture the enemy's army through thirst.
+12'. ($___$) ERIN₂+NI-an KUR₂-ri i+na ṣu₂-mi DAB₅-at
+
+$ (§10')
+13'. DIŠ {giš}TUKUL ZI i+na# ZI UB ŠUB i+na {giš}TUKUL ZI ERIN₂+NI-ka KUR₂-ru KUM-[ak]
+#tr.en: ¶ (If) a right-side weapon-mark is located on the right of the “corner”: in war, the enemy will defeat the right (flank) of your army.
+
+$ (§11')
+14'. DIŠ {giš}TUKUL ZI i+na SAG ZE₂ GAR-ma a+na pa-n[i UB] ŠUB i+na ZI ERIN₂+NI-ka mu-pi-qa₂ ša IGI.DU₃ ERIN₂+NI-ka [{lu₂}]KUR₂#-rum# KUM#-ak#
+#tr.en: ¶ (If) a right-side weapon-mark occurs at the top of the gall-bladder and is located in front of [the "corner":] on the right (flank) of your army the enemy will kill an adjutant(?) of the leader of your army.
+
+$ (§12')
+15'. DIŠ {giš}TUKUL ZI i+na MURUB₄ ZE₂ GAR-ma a#+na# pa-ni# UB# ŠUB i+na a-bu-un#-na-at ERIN₂+NI-ka mu-pi-iq#-qa₂# ša
+#tr.en.(r 16'): ¶ (If) a right-side weapon-mark occurs at the waist of the gall-bladder and is located in front of the "corner": at the core of your army the enemy will kill an adjutant(?) of the leader of your army.
+16'. ($___$) ($___$) ($___$) IGI.DU₃ ERIN₂+NI-ka KUR₂-ru KUM-ak!(AD)
+
+$ (§13')
+17'. DIŠ {giš#}TUKUL ZI i+na SUR ZE₂ GAR-ma a#+n[a-GIR-a]t UB ŠUB i+na GUB₃# ERIN₂+NI-ka mu-pi-iq-qa₂
+#tr.en.(r 18'): ¶ (If) a right-side weapon-mark occurs at the mašraḫu (cystic duct) of the gall-bladder and is located behind(?) the "corner": on the left (flank) of your army the enemy will kill an adjutant(?) of the leader of [your] army.
+18'. ($___$) ša IGI.DU₃ [ERI]N₂+N[I-ka] KUR₂-ru KUM-ak
+
+@colophon
+19'. [ŠU.NIGIN x MU].BI.IM
+#tr.en.(r 20'): [Total: x] lines. [By the hand of DN]-ibni. Nine.
+20'. [NIG ŠU {m}{d}x]-ib-ni

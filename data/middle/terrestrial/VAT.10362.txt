@@ -1,0 +1,44 @@
+---
+genre: terrestrial omens
+period: Middle Assyrian
+provenance: Assur
+publication: Heeßel 2007 (KAL 1) no. 40 = VAT 10362 (KAR 425). Middle Assyrian Šumma Ālu forerunner; ≈ animal/behaviour.
+counting: DIŠ
+source_note: Extracted from the KAL 1 edition via structured OCR (HTML), parsed by sequence/head-inheritance. Determinatives in {}; restorations [], damaged signs kept, breaks x/…/[...]. Heavily restored — trust the preserved-only LDI.
+note: Logographic Middle Assyrian terrestrial omens.
+---
+
+@obverse
+[ ] x [x]
+[ ] na-šu-nu 1-ma
+[ ] mi-li GABA ana EN TÙR
+[ ] e ṣe em x ra-bé-e-šú
+[ ] ana EN TÙR
+[ ] na-aḫ-su
+[ T]ÙR
+[ K]ÁM
+[ ] x
+DIŠ ÁB [ ] x [ ]
+x x [ ]
+mi-li [GABA ]
+DIŠ! ÁB ana Ù.TU [ ]
+kal ba x x [ ]
+re qu x [ ]
+DIŠ ÁB ana Ù.TU ana sag [ ]
+(Rasur) KUN.MEŠ-šá su [ ]
+DIŠ ÁB ana Ù.TU ana ḫu x [ ]
+ana KU₄-ub [ ]
+DIŠ ÁB ana Ù.[TU ]
+DIŠ LÚ ina MU[RUB₄ ]
+DIŠ LÚ ina MURUB₄ [ ]
+DIŠ LÚ la-ḫ[a-an-nu/na ]
+DIŠ LÚ la-ḫa-an-[nu/na ]
+[ t]a ana IGI [ ]
+[ ] x GIM ud ḫ[i ]
+[ ] ina ZAG šá-qa-a [ ]
+[ ina G]ÙB šá-qa-a [ ]
+[ ] x x [ ]
+[ ] KI.MIN
+[ ] KI.MIN
+[ ] KI.MIN
+[ ] KI.MIN

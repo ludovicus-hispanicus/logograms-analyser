@@ -1,0 +1,496 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: first-millennium canonical Šumma Ālu (Nineveh/Assur/Uruk etc.); 22 manuscripts
+publication: eBL corpus D/2/2 chapter SB 1 = canonical Šumma Ālu Tablet 1 (Project Ālu Geneva). Composite (reconstruction) read off the chapter score.
+counting: DIŠ
+topic: house omens (≈ Middle VAT.13802 / Nr.28)
+source_note: eBL composite text. '#tr.en:' = eBL translation; '//' and '#note:' = parallels/notes (commented out); '# var:' = a second variant. Logograms uppercase, {} determinatives, [] restoration.
+note: Neo canonical counterpart for the topic-controlled MB→Neo terrestrial comparison.
+---
+
+@text
+1. DIŠ URU ina me-le-e GAR DUR₂.A ŠA₃ URU BI NU DUG₃.GA
+   #note: The interpretation of @akk{DUR₂.A} as an infinitive follows @bib{RN148@26} (comm. to l. 1). @bib{RN1175@42} suggested to understand @akk{DUR₂.A} as a participle (“@i{âšib libbi âli}”). This reading has been taken over by @bib{RN2721@A/2 429} and @bib{RN252@231 n. 17}.
+   #tr.en: If a city is set on a height: living in that city will not be good.
+2. DIŠ URU ina muš-pa-li GAR ŠA₃ URU BI DUG₃.GA
+   #tr.en: If a city is set on a depression: the ambience of that city will be good.
+3. DIŠ URU ši-id-da GAR UN.ME[Š ...]
+   #tr.en: If a city is set alongside a road: peopl[e ...]
+4. DIŠ URU GIM KARAŠ ERIN₂ šu-bat-su Z[I ...]
+   #tr.en: If a city’s residential section … like an army camp: [...]
+5. DIŠ URU GIM MUŠEN AMBAR i-had-du-[ud ...]
+   #tr.en: If a city is chatter[ing] like a marsh-bird: [...]
+6. DIŠ URU šu-bat-su iš-ta-na-an URU BI x [...] x NU# DUG₃.GA
+   #tr.en: If a city’s residential section is fighting: that city, ... [...] will not be good.
+7. DIŠ URU šu-bat-su ne-he-et URU [BI š]u-bat-su i-sa-x-[x]
+   #note: The verb in the apodosis might be restored to @akk{i-sa-d[ir-ma DU]} (cf. omen 13).
+   #tr.en: If a city’s residential section is quiet: [that] city, its [re]sidential section ... [...]
+8. DIŠ URU KA-šu₂ i-la-ab-[ba-ab ...]
+   #tr.en: If a city’s mouth is rag[ing: ...]
+9. DIŠ URU KA-šu₂ i-dam-mu#-[um ...]
+   #tr.en: If a city’s mouth is mour[ning: ...]
+10. DIŠ URU KA-šu₂ i-ra-[am-mu]-um URU [BI ...]
+   #tr.en: If a city’s mouth is ro[ar]ing: [that] city [...]
+11. DIŠ URU KA-šu₂ GU₃.[DE₂].DE₂ URU BI BIR#
+   #tr.en: If a city’s mouth is [repeatedly] shouting: that city will be dispersed.
+12. DIŠ URU KI.TA-nu-šu₂ DU-ma KA-šu₂ GIM KARAŠ ERIN₂ i-had-du-ud URU BI ar₂-hiš BIR.BIR.RI
+   #tr.en: If a city’s underground moves and its mouth is grumbling like an army camp: that city will soon be utterly dispersed.
+13. DIŠ URU KA-šu₂ ka-a-a-ma-na ne-e-eh URU BI i-sa-dir-ma DU
+14. DIŠ URU IGI.MEŠ-šu₂ uh-te-ep-pu-[u₂ UR]U BI ar₂-bu-ta₅ DU
+   #tr.en: If a city’s face is destroy[ed:] that [cit]y will go to ruin.
+15. DIŠ URU SAG-su ana ŠA₃ AN-e IL₂ URU BI ŠUB
+   #tr.en: If a city’s head is raised into the sky: that city will be abandoned.
+16. DIŠ URU GIM ŠU.SI KUR ana ŠA₃ AN-e I[L₂ UR]U BI kar-meš im-me
+   #tr.en: If a city is raised into the sky like a mountain peak: that city will be turned into ruins.
+17. DIŠ URU.MEŠ GIM DUNGU ana AN-e il-[...] DI.BI.RI IGI
+   #note: @bib{RN1175@42–43} suggested to reconstruct the verb @i{illû} in the protasis (reading @akk{il-lu₄}). The idea has been taken over by @bib{RN2721@E 304} (@akk{ill[û]}) and @bib{RN252@234 n. 37} (@akk{il-[lu-u₂]}). Cf. the reconstruction of @bib{RN148@26–27} (@akk{il-[mu?]} “(If cities) rise”).
+   #tr.en: If cities ... [...] to the sky like a cloud: [...] will experience misfortune.
+18. DIŠ URU.MEŠ E₂.KUR.MEŠ SAG-su-nu a-na AN-e it-ta-na-aš-ša-a SUHUŠ KUR NU GI.NA {giš}GU.ZA NIŠ-ni ŠA₃ KUR NU DUG₃.GA
+   #tr.en: If the heads of cities’ temples persistently rise to the sky: the foundations of the land are not firm, the throne will change (and) the mood of the land will not be good.
+19. DIŠ URU GIM GAM la-mi [...]
+   #tr.en: If a city is surrounded as if by a circle: [...]
+20. DIŠ URU IGI.MEŠ-šu₂ kat₃-mu [...]
+   #tr.en: If a city’s face is covered: [...]
+21. DIŠ# URU# IGI#.MEŠ#-šu₂ he-p[u-u₂ ...]
+   #tr.en: If a city’s face is destroy[ed: ...]
+22. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+23. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+24. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+25. [DIŠ URU ...] x x [x] URU
+   #tr.en: [If a city ...] ... [...] city.
+26. [DIŠ URU x (x)] ID₂ GAR U[RU] BI GU₃-šu₂ it-ta-na-aš-qu
+   #tr.en: [If a city] is set [along] a river: that c[ity’s] voice will progressivly become supreme.
+27. [DIŠ URU x (x)] ID₂ u {giš}TIR GAR URU BI lib₃-bi UN.BI NU DUG₃.GA
+   #tr.en: [If a city] is set [along] a river and a forest: that city, the mood of its people will not be good.
+28. [DIŠ URU ina A.GA]R₃ SUG GAR URU BI GIG.MEŠ SA₅.MEŠ
+   #tr.en: [If a city] is set [in] a marshy [arab]le land: sicknesses will fill that city.
+29. [DIŠ URU ina] (x) x na-di-i GAR URU BI ŠA₃.BI DUG₃.GA
+   #note: @bib{RN148} reads @akk{A].GAR₃ na-di-i} and translates “fallow land”, which seems excluded for epigraphic reasons (cf. the sign @akk{GAR₃} in the following line).
+   #tr.en: [If a city] is set [in] a fallow ... : that city, its ambience will be good.
+30. [DIŠ URU ina] A#.GAR₃ GAR URU BI ŠA₃ UN.BI i-par₂-ru-ud
+   #tr.en: [If a city] is set [in] the arable land: that city’s people will be fearful.
+31. [DIŠ URU AN].TA-nu E₂ DINGIR GAR URU BI ŠA₃ UN.BI NU DUG₃.GA
+   #tr.en: [If a city] is set [up](stream) of a temple: that city, the mood of its people will not be good.
+32. [DIŠ U]RU KI.TA-nu E₂ DINGIR GAR URU BI DINGIR.MEŠ-šu₂ SILIM-mu-šu₂
+   #tr.en: [If a c]ity is set down(stream) of a temple: that city, its gods will keep it well.
+33. [DIŠ U]RU AN.TA-nu E₂.GAL GAR URU BI DU₁₄ sad-rat-su
+   #tr.en: [If a c]ity is set up(stream) of a palace: that city, strife will be constant for it.
+34. DIŠ URU KI.TA-nu E₂.GAL GAR URU BI UN.BI BIR.MEŠ
+   #tr.en: If a city is set down(stream) of a palace: that city’s people will be dispersed.
+35. DIŠ URU tub₂-qi₂-na-šu₂ iš-qu URU BI ŠUB-di
+36. DIŠ URU MIN (tub₂-qi₂-na-šu₂) IZI GU₇ URU BI UŠ₂.MEŠ ŠUB.MEŠ-šu
+   #tr.en: If fire consumes a city’s ditto (dump): that city, plague will befall it.
+37. DIŠ URU MIN (tub₂-qi₂-na-šu₂) AN.TA-nu GAR-at URU BI ŠUB-di
+   #tr.en: If a city’s ditto (dump) is situated up(stream): that city will be abandoned.
+38. DIŠ URU MIN (tub₂-qi₂-na-šu₂) MUL.MEŠ SA₅.MEŠ URU BI {lu₂}KUR₂ GAZ-šu₂
+   #tr.en: If stars fill a city’s ditto (dump): an enemy will destroy that city.
+39. DIŠ URU MIN (tub₂-qi₂-na-šu₂) DINGIR.MEŠ SA₅.MEŠ URU BI NIG₂.GIG IGI
+   #tr.en: If gods fill a city’s ditto (dump): that city will experience ill fortune.
+40. DIŠ URU MIN (tub₂-qi₂-na-šu₂) GE₆ URU a-ši-bu-šu UKU₂.MEŠ
+   #tr.en: If a city’s ditto (dump) is black: that city’s inhabitants will become poor.
+41. DIŠ URU MIN (tub₂-qi₂-na-šu₂) SA₅ URU BI ŠA₃.BI NU DUG₃.GA
+   #tr.en: If a city’s ditto (dump) is red: that city, its ambience will not be good.
+42. DIŠ URU MIN (tub₂-qi₂-na-šu₂) SIG₇ URU BI i-ša-ru-ta₅ : na-mu-ta₅ DU-ak
+   #tr.en: If a city’s ditto (dump) is green: that city will prosper (or) will become desolate.
+43. DIŠ URU MIN (tub₂-qi₂-na-šu₂) UR.GI₇.MEŠ NIGIN-ar₂ URU BI ina ŠA₃.BI DU₁₄ sad-rat
+   #tr.en: If a city’s ditto (dump) is making dogs turn around: strife will be constant in that city’s hearts.
+44. DIŠ URU MIN (tub₂-qi₂-na-šu₂) UR.GI₇-MEŠ u₂-šal-ma URU BI DINGIR.MEŠ-šu₂ TAG₄.MEŠ-šu₂ ZI KUR₂
+   #tr.en: If a city’s ditto (dump) is making dogs circle: that city, its gods will leave it; uprising of an enemy.
+45. DIŠ URU MIN (tub₂-qi₂-na-šu₂) TU{mušen}.MEŠ u₂-šad-ma-am URU BI ŠU.BI.GIM.NAM (DINGIR.MEŠ-šu₂ TAG₄.MEŠ-šu₂ ZI KUR₂)
+   #tr.en: If a city’s ditto (dump) makes doves mourn: that city likewise (its gods will leave it; uprising of an enemy).
+46. DIŠ URU MIN (tub₂-qi₂-na-šu₂) GIM ZA.GIN₃.DURU₅ URU BI E₂ DINGIR-šu₂ E₂ LUGAL-šu₂ u E₂ UN.ME-šu₂ GAZ.ME
+   #tr.en: If a city’s ditto (dump) (is) like lapis lazuli: the house of that city’s god, the house of its king and the house(s) of its people will be destroyed.
+47. DIŠ URU MIN (tub₂-qi₂-na-šu₂) GIM ka-a-pi ID₂ u₂-kal URU BI HUL DAB-su
+   #tr.en: If a city’s ditto (dump) holds back a river like an embankment: that city, evil will afflict it.
+48. DIŠ URU MIN (tub₂-qi₂-na-šu₂) šap-lat URU BI KI.TUŠ NE.HA DUR₂-ab
+   #tr.en: If a city’s ditto (dump) is low: that city will live a quiet life.
+49. [DIŠ] URU MIN (tub₂-qi₂-na-šu₂) ra-aq URU BI ŠU.BI.AŠ.AM₃ (KI.TUŠ NE.HA DUR₂-ab)
+   #tr.en: [If] a city’s ditto (dump) is empty: that city likewise (will live a quiet life).
+50. DIŠ URU MIN (tub₂-qi₂-na-šu₂) {u₂}KUŠ₈.MEŠ u₂-še-ṣa-a URU BI NINDA nap-ša GU₇
+   #tr.en: If a city’s ditto (dump) grows cucumbers: that city will have abundant food to eat.
+51. [DIŠ URU MI]N (tub₂-qi₂-na-šu₂) U₂.KUR.RA u₂-še-ṣa-a URU BI ABUL-šu₂ KUR₂ NIGIN-mi
+   #note: According to @bib{temp_id_6379870487548291@50–51}, who follows @bib{RN2331@336}, @akk{nīnû} should be translated as “mint”.Std 51. %n [šumma ālu] (tubqinnašu) nīnâ ušēṣâ ālu šū abullašu nakru ilammi
+   #tr.en: [If a city’s dit]to (dump) grows bishopsweed(?): an enemy will surround that city’s gate.
+52. [DIŠ URU MIN (tub₂-qi₂-na-šu₂) {u₂}GA]MUN u₂-še-ṣa-a URU BI UR.BAR.RA.MEŠ ZI.ME-šu₂
+   #tr.en: [If a city’s ditto (dump)] grows [cu]min: that city, wolves will rise against it.
+53. DIŠ URU MIN (tub₂-qi₂-na-šu₂) il-lu-ra MIN URU BI DINGIR-šu₂ ARHUŠ GAR-šu₂
+   #tr.en: If a city’s ditto (dump) grows anemone: that city’s god will grant mercy on it.
+54. [DIŠ URU MIN (tub₂-qi₂-na-šu₂) (...)] du# DIRI URU BI UN.MEŠ-šu₂ ip-pe-le-ka
+   #tr.en: [If a city’s ditto (dump) (...)] ... is oversized: that city’s people will expand.
+55. [DIŠ URU MIN (tub₂-qi₂-na-šu₂) (...)] x x du DIRI URU BI SUH₃ : HUL IGI
+   #tr.en: [If a city’s ditto (dump) (...)] ... is oversized: that city will experience confusion (or) evil.
+56. [DIŠ URU MIN (tub₂-qi₂-na-šu₂) ... URU] BI ar₂-nu DAB-su
+   #tr.en: [If a city’s ditto (dump) ...:] punishment will afflict that [city].
+57. DIŠ URU tub₂-[qi₂-na-šu₂ ... URU] BI DINGIR-šu₂ ana SIG₅-ti₃ UŠ.ME-šu₂
+   #tr.en: If a city’s du[mp ...:] that [city’s] god will follow it with good fortune.
+58. DIŠ URU MIN (tub₂-qi₂-na-šu₂) x [... URU] BI UN.MEŠ-šu₂ x x [...]
+   #tr.en: If a city’s ditto (dump) [...], that [city]’s people ... [...]
+59. DIŠ URU MIN# (tub₂-qi₂-na-šu₂) [...]
+   #tr.en: If a city’s ditto (dump) [...]
+60. DIŠ URU# MIN# (tub₂-qi₂-na-šu₂) [...]
+   #tr.en: If a city’s ditto (dump) [...]
+61. DIŠ# [URU MIN (tub₂-qi₂-na-šu₂) ...]
+   #tr.en: If [a city’s dump ...]
+62. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+63. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+64. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+65. [DIŠ URU ...]
+   #tr.en: [If a city ...]
+66. DIŠ URU SILA-šu₂ i-sa₃-hur ŠUB-e URU
+   #tr.en: If a city’s street winds: abandonment of the city.
+67. DIŠ URU SILA-šu₂ LU₂ x [...]
+   #tr.en: If a city’s street, a man [...]
+68. DIŠ URU SILA-šu₂ LU₂ x [...]
+   #tr.en: If a city’s street, a man [...]
+69. DIŠ URU SILA-šu₂ UN.MEŠ u₂-šad-ma-am URU BI DINGIR-šu₂ ARHUŠ-šu
+   #note: The combined information of NinNB1b and BabLB3 suggests that we have a total of at least 5 omens starting with @akk{DIŠ URU SILA-šu₂ UN.MEŠ}. As the excerpt tablet shows a single ruling between the SILA and the following GURUŠ section, we can assume a separation of the two sections in the serial tablets.Std 69. %n šumma ālu sūqšu nišī ušadmam ālu šū ilšu irêmšu
+   #tr.en: If a city’s street makes people mourn: that city’s god will have mercy on it.
+70. DIŠ URU SILA-šu₂ UN.[MEŠ ...]
+   #tr.en: If a city’s street [...] peop[le: ...]
+71. DIŠ URU SILA-šu₂ UN#.MEŠ [x x x x UR]U B[I x x x (x)]
+   #tr.en: If a city’s street [makes(?)] people [...: th]at ci[ty ...]
+72. DIŠ URU SILA-[šu₂ UN].MEŠ x [(x x)] X.MEŠ [x x (x)]
+   #note: maybe read @akk{GURUŠ#.MEŠ} at the beginning of the apodosis.
+   #tr.en: [If a city’s street] is ... [with peo]ple: ... [...]
+73. [DIŠ URU SILA-šu₂ U]N.MEŠ SA₅ [(x x)] A.GAR₃ UR[U x x]
+   #tr.en: [If a city’s street] is filled with [peo]ple: the arable land of the cit[y ...]
+74. [DIŠ URU UN?.MEŠ]-šu₂ HABRUD.MEŠ pu-ut-tu-u₂ GIG.MEŠ [x (x)]
+   #note: The placement of the signs in BabLB3 suggests that the beginning of the protasis changes with this omen. As the verb in this and the following omen needs a 3rd person plural as subject, the reconstruction with @akk{UN.MEŠ-šu₂} is plausible. The single ruling after omen 75(76) indicates that we cannot yet assume a protasis starting with @akk{DIŠ URU GURUŠ.MEŠ-šu₂} (as attested in the next section).
+   #tr.en: [If a city’s inhabitants(?)] open up holes: illnesses(?) [...]
+75. [DIŠ URU UN?.ME]Š-šu₂ ma-gal im-tah-hu-u₂ URU BI NIG₂.G[IG IGI]
+   #note: The single ruling is also present on NinNAEx1, see note to omen 69(70).
+   #tr.en: [If a city’s inhabitant]s(?) go exceedingly into a trance: that city [will experience ill] fortune.
+76. [DIŠ URU GURUŠ.M]EŠ-šu₂ qa-a-lu# URU BI x x [x (x)]
+   #tr.en: [If a city’s young me]n are silent: that city ... [...]
+77. DIŠ URU GURUŠ.MEŠ-šu₂ DUG₃.GA URU BI SILIM.MA I₃.TUKU
+   #tr.en: If a city’s young men are good: that city will have peace.
+78. DIŠ URU GURUŠ.MEŠ-šu₂ HUL URU BI ŠU DINGIR-šu
+   #tr.en: If a city’a young men are evil: that city (will suffer from) the hand of its god.
+79. DIŠ# URU# GURUŠ.MEŠ-šu₂ i-dul-lu URU BI ŠU HUL#-[x]
+   #tr.en: If a city’s young men wander about aimlessly: that city (will suffer from) the hand of evil.
+80. DIŠ# URU# GURUŠ.MEŠ-šu₂ up-tah-ha-ru BIR il-la-[ti]
+   #tr.en: If a city’s young men are gathering together: dispersal of the troops.
+81. DIŠ ABUL URU ša₂-qa-at ŠA₃# URU BI NU DUG₃#.G[A]
+   #tr.en: If the city’s gate grows high: the ambience of that city will not be goo[d].
+82. DIŠ ABUL# URU šap-lat ŠA₃# URU# BI# DUG₃#.G[A]
+   #tr.en: If the city’s gate lies low: the ambience of that city will be goo[d].
+83. DIŠ i-na URU MAŠ.TAB.BA-MEŠ ma-aʾ-du ŠUB#-e# URU
+   #tr.en: If twins are numerous in a city: abandonment of the city.
+84. [DIŠ ina UR]U BA#.AN#.ZA#.MEŠ MIN (ma-aʾ-du) na-zaq KUR [x x]
+   #tr.en: [If] crippled men ditto (are numerous) [in a cit]y: trouble for the country, [...]
+85. DIŠ ina URU {munus}BA.AN.ZA.MEŠ MIN (ma-aʾ-du) URU# BI ŠA₃.BI DUG₃.GA
+   #note: Despite the fact that the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{pessâtu}.
+   #tr.en: If crippled women ditto (are numerous) in a city: that city’s ambience will be good.
+86. DIŠ ina URU LIL.MEŠ MIN (ma-aʾ-du) lib₃#-bi# URU DUG₃.GA
+   #tr.en: If idiots ditto (are numerous) in a city: the ambience of the city is good.
+87. DIŠ ina URU {munus}LIL.MEŠ MIN (ma-aʾ-du) URU B[I] KI#?.TUŠ#? NE#.HA DUR₂-[ab]
+   #note: Despite the fact that the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{lillātu}.
+   #tr.en: If female idiots ditto (are numerous) in a city: th[at] city will live a quiet life.
+88. DIŠ ina URU rab-bu-tu₄ MIN (ma-aʾ-du) nu-kur₂-tu₄ LUGAL.MEŠ
+   #note: The translation follows @bib{RN148@33}. @bib{StRevFr98@217 n. 3} suggests @i{rabbûtu} “great men”.Std 88. %n šumma ina āli rabbūtu (maʾdū) nukurtu šarrī
+   #tr.en: If soft men ditto (are numerous) in a city: enmity (among) kings.
+89. DIŠ ina URU KU₃.ZU.MEŠ MIN (ma-aʾ-du) ŠUB-e URU
+   #note: Cf. the translation by @bib{RN160@192 n. 894} with earlier suggestions for @akk{KU₃.ZU.MEŠ}.
+   #tr.en: If wise men ditto (are numerous) in a city: abandonment of the city.
+90. DIŠ ina URU šu-ul-la-nu MIN (ma-aʾ-du) BIR [URU]
+   #tr.en: If men with warts ditto (are numerous) in a city: dispersal [of the city].
+91. DIŠ ina URU LU₂.SA₅.MEŠ MIN (ma-aʾ-du) lib₃-bi URU BI DUG₃.GA
+   #note: the translation “red men” follows @bib{RN148@33}; see also her commentary on p. 32.
+   #tr.en: If red(?) men ditto (are numerous) in a city: the ambience of that city will be good.
+92. DIŠ ina URU bi-ir-du.MEŠ MIN (ma-aʾ-du) BIR URU
+   #tr.en: If pockmarked men ditto (are numerous) in a city: disperal of the city.
+93. DIŠ ina URU U₂.HUB.MEŠ MIN (ma-aʾ-du) lib₃-bi URU BI DUG₃.GA
+   #tr.en: If deaf men ditto (are numerous) in a city: the ambience of that city will be good.
+94. DIŠ ina URU IGI.NU.TUKU.MEŠ MIN (ma-aʾ-du) na-zaq URU
+   #tr.en: If blind men ditto (are numerous) in a city: trouble for the city.
+95. DIŠ ina URU KUR.GAR.RA.MEŠ MIN (ma-aʾ-du) BIR [URU]
+   #tr.en: If @i{kurgarrû}-performers ditto (are numerous) in a city: disperal [of the city].
+96. DIŠ ina URU pe-tu-u₂.MEŠ MIN (ma-aʾ-du) na-zaq [URU]
+   #note: @bib{RN148@33} translates @akk{pe-tu-u₂} as “openers”. For @i{pētû} “gatekeeper” see @bib{RN2721@P 358}.Std 96. %n šumma ina āli pētû (maʾdū) nazāq [āli]
+   #tr.en: If gatekeepers ditto (are numerous) in a city: trouble for the city.
+97. DIŠ ina URU KUD.KUD.MEŠ MIN (ma-aʾ-du) na-zaq U[RU]
+   #tr.en: If cripples ditto (are numerous) in a city: trouble for the c[ity].
+98. DIŠ ina URU AD₄.MEŠ MIN (ma-aʾ-du) BIR [URU]
+   #tr.en: If disabled men ditto (are numerous) in a city: disperal [of the city].
+99. DIŠ ina URU {lu₂}KAŠ₄.MEŠ MIN (ma-aʾ-du) BIR URU
+   #tr.en: If runners ditto (are numerous) in a city: disperal of the city.
+100. DIŠ ina URU {lu₂}GUB.BA.MEŠ MIN (ma-aʾ-du) na-zaq [URU]
+   #tr.en: If ecstatics ditto (are numerous) in a city: trouble [for the city].
+101. DIŠ ina URU {munus}GUB.BA.MEŠ MIN (ma-aʾ-du) na-zaq URU
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{mahhâtu}.
+   #tr.en: If female ecstatics ditto (are numerous) in a city: trouble for the city.
+102. DIŠ ina URU a-ku-u₂.MEŠ MIN (ma-aʾ-du) BIR [URU]
+   #note: @bib{RN148@33} understands @i{akû} as “weaklings”. For the translation “cripples”, see @bib{RN2721@A/1 284} (sub @i{akû} B “crippled, deformed”).
+   #tr.en: If cripples ditto (are numerous) in a city: disperal [of the city].
+103. DIŠ ina URU la i-ša₂-ru-ti MIN (ma-aʾ-du) na-zaq URU
+   #note: For the different meanings of @i{lā išarū}, see @bib{RN2721@I-J 226} (“abnormal, unjust, impure, impotent”).
+   #tr.en: If abnormal men ditto (are numerous) in a city: trouble for the city.
+104. DIŠ ina URU {lu₂}NI₂.ZU.MEŠ MIN (ma-aʾ-du) na-zaq URU
+   #tr.en: If thieves ditto (are numerous) in a city: trouble for the city.
+105. DIŠ ina URU e-piš BALAG MIN (ma-aʾ-du) BIR URU
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its singular form here, as it refers to @i{ēpiš ṣirhi}.
+   #tr.en: If mourners ditto (are numerous) in a city: dispersal of the city.
+106. DIŠ ina URU šab-ru-u₂ MIN (ma-aʾ-du) BIR URU
+   #tr.en: If dream interpreters ditto (are numerous) in a city: dispersal of the city.
+107. DIŠ ina URU šab-ra-tu₄ MIN (ma-aʾ-du) BIR URU
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{šabrâtu}.
+   #tr.en: If female dream interpreters ditto (are numerous) in a city: dispersal of the city.
+108. DIŠ ina URU LU₂.DINGIR.RE.E.NE.MEŠ MIN (ma-aʾ-du) na-zaq URU
+   #tr.en: If consecrated men ditto (are numerous) in a city: trouble for the city.
+109. DIŠ ina URU mut-ta-ʾi-lu-tu₄ MIN (ma-aʾ-du) na-zaq URU
+   #note: The translation follows CAD M/2 304 (derived from @i{utūlu}).
+   #tr.en: If performers of incubation(?) ditto (are numerous) in a city: trouble for the city.
+110. DIŠ ina URU hu-up-pu-u₂ MIN (ma-aʾ-du) lib₃-bi URU DUG₃.GA
+   #tr.en: If acrobats ditto (are numerous) in a city: the ambience of the city will be good.
+111. DIŠ ina URU {lu₂}HAL.MEŠ MIN (ma-aʾ-du) BIR URU
+   #tr.en: If diviners ditto (are numerous) in a city: dispersal of the city.
+112. DIŠ ina URU U₂.BIL.MEŠ MIN (ma-aʾ-du) BIR URU
+   #note: For the @i{upillû} see @bib{RN2721@U 179} (“charcoal gatherer”) and @bib{RN2720@1423} (“Köhler”).
+   #tr.en: If charcoal makers ditto (are numerous) in a city: dispersal of the city.
+113. DIŠ i-na URU A.BIL.MEŠ MIN (ma-aʾ-du) BIR URU
+   #note: for the @i{āpilu}-prophet, see @bib{NABU2006-88@no. 88} (with earlier literature).
+   #tr.en: If @i{āpilu}-prophets ditto (are numerous) in a city: dispersal of the city.
+114. DIŠ ina URU za-ab-bi-lu MIN (ma-aʾ-du) DAM šum-šu₂ ina KUR TUR
+   #tr.en: If sheaf-carriers ditto (are numerous) in a city: a spouse’s reputation will diminish in the land.
+115. DIŠ ina URU {lu₂}DAM.GAR₃.MEŠ MIN (ma-aʾ-du) ne-rub-tu₄ ina KUR GAL₂
+   #tr.en: If merchants ditto (are numerous) in a city: a rout will occur in the land.
+116. DIŠ ina URU GAL.ŠUBUR.MEŠ MIN (ma-aʾ-du) GIG dan-nu ina KUR GAL₂
+   #tr.en: If butchers ditto (are numerous) in a city: a severe illness will occur in the land.
+117. DIŠ ina URU ša-ki-nu MIN (ma-aʾ-du) KI.LAM ina KUR TUR
+   #tr.en: If date contractors ditto (are numerous) in a city: the market rate will diminish in the land.
+118. DIŠ ina URU {lu₂#}KURUN.NA.MEŠ MIN (ma-aʾ-du) UN#.MEŠ BIR.MEŠ KI.LAM TUR
+   #tr.en: If innkeepers ditto (are numerous) in a city: people will be dispersed, the market rate will diminish.
+119. DIŠ ina URU ša₂ ki-na-a-ti MIN (ma-aʾ-du) ŠU.BI.GIM.NAM
+   #tr.en: If loyal people ditto (are numerous) in a city: likewise (people will be dispersed, the market rate will diminish).
+120. DIŠ ina URU hab-bi-lu MIN (ma-aʾ-du) UN KUR BIR.MEŠ
+   #note: The reading @i{habbilu} was already assumed by @bib{BiggsRevSF@319}.
+   #tr.en: If lawless people ditto (are numerous) in a city: people of the land will be dispersed.
+121. DIŠ ina URU IŠIB.BAN₃.DU TUR.TUR MIN (ma-aʾ-du) na-zaq URU
+   #note: For the reading @i{išibbandû}, see @bib{de_zorzi_2021@199–200}.
+   #tr.en: If young low ranking purification priests ditto (are numerous) in a city: trouble for the city.
+122. DIŠ ina URU x-pi-ra-a-tu₂ MIN (ma-aʾ-du) BI[R URU]
+   #note: @bib{de_zorzi_2021@199–200} suggests reading @akk{ša₂#-a#-pi-ra-a-tu₂}, but the traces on BM.55550 do not correspond to @akk{ša₂#-a#}-. Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to a feminine plural.
+   #tr.en: If ... ditto (are numerous) in a city: dispers[al of the city].
+123. DIŠ ina URU bu-ru#-u₂#? MIN (ma-aʾ-du) na-zaq# [URU]
+   #note: The reading bu-ru-u₂ remains uncertain in both manuscripts. @bib{RN148@35} as well @bib{de_zorzi_2021@199} translate the term as @i{burrû}-official/priest (only attested in lexical lists), which is normally written @i{bur-} or @i{bu-ur-}. However, the writing @akk{bu-ru-u₂} is well attested for@i{burû} “reed mat”, even though this might make less sense in the present context.Std 123. %n šumma ina āli burû? (maʾdū) nazāq [āli]
+   #tr.en: If reed-mats(?) ditto (are numerous) in a city: trouble for [the city].
+124. DIŠ ina URU me-lul-tu₄ MIN# (ma-aʾ-du) na#-zaq URU
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its singular form here, as it refers to @i{mēlultu}.
+   #tr.en: If play ditto (is frequent) in a city: trouble for the city.
+125. DIŠ ina URU za-am-mi-ru MIN (ma-aʾ-du) NAM.KUR₂ ina KUR GAL₂
+   #tr.en: If singers ditto (are numerous) in a city: enmity will appear in the land.
+126. DIŠ ina URU GID₂.DA.MEŠ MIN (ma-aʾ-du) im-ṭu-u₂ ina KUR GAR-an
+   #tr.en: If tall people ditto (are numerous) in a city: shortages will occur in the land.
+127. DIŠ ina URU LUGUD₂.DA.MEŠ MIN (ma-aʾ-du) me-neš-<ti> KUR
+   #tr.en: If short people ditto (are numerous) in a city: weakness of the land.
+128. DIŠ ina URU hab-ba-tu MIN (ma-aʾ-du) NAM.KUR₂ ina KUR I₃.GAL₂
+   #tr.en: If robbers ditto (are numerous) in a city, enmity will appear in the land.
+129. DIŠ ina URU ha-ni-qu MIN (ma-aʾ-du) NAM.KUR₂ ina KUR I₃.GAL₂
+   #tr.en: If stranglers ditto (are numerous) in a city: there will be enmity in the land.
+130. DIŠ ina URU tub₂-qi₂-nu MIN (ma-aʾ-du) lib₃-bi URU BI NU DUG₃.GA
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its singular form here, as it refers to @i{tubqinnu}.Std 130. %n šumma ina āli tubqinnu (maʾdat) libbi āli šuāti ul iṭâb
+   #tr.en: If dumps ditto (are numerous) in a city: the ambience of that city will not be good.
+131. DIŠ ina URU ma-ah-hi-ru MIN (ma-aʾ-du) ša-ga-aš-tu₄ ina KUR GAR-an
+   #tr.en: If receivers (of stolen goods) ditto (are numerous) in a city: slaughter will occur in the land.
+132. DIŠ ina URU ek-ke-mu MIN (ma-aʾ-du) KUR TUR
+   #tr.en: If thiefs ditto (are numerous) in a city: the land will diminish.
+133. DIŠ ina URU e-piš ni-kil-tu₄# MIN# (ma-aʾ-du) lib₃-bi URU B[I] DUG₃.GA
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its singular form here, as it refers to @i{ēpiš nikiltu}.
+   #tr.en: If tricksters ditto (are numerous) in a city: the ambience of th[at] city will be good.
+134. DIŠ ina URU x x.MEŠ [MIN (ma-aʾ-du)] URU#? BI# KUR₂# KUR-ad₂
+   #tr.en: If ... ditto (are numerous) in a city: an enemy will conquer that city(?).
+135. DIŠ ina URU kul-ma-ša-a-t[u₄ MIN (ma-aʾ-du) BI]R URU
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{kulmašâtu}.
+   #tr.en: If @i{kulmašītu}-devote[es ditto (are numerous)] in a city: [disper]sal of the city.
+136. DIŠ ina URU NU.GIG.MEŠ# MIN (ma-aʾ-du) x in-na-dar
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{qašdātu}.
+   #tr.en: If @i{qadīštu}-devotees ditto (are numerous) in a city: ... will be disturbed.
+137. DIŠ ina URU na-du-u₂ MIN (ma-aʾ-du) GAR-un [K]I.SIKIL.MEŠ
+   #tr.en: If @i{nadû}-men ditto (are numerous) in a city: assignment of [g]irls.
+138. DIŠ ina URU na-da-a-tu₄ MIN (ma-aʾ-du) GAR#-un# [K]I.SIKIL.MEŠ
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its feminine plural form here, as it refers to @i{nadâtu}.
+   #tr.en: If @i{nadītu}-women ditto (are numerous) in a city: assignement of girls.
+139. DIŠ ina URU ni-šu-ut DINGIR-ti MIN (ma-aʾ-du) ŠA₃ URU BI DUG₃.GA
+   #note: Even though the sign MIN repeats the masculine plural form of omen 84(85), the verb is rendered in its singular form here, as it refers to @i{nišūt ilūti}.Std 139. %n šumma ina āli nišūt ilūti (maʾdat) libbi āli šuāti iṭâb
+   #tr.en: If consecrated personnel ditto (are numerous) in a city: the ambience of that city will be good.
+140. DIŠ ina URU {lu₂}NAGAR.MEŠ MIN (ma-aʾ-du) ŠA₃ URU BI DUG₃.GA
+   #tr.en: If carpenters ditto (are numerous) in a city: the ambience of that city will be good.
+141. DIŠ ina URU {lu₂}AD.KID.MEŠ MIN (ma-aʾ-du) ŠA₃ URU BI DUG₃.GA
+   #tr.en: If reedworkers ditto (are numerous) in a city: the ambience of that city will be good.
+142. DIŠ ina URU {lu₂}ŠIDIM.MEŠ MIN (ma-aʾ-du) ŠA₃ URU BI DUG₃.GA
+   #tr.en: If masons ditto (are numerous) in a city: the ambience of that city will be good.
+143. [D]IŠ ina# URU {lu₂}BAHAR₂.MEŠ MIN (ma-aʾ-du) šu-bat URU BI SILIM-im
+   #tr.en: If potters ditto (are numerous) in a city: that city’s residential section will be peaceful.
+144. [DIŠ ina UR]U {lu₂}KU₃.DIM₂.MEŠ MIN (ma-aʾ-du) KUR₂ ina KUR I₃.GAL₂
+   #tr.en: [If] jewelers ditto (are numerous) [in a ci]ty: an enemy will appear in the land.
+145. [DIŠ ina UR]U {lu₂}SIMUG.MEŠ MIN (ma-aʾ-du) NIG₂.HA.LAM.MA ina KUR I₃.GAL₂
+   #tr.en: [If] smiths ditto (are numerous) [in a cit]y: destruction will occur in the land.
+146. [DIŠ ina U]RU E₂.MEŠ# GUL#.MEŠ# nu-kur₂-tu₄# ina KUR I₃.GAL₂
+   #tr.en: [If] houses are destroyed [in a cit]y: enmity will occur in the land.
+147. [DIŠ ina URU] E₂#.[MEŠ? ...]-su
+   #tr.en: [If] hou[ses ... in a city: ...] ...
+148. [DIŠ ina URU ...]
+   #tr.en: [If in a city ...]
+149. [DIŠ ina URU ...]
+   #tr.en: [If in a city ...]
+150. [DIŠ ina URU ...]
+   #tr.en: [If in a city ...]
+151. [DIŠ ina URU ...]
+   #tr.en: [If in a city ...]
+152. [DIŠ ina URU ...]
+   #tr.en: [If in a city ...]
+153. [DIŠ ina] URU MUNUS.MEŠ SU₆ zaq-na KUR BAD₄ DIB-bat
+   #note: The excerpt tablets NinNAEx1 and NinNAEx3 give only this omen for a presumably longer section on women. It is separated from the preceding and following omens by a single ruling.
+   #tr.en: [If] women [in] a city have beards: hardship will afflict that land.
+154. [DIŠ KI.U]Š {d}LU₂.HUŠ.A ina URU IGI URU BI i-har-ru-ub
+   #note: As the omen is only known from the excerpt tablet, its placement is tentative.
+   #tr.en: [If the footpri]nt of Luhuššu is seen in a city: that city will lie waste.
+155. [DIŠ KI.UŠ] {d}ANZU{mušen} ina URU IGI URU BI ŠU DINGIR KUR-su#
+   #note: As the omen is only known from the excerpt tablet, its placement is tentative.Std 155. %n [šumma kibis] anzî ina āli innamir ālu šū qāt ili ikaššassu
+   #tr.en: [If the footprint] of Anzu is seen in a city: the hand of a god will affect that city.
+156. [DIŠ KI.UŠ] {d}ALAD ina URU IGI URU BI i-har-ru#-[ub]
+   #note: As the omen is only known from the excerpt tablet, its placement is tentative.Std 156. %n [šumma kibis] šēdi ina āli innamir ālu šū iharr[ub]
+   #tr.en: [If the footprint] of a @i{šēdu} is seen in a city: that city will lie wa[ste].
+157. [DIŠ ...]
+   #tr.en: [If ...]
+158. [DIŠ ...]
+   #tr.en: [If ...]
+159. [DIŠ ...]
+   #tr.en: [If ...]
+160. [DIŠ ...]
+   #tr.en: [If ...]
+161. [DIŠ ...]
+   #tr.en: [If ...]
+162. [DIŠ ...]
+   #tr.en: [If ...]
+163. [DIŠ ...]
+   #tr.en: [If ...]
+164. [DIŠ ...]
+   #tr.en: [If ...]
+165. [DIŠ ...]
+   #note: @bib{RN148@57} puts this line parallel to NinNAEx1 l. 29. However, the traces in NinNA1a do not point to @akk{KI#.UŠ#}. Furthermore, the KI.UŠ section is separated from the ghost section by a single ruling in the excerpt tablet. It is very likely that the section ending with the GIDIM was much longer, adding, for example, the @akk{{d}ALAD} before the @i{eṭemmu}. For a similar arrangement of topics, cf. VAT 9900+ (AššMAPar1) ii 1'–16' (@akk{KI.US₂} – @akk{{d}ALAD} – @akk{{d}GIDIM₄} – @akk{mi-tu₄ GIM TI.LA} – @akk{ha-lu-la-a-a}) which parallels omens from T.19.
+   #tr.en: [If ...]
+166. DIŠ GID[IM] ina URU IGI URU BI [...]
+   #tr.en: If a gho[st] is seen in a city: that city [...]
+167. DIŠ GIDIM ina U[RU ...]
+   #tr.en: If a ghost [...] in a cit[y ...]
+168. DIŠ GIDIM ina URU KA₂ [GU₃.G]U₃-si URU BI BIR-ah
+   #note: the reconstruction follows @bib{RN148@38}; cf. the similar omens in T.19 ll. 36' and 46'.Std 168. %n šumma eṭemmu ina āli bāba [ištan]assi ālu šū issappah
+   #tr.en: If a ghost [continuously sh]outs out in the city at the gate: that city will be dispersed.
+169. DIŠ LU₂.UŠ₂ GIM TI ina URU IGI URU BI BIR-ah
+   #tr.en: If a corpse like a living person is seen in a city: that city will be dispersed.
+170. DIŠ LU₂.UŠ₂ GIM TI ina URU up-ta-nar-rad URU BI BIR-ah
+   #note: The new line count is confirmed by the ten-count at the beginning of this line in NinNA1a.Std 170. %n šumma mītu kīma balṭi ina āli uptanarrad ālu šū issappah
+   #tr.en: If a corpse like a living person is persistently causing fear in a city: that city will be dispersed.
+171. DIŠ hal-lu-la-a-a ana [AB.MEŠ] URU uš-ta-nar-ri URU BI i-ber-re
+   #note: The reconstruction is based on the variant of BabLB2 in omen 173(164) and follows @bib{RN148@38}.
+   #tr.en: If the (female) @i{hallulaya}-demon is repeatedly leaning into [the windows] of a city: that city will go hungry.
+172. DIŠ MIN (hal-lu-la-a-a) UGU E₂.MEŠ a-sur-re-e u₂-ša₂-az-na-an URU BI i-ber-re
+   #tr.en: If the (female) @i{hallulaya}-demon makes the base course (of masonry) on houses dribble: that city will go hungry.
+173. DIŠ MIN (hal-lu-la-a-a) ina kal u₄-mi a-sur-re-e u₂-ša₂-az₂-na-[an] GU₃.GU₃-si DAG.GI₄.A BI ŠUB
+   # var: [DIŠ hal-l]u-la-a-a ina kal u₄-mu ana AB.MEŠ URU uš-ta-nar-ri | GU₃#.GU₃#-si DAG.GI₄.A BI ŠUB-di
+   #tr.en: If the (female) @i{hallulaya}-demon, all day, makes the base course (of masonry) dribble (and) continuously shouts out: that (city’s) quarter will be abandoned.
+174. DIŠ KIN.GAL.UD.DA ina URU IGI URU BI HUL IGI
+   #note: The protasis is also preserved in the commentary text CTN 4, 49 l. 1 (@akk{[DIŠ KIN].GAL.UD.DA ina URU{ki} IGI-ir}), cf. CCP project (E. Frahm et al. 2013) https://ccp.yale.edu (CCP 3.5.u4).
+   # var: DIŠ KIN.GAL.UD.DA ina URU IGI URU BI uš-tal₂-pat
+   #tr.en: If a @i{muttilu}-demon is seen in a city: that city will experience evil.
+175. DIŠ KIN.GAL.UD.DA ina A.ŠA₃ IGI A.ŠA₃ BI ar₂-bu-ta₅ DU-ak
+   # // D II.6 SB "83" 20'
+   # // D II.6 SB "88" 58
+   #tr.en: If a @i{muttilu}-demon is seen in a field: that field will go to ruin.
+176. DIŠ ik-kil-lu₄ ina E₂.MEŠ UR.BI GU₃.GU₃-si ha-rab URU u na-me-e-šu₂
+   #note: The omen is added on the left edge of NinNAEx1 as a complementary omen to the @i{ikkillu} section of T.2.
+   # // D II.6 SB "88" 15
+   #tr.en: If wailing is resounding in the houses at the same moment: devastation of the city and its outskirts.
+178. DIŠ U₂.KUR.RA ina URU IGI URU BI i-har-ru-ub
+   #note: According to @bib{temp_id_6379870487548291@50–51}, who follows @bib{RN2331@336}, @i{nīnû} should be translated as “mint”.
+   #tr.en: If bishopsweed(?) is seen in a city: that city will lie waste.
+177. DIŠ U₂ ki-di ina URU IGI URU BI i-har-ru-ub
+   #tr.en: If a plant of the open country is seen in a city: that city will lie waste.
+179. [DIŠ ...] x ina URU IGI URU BI i-har-ru-ub
+   #tr.en: [If a ... plant] is seen in a city: that city will lie waste.
+180. DIŠ# {u₂#}KI.KAL ina URU IGI URU BI i-har-ru-ub
+   #note: The new line count is confirmed by a ten-count at the beginning of this line in KalNA1.
+   #tr.en: If grass is seen in a city: that city will lie waste.
+181. DIŠ {u₂}KI.KAL BABBAR ina URU IGI URU BI i-har-ru-ub
+   #tr.en: If white grass is seen in a city: that city will lie waste.
+182. DIŠ mim-ma U₂ EDIN ina URU IGI URU BI i-har-ru-ub
+   #tr.en: If any plant of the plane is seen in a city: that city will lie waste.
+183. [DIŠ K]I.KAL KUR.RA ina URU IGI URU BI i-har-ru-ub
+   #tr.en: [If m]ountain grass is seen in a city: that city will lie waste.
+184. DIŠ IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma ANŠE i-pu-ul-šu₂ LUGAL gu-ti-um UŠ₂
+   #note: In KalNA1 the traces do not fit ANŠE (the sign is too short) suggesting that the Kalhu version originally had another animal sequence (see also KalNA1 r 8' @akk{[E]ME₃?} instead of @akk{ANŠE.GIR₃}). The same might be true for the Nineveh version as reflected by NinNACom1a(+)b. This manuscript places two omens with equids replying (@akk{ANŠE.U} and @akk{ANŠE.GIR₃}) at the end of the section.
+   #tr.en: If, before the daises of my city, a dog yelps and a donkey answers it: the king of Gutium will die.
+185. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ANŠE.GIR₃ MIN (i-pu-ul-šu₂) LUGAL SU.BIR₄{ki} UŠ₂
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a mule ditto (answers it): the king of Subartu will die.
+186. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) UR.BAR.RA MIN (i-pu-ul-šu₂) LUGAL A.GA.DE₃{ki} UŠ₂
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a wolf ditto (answers it): the king of Akkad will die.
+187. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) KA₅?#.A MIN (i-pu-ul-šu₂) LUGAL lul-lu-bu UŠ₂
+   #note: For possible reconstructions of the second animal, see @bib{RN148@41}. In her reconstruction, she favors the KA₅.A = @i{šelēbu} for epigraphic reasons and for the evident scribal play between KA₅ and LUL.Std 187. %n šumma (pān parakkī ālīya kalbu issīma) šelēbu? (īpulšu) šar lullubu imât
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a fox(?) ditto (answers it): the king of Lullubu will die.
+188. DIŠ [MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MI]N (i-pu-ul-šu₂) LUGAL KUR ha-nu{ki} UŠ₂
+   #tr.en: If, [ditto (before the daises of my city, a dog yelps and) a ... dit]to (answers it): the king of the land of Hanu will die.
+189. DIŠ [MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] LUGAL URI{ki} UŠ₂
+   #tr.en: If, [ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the king of Akkad will die.
+190. DIŠ [MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] LUGAL MAR.TU{ki} UŠ₂
+   #tr.en: If, [ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the king of Amurru will die.
+191. DIŠ [MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] UD NUN gam-ru-[tu]
+   #tr.en: If, [ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the days of the prince are full.
+192. DIŠ# [MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] UN.MEŠ : ŠA₃ [....M]EŠ
+   #note: The reconstruction of the apodosis is uncertain.
+   #tr.en: If, [ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the people (or) the heart of(?) [...] ...
+193. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] LUGAL ŠU₂ UN.MEŠ X.MEŠ
+   #note: As the verb is a plural form, nišū has to be the subject of the apodosis. In @bib{RN148@41} the king is taken as subject.
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the people will ... the king of the world.
+194. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] LUGAL ŠU₂ i-qal#-lil
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the king of the world will become weak.
+195. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] UN su-un-qu DAB-bat
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] famine will afflict the people.
+196. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ... MIN (i-pu-ul-šu₂)] UN im-ma-i-da
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) a ... ditto (answers it):] the people will become numerous.
+197. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ...] MIN (i-pu-ul-šu₂) KUR ZAH₂
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) a ...] ditto (answers it): the land will perish.
+198. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) PEŠ₂.U]R₃? MIN (i-pu-ul-šu₂) LUGAL KI.IN.GI UŠ₂#
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) a dor]mouse(?) ditto (answers it): the king of Sumer will die.
+199. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ...] MIN (i-pu-ul-šu₂) DAG URU ši AL.BIR
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) ...] ditto (answers it): that residential quarter of the city will be dispersed.
+200. [DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ...] MIN (i-pu-ul-šu₂) KI.LAM LAL
+   #tr.en: [If, ditto (before the daises of my city, a dog yelps and) ...] ditto (answers it): the market rate will decrease.
+201. [DIŠ] MIN# (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) bi#-ib#-bu#? MIN# (i-pu-ul-šu₂) LUGAL i-qal#-lil#
+   #note: The verb of the apodosis has previously been read as @akk{i-ma-[x]} (@bib{RN148@60}) and reconstructed as @akk{i-ma-[at]} by @bib{de_zorzi_2021@196}. The Babylonian manuscipts suggest that there is no gap between Freedman’s ll. 192 and 202. The reconstruction with @i{bibbu} is tentative, as NinNACom1a might also omit lines.
+   #tr.en: [If,] ditto (before the daises of my city, a dog yelps and) wild sheep(?) ditto (answers it): the king will become weak.
+202. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) AB₂ MIN (i-pu-ul-šu₂) BURU₁₄ URU IGI SI.SA₂
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a cow ditto (answers it): the ... crop of the city will prosper.
+203. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) AB₂.MAH₂ MIN (i-pu-ul-šu₂) BURU₁₄ URU IGI {d}IŠKUR# RA#-iṣ
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a mature cow ditto (answers it): Adad will destroy the ... crop of the city.
+204. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) GU₄ MU.3 MIN (i-pu-ul-šu₂) BURU₁₄ x x nu : x x UŠ₂
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a three-year-old ox ditto (answers it): the crop ... (or) ...
+205. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) GU₄ MU.2 MIN (i-pu-ul-šu₂) BURU₁₄ im-ma-ša₂-aʾ
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a two-year-old ox ditto (answers it): the crop will be taken away by force.
+206. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) GU₄ MU.1 MIN (i-pu-ul-šu₂) BURU₁₄ A i-tab-ba-lu
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a one-year-old ox ditto (answers it): water will carry off the crop.
+207. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) UZ₃ MIN (i-pu-ul-šu₂) LUGAL TIN.TIR{ki} [U]Š₂?
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a goat ditto (answers it): the king of Babylon [will d]ie(?).
+208. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) E₂.GAL MIN (i-pu-ul-šu₂) LUGAL ina mit-lu-k[u U]Š₂?
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) the palace ditto (answers it): the king [will d]ie during deliberat[on].
+209. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) BAD₃ MIN (i-pu-ul-šu₂) iš-pi#-ku# [...]
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) the fortification-wall ditto (answers it): the yield [...]
+210. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) BAD₃.ŠUL.HI MIN (i-pu-ul-šu₂) HE₂.GAL₂ u# [...]
+   #note: NinNA3 shows a 10-count on the left edge.
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) the outer wall ditto (answers it): abundance and [...] ... will decrease.
+210a. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) ANŠE.U MIN (i-pu-ul-šu₂) [...]
+   #note: The apodosis of this omen is not preserved, as the commentary text only gives the protasis of the omen. In l. 8' a gloss-like line follows, starting with a small script that gradually gets bigger. The signs preserved at the end of NinNACom1a r 15' complete the gloss-like line. @bib{RN148@42} suggests that the omen with the animal ANŠE.U might parallel one of the broken omens before l. 201. After the gloss follows another line with the animal ANŠE.GIR₃ that is parallel to omen 185(176). See there for a commentary on the animal sequence in the NA version.
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a ...-equid ditto (answers it): [...]
+211. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) AM.SI MIN (i-pu-ul-šu₂) UN x [...]
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) an elephant ditto (answers it): the people(?) ... [...]
+212. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) AM MIN (i-pu-ul-šu₂) LUGAL [...]
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a wild ox ditto (answers it): the king [...]
+213. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) SUN₂ MIN (i-pu-ul-šu₂) ŠA₃.H[UL ...]
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a wild cow ditto (answers it): gri[ef …]

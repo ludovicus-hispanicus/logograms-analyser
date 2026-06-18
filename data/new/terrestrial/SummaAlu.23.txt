@@ -1,0 +1,131 @@
+---
+genre: terrestrial omens
+period: Neo-Assyrian
+provenance: first-millennium canonical Šumma Ālu (Nineveh, Kalḫu, Assur, Uruk, Sultantepe); Tablet 24 colophon names Kalḫu + an eponym of Sargon II
+publication: S. Freedman, If a City Is Set on a Height, Vol. 2 (OPKF 19, 2006), Tablet 23 (snake omens), Reconstruction (composite text). OCR of the printed Reconstruction; footnotes/translation/colophons excluded.
+counting: DIŠ
+topic: snake omens — canonical Šumma Ālu Tablet 23
+source_note: OCR'd from Freedman 2006. Logograms uppercase, {d} determinatives, subscript indices, [] restoration, x illegible. Italic/markup, collation notes and recension labels stripped. Composite reconstruction (primed line-numbers = omens preserved only on excerpt/duplicate texts); for Tablet 32 the omen numbers restart per recension.
+note: Neo canonical snake omens — topic-controlled counterpart to the Middle-Assyrian snake tablets VAT.13804 / VAT.10523 / VAT.10805 (KAL 1).
+---
+
+@text
+
+1. [DIŠ MUŠ ana UGU N]A ša₂ di-na gi-ru-u₂ ŠUB-ut di-in-šu₂ GID₂.DA GAL₂
+2. [DIŠ MUŠ ana UGU N]A ša₂ di-na gi-r[u-u₂ ŠUB-ut-m]a di-in-šu₂ GID₂.DA NA [...] i-gam-mar
+3. DIŠ [MUŠ] ana UGU NA ša₂ di-na gi-ru-u₂ ŠUB-ut-[...]-šu₂ uš-te-mi-iq-šu₂
+4. DIŠ MUŠ ana UGU NA ša₂ ina ki-li ŠUB-u₂ ŠUB-ut NA BI ina ki-li E[₃]
+5. DIŠ MUŠ LU₂ ša₂ di-na gi-ru-u₂ iš-šuk [...] ki
+6. DIŠ MUŠ iṣ-bur-ma NA ša₂ di-na gi-ru-u₂ x [...] GAL₂-šu₂
+7. DIŠ MUŠ iṣ-bur-ma NA u₂-gal-lid GIG DIB-s[u ...]
+8. DIŠ MUŠ NA ina u₄-mi ri-qi₂ IGI na-za-qu NU DUG₃.GA NA BI ŠU KUR-su
+9. DIŠ MUŠ NA IGI-ma GAZ-šu₂ NA BI a-di-ra-tu-šu₂ NU TE.MEŠ-šu₂ MUŠ BI ḪUL [...] x
+10. DIŠ MUŠ NA IGI-ma u₂-gal-lid-su-ma SAG.DU-su ik-bu-us-ma i-ta-dar ZI.GA ŠE.AM NA BI {d}AMAR.UTU u₂-šal-lam-ma SIG₅-iq SIG₅ IGI
+11. DIŠ MUŠ TA AN.TA-nu ana PAP.ḪAL NA ŠUB-ut ina E₂ NA UŠ₂ UG₇ EN E₂ BI NIG₂.GIG IGI-mar
+12. DIŠ MUŠ gi-na-a DU₃.A.BI ana IGI NA ip-ta-na-rik KA-šu₂ LAL-ṭi
+13. DIŠ MUŠ in-na-dir-ma NA NIGIN NA BI DINGIR-šu₂ ana SIG₅-ti₃ UŠ.MEŠ-šu₂
+14. DIŠ MUŠ NA u₂-ḫab-ba-ab u₃ [ ... ] SA₂.SA₂
+15. DIŠ MUŠ ana NA KUR₂.KUR₂-ma DIB-su-ma iš-šuk-šu₂ NA BI ina KI.KAL EN KA-šu₂ KUR-ad₂
+16. DIŠ MUŠ TA 15 NA ana 150 NA DIB-iq MU SAL.SIG₅-ti₃ TUK-ši
+17. DIŠ MUŠ TA 150 NA ana 15 NA DIB-iq MU-šu₂ ina SAL.ḪUL TUK-ši
+18. DIŠ SAG.DU MUŠ NA ik-bu-us-ma ana 15 NIGIN-ur₂ MU.3.KAM₂ ina KI-šu₂ ŠUB.ŠUB-ma DINGIR i-saḫ-ḫur-ma lu KI.SU₂ NIG₂.GIG ana IGI NA GIB x x x uš-ni-iʾ-e-ma u GISKIM-šu₂ DIB-iq-šu₂
+19. DIŠ SAG.DU MUŠ NA ik-bu-us-ma ana 1[50] NIGIN-ur₂ ina PAP.ḪAL u KI.KAL [...] pu uš SAL.SIG₅ IGI-mar
+20. DIŠ MUŠ ina ŠUB-šu₂ NA u₂-gal-lid-ma u₃ MUŠ is-[si] NA BI ŠU ḪUL-ti₅ KUR-su
+21. DIŠ MUŠ ina ŠUB-šu₂ NA u₂-gal-lid-ma NU is-si [KUR]-ad₂ A₂.AŠ₂
+22. DIŠ MUŠ ina SAG NA ik-nun-ma NA₂-iṣ GAR-un [...] NA BI UG₇
+23. DIŠ MUŠ ra-man-šu₂ ik-kal GAR-un ka mi na [...] ina KA-šu₂ DAM NA NITA U₃.TU
+24. DIŠ MUŠ KIMIN-ma u₃ MUŠ MAN-ma ina UGU x [...] E₂ BI BIR
+25. [DIŠ] MUŠ KUN-su ina KA-šu₂ na-ši DAM [...] UG₇
+26. [DIŠ M]UŠ KUN-su ina KA-šu₂ na-ši-ma [... E₂ BI] BIR-aḫ S]U.KU₂ ina KUR GAL₂-ši
+27. DIŠ MUŠ rit-ti GAR-ma GIM UR.MAḪ i-ram-mu-u[m ...] ka-šu₂-šu₂ GAL₂
+28. DIŠ MUŠ ana bi-rit NITA u MUNUS ŠUB-ma [E₃?]-šu₂-ma [x] GAZ ana IGI x za x x [... z]i-nu-ti KUD.ME
+28a. DIŠ MUŠ ana bi-rit NITA u MUNUS ŠUB-ma NU E₃ [...] x šu₂ GAZ? [x]
+29. DIŠ MUŠ ana MURU₂ DAM u DAM ŠUB-ut-ma DU₈ [...-z]u-uz-zu DAM u DAM TAG₄.ME UG₇.UG₇
+30. DIŠ MUŠ ana MURU₂ DAM u DAM ŠUB-ut-ma bi su x i [...] DU₈ SILIM.MI GAL₂-šu₂ kur x x
+31. [DIŠ] MUŠ ana MURU₂ DAM u DAM ŠUB-ma ina GU.DU [... b]i-ri-šu₂-nu ŠUB-ut-ma IGI.ME-šu₂ TAG₄.ME-m[a ...]
+32. [DIŠ] MUŠ a-šar NITA u MUNUS KI DUR₂.MEŠ lu GUB.MEŠ [...]-mi-šu-nu i-dab-bu-bu IGI.MEŠ-ma ig-dar-ru TAG₄.[MEŠ]
+33. [DIŠ M]UŠ a-šar NITA u MUNUS KI DUR₂.MEŠ-ma x x -ma IGI.MEŠ-šu₂ TAG₄.M[EŠ]-ma NITA TI-q[i₂]
+34. [DIŠ MUŠ] a-šar NITA u MUNUS GUB-zu i-dab-bu-bu! IGI NITA u MUNUS [KUD.].MEŠ TAG₄.MEŠ
+35. [DIŠ MUŠ a-šar NITA] u MUNUS DUR₂.MEŠ-ma DUMU.MEŠ E₂ ARAD u GEME₂ NIGIN.MEŠ-ma ana bi-ri-šu-nu ŠUB-ut EN E₂ UG₇-ma E₂ BIR
+36. [DIŠ MUŠ ...]-ma u₂-dal-liḫ-ši-na-ti DUR BI KUD.KUD.MEŠ
+37. [DIŠ MUŠ ...] KIMIN ana x x x x x x ŠA₃ BI ut-ta-ka-as
+38. [DIŠ] MUŠ ana [...] SAL.UŠ.BAR.M[EŠ ...]-ma ana ŠA₃ x e TU SAL.UŠ.BAR.MEŠ ši-na ina ITI.3.KAM₂ UG₇.UG₇
+39. [DIŠ MUŠ ...] MIN ZI-bu x nu [...] DUR₂ BI x x x SA₃? BI ut-tak-kas₂
+40. [DIŠ] MUŠ ana UGU SAL.UŠ NA ŠUB-ut ana ŠA₃ DUR₂ šu₂-a-tu₄ TU ana ITI BI ŠA₃.BI DUG₃.GA
+41. [DIŠ] MUŠ ana UGU GIŠ.[GU].ZA NA be x ud bi ŠUB-ma NA₂-iš EN.DIB SAG.TUK ba-la₂-ṭi GAL₂
+42. [DIŠ] MUŠ ina E₂ LU₂ iz x ŠUB.ŠUB ina E₂ LU₂ UŠ₂ UG₇
+43. [DIŠ] MUŠ ina E₂ LU₂ DU.DU-ak ŠUB!-e [E₂]
+44. [DIŠ] MUŠ ina E₂ LU₂ ana IGI NA GIB NA BI ina ḫa-di-e MU-šu₂ x [...]
+45. [DIŠ] MUŠ ina E₂ LU₂ LU₂.MEŠ ina KI.DUR₂-šu₂-nu u₂-gal-lid ina ŠA-šu₂ [...]
+46. [DIŠ] MUŠ ina E₂ LU₂ GUB.MEŠ-az LU₂ BI NAM.ERIM₂ DIB-su u x šu TI-qi₂-ma az [...]
+47. [DIŠ] MUŠ ina E₂ LU₂ E₂.SIG₄ E₁₁ u₃ ur-rad E₂ BI i iḫ lu x [x x]
+48. [DIŠ] MUŠ ina E₂ MUNUS x E₂.SIG₄ qir-bi-nu E₁₁ u₃ ur-rad x x x x x [x] x
+49. [DIŠ] MUŠ ina E₂ NA ŠUB-ma DU.DU-ak [...] BI UG₇
+50. [DIŠ] MUŠ ina E₂ LU₂ mim-ma uš-te-ni-iṣ-ṣi [... E]₃
+51. DIŠ MUŠ ina E₂ NA ka-bu-us-su id-di x [...] NU SI.SA₂
+52. DIŠ MUŠ ina E₂ NA mar-ṣi-iš il-pu-t[a ...] it-ta-na-a-a-a[k]
+53. DIŠ MUŠ ina E₂ NA GU₃.GU₃-si BUN₂.BUN₂-aḫ UŠ₂ ina E₂ LU₂ UG₇ E₂ BI BIR-aḫ
+54. DIŠ MUŠ ina E₂ NA i-bi-iš GU₃.GU₃-si ŠUB-e E₂
+55. DIŠ MUŠ ina E₂ NA UD.6.KAM₂ UD.7.KAM₂ GU₃.GU₃-si ZI.GA ana LU₂ u₃ ni-ziq-tu₄
+56. DIŠ MUŠ ina E₂ NA u₄-me-šam GU₃.GU₃-si E₂ BI ana kiš-ša₂-ti KUR₂ ŠID-nu
+57. DIŠ MUŠ ina E₂ NA up-ta-nar-rad E₂ BI ŠUB-di lu in-na-qar
+58. DIŠ MUŠ ina E₂ NA ik-nun DUMU.NITA LU₂ BA.UG₇
+58a. DIŠ MUŠ ina E₂ NA qin-na iq-nun DUMU.NITA NA UG₇
+59. DIŠ MUŠ ina E₂ NA GIŠ.IG GIŠ.SAG.KUL NIGIN-ma ana BAD-e NU SUM-in E₂ DAGAL-iš KIMIN ŠUB-di
+60. DIŠ MUŠ ina E₂ NA GAZ-ma KU₂ ŠUB-ti₃ EN KA-šu
+61. DIŠ MUŠ ina E₂ NA TUR.MEŠ-šu₂ KU₂ E₂ BI BIR-aḫ
+62. DIŠ MUŠ ina E₂ NA SA.A GAZ-šu₂ ZI.GA IDIM ina E₂ LU₂ E₃
+63. DIŠ MUŠ ina E₂ NA GIR₂.TAB GAZ-šu₂ NA BI DUMU.MEŠ NITA.MEŠ-šu₂ GAZ-šu₂ KIMIN UG₇.UG₇
+64. DIŠ MUŠ ina E₂ NA {d}NIN.KILIM GAZ-šu₂ ZI.GA ŠE u KU₃.BABBAR
+65. DIŠ MUŠ ina E[₂ N]A [...] GAZ-šu₂-ma ana MURU₂ E₃-šu₂ [...] ina E₂ LU₂ UG₇
+66. [DIŠ] MUŠ [... M]UŠ GAL₂-ma ana ŠA₃ NI₂-šu NIGIN₂-ma TU BIR E₂ SU.KU₂ E₂ KU₂
+67. [DIŠ MUŠ ...] ana 15 GI.GIB ŠUB-šu EN E₂ BI UG₇
+68. [DIŠ MUŠ ...] ana IGI NA ŠUB ŠUB-at EN KA-šu IGI-mar
+69. [DIŠ MUŠ ...] x ana KA₂ E₃-šu₂ DUMU ina!(ana) E₂ BA.UG₇
+70. [DIŠ MUŠ ...] zi x NIG₂.ŠU x TI-qi₂
+71. [DIŠ MUŠ T]A SILA ana E₂ TU-am EN [E]₂ UG₇ x
+72. [DIŠ M]UŠ {d}NIN.KILIM GAZ E₂ BI BIR-aḫ
+73. [DIŠ MUŠ] x {d}NIN.KILIM GAZ-ma KU₂ x [...]
+74. [DIŠ MUŠ ...] an ana E₂ TU NA BI SIG₅ I[GI]
+75. [DIŠ MUŠ ...] x x x NA BI UD ḪUL IGI : na-za[q ...]
+76. [DIŠ MUŠ ...] x ERIN₂ x
+77. [DIŠ MUŠ ...] x BIR-aḫ
+78. [DIŠ MUŠ ...] EN KA-šu
+79. DIŠ MUŠ ina E[₂ NA] MUŠEN DIB ina ši ru x x [...] LU₂ E₃
+80. DIŠ MUŠ ina E₂ [NA ...] DU₃-uš ŠUB-e E₂ [...] ina E₂ NA E₃
+81. DIŠ MUŠ ina E₂ NA bu-u₂-ra DU₃-uš ŠUB-e E₂
+82. DIŠ MUŠ ina E₂ NA ana UGU NA ŠUB šum₄-ma NIG₂.TUK UKU₂-in šum₄-ma MAŠ.EN.KAK i-šar₂-ru₃
+83. DIŠ MUŠ ina E₂ NA [x]-x-ma KA₂ E₂ [DU₃].A.BI i-tab-bal šum₄-ma EN E₂ BI UG₇
+84. DIŠ MUŠ [ina E₂ N]A i-dam-mu-um NA BI dul-la i-ma-al-la
+85. DIŠ MUŠ ina E[₂ NA] ina la ma-ḫa-ṣi im-tu-ut IZKIM ši UŠ₂ UG₇
+86. DIŠ MUŠ ina E₂ [NA n]am-maš-ti E₂ NA id-da-na-ak x šu₂ x še pad TAG₄-šu₂
+87. [DIŠ MUŠ ...] x-na-diš NA BI NIG₂.GIG IGI-mar
+88. [DIŠ MUŠ ... ina E]₂ NA IGI [...] sa-da-ru
+89. DIŠ MU[Š ...] IGI E₂ NA IGI i-dir-tu₄
+90. DIŠ MUŠ SA₅ ina E₂ NA IGI NA BI i-šar₂-ru₃
+91. DIŠ MUŠ 7 SAG.DU.MEŠ-šu₂ ina E₂ NA IGI EN E₂ BI ina SAG.KAL E₃
+92. DIŠ MUŠ ina E₂ NA ŠUB-i U₃.TU E₂ BI DUR₂-ab
+93. DIŠ MUŠ ina E₂ NA ŠUB-i IGI-ir ŠU.BI.DIL.AM₃
+94. [DIŠ MUŠ] ina E₂ NA ŠUB-i TU ŠU.BI.DIL.AM₃
+95. [DIŠ MUŠ] ina E₂ LU₂ NA GAZ NA BI in-na-bit KIMIN du-us-su KAR-ir
+96. [DIŠ MUŠ ina E]₂ LU₂ i-mu-ut EN E₂ BI UG₇
+97. [DIŠ MUŠ ina E]₂ NA AN.TA-šu₂ i-lu-ut E₂ BI BIR-aḫ šu-bat-su E₂.GAL UŠ-di
+98. [DIŠ MUŠ ina E]₂ NA AN.TA-šu₂ GAZ KUR-ad₂ A₂.AŠ₂
+99. DIŠ MUŠ ina E₂ NA AN.TA-šu₂ KU₂ ŠUB-at EN KA-šu₂ IGI-mar
+100. [DIŠ MUŠ ina E]₂ LU₂ ina ḫa-ru-ri U₃.TU E₂ BI BIR-aḫ
+101. [DIŠ] MUŠ ina E₂ LU₂ ina ḫa-ru-ri NA₂-iṣ E₂ BI BIR-aḫ
+102. [DIŠ] MUŠ ina a-sur-ri-e E₂ NA u₂-lid E₂ BI BIR
+103. DIŠ MUŠ ina a-sur-ri-e E₂ NA NA₂-iṣ E₂ BI BIR
+104. DIŠ MUŠ MUNUS ina a-sur-ri-e ina la mu-di-e DIB-su-ma BAR-šu₂ MUNUS BI DINGIR TUK-ši
+105. DIŠ MUŠ ana E₂ LU₂ TU-ma u₂-gal-lid-su-ma iš-šuk-šu₂ E₂ BI AL.BIR šum₄-ma UKU₂ TUK
+106. DIŠ MUŠ [ana] E₂ NA TU E₂ BI ŠUB-di
+107. [DIŠ] MUŠ [... E]₂ LU₂ ŠUB-ut BIR x : ana E₂ LU₂ UŠ-di-šu₂
+108. DIŠ MUŠ x-su ZI-ib SAL.ḪUL ZI-šu₂
+109. DIŠ MUŠ uš-pis-su ina-an-ziq
+110. DIŠ MUŠ ina UGU GIŠ.NA₂ NA NA₂-iṣ NA BI DINGIR-šu₂ MU TUK-ši
+111. DIŠ MUŠ ina UGU GIŠ.NA₂ NITA u MUNUS ŠUB-ut ZI ḪUL ZI-šu₂ : KI.DUR₂-su KUR₂-ir
+112. DIŠ MUŠ ana UGU NITA u MUNUS ŠUB-ut NITA u MUNUS TAG₄.MEŠ
+113. DIŠ MUŠ ana UGU NITA u MUNUS ŠUB-ma u₂-par-ri-ir-šu₂-nu-ti NITA u MUNUS TAG₄.MEŠ
+114. DIŠ MUŠ ana UGU NITA u MUNUS ŠUB-ut NITA u MUNUS KUD.MEŠ
+115. DIŠ MUŠ ina ka-la u₄-mi ana UGU NITA u MUNUS DUR₂-su-nu ŠUB-ma u₂-par-ri-ir-šu₂-nu-ti KUD.MEŠ
+116. DIŠ MUŠ a-šar NITA u MUNUS tap-pu-u₂ aš₂-bu ana EGIR-šu₂-nu ŠUB-ma IGI.MEŠ-šu₂ NITA u MUNUS tap-pu-u₂ KUD.MEŠ
