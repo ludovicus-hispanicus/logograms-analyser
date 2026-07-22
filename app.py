@@ -549,13 +549,21 @@ def _citation_index():
         yr = _bib_year(e["fields"])
         if not yr:
             continue
-        sns = [x for x in (_fold(s) for s in _bib_surnames(e["fields"])) if x]
+        raw_sns = _bib_surnames(e["fields"])
+        sns = [x for x in (_fold(s) for s in raw_sns) if x]
         forms = set()
         if sns:
             forms.add(sns[0])
             forms.add("".join(sns))
             if len(sns) >= 2:
                 forms.add(sns[0] + sns[1])
+        # Hyphenated first surname (e.g. "Rochberg-Halton") is often cited by one
+        # part only ("Rochberg 1988"); index each component.
+        if raw_sns:
+            for part in re.split(r"[-–]", raw_sns[0]):
+                p = _fold(part)
+                if p:
+                    forms.add(p)
         for fm in forms:
             idx.setdefault((fm, yr), e["key"])
     return idx
