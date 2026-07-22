@@ -1,0 +1,74 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 10 (VAT 9949 (+) VAT 11051 ()
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.690 on 210 tokens.
+---
+@obverse
+1’. [BE ŠÀ.N ]IG[IN ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+2’. [BE Š]À.NIGIN k[i-ma ]
+3’. [BE Š]À.NIGIN ki-⸢ma⸣ [ ]
+4’. [BE Š]À.NIGIN ki-ma ⸢x⸣ [ ]
+5’. šá-níš x [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+6’. [BE ŠÀ.NI ]GIN ki-ma ⸢ re-e⸣-[mi ]
+7’. [BE ŠÀ.NIGIN ] ki-ma giš ZUBI-ma IG[I ]
+8’. [BE ŠÀ.NIGI ]N ki-ma giš ZUBI-ma IGI.M[E ]
+9’. [BE ŠÀ.NIGIN k]i-ma e-lam-gu-š [i ]
+10’. [BE ŠÀ.NIGIN k]i-ma KÙ ? [ ]
+11’. [BE ŠÀ.NIGIN k]i-ma GAR ŠÀ. ⸢MEŠ ⸣ x [ ]
+12’. [BE ŠÀ.NIGIN k]i-ma ŠÀ.MEŠ KU6 [ ]
+13’. [BE ŠÀ.NIGIN ] ⸢ki⸣-ma ŠÀ.MEŠ BU[RU5.MEŠ ]
+14’. [BE Š]À.NIGIN ki-ma liš .MEŠ [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+15’. [BE ŠÀ ].NIGIN ki-ma erim si x [ ]
+16’. [BE ŠÀ ].NIGIN ki-ma sa x [ ]
+17’. [BE ŠÀ.NIG ]IN ki-ma ÉLLAG.[MEŠ ]
+18’. [BE ŠÀ.NIGIN k]i-⸢ma⸣ x [ ]
+19’. [BE ŠÀ.NIGIN ki-m]a [ ]
+@reverse
+Anfang abgebrochen, dann setzt VAT 11051 ein
+1’. [BE ŠÀ.NIGIN ki]-⸢ma⸣ x [ ]
+2’. [BE ŠÀ.NIGIN ki]-ma x x [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+3’. [BE ŠÀ.NIGIN k]i-ma x [ ] x šá nu [ ]
+4’. [BE ŠÀ.NIGIN ki]-ma ḫu [ ] x x [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+5’. [BE ŠÀ.NIGI ]N ki-ma EM[E.ŠID ] ⸢d⸣ ? [ ]
+6’. [BE ŠÀ.NIGIN ]ki-⸢ma BÍL ⸣.Z[A.ZA] BAD a-⸢na⸣ [ ]
+7’. [ub-b]al-ma x x x x [ ]
+8’. [BE ŠÀ.NIGIN k]i-ma ⸢ SAG⸣ .KI GU4 [ ]
+9’. [BE ŠÀ.NIGIN ki-m]a kal!-bi ⸢ÉRIN⸣ [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+10’. [BE ŠÀ.NIGIN k]i-ma IGI Ḫu-um-b [a-ba] [ ]
+11’. [BE ŠÀ.NIGIN k]i-ma x x [ ]
+12’. [BE ŠÀ.NIGIN ]⸢ki⸣-ma ⸢ GÍR ⸣.TAB-ma [É.GAL TUK.MEŠ ]
+13’. [BE ŠÀ.NIGIN ki-m]a GÍR.TAB -ma É.[GAL NU TUK.MEŠ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+14’. [BE ŠÀ.NIGIN ki]-⸢ma⸣ dLAMMA.KAT.MAḪ [ ]
+15’. [ ] x x x x [ ]
+(abgebrochen: VAT 11051)
+(Lücke, dann setzt die Rs. von VAT 9949 ein:)
+16’. [BE ŠÀ ].⸢NIGIN ki-ma⸣ [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+17’. [BE ŠÀ.NI ]GIN ki-ma x [ ]
+18’. [BE ŠÀ.NIG ]IN ki-ma [ ]
+19’. [BE ŠÀ.NIGI ]N ki-ma [ ]
+20’. [ ] [ ]
+21’. [BE ŠÀ.NIGI ]N ki-m[a] ⸢ KU6⸣ [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+22’. [BE Š]À. ⸢NIGIN⸣ ki-ma šá x x [ ]
+23’. [BE] ŠÀ.NI [G]IN ki-ma SAG.D[U ]
+24’. [BE] ŠÀ.NI [G]IN ki-ma MUŠEN im [ ]
+25’. [BE] ŠÀ.NI [G]IN ki-⸢ma⸣ SAG.DU [ ]
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+26’. ŠU I.d[ ]
+27’. DUMU [ ]
+(Rand von VAT 9949)

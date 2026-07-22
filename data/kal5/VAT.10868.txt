@@ -1,0 +1,59 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 26 (VAT 10868)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.731 on 405 tokens.
+---
+@obverse
+1’. Spuren
+2’. [ ]SA5GABA NUN ina É.GAL-š [u KA NIR.GÁL GAR-an]
+3’. [ ]ŠÀ.⸢TAM⸣!.MEŠ É.GAL[i-ma-al-la-lu?]
+4’. [ ]-at-ma ŠÀ!-šá BABBAR ma-ṭir ki-ma lu[ ]
+5’. [ IG]I KÚR ina IGI KÁ.GAL -ia lúÚŠ [ŠUB -di]
+6’. [ ] ⸢x x⸣ IGI ina IGI KÁ.GAL KÚR lúÚŠ [ŠUB -di]
+7’. [BE UGU-nu ME.NI giš TUKUL GAR-m]a! sip! ZAG ME.NI IGI NUN ana INIM KÚR -šu [TUŠ -ab]
+8’. [BE UGU-nu ME.NI giš TUKUL GAR-m]a! sip! GÙB ME.NI IGI KÚR ana INIM NUN [TUŠ -ab]
+9’. BE [ ] ⸢TA⸣ ŠÀ ME.NI ú-šar !-ru-ni NUN ina É.GAL-šu ḪI.GAR. [MEŠ -šú ]
+10’. BE__________________________________________________________________________________________inaEGIR ME.⸢NI⸣x x GAR-inEGIR-at-ka KÚR i-š[a-ḫi-iṭ]
+11’. BE UGU-nu ME.N[I] DU8 ḪUL -un! lìb-b [i]
+12’. BE sip GÙB ME.NI DU8 [ZI.G]A Ì[R?]
+13’. BE sip GÙB ME.NI 1 ŠU.SI ⸢ú⸣-kàr-ri- ⸢ma DU8⸣ ⸢ZI-ib⸣ [I]M! [x (x)]
+14’. BE sip GÙB ME.NI 2! ŠU.SI ⸢ú ⸣-kàr-ri-⸢ma⸣ DU8 ⸢IM.SI.SÁ ⸣ [DU-ak]
+15’. BE __________________________________________________________________________________________inasip GÙB ME.NI GIŠ.ḪUR ḪUR-et ⸢x x x⸣ []
+16’. BE ina sip GÙB ME.NI GIŠ.ḪUR GIB-⸢ ik?⸣ ⸢x⸣ [x] ⸢x x⸣ [ ]
+17’. BE TA ŠÀ ME.NI GIŠ.ḪUR ana KAL ḪUR -et ÉRIN! x [ ]
+18’. [BE U]GU-nu ME.NI BAR-tu4 UR.MA[Ḫ KASKAL GU4.UD-iṭ]
+19’. [BE KI].TA-nu ME.NI BAR-tu4 MU[Š KASKAL GU4.UD-iṭ]
+20’. [BE sip G]ÙB ME.NI DU8.DU8 ⸢x⸣ [ ]
+21’. [BE sip G]ÙB ME.NI ina ḫa-si-si-⸢ šu DU8!.MEŠ ⸣ ⸢x⸣ [ ]
+@reverse
+1. BE __________________________________________________________________________________________TA ŠÀ [ME.NI G]IŠ.ḪUR ḪUR-ma []
+2. BE ina ZAG ME.NI BÙR ŠUB -di x [ ]
+3. [BE] ina GÙB ME.NI BÙR ŠUB -di x [ ]
+4. [BE ina] ZAG ME.NI ù GÙB ⸢ME.NI⸣ [BÙR ] ŠUB -di x [ ]
+5. [BE] UGU-nu ME.N[I BÙR ŠUB ]-di ⸢ŠUB ⸣-[ti DUMU É.GAL]
+6. [BE] ina MURUB4 ME.N[I BÙR ŠUB -di ]
+7. [BE ina] IGI GÙB ME.[NI BÙR ŠUB -di ]
+8. BE ina ŠÀ ME.[NI BÙR ] Š[UB-di ]
+9. BE ina sip ⸢ ZAG⸣ M[E.NI BÙR ] ⸢ŠUB -di⸣ [N]UN! ÙR [U ]
+10. BE ina sip ⸢ GÙB ⸣ M[E.NI BÙR ] ⸢ŠUB -di⸣ [K]ÚR ÙRU -⸢ti⸣![ ]
+11. BE ina sip [ZAG ME].NI giš TUKUL [GAR]-⸢ ma⸣ IGI.M[EŠ -š]ú ⸢rap⸣-[šu-ma SAL.L]A IGI!.MEŠ [ ]
+12. BE ina sip [GÙB ME].NI giš TUKUL ⸢ GAR⸣-[ ma] KI.MIN-ma ina [ŠÀ -šú gišTUKUL TUR GAR-in] DUMU LUGAL
+A__________________________________________________________________________________________[Š.TE AD-šúDAB-bat]
+13. BE UGU-nu [ME.NI] gišTUKUL GAR-ma ŠÀ ME.NI IGI gišTUKUL ḪUL -un [lìb-bi ]
+14. BE UGU-⸢ nu⸣ [ME.NI gišTUK]UL GAR-⸢ ma ŠÀ ⸣ ME.NI IGI-ma ù GAM-iš na-piš DINGIR DÙG.GA [a-na ÉRIN-ni È ]
+15. BE UGU-[nu ME.NI gišTUKUL] GAR-ma ŠÀ ME.NI IGI-ma ù UGU-šu DU8 ek-[let nam-rat]
+16. [B]E UGU-[nu ME.NI gišTUKUL] GAR-ma ŠÀ ME.NI IGI-ma ù UGU-šu [BÙR Š]UB-d[i] KÚR šá ḪUL -un lìb-bi [ú-
+kal-li-mu-ka GAZ]
+17. [BE UGU-nu ME.NI gišTUKUL GAR-ma] MÁŠ IGI [a-na] ⸢ KÚR ⸣-ka taṣ-mer !(Text: gir)-[tu4 TUK-ši ]
+18. [ Š]À ME.NI IG[I] NUN ana INIM [KÚR -šu TUŠ -ab]
+19. [ ] x [ ]KÚR ana INIM NUN [TUŠ-ab]
+20. [BE ME.NI giš TUKUL.MEŠ sà-ḫi-ir ]URU A.DAM.MEŠ -šu NIG[IN.MEŠ -šu]
+21. [ ] ZI-ib ḫúp-šigišMAR ù tup-ši-[ik-ki]
+22. [ KU]4-eb DUMU [KIN]
+23. [ ] x ÉRIN.TÁH KÚR ÉRIN-ka[ ]
+24. Spuren

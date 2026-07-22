@@ -1,7 +1,7 @@
 ---
 genre: astrological omens
 period: Old Babylonian
-provenance: unknown
+provenance: Southern Mesopotamia (CUSAS 18 no. 14)
 publication: CUSAS 18, 014
 source: https://www.ebl.lmu.de/library/MS.3117
 counting: DIŠ

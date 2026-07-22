@@ -1,0 +1,71 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 23 (A 73 (oder A       79?;)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.706 on 571 tokens.
+---
+@obverse
+(Ca. zwölf Zeilen fehlen)
+1’. [ NUN ina KI.NÁ -šú] ⸢ḪULUḪ ⸣.ḪUL [UḪ -ut]
+2’. [ DINGIR.MEŠ ina KU]R ⸢NUN⸣ GU7.⸢ MEŠ ⸣
+3’. [ NU]N ina ⸢ NAM⸣ .ÚŠ.MEŠ ÚŠ
+4’. [BE UGU-nu N]E ⸢MI gišTUKUL GAR-ma⸣ [AN.TA IGI g]iš TUKUL.MEŠ DUMU.MEŠ É
+5’. [BE KI.TA-nu N]E MI giš TUKUL GAR-ma ⸢ KI.TA IGI⸣ gišTUKUL bar-ti
+6’. __________________________________________________________________________________________17 MU.ŠID.BI.IM
+7’. [BE ina TÙR 1]5 BÙR ŠUB -di ÉRIN NUN ina DUGUD-šá ŠUB -ut
+8’. [BE ina TÙR 15]0 BÙR ŠUB -di ŠUB -ti lem-ni u a-a-bi
+9’. [BE ina TÙR ]15 u TÙR 150 BÙR ŠUB -di ÉRIN-ni u ÉRIN KÚR TÉŠ.BI ŠUB.MEŠ
+10’. [BE ina TÙR ]15 DI-ḫu ŠUB -di ÉRIN-ka ZI-ut KASKAL-šá KA⋲MI.MEŠ
+11’. [BE ina TÙ ]R 150 DI-ḫu ŠUB -di ÉRIN KÚR ZI-ut KASKAL-šá KA⋲MI.MEŠ
+12’. BE ina TÙR 15 DI-ḫu ŠUB -di-ma SA5 ŠUB -ti ÉRIN-ni ÉR ana KUR NUN KU4-ub
+13’. BE ina TÙR 15 DI-ḫu ŠUB -di-ma GE6 dIŠKUR RA-iṣ
+14’. BE ina TÙR 15 NIN-tu4 ŠUB -át ÉRIN-ka KI DINGIR ana GAZ er-šet
+15’. BE ina TÙR 150 NIN-tu4 ŠUB -át ÉRIN KÚR KI DINGIR ana GAZ er-šet
+16’. BE ina TÙR 15 2-ta KAM.MEŠ ŠUB.MEŠ KAM-ti dMAŠ.TAB.BA
+17’. BE ina TÙR 150 2-ta KAM.MEŠ ŠUB.MEŠ KAM-ti dMAŠ.TAB.BA ana MUNUS.SIG5
+18’. BE ina TÙR 15 2-ta KAM.MEŠ ŠUB.MEŠ u GE6.MEŠ dMAŠ.TAB.BA inas KUR NUN GU7.MEŠ
+19’. BE ina TÙR 150 2-ta KAM.MEŠ ŠUB.MEŠ u GE6.MEŠ dMAŠ.TAB.BA ina KUR KÚR GU7.MEŠ
+20’. BE ina TÙR 15 gišTUKUL GAR-ma TÙR 150 IGI ÉRIN-ni MU MUNUS.SIG5 TI-qé
+21’. BE ina TÙR 150 gišTUKUL GAR-ma TÙR 15 IGI ÉRIN KÚR GABA.RI
+22’. BE ina TÙR 15 u TÙR 150 2 gišTUKUL.MEŠ GAR.MEŠ -ma IGI.IGI-lu4 IGI.IGI-tu4
+23’. BE TA ŠÀ ME.NI GIŠ.ḪUR ana TÙR 15 eṣ-ret ina ŠÀ ÉRIN KÚR !(Text:ka) UR.MAḪ LÚ ŠUB -di
+24’. BE ina ŠÀ GIŠ.ḪUR UR5-tú BÙR ŠUB -di ina SÙḪ UR5-tú ÉRIN-ka ŠUB -ut
+25’. BE TA ŠÀ ÍD BÀ GIŠ.ḪUR ana TÙR 15 eṣ-ret KARAŠ ÉRIN-ka A.MEŠ ub-ba-lu4
+26’. BE__________________________________________________________________________________________inaŠÀ GIŠ.ḪUR UR5-tú BÙR ŠUB-diina SÙḪ UR5-tú ÉRIN KÚRŠUB-ut
+27’. __________________________________________________________________________________________20 MU.DIDLI
+@reverse
+1. BE ki-ṣir-tu 4 GAR-at KÚR -ka ú-ṣa-am-m [a-ru-ka? ]
+2. BE ki-ṣir-tu 4 ana 150 it-ku-šat KÚR -ka uš-te-em x [ ]
+3. BE ki-ṣir-tu 4 ana SUḪUŠ ŠU.SI it-ku-šat KÚR -ka tag [ ]
+4. BE ki-ṣir-tu 4 ina EGIR BÀ GAR-át SUḪUŠ.ÀM ⸢GI⸣ .[NA.MEŠ ]
+5. BE ki-ṣir-tu 4 ina SAG BÀ GAR-át ÉRIN-ka ina giš TUKUL SUḪUŠ.MEŠ -šá NU G[I.NA.MEŠ ]
+6. BE ki-ṣir-tu 4 TA MAŠ.GÁN -šú E11-ma IGI-et É.GAL ŠU.SI iṣ-bat LUGAL TA ŠÀ URU
+7. ana A.DAM.MEŠ È.MEŠ
+8. BE ki-ṣir-tu 4 ina 150 GAR-át KÚR -ka ud-dan-na-an-ma ŠUB -[ut]
+9. BE ki-ṣir-tu 4 na-pár-qú-da-át KÚR ina ṭú-ub-ba-ti-šú È-ma ḫi-bil-ta-šu TI-[qé ]
+10. BE ki-ṣir-tu 4 nam-rat KÚR ud-dan-na-an-ma ŠUB -[ut]
+11. BE ki-ṣir-tu 4 GE6-át KÚR ina KI.TUŠ -šú te-de-ek-ki-[šú ]
+12. BE ki-ṣir-tu 4 GAM-át AD.ḪAL KÚR È-ma ú-lu URU ZAG KÚR DAB-bat
+13. BE ki-ṣir-tu 4 DU8-át pa-ṭá-ka ana KÚR -ka ŠUB -u[t]
+14. BE ina UGU ki-ṣir-tu 4 gišTUKUL GAR-ma SUḪUŠ ŠU.SI IGI gišTUKUL!(Text: ma) GUR.RA MU.NI
+15. BE KI.MIN-ma AN.TA NÍG.TAB UŠ -di KÚR ina KASKAL DU-ku SÙ -sà GUR-ra
+16. BE KI.MIN-ma EDIN 15 ŠU.SI IGI KÚR KI NÍG.GIG -ia5 KUR-da
+17. BE KI.MIN-ma EDIN ŠU.SI MURUB4 IGI KÚR ina né-ep-te-a GU4.UD-iṭ
+18. BE KI.MIN-ma SIG ZÉ IGI KÚR ina DUGUD-ia5 GU4.UD-iṭ
+19. BE KI.MIN-ma SAG ZÉ IGI KÚR šá ana KUR ú-ṣa-am-ma-ru ŠU -⸢su⸣ KUR-ád
+20. BE ina 15 ki-ṣir-ti kak-su-ú GAR NUN ana URU ú-ṣa-am-ma-ru ŠU -⸢su⸣ KUR-ád
+21. BE ina 150 ki-ṣir-ti kak-su-ú GAR KÚR ana URU ú-ṣa-am-ma-ru ŠU -su ⸢KUR⸣ -[á]d
+22. BE ina KI ki-ṣir-ti kak-su-ú GAR dU.GUR ina URU ZAG-ia5 ik-kal
+23. [BE] KI ki-ṣir-ti 15 ana AN.TA KAR ina gišTUKUL ÉRIN-ni ḪA.LA GU7
+24. [BE K]I ki-ṣir-ti 15 ana KI.TA KAR KÚR ina BAR-ti-ia5 TI-qé
+25. [BE KI ki]-⸢ṣir-ti 15⸣ KAR.KAR ŠUB -ti SIG-i
+26. [BE KI ki-ṣir-ti 150 ana AN.TA] ⸢ KAR⸣ ina gišTUKUL ÉRIN KÚR ḪA.LA GU7
+27. [BE KI ki-ṣir-ti 150 ana KI.TA KAR] ina BAR-ti KÚR TI-qé
+28. [BE KI ki-ṣir-ti 150 KAR.KAR] ⸢ŠUB -ti SIG⸣-i šá KUR ⸢ KÚR ⸣
+29. [ ] x Ì.DUB.MEŠ SA5.ME[Š SÙ ]
+30. [ ]⸢d⸣U.GUR ku x [x x]
+31. [ ] x [ ]

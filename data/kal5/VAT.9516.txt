@@ -1,0 +1,27 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 95 (VAT 9516)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.872 on 109 tokens.
+---
+@obverse
+1’. [ ] x [ ]
+2’. [ SILIM NU TÉŠ.BI ŠUB -ma MURU]B4 G[AL-ma ]
+3’. [ SILIM NU TÉŠ.BI ŠUB -ma MUR]UB4 G[AL-ma ]
+4’. [ SILIM NU TÉŠ.BI ŠUB -ma MU]RUB4 G[AL-ma ]
+5’. [ SILIM NU TÉŠ.BI ŠUB -ma M]URUB4 G[AL-ma ]
+6’. [ SILIM NU TÉŠ.BI ŠUB -ma] MURUB4 G[AL-ma ]
+7’. [ SILIM NU TÉŠ.BI ŠUB -m]a MURUB4 G[AL-ma ]
+8’. [ SILIM NU TÉŠ.BI ŠU ]B-ma MURUB4 G[AL-ma ]
+9’. [ SILIM NU TÉŠ.B ]I ŠUB -ma MURUB4 TUR-[ma ]
+10’. [ SILIM N]U [T]ÉŠ.BI ŠUB -ma MURUB4 TUR-m[a ]
+11’. [ ] ⸢3⸣SILIM NUTÉŠ.BI ŠUB -ma ⸢MURUB4⸣ TUR-m[a ]
+12’. [ ] x 3 SILIM NUTÉŠ.BI ⸢ ŠUB ⸣-ma MURUB4 TUR-ma [ ]
+13’. [ ] x 3 SILIM NUTÉŠ.BI ŠUB -[m]a MURUB4 TUR-ma TUR [ ]
+14’. [ ] x 3 SILIM NUTÉŠ.B [I] ŠUB -ma MURUB4 TUR-ma TUR x [ ]
+15’. [ ] x 3 SILIM NUTÉŠ.BI ŠUB -ma MURUB4 TUR-ma TUR x [ ]
+16’. [ ] ⸢3SILIMNUTÉŠ.BI ŠUB -ma⸣ x x x x [ ]

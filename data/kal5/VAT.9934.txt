@@ -1,0 +1,439 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 1 (VAT 9934)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.711 on 2966 tokens.
+---
+@obverse
+0. [BE is-ri 15 ZÁLAG -ir ul-lu-uṣ ŠÀ ÉRIN-ni]
+1. [BE is-ri 150 ZÁLAG -ir ul-lu-u]ṣ ⸢ŠÀ ÉRIN⸣ KÚR
+2. [BE š]á 15 BÙR ŠUB -di
+3. [ ] GAZ
+4. [BE ]-ni šá 150 BÙR ŠUB -di
+5. [ ] GAZ
+6. [BE 15] BÙR ŠUB -di-ma
+7. [ ] KÚR ENul-laUŠ -ni
+8. [BE 1]50 BÙR ŠUB -di-ma
+9. [ 1]50 ŠUB KÚR EN ul-la UŠ -šú
+10. [BE ] ŠUB.MEŠ -ú uš-šer UDU.NÍTA GAZ KÚR
+11. [BE ina is-ri 1]5 MÚD ú-sal-liḫ NU KÙ SÍSKUR TAG
+12. [BE ina is-ri] 150 MÚD ú-sal-liḫ EN SÍSKUR
+13. [mim-m]u-šu ZÁḪ GUR-šu GIG ÚŠ
+14. [B]E ina is-ri 15 u 150 MÚD ú-sal-liḫ
+15. _________________________________________________________________________________________MUNUSšá na-aḫ-šá-a-tú GIG-atSISKURlu-ºaUŠ
+16. 10_________________________________________________________________________________________liq-te šaBEis-ri
+17. BE GAG.ZAG.GA 2 SAG.DU.MEŠ-šú NUN GABA.RI NU TUK-ši
+18. BE GAG.ZAG.GA TÉŠ.BI ka-pí-iṣ NUN e-ma DU ḪA.LA GU7
+19. BE GAG.ZAG.GA TÉŠ.BI na-pár-qud KÚR 1-niš GAZ-ni
+20. BE GAG.ZAG.GA MURUB4-šú pa-liš DUMU LUGAL ana AD-šú ḪI.GAR DÙ
+21. BE _________________________________________________________________________________________GAG.ZAG.GAḫus-sur SÙḪ GABA.RAḪ.ḪA
+22. 5_________________________________________________________________________________________liq-te ša BE GAG.ZAG.GA
+23. [B]E ŠÀ.NIGIN ma-lu-ú KUR NINDA nap-šá GU7
+24. [BE] ŠÀ.NIGIN SÙ SU.GU7 ina KUR GÁL -ši
+25. [BE Š]À.NIGIN MÚD SA5.MEŠ di-ḫu di-lip-tú ina É NA GÁL
+26. [BE Š]À.NIGIN IM SA5.MEŠ ni-ip-ḫatlú ḪAL ŠUB -ut ÉRIN-ni
+27. [BE Š]À.NIGIN Ì.UDU SA5.MEŠ ṭuḫ-duina É[L]Ú GÁL -ši
+28. [BE ŠÀ.N ]IGIN IGI.MEŠ -šú-nu Ì.UDU ar-m[u L]UGAL KAL-ma
+29. [KUR DÙ ].A.BI GÚ.UN [(x) Í]L-šú
+30. [BE ŠÀ.NIGI ]N ana kar-ši kám-su NUN K[UR NU U]R5-tú
+31. [ š]i šú GÚR -uš LUGAL k[ib-ra-a-te? E]N-el
+32. [BE x ŠÀ.NI ]GIN ⸢i⸣?-[dir?-t]u4
+33. [BE x ŠÀ.NIGI ]N ⸢x⸣ [x] ⸢x⸣
+34. [BE] ⸢14 ŠÀ.NIGIN ina SILIM⸣- ti ⸢KUR-ti⸣ [ŠU -ia5 ṣummirāt ]
+35. ÉRIN-ia5 KUR.MEŠ ÉRIN-⸢ ni KI DU-ku ḪA.LA GU7⸣
+36. _________________________________________________________________________________________[š]al-mu-us-suGUR-ra
+37. [10 l]iq-te ša BE ŠÀ.NIGIN
+38. [BE] NA TUK DINGIR i-na SÍSKUR LÚ GUB-iz
+39. [BE] NA GÍD.DA U4.MEŠ NUN GÍD.DA.MEŠ
+40. [BE] SAG NA zu-qúr MU SAG NUN ÉRIN-ni MU MUNUS.SIG5 TI-qé
+41. [BE] ina SAG NA gišTUKUL GAR-ma NA UŠ -di gišTUKUL dLAMMA NUN
+42. [0] IGI.II.MEŠ DINGIR SIG5.MEŠ LÚ KIN.KIN-a
+43. [BE] NA GÍR KUR-ud NUN ina KASKAL DU-ku KUR-ád
+44. [BE] NA GÍR e-bir NUN ina KASKAL DU-ku NU GUR-ra
+45. [BE S]AG NA BAL-ut DINGIR.MEŠ URU-šú KI NUN
+46. ⸢i⸣-ze-nu-ú ana gišTUKUL IZI.GAR
+47. [BE ina S]AG NA KÁM -tu4 ŠUB -at KÁM -tiDINGIR.MEŠ ana NUN U4.MEŠ NUN GÍD.DA.MEŠ
+48. [BE MURUB]4 NA pa-áš -ṭadXV lib-ba-te LÚ SA5-át
+49. [ana G]IG GIG-su GÍD.DA -ik!(Text: ši)
+50. [BE NA G]AR GÍR ka-bi-is qí-bít?-ka NU DIM4 ik-ri-bi NU SUM.MEŠ
+51. [BE GÍ]R GAR-ma NA la GAR-in gur ma ú qu x x
+52. [BE NA NIGI]N-ma ana gišTUKUL GUR-ur U4.MEŠ NUN TIL.MEŠ
+53. [BE ina SAG N]A BÙR.MEŠ 4 i-ri-a ŠUB.MEŠ IGI.II.MEŠ LÚ LUGAL ZI.MEŠ -ḫa
+54. [BE Í]D BÀ ana NA TE-ḫiSIG5 LÚ qé-re-b [u]
+55. [BE NA k]a-bi-ìs ŠU dAM[AR.UT]U
+56. [BE SAG N]A ka-bi-ìs ŠU dPap-nun-⸢ an⸣-ki
+57. [BE MURUB4 N]A ka-bi-ìs ŠU d+INNIN TIN.TIRki šá-niš ŠU dINNIN URU
+58. [BE SUḪUŠ NA k]a-bi-ìs ŠU dNa-na-a šá-niš ŠU dDil-bat
+59. [18 li]q-te ša BE NA
+60. [BE GÍR GAR ki-b]i-isGÌR LUGAL KI DINGIR šu-šur
+61. [BE GÍR GAR-ma PAP.ḪAL 15]0 DU8 KÚR -ka šá ú-da-na-nak-ka
+62. [DU8 šá la] ⸢i⸣-man-gur-ka i-man-gur-ka
+63. [šá ul-la i]-pu-lu-ka an-na ip-pal-ka
+64. [EN NAM.KÚ ]R-ka [SILI]M-mu KIN-ka
+65. [BE GÍR DAG.MEŠ-šú ka-šid ] ⸢ki⸣-bi-is⸢GÌR ⸣ LÚ KI DINGIR šu-šur
+66. [DINGIR ana LÚ NINDA SUM-in] ⸢ù⸣ še-am uṣ-ṣap-šu
+67. [BE GÍR 15 GUB-iz DINGIR.MEŠ ] Á ÉRIN-ia5 DU.MEŠ -ku
+68. [BE GÍR 150 GUB-iz DINGIR.MEŠ ] ⸢Á⸣ ÉRIN KÚR DU.MEŠ-ku
+69. [BE GÍR ana 15 ma-qit ana KASKAL p]is-la-a-te
+70. [ÉRIN-ka ŠÀ.SÌ.SÌ.KE -šá NU K]UR-ád <<ŠUB >> GIG TI
+71. [BE GÍR ana 150 ma-qit ÉRINKÚR ŠÀ.SÌ.SÌ.KE ]-šá NU KUR-ád GIG ÚŠ
+72. [BE GÍR 2-ma GÍR 15 UGU GÍR 150 GAR-in] NUN gišTUKUL.MEŠ -šú
+73. [UGU gišTUKUL.MEŠ KÚR -šú ] ŠEŠ.MEŠ
+74. [BE GÍR 2-ma TÉŠ.BI eṣ-ru SUḪUŠ.À ]M GI.NA.MEŠ
+75. [KI.TUŠ ne]-eḫ-tú
+76. [BE GÍR 2-ma ina bi-ri-šú-nu BÙR ŠUB -di NUN ina É].GAL-šú qu-bur-šú BAD-te
+77. [BE ] DINGIR.MEŠ ze-nu-ti ana KUR GUR-ni
+1. BE GÍR 2-ma AN.TA-⸢ ú ⸣ [ EN]DÙG.GA-šú
+2. i-šal-liṭ-su di šú ba[l] x ⸢ka⸣ šá x x x x
+3. BE GÍR 2-ma AN.TA-ú ana <<u>> 150 ma-qit KI gišTUKUL NÍG.È GAR-an
+Nr. 1 37
+4. KI tu-ṣa-ma-ra GAR-an NÍG.È
+5. BE MURUB4 GÍR ka-bi-ìs ni!(Text: ir)-ip-ḫa-ti
+6. BE MURUB4 GÍR PA TUK-[m]a PA BI ZÉ IGI KAL-an LÚ a-šib lìb-bi-šú KUR-ád
+7. BE GÍR 3-ma SAL.⸢ LA⸣ GAM ŠUB URU!.MEŠ ḫar-bu-teTUŠ.MEŠ
+8. BE GÍR ka-bi-ìs ÉRIN-ni KASKAL!(Text: ni)-šá ŠUB IGI šib-sa-a-ti
+9. BE GÍR ka-bi-ìs ŠU dUTU
+10. BE SAG GÍR ka-bi-ìs ŠU dKa-ni-sur-ra
+11. BE MURUB4 GÍR ka-bi-ìs ŠU dIq-bi-SIG5
+12. BE SUḪUŠ GÍR ⸢ka⸣-bi-ìs ŠU dNa-bi-um
+13. 21_________________________________________________________________________________________liq-te ša BE GÍR
+14. BE SAL.LA DU8 IM ⸢IGI-et⸣ SAG NA GÌR GAR-át SIG-ú U5 ANŠE KU4-ba
+15. BE SAL.LA DU8 IM ana AN.TA-nu ka-pí-iṣ
+16. NUN GAL.MEŠ ŠEŠ.MEŠ NU UR5-tú ŠU -su KUR-ád
+17. BE NÍG.TAB 15 u 150 ana AN.⸢ TA⸣- nu TÉŠ.BI ka[p]-ṣa-át-ma
+18. GÍR ina ŠÀ -šá GAR-in ina gišTUKUL ÉRIN NUN GABA.RI NU TUK
+19. ina U4 SÙ šá NUN KUR-su ana [K]A-šú TUŠ -ab
+20. BE KI.MIN-ma u GÍR ina ŠÀ -šá NU GAR ina gišTUKUL [KÚR ] ⸢ú⸣-saḫ-ḫar-an-ni
+21. ⸢BE⸣ KI.MIN-ma u NA DUL-um ŠUB -t[iE]N UDU.NÍTA
+22. BE KA DÙG.GA GAR KA GI.NA šá DINGIR ana LÚ
+23. BE KA DÙG.GA ana KAL iq-rib LÚ ina GISSU DINGIR-šú DU.MEŠ
+24. BE ina ŠÀ KA DÙG.GA AN.TA KI.TA DU8 ZÚ.MEŠ LÚ i-šáḫ-ḫu-ḫa
+25. BE KA DÙG.GA 2 A.RA.ZU LÚ DINGIR iš-me
+26. BE KA DÙG.GA 3 DINGIR SAG LÚ ana MUNUS.SIG5 ú-kal-la
+27. BE KAL GAR-in SUḪUŠ.ÀM GI.NA.MEŠ KI.TUŠ ne-eḫ-tú
+28. BE KAL ana gišTUKUL GUR-ma KI.TA IGI tu-dan-na-an-ma KÚR -ka ta-sa-kip
+29. BE SAG KAL ka-bi-ìs ŠU dTaš-me-tu 4
+30. BE MURUB4 KAL ka-bi-ìs ŠU dNin-kar-ra-ak
+31. BE SUḪUŠ KAL ka-bi-ìs ŠU dSa-dàr-nun-na
+32. BE UGU-nu KAL BÙR ŠUB -di ina gišTUKUL ÉRIN NUN
+33. ina DUGUD-šá ŠUB -ut ú-lu MUNUS na-ram-⸢ mat⸣ NUN ÚŠ
+34. BE UGU-nu KAL ul-lu-ma BÙR ŠUB -di LÚ ina la-ali-šú ÚŠ
+35. BE MURUB4 KAL DU8 a-šib IGI-ka áš-bu INIM.MEŠ- ka ana KÚR È.MEŠ
+36. BE SUḪUŠ KAL pa-šiṭ NUN kiš-pu DAB.MEŠ -šú
+37. BE KAL uš-te-eš-ni SUḪUŠ.ÀM GI.NA.MEŠ KI.TUŠ ne-eḫ-tú
+38. [BE KA]L GÍD.DA -ma NÍG.TAB UŠ -diU4.MEŠ NUN GÍD.DA.MEŠ
+39. BE ⸢ KAL⸣ K[I.TUŠ u ME.N]I nen-mu-du ina A.ŠÀ SILIM-mì
+40. DINGIR.MEŠ ⸢Á ÉRIN-ia5 DU⸣ .MEŠ -ma KÚR a-dak
+41. BE sip-pí 15 ME.NI DU8 Z[I.G]A ÌR
+42. BE sip-pí 150 ME.NI DU8 ZI.GA ⸢ È ⸣ [GU]R-ka
+43. BE ME.NI up-pu-uq ŠU ⸢d⸣[U.GU]R
+44. BE UGU-nu ME.NI BÙR ŠUB -diŠUB -tiDUMU ⸢É⸣.G[AL]
+45. BE ME.NI 4-ma UGU-šú-nu GU ṣa-bit LUGAL LUGAL.MEŠ -ni GABA.RI.MEŠ -⸢šú⸣
+46. LAL.MEŠ -ma NÍG.ŠU -šú-nu NÍG.GA -šú-nu ana É.GAL-šú KU4-ib
+47. BE ME.NI nu-kúr UR5.ÚŠ ki DÙ -šú NU SILIM-át
+48. BE SILIM GAR-in ÉRIN-ka SAG A.ŠÀ -šá KUR-ád
+49. BE SILIM GIM NA u GÍR GAR SILIM-mu ZI-ti
+50. BE SILIM ina MURUB4 ZÉ GAR U4.MEŠ NUN GÍD.DA.MEŠ
+51. BE SILIM GIM U4.SAKAR ana Á <<ana>> ZÉit-tab-ši KUR KÚR -ka ina KASKAL ⸢tu⸣-šam-qat
+52. BE ⸢ SILIM ina⸣ MAŠ.GÁN TÙR GAR SA5 GABA NUN ina É.GAL-šú KA NIR.GÁL GAR-an
+53. BE SILIM GIM AN DÙG.GA ŠÀ -bi
+54. BE SILIM GIM ḪAL tam-ṭa-a-tu4
+55. BE SILIM GIM KUR AN.GE6
+56. BE SILIM GIM U GU4.UD-iṭUR.MAḪ KUR-du
+57. BE SILIM ina 150 GAR mu-kil SAG MUNUS.ḪUL
+58. BE SILIM ina 15 u 150 GAR SILIM-um ZI-ti
+59. BE SILIM BAL-ma Z[ÉI]GI IZI.GAR BIR-aḫÉ LÚ
+60. BE SILIM GIM ḪAŠ dug⸢ÚTUL ⸣nap-tan LUGAL GAZ-pi šá-ri-ip nu-ri
+61. i-ṣar-ru -ut ú-lu GÚ.Z [I] ina ŠU.II lúŠU.SÌLA !(Text: ud).DUḪ i-tar-ru-ur
+62. BE SILIM ka-bi-ìs ŠU dIŠKUR
+63. BE SILIM 15 ⸢ka⸣ -bi-ìsŠU dZa-ba4-ba4
+64. BE SILIM 150 ⸢ ka⸣ -bi-ìsŠU dL
+65. BE ina KI SILIM BÙR ŠUB -diNA BI ÚŠ -ma É-su ina ÉRi-qat-ti
+66. BE ina MAŠ.GÁN SILIM BÙR ina ŠÀ BÙR ŠUB -di ina É LÚ GIG GIG-ma ÚŠ
+67. BE ina MAŠ.GÁN SILIM BÙR ina ŠÀ BÙR ŠUB -di-ma ŠÀ -šú BABBAR ina É LÚ GIG GIG-ma ⸢TI⸣
+68. BE SILIM NU GÁL -ši šib-sa-a-tu 4
+69. BE GÍR 15 ZÉ GAR KASKAL i-šar -⸢tu⸣
+70. BE GÍR 15 ZÉSAG ZÉ GIB-ma GIM GÍR -ma 15 u 150 ⸢ È⸣
+71. NUN i-dan-nin-ma KUR-su uš-te-šir
+72. BE GÍR 15 ZÉ ina MURUB4 ZÉ GAR U4.MEŠ NUN GÍD.DA. [M]EŠ
+73. BE GÍR 150 ZÉ GAR SÌG -iṣIGI ÉRIN KÚR KÚR šá ú-ṣa-ma-ra [k-ku NU KUR]-ád
+74. GÌR ÉRIN-ka KI DINGIR šu-šu-rat NA ⸢x⸣ [ ] ⸢x⸣
+75. BE GÍR 150 ZÉGÍD -ud-ma KI ŠUB AŠ.TE K[UR-ud ]
+76. i kal šú NU IGI-ḫarDU-ak a x [ ]
+77. BE GÍR 150 ZÉ 2 ri-iṣ [DINGIR ]
+78. BE ŠUB AŠ.TE GAR KAL-an [ ]
+79. SUḪUŠ.ÀM GI.N[A.MEŠ KI.TUŠ ne-eḫ-tú ?]
+80. BE ŠUB AŠ.TE ḫa x [ ]
+81. BE ŠUB AŠ.TE 15 BAL-⸢ ut x⸣ [ ]
+82. BE MÁŠ DAGAL-at [ ]
+83. BE MÁŠ 15-šú ⸢DU8 EN⸣ U[DU?.SISKUR ]
+84. BE MÁŠ 15[0-šú DU8 ]
+1. BE ⸢gišTUKUL⸣ MÁŠ ana 150 ZI-bi ÉRIN-ni ḫi-i[m-ṣa-at ÉRIN KÚR GU7]
+2. BE SILIM MÁŠ in[a U]GU MÁŠ e-ṣir SILIM-um M[U 1-K]ÁM an[a gišTUKUL IZI.GAR]
+3. BE ⸢ MÁŠ ⸣ [ ] ⸢šáit x x x⸣ [ ]
+4. ú-⸢lu⸣ ÌR LÚ BAR-ú it-ta-x-[ ]
+5. BE ina bu-di MÁŠ BÙR ŠUB -diŠEŠ L[Ú ÚŠ ]
+6. BE ina SIG ni-ri BÙR ŠUB -di IBILA L[Ú ÚŠ ]
+7. BE SAG ni!(Text: ir)-riKÁM -tu4 GIM pir-ḫe-e ŠUB- [at]
+8. ⸢BÀ ⸣-ut AD EN UDU.NÍTA UZU UDU.NÍTA bi[r ]
+9. _________________________________________________________________________________________ENib-ku-ú i-sa-pi-du ul ik [ ]
+10. 67 liq-te ša BE IGI T[ÙN ]
+11. BE ZÉ SUḪUŠ.MEŠ -šá 15 GI.NA 150 ZI.MEŠ -[ḫa]
+12. SUḪUŠ ÉRIN-ia5 GI.NA SUḪUŠ ÉRIN KÚR ZI.MEŠ-ḫ[a]
+13. BE ZÉ IGI.MEŠ-šá ana 15 GAR.MEŠ ta-a-a-rat DINGIR ana L[Ú ]
+14. BE ZÉ IGI.MEŠ-šá ana 150 GAR.MEŠ šib-sa-a-ti DINGIR ana L[Ú ]
+15. BE ZÉ BÀ GAM-uš-ma È NUN ina BAD4 DAB-šú È [(x)]
+16. BE ZÉ BÀ GAM-uš-ma NU È NUN ina BAD4 DAB-šú NU ⸢ È ⸣[(x)]
+17. BE ZÉ A.MEŠ-šá NU È.MEŠ- ni NUN ina KASKAL DU-ku NU GUR-r[a]
+18. BE ZÉ A.MEŠ-šá BABBAR.MEŠ EN SÍSKUR A.MEŠ x [(x)]
+19. BE ZÉ GIM na-a-di A.MEŠ- šá i-šáḫ-ḫal NUN ina É.GAL-š [ú] x [ ]
+20. BE IGI-et SAG ZÉ BAR-ma DU8 DU8 e-gu-ti DUMU lú [ḪAL ]
+21. ma-šad-du ḪAŠ -er DUMU lúDAM.GÀR ina KASKAL DU-ku kuš⸢NÍG ⸣.NA4-su ZÁ [Ḫ ]
+22. SÙ -su GUR-ra šum 4-ma ana gišTUKUL su-kup-ti ÉRIN-ia5 GAR-an [0]
+23. BE 2-ta ZÉ.MEŠ -ma SUR-⸢ ši-na⸣ a-ḫe-eA.MEŠ -ši-na SUM.SUM.MEŠ ma en x [x x]
+24. BE ina 150 ZÉ GÌR GAR-at GÌR i-dir-ti šum4-ma ⸢LÚ GIG⸣ dan-⸢ nu⸣ GIG-aṣ [0]
+25. BE ina 150 ZÉ GÌR ana EGIR BÀ -tú È GÌR a-ṣi-it TAR-as [0]
+26. KÚR KI.TUŠ -su ŠUB -ma URU áš-bu È KÚR ú-⸢ṣa⸣-ma-ram-ma
+27. DU8-ár INIM ḫa-de-e ana NUN TE-a
+28. BE ina 150 ZÉGÌR ana IGI-šá im-šur KÚR ṣi-rim-ta 5 TUK-ma NAM.RA È
+29. BE ina 150 ZÉ2-ta GÌR.MEŠ KÚR re-ṣa TUK-ka
+30. BE 150 ZÉ DU8 ÉRIN KÚR ŠÀ.SÌ.SÌ.KE -šá NU KUR-ád
+31. 16 liq-te ša BE ZÉ
+Nr. 1 39
+32. BE SAG ŠU.SI BAR-ma DU8 SA5-tú SÙḪ BIR-aḫÉ.GAL
+33. BE SAG ŠU.SI BAR-ma EN 2 DU8 LÚ en šá sur-ri-šú x BA.[ÚŠ ]
+34. KUD-as SAG.DU LÚ ŠUB -t[iú-ri]
+35. BE DU8.MEŠ -šú NU im-tar-ṣu UŠ 4 KUR MAN-ni ŠEŠ [ ]
+36. tap-pu-u i-bé-eš DAM u DA[M ]
+37. BE SAG EDIN 150 ŠU.SI 1 DU8 SÌG -iṣ⸢SAG⸣ .D[U ÉRIN KÚR ]
+38. gaba-raḫÉRIN KÚR ṣú-me-rat ÉRIN KÚR N[U KUR.MEŠ]
+39. BE MURUB4 EDIN 150 ŠU.SI 1 DU8 KUR bal šu mu? [ ]
+40. BE SUḪUŠ EDIN 150 ŠU.SI 1 DU8 ana gišTUKUL i x [ ]
+41. BE ŠU.SI 3 EDIN.MEŠ-šá ana MURUB4.MEŠ -šú-nu ana [ ]
+42. LÚ i-šár-ri-ma mim-ma ma-l[a ]
+43. [B]E [Š]U.SI 3 EDIN.MEŠ-šá ana ⸢MURUB4.MEŠ -šú ⸣-[nu ]
+44. [ ]
+45. BE ⸢ EDIN x⸣ [ ]
+46. BE ina SAG ŠU.SI GÌ [R] GAR-⸢ at⸣ [ ]
+47. BE ina SAG EDIN 15 ŠU.SI GÌR ⸢eṣ-ret⸣-ma ŠU.SI 3? luḫ? [ ]
+48. BE ina MURUB4 EDIN ŠU.SI MURUB4 GÌR ti [ ]
+49. im-⸢taḫ?⸣-ḫu ma ka šá zi g[a? ]
+50. BE ŠU.SI GIŠ. ⸢ḪUR.MEŠ ⸣SA5-át KÚR URU-ka NÍG.G [A-ka DAB-bat]
+51. BE ŠU.SI ḫal-qat E[N SÍS ]KUR ÚŠ LUGAL URI⸢ki⸣ x [ ]
+52. šum 4-ma KÚR ina URU.MEŠ -ia 1-en URU ŠÚ.ŠÚ DU8 [ ]
+53. AN.GE6 GAR-nu ⸢šum 4-ma⸣ ana SILIM-um LUGAL URU u [ ]
+54. ŠU.SI ḫal-qat mim-ma [ ]
+55. BE ina DAGAL 150 ŠU.SI GIŠ.ḪUR e[ṣ-ret ]
+56. BE ina É.GAL ŠU.SI GIŠ.ḪUR eṣ-ret DA[M L]Ú [in-na-ak]
+57. BE KI.MIN EDIN 15 ŠU.SI DU8 DAM LÚ ina n[a-ki È ]
+58. BE ina MURUB4 ⸢EDIN⸣ ŠU.SI MURUB4 UZU GIM [ZA.NA NITA 2 GAR.MEŠ-ma]
+59. KIR4 ⸢SIG⸣- ed DAM L[Ú ma-šá-a-ti ul-lad]
+60. BE ina MURUB4 EDIN ŠU.SI MURUB4 U[ZU GIM ZA.NA NITA 2 GAR.MEŠ]
+61. DAM LÚ ma-[še-e ul-lad]
+62. BE ina MURUB4 ⸢MIN? ŠU ⸣.SIdu x [ ]
+63. BÙR ⸢ŠUB ⸣-diNUN DUGUD ⸢šá⸣ [ ]
+64. BE ina MURUB4 EDIN ŠU.SI M[URUB4 ]
+65. ina É.GALGÁL -ši [ ]
+66. lu-ú SIPA lu-⸢ú ⸣ [ ]
+67. BE ina SUḪUŠ EDIN ŠU.S[I MURUB4 ]
+68. __________________________________________________________________________________________te-retbu-lim []
+69. 22__________________________________________________________________________________________li[q-te šaBEŠU.SI]
+70. ⸢BE x x⸣ [ ]
+@reverse
+I (IV) 18 Zeilen weggebrochen
+19. BE [ ]
+20. BE [ ]
+21. ⸢a⸣ [ ]
+22. š[á ]
+23. x [ ]
+24. BE SA[GŠU ]
+25. x [ ]
+26. BE SA[GŠU UGU SA-ti U5 sip-pa-šú DU8]
+27. IM.[ḪUL ZI-ma ku-lu-li šá SAG.DU NUN]
+28. ú-saḫ-ḫ[a ú-lu šá munusḫa-am-matur-ši ku-lu-li-šá BAD.MEŠ -ú ]
+29. BE SAGŠU ŠU.S [I TUR-ti TI-qé KI NÍG.GIG -ia5]
+30. KÚR TI-qé ina ⸢U4⸣ [SÙ munusPEŠ 4 šà ŠÀ -⸢šà ⸣ŠUB -a]
+31. BE ku-tal MUR 1[5 SÌG -iṣ EGIR-at ÉRIN-ia5 ]
+32. BE ku-tal MUR 150 SÌG -iṣE[GIR-at ÉRIN KÚR ]
+33. BE ina IGI gi-ip-ši šá 15 2 gišTUKUL ⸢na-an⸣-[ du-ru-ti GAR(.MEŠ) ]
+34. per-níq -qa MU.NE.NE mu-zi-ir-[ri ir-ta-mu]
+35. DINGIR ze-nu-ú KI LÚ [SILIM-im]
+36. ina A.ŠÀ NAM.KÚR šu-lum -mu-⸢ ú⸣ [GAR-an]
+37. dXXX u dUTU Á ÉRIN-ia5 D[U.MEŠ -ma]
+38. KÚR a-dak ana GIG GIG-su [GÍD.DA -ik]
+39. BE ŠU. ⸢SI⸣ M[UR MURUB4 ] x x x x [ ]
+40. BE ⸢ ŠU ⸣.S[I MUR MURUB4 ]
+41. ⸢BE ŠU ⸣.SI ⸢MUR MURUB4⸣ x [ ] x []
+42. BE ŠU.SI MUR MURUB4 BAL-⸢ at NUN⸣ KUR-su BAL-[šu ]
+43. BE ŠU.SI MUR MURUB4 BAL-at KI MUNUS.ÙRU MUR ⸢šá 15⸣ GAR-[át]
+44. šá ki-di ana ŠÀ URU šá ŠÀ URU ana ki-di ⸢È⸣
+45. a-šib URU bir-ti-ka URU ana KÚR SUM-n[a?]
+46. BAL LUGAL MAN-ni EN UR5.ÚŠ ina UR[5.ÚŠ ]
+47. šum 4-⸢ma⸣ ina SÍSKUR MAŠ.EN.GAG DÙ -šú BIR-aḫ ⸢ É⸣ [LÚ ]
+48. šum 4-ma ina gišTUKUL su-kup-ti ÉRIN-ia5 GAR-a[n]
+49. BE EDIN 150 ŠU.SI MUR MURUB4 DU8 KÚR ina AN.BAR7 G[AZ-ni]
+50. šum 4-ma É LÚ ana IGI-šú ⸢DU⸣-[ ak]
+51. BE na-kap 15 SAGŠU MUR DU8.DU[8] x x [ ]
+52. šum 4-ma LÚ ina di-nim i-le-q[é ?(x) (x)]
+53. BE na-kap 150 SAGŠU MUR DU8.DU8 ka ⸢be⸣ x [ ]
+54. šum 4-ma LÚ ina di-ni UGU ge-re-šú G[UB-az]
+55. BE 150 SAGŠU ŠU.SI DÙ -nu ta-a-a-rat DING[IR ana LÚ ]
+56. BE 150 SAGŠU ŠU.SI DÙ- nu u na bal ka x [ KÚR.MEŠ -ka]
+57. i-kán-nu-šu-ka ze-nu-ti-ka ú-na-šá-q [u GÌR.II -ka]
+58. BE SAG SAGŠU MUR BAR-ma KI.TA K[AR]
+59. DUMU lúDAM.GÀR ina KUR SÙ -te DU-[ma]
+60. kušNÍG.NA 4-su ú-ḫal-⸢laq⸣ SÙ -su GUR-r[a]
+61. BE AN.TA KAR DUMU lúDAM.GÀR ina KUR ⸢ SÙ ⸣-[te]
+62. DU-ma kušNÍG.NA 4-su ú-rak-ki- [is-ma]
+63. mim-ma aq-ru TI-ma ana LUGAL SUM-[in]
+64. BE SAG ki-di-it 150 DU8 ki-ṣir [ŠÀ DINGIR]
+65. ana LÚ DU8 šá-niš DU8 ḫu-ud lìb-bi M[U-šu ]
+66. BE MURUB4 ki-di-it 150 DU8 ⸢KASKAL⸣ bu-⸢lu-uṭ⸣ lìb-[bi]
+67. ÉRIN-⸢ ia⸣ DU-ak šá i-ṣa SUM-nu ma-ºa-du T[I-qé ]
+68. BE SUḪUŠ ki-di-⸢it⸣ 150 DU8 a-⸢ḫér ⸣-[tu MU-šú ]
+69. DUMU lúDAM.GÀ [R] ina KASKAL DU-ku ina 1 N[I+GIŠ 1 MA.NA ut-tar]
+70. BE ki-di-it150 pe[r]-kám KAR at [ ]
+71. ta-dak-ma SA[G].DU.MEŠ x [ ]
+72. MUNUS.ÙRU GÚ.UN [ ]
+73. šá i-ṣa ⸢SUM⸣ -nu ⸢ma⸣-º[a-du TI-qé ]
+74. šum 4-ma IBILA ⸢gi⸣ x [ ]
+75. BE ŠU. ⸢SI⸣ MUR MURUB4 [x] x x x [ ]
+76. BE SAL.LA MUR 15 DU8 ÉRIN-ni ana ÉRINKÚR NU G[UB-za]
+77. B[E S]AL.LA MUR 150 DU8 ÉRIN KÚR ana IGI ÉRIN-ia5 NU G[UB-za]
+78. 33 liq-te ša BE MU[R]
+79. BE KI.TA-tu4 DU-ik u SAGŠU UGU ki-di-tiU5 KÚ [R-ka]
+80. a-na MUNUS.SIG5.MEŠ KIN!(Text: ku)-ka ina gišTUKUL DINGIR Á ÉRIN-ia5 D[U-ak]
+II (V) 1 BE KI.⸢ TA⸣- tu4 DU-ik u Š[U.SI MUR MURUB4 SUḪUŠ -sà KEŠDA ]
+2. gišMÁ NU gišsik-kan-ni I[M uš-qa-la-pa-šim-ma ]
+3. dUTU u dAMAR.UTU ina ma-ka-l[e-e GI.NA iš-te-né-ú-šú ]
+4. ina SILIM-ti u NU SIL[IM-ti SILIM-at]
+5. BE KI.TA-tu4 DU-i[k] ⸢ u⸣ 150 [ ]
+6. KÚR ina ŠÀ KUR ⸢KU4⸣ .RA mim-ma NU TI-⸢ qé ⸣ x [ ]
+7. BE KI.MIN u SAL.LA MUR 150 ⸢DU8⸣ x x [ ]
+8. BE KI.MIN u MURUB4 ⸢GÍR ⸣ x x x [ ]
+9. BE KI.TA-tu[4 k]al uš [ ]
+10. BE ⸢ KI.TA-tu4⸣ [DU]-ik u x x [ ]
+Nr. 1 41
+11. x [ ] x [ ]
+12. BE ⸢KI.TA-tu4 DU-ik u⸣ x x x [ ]
+13. B[E KI.TA-tu4] DU-ik [u] MURUB4 x [ ]
+14. B[E KI.TA-tu4 DU]-ik [u ]
+15. B__________________________________________________________________________________________[E KI.TA-tu4D]U-ikuSAG NA⸢na-bal-kut⸣
+16. B[E x ka-bi-ì]s u SAG ŠU.SI KAR
+17. [B]E an [x ka-b]i-[ì]s u 150 ZÉ ṣa-bit
+18. [BE k]a-⸢bi-ìs⸣ u ina ni-ri IZI.GAR GAR-in
+19. [BE x t]a [k]a-bi-ìs u GÍR 150 ZÉ BAL-ut
+20. [BE k]a-bi-ìs u ŠUB AŠ.TE BAL-ut
+21. BE [ k]a-bi-ìs u ŠU.SI MUR MURUB4 x x x
+22. [B]E ⸢KAL SILIM⸣ [u GÍ]R 150 ZÉkab-su
+23. [B]E SAG ŠU. ⸢SI⸣BAR-ma DU8 u NÍG.GEŠTU 1[5] ⸢ŠU ⸣.SI DU8-át
+24. [B]E SAG ŠU.SI BAR-ma DU8 u NÍG.GEŠTU [ŠU ].⸢SI⸣MUR MURUB4 DU8-át
+25. [B]E SAG ŠU.SI BAR-ma ⸢DU8⸣ [u K]I.⸢TA-tu4⸣ DU-ik
+26. [BE SAG ŠU.SI BAR-ma] ⸢DU8⸣ u ⸢SAGŠU ⸣ UGU SA-ti U5-ma
+27. sip-pa-šú DU8
+28. BE __________________________________________________________________________________________SAG ŠU.SI ⸢BAR⸣-maDU8uZÉḫal-qat
+29. BE ZÉ š [ub]-bat u sip-pí !(Text: ni) 15 ME.NI DU8
+30. BE ZÉ šub-bat u ⸢MURUB4⸣ GÍR pa-áš-ṭa
+31. BE __________________________________________________________________________________________ZÉ šub-batuMURUB4NApa-áš-ṭa
+32. BE MURUB4 GÍR pa-áš-ṭa u KAL NU ⸢GAR⸣ -in!(Text: ni)
+33. BE MURUB4 GÍR pa-áš-ṭa u ŠU.SI MUR MURUB4 BAL-ma
+34. KI MUNUS.ÙRU MUR šá 15 GAR-at
+35. BE MURUB4 GÍR ⸢pa-áš⸣-ṭa ⸢u KAL SILIM u GÍR ⸣ 150 ZÉkab-su
+36. BE MURUB4 GÍR pa-áš-ṭa u AN.TA-⸢ tu4 EDIN MUR⸣ ša 15 e-bir
+37. BE MURUB4 GÍR pa-áš-ṭa u ina ni-ri IZI.GAR GAR-in
+38. BE __________________________________________________________________________________________MURUB4GÍRpa-áš-ṭa u let15 GAR-at
+39. [B]E ⸢AN.TA-tu4⸣ [EDIN] ⸢MUR šá 15⸣ e-⸢bir⸣ u ⸢MURUB4 NA⸣ DU8
+40. [BE AN.TA-tu4 EDIN MUR šá 15 e-bir u GÍR ana 15 m]a-qit
+41. [BE AN.TA-tu]4 EDIN MUR šá ⸢15⸣ e-bir u ⸢ZÉšub ⸣-bat
+42. ⸢BE⸣ AN.TA-tu4 EDIN MUR šá 15 e-bir u PIŠ 10 SILIM DU8
+43. BE NA u GÍR kab-su-ma UR5.ÚŠ NU SILIM-át
+44. ÉRIN-ka ina SAG A.ŠÀ -šá DINGIR.MEŠ -šú ze-nu-te GUR.MEŠ -niš-šum-ma
+44a KÚR -šá i-sa-kip ina A.ŠÀ SILIM-mi ḪA.LA GU7 SILIM-su GUR-ra
+44b BE ZÉ ḫal-qat mu-ut NUN
+44c BE ⸢ŠU ⸣.SI ḫal-qat EN SÍS [K]UR ÚŠ
+45. BE SAGŠU ŠU.SI TUR-ti TI-qé ⸢KI⸣ NÍG.GIG -ia5
+46. KÚR TI-qé ina U4 SÙ munusPEŠ 4 šà ŠÀ -⸢šà⸣ [Š]UB-a
+47. BE SAGŠU UGU SA-ti U5 ⸢sip⸣-pa-šú DU8
+48. IM.ḪUL ZI-ma ku-lu-li šá SAG.DU NUN ⸢i⸣-saḫ-ḫa
+49. ú-lu šá munusḫa-am-matur-ši ku-lu-li-šá BAD.MEŠ -ú
+50. BE KI.TA-tu4 DU-ik GÌR e-ṭe4-e i-di NU DU-ak
+51. BE KIŠIB.MEŠ LAL.MEŠ ÉRIN-ka SAG A.ŠÀ -šá NU KUR-ád
+52. BE ina is-ri šá15 BÙR ŠUB -di ŠUB -tiDU IGI ÉRIN-ni
+53. [B]E ÉLLAG 15 ḫal-qat KUR NUN ZÁḪ
+54. BE ŠÀ.NIGIN 10 GÙ -mu ana ÉRIN-ni ŠUB -ut
+55. BE ina MU SAG MUR šá 15 KÁM -tu4 ŠUB -at
+56. UZU bi-bil-ti ÉRIN-ni UZ[U g]a-mir ÉRIN-ni
+57. mu-šam-qit ÉRI[N-n]i ⸢mu⸣-šá-dir ÉRIN-ni ÉRIN-ni KI DINGIR ka-mat
+58. ka-sa-at ana GAZ er-šet KÚR BAD5.BAD5-a-a
+59. __________________________________________________________________________________________GAZ EN[u]l-la UŠ-an-ni
+60. BE UR5.ÚŠ -ka NU ⸢ SILIM⸣- át UGU-nu ME.NI gišTUKUL GAR-ma
+61. ŠÀ ME.NI IGI gišTUKUL tuš-ši ŠUB -ti ÉRIN KÚR
+62. [B]E UR5.ÚŠ -ka NU SILIM-át SAG ŠU.SI BAR-ma DU8
+63. [SA]5-ti ÉRINKÚR BAD5.BAD5 KÚR a-dak
+64. [BE UR]5.[Ú ]Š-⸢ ka⸣ NU SILIM-⸢ át⸣ SAL.LA MUR 150 DU8
+65. [ÉRIN KÚR ina I]GI ÉR[IN-ia5] NU GUB-za
+66. [BE UR5.ÚŠ -ka NU SILIM-át GAG.ZA]G.GA ina MURUB4-šú GAM-iš
+67. [mu-sa-ri-ri ÉRIN KÚR ÉRI]N KÚR ina DUGUD-šá Š[UB]-⸢ut⸣
+68. [BE UR5.ÚŠ -ka NU SILIM-á]t GAG.ZAG.GA 15 u 150 ⸢ na-pár-qud⸣
+69. [ ] ú-qa-bar-šu
+70. [BE UR5.ÚŠ -ka NU SILIM-át ] ⸢x⸣ 2-ma MAN-ú ina bi-rit
+71. [NA u GÍR DI]NGIR ana LÚ ŠUB -ti ÉRIN KÚR
+72. [ ] ZI IM.2
+73. [ SIL]IM-át
+74. [ ]
+III (VI) 1-10 Nur Spuren erhalten
+11. [ ] DU8
+12. [ ] MAN.MEŠ
+13. [ ] ⸢È⸣
+14. [ ]-ni
+15. [ ] ḫu
+16. [ ]-šúDU8
+17. [ ](-)šam-ḫa
+18. [ ].MEŠu
+19. [ ] še
+20. [ ] x
+(Zwölf Zeilen weggebrochen)
+33. [ ] ⸢na⸣
+34. [BE ina MU SAG MUR šá 15 KÁM -tu4 ŠU ]B-at
+35. [UZU bi-bil-ti ÉRIN-ni UZU ga-mir] ÉRIN-ni
+36. [mu-šam-qit ÉRIN-ni mu-šá-dir ÉRIN-ni ÉRIN-n]i KI DINGIR ka-mat
+37. [ka-sa-at ana GAZ er-šet KÚR BAD5.BAD5-a]-⸢ a⸣ GAZ-[m]a
+38. __________________________________________________________________________________________[ENul-laU]Š-an-ni
+39. [BE UR5.ÚŠ -ka NU SILIM-át GAG.ZAG.GA ina] MURUB4-šú KAR
+40. [mu-sa-ri-ri ÉRIN-ni ÉRIN-ni ina DUGUD-š ]á ŠUB -ut
+41. [BE UR5.ÚŠ -ka NU SILIM]-át
+42. __________________________________________________________________________________________[ ]
+(Drei Zeilen weggebrochen)
+46. [ ] igi [ ]
+47. [ ] ŠUB -[ut]
+48. [BE UR5.ÚŠ -ka N]U SILIM-⸢ át⸣
+49. [ ] ma-ṭir5
+50. [ ] a-a!-bi!(über Rasur) ŠUB -ut
+51. [BE UR5.ÚŠ -k]a NU SILIM-át
+52. [ ] x DU8 ana-ku u KÚR IGI.IGI-mar-ma
+53. [gišTUK]UL NU DÙ.MEŠ
+54. [BE UR5].ÚŠ -ka NU ⸢ SILIM⸣- át
+55. [Z]I IM 2 ⸢ÉRIN⸣ KÚR
+56. ŠÀ.SÌ.SÌ.KE -šá NU KUR-ád
+57. [BE UR]5.ÚŠ -ka NU SILIM-át
+58. [S]AL.LA MUR 150 DU8
+59. __________________________________________________________________________________________[ÉRI]N[K]ÚRanaIGI <<kur>>ÉRIN-ia5NU GUB-za
+60. [DU8 3-ti BÙR 5-ti giš]TUKUL 7-ti [ ]
+61. [an-nu-tu4 BAR.MEŠ šá l]úḪAL mam-ma la Z[U-ú ]
+62. [lúḪAL AD ana] DUMU-šú ša i-ra[m-mu]
+63. [i-na-aṣ-ṣa-ru ] ⸢ú⸣- tam-mu-ú ú-šáḫ-ḫa-za
+Nr. 1 43
+64. [šu ]m4-⸢⸢gišma⸣⸣a-naSILIM-um LUGAL
+65. [a-na] [T]UKUL a-na KASK[AL] ⸢ a⸣-na DAB URU
+66. [a-na DÙ ]-eš ⸢Á ⸣.ÁŠ
+67. [(a-na SILIM GIG)? a-na SUR-an A]N-e
+68. [ ] nu
+(abgebrochen; etwa 16 Zeilen fehlen bis zum Rand der Tafel.)
+Eintrag zwischen der I. und II. Kolumne mit Bezug zu ii 24:
+BE KI.MIN KA DÙG.GA AN.TA u KI.TA DU8 ZÚ.MEŠ L[Ú i-š]aḫ-ḫu-ḫa
+Eintrag zwischen der II. und III. Kolumne mit Bezug zu iii 23:
+BE 2-ta ZÉ.ME-ma SUR-ši -na a-ḫe-eA.MEŠ -ši-na SUM.MEŠ DUMU LUGAL AŠ.TE AD-šú DAB-bat

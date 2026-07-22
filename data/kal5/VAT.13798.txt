@@ -1,0 +1,42 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 73 (VAT 13798)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.634 on 292 tokens.
+---
+@obverse
+1. [BE URU KÚR NIGIN -ta a-na DAB-at URU ana DÙ -eš gišTUKUL ana sa-kap KÚR ana SI]LIM-um ÉRIN-ni [ana ]
+2. [ana SILI]M-um GI[G ] x ina KIN.MEŠ -ka SILIM.MEŠ ⸢TAG.MEŠ x x x⸣ in[a KIN.MEŠ -ka]
+3. šá SIG5.MEŠ ù ḪUL.MEŠ TUK-a ⸢ um-ma⸣ -nu UD.DA.ZAL-a ŠUB -a <eš> EN-ka a-da-na šá-k [a-na ir-riš-ka ]
+4. at-ta e-la-at uzuKIN-ka ḫi-iṭ šu-ta-bíl-ma TÙN ù uzuMUR.MEŠ bu-uº- [i at-ta]
+5. uzuKIN.MEŠ -ka ḫi-iṭ šu-ta-bíl-ma SIG5.MEŠ -ka ana ḪUL.MEŠ -ka i-ši-[ma (x x)]
+6. šúm-ma SIG5.MEŠ -ka ana ḪUL.MEŠ -ka 1 TA.ÀM at-ru ki-ma DÙ -šú SILIM-at KÚR [ ]
+7. šum 4-ma ḪUL.MEŠ -ka ana SIG5.MEŠ -ka 1 ⸢TA⸣ .ÀM at-ru ki-ma DÙ -šú NU SILIM-at KÚR [ ]
+8. É.GAL ki-a-am ta-pal šá ŠU.SI KI a-šar KI.TUŠ ZAG ZAG-ma a-šar ZAG GÙB a-šar GÙB [ZAG ]
+9. gišTUKUL 7-ti BÙR 5-tiDU8 3-ti a-na U4 1-KÁM ú-še-p [i-šu-ka ]
+10. [B]E SAG EDIN ZAG ŠU.SI 1 DU8 IGI 9 la-ºa-ab muš-taš-nin-ti DU8-ma 6 40/60 [ ]
+11. 6 40/60 IGI-mar 6 40/60 a-na 1 DU8 i-ši-ma 6 40/60 IGI-mar 20/60 EN.[NU].⸢ UN⸣ [u4-mi]
+12. [BE MURUB4 EDI]N ⸢ZAG⸣ !ŠU.SI 1 DU8 6 40/60 A.RÁ 2 13 20/60 2/3 [ ]
+13. [BE SUḪUŠ EDIN ZAG Š]U.[S]I 1 DU8 6 40/60 A.RÁ 3 20 [ ]
+14. [ ] ⸢1?⸣DU84 A.RÁ 20 80 EN.NU.U[N ]
+15. [ D]U8 5 A.RÁ 30 150 EN.NU.U[N ]
+16. [ DU8 4] A.RÁ 30 120 EN.N[U.UN ]
+17. [ A.R]Á 40 400 (6.40) 2/3 [ ]
+18. [ A.R]Á ⸢30 6.40⸣(= 400) x [ ]
+@reverse
+1’. [BE ina SAG EDIN GÙB Š]U.⸢ SI⸣ BÙR ⸢ŠUB -di a⸣-n[a ]
+2’. [BE ina MURUB4 EDIN G]ÙB ŠU.SI BÙR ŠUB -di a-na⸣ [ ]
+3’. [BE ina SUḪUŠ ED]IN GÙB ŠU.SI BÙR ŠUB -di a-na 1 ⸢ITI⸣ 20+[ ]
+4’. [BE URU K]ÚR NIGIN -ta a-na DAB-at URU ana DÙ -eš gišTUKUL ana sa-kap KÚR a-na SILIM ÉRIN-ni ⸢ ana⸣ x [ ]
+5’. ⸢ana⸣ SILIM-um GIG ù mim-ma ma-ºa-da- [tu] uzuKIN a-na MU 1-KÁM ú-š[e?-pi-šu-ka ]
+6’. BE ina SAG EDIN GÙB ŠU.SI BÙR ŠUB -di a-na 4 ITI URU KÚR [ ]
+7’. BE ina MURUB4 EDIN GÙB ŠU.SI BÙR ŠUB -di a-na 6 ITI URU KÚR [ ]
+8’. BE ina SUḪUŠ EDIN GÙB ŠU.SI BÙR ŠUB -di a-na MU 12 ITI URU KÚR [ ]
+__BE______MAN______BE _____MAN______[BE]_____MAN_____BE______MAN_____B[E]_____[MAN]_____
+9’. AL.TIL IGI.[KÁ ]R GABA.RI URU ŠÀ-URU ṭup-pi 15-KÁM.MA
+10’. ŠU I.d[UT]U-NUMUN-SUM-na lú ḪAL DUMU dUTU-MU-SI.SÁ ḪAL -ma
+11’. ⸢itiAPIN iti—i-ip-pu⸣ [U4 x]+2-KÁM li-⸢mu I⸣ [ ]

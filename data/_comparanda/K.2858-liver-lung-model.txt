@@ -1,0 +1,104 @@
+---
+exclude: true   # COMPARANDUM — extispicy (liver+lung) orientation model, kept out of the genre LDI
+genre: extispicy model
+period: Neo-Assyrian
+provenance: Nineveh (Kuyunjik)
+counting: line
+topic: liver+lung
+publication: K 2858 (+ K 3675 + K 9744); Koch 2005 no. 107 (= Nougayrol's Group 2, witness G), pl. xlix; eBL Fragmentarium K.2858
+feature: orientation tablet — every liver and lung part labelled right (15 = ZAG) or left (150 = GUB₃); 4-column fragmentary tablet (liver obv., lung rev.)
+note: "Verbatim eBL ATF (unlike KAR.444/CTN4-60 in this folder, 15/150 are NOT pre-normalized — the loader counts bare 15/150/30 as logograms via NUMBER_LOGOGRAMS = ZAG/GUB₃/Sîn). Column starts marked with $ (cosmetic, skipped); primes (') = fragmentary line numbers restart per column. The lung reverse (col iii 13') carries the same imēr ḫašû 'donkey' label as KAR 444 rev. First-mill-BCE canonical parallel to the Middle Assyrian orientation tablet VAT 9580 = KAR 444."
+---
+
+@obverse
+
+$ column i
+1'. [SUHUŠ ŠA₃ SILIM] MAŠ.GAN₂#-t[i₃] 15?#
+2'. [SAG] 150 SILIM 150
+3'. [MURUB₄] 150 SILIM 15#
+4'. [SUHUŠ] 150 SILIM 150
+5'. [SAG] GIR₂# 15 ZE₂# 15
+6'. [MURUB₄] GIR₂# 15# ZE₂# 150
+7'. [SIG KIMIN 15 KIMIN] SIG ZE₂ 15#
+8'. [x x (x x)] MURUB₄# ZE₂ 150#
+9'. [x x (x x)] SAG# ZE₂ 15#
+10'. [x x (x x)] x 15?# ZE₂?# 15#
+11'. [x x (x x)] x ZE₂?# 15?#
+12'. [x x (x x)] x x x
+13'. [x x (x x)] x [x]
+
+$ column ii
+1'. [x x x (x x)] x
+2'. [x x x (x x)] 1[5]
+3'. [x x x (x x)] 15
+4'. [x x x x] x 15
+5'. [x x x] x ba 15
+6'. [x x x 1]5 ki-sal E₂ HA.LA 15
+7'. [x x] x E₂ HA.LA 15
+8'. [x x] KI-tu₂ ZE₂-ti 15
+9'. [MAN]-u₂# MU#-NI# 150 ki-sal E₂ HA.LA 150
+10'. [ša]l-šu₂ MU#-NI# KI ki-ṣir-ti 150
+11'. IGI#-et# KI# DAL.BA.AN 15
+12'. IGI#-et# SAG PA-iṣ-IGI-ERIN₂-KUR₂ 150
+13'. IGI# šu₂ SIG? si? 150
+14'. IGI#-et# MURUB₄# PA-iṣ-IGI-ERIN₂-KUR₂ 150
+15'. IGI#-et# SUHUŠ PA-iṣ-IGI-ERIN₂-KUR₂ 150
+16'. IGI#-et# UB 150 TUN₃ 150
+17'. i?#-sil?#-ti?# 150# IGI-et 15 GIR₂ 150 ZE₂ 150
+18'. MAN#-u₂ MU-NI ki na-as-me-SI
+19'. šal#-šu₂# MU-NI KI#-MEŠ# 150 suh-hu-ra-a-tu₄
+20'. ša₂# ana UGU# 15# GIR₂ 150 [ZE₂]
+21'. u TUR₃# 150 ZE₂ IGI-MEŠ#-[ši-na GAR-nu]
+22'. IGI-et ma#-šit 150# [150]
+23'. IGI#-et# KI?# DI-hu na?-x [x (x x)]
+24'. IGI-et# ma-šit [15 15]
+25'. i#-sil#-ti# 15# IGI#-et# TU[R₃ 15 15]
+26'. [MAN-u₂ M]U-NI# KI#-MEŠ 1[5 suh-hu-ra-tu₂]
+27'. [ša₂ ana UGU 15 Z]E₂ 1[5 SILIM]
+28'. [u TUR₃ 15? Z]E₂ IGI?-M[EŠ?-ši-na GAR-nu]
+
+@reverse
+
+$ column iii
+1'. [ki-ṣir-ti (...)] x ib?#
+2'. [ši-ir-a-nu TA KUN ID₂-B]A₃ ana# SIG# ni-ri# par-ku
+3'. [TUR₃ bu-l]i₃ IGI#-et# SIG ni-ri 15#
+4'. KI# AZAG# IGI-et KUN ID₂-BA₃ DU₃.A-BI 15#-ma
+5'. SUR NIG₂.TAB IGI-et TUR₃ 15 15
+6'. 150 ID₂-BA₃ TA IGI-et 15 MAŠ₂ EN tal₂-lim 150 15-ma
+7'. MURUB₄ ID₂-BA₃ ana IGI-et 150 MAŠ₂ 150
+8'. 15 ID₂-BA₃ ° \ ana ° A₂ 150 MAŠ₂ 150
+$ single ruling
+9'. MU-SAG-MUR ša₂ 15 15
+10'. MU-SAG-MUR ša₂ 15 KI.TA-ma
+11'. KI {giš?}TUKUL SAG-MEŠ : ku-tal MUR ša₂ 15 15
+12'. EGIR ku-tal MUR ša₂ 15 15
+13'. ANŠE MUR ša₂ 15 DU₃.A-BI 15-ma
+#tr.en: The donkey of the lung, to the right — all of it is right.
+14'. EDIN MUR ša₂ 15 DU₃.A-BI 15-ma
+#tr.en: The steppe of the lung, to the right — all of it is right.
+15'. a-ah ID₂ MUR ša₂ 15 DU₃.A-BI 15-ma
+#tr.en: The bank of the river of the lung, to the right — all of it is right.
+16'. KIR₄ ANŠE MUR ša₂ 15 nar-pa-aš₂ MUR ša₂ 15
+#tr.en: The nose of the donkey of the lung, to the right; the expanse of the lung, to the right.
+17'. ka-ra-aš₂ MUR ša₂ 15 : SAG 150 SAGŠU MUR ša₂ 150
+18'. MURUB₄ 150 SAGŠU MUR 150
+19'. SUHUŠ# 150 SAGŠU MUR 150#
+20'. 150# ti-ri-in-na-at# [SAGŠU MUR 150]
+21'. [MURUB₄? ti]-ri#-in#-na#-at# [SAGŠU MUR BAR?-ma? KI?-ru₃?]
+
+$ column iv
+1'. [...] x ir?# miš₂-ti 150 150
+2'. [... ŠA₃.NIGIN] 150 150
+3'. [... t]i? BAR-ma 150
+4'. [... t]i? 150
+5'. [...] x ub a-mur-ti
+6'. [...] 150# a-šar ILLAT KUR₂ BIR
+7'. [...] ša₂ 150
+8'. [...] ša₂# 150
+9'. [... n]i? SILIM ša₂ 150
+10'. [... SILIM] ša₂ 150
+11'. [... SILIM? š]a₂? 150
+12'. [... 1]50
+13'. [... 15]0
+14'. [...]

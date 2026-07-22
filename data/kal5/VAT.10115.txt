@@ -1,0 +1,47 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 43 (VAT 10115)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.749 on 311 tokens.
+---
+@obverse
+1. B[E ina] ku-bur SIG ZÉ 2 giš TUKUL.ME a-ri-du-t[u GAR.M]EŠ !-nu A.ALAD ù dLAMMA ⸢Á ⸣[ÉRIN-ia5 D]U.⸢ MEŠ ⸣-
+[ku]
+2. BE giš TUKUL.MEŠ šu-nu BAL.MEŠ -ma AN.TA IGI.ME[Š] A.ALAD ù dLAMMA Á ÉRIN KÚR DU.MEŠ-ku
+3. BE KI.MIN-ma SUḪUŠ GÙB KI.GUB IGI.LÁ ÉRIN KÚR ina man-di-ti ú-šam-qat
+4. BE KI.MIN-ma TÙR IGI.MEŠ KÚR ÉRIN-ka ina man-di-ti ú-šam-qat
+5. [BE ina MURU]B4 ZAG ZÉ 2 giš TUKUL.ME a-ri-du-tu GAR.MEŠ -nu d⸢Lugal⸣ -ir9-ra dMes-lam-ta-è Á ÉRIN -ia5 / (Z. 6
+Ende:) DU.MEŠ -ku
+6. [BE giš ]TUKUL.MEŠ šu-nu BAL.MEŠ -ma AN.TA IGI.MEŠ KI.MIN-ma Á ÉRIN KÚR DU-ku
+7. [BE KI.MI]N-ma SILIM IGI.MEŠ KÚR ana nu-pa-ri-i[a IZI ŠUB ]-di
+8. [BE KI.MI]N-ma MURUB4 GÙB ZÉ IGI.MEŠ ana nu-pa-ar KÚR IZI ⸢ŠUB ⸣-di
+9. [BE ina SU]R ZAG ZÉ 2 giš TUKUL.MEŠ a-ri-du-tu GAR.MEŠ -nu SÚḪ -ú ina KUR KÚR GAR-an
+10. [BE giš ]TUKUL.MEŠ šu-nu BAL.MEŠ -ma AN.TA IGI.MEŠ SÚḪ -ú ina KUR NUN GAR-an
+Nr. 43 165
+11. [BE] x SAG GÙB ZÉ IGI.MEŠ ina gišTUKUL KÚR [E]N ⸢ul⸣-la-a GAZ-ak
+12. [BE] x MURUB4 GÙB ZÉ IGI.MEŠ ina gišTUKUL K[ÚR EN u]l-la-a GAZ-ni
+13. [BE ina ku-bur? ZAG] ZÉ ina MURUB4 ZAG ZÉ ina SUR ZAG ZÉ 2 giš TUKUL.MEŠ ⸢a⸣-[ri-du]-tu GAR-nu dUTU Á
+ÉRIN-ia DU-ak
+14. [BE giš TUKUL.MEŠ š]u-nu BAL.MEŠ -ma AN.TA IGI.MEŠ dUTU [Á ÉRIN KÚ ]R DU-ak
+15. [ ] IGI.MEŠ KÚRsa [ ] x bar ra
+16. [ ] IGI.MEŠ NUNsa [ ]
+17. [ ] ⸢3⸣ [gišTUKUL.M]EŠa-ri-du-tu GAR.[MEŠ -nu ]
+@reverse
+1’. [ NÍG ].GA LUG[AL] MAN-ma TUK-ši
+2’. [ ] ⸢IGI.MEŠ NÍG ⸣.GA KÚR MAN-ma TUK-ši
+3’. [ EDIN? ŠU.S ]I MURUB4 IGI.MEŠ ⸢ e⸣ ?-⸢si⸣?-ti-ka KÚR GAZ-ak
+4’. [ ] x ŠU.SI IGI.MEŠ ŠUB -ti DU IGI ÉRIN KÚR
+5’. [ ] EDIN ZAG ŠU.SIùSUḪUŠ EDIN ZAG ŠU.SI 3 gišTUKUL.MEŠ !a-[ri]-du-tu GAR-nu
+6’. [ ] KÚR BÀD-ka KÚR ina KUN4DA[B-bat]
+7’. [BE giš TUKUL.MEŠ šu-nu BAL.MEŠ ]-ma AN.TA IGI.MEŠ [B]ÀD KÚR ina KUN4 DAB-[bat]
+8’. [ MURU]B4 IGI.MEŠ [na]-⸢ ka-mat⸣ NUN SÙ.M [EŠ ]
+9’. [ ŠU.S ]I IGI.MEŠ ⸢ na⸣ -k[a-mat KÚ ]R SÙ.M [EŠ ]
+10’. [ ] x ZAG ùGÙB 2gišTUKUL.MEŠ a-ri-du-tu GAR-nu x [x x z]i ku
+________________________________________MAN________________________________________________
+11’. [ ] AN.TA PIŠ10GÙB-šu KI.TA IGI EGIR BI
+12’. ŠU.N [ÍGIN x M]U.BI.IM AL.TIL IGI.KÁR GABA.RI LIBIR.RA.ŠÈ
+13’. ŠU I⸢d⸣[UTU-Š ]EŠ-SUM !-na! A.BA DUMU dUTU-SUM-MU.MEŠ [Ḫ ]AL MAN

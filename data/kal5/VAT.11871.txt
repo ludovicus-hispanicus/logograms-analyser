@@ -1,0 +1,21 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 110 (VAT 11871)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.778 on 18 tokens.
+---
+@obverse
+1’. [ ] x[ ]
+2’. [ ] ÉRIN-i[a ]
+3’. [ ] ŠU-ka LAL x [ ]
+4’. [ ] ana ÉRIN KÚR [ ]
+5’. [ ] xME-a GAR-an [ ]
+6’. [ ] ÉRIN-i[a ]
+7’. [ ] ÉRIN KÚR [ ]
+8’. [ ] KÚR GAZ-⸢ ak⸣ [ ]
+9’. [ ] KÚR GAZ-⸢ ni⸣ [ ]
+10’. [ ] x lú x [ ]

@@ -1,0 +1,40 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 6 (VAT 10669)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.712 on 139 tokens.
+---
+@obverse
+1’. [BE uzuKIŠIB š]á ZA[G ]
+2’. [BE uz]uKIŠIB šá GÙB ⸢ik⸣-p[í-iṣ ]
+3’. ⸢BE⸣ uzuKIŠIB šá ZAG x x [ ]
+4’. ⸢BE⸣ uzuKIŠIB šá GÙB x [ ]
+5’. 10 BE uzuKIŠIB šá ZAG ZÁḪ [ ]
+6’. ⸢BE⸣ uzuKIŠIB šá GÙB ZÁ [Ḫ ]
+7’. [BE] uzuKIŠIB šá ZAG x [ ]
+8’. [BE] uzuKIŠIB šá GÙB x x [ ]
+9’. [BE] uzuKIŠIB šá ZAG TAG-it x[ ]
+10’. [BE uz]uKIŠIB šá GÙB TAG-it [ ]
+Nr. 6 79
+11’. [BE uz]uKIŠIB šá ZAG ù GÙB TAG-it [ ]
+12’. [BE uzuKIŠ ]IB šá ZAG ZÁLAG -ir! SIG5.MEŠ KÚR ana [ ]
+13’. [BE uzuKIŠIB ] šá GÙB ZÁLAG -ir! SIG5.MEŠ -ka ana [ ]
+14’. [ ] x ⸢GE6⸣ [ ]
+@reverse
+1. [ ] ka [ ]
+2. [ ] x x šid x [ ]
+3. [ ] šid [ ]
+4. [BE uzuKIŠIB šá ZAG] TAG.MEŠ -ut [ ]
+5. [BE uzuKIŠIB šá GÙB T]AG.MEŠ -ut [ ]
+6. [BE uzuKIŠI ]B šá ZAG ù GÙB TAG.MEŠ -ut [ ]
+7. [BE uzuKIŠ ]IB šá ZAG BABBAR [ ]
+8. [BE uzu]KIŠIB šá GÙB BABBAR [ ]
+9. BE [uz]uKIŠIB šá ZAG BABBAR x [ ]
+10. BE uzuKIŠIB šá GÙB BABBAR x [ ]
+11. BE u[zuKI]ŠIB šá ZAG ka x [ ] ⸢ŠUB⸣?.MEŠ [ ]
+12. B[E uzuKI]ŠIB šá GÙB k[a ].MEŠ [ ]
+13. [BE uzuKIŠIB š]á ZA[G ]

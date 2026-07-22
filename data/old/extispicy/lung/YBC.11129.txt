@@ -1,7 +1,7 @@
 ---
 genre: extispicy omens
 period: Old Babylonian
-provenance: unknown
+provenance: Umma (Tell Jokha; eBL)
 counting: šum-ma
 topic: lung
 publication: YOS 10, 5

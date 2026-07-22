@@ -1,7 +1,7 @@
 ---
 genre: extispicy omens
 period: Middle Babylonian
-provenance: unknown
+provenance: unknown (CUSAS 18 no. 33)
 tradition: Babylonian
 counting: BE
 publication: MS 3176/2 = CUSAS 18 no. 33 (George 2013); eBL (script.period = Middle Babylonian)

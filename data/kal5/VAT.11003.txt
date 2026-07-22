@@ -1,0 +1,37 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 102 (VAT 11003)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.548 on 84 tokens.
+---
+@obverse
+1. [ ] x [ ]
+2. [ ] x [ ]
+3. [ ] KÚ[R] ⸢LUGAL⸣ [ ]
+4. [ ] xLUGAL ÉRIN.MEŠ -šu [ ]
+5. [ ] xKUR šu na? kaskal ana SAG A.[ŠÀ ]
+6. [ ] x KUR šu KÚR KÚR [ ]
+7. [ T]I-qé ek-let ZÁLAG -at [ ]
+8. [ T]I-qé ZÁLAG -at ek-l[e]t-ma x [ ]
+9. [ ] LUGAL I[LL]AT.M[EŠ -šu ]
+10. [ ] LUGAL ⸢ILLAT⸣ .M[EŠ -šu ]
+11. [ ] šum4-maLUGAL ILLAT.MEŠ -š[u ]
+12. [ ] LUGAL x ri šu šum 4-ma [ ]
+13. [ Ḫ ]UL? ina ṭu-ba-te URU ZAG-ia5 ana KÚR SUM [ ]
+14. [ ḪU ]L? KÚR ina ṭu-ba-te URU ZAG-[šu SUM ]
+15. [ šu ]m4-ma x x ku EN-el šum 4-m[a ]
+Nr. 102 295
+16. [ ] x [x] x ka šu ḫa x [ ]
+17. [ ] x [ ]
+@reverse
+1’. [ ] x munus[ ]
+2’. [ ] sa x [ ]
+3’. [ d]ù?ina di x [ ]
+4’. [ LU]GAL [ ]
+5’. [ GABA.RI LIBIR].RA-šu
+6’. [ ] x [ ] ḪAL
+7’. [ ] x U41?-KÁM [li-mu d]⸢ A⸣ -šur -KAR-a-ni

@@ -1,0 +1,52 @@
+---
+genre: extispicy omens
+period: Early Middle Babylonian
+provenance: Assur
+counting: line
+publication: Heeßel 2012, KAL 5 no. 2 (VAT 10156)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.322 on 267 tokens.
+---
+@obverse
+1. [ ] tu-ḫu-úiṣ-ṣa-ba-tu-ma qá-tam i-be-el-lu
+2. [ p]u-ul-lu-uš ! iš-ka-ri-is-su <<us-su>> i-te-bi-am-ma ŠE.GIŠ.Ì i-kal
+3. [ pa]-li-iš a-al wa-aš-ba-ta ša-at-tam-ma šu-a-tu is-sà-pa-aḫ KUR KÚR -ma É LÚ is-sà-pa-aḫ
+4. [ -ti]m e-ṣe-em-tum na-di-a-at-ma a+na ša-ap-la-nu ma-aq-tá-at
+5. [ ] x LÚ i+na ṣi-bi-it-ti i+na-ad-di-ma i-ma-at
+6. [ ] x ga É.GALÉ.GAL-lam i-re-ed-di KUR KÚR -ma i+na di-nim LÚ LÚ i-le-qé-e
+7. [ ] ul-tam pé-ṣi-tam ir-ta-ši DUMU LUGAL GU.ZA a-bi-šu i-ṣa-bat
+8. [ ] x ul-tam pé-ṣi-tam ir-ta-ši DUMU LUGAL ša KUR lúKÚR GU.ZA a-bi-šu i-ṣa-bat
+9. [ ] x ul-tam pé-ṣi-tam it-ta-di eš-re-et KUR dUTU i-mar
+10. [ ] x x ul-tam pé-ṣi-tam it-ta-di eš-re-et KUR lúKÚR dUTU i-mar
+11. [ ] x-ti ša ZAG pa-li-iš lúKÚR a+na KUR-ia ú-še-er-ri-ba šum -ma É LÚ is-sà-pa-aḫ
+12. [ ] x-ti ša ZAG ù GÙB pa-li-iš um-ma-⸢an⸣ LUGAL a+na ma-at lú KÚR iḫ-ḫa-ab-bat-ma
+13. [ ] a-wa-at ni-ṣi-ir-ti lúKÚR i-ma-aq-qú-ut
+14. [ ] wa tim wa-aš-ba-ta-ma ku-ri-a-tum ša ZAG pu-ul-lu-ša URUki wa-aš-ba-ta
+15. [ ] x šu-a-tu su-un-qu i-ṣa-bat-su-ma i+na bu-še-e-šu-ma uš-ta-al-lam
+16. [ ] ⸢x⸣ lu ZAG ta-ri-ik UR.MAḪ in-na-dar?
+17. [ ZA]G pa-li-iš lúKÚR i+na pa-ni KÁ.GAL -ka bu-ul-ka i-ša-aḫ-ḫi-iṭ
+18. [ ] LUGALki-ib-ra-ti i-be-el
+19. [ ] LUGAL ša ma-at lúKÚR ki-ib-ra-ti i-be-el
+20. [ ] x ⸢ir⸣-ta-kab NUN šar-ru-ut kiš-šu-ti i-ṣa-bat u4-mi ma-du-ti i-ba-al-lu-uṭ
+21. [ i]r-ta-kab lú KÚR šar-ru-ut ⸢kiš⸣-šu-ti i-ṣa-bat u4-mi ma-du-ti i-ba-lu-uṭ
+@reverse
+1. [ ] DUMU LUGAL GU.ZA a-bi-šu i-[ṣa-ba ]t
+2. [ ] bi-ir-ti uṣ-ṣi-ma bi-ir-t[i l]ú⸢KÚR ⸣ i-ru-ub
+3. [ ] bi-ir-ti lúKÚR uṣ-ṣi-ma bi-ir-ta-ka i-ru-ub
+4. [ ] na-ra-am-ti LUGAL BA.ÚŠ
+5. [ -i]k bi-ir-ti uṣ-ṣi-ma bi-ir-ti lúKÚR i-ru-ub
+6. [ -r]i-ik bi-ir-ti lú KÚR uṣ-ṣi-ma bi-ir-ti i-ru-ub
+7. [ ] šaZAG pa-li-iš É LÚ ip-pa-al-la-aš
+8. [ ] ku-ri-tim ša ZAG pa-li-iš É.GAL É LÚ i-le-qé-e
+9. [ š]a ⸢ZAG⸣ ta-ri-ik da-gi-li-ia lúKÚR i-le-qé-e
+10. [ t]a-ri-ik da-gi-il lúKÚR te-le-qé-e
+11. [ ] ⸢i⸣-na-di RI.RI.GA a-li-ik pa-ni um-ma-nim
+12. [ ] x RI.RI.GA a-li-ik pa-ni um-ma-an lúKÚR
+13. [ ] DAM LÚ mu-us-sà uš-da -ak
+14. [ ] DAM LÚ pí-ri-iš-tam uš-te-né-eṣ-ṣi
+15. [šumma eṣmētum ša sigaggarātim ṣeḫḫerētum ša ZAG p]u-ul-lu-ša DUMU.MUNUS LUGAL a+na ḫa-ri-mu-tim
+uṣ-ṣi
+16. [ ] nu-ba-al-li-ia lúKÚR i-da-ak
+17. [32? MU?].BI eṣ-me-tum
+18. [ ] šu MÁŠ.ŠU.GÍD.GÍD la-bi-ri
+19. [ ]-i-ma ú-ul a-mu-ur

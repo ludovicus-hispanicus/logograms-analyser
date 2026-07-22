@@ -1,0 +1,53 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 8 (VAT 9512)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.745 on 231 tokens.
+---
+@obverse
+1. BE IGI ŠÀ.NIGIN KI.TA im-mi-iš [ ]
+2. BE IGI ŠÀ.NIGIN AN.TA im-mi-iš [ ]
+3. BE ZAG ŠÀ.NIGIN ip-pár-qid-ma GÙB IGI [ ]
+4. BE GÙB ŠÀ.NIGIN ip-pár-qid-ma ZAG IGI [ ]
+5. BE ZAG ŠÀ.NIGIN a-na EGIR ŠÀ.NIGIN im-mi-iš [ ]
+6. BE GÙB ŠÀ.NIGIN a-na EGIR ŠÀ.NIGIN im-mi-iš [ ]
+7. BE ZAG ŠÀ.NIGIN BAL-ma É.GAL ŠÀ.NIGIN KUR-ud x [ ]
+8. BE GÙB ŠÀ.NIGIN BAL-ma É.GAL ŠÀ.NIGIN KUR-ud x [ ]
+9. BE É.GAL ŠÀ.NIGIN BAR-ma IGI-šu GÙB IGI.MEŠ [ ]
+10. 10 BE É.GAL ŠÀ.NIGIN BAR-ma IGI-šu ZAG IGI.MEŠ [ ]
+11. BE ŠÀ.NIGIN i+na TAB.MEŠ -šu-nu DU.MEŠ -ma IG[I. M]EŠ -šu-nu ZAG IGI.MEŠ [ ]
+12. BE ŠÀ.NIGIN i+na TAB.MEŠ -šu-nu DU.MEŠ -ma [IGI].MEŠ -šu-nu GÙB IGI.ME[Š ]
+13. BE MUD ù šik-tu4 BAL.MEŠ -ma a-[na?] SIG.MEŠ -šu-nu x [ ]
+14. BE ⸢um-mat⸣ ŠÀ.NIGIN a-na NIGIN!-ti-ša giš[TUKUL.M]EŠ NIGIN-at [ ]
+15. BE ŠÀ.NIGIN ZAG TAG.MEŠ-ma MUD i+na [ZA]G GAR-in [ ]
+16. BE ŠÀ.NIGIN GÙB TAG.MEŠ-ma MUD ⸢i⸣+[na] G[ÙB ] ⸢GAR⸣- in [ ]
+17. ⸢BE⸣ É.GAL ŠÀ.NIGIN a-na IM.LÍM [MU.B]A p[ur-r]u-⸢ sa⸣- at [ ]
+18. [BE i+na] É.GAL ŠÀ.NIGIN gišTUKUL a-⸢ri-du È⸣-ma i+na U[GU ŠÀ.NIGIN GAR ]
+19. Spuren
+(abgebrochen. Lücke von ca. 37 Zeilen)
+@reverse
+(Lücke von ca. 39 Zeilen)
+1’. Spuren
+2’. BE ⸢MUD ŠÀ ⸣.NIGIN ka-li-šu-nu il-wi [ ]
+3’. BE šik-tu 4 ŠÀ.NIGIN il-wi [ ]
+4’. BE šik-tu 4 uṣ-ṣú-pat-ma ŠÀ.NIGIN il-wi [ ]
+5’. 10 BE MUD ŠÀ.NIGIN i-lu-uṭ[ ]
+6’. BE MUD ir-ra i-lu-uṭ[ ]
+7’. BE ŠÀ.NIGIN kar-ša la-mu-ú [ ]
+8’. BE ŠÀ.NIGIN na-aḫ-su[ ]
+9’. BE ŠÀ.NIGIN na-aḫ-su ù ab-ku [ ]
+10’. BE ŠÀ.NIGIN it-gu-ru [ ]
+11’. BE ŠÀ.NIGIN GIM TÙN GÍR [ ]
+12’. BE ŠÀ.NIGIN GIM TÙN GÍR ŠU.I [ ]
+13’. BE ŠÀ.NIGIN IGI.MEŠ -šú-nu uzuÌ.UDU a[r-mu LUGAL KAL-ma KUR DÙ.A.BI GÚ.UN ÍL -šú]
+14’. BE ŠÀ.NIGIN ar-ku [ ]
+15’. 10 BE ŠÀ.NIGIN um-ma-su-nu ar!(Text: ri)-ku i[d ]
+______________________________________ BE [ ] _____________________________________
+16’. DUB 8-KAM.MA [ ]
+17’. PAP 1 ME 10 MU.BI.⸢ IM⸣ [ ]
+18’. IGI.KÁR I.dLUGAL-LUGAL-MU [ ]
+19’. INIR.GÁL -KA-dAsal-lú -ḫ[i ]

@@ -1,0 +1,65 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 86 (VAT 10751)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.672 on 609 tokens.
+---
+@obverse
+1. [BE i-na GÙB ZÉ G]ÌR GAR-at GÌRi-di-ir-ti šu[m!-ma LÚ GIG dan-nu GIG-aṣ ]
+2. BE i-na GÙB ZÉ GÌR ina KIR4-šá BÙR ŠUB KÚR ZI-ma a-na ŠÀ n[i? ]
+3. BE i-na GÙB ZÉ GÌR ina ŠÀ -šú! BÙR ŠUB KÚR ZI-ma i-na ŠÀ KUR x [ ]
+4. BE i-na GÙB ZÉ GÌR ina EGIR-šá BÙR ŠUB i-na gišTUKUL GAZ-at lú KÚR a-d[a-ak]
+5. [B]E i-na GÙB ZÉ GÌR EGIR-sà DU8 KÚR ša NIGIN-ru DU8 [ ]
+6. [BE i-n]a ⸢GÙB ZÉ⸣ GÌR KA.GÌR GIM ŠU.GUR la-mi ti-ib lúKÚR la ka-aš-[du]
+7. [BE i-na GÙB Z]É GÌR ŠÀ -šá BABBAR ma-ṭe4-er KÚR ša ú-ṣa-am-ma-ra ul i-ka-aš-[šad ]
+8. [BE i-na GÙB ] ZÉ GÌR SIG ZÉ IGI GÌR du-um-qí [ ]
+9. [BE i-na GÙB Z]É GÌR a-na KIR4-šá UZU GIM GU ṣa-bit ÉRIN-ni i-na na-ak-ba-ti-ša i-ma-a[q-qú-ut ]
+10. [BE i-na GÙB ] ZÉ GÌR a-na KIR4-šú GU ṣa-bit ÉRIN KÚR i-na na-ak-ba-ti-ša i-ma-a[q-qú-ut ]
+11. [BE i-na G]ÙB ZÉ GÌR KIR4-šú GU ṣa-bit ka-me-e KÚR ta-ká[m-mi]
+12. [BE i-na] GÙB ZÉ GÌR GU.MEŠ DAB.MEŠ a-la-ak-ti KÚR ul iš-ši-[ir]
+13. [BE i-na] GÙB ZÉ GÌR KIR4-šá ši e ḫi-píKA.GÌR SUḪUŠ ŠU.SI IGI ṣú-mi-ra-tu 4la ka-aš-d [a-tu4]
+14. [BE i-n]a GÙB ZÉ GÌR SAG ŠU.SI IGI ṣú-mi-ra-at lúKÚR ka-aš- [da-tu4]
+15. [BE i-na G]ÙB ZÉ GÌR su-ma-am tu-uk-ku-pa-at ÉRIN KÚR dIŠKUR i-ra-aḫ-ḫ[i-iṣ]
+16. [BE i-na] GÙB ZÉ GÌR i-na ŠÀ -šá zi-ḫu ŠUB KÚR KU4-ma ina ŠÀ KUR ⸢x-ta⸣-na-ḫa-[x]
+17. [BE i-na] GÙB ZÉ GÌR i-na ŠÀ -šá zi-ḫu ŠUB ù SA5 mi-lum i-il-l[a-ak]
+18. [BE i-na GÙ ]B ZÉ GÌR GIM BAR-ti ⸢te-šu-ú⸣ a-na KUR KÚR i-ma-aq-[qú-ut ]
+19. [BE i-na GÙB Z]É GÌR GIM nu-úr-me-e DINGIR i-na KUR KÚR i-ik-[ka-al]
+20. [BE i-na GÙB Z]É GÌR ZI-ma ŠUB GU.ZA KUR-ud ša ki-di KU4-ma ša ŠÀ URU [È ]
+21. [BE i-na GÙB ZÉ] GÌR ZI-ma ⸢ÍD⸣BÀ KUR-ud mi-lum i-i[l-la-ak]
+22. [BE i-na GÙB ZÉ GÌR ZI-m]a ÍD BÀ i-bir mi-lum i-na gi-ip-si-šu i-il-la-a[k-ma]
+23. __________________________________________________________________________________________[x] x x x ki GÌR ḪUL Éa-na É LÚi-ir-ru-ub [(x)]
+24. BE i-na GÙB ZÉ GÌR ana ŠUB GU.ZA 2 ŠU.SI i-ṣir-ma gišTUKUL im-ḫur-si ge-re-et [(ša )?]
+25. __________________________________________________________________________________________ta-aṭ-ru-du šal-la-ta i-le-eq-qé-ma in-na-ab-bi-[it]
+26. BE__________________________________________________________________________________________i-na GÙB ZÉ GÌRina EDIN-šá IGI-et EDIN ZAG ŠU.SI GÌR KÚR IGI KÁ.GAL []
+27. BE__________________________________________________________________________________________i-na GÙB ZÉ GÌRina EDIN-šá IGI-et É.GAL ŠU.SI GÌR KI.MIN
+28. BE__________________________________________________________________________________________i-na GÙB ZÉaš é GÌR-ma a-na IGI-šáṣa-al-pa-at a-na EGIR-šá tu-ur-ra-at ÉRIN K[ÚR]
+29. BE__________________________________________________________________________________________i-na GÙB ZÉ 2 GÌR.MEŠina bi-ri-ši-na BÙR ŠUB KÚRina la mi-it-gu-ur-ti-šá []
+30. BE i-na GÙB ZÉ 2 GÌR.MEŠ GIM PAP it-gu-ra ana IGI KÚR È -ma ḫi-píka x [(x)]
+31. BE i-na GÙB ZÉ 2 GÌR.MEŠ it-gu-ra SÙḪ a-na KÚR i-ma-a[q-qú-ut ]
+32. BE i-na GÙB ZÉ 5 GÌR.MEŠ ÉRIN KÚR ḫar-ra-an ri-pí-it-ti [DU-ak]
+33. BE i-na GÙB ZÉ 6 GÌR.MEŠ NÍG.ḪA.LAM.MA [ ]
+34. BE ⸢i-na šu⸣-bat GÙB GÍR GÌR GAR-at GÌR KÚR. [MEŠ -ti]
+35. B[E i-na š]u-bat GÙB GÍR GÌR GAR-ma a-na AN.TA-nu GÍR iš-du-ud KÚR a-na ŠÀ KUR iḫ-ḫ[a-ab-ba-tú ]
+@reverse
+1. BE i-na šu -bat GÙB GÍR GÌR GAR-ma a-na KI.TA-nu GÍR iš-du-ud dNÈ.ERI 11.GAL i-⸢na KUR⸣ [x ik-kal]
+2. BE i-na MURUB4 NÍG.TAB GÍR BAR-ma GÌR GAR-at ÉRIN-ni ṣú-mu [iṣabbat ]
+3. BE i-na MURUB4 NÍG.TAB GÍR BAR-ma GÌR GAR-ma GÍR ik-ki-is NIM.MAki a-na ŠÀ KUR-ia x ka x [x]
+4. BE i-na MURUB4 NÍG.TAB GÍR BAR-ma GÌR GAR-ma GÍR la ik-ki-is NIM.MAki a-na ŠÀ KUR-ia [x] x [x]
+5. BE i-na šu-bat ZAG GÍR GÌR GAR-ma GÍR ik-ki-is dNÈ.ERI 11.GA[L] ⸢ i⸣-na KUR-⸢ ia⸣ [ik-kal]
+6. BE i-na šu-bat ZAG GÍR GÌR GAR-at ti-bu-ut ÉRIN-ia ⸢ a⸣-[na ]
+7. BE i-na bi-ri-it KI.GUB ù GÍR GÌR GAR-at ÉRIN-ni i-na KUR KÚR ši-pir GAB[A DU.MEŠ]
+8. BE i-na SIG ni-ri GÌR i-ṣir-ma KI.GUB ik-tu-um GÌR ba-a[r-ti]
+9. BE i-na SIG ni-ri GÌR GAR-at LUGAL ANŠE.MEŠ SIG5.[MEŠ ]
+10. BE i-na MURUB4 ni-ri GÌR GAR-at GÌR KÚR. [MEŠ -ti]
+11. BE i-na MURUB4 ni-ri GÌR MÁŠ ik-ki-is KÚR gišKIRI6.MEŠ -ia i-na-ak-[ki-is]
+12. [BE ] x ra akni-ri eṣ-re-et LUGAL ANŠE.MEŠ -šú a-na ZI.GA x [ ]
+13. [BE AN.T]A? MÁŠ GÌR mi-ša-ri-iš eṣ-re-et GIG re-[du-ti-šú ]
+14. [BE KI.TA] MÁŠ GÌR mi-ša-ri-iš eṣ-re-et GIG MUNUS.[MEŠ ]
+15. [BE ] x ŠU.SI GÌReṣ-re-et GÌR KÚR. [MEŠ -ti]
+16. [ŠU.NIGI ]N 48 MU.BI.[IM]
+17. I.dUTU-na-di-in-aḫ-ḫe IN.SAR
+18. ⸢I.d⸣x x x x IGI.KÁR

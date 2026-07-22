@@ -1,0 +1,32 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 3 (VAT 9599)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.563 on 135 tokens.
+---
+@obverse
+1. ____________________________________________________________________________________________________[BE GAG.TIša ZAG i+na SA]G-šala-ri-a ir-ši[]
+2. ____________________________________________________________________________________________________[BE GAG.TI ša ZAG i+n]aMURUB4-šala-ri-a ir-ši[]
+3. ____________________________________________________________________________________________________[BE GAG.TI š]aZAG i+na SUḪUŠ-ša la-ri-a ir-ši[]
+4. ____________________________________________________________________________________________________[BE GAG.T]Iša ZAG la-ri-a ir-ši x []
+5. ____________________________________________________________________________________________________[BE GAG.T]Iša GÙB la-ri-a ir-ši x []
+6. [BE GAG.T]I ša ZAG ù GÙB la-ri-a ir-ši [ ]
+7. [BE GAG.T]I ša ZAG ki-ma ki-bi-ir-ri la-ri-a ir-ši [ ]
+8. [BE GAG.T]I ša GÙB ki-ma ki-bi-ir-ri la-ri-a ir-ši [ ]
+9. [BE GAG.TI] ša ZAG ša-at-qá-at [ ]
+10. [BE GAG.TI š ]a GÙB ša-at-qá-at [ ]
+@reverse
+1’. [BE GAG.TI] ša GÙB 3-⸢ma nen⸣- mu-⸢ da⸣ [ ]
+2’. [BE GAG.TI] ša ZAG ḫa-am-ṭá-at [ ]
+3’. [BE GAG.TI] ša GÙB ḫa-am-ṭá-at [ ]
+4’. [BE GAG.TI] ša ZAG ša-aḫ-ṭa-at [ ]
+5’. [BE GAG.T]I ša GÙB ša-aḫ-ṭa-at [ ]
+6’. [BE GAG.T]I ša ZAG mar-a-at KUR NUN i-ta?-a-at ki [ ]
+7’. [BE GAG.T]I ša GÙB mar-a-at KUR KÚR MIN ki [ ]
+8’. [BE GA]G.TI ša ZAG 3-ma nen-mu-da-ma SUḪUŠ -si-na ⸢1⸣-[ma ]
+9’. [BE GAG].TI ša GÙB 3-ma nen-mu-da-ma SUḪUŠ -si-na [1-ma ]
+10’. [ ] 82 MU.B[I.IM ]

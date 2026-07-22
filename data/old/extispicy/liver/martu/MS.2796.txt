@@ -1,7 +1,8 @@
 ---
 genre: extispicy omens
 period: Old Babylonian
-provenance: unknown
+provenance: Tigunanum (CUSAS 18 no. 17)
+publication: George 2013, CUSAS 18 no. 17 = MS 2796
 tradition: Babylonian
 counting: line
 ---

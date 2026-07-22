@@ -1,0 +1,94 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 88 (A 120)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.652 on 1121 tokens.
+---
+@obverse
+1’. [ ] ⸢KÁ.GAL⸣ [ ]
+2’. [BE MUŠEN DÙ -ma] i+na ŠÀ KÁ.GAL NIN-tu4 GAR-at! KUD-is SA[G.DU ]
+3’. [BE] ⸢ MUŠEN ⸣ DÙ -ma IGI KÁ.GAL GU ṣa-bit ! ṣi-it[ ]
+4’. BE MUŠEN DÙ -ma i+na ŠÀ KÁ.GAL gišTUKUL GAR-ma AN.TA IGI a-ṣi-it ⸢KÁ ⸣.[GAL-ia KÚR i-dak]
+5’. BE MUŠEN DÙ -ma i+na ŠÀ KÁ.GAL gišTUKUL GAR-ma KI.TA IGI a-ṣi-it KÁ.GAL [ ]
+6’. BE MUŠEN DÙ -ma KÁ.GAL SAG.UŠ -tu4 GAR-at-ma MAN-tu4 i+na UGU EDIN MURUB4 GAR-at x [ ]
+7’. BE MUŠEN DÙ -ma 2 KÁ.GAL.MEŠ ÉRIN-ni KASKAL-ša ŠUB -di-ma MAN-[tam DU-ak]
+8’. BE MUŠEN DÙ -ma 2 KÁ.GAL.MEŠ -ma i-ri-a GAR-na téš-mu-ú ù SILIM-mu i+na KU[R GÁL -ši]
+9’. BE MUŠEN DÙ -ma 2 KÁ.GAL.MEŠ -ma i+na ZAG GAR-na mut-ta-lik-ti KUR [TUR-ir]
+10’. BE MUŠEN DÙ -ma 2 KÁ.GAL.MEŠ -ma i+na GÙB GAR-na mut-ta-lik-ti KUR KÚR TUR-[ir]
+11’. BE MUŠEN DÙ -ma 2 KÁ.GAL.MEŠ -ma 1 i+na ZAG 1 i+na GÙB GAR-na KUR GALGA-ša MAN-ni a-na KASKAL
+ÉRIN-ni ḫat-ti SU.[GU7]
+12’. BE MUŠEN DÙ -ma EDIN ZAG GÌR a-na ŠÀ KÁ.GAL er-bet IGI AB.BA LÚ ṭa-pil-ti LÚ i-da-⸢bu⸣-[ ub]
+13’. BE MUŠEN DÙ -ma EDIN GÙB GÌR a-na ŠÀ KÁ.GAL er-bet IGI AB.BA LÚ SIG5-ti LÚ i-da-bu-⸢ ub⸣
+14’. BE MUŠEN DÙ -ma EDIN ZAG a-na ŠÀ KÁ.GAL ka-pí-iṣ ù EDIN GÙB GÌR ! KÚR i+na si-ḫi-ir-tiURU.DIDLI-ia
+uruBAD4 x [ ]
+15’. BE MUŠEN DÙ -ma EDIN GÙB a-na ŠÀ KÁ.GAL ka-pí-iṣ ù EDIN ZAG GÌR KÚR -ka a-na dam-qa-ti KIN! x x
+16’. BE MUŠEN DÙ -ma bi-rit EDIN ù mu-kil SAG GÌR GAR-at DUMU.MEŠ šip-ri i+na bi-rit LUGAL.MEŠ KÚR.MEŠ
+SILIM.MEŠ GAR-nu x
+17’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir SILIM na-piš-ti ⸢SUḪUŠ ⸣.ÀM ki-na-a-t[i]
+18’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na ZAG ki-pi GÌR DINGIR.MEŠ Á ÉRIN-ia DU.MEŠ -ma KÚR G[AZ-ak]
+⸢GIG⸣ BA.ÚŠ
+19’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na GÙB ki-pi GÌR DINGIR.MEŠ Á ÉRINKÚR DU.MEŠ -ma KÚR GAZ-ni?
+[G]IG TI
+20’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na ZAG ki-pi 2 GÌR.MEŠ GIG TI-uṭ
+21’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na GÙB ki-pi 2 GÌR.MEŠ GIG BA.ÚŠ
+22’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na ZAG ki-pi 2 GÌR.MEŠ i+na GÙB ki-pi GÌ R GIG uš - ⸢t a⸣ -p a- ⸢š a q⸣-maT I-uṭ
+23’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na GÙB ki-pi 2 GÌR.MEŠ i+na ZAG ki-pi GÌR GIG BA.ÚŠ
+24’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na ZAG ki-pi 3 GÌR.MEŠ GIG BA.ÚŠ
+25’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma i+na GÙB ki-pi 3 GÌR.MEŠ GIG TI-uṭ
+26’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma ZAG ki-pi DU8 ÉRIN-ka ṣú-m [i]-ra-ti-ša NU KUR-ad GIG TI-uṭ
+27’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma GÙB ki-pi DU8 ÉRIN KÚR ṣú-mi-ra-ti-ša NU KUR-ad GIG BA.ÚŠ
+28’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma ZAG ki-pi 2 DU8 GÙB ki-pi 1 DU8 KÚR kip-di-ia ú-šad-da-ni [GI]G TI-uṭ
+29’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma GÙB ki-pi 2 DU8 ZAG ki-pi 1 DU8 KÚR kip-di-šu tu-šad-da-šu [GI]G BA.ÚŠ
+30’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma PAP.ḪAL ZAG DU8 GIG TI.LA!
+31’. BE MUŠEN DÙ -ma GÍR ki-pi e-ṣir-ma PAP.ḪAL GÙB DU8 GIG BA.ÚŠ
+32’. BE MUŠEN DÙ -ma GÍR ki-pi ka-bi-ìs-ma ZAG ki-pi DU8 ÉRIN KÚR ÉRIN-ni GAZ-⸢ ak⸣ e-ma ma-aq-ta-at UGU
+LUGAL? x ⸢ta⸣ x
+33’. BE MUŠEN DÙ -ma GÍR ki-pi ka-bi-ìs-ma GÙB ki-pi DU8 KÚR -ka a-na SIG5.MEŠ -ti KIN!.MEŠ -ku
+34’. BE MUŠEN DÙ -ma GÍR ki-pi ka-bi-ìs-ma i+na ZAG ki-pi ⸢GÌR ⸣ GIG i+na ŠÀ U4 UR5-ta BA.ÚŠ
+35’. [BE M]UŠEN ⸢DÙ ⸣-ma GÍR ⸢ki-pi⸣ ka-bi-ìs-ma i+na GÙB ki-pi ⸢GÌR ⸣ GIG TI.LA
+@reverse
+1. BE MUŠEN DÙ -ma GÍR ki-pi RA-iṣ [ GIG] TI.LA
+2. BE MUŠEN DÙ -ma GÍR ki-pi RA-iṣ ù UGU-šu DU8 [ ] GIG⸢BA⸣ .[ÚŠ ]
+3. BE MUŠEN DÙ -ma GÍR ki-pi RA-iṣ-ma i+na ZAG ki-pi G[ÌR ] GIG B[A.Ú ]Š Á.ÁŠ ⸢DÙ -uš ⸣EN nu-⸢kúr ⸣-ti-k[a SILIM(-
+mi) KIN-ku]
+4. BE MUŠEN DÙ -ma GÍR ki-piRA-iṣ-ma i+na GÙB ki-pi ⸢GÌR ⸣GIG TI.⸢ LA⸣ Á . Á Š⸢N UD Ù -uš ⸣ E NS I L I M-mi-k[aK Ú R -k a]
+5. BE MUŠEN DÙ -ma GÍR ki-pi DU8.MEŠ TUK-šu GIG TI.LA
+6. BE MUŠEN DÙ -ma GÍR ki-pi DU8.MEŠ TUK-šu ù UGU-⸢ šu ⸣DU8 GIG BA.ÚŠ
+7. BE MUŠEN DÙ -ma GÍR ki-pi DU8.MEŠ TUK-šu i+na ZAG ⸢ki-pi⸣ G[ÌR ] GIG BA.ÚŠ Á.ÁŠ ⸢DÙ -uš⸣ [EN nu]-⸢ kúr ⸣-ti-
+ka SIL[IM(-mi) KIN-ku]
+8. BE MUŠEN DÙ -ma GÍR ki-pi DU8.MEŠ TUK -šu i+na GÙB ⸢ki-pi⸣ G[ÌR ]GIG TI.LA Á.ÁŠ [NU] ⸢ DÙ -uš ⸣EN SILIM-mi-
+ka K[ÚR -ka]
+9. BE MUŠEN DÙ -ma GÍR ki-pi a-na ZAG x x ⸢i+na⸣ ZAG ki-pi ⸢GÌR ⸣ÉRIN-ni i+na KASKAL DU-ku Á.ÁŠ DÙ -uš GIG
+BA.ÚŠ
+10. BE MUŠEN DÙ -ma GÍR ki-pi a-na GÙB x x ⸢i+na⸣ GÙB ki-pi G[ÌR ] ÉRIN KÚR i+na KASKAL DU-ku ⸢Á ⸣.[ÁŠ DÙ -
+u]š GIG TI.[LA]
+11. BE MUŠEN DÙ -ma GÍR ki-pi a-na ⸢ GÙB ⸣ ma-q[it? i+n]a? [Z]AG ki-pi G[ÌR ] GIG BA.ÚŠ
+12. BE MUŠEN DÙ -ma GÍR ki-pi a-na ZAG m[a-qit i+na] ⸢ GÙB ⸣ ki-pi GÌ [R] GIG TI.LA
+13. BE MUŠEN DÙ -ma GÍR ki-pi a-na ZAG ⸢ ma⸣-[ qit i+na ZA]G ki-pi x.MEŠ GIG TI.LA
+14. BE MUŠEN DÙ -ma GÍR ki-pi a-na x x x x ⸢ GÙB ki-pi⸣ x.MEŠ GIG BA.ÚŠ
+15. BE MUŠEN DÙ -ma GÍR ki-pi a-na x x x PAP.ḪAL ZAG G [ÌR ] GAR-at ⸢GIG⸣ ú-za-ba [l-m]a TI.LA ṣú-mi-ra- [ ]
+16. BE MUŠEN DÙ -ma GÍR ki-pi a-na x x x P A P . Ḫ A LGÙ B GÌ [R] G A R-at a!-n a-ku ù I L L A T . M E Š-ia a-naKUR KÚ R DU-k u!
+17. BE MUŠEN DÙ -ma GÍR ki-pi a-na x x id x šap ?šal !NUN URU.MEŠ -šu šu-ut KÚR.MEŠ -šu ŠU -su KUR-ad
+18. [i+n]a SILIM-ti ù NU SILIM-ti SILIM-at
+19. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA a-na ZAG ma-qit GIG TI.LA
+20. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA a-na GÙB ma-qit GIG BA.ÚŠ
+21. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA a-na ZAG ma-qit i+na ZAG ki-pi GÌR ZÁḪ IGI-mar GIG BA.ÚŠ
+22. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA a-na GÙB ma-qit i+na GÙB ki-pi GÌR ZÁḪ NU IGI-mar GIG TI.LA
+23. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma ⸢KI⸣.TA a-na SAG ki-pi ša ZAG ma-qit-ma i+na ZAG k i - p iG Ì Ra - n aG I Gud [x x]
+24. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma ⸢KI⸣ !.TA a-na SAG ki-pi ša GÙB ma-qit-ma i+na GÙB ki-pi GÌR GIG ú x [x x]
+25. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA ku-ri GIG B[A.ÚŠ ]
+26. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma KI.TA ku-ri GIG [TI.LA]
+Nr. 88 277
+27. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA ku-ri-ma i+na ZAG ki-pi GÌR ZÁḪ IGI-mar [GIG BA.ÚŠ ]
+28. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA ku-ri-ma i+na GÙB ki-pi GÌR ZÁḪ NU IGI-mar [GIG TI.LA]
+29. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA ku-ri-ma i+na ZAG ki-pi GÌR SAG ki-pi [ ]
+30. BE MUŠEN DÙ -ma GÍR ki-pi 2-ma AN.TA ku-ri-ma i+na GÙB ki-pi GÌR SAG ki-p[i ]
+31. BE MUŠEN DÙ -ma GÍR ki-pi [2-ma a]-ḫe-e ŠUB.MEŠ GIG [ ]
+32. [BE MUŠEN] ⸢DÙ -ma⸣ [GÍR ] ⸢ki-pi⸣ [2-ma i+n]a ZAG ki-pi GÌR GIG TI.LA [ ]
+33. [BE MUŠEN DÙ -ma GÍ ]R ⸢ki-pi⸣ [2-ma i+na] GÙB ki-pi GÌR GIG BA.Ú [Š ]
+34. [BE MUŠEN DÙ -ma ] x a-na ZAG ma-qit i+na x [ ]
+35. [BE MUŠEN DÙ -ma a-n]a GÙB m[a-qit ]

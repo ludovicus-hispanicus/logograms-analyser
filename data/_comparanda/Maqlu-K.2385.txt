@@ -1,0 +1,148 @@
+---
+exclude: true   # COMPARANDUM — 1st-millennium incantation, kept out of the omen LDI (cross-genre comparison only)
+genre: incantation
+period: Neo-Assyrian
+provenance: Nineveh (Kuyunjik)
+counting: line
+topic: anti-witchcraft
+series: Maqlû
+publication: eBL corpus Mag/1/1 (Maqlû), manuscript K.2385; Abusch 2015 / Schwemer 2017
+edition: electronic Babylonian Library (ebl.lmu.de), Maqlû SB, manuscript K.2385 — sign-transliteration read off the chapter score (all tablets attested by this ms)
+note: >
+  Monolingual Akkadian first-millennium incantation, scored only for the cross-genre
+  LDI comparison against the omen corpus (magic/prayer vs divination). Logograms
+  uppercase, syllabic lowercase, {} determinatives, [] restoration, x illegible;
+  eBL '&' column separators removed.
+---
+
+@text
+1. [x x x] SAG# lib₃#-b[i-ša₂ x x x x x x x x x x x]
+2. [E]N₂ 2-ta ši-na DUMU.MU[NUS-MEŠ x x x x x x x x x x x x x x]
+3. EN₂ {munus}UŠ₁₁.ZU ne[r-ta-ni-tu₂ x x x]
+4. EN₂ {d}ID₂ KU₃ nam-ru q[ud-du-šu₂ x x x x]
+5. EN₂ la-man-ni su-tu-u₂ e#-[la-mu-u₂ x x x] | NU ESIR ša₂ P[EŠ₁₀.{d}ID₂ x x]
+6. EN₂ at-ti-man-nu {munus}UŠ₁₁.ZU ša₂ i[q-bu-u₂ x x x x x]
+7. ina ŠA₃-ša₂ NU IM ina {na₄}KIŠIB SI[G₇ x x x x x]
+8. EN₂ at-ti-ie-e ša₂ te-pu-šin-ni {d}15# k[ub-ši x x x x x x x x x x]
+9. ha-ha-a ša₂ u₂-tu-ni dih₂-me-en-na# š[a₂ x x x]
+10. [i]na A-MEŠ ta-mah-ha-ah-ma ana SAG.D[U-ša₂ x x x]
+11. [x š]a₂ DU₃#-an-ni ul-te-piš-an-ni {giš}MA₂.GUR₈ IM# [2 NU-MEŠ IM] | ina lib₃-[bi-ša₂]
+$ end of column
+12. [x x {giš}MA₂.GUR₈-M]U!? <{d}30> u₂-še-piš
+13. [x x x x x x 2 N]U-MEŠ NIG₂.SILA₁₁.GA₂ KI[MIN]
+14. [x x x x x x x tug-dan]-nar#-re#-en#-ni# ŠIKA SILA LIMMU₂-t[i?]
+15. [x x x x x x x x x ta-bar-ri t]a-ka[r]-r[ik]
+16. [x x x x x x x x x] I₃#.[UDU]
+$ about 24 lines broken
+17. [x x x x x x x x x x x x x P]EŠ₁₀.{d#}ID₂# u# MUN# mar#-qi₂# KIMIN
+18. [x x x x x {munus}UŠ₁₁.Z]U ša₂ ki-ma {im}U₁₈.LU | [x x x x x x ZI₃.MAD.G]A₂ qa-mu-u
+19. [x x x x x x x š]a₂-ru-uh zi-mi KIMIN
+20. [x x x tu-kaṣ₃-ṣ]i-ra {d}e₂-a up-ta-ṭir
+21. [x x x x x x x NIG₂.TAB].TUR.RA tu-ba-ah-ha-aš₂
+22. [x x x x x x] ina A-MEŠ tu-na-ah
+23. [x x x x x e-pi-š]e₂₀-tu-u-a KIMIN
+24. [x x x x x šam]-ra-tu-nu KIMIN
+25. [x x x x x x x x x N]IG₂.SILA₁₁.GA₂ ina GIR₃-MIN-šu₂ i-kab-ba-as
+26. [x x x x x x x x x x x] {d#}nuska KA₂ NIG₂.TAB.TUR.RA DUL-a[m]
+27. [x x x lik-tum₃-ku]-nu-ši NA₄ KUR-i#
+28. [x x x x x x x N]IG₂.TAB.TUR.RA GAR-a[n]
+29. [x x x x x x x ŠID]-nu-ma ZI₃.MAD.GA₂ ŠUB.ŠUB-[di]
+30. [x x x x x hu-lu-up-p]aq-qi₂ ana KA₂ E₃-ma ta-na#-[suk]
+31. [x x x x %sux edin-na-z]u-še₃ %sb a-di KA₂ BAR-i ŠID-[nu-ma]
+32. [x x x KA₂-ME]Š-ni te-eṣ-[ṣir]
+33. [x x x x x x x ma-aq]-la-a taq-lu-u A-MEŠ ŠUB.[ŠUB-di]
+34. [x x x x x x x pu-hu]r DINGIR-MEŠ DU₃-ma [x x]
+$ single ruling
+35. [x x x x x x x x x x x] u₄-mu {šim}LI# {š[im}GUR₂.GUR₂]
+36. [x x x x x x x x x x {ši]m}G[UR₂.GUR₂] {u₂#}IN₆#.U[Š₂]
+37. [x x x x x x x x] {šim}GUR₂.GUR₂ | [x x x x x di]-ik-me-en-na
+38. [x x x x x x x x al-ka-nim]-ma {šim}GUR₂.GUR₂
+39. [x x x x x x e-le-ni-t]i-ia₅ {šim}GUR₂.GUR₂
+40. [x x x x x x x x x il-su]-u₂# {d}a-la-la {šim}GUR₂.GUR₂
+41. [x x x x x x u₂-kaš-ši]p-an-ni {šim}GUR₂.GUR₂
+42. [x x TUG₂-HI.A-ME]Š KU₅-MEŠ
+43. [x x x x x x x x x ka]-la#-ma {šim}GUR₂.GUR₂
+44. [x x x x x x x DUMU.MUNU]S AN-e GAL-MEŠ ana-ku | PEŠ₁₀.{d}ID₂
+45. [x x x x KIMIN KIMIN DUMU.M]UNUS {d}ID₂ PEŠ₁₀.{d#}ID₂#
+$ end of column
+46. EN₂ PEŠ₁₀.{d}ID₂ KU₃-tu {u₂}KUR.KUR šam-mu qud-du-šu₂ ana-ku
+47. PEŠ₁₀.{d}ID₂ {u₂#}KUR.KUR
+48. EN₂ {d}ID₂ SAG.DU-MU PEŠ₁₀.{d}ID₂# pa#-da-at-ti
+49. PEŠ₁₀.{d}ID₂ {u₂}AN.HUL₂.LA u {u₂}IGI-lim
+50. EN₂ {d}ID₂ a-kul al-ti PEŠ₁₀.{d#}ID₂
+51. EN₂ e {munus}UŠ₁₁.ZU-MU e-le-ni-ti-ia ZU-e ul# ZU-e | PEŠ₁₀.{d}ID₂#
+52. EN₂ at-ti MUN ša₂ ina aš-ri KU₃ ib-ba-nu-u ana UGU LAG MUN ŠID#-ma#
+53. ina UGU NIG₂.NA ša₂ qu-ta-ri ša₂ ina SAG GIŠ.NA₂ GAR-an#
+54. EN₂ e {munus}UŠ₁₁.ZU-MU lu rah-hat-ia₅
+55. ana UGU {u₂}NU.LUH.HA ŠID-nu-ma ina UGU NIG₂.NA ša₂ ina SAG GIŠ.NA₂ GAR-an
+56. {tug₂}u₂-li-in-na GIŠ.NA₂ NIGIN-mi
+57. EN₂ e {munus}UŠ₁₁.ZU-MU lu rah-hat-ia₅ ana UGU 12 {giš}ša₂-ir-ri | ŠID-nu-ma ina UGU NIG₂.NA ša₂ ina SAG GIŠ.NA₂ GAR-an
+58. EN₂ e {munus}UŠ₁₁#.ZU#-MU e-le-ni-ti-ia₅ ša₂ DU-MEŠ-ki ka-lu KUR-MEŠ
+59. a-na UGU 2 [h]u-ṣab {giš}MA.NU ŠID-nu-ma
+60. ina 15 KA₂ u# 150 KA₂ BAR-i GAR-an
+61. EN₂ e {munus#}UŠ₁₁.ZU-MU e-le-ni-ti-ia₅
+62. ana UGU NA₄ KUR-i ŠID-nu-ma ina TUR₃ ta-na-suk
+$ single ruling
+63. qu-ta-ri ša₂ EN₂ {d}en-lil₂ SAG.DU-MU
+64. ma-la a-na KA.KEŠ₂-MEŠ šaṭ-ru
+65. 1-niš HE.HE-ma tu-qat-tar-šu₂ EN₂ {d}en-lil₂ SAG.DU-MU ŠID-nu
+$ single ruling
+66. [x ri]t-ti# {d}man-za-at₂ ZI₃.MAD.GA₂ u DIDA
+67. [ina {dug}]LA#.HA#.AN# SAHAR₂ {lu₂}GIG HE.HE-ma
+68. [{giš}I]G {giš}SAG.KUL# sip-pe-e KA₂-MEŠ TAG-MEŠ
+69. E[N₂] a#-ra-ah-hi-ka# ra#-ma-ni NINDA I₃.GIŠ
+70. EN₂ I₃.GIŠ KU₃ I₃.GIŠ eb#-bu NINDA I₃.GIŠ
+71. EN₂ {d}en-lil₂ SAG.DU-MU {mul}GAG.SI#.SA₂# la-a-[n]i <NINDA I₃.GIŠ>
+72. I₃.GIŠ ka-la UZU-MEŠ-šu₂ [ŠEŠ₂]
+73. EN₂ {d#}nuska IBILA e₂-kur ša₂ te-ret DINGIR-MEŠ G[AL-MEŠ (x x)]
+74. {d}ZALAG₂# [k]u-rab <ana? {d?}en?-lil₂?> šu-te-šir KASKAL-ka a[na] e₂#-[kur ŠID-(nu)-ma]
+75. EGI[R-š]u₂ ZI₃.SUR.RA-a GI[Š.N]A₂ t[e-eṣ-ṣir]
+76. EN₂ SAG.BA SAG.BA [E]N₂ tum₃#-mu E₂# [ŠID-nu]
+$ single ruling
+77. i-na še-r[i₃] a-[d]i šur-pu ta-šar-[ra-pu]
+78. šur-pu [a-n]a KA₂ E₃-ma ta-[na-suk]
+79. EGIR-šu₂ EN₂# at-ti-man-nu {munus}UŠ₁₁.ZU ša₂ DU₃-š[u₂ ŠID-nu]
+80. NU {munus}UŠ₁₁.ZU ša₂ ZI₃.DA ina ŠA₃ {urudu}nam-se-e# [HUR-ir]
+81. NU IM# ša₂ {munus}UŠ₁₁.ZU ina UGU GAR-an ŠU-MIN-šu₂ ana UGU LUH [x x KU₄]
+82. EN₂ ba-ʾi-ir-tu₂ ša₂ ba-ʾi-ra-a-[ti]
+83. NU {lu₂}UŠ₁₁.ZU u {munus}UŠ₁₁.Z[U]
+84. ša₂ ZI₃.DA ina ŠA₃ {urudu}nam-se-e te-eṣ-ṣ[ir]
+85. NU IM ša₂ {lu₂}UŠ₁₁.ZU u {munus}UŠ₁₁.ZU ina UGU NU ZI₃.D[A x x]
+86. ŠU-MIN-šu₂ ina UGU LUH-si ina hu-ṣab {giš}MA.NU ana 3-šu₂ i-kar-[rit]
+87. [E]N₂ ip-ši-ki ep-še-te-ki LUH [x x]
+88. [E]N₂ <KA>.KEŠ₂-MEŠ-ki KEŠ₂-MEŠ LUH ŠU-MIN SAHAR-HI.A# | ana ŠA₃ {urudu}nam-se-e ta-na-suk
+89. [EN₂ a]m-si ŠU-MIN-MU ub-ba-ab SU-MU
+90. [ana UG]U NU NIG₂.SAG.IL₂-e ŠU-MIN-šu₂ LUH-si
+91. [EN₂ te]-bi še-e-ru LUH <ŠU-MIN-ia LUH> ŠU-MIN
+92. [x it-ta]m-ra še-e-ru LUH ŠU-MIN
+93. [x še-ru-u]m-ma še-e-ru LUH ŠU-MIN
+94. [x x x x L]UH-a ŠU-MIN-a-a LUH ŠU-MIN
+95. [x x x Š]U-[MI]N-MU am-te-si ŠU#-MIN-MU LUH ŠU-MIN
+$ single ruling
+96. [x x x x x x] {giš}ŠINIG {u₂}IN₆.UŠ₂ NA₄ ZU₂.LUM.MA
+97. [x x IM.BAB]BAR ŠU.GUR {na₄}ŠUBA {šim}GUR₂.GUR₂
+98. [x x] ŠU-MIN-šu LUH-si
+$ end of column
+99. [x i]t-tap-ha {d}UTU a-kaš-šad LUH ŠU-MIN
+100. [x un-d]u {munus}UŠ₁₁.ZU i#-bir ID₂ LUH ŠU-MIN
+101. [x ul-t]u {d}uru₄ ina KUR GU₃-u₂ {d}a-la-la
+102. [IN.BUBB]U ana ŠA₃ {dug}ŠIKA SAHAR₂ ŠUB-di-ma
+103. [x] KA#-šu₂ ana ŠA₃ nam-se-e MU₂-ah
+104. EN₂ an-nu-u in-nin-na-ma
+105. NU {munus}UŠ₁₁.ZU ša₂ IM DU₃-uš-ma NA₄ KUR-i ina SAG ŠA₃-ša₂ GAR-an
+106. ŠU-MIN-šu₂ ana muh-hi LUH-si
+107. ina hu-ṣab {giš}MA.NU ana 3-šu₂ i-kar-rit
+108. EN₂ pu-u id-bu-ub lem-na-a-ti LUH ŠU-MIN
+109. EN₂ e-piš-tu₂ muš-te-piš-tu₂ mu-ri-bat kiš-pi ru-he-e
+110. 2 NINDA-HI.A 1-TA.AM₃ NU {lu₂}UŠ₁₁.ZU u {munus}UŠ₁₁.ZU
+111. ša₂ NIG₂.SILA₁₁.GA₂ DU₃-ma ina ŠA₃ NINDA-HI.A KEŠ₂-ma
+112. ina 15-šu₂ u 150-šu₂ IL₂-ma EN₂ ŠID-nu-ma
+113. a-na UR.GI₇ u NIG ta-nam-din
+114. [E]N₂ at#-ta GISSU A-MEŠ {dug}BUR.ZI.GAL SAHAR₂ SA₅-ma
+115. [IGI-MEŠ?]-š[u₂] ina lib₃-bi IGI-ma
+116. [x x x x] {d#}UTU#.E₃# SU₃
+117. [EGIR-šu₂ EN₂ IL₂-ši {gi]š}gam-li-ia₅ ŠID-ma
+118. [x x ta-sa]l-la-aʾ
+$ single ruling
+$ rest of column broken
+119. [DUB ne₂-pe-ši ša₂ ma-aq-lu]-u₂#?

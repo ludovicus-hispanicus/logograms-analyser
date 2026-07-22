@@ -1,7 +1,7 @@
 ---
 genre: diagnostic omens
 period: Old Babylonian
-provenance: unknown
+provenance: Babylonia (eBL)
 counting: §
 ---
 @obverse

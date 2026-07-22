@@ -1,5 +1,6 @@
 ---
 genre: astrological omens
+topic: lunar eclipse
 period: Middle Babylonian
 provenance: Ḫattuša (Boğazköy), Hittite capital — Late Bronze Age (Middle-period horizon)
 publication: KUB 4.64(+). CTH 532 (hethiter.net AOxml). Akkadian lunar-eclipse omens (Enūma Anu Enlil tradition).

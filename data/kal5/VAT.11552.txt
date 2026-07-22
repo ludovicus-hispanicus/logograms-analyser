@@ -1,0 +1,80 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 15 (VAT 11552)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.777 on 538 tokens.
+---
+@obverse
+1’. A Vs. 1’ [ ]-ma x x [ ]
+2’. A 2’ [ ] x.MEŠ ⸢i?⸣-šu[ ]
+3’. A 3’ [BE KI].GUB iḫ-bu-uš-m [a] ⸢ka⸣ p[i ]
+4’. A 4’ [BE] KI.GUB ir-qiq-ma x x [ ]
+5’. A 5’ [BE] KI.GUB NIGIN-ur [ ]
+6’. A 6’ [BE] KI.GUB NIGIN-ur-ma ana giš TUKUL GUR-[ur U4 NUN TIL.MEŠ ]
+7’. A 7’ [BE] KI.GUB NIGIN-ma ana KAM GUR-ur [URUki DAB-bat]
+8’. A 8’ [BE] KI.GUB NIGIN-ma ana KAM GUR-ma ù G[E6 URUki DAB-bat-ma ÉRIN-šu ina ]
+9’. A 9’ [BE] KI.GUB 2 ana gišTUKUL IZI.GAR ina SÍSKUR [NUN DINGIR DINGIR GÙ -si]
+10’. A 10’ [BE] KI.GUB 2-ma ⸢ ŠEŠ ⸣ ana IGI ŠEŠ! Z[I.MEŠ -ma IGI.IGI-lu4 LUGAL KI-su ]
+11’. A 11’ [BE KI.GU]B SAG.UŠ GAR-ma MAN-ú ina ⸢GÙB ⸣ [ ]
+B Vs. 1’ [ GÙB ŠUB -di LUGAL KI-su] ŠUB -ta TUŠ -ab
+12’. A 12’ [BE KI.GU]B SAG.UŠ GAR-ma MAN-ú ina SAL.L[A BÀ 15 ŠUB -di LUGAL KI-su ]
+B 2’ [ ] ḫa-rib!-ta TUŠ-ab
+(B:) ________________________________________________________________________________________
+Nr. 13-15 91
+13’. A 13’ [BE KI.GUB SAG.UŠ ] GAR-ma MAN-ú ina sip-[pí ZAG ME.NI GAR-ma BAL-ut ]
+B 3’ [ KÚR -ka] ana SILIM-mi KIN-ku
+14’. A 14’ [BE KI.GUB SAG.UŠ GAR-m]a MAN-ú ina sip-[pí GÙB ME.NI GAR-ma BAL-ut ]
+B 4’ [ E]N SILIM-ka KÚR -ka
+15’. A 15’ [ ] x [x (x)]
+B 5’ [BE MAŠ.GÁN KI.GUB GIM i-mi za-qí-ir BÀ -ut] ma-li-i
+16’. B 6’ [BE KI.MIN-ma ina UGU-šu KI.GUB MAN-ma e-ṣir U4.MEŠ N]UN GÍD.DA.MEŠ
+17’. B 7’ [ ÉRIN KÚR KI DINGI]R ana GAZ KAM-et
+18’. B 8’ [BE ina sip-pí KI.GUB UGU-nu KI.GUB KI.GUB MAN-ma GAR ina gišTUKUL.MEŠ DINGIR.MEŠ ] re-ṣu-ut EN
+UDU.SISKUR NU DU-ku-ma
+19’. B 9’ ____________________________________________________________________________________________[ina U4SÙ la DINGIR-šu]UGU LÚ ŠUB-ut
+(Rand: B)
+@reverse
+1. B Rs. 1 [BE KI.GUB SAG.UŠ GAR-ma MAN-ú ina SAG KI.GUB ḪU ]R A.RÁ.MEŠ ŠUB.MEŠ ana NUN GUR.MEŠ -ni
+C Rs. 1’ [ KI].GUB ḪUR A.R[Á.MEŠ ]
+2. B 2 [BE KI.MIN-ma MAN-ú ina MURUB4 KI.GUB ḪUR ] A.RÁ.MEŠ ŠUB.MEŠ ana ÉRIN-ia5 GUR.MEŠ -ni
+C 2’ [ K]I.GUB ḪUR A.RÁ. [MEŠ ] ⸢ŠUB ⸣.[MEŠ ]
+3. B 3 [BE KI.MIN-ma MAN-ú ina SUḪUŠ KI.GUB ḪUR N]IN-tu4 A.RÁ u dLAMMA TUK-ši
+C 3’ [ KI.G]UB ḪUR NIN-tu4 A.RÁ [ ]
+4. B 4 [BE KI.GUB ka-lu-šu-ma BAL-ut u UR5.ÚŠ SILIM-at ÍD ŠU ]B-tu iḫ-ḫe-re-ma
+C 4’ [ SILI]M-at ÍD ŠUB -tu iḫ-ḫe-re-[ma]
+B 4 KUR DINGIR Á -šá KI.TUŠ né-eḫ-ta TUŠ -ab
+C 4’ [ ]
+5. B 5 [BE KI.GUB ka-lu-šu-ma BAL-ut u UR5.ÚŠ NU SILIM-at BAL KÚR ]-ir UŠ 4 KUR MAN-ni
+C 5’ [ ] ⸢SILIM⸣-at BAL KÚR-ir U[Š4 ]
+6. B 6 [BE KI.GUB SI.MEŠ-šu is-ḫu-ra-ma ZÉ IGI NUN KUR KÚR ]-šu ina giš TUKUL ú-sa-ḫar
+C 6’ [ ] NUN KUR KÚR-šu [ ]
+7. B 7 [BE KI.GUB SI.MEŠ-šu is-ḫu-ra-ma EDIN ZAG IGI KÚR KUR NUN] ina gišTUKUL ú-sa-ḫar
+C 7’ [ K]ÚR KUR NUN ina [ ]
+(Rand: C)
+8. B 8 [BE KI.GUB GUB-iz NUN DINGIR.MEŠ -š]u TAG4.MEŠ -šu
+C Rs. 1! [ ]
+9. B 9 [BE KI.GUB ša-miṭ ana giš TUKUL ŠUB -tiÉRIN-ni in]a U4 SÙ ÚŠ.MEŠ ina KUR GÁL.MEŠ
+C 2 [ ] gišTUKUL ŠUB -tiÉRIN-⸢ ni⸣ [ ]
+10. B 10 [BE KI.GUB 3 UŠ 4 EN UDU.NÍTA MAN-ni ana giš TUKU]L ⸢IZI.GAR⸣
+C 3 [ ] x x [ ]
+11. C 4 [ ] x x [ ]
+12. C 5 [ ] x x [ ]
+(Lücke von einer Zeile)
+14. A Rs.1’ [BE ina] ⸢ KI⸣ .G[UB ZAG ù GÙB BÙR.MEŠ ŠUB.MEŠ NUN ILLAT.MEŠ-šu BAL.MEŠ -šu-ma ú-šam-qat-si-na-a-ti ]
+15. A 2’ [BE K]I.GUB 4 [SU.GU7ina KUR GÁL -ši]
+16. A 3’ [BE K]I.GUB 4-ma ina Š[À !-šu-nu BÙR.MEŠ ŠUB.MEŠ SU.GU7 ]
+17. A 4’ [BE K]I.GUB 4-ma 2 UGU-nu 2 [KI.TA-nu GAR.MEŠ DINGIR.MEŠ ze-nu-tu4 ana KUR GUR.MEŠ -ni ]
+18. A 5’ [BE] KI.GUB 5 [ni-ip-ḫat lúḪAL]
+19. A 6’ [BE] KI.GUB 5-ma ina ŠÀ -šu-nu BÙR. [MEŠ ŠUB.MEŠ ni-ip-ḫat lú ḪAL ŠUB -ti ÉRIN-ni]
+20. A 7’ [BE] KI.GUB 5-ma ina ŠÀ -šu-nu BAR.[MEŠ ŠUB.MEŠ ]
+21. A 8’ [BE] KI.GUB 6 [ZI.GA NIM.MAki (x x x)]
+22. A 9’ [BE] KI.GUB 6-ma ina ŠÀ -šu-nu [BÙR.MEŠ ŠUB.MEŠ NIM.MAki ZI-am-ma ]
+23. A 10’ [BE] KI.GUB 6-ma ina ŠÀ -šu -<nu> BAR.[MEŠ ŠUB.MEŠ NIM.MAki ZI ]
+24. A 11’ ____________________________________________________________________________________________[0]SÚḪ NÍ-šu ŠUB-šu-m[a]
+25. A 12’ [BE] KI.GUB 7 [ZI.GA ]
+26. A 13’ [BE] KI.GUB 7-ma ina ŠÀ -šu- [nu BÙR.MEŠ ŠUB.MEŠ ]
+27. A 14’ [BE K]I.GUB 7-ma ina ŠÀ -[šu-nu BAR.MEŠ ŠUB.MEŠ ]

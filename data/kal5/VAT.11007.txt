@@ -1,0 +1,32 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 27 (VAT 11007)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.663 on 95 tokens.
+---
+@obverse
+Die Vorderseite ist zu zerstört, um eine Transliteration vorlegen zu können.
+@reverse
+1’. [BE SILIM k]i-⸢ ma⸣ x [ ]
+2’. [BE SILIM] ki-ma LAL [ ]
+3’. [BE SILI]M ki-ma BAR [ ]
+4’. [BE SIL]IM ki-ma KASKAL [ ]
+5’. [BE] SILIM ki-ma GI [ ] [ ]
+6’. [BE] SILIM ki-ma TU [ ] [ ]
+7’. [BE] SILIM ki-ma KUR AN.GE6 © BE SI[LIM ]
+Nr. 27-28 123
+8’. [BE] SILIM ki-ma NE [ ]
+9’. [BE] SILIM ki-ma GIŠ man x [ ]
+10’. [BE] ⸢ SILIM⸣ ki-ma KÁM -ma BÙR x x [ ]
+11’. [BE] SILIM ki-ma KÁM -ma ina ŠÀ [ ]
+12’. [BE] SILIM ki-ma KÁM -ma KI.MIN-m[a? ]
+13’. [BE] SILIM ⸢ki⸣-ma AL.TE [ ]
+14’. [BE] SILIM ki-ma ŠIBIR x [ ]
+15’. [BE] SILIM ki-ma ŠIBIR x [ ]
+16’. [BE] SILIM ki-ma giš⸢Ù⸣.[ŠUB ]
+17’. [BE SILIM ki-m]a giš[ ]
+18’. [ ] x [ ]

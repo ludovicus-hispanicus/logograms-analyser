@@ -1,7 +1,8 @@
 ---
 genre: izbu omens
 period: Late Old Babylonian
-provenance: unknown
+provenance: Tigunanum (CUSAS 18 no. 21)
+publication: George 2013, CUSAS 18 no. 21 = MS 2797
 counting: šum-ma
 ---
 

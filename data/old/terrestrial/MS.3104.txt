@@ -1,7 +1,7 @@
 ---
 genre: terrestrial omens
 period: Old Babylonian
-provenance: unknown (Schøyen Collection)
+provenance: Southern Mesopotamia (CUSAS 18 no. 16)
 publication: George 2013, CUSAS 18 no. 16 = MS 3104, obverse (domestic / ṣubātum-garment / animal-sighting / "Hand of god" diagnostic omens). Šumma Ālu forerunner.
 counting: DIŠ
 source_note: Converted from a normalized-reading transcription (reading(SIGN) + accent vowels) to project ATF — logograms uppercased from the sign-glosses, accents → subscripts, half-brackets ⸢⸣ dropped, line-wrap '/' removed. Readings otherwise preserved; ungloss'd ambiguous tokens left as given. NEEDS REVIEW.

@@ -1,7 +1,7 @@
 ---
 genre: diagnostic omens
 period: Neo Babylonian
-provenance: W.17360o
+provenance: Uruk (Warka; W.17360o)
 recension: canonical Sakikkû Tablet 14, manuscript K (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 14

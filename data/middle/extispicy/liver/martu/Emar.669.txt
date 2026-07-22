@@ -3,7 +3,7 @@ genre: extispicy omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 tradition: Western periphery
-counting: BE
+counting: line
 topic: martu (gall-bladder, ZÉ)
 publication: Arnaud 1987, Emar VI/4 no. 669 (Msk 731029), hepatoscopic divination, la martu; Late Bronze Age
 note: martu (gall-bladder) omens, LBA Emar. Hand-transcribed from Arnaud; his lowercase Sumerograms converted to UPPERCASE per project convention. Well-preserved obverse (40 omens) given; fragmentary animal-comparison reverse omitted. Colophon counts 62 martu omens. GAG TI = sikkat ṣēli (peg of the rib). Logograms uppercase, syllabic lowercase, {} determinatives, [] restoration, x illegible. Not in eBL.

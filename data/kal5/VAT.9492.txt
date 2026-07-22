@@ -1,0 +1,37 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 64 (VAT 9492)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.505 on 212 tokens.
+---
+@reverse
+1. [ ] bi šu ka i-na-an-nai-na [ ]
+2. [ ] ki?a tim ni x [ ]
+3. [ ] ⸢i⸣-na gišTUKUL lúKÚR ta-sà-ki-ip ša-mu- ⸢ú⸣ [i-za-an-nu-un]
+4. [GI]G ÚŠ a-na ma-da-tim ki-⸢ a⸣ -am [ta-pal]
+5. BE a-na ITI! a-na U4 30-KAM ú-še -[pí-šu (-ka)]
+6. BE i-na te-re-ti-ka! ša li-tú ù KUR-ti ŠU [ ]
+7. [B]E re-eš EDIN GÙB ŠU.SI 1 pa-ṭe6-er U4 6-KAM a-da-a[n-šu ]
+8. a-na U4 6-KAM URUki KÚR ta-ṣa-bat KÚR !i-na giš TUKUL t[a-sà-ki-ip ]
+9. ša-mu-ú ul i-za-an-nu-un GIG ÚŠ a-na ma-da-ti ki-⸢ a⸣-[am ta-pal]
+10. BE MURUB4 EDIN GÙB ŠU.SI 1 pa-ṭe6-er U4 9-KAM a-da-an-š [u]
+11. BE SUḪUŠ EDIN GÙB ŠU.SI 1 pa-ṭe6-er U4 12-KAM a-da-an-š [u]
+12. BE SAG EDIN GÙB ŠU.SI 2 pa-ṭe6-er U4 15-KAM a-da-an-š [u]
+13. BE MURUB4 EDIN GÙB ŠU.SI 2 pa-ṭe6-er U4 18-KAM a-da-an-š [u]
+14. BE SUḪUŠ EDIN GÙB ŠU.SI 2 pa-ṭe6-er U4 21-KAM a-da-an-š [u]
+15. BE SAG EDIN GÙB ŠU.SI 3 pa-ṭe6-er i-na U4 24-KAM a-da-an-š [u]
+16. i-na ša-al-ma-tim la-ap-ta i-na la-ap-ta-ti š [a-al-ma]
+17. BE MURUB4 EDIN GÙB ŠU.SI 3 pa-ṭe6-er U4 27-<KAM> a-da-a[n-šu ]
+18. NUN ti-la-tam i-ra-áš-ši KÚR ul ip-pa-ṭar-ma i-ma-[ ]
+19. BE SUḪUŠ EDIN GÙB ŠU.SI 3 pa-ṭe6-er ITI 1-KAM U4 30-KAM [a-da-an-šu ]
+20. i+na ša-al-ma-ti la-ap-ta i-na la-ap-ta-[ti ša-al-ma ]
+21. BE URUki la-wi-a-ta a-na giš TUKUL.ḪÁ a-na za-na-an š [a-me-e]
+22. a-na GIG ù ma-da-tim-ma a-na ŠÀ MU 1-KAM an!-ni-t[im adanna tašakkan ]
+23. i-na te-re-ti-ka! ša-al-ma-tim ša li-tú [ù KUR-ti ŠU ]
+24. [B]E SAG EDIN GÙB ŠU.SI 1 pa-ṭe6-er [ ]
+25. a-na ITI 1-KAM U4 10-KAM URUki KÚR ip-x [ ]
+26. ⸢GIG ÚŠ ⸣ [ ]

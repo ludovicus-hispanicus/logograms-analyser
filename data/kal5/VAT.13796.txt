@@ -1,0 +1,55 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 116 (VAT 13796)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.698 on 225 tokens.
+---
+@obverse
+1’. [ ŠU ]B-di [ ]
+2’. [ ] x [ ]
+3’. [ ] ZI-bu x [ ]
+4’. [ ] ZI.GA ŠU -te
+5’. [ ] LÚ Á.TUK TUK-ši
+6’. [ ]ka-lu-tu-ka ana KUR KÚR ZÁḪ.MEŠ
+7’. [ ]ka-lu-utKÚR ZÁḪ.MEŠ -ku
+8’. [ ]KÚR⸢sag⸣-be-ia È-ṣi
+9’. [ ]⸢sag⸣-be-eKÚR È-a
+10’. [ ]⸢NUN⸣ṣú-me-ra-te-šuNU KUR-ad
+11’. [ K]ÚR ṣú-me-ra-te-šu NU KUR-ad
+12’. [ gab]a-raḫ-ḫu ana ÉRIN-ia ŠUB -ut
+13’. [ gaba]-raḫ-ḫu ana ÉRINKÚR ŠUB -ut
+14’. [ gaba-r]aḫ-ḫu ana ÉRIN-ia ŠUB -ut
+15’. [ gaba-ra]ḫ-ḫu ana ÉRINKÚR ŠUB -ut
+16’. [ ] ÉRIN-ni
+17’. [ ] ÉRIN KÚR
+18’. [ ÉRI]N KÚR È -ma ÉRIN-ni TA MURUB4 A.ŠÀ -šá GUR-ra
+19’. [ ÉRINKÚ ]R È -ma ÉRIN KÚR GABA.RI
+20’. [ ] ÉRIN-⸢ ni⸣
+@reverse
+1’. [ ] x [ ]
+2’. [ ÉRIN-n]i ta-ši-ma -⸢te-šá⸣ [ ]
+3’. [ ana G]IG DUL-ma [TI-uṭ]
+4’. [ ] ana KASKAL DU-ku ri-qú-ut-ka ⸢GUR-ra⸣
+5’. [ ] TI-uṭ-ma ina GIG MAN-ma BA.ÚŠ
+6’. [ ] id e-mu-qa-ia UGU e-muq KÚR ma-a-da
+7’. [ GÌ]R DUGUD ÉRIN KÚR ana KUR-ia5
+8’. [ G]ÌR ÉRIN KÚR ta-ši-ma-ti-šá KUR-ad
+9’. [ ]GÌR KÚR ù re-ṣi-šu ana KUR-ia5 šum 4-ma GIG TI
+10’. [ ] KÚR re-ṣi ù ILLAT.MEŠ TUK-ma ana KUR-ia5 DU-ka
+11’. [ ] x DUGUD KÚR e-mu-qi-šu ú-kal-lam-ka
+12’. [ ] GÌR ZI-ut gi-mir-ti ÉRIN KÚR ù ILLAT.MEŠ -šu
+13’. [ ] ina gišTUKUL KÚR KAR-ta5 DU-an-ni
+14’. [ ]-šá NU KUR-ad ana GIG DUL-ma ÚŠ GÌR MÁŠKIM NAM.TAR-šu
+15’. [ ] GABA.RI ana GIG DUL-ma TI-uṭ
+16’. [ ] x iš-du-ud GÌR ḪUL -ti GÌR KU4-eb DUMU KIN šá KUR KÚR ana LUGAL DA-a
+17’. [ G]ÙB KI.MIN GÌR GÙB DU8-at ÉRIN KÚR ta-ši-ma-te-šá NU KUR GÌR ÉRIN-ia5 ana KUR KÚR
+18’. [ AN.T]A GAL-at KI.TA TUR-et e-muq KÚR ma-a-da
+19’. [ KI].⸢TA⸣ GAL-at AN.TA TUR-et e-mu-qa-ia ma-a-da
+20’. [ GÌ ]R.MEŠ GAR.MEŠ -ma IGI.⸢IGI-šu ⸣IGI.IGI-tu at-ta ù KÚR -ka IGI.MEŠ
+21’. [ ] x [ ina] u4-um a-⸢ da⸣-ni-ia ILLAT-ti DA-a
+22’. [ ] x x [ ]
+Nr. 116 307

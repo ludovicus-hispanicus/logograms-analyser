@@ -1,0 +1,64 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 68 (VAT 10946)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.545 on 110 tokens.
+---
+@obverse
+1’. [ ]x ki x x [ ]
+2’. [ ] x ZAG GÍRgišTUKUL a-ri-d[u ]
+3’. [ ] ZAG GÍR gišTUKUL a-ri-du ⸢ GAR⸣ at? x [ ]
+4’. [ ]⸢lú⸣?ḪAL en ku a šar x li x x x [ ]
+5’. a-⸢na EGIR-ka⸣ NU GUR-ar a-dan DINGIR ⸢e⸣-ti-⸢iq⸣ ka x [ ]
+6’. ⸢EGIR⸣ .MEŠ u a-na pa nu x šá ZAG a-na GÙB šá GÙB a-na ZAG x [ ]
+7’. ⸢SAG⸣ ?.DU-nu?-ma ZAG-šu TI-qé-ma nigin um ti? kin? IGI x da [ ]
+8’. [K]ÚR ⸢ta⸣-sa-kip ad li be? ka [ ]
+9’. [BE] ina DAL AL.TE ù KI.GUB BÙR ŠUB -di EN UDU.⸢ SISKUR⸣ x x [ ]
+10’. [BE ina] DAL AL.TE ù KI.GUB ⸢KI KI⸣ .GUB ina DAL ⸢KI⸣ .GUB ⸢ù ⸣ [ ]
+11’. [K]A? DÙG.GA KAL ME.NI SILIM ⸢ ZÉ SÌG -iṣ?⸣ IGI [ÉRIN KÚR ŠUB ] gišGU.ZA [ ]
+12’. [ ]GAM x U5 ri-iḫ-ṣu x [ ] x x ú [ ]
+13’. [kak]-su-ú KAM-tu4 BAR-tu4 KA[R-tu4 ni-i]p?-ḫux [ ]
+14’. [ ] ri x tu pa ru tu gu š[i ]
+15’. [ ] x x [ ] x x [ ]
+16’. [ ] [ ]
+17’. [ ]GAR-in[ ]
+@reverse
+1’. [ ] x [ ]
+2’. [ ] e-ta-[ ]
+3’. [ DU]8 3-ti dEN.[ ]
+4’. [ ] x [ ] a-šar NUtam-gu-ru ta-[ ]
+5’. [ ] DU8 a-šar NU DU8-ru ú-pa- [ ]
+6’. [ ]su DU8ku nu uš anaKÚR -ka ur ma a šu x [ ]
+7’. [ ] 3 DU83-tì e-ta-[ ]
+8’. šu [m4-m]a IZI.GAR ù né-peš-ti ḪAL -ti x x x ši na u NU SILIM-ti x [ ]
+9’. [ ]TA.ÀM EN 7 x.MEŠ šá SILIM.[M]EŠ TAG.MEŠ TAG.MEŠ [ ]
+10’. [ N]ÍG. ⸢TAB⸣ GÍR gišTUKUL GAR-⸢ ma⸣ KI.TA [IGI?] MUNUS.[ ]
+11’. [ M]E.NI gišTUKUL GAR-ma ⸢SAG ME⸣ .NI [IGI?] [ ]
+12’. [ ]re-⸢ṣi⸣a-na ÍD TÙN né-ḫe-el-ṣ [u? ]
+13’. [ ZA]G? ZÉ giš TUKUL SAL.LA DAB [ ]
+14’. [ ] SILIM ŠUB giš⸢GU⸣ .ZA gišTUKUL BAL-ma EDIN GAL Š[U].SI IGI [ ]
+15’. [ina S]UḪUŠ EDIN ŠU.SI [MURU]B4 giš⸢TUKUL KI.TA⸣ IG[I? x] ⸢UGU-šú ⸣3 BABBAR TAG x [ ]
+16’. [ina S]AG du te giš [TUKUL] x [ ]
+17’. [ g]išTUKUL.MEŠ šá x [ ]
+Nr. 68-69 223
+18’. [UG]U-nu ME.NI [ ]
+19’. ⸢IGI⸣-et!SAG ZÉ[ ]
+20’. ⸢KI⸣ DAL.BA.NA [ ]
+Bemerkungen:
+@obverse
+9’. Die Zeile weist Ähnlichkeiten mit U. S. Koch, Secrets 2/114 auf. Zur Abkürzung DAL für DAL.BA.(AN.)NA siehe die
+Bemerkungen zu K 205 (+) Rm2, 101 (Nr. 51) Vs. 16.
+10’-16’ Der Abschnitt hat Ähnlichkeiten mit dem Abschnitt Z. 44 bei U. S. Koch, Secrets, 113f., Nr. 3. Insbesondere Z. 11’ ist pa-
+rallel zu dem Textvertreter K 3945+ (CT 20/43-48) i 53 und Z. 13’ zu i 51.
+@reverse
+4’. Die Apodose könnte die syllabische Variante der Apodose KI NU ŠE.GA ŠE.GA in VAT 10114 (Nr. 69, KAR 427) Rs. 17
+darstellen und als ašar lā tamguru ta[maggur] „Einem Gebiet, dem du nicht genehm warst, wirst du angenehm werden.“
+interpretiert werden.
+10’-16’ Der Abschnitt weist Ähnlichkeiten mit U. S. Koch, Secrets, 133f., Nr. 3, Z. 179-182 auf. Rs. 12’ läßt sich mit Z. 182 ver-
+gleichen und Rs. 15’ mit Z. 181.
+18’-20’ Der Abschnitt ist parallel zu U. S. Koch, Secrets, 134, Nr. 3, Z. 183 (K 3945+ [CT 20/43-48] iv 16-17) und zu VAT 10540
++ VAT 10893 (Nr. 67) ii 7-9.

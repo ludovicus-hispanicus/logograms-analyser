@@ -5,6 +5,20 @@ __pycache__/
 # Manuscript drafts (kept local — not part of the public corpus/tooling)
 Doktorarbeit_final.md
 docs/The-Logographic-Shift.md
+docs/Doktorarbeit_final.docx
+docs/The-Logographic-Shift.docx
+docs/The-Logographic-Shift-1.docx
+
+# Word exports of the source catalogue (regenerated from the .md via pandoc)
+docs/catalogue-of-sources*.docx
+
+# Office / editor lock and temp files
+~$*
+.~lock.*#
+
+# Local logs and Claude Code state
+*.log
+.claude/
 
 # Copyrighted third-party material
 docs/Rochberg-1988-AfO-Beih-22-pp1-31.md

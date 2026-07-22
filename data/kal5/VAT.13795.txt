@@ -1,0 +1,31 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 115 (VAT 13795)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.628 on 94 tokens.
+---
+@obverse
+1’-2’ Spuren
+3’. [ ] dUTU ri-⸢iṣ⸣K[ÚR ]
+4’. [ ]-ru-urÉRIN KÚR ina hir-[ri-ti-šú ŠUB -ut]
+5’. [ ÉRIN-ni] iṣ-tu ÉRIN KÚR ḪÁ -t[a GAZ-ak]
+6’. [ ] x anaḪUL-tiNA UGU EN I[NIM-šu GUB-az]
+7’. [ ] xsu-ḫu-ruKÚR ina KI.TUŠ -šu x [x (x)]
+8’. [ b]u?šá ti šal-pú!(Text:gigir)-tiÉRIN-i[a]
+9’. [ gaba-ra]ḫ-ḫuana ÉRIN KÚR ŠUB -ut
+10’. [ ] x ri-iṣ KÚR KÚRina AN.BAR7 GAZ-ni
+11’. [ ina u]4-um ⸢UR5⸣ DÙ -šu KÚR GAZ-ak
+12’. [ ] ⸢ú⸣-ṣa-ma-ra-maKUR-ni
+13’. [ ] ⸢ú⸣-ṣa-ma-ra-ma KUR-ad
+14’. [ KÚR URU-ka in]a GE6 ina gam-lim DAB-bat
+15’. [ gišTUKUL.MEŠ -k]a KUR KÚR -ka ú-šam-qat-tu
+16’. [ ] x ḫi INIM NÍG.GIGana NUN
+17’. [ ] ana KUR KÚR
+18’. [ INIM (MUNUS.)S]IG5 ana NUN-e TE-ḫiSAG.DU.MEŠ ÉRIN KÚR ana KUR-ia
+19’. [ ]-ti šá KÚR
+20’. [ gaba-raḫ-ḫ]u [(0)] ana ÉRIN KÚR ŠUB -ut
+21’. [ ina u4-u]m UR5 ⸢DÙ ⸣-šu KÚ [R GAZ-ak]

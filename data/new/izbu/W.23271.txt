@@ -1,7 +1,7 @@
 ---
 genre: izbu omens
 period: Late Babylonian
-provenance: unknown
+provenance: Uruk (Warka; W.23271)
 publication: eBL fragment W.23271; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
 canonical_tablet: Uruk compendium (spans animal section incl. pig Tablet 22)
 counting: line

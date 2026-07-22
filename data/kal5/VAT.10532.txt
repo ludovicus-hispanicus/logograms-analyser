@@ -1,0 +1,44 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 87 (VAT 10532)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.822 on 135 tokens.
+---
+@obverse
+Vs.! 1’ BE MUN[US ]
+2’. BE MUNUS ⸢ GABA⸣ [ ]
+2a’ BE GABA MUŠEN [ ]
+3’. BE GABA MUŠEN GAM [ ]
+4’. ŠU.BI. [AŠ.ÀM ]
+5’. BE GABA MUŠEN TA SAG EN x [ ]
+6’. [ ]
+7’. BE GABA MUŠEN ZAG GAM [ ]
+8’. BE GABA MUŠEN GÙB GAM [ ]
+9’. BE [GABA MUŠEN ZAG] GAM-ma ù tar-ka-⸢ at⸣ [ ]
+10’. [ ] [ ]
+11’. [BE GABA MUŠEN GÙB GAM-ma ù t]ar-ka-at [ ]
+12’. [ ] [ ]
+13’. [ ]-ir [ ]
+14’. [ -i]r [ ]
+15’. [ ] [ ]
+16’. [ ] KÙ? [ ]
+Rs.! 1 [BE GABA MUŠEN Z]AG GAM-ma GÌR.PAD.DU NU pul?-lu-uš MUNUS? ku URUki x [ ]
+2. iṣ-ṣa-bat-ma [ ]
+3. BE GABA MUŠEN GÙB GAM-ma GÌR.PAD.DU ⸢NU⸣ pul?-lu-uš MUNUS ša KUR KÚR [ ]
+4. iṣ-ṣa-bat-ma [ ]
+5. BE GABA MUŠEN ZAG GAM.GAM KÚR KUR NUN [ ]
+6. BE GABA MUŠEN GÙB GAM.GAM NUN KUR KÚR [ ]
+7. BE GABA MUŠEN ZAG GAM.GAM-ma ù tùr !-ru-ka-at KÚR URUki NU[N ]
+8. a-na ÉRIN.MEŠ [ ]
+9. BE GABA MUŠEN GÙB GAM.GAM-ma ù tùr- [ru-ka-at ]
+10. [ ]
+11. BE GABA MUŠEN ZAG šat-ḫat [ ]
+12. BE GABA MUŠEN GÙB šat-ḫa [t ]
+13. BE GABA MUŠEN BAR-m[a ]
+14. BE GABA MUŠEN [ ]
+15. BE ⸢ GABA⸣ [MUŠEN ]
+16. BE [GABA MUŠEN ]

@@ -1,0 +1,71 @@
+---
+genre: extispicy omens
+period: Neo-Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 40 (VAT 10811 + VAT 11188 +)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.807 on 347 tokens.
+---
+@obverse
+I __________________________________________________________________________________________
+1’. [ K]ÚR -šu ⸢TI⸣-qé
+2’. [ ] x ⸢TI⸣-qé
+3’. [ ] x x © [N]AM.RA ⸢È⸣-ṣi
+4’. [ KU]R KÚR ⸢NAM⸣ .RA ⸢ È ⸣-a
+5’. [ KÚR ] ina ŠÀ KUR NAM.RA È -[ṣ]i
+6’. [ ILL]AT-ti i-⸢ dak⸣- ki-an-ni
+7’. [ K]ÚR uruBAD4-ia ⸢DAB⸣- bat
+8’. [ ]inaŠÀ KUR KÚR NAM.RA È -a
+9’. [ ] x KÚR ILLAT.MEŠ -šu ⸢BAL.MEŠ ⸣-šu
+10’. [ K]AR uruBAD4 KÚR [DA]B-bat
+11’. [ SA]G EDIN GÙB ŠU.SI KAR IGI.IGI-[tu]
+12’. [ MU]RUB4 EDIN GÙB ŠU.SI KAR GABA.R[I]
+13’. [ ] KAR ZI.GA ina ŠU NUN ⸢ È ⸣-[ṣ]i
+14’. [ ŠU ].SI KAR ZI.GA ina ŠU KÚR ⸢È⸣-ṣi
+15’. [ ] ŠU.SI KAR KÚR ÉRIN-ka ina ŠU ⸢ḪUL ⸣ kar? ⸢ru⸣?
+16’. [ ] ŠU.SI KAR ÉRIN-ni ina ŠÀ KUR KÚR NAM.RA ⸢ È -a⸣
+17’. [BE ŠU.SI ina B]AR-šá KAR-ma ZAG GÙB KAR mut-ta-at KUR KÚR ⸢ta-tab⸣ -[bal]
+18’. [BE ŠU.SI ina] BAR-šá KAR-ma GÙB ZAG KAR mut-ta-at KUR-ka KÚR i-tab-[bal]
+19’. [ MAŠ.GÁN ]-šá TAG4-ma ši!(Text: pi)-tin-šá KAR KÚR KI-ka ⸢i⸣- [pa-qar]
+20’. [BE EDIN ŠU.SI ] MURUB4 KAR.KAR KÚR ina IDIM-šu KU4-ba šá-níš G[ÌR ? ]
+21’. [BE EDIN ŠU.SI ] ⸢MURUB4⸣ KAR.KAR-ma ina ŠÀ -šu BÙR ⸢ŠUB -di⸣ KÚR NAM.RA x [ ]
+22’. [ Z]AG ŠU.SI KAR [ ] ⸢ir⸣ [ ]
+23’. [ ] ri [ ]
+II __________________________________________________________________________________________
+1’. [ ] x [ ] KÚR NAM.RA KUR x x [ ]
+2’. [ ] x [ Š]UB.MEŠNAM.RA KÚR x lu? x ⸢È ⸣-a [ ]
+3’. [ ] x BÙR.[MEŠ Š]UB.MEŠ KÚR GU4.UD-⸢ iṭNAM.RA⸣ TI-⸢ma⸣ GAZ [ ]
+4’. BE x ⸢ŠU ⸣.[SI x x x] BÙR.MEŠ [Š]UB.ME[Š] ⸢ NAM.RA⸣ KÚR TI-ma GAZ-ni [ ]
+5’. BE ZAG ŠU.SI x x x BÙR.MEŠ [ŠU ]B.MEŠ ⸢ KÚR ⸣ N[AM.R]A TI-ma GAZ-ni [ ]
+6’. BE __________________________________________________________________________________________GÙB ⸢ŠU.SI⸣ [x] x x BÙR.MEŠ [ŠU]B.MEŠ⸢NAM⸣.RA KÚRTI-ma GAZ-šu []
+7’. BE ZAG ŠU.SI [ ] x x ÉRIN-⸢ni⸣ [ ]
+8’. BE GÙB ŠU.SI [ ] x x ÉRIN KÚR[ ]
+9’. BE __________________________________________________________________________________________ZAG ŠU.SI ⸢ù⸣GÙB Š[U.SI] x KÚR NU IGI-mar[]
+10’. BE EDIN ZAG ŠU.SI KAR x [ ] ⸢NAM⸣.RA ⸢È ⸣ x [ ]
+11’. BE EDIN GÙB ŠU.SI KA[R ] ŠÀ x [ ] NAM.[R]A x [ ]
+12’. BE ⸢ SAG⸣ EDIN [ ] x [ ]
+13’. 10 ⸢BE SAG⸣ [EDIN ] ⸢GÙB ⸣ x [ ] x x [ ]
+14’. x [ ] ḪULx [ ]
+15’. B[E SAG ] K[AR] gišTUKUL GAR-[ma Š]U.SI IGI x ⸢MEŠ ⸣ [ ]
+16’. [BE SAG ] x ⸢KAR⸣ gišTUKUL GAR-m[a Š]U.⸢ SI⸣ IGI x [ ]
+17’. [ ] x IGI.IGI KÚ[R]⸢NAM.RA⸣ TI-ma ⸢ uš ⸣-[ta-ad-da]
+18’. [ ] x IGI.IGI NA[M.RA KÚ]R TI-⸢ma uš ⸣-[ta-da!-an-ni]
+19’. [ ] x ⸢ina ŠÀ-šá⸣[x] x ù⸢DINGIR⸣ .[MEŠ x x] NA[M.RA ]
+20’. [ ] ina ŠÀ-[šá] x.MEŠù DINGIR.ME[Š x x] NAM.R[A ]
+21’. [ ] ina ŠÀ-šá BAR.MEŠ ŠUB.MEŠ x [ ] x x [ ]
+22’. [ ] x ina ŠÀ-šá BAR.MEŠ ŠUB.MEŠ x x [ ]
+23’. [ ] x-ma ina ŠÀ-šá KAM ŠUB -at KÚR A.⸢ DAM⸣ .MEŠ [(0)]-ka x x [ ]
+24’. [(x)] ⸢i⸣-šal-lal ta-šap-pa-ra- ⸢šu ⸣ x [x] x x maš [ ]
+25’. [ -m]aina ŠÀ-šá KAM ŠUB -at A.DAM.ME[Š KÚ ]R MAS.S[Ù ]
+26’. [ ina] ŠÀ -šá GÚ.TUR GAR-at KÚR ⸢x⸣ [(x)]-ka MAS.S[Ù ]
+27’. [ ina Š]À -⸢šá⸣ GÚ.TUR GAR-at [x (x)] KÚR MAS.S[Ù ]
+28’. [ ] x x ÉRINKÚRBAD4 DAB-b[at]
+29’. [ ] x bit ÉRIN-ni⸢BAD4⸣DAB-ba[t]
+30’. [ ] KÚR ⸢NAM⸣.RA TI É ŠUB-ut
+31’. [ ] NAM.⸢RA⸣TIÉ KÚR ŠUB -⸢ut⸣
+32’. [ K]ÚR iš-lu-lu ŠU [B x]
+33’. [ NA]M.RA URU? ŠUB x
+34’. [ ] te?[x]
+35’. [ ] x [x]

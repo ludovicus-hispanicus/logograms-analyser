@@ -1,0 +1,39 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 66 (VAT 10355)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.636 on 225 tokens.
+---
+@obverse
+(5 Zeilen fehlen)
+1'. [DIŠ ] ⸢zuq⸣-[ qur-tu za-kar šu-mu BE SAG KI.GUB zu-qur MU SAG NUN ÉRIN-ni MU MUNUS.SIG5
+TI-qé ]
+2'. [DIŠ ] ⸢si-ka⸣- tu l[e-qé-e li-ti BE UGU-n u KAL UZU k i - m a g i šGAG GUB-i z g i šT U K U L
+LUGAL.GI.NA ÉRIN LUGAL GABA.RI NU TUK-ši ]
+3'. [DIŠ ] ka-⸢ bar⸣- tu e-m[u-qu BE SIG ZÉka-bar IBILA UGU AD-šú DUGUD-it]
+4'. [DIŠ r]a-pa-áš-tu me-tel-[lu-tu BE uzuKIŠIB ZAG KIR4-šú ki-ma kur-sin-ni DAGAL-eš gišTUKUL
+LUGAL.GI.NA ÉRIN LUGAL i-dan-nin-ma GABA.RI NU TUK-ši ]
+5'. [DIŠ r]a-bu-ú ma-ṣ [u-ú BE MÁŠ ma-la ŠU.SI im-ta-ṣi ÌR ma-la EN-šú i-ma-aṣ-ṣi ú-lu GÉME
+____________________________________________________________________________________________EN-šá i-ram-ši-ma ma-la NIN-šá i-ma-aṣ-ṣi]
+Nr. 66 217
+6'. [DIŠ ] ṣa-mi-i[t ]-tu SUḪUŠ.ÀM [GI.NA.MEŠ BE GÙB ZÉṣa-mid GÌR ka-sa-at KÚR ]
+7'. [DIŠ ] e-pi-iq-tu SUḪUŠ.ÀM [GI.NA.MEŠ BE MUR ZAG up-pu-uq SUḪUŠ.ÀM GI.NA.MEŠ ]
+8'. [DIŠ ] e-bi-i-tu KI.TUŠ né-[eḫ-tu BE MÁŠ e-ba-at BURU14 KUR SI.SÁ -ir]
+9'. [DIŠ ] ⸢a⸣-mi-⸢ iš⸣-tu ta-ia-a-[ra-tu BE ZÉ IGI.MEŠ -šá ana ZAG GAR-nu ta-a-a-rat DINGIR ana LÚ
+LUGAL KUR-su i-ram-ma]
+10'. [DIŠ kip]-ṣu a-kal [NAM.RA BE SAG KI.GUB ka-bi-is ÉRIN-ka ina SAG A.ŠÀ -šú ḪA.LA GU7]
+11'. [DIŠ šap-liš ]ka-na-šu KUR-ti [ŠU.II BE KI.GUB ki-ma U4.SAKAR ana KI.TA-nu KUR KÚR ni-ta NIGIN-
+mi]
+12'. [DIŠ ul]-⸢ṣu⸣ ⸢ul⸣-ṣ[u-um-ma BE MU SAG MUR šá ZAG ul-lu-uṣ ul-lu-uṣ ŠÀ -bi ÉRIN-ni]
+@reverse
+1'. [ ] ⸢x⸣ giš x[]
+2'. [ ] ⸢x⸣ nam x ⸢x⸣ [ ]
+3'. [ ] ⸢x⸣ zag UZUki-ma ḪÉNBUR È-ṣi x ⸢x⸣ [ ]
+4'. [ ] bi i x mu ú [ ]
+5'. [BE DU8 G]ÙB ki-ma AN [DAM L]Ú DAM-sà [uš-dak ]
+6'. ŠU.NÍGIN 2 ME x x [ M]U.BI.IM AL.TIL IGI.KÁ [R ]
+7'. ŠU I.d[ ] ⸢x⸣ [ ]

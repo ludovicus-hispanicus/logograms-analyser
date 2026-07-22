@@ -3,6 +3,7 @@ genre: extispicy omens
 period: Neo-Assyrian
 provenance: Assur (House of the Exorcist, N4)
 tradition: Babylonian-copy
+pooled_exclude: true   # syllabic Babylonian copy; orthography reflects the exemplar, not Neo Assur — kept out of the pooled martu LDI but shown independently
 counting: šum₄-ma
 publication: VAT 8611 (KAR 150); Heeßel 2012 KAL 5 no. 30 (pp. 126-128); ed. Ebeling AfO 9 (1933-34) 326-329
 note: "martu (the gall-bladder, ZE2) omens; fully-preserved Neo-Assyrian tablet BUT copied from a Babylonian Vorlage and written almost entirely SYLLABICALLY (colophon Rs 16: GABA.RI KA2.DINGIR.RA{ki} SAR BA.AN.E3 = 'written and collated from a Babylon original'; scribe Nabu-etir). LDI ~0.22 despite NA date/findspot = the orthography of the exemplar travels with the text. Rulings and colophon (Rs 7,15-18) omitted from the body."

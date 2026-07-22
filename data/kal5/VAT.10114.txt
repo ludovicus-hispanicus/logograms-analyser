@@ -1,0 +1,106 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 69 (VAT 10114)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.806 on 922 tokens.
+---
+@obverse
+1. [BE GÚ.MUR BÀ KI.TA KAR ] x x šá ITI A.ME[Š ]
+2. [BE AN.TA KAR] Š[È ]G.[MEŠ ] ina ⸢AN-e⸣ ILLU ina IDIM TAR.MEŠ šum 4-ma DAM
+LÚ MAN-ma T[UK?]
+3. [BE GÙB KÁ.GAL ku-tum4 ŠÀ ] KI.TA KAR NÍG.ŠU.MEŠ KUR KÚR GU7 KI.LAM KUR-ia BAD-t[e]
+4. [BE] AN.TA KAR KÚR NÍG.ŠU.MEŠ KUR-ia GU7 KI.LAM ŠUB -ut ḪUL -un lìb-b[i]
+5. [BE MURUB4 KÁ.GAL ku-tum4 ŠÀ ] KI.TA KAR KÚR uruBAD4-ia DAB-bat-ma NÍG.ŠU.MEŠ KUR-ia GU7 KUR
+ŠUB -u[t]
+6. [BE] AN.TA KAR uruBAD4 KÚR DAB-bat-ma NÍG.ŠU.MEŠ KUR KÚR GU7 KUR
+____________________________________________________________________________________________MANKI.TUŠné-e[ḫ-ti]TUŠ-ab
+7. [BE KÁ.GAL ku]-tum4 ŠÀ KI.TA KAR KUR LUGAL sún-qa IGI-mar-ma ana KI-šá NU GUR-á[r]
+8. [BE] AN.TA KAR KUR LUGAL šá sún-qa IGI-ru KI.LAM nap-šá IGI-mar KUR
+____________________________________________________________________________________________⸢KI.TUŠ⸣n[é-eḫ-tiTUŠ-ab]
+9. [BE ŠÀ KÁ ].GAL ku-tum4 ŠÀ KI.TA KAR SU.GU7 KUR NÍG.ŠU.MEŠ -šá SIG5.MEŠ ana KI.LAM [È]
+10. [BE] AN.TA KAR SU.GU7 dan-nu GÁL -ma eš !-re-et KUR dUT[U IGI]
+11. [BE] ⸢SIG⸣ AL.TE KI.TA KAR KÚR uruBAD4-ia DAB-bat-ma UGU NÍG.ŠU.MEŠ -i[a MAŠKIM ]
+12. [BE] AN.TA KAR uruBAD4 KÚR DAB-bat-ma UGU NÍG.ŠU.MEŠ KÚR [MAŠKIM ]
+13. [BE] AL.TE DÙ -šu-ma KI.TA KAR ḫa-rab eš-re-ti na-kám-mat LUGAL S[Ù.MEŠ ]
+14. [BE] AN.TA KAR SU.GU7 še-im IN.NU ù Ú.MEŠ ina KUR ⸢GÁL ⸣-[ši]
+15. [BE] ⸢ki⸣ 15! an KI.TA KAR GABA ki nu SILIM-um x [ ]
+16. ⸢BE⸣ AN.TA KAR ki-a-am m[u] x [(x)]
+17. [BE x] AL.TE ù ZI IM KI.TA KAR te-re-et MÁŠ.ANŠE
+18. [BE] AN.TA KAR bu-ul KÚR ina ri-ti TÙM URU ZAG KÚR DAB-bat-ma ana ŠÀ -šu
+____________________________________________________________________________________________KU4-ub
+19. [BE] SAG ZI IM KI.TA KAR K Ú R URU ZAG-ia G U4. U D-iṭ D U M UL U G A La n aKUR KÚ Ri n a - b i t
+20. [BE] AN.TA KAR URU ZAG KÚR GU4.UD-iṭ DUMU LUGAL šá KUR KÚR ina-b[it]
+21. [BE M]URUB4 ZI IM KI.TA KAR KÚR ana É.GAL ILLAT.MEŠ -ia DA-a-ma GAZ-n[i]
+22. [BE] AN.TA KAR KÚR ina É.GAL ILLAT.MEŠ -šu GAZ-š [u]
+23. [BE SUḪU ]Š ZI IM KI.TA KAR K Ú R URU ZAG-ia G U4. U D-iṭ I M . M A R . T U! Z I-m aš e - a m
+⸢d⸣[IŠKUR RA-iṣ ]
+24. [BE] AN.TA KAR BURU14 KUR KÚR GU7 KU4-eb NAM.RA ana É.G[AL-ia]
+25. [BE U]GU-nu šu-bat ZAG GÍR KI.TA KAR KÚR URU ZAG-ia DAB-bat-ma NAM.RA È -[ṣi]
+26. [BE] AN.TA KAR URU ZAG KÚR DAB-bat-ma NAM.RA KÚR È -[a]
+27. [BE šu ]-bat ZAG GÍR KI.TA KAR ZI.GA ŠE !(Text: mu) šá-níš i-bí-su-ú ina É NA GÁL -ši URU ZA[G
+x x]
+28. [BE] AN.TA KAR mim-ma tu-ḫal-li-qu KI DINGIR SUM-ku EN uzuKIN uzuKIN [ ]
+29. [BE SA]G SAL.LA GÍR KI.TA KAR URU ZAG-ia KÚR GU4.UD-iṭLÚ EN INIM-šú UŠ -šu uzuKIN ⸢ LÚ ⸣
+[ ]
+30. [BE] AN.TA KAR URU ZAG KÚR GU4.UD-iṭLÚ EN INIM-šú ŠU -su KUR-ad [(x x)]
+31. [BE MURU]B4 SAL.LA GÍR KI.TA KAR NÍG.DÉ.A A.GÀR ub-bal KAR-t[u]
+32. [BE] AN.TA KAR ÙRU -tiKUR KÚR ŠU -ka KUR-ad LÚ UGU EN INIM-šu GUB-a[z]
+33. [BE SUḪ ]UŠ SAL.LA GÍR KI.TA KAR URU ZAG KÚR GU4.UD-iṭ-maILLAT.MEŠ -šu TI-[qé]
+34. [BE] AN.TA KAR KÚR URU ZAG-ia GU4.UD-iṭKAR-[tu]
+35. [BE] ⸢ šu⸣-bat GÙB GÍR KI.TA KAR BAD.BAD KÚR a-d[ak]
+36. [BE] AN.TA KAR KÚR BAD.BAD-ia i-[dak]
+37. [BE U]GU-nu šu-bat GÙB GÍR KI.TA KAR ana KUR KÚR aḫ-ḫab-ba-at-maNAM.RA KÚR ⸢È ⸣-[a]
+38. [BE] AN.TA KAR KÚR ana KUR-ia iḫ-ḫab-ba-tam-maNAM.RA È -[ṣi]
+39. [BE K]I KA DÙG.GA KI.TA KAR K Ú R ina né-ep-te!- eG U4. U D-i ṭDUMU LUGAL A D-š uḪ I . G A R- á[r]
+40. [BE] AN.TA KAR ina né-ep-te !-e KÚR GU4.UD-iṭ DUMU LUGAL šá KUR KÚR
+____________________________________________________________________________________________GAB[A.RI]
+41. [BE x K]AL KI.TA KAR ZI.GA IDIM ina É LÚ È-ṣi KA[R-tu]
+42. [BE] AN.TA KAR mim-ma šá È-ú GUR-ku ir-bu ana É.GAL KU[4-ub]
+@reverse
+1. [BE] x ⸢na ? u ME.NI⸣ K[I].T[A KAR ] bu [ ]
+2. [BE] AN.TA KAR L[Ú x] x [x] x x šu [ ]
+3. [BE x G]ÙB ME.NI KI.TA KAR ⸢LUGAL⸣ [ ] x x [ ] x i x x [x]
+4. [BE] AN.TA KAR ⸢LUGAL ia⸣ x x GAZ-ma NÍG.GA x x x x [x]
+5. [BE x] ZI.GA SAG KI.TA KAR mim-ma ⸢ut -tu-ú ⸣ [ ]
+6. [BE] AN.TA KAR mim-ma ⸢ut⸣-[t]u-⸢ú⸣ [ ]
+7. [BE i]-sil-ti ZAG ZÉ KI.TA KAR KÚR iq [ ] a ṣi [ ]
+8. [BE] AN.TA KAR KÚR iq x x Éx da šu x x x
+9. [BE m]a-šit ZAG KI.TA KAR me x ⸢li⸣ [u?] ZI.GA ina É LÚ ⸢È⸣-ṣ[i]
+10. [BE] AN.TA KAR DU IGI ÉRIN KÚR ŠU -ka ⸢KUR-ad⸣
+Nr. 69 225
+11. [BE m]a-šit GÙB KI.TA KAR BAD.BAD KÚR [ (0) ]a-dak
+12. [BE] AN.TA KAR me k[u] x x x x x x ⸢ È -ṣi⸣
+13. [BE m]a-šit SAG ZÉ KI.TA KAR DUMU DA[M].G[ÀR NÍ]G.NA4-su ZÁḪ
+14. [BE] AN.TA KAR ana KASKAL a-kal NAM.RA DUMU DAM.GÀR ⸢NÍG ⸣.NA4-su
+____________________________________________________________________________________________ki/di⸢id⸣
+15. [BE i]-sil-tiGÙB KI.TA KAR ina ŠÀ KUR KÚR NAM.RA È -a
+16. [BE] AN.TA KAR KÚR lu! ṣu-⸢mi⸣-i A lu id ⸢ḫáp⸣? maškim ú-ka-al
+17. [BE x] ZÉ ti KI.TA KAR KI NU ŠE.GA ŠE.GA
+18. [BE] AN.TA KAR KI NU KUR-du KUR-ad a-kal NAM.RA
+19. [BE x] x [x] x KI.TA KAR mim-ma tu-ḫal-la-qu KI DINGIR SUM-ku EN KIN KIN uš [x (x)]
+20. [BE] AN.TA KAR qa-bu-ú ⸢ù⸣NU ŠE.GA KI DINGIR ana LÚ GAR-in
+21. [BE ] x ⸢MURUB4⸣ ZÉ KI.TA KAR URU ZAG KÚR DAB-bat-ma ILLAT.MEŠ -šu TI-qé
+22. [BE] AN.TA KAR KÚR URU ZAG-ia DAB-bat-ma ILLAT.MEŠ -ia TI-qé
+23. [BE ] šú SUR ZÉ KI.TA KAR URU ZAG KÚR DAB-bat-ma UGU NÍG.ŠU.MEŠ -šu MAŠKIM
+24. [BE] AN.TA KAR KÚR URU ZAG-ia DAB-bat-ma UGU NÍG.ŠU.MEŠ -ia MAŠKIM
+25. [BE ]KI.TA KARnì-ip-ḫat lúḪAL ŠUB -tiÉRIN-ni
+26. [BE] AN.TA KAR gišTUKUL ḪI.GAR -ti LUGAL ina É.GAL-šu ḪI.GAR.MEŠ -šu
+27. [BE ]KI.TA KARkùr-ru inaKUR DU8-ma KI.LAM nap-šá KUR GU7
+28. [BE] AN.TA KAR ⸢SU⸣ .GU7 dan-nu ina KUR GÁL -ši Ì.DUB.MEŠ SA5.MEŠ SÙ
+29. [BE ]KI.TA KARKÚR A.DAM.MEŠ -ia TÙM -ma KÁ.GAL i-ri-ḫa
+30. [BE] AN.TA KAR A.DAM.MEŠ KÚR DAB-bat-ma NAM.RA KÚR TI -ma KÁ.GAL -šu
+⸢i?⸣-[r]i-ḫa-šu
+31. [BE ]KI.TA KARZI.GA lúḪAL
+32. [BE] AN.TA KAR ZI.GA lúḪAL šá KUR KÚR ana lúḪAL šá KUR KÚR NIGIN-tu
+____________________________________________________________________________________________GAR-[an]
+33. [BE ]KI.TA KARḫa-rab eš-re-ti na-kám-mat LUGAL SÙ.M [EŠ ]
+34. [BE] AN.TA KAR [ ] x LUGALil bi ⸢nu⸣ LUGAL BA.ÚŠ -ma a-na IM.4 gur
+____________________________________________________________________________________________[ ]
+_____________________________________________________________________________________MAN___
+35. [BE ] x KI.⸢GUB⸣ [ ]⸢AN.TA⸣ KAR ⸢ KUR⸣- ti ŠU KÚR ÉRIN KÚR ḪA.LA GU7
+36. [Š]U.NI[GIN] 76! MU.⸢ MEŠ ⸣AL.⸢ TIL⸣ IGI.KÁR GABA.RI LIBIR.RA-šu
+37. ⸢ŠU IUb-ri DUMU⸣ dUTU-ŠEŠ -SUM-na GAL ḪAL.MEŠ

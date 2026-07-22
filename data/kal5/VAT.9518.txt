@@ -1,0 +1,59 @@
+---
+genre: extispicy omens
+period: Early Middle Babylonian
+provenance: Assur
+counting: line
+publication: Heeßel 2012, KAL 5 no. 83 (VAT 9518 (+) A 468 (Kopi)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.470 on 304 tokens.
+---
+@obverse
+1. [BE UDU ] i+na ṭe4-ḫe-ka iṣ-ri-it ša-ra-at zu-um-ri-šu iz-zi-iz [ ] x
+2. SÍSKUR LÚ DINGIR im-ḫu-ur
+3. [BE UDU GEŠTU.ME]Š-šu tar-ṣa i+na-šu pa-ar-da ša-ra-at zu-⸢um⸣-ri-šu iz!-za-az-za
+4. si-ba-sú ú-na-ra-aṭ uš-še-er UDU du-uk KÚR
+5. [BE UDU i]š-tu kar-bu im-me-a is-si GEŠTU -šu ú-na-ra-aṭ !(Text: ba) uš-še-er UDU du-uk KÚR
+6. [BE UDU] ⸢ i⸣+na IGI-šu ša GÙB i-ba-ki GEŠTU -šu ša ZAG GÙB ú-ma-ḫa-aṣ uš-še-er UDU du-uk KÚR
+7. [BE UD]U da-mu-šu ki-ma il-lu-ri sa-a-mu NUN giš GU.ZA-šu ú-la-bar
+8. a-na gišTUKUL ŠÀ UDU la tu-ba-a uš-še-er UDU du-uk KÚR
+9. [BE U]DU li-ša-an-šu GÙB ú-na-ša-ak ù da-mu-šu ki-ma il-lu-ri sa-a-mu
+10. uš-še-er UDU du-uk KÚR
+11. [BE] UDU i+na ka-ra-bi-ka GEŠTU.MEŠ -šu tar-ṣa DINGIR i+na-ṭa-al
+12. [B]E UDU a-na SISKUR GEŠTU ZAG GÙB im-ḫa-aṣ giš TUKUL ia x x [x x] x x
+13. [BE U]DU a-na SISKUR GEŠTU.MEŠ a-na pa-ni SISKUR tar-ṣa ÉRIN[ ]
+14. [BE UDU a-n]a ⸢SISKUR GEŠTU.MEŠ a⸣-[ n]a ⸢EGIR⸣ ? x x [ ]
+(Lücke von höchstens einer Zeile, dann setzt A 468 ein:)
+15’. [BE UDU a-n]a SISKUR ⸢GEŠTU.MEŠ ⸣ x x [ ]
+16’. [BE U]DU IGI.MEŠ -šu ú-za-qá-pa GEŠTU.M [E]Š x x [ ]
+17’. a-na ÉRINx [ ]
+18’. BE UDU i+na SISKUR is-si [ ]
+19’. BE UDU i+na ka-ra-bi-ka is-si [ ]
+20’. BE UDU i+na SISKUR ša-ra-at ZAG-⸢šu⸣ i+na [ ]
+21’. ⸢a⸣-na i maš šar ? x[ ]
+22’. BE UDU i+na SISKUR ša-ra-at GÙB -šu i+na na x x [ ]
+23’. BE UDU ka-bu-su id-di be x [ ]
+24’. BE UDU i+na SISKUR re-ši-šu iš-ši-ma iš-pu-uk da? [ ]
+25’. pad x [ ]
+26’. BE UDU re-ši-šu iš-ši-ma pa-ra-su ú-ta-t [u-uk ]
+27’. gišTUKUL [ ]
+28’. BE UDU re-ši-šu iš-ši-ma da-ma ú-ta-t [u-uk ]
+29’. [B]E UDU iṣ-ṣa-ri-it [x] ri x ⸢ti⸣ [ ]
+30’. [BE] UDU i+na SISKUR ú-ṣa-ra-a [t ] x x [ ]
+@reverse
+1. [BE UDU iṣ]-ṣa-ri-it x [ ]
+2-9 Nur wenige Zeichen erhalten
+10. [BE UDU] ⸢ a-na SISKUR i⸣ x x pa i+na-ar-ru-uṭ iš-t [a- ]
+11. ù si-ba-sú ZAG ù !GÙB ú-ma-ḫa-aṣ [ ]
+12. BE UDU ḫi-píka-li-su i-né-ṭe 4-er [ ]
+13. BE UDU ḫi-pí x-šu is-si ri x[ ]
+14. [BE U]DU a-na S[ISKU]R iš-ta-na-as-si ri [ ]
+15. [BE UDU] a-na SISKUR iš-ta-na-as-si ù x [ ]
+16. [BE UDU] ⸢ a⸣-na SISKUR i+na x [x] x x [ ]
+(Lücke von höchstens einer Zeile, dann setzt VAT 9518 ein:)
+17’. Spuren
+18’. [BE UDU] iš-⸢tu⸣ na-⸢ak-su⸣ 2-šu ⸢3-šu ⸣ [ ]
+19’. [o] te-re-tu-ka ša-al-ma [ ]
+20’. [BE UDU] ⸢ iš⸣-tu ZAG a-na GÙB it-ta-ba-⸢ lak-ka-at te⸣ [ ]
+21’. __________________________________________________________________________________________[o] te-er-ta-ka la-ap-ta-atUZU-⸢šu⸣(-)[(nu)]
+22’. [BE UDU K]UN-sú 3-šu it-ru-uk i+na ŠÀ UDU kàr-šum ZAG ⸢ta-ri-ik⸣
+23’. [o] 40 ⸢MU⸣ .BI

@@ -1,7 +1,7 @@
 ---
 genre: diagnostic omens
 period: Neo Babylonian
-provenance: K.2723 (+ K.3812 + K.4051 + K.7282 + K.10592 + K.10602 + K.12131 + K.13842 + K.16825 + K.19432) (Schmidtchen 2021 Tafel 4, ms A)
+provenance: Nineveh (Kuyunjik); K.2723 (+ K.3812 + K.4051 + K.7282 + K.10592 + K.10602 + K.12131 + K.13842 + K.16825 + K.19432) (Schmidtchen 2021 Tafel 4, ms A)
 recension: canonical Sakikkû Tablet 4, manuscript A (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 4

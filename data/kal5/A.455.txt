@@ -1,0 +1,35 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 93 (A 455)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.425 on 106 tokens.
+---
+@obverse
+1. [ t]i-bu-ut ÉRIN NUN a-na KALAM lú KÚR
+2. [ t]i?-bu-ut ÉRIN lú KÚR a-na KALAM-ka
+3. [ U]RUki lúKÚR -ka u4-ma-am te-še-ri-dam
+4. [ ] URUki-ka lúKÚR u4-ma-am ú-še-ri-dam
+5. [ ] ÉRIN-ka i+na KALAM lú KÚR NAM.RA ú-še-ṣi-a-am
+6. [ ÉRINl]ú KÚR i+na ŠÀ KALAM-ia NAM.RA ú-še-ṣi
+7. [ g]a-ba-ra-ḫu a-na ÉRIN-ni-ia i-ma-qú-ut
+8. [ ga]-⸢ ba⸣ -ra-ḫu a-na ÉRIN lú KÚR i-ma-qú-ut
+9. [ S]ÙḪ ÉRIN-ia
+10. [ S]ÙḪ ÉRINlú KÚR
+11. [ na-a]n-mu-ur-tum
+12. [ ] ⸢di⸣ a-na u4-um ša ? nim i [x x] x
+13. [ ] x i-ra-aš-ši za qu
+14. [ ] x x ⸢ki ? ir ru⸣
+15. [ ] x x ṭu
+@reverse
+1’. [ ] x x x x x x ki iš x x
+2’. [ ] ás-suk ra? a si ir šu lúKÚR ? x ir
+3’. [ a]m mu
+4’. [ ] x ù ḫa-da-ni-iš
+5’. [ ] duḫ? i du ma
+6’. [ ] x x zi-ma⸢ki-ṣi⸣-irŠÀ DINGIR-lim a-na LÚ pa-ṭe-er
+7’. [ ] ⸢a⸣ NUN a-naÉ NA nu-KÚR ú-še-ri-ib
+8’. [ ] x MUR a-ḫi-a-tu4

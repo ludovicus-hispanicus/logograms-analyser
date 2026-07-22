@@ -1,0 +1,39 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 89 (VAT 10439)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.744 on 133 tokens.
+---
+@obverse
+1’. Spuren
+2’. [ ] x-di-šuŠUB-diGIG TI.LA
+3’. [ KÁ.GA ]L ⸢2 DU8⸣ NUN ṣu-mi-ra-ti-šu KUR-ad GIG BA.ÚŠ
+4’. [ KÁ.G ]AL ù sip-pí GÙB KÁ.GAL 2 TA.ÀM DU8.DU8 téš-mu-ú ki-nu i+na KUR ⸢ GÁL -ši⸣ [(x x x)]
+5’. [ KÁ.G ]AL 3 DU8 ni-ip-ḫuÉRIN KÚR KASKAL ŠÀ.MUD DU-ak
+6’. [ KÁ.GA ]L 3 DU8 ni-ip-ḫuÉRIN-ni KASKAL ŠÀ.MUD DU-ak
+7’. [ KÁ.GA ]L ù sip-pí GÙB KÁ.GAL 3 TA.ÀM DU8.DU8 téš-mu-ú NU ki-nu ⸢i+na KUR⸣ GÁL -ši ⸢GIG⸣
+[TI.LA]
+Nr. 89 281
+8’. [ ] KAR KÚR i+na ŠÀ KUR NAM.RA È -[a]
+9’. [ ] KAR i+na ŠÀ KUR KÚR NAM.RA È -a
+10’. [ ] ZAG GÙB KAR a-na gišTUKUL KAR-ut ÉRIN KÚR GIG BA.ÚŠ
+11’. [ ] GÙB ZAG KAR a-na gišTUKUL KAR-ut ÉRIN-ni GIG TI.LA
+12’. [ ] kam SIG-ed NIN-ti a-ra-ri-im
+13’. [ ] ⸢GIB⸣ IZI i+na É LÚ MÚ -aḫ
+14’. Nur Spuren erhalten
+@reverse
+1’. [ ] x ⸢ta⸣ x x x ⸢ta nu igi šu⸣
+2’. [ mim-m]a ⸢ma⸣ -la ta-ak-pu-du KI DINGIR KUR-ad
+3’. [ ] x aa-naSIG5-ti
+4’. [ ] xa-naḪUL-ti
+5’. [ GIG] TI.LA
+6’. [ GIG] BA.ÚŠ
+7’. [ ] IGI-mar
+8’. [ ] NU IGI-mar
+9’. [ N]U GAR-an
+10’. [ nu]ndum?man
+11’. [ ] x

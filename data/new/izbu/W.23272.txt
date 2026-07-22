@@ -1,7 +1,7 @@
 ---
 genre: izbu omens
 period: Late Babylonian
-provenance: unknown
+provenance: Uruk (Warka; W.23272)
 publication: eBL fragment W.23272; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
 canonical_tablet: Uruk compendium (Achaemenid; SBTU 3 90; spans human Tablets 1-2+)
 counting: line

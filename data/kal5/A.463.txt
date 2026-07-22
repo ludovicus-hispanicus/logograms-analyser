@@ -1,0 +1,29 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 85 (A 463)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.815 on 173 tokens.
+---
+@obverse
+1’. [BE SAG UDU A KUD-su ] x x x x x [ ]
+2’. [BE SAG UDU A KUD]-⸢ su ap-pa-šu ⸣ ÍL.ÍL ḫi pi zag x [ ]
+3’. [BE SAG UDU] ⸢A⸣ KUD-su ap-pa-šu ú-na-ap-pa-aḫ U[4.MEŠ NUN GÍD.DA.MEŠ ]
+4’. [BE SAG UDU] A KUD-su ina NUNDUM-šu il-ta-na-ap-pi-it U[5 ANŠE ZÁḪ ( … )]
+5’. [BE SAG UDU] A KUD-su NUNDUM-su AN.TA ana ZAG iš-šu-uk U[5 ANŠE ZÁḪ ( … )]
+6’. [BE SAG UDU] A KUD-su NUNDUM-su AN.TA ana GÙB iš-šu-uk AD.Ḫ [AL? ]
+7’. [BE SAG UDU] A KUD-su NUNDUM-su AN.TA iš-šu-uk pa x [ ]
+8’. [BE SAG UD]U A KUD-su NUNDUM-su KI.TA iš-šu-uk pa x [ ]
+9’. [BE SA]G UDU A KUD-su NUNDUM.MEŠ -šú ú-tar-ra-aṣ uz-[zi DINGIR ana LÚ ]
+10’. BE SAG UDU A KUD-su NUNDUM.MEŠ -šú iš-ta-na- ⸢aš-ši DINGIR⸣ [ana LÚ ŠÚR -iz]
+11’. BE SAG UDU A KUD-su NUNDUM.MEŠ -šú iš-ta-na-da-ad INIM [MUNUS.SIG TE5-a]
+12’. BE SAG UDU A KUD-su NUNDUM.MEŠ -šú i-lam-ma-am DINGIR G[U7 ( … )]
+13’. BE SAG UDU A KUD-su NUNDUM x NUNDUM x x [ ]
+14’. BE SAG UDU A KUD-su ⸢NUNDUM-su⸣ ?ZAG GÙB su KUR-k[a? ]
+15’. BE SAG UDU A KUD-su NUNDUM-su GÙB ZAG su [ ]
+16’. [BE SAG UDU A KUD-su] NUNDUM x x [ ]
+17’. [BE SAG UDU A] ⸢KUD-su⸣ NUNDUM x [ ]
+18’. [ ] x x [ ]

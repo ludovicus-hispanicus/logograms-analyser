@@ -1,0 +1,302 @@
+---
+exclude: true   # COMPARANDUM — 1st-millennium prayer, kept out of the omen LDI (cross-genre comparison only)
+genre: prayer
+period: Neo-Assyrian
+provenance: Nineveh (Kuyunjik)
+counting: line
+series: Great Prayer to Nabû
+publication: eBL corpus L/3/5 (Great Prayer to Nabû), manuscript K.2361
+edition: electronic Babylonian Library (ebl.lmu.de), Great Prayer to Nabû SB, manuscript K.2361 — sign-transliteration read off the chapter score
+note: >
+  Monolingual Akkadian first-millennium prayer, scored only for the cross-genre LDI
+  comparison against the omen corpus. Logograms uppercase, syllabic lowercase, {}
+  determinatives, [] restoration, x illegible; eBL '&' column separators removed.
+---
+
+@text
+1. [be?-lu₄? x x x x x]   sa-bi-[ʾu x x (x)]
+2. [x x x x x x x]   nap-šur-k[a x x]
+$ single ruling
+3. [{d}AG? x x x x x]   sa-bi-ʾu# [x x (x)]
+4. [x x x x x x x   n]ap-šur-ka [x x]
+$ single ruling
+5. [be?-lu₄? x x (x) šud-lu]-pa   ki-ma [x x x]
+6. [x x x x x x x x (x)]-u₂#   sa-hir [šer₃?-ti?]
+$ single ruling
+7. [{d}AG? x x (x) šu]d?-lu-pa   ki-ma [x x x]
+8. [x x x x x x x x (x)]-u₂#   sa-hir# šer₃?#-ti?#
+$ single ruling
+9. [be?-lu₄? x x x x uz-za]-ka   nir-ka na-ad-ri
+10. [x x x x he₂]-gal₂#-la   ta-na-aš-šar hi-iṣ-bu
+$ single ruling
+11. [{d}AG u₂?-šum?-gal?-l]u uz-za-ka   nir-ka na-ad-ri
+12. [x x x x h]e₂-gal₂-la   ta-na-aš-šar hi-iṣ-bi
+$ single ruling
+13. [x x x x] x-mu-uk   la pa-du-uk gir-ri
+14. [x x x x x (x)] DINGIR#.DINGIR   ta-bar-ri an-šar₂
+$ single ruling
+15. [{d}AG? x x x x] x-mu-uk#   la pa-du-uk gir#-ri
+16. [x x x x x (x) DIN]GIR.DINGIR   ta-bar-ri an-šar₂
+$ single ruling
+17. [be?-lu₄? x x a-ma]-ru-uk   ur#-pa-tu₄ ne₂-kel#-mu-uk
+18. [x x x (x)] i#-ša₂-ri   [t]u-ka-ni iš-di-šu₂
+$ single ruling
+19. [{d}AG? x x x x x x   ur]-pa#-tu₄# ne₂-kel-mu-uk
+20. [x x x x x x (x)   tu]-ka#-ni iš-di-šu₂
+$ single ruling
+21. [be?-lu₄? x x x (x)   e-de-e]d-ka ri-i-bi
+22. [x x x x x x (x)   ša₂ qin-n]u tam-hu
+$ single ruling
+23. [{d}AG? x x x (x)]   e-de-ed-ka ri#-i-bi
+24. [x x x x x x (x)]   ša₂ qin-nu tam-hu#
+$ single ruling
+25. [be?-lu₄? x x x x   h]u-hu-um ša₂-ma-mi
+26. [x x x x x x x x x   k]a-mir iš#-[di]-hu#
+$ single ruling
+27. [{d}AG? x x] x-ka#   hu#-hu-um ša₂-ma-mi
+28. [x x x x k]i-ma# paṭ qin-ni   ka#-mir iš-di-hu
+$ single ruling
+29. [be?-lu₄? r]eš-ti-i   nu-uh# a-na sur-ri
+30. [bu?]-nu#-ka lip-ša₂-ha#   ri#-ši ti-ra-a-ni
+$ single ruling
+31. [{d}]AG# reš-ti-i   nu-uh a-na sur-ri
+32. [bu?-nu?]-ka lip-ša₂-ha   ri-ši ti-ra-a-ni
+$ single ruling
+33. b[e]-lu₄# pal-ku-u₂   muk#-kal-li e-še-eš-tu₄
+34. rap-ša₂# uz-ni   a#-ši-ši šu-ka-a-mu
+$ single ruling
+35. {d}AG pal#-ku-u₂   muk#-kal-li e-še-eš-tu₄
+36. rap-ša₂ uz#-ni#   a-ši#-ši šu-ka-a-mu
+$ single ruling
+37. be-lu₄ šal-ba-ba ta-as-sa#-bu#-us   UGU IR₃-ka
+38. ṣe-riš it-tab-šu-u₂   im#-ṭu-u₂ ta-ne₂-hu
+$ single ruling
+39. {d}AG šal-ba-ba ta-as-sa-bu-us   UGU IR₃#-ka#
+40. ṣe-riš it-tab-šu-u₂   im-ṭu-u₂ ta#-[ne₂-hu]
+$ single ruling
+41. ina gi-piš e-de-e na-di-ma   a-gu-u₂ e-liš it-ta[k-kip]
+42. kib-ri ru-uq-šu₂   ne₂-si-iš na-ba-l[u]
+$ single ruling
+43. ib-li ina qe₂-e šib-qi₂   a-na pa-ra-ʾ-a le-e-m[u]
+44. it#-ta-til ina na-ri-iṭ-ṭu   ka-li ina ru-šum-du
+$ single ruling
+45. a#-hu-uz ŠU-MIN-su   la im-me-es-su IR₃-k[a]
+46. šu#-ut-bi šer₃-tuš   šu-liš i-na na-ri-iṭ-ṭ[u]
+$ single ruling
+47. {d#}AG a-hu-uz ŠU-MIN-su   la im-me-es-su IR₃-k[a]
+48. šu#-ut-bi šer₃-tuš   šu-liš ina na-ri-i[ṭ-ṭu]
+$ single ruling
+49. [k]i-ma le-e ša₂ ina nap-la-qu pal-qu   i-ram#-mu#-um ši-i[g-miš]
+50. [i]na pi#-i# le#-ʾ-u₂ da-ab-ru na-di-ma u₂-gan-na-a[n? x x x]
+#note: The expression @i{ina pī lē’î} is obscure, von Soden (@bib{RN685@64}) suggests it might be some sort of demon. The verbal form occurring after the caesura is tentatively restored, and other verbs are also possible, such as, for example, the rare verb @i{genû}, “to thrust”  (@i{CAD} G 60; @i{AHw} 284). 
+$ single ruling
+$ end of column
+51. ki-tu#/li# x x [x x x x x x x] x [x x x]
+52. na-si-ka-ku lu-ub-ba-bil lu#-u[p?-pa?-ṭir?]
+$ single ruling
+53. ki-i na-ak-mi šu-ṣu-u₂ lu-šer₃ a#-[hi?-ta?]
+54. ki-i tal-tal-ti lut-tag-giš i-na k[a-ma-a-ti]
+$ single ruling
+55. an-nam mi-na-a a-mu-u₂ i-zi-za [UGU?-ia?]
+56. id-da-a a-šu-uš-tu₄ ni-is-sa-t[u₄ x x x]
+$ single ruling
+57. be-lu₄ at-ta-ma tam-bi [x x]
+58. qi₂-bi-tuk-ka ša₃-sur-ra ga/u₂-[x x x]
+$ single ruling
+59. {d}AG at-ta-ma tam-bi [x x]
+60. qi₂-bi-tuk-ka ša₃-sur-ra [x x x x]
+$ single ruling
+61. i-na an-nam a-bi x [x x x x (x)]
+62. an-nam AD-MEŠ-šu₂ a[n?-x x x x (x x)]
+$ single ruling
+63. ul# i-na#-[x x x x x x x x x]
+64. i-ša₂-bi i-ta#-x [x x x x x x]
+$ single ruling
+65. i-la a-bi-i# ka-a-ti mar-ṣi iš-tam#-mar#
+66. gi-na-a mas-da#-ri iš-ta-ra-niš i-qal#
+$ single ruling
+67. ti-le-e₂-a#-um be#-lu₄# in-ni-ti pa-ṭar?#
+68. ti-me₂-e-šu₂ gil₂#-la-t[i la] ṭa#-ab-tu₂ ti#?-gi?#
+$ single ruling
+69. ti-le#-e₂#-a#-u[m {d}AG in-n]i-ti pa-ṭar?#
+70. ti-m[e₂-e-šu₂ gil₂-la-ti la ṭa]-ab#-tu₂ ti#?-[gi?]
+$ single ruling
+71. i-na x [x x x x x x x]-ku?# pa-x [x]
+72. i-na [x x x x x x] ri#-bi ma-na#-a#-ma#? [x (x)]
+$ single ruling
+73. a?#-n[a? x x i]m-ku-u₂ me-e-šu₂ a-ra#-[an-šu₂?]
+74. [x x x x] i#-še-ṭu₄ uk-kiš hi-ip?# Š[A₃?-šu₂]
+$ single ruling
+75. [e-la k]a-a-ti be-lu₄ ul ib-ba-aš₂-ši# [x x x]
+76. [x (x) b]a-lu-uk# in#-ni-ti gil₂-la-ti# [x x x x]
+$ single ruling
+77. [e-la k]a-a-ti {d}AG ul ib-ba-aš₂#-[ši x x x]
+78. [ina ba-l]u-uk in-ni-ti gil₂-la-t[i x x x x]
+$ single ruling
+79. [tu?-še?]-ṣa?-ma IR₃-ka ta-as-sa-kip# [x x x (x)]
+80. [x x r]it?-ti-ka ta-at-ta-di du#-u[š?-ma?-ka?]
+$ single ruling
+81. [a?-šam?]-ša₂#-niš hal-lu-la-a-a DINGIR lem-ni ta#-x [x x x x]
+82. [x x-tu]l?# la-ga#-mi du-tuš ta-bar-ri?# x [x x x x]
+$ single ruling
+83. [x x-u]š? uš-ha-ri-ir i-laq#-qe₂# x [x x x x (x)]
+84. [x x] i#-ta-šar ig-da#-mar# [x x x x (x)]
+$ single ruling
+85. [x x]-u₂?#/lul?#-šu₂ ir-ra-qu kab-ta?#-ta?# [x x x x (x x)]
+86. [x x x it?-t]a-kir-šu ih-ši-ih?# x [x x (x)]
+$ single ruling
+87. [(x) x x] x ig-ga-mir x x [x x]
+88. [x x x]-x ip#-pa-ṭir x x [x x]
+$ single ruling
+$ end of column
+89. ši-in-šu₂ i[p?-[x (x)] x x pa-ri-im# a-a-ba?# (x)
+90. mut-qu p[u-u]l-hu-šu₂ ik-ta-bit# UGU#-nu#-šu₂#
+$ single ruling
+91. i-da-at l[um-n]u šur₂-du-u₂ u₂-šab-ra-ar₂-šu₂?# pu#-t[u?]
+#note: Or @akk{u₂-šab-ra ub-bu#-x}.
+92. a#-di ma-t[i k]a?-la šat-ti gi-na-a lu-x-(x) šum#-šu₂?#
+#note: Perhaps @akk{lu-riš#}, “let me rejoice (on account of) his name.”
+$ single ruling
+93. [lud]-lul# be-l[u₄] na-al-ba-bu-uk e-ze#-zu#
+94. [li-te-l]i? r[a-š]ub-ba-tuk a-na AN-e ah-ra#-t[aš]
+$ single ruling
+95. [x x {d}+A]G na-al-ba-bu-uk e-ze#-z[u]
+96. [x x x ra-š]ub-ba-tuk a#-na# AN-e ah-ra-[taš]
+$ single ruling
+97. [x ki?-im?-t]i-ia e-pir za-ka-a e-pir is-qu-q[u]
+98. [x x] x ab-be₂-e-a ki-šub-bu-ša₂ bi-lat kas₃-p[u]
+$ single ruling
+99. [x x x] ku-nu-uk-ka sa-an-tak ki-na-a-ti ša mu šu₂ lu#-kin# i?#-x (x)
+100. [x x] lu-ma-ʾi-i-ru lu-pi-ra da-a-a-n[u?]
+$ single ruling
+101. [x x] x-ni hu-up-šu₂ za-ma-ni u₂-šam-q[at?]
+102. [x x] x-ni ul i-ne₂-ʾi-i i-na-as-sa-hu šah#-šah*#-[(hi)]
+$ single ruling
+103. [x x]-ram?#-ma?# ki-i la lib₃-bi DINGIR im-nu-u₂#
+104. [x x x (x)-s]u? bit-re-e u₂-nam-ga-ru kar-ṣ[i-(šu₂)]
+$ single ruling
+105. [x x x i]š?-pik-ke-e-a ša₂-ru-ti ṭa-pul?#-ti#
+106. [x x x x x-p]il im-hu-uṣ °\ša₂° ša₂-x x x
+$ single ruling
+107. [x x x x x x (x)]-a#-ša₂ šu-bat nu-uh-ši#
+108. [x x x x x x x-u]ṣ ṣi-in-du#
+$ single ruling
+109. [x x x x x x x x x (x)] x KI#.2.KAM@v šu-bat la-l[e?-e?]
+110. [x x x x x x x x x x x (x)]-u₂ x [(x)]
+$ 3 lines broken
+111. x [x x x x x x x x x x x (x x)]
+$ single ruling
+112. li-x-[x x x x x x x x x x (x x)]
+113. kin-gal-lu ti?#-[x x x x x x x (x x)]
+$ single ruling
+114. uṣ-ṣi-iṣ-ma AN.ZA.[GAR₃? x x x x x x (x x)] | ($___$) ul x-[...]
+115. {d}am-na ina bi-r[i x x x x x x x (x x)]
+$ single ruling
+116. za-qi-qu ina šat mu#-[ši x x x x x x (x)]
+117. zu-un-zu-na [x x x x x x x x (x x)]
+$ single ruling
+118. {d}nin-gun₃-nu a-x [x x x x x x (x x)]
+#note: Ningunnu is one of the names of Inanna/Ištar, also attested in several god lists, see @i{RlA} 9, 376-377.
+119. a#-na im-mu u mu-š[u₂ x x x x x x x (x x)]
+$ single ruling
+120. a-na ka-ša₂-du me-x [x x x x x x x x (x x)]
+121. i-na bu-ul {d}Š[AKAN? x x x x x x x x (x x)]
+$ single ruling
+122. du-uš-mu-u₂-šu₂ i#-[x x x x x x x x (x x)]
+123. ab-du-u₂-šu₂ ip-pa[l x x x x x x x x (x x)]
+$ single ruling
+124. ih-ti-dam-m[a x x x x x x (x x x)]
+125. na-an-gul lib₃-ba#-[šu₂ x x x x x x (x x x)]
+$ single ruling
+126. uṣ-ṣar-ri-ip ka-[bat?-ta?-šu? x x x x x (x)]
+127. di-ma-šu₂ ik-ta-[li? x x x x x x x x (x)]
+$ single ruling
+128. ma-ṣi be-li₂ x [x x x x x x x (x x)]
+129. a-hu-lap!(KID) ti-me[š x x x x x x x x (x x)]
+#note: The emendation is based on the fact that @i{maṣi}, in an absolute sense (“it is enough!”, s. @i{AHw} 622 sub @i{maṣû} G 7) is a close synonym of @i{aḫulap}.
+$ single ruling
+130. tu-ša₂-ma za-ma-nu-u₂# [x x x x x x x (x)]
+131. u₃ mu-de-e al-k[a-ka-ti x x x x x x x (x)]
+$ single ruling
+132. a-bar-ša₂ e₂-z[i-da x x x x x x x x (x)]
+133. rag-ga la i?#-[ša₂?-ra? x x x x x x x x (x)]
+$ single ruling
+134. el im-[(x)] x [x x x x x x x x (x)]
+135. min₃-su x [(x)] x (x) [x x x x x x x x (x)]
+$ single ruling
+136. ša₂ rag-gi u x [x x x x x x x x (x)]
+137. [š]u?#-ut# lum-n[u x x x x x x x x (x)]
+$ single ruling
+138. [x x] x [x x x x x x x x (x)]
+$ rest of column broken
+139. pu-ṭur qu-un-nab-ra-šu hi-pi il-lu-u[r-taš?]
+140. a-na da-na-na i-ri-a-ti ba-šim du-u₂#-[ru]
+$ single ruling
+141. a-na kal ma-tu₄ um-ma-tu₄# u₂-šah-{+la}la₂-a ma-ni-t[u₄]
+142. še-e-ru re-ṣu-ti-ia šur-šu₂-ru hi-in-zur-ru
+$ line continues
+143. meṣ-he-ri ši-di#-[tu₂?] | ($___$) mar-tu₂ ma-r[i?]
+$ single ruling
+144. ah-ra-taš pi-is-nu-qiš lal₃-la-riš u₂-da-aš₂-š[ap]
+145. a-la-mit-tu₄ u₂-he-en-ša₂ da-da-riš ma-a-[ar]
+146. ar-ka ta-ad-mi₃-iq-ša₂ da-mi₃-iq pe-er-ʾu nu-h[aš₂?]
+$ single ruling
+147. ŠE-am i-na li-gi-mi₃-šu₂ i-ma-ar-ha an-na-t[u? x]
+148. i-kuš-šu i-na ra-bi-šu₂-ma bil-ti u₂#-[tar?]
+$ single ruling
+149. mu-u₂-ṣu ša₂ lib₃-bi u₂-ru-la-ti-šu₂ ik-kib DINGIR-MEŠ ka-la-ma ana UN-MEŠ x [x]
+150. a-šar ek-let nam-rat še-zu-zu ta-a-a#-[ar]
+$ single ruling
+151. ma-ru aš₂-ru sa-an-qa a-ha-mu za-ra-šu₂ i-ka[r-rab]
+152. ma-ru la aš₂-ru la DIM₄ a-di e-ni-šu₂ ir-ra-ar₂ b[a?-ni?-šu₂?]
+$ single ruling
+153. ta-sa-niq IR₃-ka nap-pa-šu šu-u[p?-te?]
+154. i-di let-ka suh-hi-ra ki-ša[d-ka]
+$ single ruling
+155. {d}AG ta-sa-niq IR₃-ka nap-pa-šu   šu-u[p?-te?]
+156. i-di let-ka   suh-hi-ra   ki-[šad-ka]
+$ single ruling
+157. ul-li e-ne₂-es-su la#-mas#-su l[i-ir-ši]
+158. qi₂-bi-tuk-ka SIG₅-MEŠ x [x] x x [x]
+$ 8 lines broken
+159. [...]
+$ single ruling
+160. [x x x x x (x) l]i-pu-uš ga-nu-un-šu₂#
+161. [x x x x x] li-pu-uš si-ma-ak-šu₂
+$ single ruling
+162. [x x x šu?-u]s?-si lip-pa-ṭir zu-mur-šu₂
+163. [x x x x x li]m-mir ni-ṭil-šin
+$ single ruling
+164. [x x x x x li]t-tar-ri-ṣu e-li-šu₂
+165. [x x x x x na]k-ru-uṭ ri-ši-šu₂ ti-ra-nu
+$ single ruling
+166. [x x] bu#-nu#-ka# ZALAG₂-MEŠ lit-tar-ri-ṣu e-li-šu₂
+167. [re]-e?#-mi₃ IR₃-ka nak-ru-uṭ ri-ši-šu₂ ti-ra-nu
+$ single ruling
+168. [hal?-q]a?-a-tu₄ A.ŠA₃-MEŠ li-tu-ra a#-nu#-miš₂#
+169. [x x (x)]-a-ti GIŠ.ŠUB.BA-MEŠ li-ku-na a-na ša₂-a-šu
+$ single ruling
+170. [x š]i-in-gi u₃ ṣu-ṣe-e liš-te-šer at-man-šu
+171. [x x x (x)] er-be₂-e lim-mer nu-par-šu
+$ single ruling
+172. [a-hu]-uz ŠU-su liš-tam-mar DINGIR-ut-ka
+173. [x x (x)] da-ad-mu liš-te-pa₂-a nar-bi-ka
+$ single ruling
+174. [x x] a#-hu-uz ŠU-su   liš-tam-mar DINGIR-ut-ka#
+175. [x x (x)] da#-ad-mu   liš-te-pa₂-a nar-bi-ka#
+$ single ruling
+176. [le-q]e₂ da-ma-ṣu ba-la-ṣu u₃ ut-nen-šu₂
+177. [x x qi?]-ša₂-a-ti at-nu-uš li-kun tes₂-lit-su
+$ single ruling
+178. [{d}i-g]i-gu gim-rat-su-nu li-hu-zu a-bu-us-su
+179. [{d}la]h₃-mu iṣ-rat-su-nu liq-bu-u₂ SIG₅-šu₂
+$ single ruling
+180. [x x i-n]a? DINGIR#-MEŠ šur-bu-u₂ nar-bu-ka
+181. [x x x (x) t]a-nit-ta-ka u₂-šar-ri-ha ana ṣa-a-ti
+$ single ruling
+182. [x x x x DINGIR-ME]Š šur-bu-u₂ nar-bu-ka
+183. [x x x (x) ta-ni]t-ta-ka u₂-šar-ri-ha ana ṣa-a-ti
+$ single ruling
+184. [x x x x x x x (x)] x x lil?#-lip-ka
+185. [x x x x x x x x x x x (x) liš?-ta]m-mar#
+$ about 2-6 lines broken

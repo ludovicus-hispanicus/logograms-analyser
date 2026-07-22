@@ -1,0 +1,42 @@
+---
+genre: izbu omens
+period: Middle Assyrian
+provenance: Aššur (archive N1; Ass 2974a, findspot hE4II, Hof 6m östl. Cella)
+counting: line
+topic: šumma izbu aḫû — animal-birth ("extraneous") omens, animal section
+publication: VAT 9908 = KAL 1 no. 47 (Heeßel 2007, Keilschrifttexte aus Assur literarischen Inhalts 1), Kopie S. 186-187
+canonical_parallel: K 3669 (CT 27/50) Rs. 3'-12', K 3966 (CT 28/3-4) Vs. 20 - Rs. 11, K 1750 (unpubl.) Rs. 2'-10'
+source_note: >
+  Middle Assyrian tablet carrying terrestrial omina (obverse, too fragmentary to
+  score — omitted here) and 'šumma izbu aḫû' animal omens (reverse, scored). Read
+  off Heeßel's KAL 1 edition (no. 47). Half-brackets (damaged-but-legible) rendered
+  as '#'; [ ] = restoration/break; x = illegible; {} = determinative. Notably
+  logographic: Gilgameš = {d}BÌL.GA.MES, GÉME = amūtu "omen" (K 8639 parallel).
+note: >
+  The ONLY Middle Assyrian izbu witness presently known, and badly preserved
+  (obverse lost, reverse a broken list of animal omens: goat, deer, horse, donkey,
+  ox, lion, pig, turtle, wild-cow, raven, zebu, frog, fish, snake, bear). Scored for
+  documentation; a single fragmentary tablet does not support a robust Middle-period
+  Assyrian-Babylonian comparison.
+---
+
+@reverse
+1. DIŠ# MIN DÀRA GAR# [...]
+2. DIŠ MIN a-lim GAR x [...]
+3. [DIŠ] MIN ANŠE.KUR.RA GAR GÉME {d}B[ÌL.GA.MES ...]
+4. DIŠ MIN ANŠE GAR me-er-eš-t[i ...]
+5. DIŠ MIN GU₄ GAR LUGAL ÚŠ LUGAL KÚR-m[a ZI-ma KUR-su BIR-aḫ]
+6. DIŠ MIN UR.MAḪ GAR LUGAL dan-nu i-te#-[...]
+7. [DIŠ MIN Š]AḪ GAR {giš}TUKUL LUGAL i-ma-q[u-tu]
+8. [DIŠ MIN] BA#.AL.GIM{ku6} GAR SU.GU₇ ša NU ZU x# [...]
+9. [DIŠ MIN SÚ]N GAR GÉME {d}BÌL.G[A.MES ...]
+10. [DIŠ MIN x] GAR [...]
+11. [DIŠ MIN x] GAR [...]
+12. DIŠ# MIN# x GAR [...]
+13. DIŠ MIN ÁB.ZA.ZA GAR [...]
+14. DIŠ MIN UGA{mušen} GAR [...]
+15. DIŠ MIN BÍL.ZA.ZA [GAR ...]
+16. DIŠ MIN KU₆ [...]
+17. DIŠ MIN MUŠ [...]
+18. [DIŠ MI]N a-su [...]
+19. [...] x [...]

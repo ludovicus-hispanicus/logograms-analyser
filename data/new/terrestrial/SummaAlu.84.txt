@@ -3,7 +3,7 @@ genre: terrestrial omens
 period: Neo-Assyrian
 provenance: first-millennium canonical Šumma Ālu (Nineveh/Assur/Uruk etc.); 16 manuscripts
 publication: eBL corpus D/2/6 chapter SB 84 = canonical Šumma Ālu Tablet 84 (Project Ālu Geneva). Composite (reconstruction) read off the chapter score.
-counting: DIŠ
+counting: line
 topic: sleep/bed omens (≈ Middle VAT.10526/VAT.11154; Nr.31/33)
 source_note: eBL composite text. '#tr.en:' = eBL translation; '//' and '#note:' = parallels/notes (commented out); '# var:' = a second variant. Logograms uppercase, {} determinatives, [] restoration.
 note: Neo canonical counterpart for the topic-controlled MB→Neo terrestrial comparison.

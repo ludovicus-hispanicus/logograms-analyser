@@ -1,0 +1,25 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 91 (VAT 14321)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.629 on 70 tokens.
+---
+@obverse
+1’. [ IG]I-⸢ma⸣ i+na ⸢d⸣UTU.⸢ ŠÚ.A ⸣ x [ ]
+2’. [ ] ⸢dUTU.ŠÚ.A⸣IGI-mai+na dUTU.È ŠUB x [ ]
+3’. [ UR]U.ZAG-ia KÚR KUR-ad ÉRIN-ni i+na DUGUD?-[šá ŠUB -ut]
+4’. [ ] x sap-pa-na-tu4 ina KUR x [ ]
+5’. [ ] x nu-⸢ ul⸣ -la-tu4 ina KUR G[ÁL -ši]
+6’. [ ] x nu-ul-la-tu4 ina KUR GÁ [L-ši ]
+7’. [ ] x NU DÙG.GA UZU ina KUR GÁL -[ši]
+8’. [ ] x NU DÙG.GA UZU i+na KUR i-ba-ši
+9’. [ ] NU DÙG.GA UZU ina KUR GÁL -š[i]
+10’. [ ] ⸢dan-na⸣ -tu4 ina KUR DU8-⸢ at⸣
+11’. [ ] ina KUR ZI.GA GAR-an
+12’. [ ] ⸢GIG⸣ .MEŠ ina KUR GÁL.MEŠ
+13’. [ ] x x ⸢ ina KUR GÁL -ši⸣
+14’. [ ] x.⸢MEŠ ⸣ [ ]

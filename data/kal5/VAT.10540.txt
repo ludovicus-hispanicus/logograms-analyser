@@ -1,0 +1,66 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 67 (VAT 10540 + VAT 10893 (K)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.751 on 325 tokens.
+---
+@obverse
+1. [ ] 3?ŠU.[S]Iši-i[t-ḫu KI NÍG.GIG TAG]
+2. [1 KUŠ 6 Š]U.SI NIGIN-ti BÀ bu-di BÀ ši-[zu-ú DAL BÀ 14 ŠU.SI ]
+3. [bi-rit ZAG] ⸢ ia⸣- um-ma GÙB ⸢šá⸣ ⸢KÚR ⸣
+4. [ZI.M]EŠ 3 ina GÙB DU8.MEŠ 3 ina GÙB GE6.MEŠ 3 ina GÙB Z[I.MEŠ ]
+5. [Z]I.MEŠ su-ḫu-ru-tu 3 ina GÙB GAR-nu GÍR 3-ma ina ZAG [ ]
+6. [G]ÍR nu-kur GÍR ka-bi-is5 GÍR AN.TA PA Š[UB-di]
+7. [MU]RUB4 NÍG.TAB GÍR BAR-ma DU8 UGU-nu ME.NI BAR-ma DU8 IGI-e[t SAG ZÉ BAR-ma DU8]
+8. [K]I DAL.⸢ BA⸣ .NA BAR-ma DU8 SAG BÀ BAR-ma DU8 SAG ŠU.SI [BAR-ma DU8]
+9. [S]AG ŠU.SI MUR MURUB4 BAR-ma ⸢ DU8⸣ an-nu-⸢tu⸣ I[ZI?.GAR.MEŠ ]
+10. [MURUB]4 KI.⸢GUB DU8 MURUB4 GÍR ⸣DU[8 ]
+11. [ZÉ] SUḪUŠ -šá ZAG ù GÙB ZI-ḫa⸢ ZI-iḫ⸣ ZÉ ZA[G ù GÙB DU8-at]
+Nr. 67 219
+12. [BAD4 MU]R? ZAG ù GÙB DU8-at ŠU. ⸢SI MUR MURUB4⸣ ZAG ù G[ÙB DU8-at]
+13. [SAL.LA] MUR ZAG ù GÙB DU8 Ì ⸢ŠÀ ⸣ ZAG ⸢ù ⸣GÙB G[E6-ik]
+14. [kar-š ]u? ZAG ù GÙB TAG-⸢ it⸣GAG.ZAG.GA ZAG ù [GÙB na-pár-qud]
+15. [GAG.T]I ⸢šá ZAG⸣ ù GÙB 1 TA.ÀM ZÁḪ.MEŠ DUḪ. [UŠ ?.MEŠ ]
+16. [u IZI?.GAR?.M]EŠ ma-la ina uzuUR5-ka ba-šu-ú [GAR.MEŠ ]
+17. [ina uzuUR]5-ka SILIM-ti 1 UZU ina ŠÀ an-nu-ti ŠU [B-ku uzuUR5 BI NU SILIM-at]
+18. [ina uzuUR5]-ka NU SILIM-ti 1 UZU ina ŠÀ an-nu-ti ŠUB -ku [uzuUR5 BI SILIM-at]
+19. [ina uzuUR5]-⸢ ka⸣ bal-la-ti 1 UZU ina ŠÀ an-nu-ti ŠUB -k[u uzuUR5 BI NU SILIM-at]
+20. [ina uzuUR5-ka š ]á SIG5.MEŠ -⸢šá⸣ ḪÁ ḪUL.MEŠ -šá ⸢i⸣-ṣ[u?]
+21. [1 UZU ina ŠÀ a]n-nu-ti ŠUB -⸢ku⸣ uzu⸢ UR5⸣ ši-[iNU SILIM-at]
+22. [ina uzuUR5-ka š ]á ḪUL.MEŠ -šá ḪÁ ⸢SIG5!⸣ .MEŠ -šá [i-ṣu]
+23. [1 UZU ina ŠÀ an-n]u-ti ŠUB -⸢ku⸣ uzuUR5 ši-[i SILIM-at]
+24. [ ] x 1SILIM-atx [ ]
+25. [ ] x 1 NU SILIM-at x [ ]
+26. [ ] x ù pi x [ ]
+27. [ ] x x an x [ ]
+28. [ ] x [ ]
+@reverse
+I (III) 1’ [ ] MEŠ [ ]
+2’. [ DU]8-er [ ]
+3’. [ D]U8-er [ ]
+4’. [ ] x KI.TAIGIùka x [ ]
+5’. [ ] x x [ ]
+6’. [ ] x [ ]
+7’. [ D]U8-at x [ ]
+8’. [ ] DU8-at [ ]
+9’. [ ] DU8-er [ ]
+10’. [BE x ŠÀ.NIGI ]N [ ]
+11’. [BE x ŠÀ.NIG ]IN [ ]
+12’. [BE x ŠÀ.NI ]GIN [ ]
+13’. [ ] šá ru ru [ ]
+14’. [BE ŠÀ.NIGIN ina] ⸢ ŠID ⸣-šu-nu nàr-pa-šá-a ub-lu-ni x [ ]
+15’. [BE ŠÀ.NIGIN ] IM ⸢SA5⸣ x [ ]
+16’. [BE EME U]DU TÉŠ.B [I na]-ši-ik x [ ]
+17’. [BE IGI-e]t SIG ZÉ DU8-er [ ]
+18’. [ ] BAL-ut [ ]
+19’. [BE ANŠE MUR Z]AG KAR-im [ ]
+20’. [BE ANŠE M]UR ZAG KUD-is [ ]
+21’. [BE BA]D4 MUR ZAG DU8-⸢ at⸣ [ ]
+22’. [BE] ⸢ SAG⸣ ŠU.SI MUR ⸢ MURUB4⸣ BAR-ma ⸢ DU8⸣ -er [ ]
+23’. [BE GÍ ]R GÙB ZÉ ina SUR EŠ ⸢BAL⸣ -ut [ ]
+24’. [ ] ni [ ]
+25’. Spuren

@@ -1,0 +1,84 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 42 (VAT 9969)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.771 on 490 tokens.
+---
+@obverse
+1. Zeile vollständig weggebrochen
+2-10 Zu fragmentarisch für eine Umschrift
+11. [ ] MU.NI
+12. [ ]
+12a [ ]
+13. [ ]x
+14. [ K]ÚR
+15. [ ]x
+16. [ ]a-dak
+17. [ ]DAB-bat
+18. [ tam-ṭ]a-a-tu4
+19. [ ]kal
+1. [BE gišTUKUL BI] AN.TA IGI gišTUKUL ⸢ SÚḪ ⸣ šá KÚR uruBA[D]4 KÚR [DAB-bat]
+2. BE gišTUKUL BI šu-bat ZAG GÍR ! IGI ZI-bu [kaš-du ]
+3. BE gišTUKUL BI KA DÙG.GA IGI ZI-ut ÉRIN-ia ana KU[R] ⸢KÚR ⸣
+4. 10 BE ina ŠÀ ZAG GÍR ù GÙB GÍR !2 gišTUKUL.MEŠ GAR-nu-ma IGI.IGI-lu4 ḫa-rab eš-re-ti
+5. BE UGU-nu KA DÙG.GA gišTUKUL GAR-ma KI.TA IGI LÚ UGU EN INIM-šu GUB-az
+6. BE gišTUKUL BI SUḪUŠ KI.GUB IGI KÚR ana gišIG KÁ.GAL -ia5 IZI ŠUB -ma ana ŠÀ URU KU4-ba
+7. BE gišTUKUL BI ŠÀ ME.NI IGI KU4 KUR ana É.GAL KU4-ub u-lu NUN É.ḪÁ ÌR.MEŠ -šu UŠ -di
+8. BE gišTUKUL BI ŠÀ KA DÙG.GA IGI EN KÚR -ka a-na! SILIM-mi KIN-ku
+9. šum 4-ma URU KÚR ù ÉRIN-šu ina KA DÙG.GA DAB-bat
+10. BE gišTUKUL BI bi-rit KI.GUB u GÍR IGI šá EME ina ŠÀ ÉRIN-ia DU.MEŠ -ak
+11. BE UGU-nu KA DÙG.GA ù šu-bat ZAG ME.NI 2 gišTUKUL.MEŠ GAR-nu-ma IGI.IGI-lu4
+12. ZAG KÚR NU DIB-iq GUB-iz-ma ši-bu DIB-ka URU KI URU SILA KI SILA
+13. __________________________________________________________________________________________É KI É KÚR-irŠEŠ ŠEŠi-dak
+14. BE ina ŠÀ ME.NI gišTUKUL GAR-ma KI.TA IGI GU4.UD-iṭUR.MAḪ KU4-eb DUMU KIN
+15. BE gišTUKUL BI ME.NI IGI EN KÚR -ka ana SILIM-mi KIN-ku
+16. BE gišTUKUL BI KI.GUB IGI ⸢ KÚR ⸣ ana gišIG KÁ.GAL -ia5 IZI ŠUB -di
+17. 10 BE gišTUKUL BI KI.TA IGI ana IGI-šu ⸢iš-ta ⸣-ru-ur IDIM AD.ḪAL EN-šu TI-qé-ma ina-bit
+18. BE ina KI KAL giš TUKUL GAR-ma MAN IGI gišTUKUL dan-nu
+19. BE gišTUKUL BI AN.TA IGI URU ZAG-ka MAS.SÙ -a ÍL -ku
+20. BE gišTUKUL BI ZÉ IGI LUGAL!(Text: LÚ) ina É.GAL-šu SIG5-iq
+21. BE gišTUKUL BI KA DÙG.GA IGI a-ṣi né-ra-a-ri
+22. BE ina KI MAN gišTUKUL GAR-ma KI.TA IGI MI DINGIR! ⸢da⸣ -a-ru-ú UGU LÚ GÁL -ši
+23. [B]E gišTUKUL BI AN.TA IGI BAL-ut ḫúp-ši ana NUN
+24. [BE] gišTUKUL BI KA DÙG.GA IGI gišTUKUL za-bíl-ti
+25. [BE gišTUK]UL BI ana ŠÀ ME.NI IGI šá ki-di a-na ŠÀ URU KU4-ub
+26. [BE UGU-nu] ME.NI gišTUKUL GAR-ma ME.NI IGI gišTUKUL tuš-ši gišTUKUL ṭi-ip-ligiš TUKUL ḪUL lìb-bi
+27. [10 BE gišTUKUL BI A]N.TA IGI EN KÚR -ka ana SILIM-mi KIN-ku
+28. [BE gišTUKUL BI Z]AG IGI giš TUKUL SÚḪ LÚ dÁLAD -šu TAG4-šu
+29. [BE gišTUKUL BI GÙ ]B IGI giš TUKUL ḪI.GAR -ti šá KÚR
+30. [BE AN.TA-nu ME.NI giš TUKUL GAR-ma KI.TA] IGI gišTUKUL mu-še-ṣu na-a-ra-ri
+31. [BE gišTUKUL BI AN.TA IGI] LUGAL É.GAL LUGAL GABA.RI-šu UŠ -di
+32. [BE gišTUKUL BI ME.NI IGI K]ÚR IGI KÁ.GAL -ia5 DAB-bat
+33. [BE gišTUKUL BI ZÉ IGI K]ÚR gišTUKUL.MEŠ -šu tu-šat-bak-šu
+34. [BE ina sip-pí 15 ME.NI giš TUKUL GAR-ma KI ZI.G]A SAG IGI gišTUKUL mu-še-ṣu-ú ÉRIN.TÁḪ
+35. [BE gišTUKUL BI iš-ta-ru-ur KÚR ÉR]IN.TÁḪ i-dak
+36. [BE gišTUKUL BI KÚR ILLAT.M]EŠ -ia5 i-dak
+37. [10 BE gišTUKUL BI ILLAT.MEŠ KÚR ] a-dak
+38. [BE gišTUKUL BI KÚR GAZ-an-ni-ma ina kuš na-d]a-⸢ ti⸣-ia5 A.ME[Š] ⸢NAG⸣
+@reverse
+I __________________________________________________________________________________________
+1’. [ ] BAL-at
+2’. [ i-zi-im]-ti ŠÀ -šu KUR-ad
+3’. [ ] ši
+4’. [ ] È-a
+5’. [ ] anaKUR-ia5
+6’. [ ] anaKUR KÚR
+7’. [ ] ⸢ub⸣
+8’. [ ] BA.ÚŠ
+9’. [ M]EŠ -ku
+10’. [ KU]R-ia5
+11’. [ KUR K]ÚR
+12’. [ ] ri is
+13’. [ ]-ad
+14’. [ ] x du
+15’. [ ] x KÚR GAZ
+16’. [ ] x ta
+17’. [ ] KUR-ad
+18’. [ ] x ZI-ibKÚR KUR-ad
+19’. [ ] ⸢bu⸣ su ḫu ru
+20’. [ ] NIGIN-ra
+21’. [ ] NIGIN-ur

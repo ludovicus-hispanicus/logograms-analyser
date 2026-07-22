@@ -6,11 +6,73 @@ provenance: Assur
 counting: line
 topic: lung
 publication: VAT 9580 = KAR 444; Heeßel 2012 KAL 5 no. 78 (pp. 250-253); Koch 2005, 518-521; quoted in De Zorzi 2021, WdO 51/2
-feature: orientation tablet (liver obverse, lung reverse); parallel to CTN 4 60 (imēr ḫašî)
+feature: orientation tablet (liver obverse, lung reverse); parallel to K.2858 (imēr ḫašî)
 note: snippet — only the imēr ḫašî (Saw-horse) labels of the lung reverse, after De Zorzi 2021; eBL has no transliteration yet; full edition Heeßel 2012 no. 78. 15/150 normalized to ZAG/GUB₃
 ---
 
-1. ANŠE MUR ša₂ ZAG ka-lu-šu₂-ma ZAG
-#tr.en: The Saw-horse of the right lung is totally right.
-2. ANŠE MUR ša₂ GUB₃ ka-lu-šu₂-ma GUB₃
-#tr.en: The Saw-horse of the left lung is totally left.
+@Obverse
+$right field
+1. DU₈# [(x x)] k[a ...] ana L[U ...]
+2. š[a ...]
+3. x [...]
+E₄-šu-x [...]
+D[U₈] ZI [...] ⸢nu⸣ x [...]
+DU₈ x [...]
+D[U₈? ⸢ana⸣ [(x x)] LÚ
+
+$central circles
+1. TÙR 15 15
+2. TÙR 150 150
+
+$central vertical / diagonal band (running down the middle)
+1. tal# 15 u 150 k[i?]
+2. DU₈ NUN MU ša-la-ti ana# MUNUS ḪUŠ?-iz?
+3. DU₈ KÚR ina KI-šú te-de-ki-šú
+4. Í[D BA] KI BAR-m[a KI]
+5. KI ḪA.LA 150 15
+
+$left vertical / diagonal band (running down the middle)
+1. [... 1]50
+2. [... Z]É
+3. [...] 15
+4. SIG KIMIN 15
+5. SIG KIMIN SIG ZÉ
+6. SIG KIMIN 150
+7. KIMIN SUR DIN ZÉ SUR ZÉ BAR-[ma x ]
+
+$left field
+1. DU₈ DAL.BA.NA / BAR-ma KI
+2. DU₈ ḫa-tu ana ÉRIN₂-ia ŠUB-ut
+3. DU₈ ZI.GA {lú}ḪAL
+4. DU₈ nam za/ḫa x [...]
+5. [...]-tu₄
+6. [.. n]a-tu₄
+
+$bottom field
+1. 150 ÍD BÀ 15
+2. [x t]i? tum [x x] DU₈
+
+@reverse
+$upper left
+1. nar-pa-áš MUR ša 15 15
+2. ka-ra-áš SAL.LA MUR ša 15 15
+3. ANŠE MUR ša₂ ZAG ka-lu-šu₂-ma ZAG
+#tr.en: The donkey of the right lung is totally right.
+4. ANŠE MUR ša₂ GUB₃ ka-lu-šu₂-ma GUB₃
+#tr.en: The donkey of the left lung is totally left.
+
+$Lower left (vertical lines)
+1. [nar-pa-áš MUR ša 150 1]50
+2. [ka-ra-áš S]AL.LA [MUR ša 150] 150
+
+$Right edge (curved band, running along the margin)
+1. [i]š-tu kit-tab-ri MUR šá 15 EN [...]
+
+$Right edge (small boxed entries, top to bottom)
+1. 15?# [15]
+2. na-kap MU[R] šá 15 15
+3. SIG₄-ti MUR šá 15 15
+4. ka-ap!-p[i] MUR š[á] [15 15]
+
+
+

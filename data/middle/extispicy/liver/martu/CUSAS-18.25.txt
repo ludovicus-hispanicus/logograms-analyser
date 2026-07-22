@@ -1,7 +1,8 @@
 ---
 genre: extispicy omens
 period: Early Middle Babylonian
-provenance: unknown
+provenance: Sealand (First Sealand Dynasty)
+publication: George 2013, CUSAS 18 no. 25
 tradition: Babylonian
 counting: DIŠ
 ---

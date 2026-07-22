@@ -1,0 +1,18 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 94 (VAT 9468)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.448 on 29 tokens.
+---
+@obverse
+1’. [ ] ka [ ]
+2’. [ DU]8? dIŠKUR [ ]
+3’. [ ] x šu ru p[u ]
+4’. [ É]RIN-ni [ ]
+5’. [ ] d⸢IŠKUR⸣ [ ]
+Bemerkungen:
+2’-5’ Die Zeichenreste lassen sich aufgrund der Erwähnung des Gottes Adad und des Heeres mit einiger Sicherheit als Apodosen

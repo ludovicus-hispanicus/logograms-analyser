@@ -1,0 +1,52 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 84 (VAT 9488)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.620 on 313 tokens.
+---
+@obverse
+Vs.! __________________________________________________________________________________________
+1’. [ ] x šuBÀ-utman sum MAN šá ki-ma kur-ṣi-i [b-ti ]
+2’. [ ] x.MEŠBÀ-ut E-pír-ti-an-ki MAN x [ ]
+3’. [ ]-ma inaIZI.GAR dIš8-tárdUTU ip-pu-ḫa-á[š-šu ]
+4’. [ ] MÁŠ ZÁḪ-atGIG ÚŠ [ ]
+5’. [ ] IGI KI.TUŠ GÙB GÍR GAR-at ù ina GÙB MUR x [ ]
+6’. [ MU]R SILIM-at šu-us-ḫur KARAŠ la-sa-am MAN! šum 4-ma [ ]
+7’. [ ] x-nuBÙR.MEŠ ŠUB.MEŠ ina ZAG MUR GÌR ina GÙB MUR DU8 uš šar [ ]
+8’. [ B]AL-ma EDIN ŠU.SI MURUB4 IGI gišTUKUL-ka in[a ]
+9’. [x] x BAL-ma ŠUB GU.ZA IGI LÚ ana INIM MUNUS.[SIG5? ]
+10’. [BE ina] PIŠ 10 ÍD BÀ UZU ul-lu-ṣu GAR-in ana giš MÁ ? x [ ]
+11’. [BE ina] PIŠ 10 ÍD BÀ UZU ki-ma giš GAG GUB-iz dIŠKUR A.A[B.BA RA-iṣ ]
+12’. BE um-mat ŠÀ.NIGIN 5-ma TA lìb-bi SAG.UŠ 4 gišTUKUL.MEŠ È.MEŠ -ma x [ ]
+13’. GÌR ÉRIN-ka KI DINGIR šu-šu-rat ur-ḫu ù GÍR šu-te-šur-ku šum 4-m[a? ]
+14’. LUGAL.MEŠ šú-nu ina ši-ga-ri TI-a šá-níš BÀ -ut Am-me-lu-an-na MAN [ ]
+15’. [BE] MUD gišTUKUL DÙ -ma É.GAL ŠÀ.NIGIN ú-maš-šìd ù di gal ina ZAG ŠÀ. [NIGIN ]
+16’. [URU.DI]DLI-šu DAB-bat BÀD.DIDLI -šu ta-na-qar ana giš TUKUL ŠUB -t[i? ]
+17’. [x x x] ki BAD.BAD-šu SÌG -aṣ DINGIR.MEŠ -šu ta-šal-lal [ ]
+18’. [ ] x SIG AL.TEKI.TA-nu ki ⸢ 15!⸣ an ana Á ÍD [BÀ ]
+19’. Nur Spuren erhalten
+Nr. 84 265
+Rs.! 1’ Nur Spuren erhalten
+2’. TA SUḪUŠ KUN EN SIG KU[N ]
+3’. TA __________________________________________________________________________________________na-aṣ-pa-di ù i+na ⸢šá⸣ x [ ]
+4’. UZU.MEŠ__________________________________________________________________________________________ša i+na ṭup-pi la-ašaṭ-ru-ma ina pi-i UM.M[E.A ]
+5’. [BE ina] BÀ KI.GUB 9 BÀ-utI.dBIL4.GA.ME[Sšarru dannu ša māḫira lā āšû ]
+6’. [BE ina] BÀ KI.GUB SAG-su ù MURUB4.MEŠ -šú pa-áš-ṭa-ma SUḪUŠ -su KI.[TA IGI BÀ -ut I.dBIL4.GA.MES]
+7’. __________________________________________________________________________________________[šak]i-ma Zi-sud-ra TI.LAiš-te-ú-maKASKALZi-sud-r[a illiku]
+8’. [BE (x)] SILIM TA SIG ZÉGÍD -ud-ma SUḪUŠ -su ana gišTUKUL GUR-ma KI.TA I[GI ]
+9’. [BE x ina S]AG ZÉis-ḫurKI.MIN MAN KALA.GA šá gišTIR [gišEREN KUD-su-ma ]
+10’. [BE 2-ta Z]É.MEŠ SUR-ši-na 1-ma A.MEŠ -ši-<na> SUM.SUM-na KI.MIN MAN [KALA.GA ]
+11’. [BE 2-ta ZÉ].MEŠ SAG.UŠ GÍD.DA -ma A.MEŠ -ši-na i-ḫi-qaK[I.MIN ]
+12’. [ S]AG.UŠ UGU-ši-na U5-at ù A.MEŠ -[ši-na SUM.SUM-na ]
+13’. __________________________________________________________________________________________[ ]-iLUGAL.MEŠ-ni a-ši-bu-ut BÁRA.MEŠŠ[U-su KUR-du]
+14’. [BE x 2-ma mitḫā ]-riš eṣ-ru 1 ina ZAG 1 ina GÙB GAR-in [ ]
+15’. [ G]ÙB BAR-ma DU8 ù ina SAG ZÉ ZAG ù GÙ [B ]
+16’. [ ] x kab-su qí-bít-ka NU sa-an-q[á-at ]
+17’. [ erištu kāma p]ir-ḫeŠUB -at ù SA5-at EN SISKUR en x [ ]
+18’. [ -i]d BAD.BAD KÚR GAZ SAG.DU.MEŠ x [ ]
+19’. [ G]Ú.UN ŠU -ka KUR šá x [ ]
+20’. Nur Spuren erhalten

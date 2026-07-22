@@ -7,6 +7,12 @@ import pandas as pd
 LOGOGRAM_PARTICLES = {'DIŠ', 'BAD', 'BE', 'UD', 'AŠ'}
 IGNORE_TOKENS = {'x', '($___$)', '.', '..', '...'}
 
+# Number-logograms: bare numerals that ARE logographic writings of a word —
+# 15 = ZAG "right", 150 = GUB₃ "left", 30 = Sîn (the moon-god). Written as plain
+# digits they otherwise fall through to "other" and get dropped; here they are
+# counted as logograms (cf. the {d}30 god-number already handled in annotate).
+NUMBER_LOGOGRAMS = {'15', '150', '30'}
+
 # Function words written with a SINGLE sign (a monogram), not a phonetic spelling:
 # the preposition ina (sign AŠ) and ana (sign ana). They are transliterated in
 # lowercase, so by default they count as phonetic/syllabic — but as one-sign,
@@ -48,6 +54,7 @@ PERIOD_ORDER = ["Old Period", "Middle Period", "Neo Period"]
 
 def get_token_type(token):
     if token in LOGOGRAM_PARTICLES: return "logogram"
+    if token.rstrip('?!') in NUMBER_LOGOGRAMS: return "logogram"  # 15/150/30 (right/left/Sîn)
     if any(c.isupper() for c in token): return "logogram"
     if any(c.islower() for c in token): return "phonetic"
     return "other"
@@ -260,11 +267,12 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     if line.startswith('@'): current_section = line.strip('@').title(); continue
                     if line.startswith('$') or line.startswith('#'): continue
                     temp = line.replace('[', '').replace(']', '')
-                    rgx = r'^(?:\d+\'?\.\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
+                    # Line number may be plain (12.) or eBL relative (a+1., a+41.).
+                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?\.\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
                     # A line opening with a language shift (e.g. "%sux DIŠ ...", or a
                     # Sumerian colophon "%sux mu ...") always begins a new omen, so
                     # Sumerian lines are not folded into the preceding Akkadian omen.
-                    body_after_num = re.sub(r"^\d+'?\.\s*", '', temp).lstrip()
+                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?\.\s*", '', temp).lstrip()
                     if re.match(rgx, temp) or body_after_num.startswith('%'):
                         if cur['lines']:
                             md = metadata.copy(); md['section'] = cur['section']
@@ -289,8 +297,29 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
     return all_anns
 
 
+def _drop_contentless(frame):
+    """Drop 'content-less' omens before pooling an LDI: omens whose only surviving
+    scorable token is the omen particle (DIŠ/AŠ/BE/…) with everything else broken
+    or lost (e.g. '[DIŠ ...] x#', or a bare '[...]'). A lone DIŠ is not evidence of
+    logographic writing, so the whole omen is excluded from every metric (it still
+    counts as an omen). Signal = any phonetic token, or any non-particle logogram.
+    Mirrors app.py._drop_contentless so the batch script and the app agree."""
+    if len(frame) == 0 or 'omen_id' not in frame.columns:
+        return frame
+    is_signal = frame['type'].isin(['logogram', 'phonetic']) & (
+        (frame['type'] == 'phonetic') | ~frame['token'].isin(LOGOGRAM_PARTICLES))
+    keys = [frame['filename'], frame['omen_id']] if 'filename' in frame.columns else [frame['omen_id']]
+    return frame[is_signal.groupby(keys).transform('any')]
+
+
 def ldi(sub, exclude_particles=False, monogram_as_log=False):
-    sub = sub[sub['type'] != 'other']
+    # Count only logogram/phonetic tokens. Determinatives (unpronounced
+    # classifiers such as {mul}, {d}, {ki}) are excluded from the denominator,
+    # matching the graded metrics (graded_ldi) and app.py's word-level bin, so
+    # the whole project uses ONE convention. Omen particles (DIŠ/AŠ/…) are
+    # logograms and are counted unless exclude_particles is set.
+    sub = sub[sub['type'].isin(['logogram', 'phonetic'])]
+    sub = _drop_contentless(sub)   # lone-DIŠ / all-broken omens carry no signal
     if exclude_particles:
         mask = (sub['token'].isin(LOGOGRAM_PARTICLES)) & (sub['type'] == 'logogram')
         sub = sub[~mask]
@@ -331,6 +360,7 @@ def graded_ldi(signs, exclude_particles=False, monogram_as_log=False):
     exclude_particles drops the omen-initial logogram particles (DIŠ/BE/…).
     """
     content = signs[signs['type'].isin(['logogram', 'phonetic'])]
+    content = _drop_contentless(content)   # lone-DIŠ / all-broken omens carry no signal
     if exclude_particles:
         mask = (content['token'].isin(LOGOGRAM_PARTICLES)) & (content['type'] == 'logogram')
         content = content[~mask]

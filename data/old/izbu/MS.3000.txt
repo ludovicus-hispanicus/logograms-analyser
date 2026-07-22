@@ -1,7 +1,8 @@
 ---
 genre: izbu omens
 period: Old Babylonian
-provenance: unknown
+provenance: Southern Mesopotamia (CUSAS 18 no. 12)
+publication: George 2013, CUSAS 18 no. 12 = MS 3000
 counting: DIŠ
 ---
 $ obverse

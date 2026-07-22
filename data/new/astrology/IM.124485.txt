@@ -11,45 +11,45 @@ note: Sign-transliteration reconstructed from Al-Rawi & George's normalization(S
 
 @obverse
 1. [DIŠ ina {iti}]DU₆ UD.14.KAM AN.MI GAR-ma DINGIR ina KAN₅-šu A {im}MAR AN.TA KAN₅-ma
-2. A {im}U₁₈.LU KI.TA iz-ku {im}SI.SA₂ EN.NUN.MURUB₄.BA im-šul-ma
+2. A₂ {im}U₁₈.LU KI.TA iz-ku {im}SI.SA₂ EN.NUN.MURUB₄.BA im-šul-ma
 3. e-li ma-ša-lim ZI-ma EN ZALAG GIN MUL ina [ŠU.NIR] SI ZAG-šu TE-ma
 4. i-gir-ma ina SI GÙB-šu GIN KAN₅-šu IGI-ma {im}SI.SA₂ ina ŠU.MIN-ka tu-kal
 5. ina ŠÀ {uru}mu-ta-bal EŠ.BAR SUM {uru}mu-ta-bal a-šab-ša qur-ru-ub {d}EN.LÍL
-6. KUR uk-tin a-šab-ša ina UKKIN DINGIR-MEŠ GAL-MEŠ iq-ta-bi DUMU LUGAL ša {uru}mu-ta-bal
-7. ana LUGAL-ut {uru}mu-ta-bal DÙ-šu MU-šu iz-za-kar DUMU LUGAL ša {uru}bár-sipa{ki}
+6. KUR uk-tin DUR₂-ša ina UKKIN DINGIR-MEŠ GAL-MEŠ iq-ta-bi DUMU LUGAL ša {uru}mu-ta-bal
+7. ana LUGAL-ut {uru}mu-ta-bal DÙ-šu MU-šu iz-za-kar DUMU LUGAL ša BAR₂.SIPA{ki}
 8. ú-šam-ri-ṣa ina {iti}BARA₂ UD.14.KAM {mul}nu-muš-da ina AN-e A {mul}ŠUDUN
 9. {mul}{d}AMAR.UTU TE-im-ma GI₆ ú-kal it-ta-šu {mul}nu-muš-da ana {mul}ŠUDUN
 10. ša-pil ana {mul}{d}AMAR.UTU ša-qu A GÙB {mul}nu-muš-da {(he-pi)}
-11. {mul}{d}AMAR.UTU MUL GUB-ma u ZALAG DÚR {uru}mu-ta-bal qur-ru-ub ŠUB {ka.dingir.ra}{ki}
+11. {mul}{d}AMAR.UTU MUL GUB-ma u ZALAG DÚR {uru}mu-ta-bal qur-ru-ub ŠUB KA₂.DINGR.RA{ki}
 12. qur-ru-ub {uru}mu-ta-bal HUL-tú DÙ{šú} ana URU ú-šam-ri-šu-šu {mul}nu-muš-da
-13. HUL-tú i-rab {uru}bar-si-pa še-ret-su {tin.tir}{ki} i-pa-as-sar ŠEŠ ana ŠEŠ
-14. KÚR KIN ina bi-ri-šu-nu dil-bat{ki} ŠUB{di} {uru}mu-ta-bal ŠUB{di}
-15. URU ZALAG-MEŠ na-mar URU-MEŠ qur-ru-ub DUMU LUGAL ša bar-si-pa ša-qu
-16. re-eš-su {nu}-MEŠ GUR-MEŠ uz-at-ba-ku-ma SUM ina KUR ul KUD-MEŠ GISKIM-šu EŠ.BAR-šu ša-tu₄
+13. HUL-tú i-rab {uru}bar-si₂-pa še-ret-su TIN.TIR{ki} i-pa-as-sar ŠEŠ ana ŠEŠ
+14. KÚR KIN ina bi-ri-šu-nu dil-bat{ki} ŠUB-di {uru}mu-ta-bal ŠUB-di
+15. URU ZALAG-MEŠ na-mar URU-MEŠ qur-ru-ub DUMU LUGAL ša bar-si₂-pa{ki} ša-qu
+16. re-eš-su NU-MEŠ GUR-MEŠ uz-at-ba-ku-ma SUM ina KUR ul KUD-MEŠ GISKIM-šu EŠ.BAR-šu ša-tu₄
 17. DIŠ ina {iti}APIN UD.14.KAM AN.MI GAR-ma DINGIR ina KAN₅-šu A {im}KUR.RA AN.TA
 18. KAN₅-ma A {im}MAR.DU KI.TA iz-ku {im}SI.SA₂ EN.NUN.MURUB₄.BA GIN-ma
 19. EN.NUN.U₄.ZAL.LE im-šul SI-MEŠ-šú ša-ma-mi nak-pa DINGIR ša ina KAN₅-šu
 20. SI-MEŠ-šú ša-ma-mi nak-pa KAN₅-šú IGI-ma {im}SI.SA₂ ina ŠU.MIN-ka tu-kal
-21. ina ŠÀ {nun}{ki} EŠ.BAR SUM {nun}{ki} GURUŠ-MEŠ-šú iš-gag-gi-šu BALA LUGAL KÚR
-22. URU ŠUB{di} LUGAL LAL-u LUGAL EN IM.RI.A-šu GAZ u DUMU LUGAL ZI-MEŠ-šú
+21. ina ŠÀ NUN{ki} EŠ.BAR SUM NUN{ki} GURUŠ-MEŠ-šú iš-gag-gi-šu BALA LUGAL KÚR
+22. URU ŠUB-di LUGAL LAL-u LUGAL EN IM.RI.A-šu GAZ u DUMU LUGAL ZI-MEŠ-šú
 23. KAR ina {iti}BARA₂ UD.14.KAM {mul}dili-pat ana ŠÀ {d}30 KU₄-ma ana ZAG-šú
-24. E-a ZAH KUR u UG-MEŠ-šú GÌR KÚR ina KUR KUD{aš}
+24. E-a ZAH KUR u UG-MEŠ-šú GÌR KÚR ina KUR KU-as
 25. DIŠ ina {iti}GAN UD.14.KAM AN.MI GAR-ma DINGIR ina KAN₅-šu A {im}SI.SA₂ AN.TA
 26. KAN₅-ma A {im}U₁₈.LU KI.TA iz-ku {im}MAR.DU EN.NUN.U₄.ZAL.LE
 27. im-šul SI ZAG-šu kap-ṣa-at DINGIR ša ina KAN₅-šu A {im}SI.SA₂ AN.TA
 28. KAN₅-ma A {im}U₁₈.LU KI.TA iz-ku-u u SI ZAG-šu kap-ṣa-at
-29. KAN₅-šú IGI-ma {im}MAR.DU ina ŠU.MIN-ka tu-kal ina ŠÀ {bàd.an}{ki}
-30. EŠ.BAR SUM{in} {bàd.an}{ki} a-šab-šú qur-ru-ub LUGAL {bàd.an}{ki} UG₇-ma
-31. KUR-su ul SIG₅ LUGAL URU ul ul-tab-bar dili-pat A {d}ni-ri EN.LÍL(50) MÚ-ma ina za-ra-an MURUB₄
+29. KAN₅-šú IGI-ma {im}MAR.DU ina ŠU.MIN-ka tu-kal ina ŠÀ BÀD.AN{ki}
+30. EŠ.BAR SUM-in BÀD.AN{ki} DÚR-šú qur-ru-ub LUGAL BÀD.AN{ki} UG₇-ma
+31. KUR-su ul SIG₅ LUGAL URU ul ul-tab-bar dili-pat A {d}ni-ri 50 MÚ-ma ina za-ra-an MURUB₄
 32. in-na-tal ina KAN₅-šu eli ma-ša-li GIN ki-a-am GISKIM-šu u EŠ.BAR-šú
 33. DIŠ ina {iti}AB UD.14.KAM AN.MI GAR-ma DINGIR ina KAN₅-šu A {im}KUR.RA AN.TA
 34. KAN₅-ma A {im}MAR.DU KI.TA iz-ku {im}MAR.DU EN.NUN.U₄.ZAL.[LE]
 35. ú-qat-ti SI-MEŠ-šú mit-ha-ra-ma 1-et la ik-bi-ir
 36. 1-et la iq-ti-in DINGIR ša ina KAN₅-šú SI-MEŠ-šú 1-et la ik-bi-[ru]
 37. 1-et la iq-ti-nu KAN₅-šú IGI-ma {im}MAR.DU ina ŠU.MIN-k[a tu-kal]
-38. ina ŠÀ SU.BIR₄{ki} gu.ti.um{ki} EŠ.BAR SUM SU.BIR₄{ki} u [gu-ti-um{ki}]
-39. KUR-MEŠ LÚ LÚ i-ra-sib UG-MEŠ ŠUB-MEŠ al-ma-n[a-tu]
-40. i-min-da LUGAL SU.BIR₄{ki} KUR KUR{ad} KUR i-sal-lal DINGIR [ša eli ma-ša-lim]
+38. ina ŠÀ SU.BIR₄{ki} gu-ti-um{ki} EŠ.BAR SUM SU.BIR₄{ki} u [gu-ti-um{ki}]
+39. KUR-MEŠ LÚ LÚ i-ra-sib UG₃-MEŠ ŠUB-MEŠ al-ma-n[a-tu]
+40. i-min-da LUGAL SU.BIR₄{ki} KUR KUR-ad KUR i-sal-lal DINGIR [ša eli ma-ša-lim]
 
 @reverse
 41. [GIN ki-a-am GISKIM]-šú [u EŠ.BAR-šú]
@@ -59,23 +59,23 @@ note: Sign-transliteration reconstructed from Al-Rawi & George's normalization(S
 45. nak-pa ŠU.NIR kal-la-[šú ul DUL-ma it-ba ina UD.28.KAM]
 46. IGI-ma AN.MI qur-ru-ub MÚ-[ma SA₅-ma AN.MI ú-kal-lam-ka]
 47. DINGIR ša ina [KAN₅]-šú IGI-ma TÚM KAN₅-šú IGI-ma [{im}SI.SA₂ ina ŠU.MIN-ka tu-kal]
-48. ina ŠÀ {ka.dingir.ra}{ki} pur[ussu(EŠ.BAR) SUM{in} {ka.dingir.ra}{ki} ZAH-šú]
-49. qur-ru-ub KUR BIR-tu sap[āḫ(BIR)-šá qur-ru-ub {d}EN.LÍL KUR ka-la-ša i-ru-ur]
+48. ina ŠÀ KA₂.DINGR.RA{ki} EŠ.[BAR SUM-in KA₂.DINGR.RA{ki} ZAH-šú]
+49. qur-ru-ub KUR BIR-tu B[IR-šá qur-ru-ub {d}EN.LÍL KUR ka-la-ša i-ru-ur]
 50. it-ta-za-ar LUGAL ša an-n[a-a iq-bu-šú UG-MEŠ-šú BIR-MEŠ]
 51. BALA-šú TIL ina UKKIN DINGIR-MEŠ [ZAH-šú qur-ru-ub]
-52. BALA {ka.dingir.ra}{ki} uri[m{ki} KAR ŠÚ {ka.dingir.ra}{ki}]
-53. urim{ki} TI{e} DINGIR [ša ina KAN₅-šú GI₆ is-su-hu ki-a-am GISKIM-šú u EŠ.BAR-šú]
-54. DIŠ ina {iti}ŠE UD.14.KAM AN.MI [GAR-ma] DINGIR ina KAN₅-šu [A {im}SI.SA₂] AN.TA
+52. BALA KA₂.DINGR.RA{ki} URI[M₂{ki} KAR ŠÚ KA₂.DINGR.RA{ki}]
+53. URUM₂{ki} TI-e DINGIR [ša ina KAN₅-šú GI₆ is-su-hu ki-a-am GISKIM-šú u EŠ.BAR-šú]
+54. DIŠ ina {iti}ŠE UD.14.KAM AN.MI [GAR-ma] DINGIR ina KAN₅-šu [A₂ {im}SI.SA₂] AN.TA
 55. KAN₅-ma A {im}KUR.RA KI.TA iz-ku {im}MAR[.DU {im}KUR].RA
 56. EN.NUN.U₄.ZAL.LE ú-qat-ti SI-MEŠ-šú ina MÚ-šú la [in-na-ta-l]a-ma
-57. ina GAL-šú IGI{e} KAN₅-šú IGI-ma {im}MAR {im}KUR.RA ina ŠU.MIN-k[a t]u-kal
-58. ina ŠÀ KUR MAR.DU EŠ.BAR SUM{in} KUR {im}MAR.DU TA re-š[i-šá inn]essi(SUH)
-59. DINGIR-MEŠ KUR na-az-ru na-de-e URU-MEŠ qur-ru-ub KUR m[āta(KUR) GU₇]
-60. URU-MEŠ HUL-MEŠ e-ma URU RA NUN GAR{an} {d}pap-sukkal KUR-[m]a
+57. ina GAL-šú IGI-e KAN₅-šú IGI-ma {im}MAR {im}KUR.RA ina ŠU.MIN-k[a t]u-kal
+58. ina ŠÀ KUR MAR.DU EŠ.BAR SUM{in} KUR {im}MAR.DU TA re-š[i-šá SU]H
+59. DINGIR-MEŠ KUR na-az-ru na-de-e URU-MEŠ qur-ru-ub KUR KU[R GU₇]
+60. URU-MEŠ HUL-MEŠ e-ma URU RA NUN GAR-an {d}pap-sukkal KUR-[m]a
 61. KI {d}UTU GUB ŠUB LÚ-ti MÁŠ.ANŠE [x (x) x]-MEŠ
 62. it-tan-gag KUR ia-a-ru-ur ah-rat UG-MEŠ UG₇-MEŠ
 63. DINGIR ina KAN₅ EN.NUN.U₄.ZAL.LE ú-gam-m[ir]
-64. DIŠ att[alû(AN.MI) ina(TA) x] ITI ina(TA) UD.7.KAM UD.14.KAM UD.21.KAM GAR NÍG.HA.L[AM].MA
+64. DIŠ AN.[MI TA x] ITI TA UD.7.KAM UD.14.KAM UD.21.KAM GAR NÍG.HA.L[AM].MA
 65. x x x x AN.MI-MEŠ ka-li-šu-nu x x x x x
 66. AN.MI AN.TA KAN₅-ma KI.TA iz-ku MUL-MEŠ EN.NUN-MEŠ
 67. AN.MI-MEŠ {d}30 ú-kal-lam-[k]a

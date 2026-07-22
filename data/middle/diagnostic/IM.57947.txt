@@ -1,7 +1,7 @@
 ---
 genre: diagnostic omens
 period: Middle Babylonian
-exclude: true
+exclude: false
 provenance: Nippur
 excavation: 2 N-T 336 — Oriental Institute / University Museum, Second Campaign (10/11/1949–06/04/1950)
 findspot: Scribal Quarter (Tablet Hill), area TA III/2, Locus 70 — a Neo-Babylonian stratum (632–538 BCE, per the dated-tablet list in OIP 78, 74–76), per the eBL team

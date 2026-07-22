@@ -1,0 +1,36 @@
+---
+genre: extispicy omens
+period: Middle Babylonian
+provenance: Assur
+tradition: Babylonian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 22 (VAT 10765)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.643 on 129 tokens.
+---
+@obverse
+1’. [ ] x [ ] x [ ]
+2’. [ ] NU[N ]
+3’. [ ] ša l[a-mat-su kussâ iṣabbat ]
+4’. [ 2] KÁ É.GAL GAR-ma IGI.IGI ZI-u[t LUGAL IM.GI]
+5’. [ ] a-na INIM [bēli mātu uššab ]
+6’. [ L]UGAL GABA.RI-ka LAL-ma NÍG.GA -šu IDIM a-na É.GA[L-ka tušerrib ]
+7’. [ ] LUGAL KUR l[a šuātu qāssu ikaššad ]
+8’. [ ] ka-ba?-sa?-tu4 i+na IGI K[Á.GAL ]
+9’. [ ] ZI-ut LUGAL IM.GI x [ ]
+10’. [ ] gišMÁ LUGAL a-gu-ú [uṭebba]
+11’. [ ] gišMÁ ZÌ.MUNU 4!-ia a-gu-⸢ ú ⸣ [uṭebba]
+12’. [ ] AD.ḪAL NUN ⸢ È ⸣-[ṣi]
+13’. [ ] x GAR ša gišTUKUL ÚR.RA ÍL a+na É.GA[L KU4.MEŠ ]
+14’. [ ]-ni LAL ŠÀ.TAM.MEŠ É.GAL i-ma[l-la-lu]
+15’. [ ] KÚR i+na IGI KÁ.GAL -ia KI.TUŠ ŠUB
+16’. [ ] LUGAL i+na ŠÀ É.GAL-šu a-pí-la NU TUK
+17’. [ ] ŠÀ.TAM.MEŠ É.GAL i-mal-la-lu
+18’. [ ] MU.MEŠ in-ba-ri ù na-áš-ši BURU14 SI.SÁ
+19’. [ ] DINGIR URU qí-bít KA nin a+na giš TUKUL ÉRIN-ni KAL-tu4 DAB
+20’. [ ] LUGAL a-a-bu-šu i-kám-mu-šu
+21’. [ ] KI.GUB DINGIR LÚ DINGIR LÚ KI LÚ ze-ni
+22’. [ ] SA5 GABA NUN KA mu-tál-la G[AR]
+23’. [ ] [x] x ⸢ dan⸣ -na-tu4 DAB [ ]
+24’. [ ] KÚR x [ ]
+25’. Spuren

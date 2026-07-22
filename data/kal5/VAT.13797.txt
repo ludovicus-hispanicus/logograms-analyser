@@ -1,0 +1,90 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 4 (VAT 13797)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.798 on 504 tokens.
+---
+@obverse
+1’. Spuren
+2’. [ ] ŠUB-ut
+3’. [ ] x ŠUB-ut
+4’. [ ÉRIN-ni] ⸢u⸣ ÉRIN KÚR TÉŠ.BI ŠUB.MEŠ
+5’. [ Š]UB-di KÚR BAD.BAD-ia5 GAZ-ak
+6’. [ ŠUB -d]i BAD.BAD KÚR GAZ-ak
+7’. [ ŠU ]B-di KÚR EN ul-la-a UŠ -ni
+8’. [ KÚ ]R EN ul-la-a UŠ -šú
+9’. [ ] KÚR
+10’. [ M]EŠ
+1’. B[E ]
+2’. BE uzu⸢KIŠIB ⸣ [ ] KÚR x [ ]
+3’. BE uzuKIŠIB ZAG G[E6] ÚŠ -ut NUN ŠUB -tiSIG-i
+4’. BE uzuKIŠIB GÙB GE6 ÚŠ -ut NUN ŠUB -tiSIG-i šá KUR KÚR
+5’. BE uzuKIŠIB ZAG GE6 u BABBAR ŠUB.MEŠ šá ŠÀ.ḪA la-ab-šu !É.GALKU4.MEŠ
+6’. BE uzuKIŠIB GÙB GE6 u BABBAR ŠUB.MEŠ šá ŠÀ.ḪA KI.MIN-ma DAB-bat-ma GAZ-ak
+7’. BE uzuKIŠIB ZAG GE6.MEŠ nu-bal ÉRIN-ia5 ŠUB -ut
+8’. BE uzuKIŠIB GÙB GE6.MEŠ nu-bal ÉRIN KÚR ŠUB -ut
+9’. BE uzuKIŠIB.MEŠ IGI.IGI-ru IGI.IGI-tu4 šum 4-ma DAM NA NITA Ù.TU
+10’. BE uzuKIŠIB ZAG ZÁLAG -ir ÉRIN-ni MU SIG5 TI-qé
+11’. BE uzuKIŠIB GÙB ZÁLAG -irÉRIN⸢ KÚR ⸣ MU SIG5 TI-qé
+12’. [B]E uzuKIŠIB ZAG u GÙB ZÁLAG -ir IGI.⸢IGI⸣-tu4
+13’. [BE u]zuKIŠIB ZAG u GÙB GE6 DUḪ. ⸢UŠ ⸣
+14’. [BE uzu]KIŠIB ZAG u GÙB TAG.MEŠ -ut ip-pa-qíd
+15’. [BE uzuKIŠI ]B [Z]AG BABBAR ŠUB.MEŠ tam-ṭa-a-tu4 ana EN SISKUR GAR.MEŠ-⸢ šu !⸣
+16’. [BE uzuKIŠIB GÙ ]B BABBAR ŠUB.MEŠ KAL-an NA BIR KUR KÚR šum 4-ma x [ ]
+17’. [ ] x x up-pu-qúinaKUR[ ]
+Nr. 4 73
+18’. [ up-pu]-qú [ ]
+1’. [BE GAG.TI šá ] ⸢ZAG⸣ GE6-at [ ]
+2’. BE GAG.TI šá GÙB GE6-at [ ]
+3’. BE __________________________________________________________________________________________GAG.TIšáZAGuGÙB GE6-at[]
+4’. BE GAG.TI šá ZAG TAG.MEŠ -at [ ]
+5’. BE GAG.TI šá GÙB TAG.MEŠ -⸢at⸣ [ ]
+6’. 10 BE __________________________________________________________________________________________GAG.TIšá ZAGuGÙB TA[G.MEŠ]
+7’. BE GAG.TI šá ZAG UZU GAR x [ ]
+8’. BE __________________________________________________________________________________________GAG.TIšáGÙB UZU G[AR]
+9’. BE GAG.TI šá ZA[G ]
+10’. BE GAG.⸢ TI šá ⸣ [GÙB ]
+@reverse
+I (IV) 1’ BE ⸢GAG⸣ .[ZAG.GA ZAG ka-pí-iṣ ]
+2’. BE __________________________________________________________________________________________GAG.⸢ZAG⸣.GA ⸢GÙB⸣k[a-pí-iṣ]
+3’. BE GAG.ZAG.GA ZAG na-pá[r-qud ]
+4’. BE __________________________________________________________________________________________GAG.ZAG.GA GÙBna-pár-qud[]
+5’. BE GAG.ZAG.GA ZAG u GÙB ka-pí-iṣ x [ ]
+6’. BE __________________________________________________________________________________________GAG.ZAG.GA ZAGuGÙBna-pár-qud DUḪ.UŠx []
+7’. ⸢BE GAG⸣ .ZAG.GA ZAG TAG.MEŠ -ut nu-bal ÉRIN-i[a5 ŠUB -ut]
+8’. [BE GAG.Z]AG.GA GÙB TAG.MEŠ-ut nu-bal ÉRIN KÚR [ŠUB -ut]
+9’. [BE GAG.ZAG.G]A ZAG ZÁLAG -irÉRIN-ni MU SIG5 [TI-qé ]
+10’. [BE GAG.ZAG.GA G]ÙB ZÁLAG -ir ÉRIN KÚR MU SIG5 [TI-qé ]
+11’. [BE GAG.ZAG.GA Z]AG ZÁLAG -irGÙB GE6 ÉRIN-ni u ÉRIN KÚR ina M[È * ]
+12’. [BE GAG.ZAG.GA G]ÙB ZÁLAG -ir ZAG GE6 ÉRIN KÚR u ÉRIN-ni ina M[È * ]
+13’. [BE GAG.ZAG.GA ZA]G ZÁLAG -ir ùGE6 ŠÀ.MUD ana ÉRIN-i[a5 ŠUB -ut]
+14’. [BE GAG.ZAG.GA GÙ ]B ZÁLAG -ir ù GE6 ŠÀ.MUD ana ÉR[IN KÚR ŠUB -ut]
+15’. [ ] GE6[ ]
+II (V) 1’ [ GAG.ZAG.G]A iš-tuq!-ma!(Text: ukkin) a-na 2 i-bé-[eš ]
+2’. [BE GAG.ZAG.GA Š]U!.SI.MEŠ T[UK]-⸢ šu ⸣NUN GABA.RI-a NU TUK-ši
+3’. [BE GAG.ZAG].GA ina du-un-ni-⸢ šu ⸣GAM-iš ana MAN ḪI.GAR SU.GU7 ina KUR GÁL -šišá-níš IZI.G[AR]
+4’. [BE GAG].ZAG.GA ina MURUB4-šu ⸢GAM⸣- iš ⸢DUMU⸣ MAN ana AD-⸢ šú⸣ ḪI.GAR DÙ -uš šá-níš DUḪ.U [Š]
+5’. [B]E GAG.ZAG.GA ina SAL.LA-šu GAM-iš ZI.GA ḪAL
+6’. ⸢BE KI⸣ .TA-nu GAG.ZAG.GA TAG.MEŠ -ut ZI.GA ḪAL
+7’. BE __________________________________________________________________________________________GAG.ZAG.GASAG-sušá-miṭKAR-tu4
+8’. BE GAG.ZAG.GA ZAG ik-pí-iṣ-ma ip-pár-qid ÉRIN-ka KAR-ta5 DU-ak
+9’. BE GAG.ZAG.GA GÙB ik-pí-iṣ-ma ip-pár-qid ÉRINKÚR KAR-ta5 DU-ak
+10’. 10 BE GAG.ZAG.GA ZAG KI.MIN-ma ip-pár-qid GÙB ka-pí-iṣ KÚR ⸢x x GAZ-ak⸣
+11’. BE GAG.ZAG.GA GÙB KI.MIN-ma ip-pár-qid ZAG ka-pí-iṣ x [ ]
+12’. BE GAG.ZAG.GA ZAG u GÙB ip-pár-qid ZAG ka-pí-i [ṣ ]
+13’. BE __________________________________________________________________________________________GAG.ZAG.GA ZAGuGÙBip-pár-qidGÙBka-p[í-iṣ]
+14’. [B]E ⸢GAG⸣ .ZAG.GA ù GAG.TI DAB.DAB-tu4 [ ]
+15’. [BE GAG.ZAG.G]A ⸢TA x iš-muṭ lu U4⸣ N[UN ]
+III (VI) __________________________________________________________________________________________
+1’. [ KUR KÚR ta-maš-šá ]-a’
+2’. [ DUMU LUGAL B]A.ÚŠ
+3’. [ DUMU LUGAL šá KUR KÚR B]A.ÚŠ
+4’. [ ]
+5’. [ BÀ -ut IÁG ]-⸢d⸣XXX
+6’. [ DUMU LUGAL B]A.⸢ ÚŠ ⸣
+7’. [ DUMU LUGAL šá KUR KÚR B]A.ÚŠ
+8’. [ BÀ -ut IÁG -dXX]X

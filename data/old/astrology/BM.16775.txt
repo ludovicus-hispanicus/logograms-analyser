@@ -1,7 +1,7 @@
 ---
 genre: astrological omens
 period: Old Babylonian
-provenance: unknown
+provenance: Babylon (BM collection; eBL)
 counting: BAD
 topic: lunar eclipse
 ---

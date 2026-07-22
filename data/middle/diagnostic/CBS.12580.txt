@@ -1,7 +1,7 @@
 ---
 genre: diagnostic omens
 period: Middle Babylonian
-provenance: unknown
+provenance: Nippur (eBL)
 counting: DIŠ
 edition: Rutz 2011, ZA 101, 301-305
 canonical_parallel: Sakikkû Tablets 3, 11, 12, 14 (Schmidtchen 2021 concordance, read off the rendered table book p.709-711 — Vs.1=11:68, Vs.2=11:84, Vs.3=11:69, Vs.4=14:245, Vs.5=12:5, Vs.6-7=14:30, Vs.9-13=3:55; all Nippur-only, no cross-witness partner. NB earlier pdftotext-derived list was column-shifted and is corrected)

@@ -1,7 +1,7 @@
 ---
 genre: diagnostic omens
 period: Neo Babylonian
-provenance: BM.38655
+provenance: Babylon (BM collection; eBL)
 recension: canonical Sakikkû Tablet 14, manuscript F (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 14

@@ -1,0 +1,41 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 25 (VAT 10678 + VAT 10712 +)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.651 on 235 tokens.
+---
+@obverse
+1. [BE KA DÙG.GA ]GAR-in [KA GI.NA š]a DINGIR [a-na LÚ ]
+2. [BE KA DÙG.G ]A šu-qu-ru GAR-in [INIM ḫ]a-⸢ de⸣ -e a-na NU[N TE-am]
+3. [BE KA DÙG.G ]A a-na IGI-šu im-šur [INI]M SIG5-[t]e a-na NUN [TE-am]
+4. [BE KA DÙG.GA ]a-na EGIR-šu im-šur [INI]M ḪUL -⸢te⸣ a-na NUN [TE-am]
+5. [BE KA DÙG.GA a-n]a KAL iq-reb ⸢LÚ ⸣ i-na GISSU DINGIR-šu [DU.MEŠ ]
+6. [BE KA DÙG.GA a-na M]E.NI iq-⸢reb⸣ I[NI]M ḫa-de-e a-na NUN [TE-am]
+7. [BE KA DÙG.GA i-na MAŠ.GÁN KAL] G[AR-i]n ⸢LÚ ⸣ i-na sa-par DINGIR-šu N[U ]
+8. [BE KA DÙG.GA uk-kuš-ma i-na DA]G GÙB GAR ⸢i⸣-[n]a gišTUKUL KÚR KUR [ ]
+9. [BE KA DÙG.G ]A ⸢né⸣-ḫ [e-el-ṣu ] [ ] x [ ] x [ ]
+10. [BE KA DÙG.G ]A né-p [el-ku] [INIM?].MEŠ -⸢šu⸣ ḪI.GA [R ]
+11. [BE KA DÙG.G ]A ḫur-ru-u[r ] ⸢x⸣ UGU LÚ x [ ] x x [ ]
+12. [BE KA DÙG.GA ḫu]r-ru-ur-[ma (x)] BABBAR ŠUB d[i]-ḫuÉRIN-ni [ ]
+13. [BE KA DÙG.GA ḫu]r-ru-ur-[m]a ina ⸢ ŠÀ -šu ⸣BÙR ŠUB L[Ú i-z]i?-im-ti ŠÀ -⸢šu⸣ [ikaššad ]
+14. [BE KA DÙG.GA ]⸢nu⸣ -[k]úr [nu-ku]r-⸢ tu⸣ dan-na-tu ina KUR GÁ [L-ši]
+15. [BE i-na KA DÙG.GA ] ṣú-lu- ⸢uš⸣-tu GAR-at [NUN?] ÙRU -⸢ti⸣ŠÀ -šu ana KÚR ú-še ?-eṣ?-⸢ṣi⸣?
+16. [BE i-na KA DÙG.G ]A ṣú -⸢lu⸣-uš-tu GAR-ma [ I]GI KÚR [ÙR ]U ŠÀ ?-šú ? ú-še-eṣ ?-⸢ṣi⸣?
+17. [BE i-na K]A DÙG.GA ṣ[ú-lu-u ]š ?-⸢tu⸣ [GAR-ma I]GI a-kal NAM.RA
+18. [BE i-na KA DÙG.G ]A x [x] x [ I]GI[q]á-tiNUN KÚR TI
+19. [ IG]I qá-ti KÚR TI
+20. [ IG]I x x DUMU.MEŠ ma ṭu? [x]
+21. [ ] ⸢ŠUB⸣-tiIG[IDU ÉRIN-ia/KÚR]
+22. [ ] ti iṣ?-bat-maNUN?inaŠU ana EGIR-šú x [ ]
+23. [ ] ina IGIat?/la?at ka šu [x]
+24. [ ] x KAla ki-nax [x x]
+25. [ ] x [ ]
+@reverse
+Die Rückseite ist weitgehend abgebrochen, im erhaltenen Teil sind nur zwei Zeilen beschrieben.
+1’. [ ] x x [ ]
+(Größerer Freiraum)
+2’. itiA-bu-LUGAL.⸢ MEŠ ⸣ U4 [x-KAM ] x x [ ]

@@ -1,0 +1,31 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 74 (VAT 9353)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.851 on 67 tokens.
+---
+@obverse
+1’. [ DA]B?-bat
+2’. [ KÚR DAB]-bat KI.MIN
+3’. [ KÚR D]AB-bat KI.MIN
+4’. [ KÚ ]R DAB-bat KI.MIN
+5’. [ KÚ ]R DAB-bat KI.MIN
+6’. [ KÚ ]R DAB-bat KI.MIN
+7’. [ KÚ ]R DAB-bat KI.MIN
+8’. [ KÚ ]R DAB-bat [KI.MIN]
+@reverse
+1. [ K]ÚR DAB-bat KI.MIN
+2. [ ana zanān ] AN-e ana ṣú !-me-ra-te
+3. [ mim-ma (ma-la) šá ] ⸢ú⸣-še!(Text: šu)-pi-šu-ka
+4. [ U]RU KÚR DAB-bat KI.MIN
+5. [ UR]U KÚR DAB-bat KI.MIN
+6. [ ] KÚRDAB-bat KI.MIN
+7. [ KÚ ]R DAB-bat KI.MIN
+8. [ KÚR ] DAB-bat KI.MIN
+9. [ KÚR ] ⸢DAB⸣ -bat KI.MIN
+10. [ KÚR DAB-b]at KI.MIN
+11. [ KÚR DAB-bat] ⸢KI⸣.[MIN]

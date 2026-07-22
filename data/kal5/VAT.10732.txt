@@ -1,0 +1,178 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 82 (VAT 10732 + VAT 10931 (K)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.826 on 1268 tokens.
+---
+@obverse
+1. A 0 [BE ÉLLAG ZAG ]
+2. A 1 B[E ÉLLAG GÙB ] ÉL[LAG ]
+3. A 2 BE ÉLLAG ZAG ki-ma ÉLLAGx [ ar]-ḫíšip-pár-⸢šìd⸣!
+4. A 3 BE ÉLLAG GÙB ki-ma ÉLLAG GU4 [ ]KÚRar-ḫíš ip-pár-šìd !
+5. A 4 BE ÉLLAG ZAG ⸢DAR!-at⸣ NUN ina ILLAT.MEŠ -šu! a-um-me-e ina SU!(Text: zu)-šu DU8
+6. A 5 BE ÉLLAG GÙB DAR!-at KÚR GABA.RI
+7. A 6 BE ÉLLAG ZAG TAG.MEŠ -at NIN-tu ÚŠ ana gišTUKUL ŠUB -tiÉRIN-ni
+8. A 7 BE ÉLLAG GÙB TAG.MEŠ -at NIN-tu šá KUR KÚR ÚŠ ana gišTUKUL ŠUB -tiÉRINKÚR
+9. A 8 BE ÉLLAG ZAG GE6-at DUMU LUGAL BA.ÚŠ
+B 1’ [ ] ⸢GE6⸣-[ at ]
+10. A 9 BE ÉLLAG GÙB GE6-at DUMU LUGAL šá KUR KÚR BA.ÚŠ
+B 2’ [ ] GE6-⸢ at⸣ [ ] (Strich)
+11. A 10 BE ÉLLAG ZAG UGU ÉLLAG GÙB U5 NIN-tu UGU LUGAL DUGUD-it
+B 3’ [ ] UGU ÉLLAG GÙB U5 [ ]
+12. A 11 BE ÉLLAG GÙB UGU ÉLLAG ZAG U5 NIN-tu šá KUR KÚR GABA.RI
+B 4’ [ U]GU ÉLLAG ZAG U5 [ ] (Strich)
+13. A 12 BE i-na ÉLLAG ZAG 2 ÉLLAG.MEŠGAR-na NIN-tu DAM.TAB.BA TUK-ši
+B 5’ [ ÉLL]AG.MEŠ GAR.MEŠ -na ⸢NIN⸣ -tu D[AM.TAB.BA ]
+14. A 13 BE i-na ÉLLAG GÙB 2 ÉLLAG.MEŠGAR-na NIN-tu šá KUR KÚR GABA.RI
+B 6’ [ ÉLL]AG.MEŠ GAR.MEŠ -na NIN-tu šá KU[R ] (Strich)
+15. A 14 BE ÉLLAG ZAG BAL-at KI NÍG.GIG LUGAL IZI GU7
+B 7’ [ ] BAL-⸢at⸣KI NÍG.GI[G ]
+16. A 15 BE ÉLLAG GÙB BAL-at KI NÍG.GIG KÚR IZI GU7
+B 8’ [ ] ⸢BAL⸣-atKI NÍG.GI[G ] (Strich)
+17. A 16 BE ÉLLAG ZAG UGU ÉLLAG GÙB TUR-ir DINGIR ina KUR NUN GU7 KUR NUN i[š-šá-a ]ṣ
+B 9’ [ ] ÉLLAGGÙB TUR-ir DINGIR ina KUR NUN [ ]
+C 1’ [BE] ÉLLAG Z[AG U]GU ⸢ ÉLLAG GÙB ⸣ TUR-[ir ]
+18. A 17 BE ÉLLAG GÙB UGU ÉLLAG ZAG TUR-ir DINGIR ina KUR KÚR GU7 KUR KÚR [iš-šá-a ]ṣ
+B 10’ [ UG]U ÉLLAG ZAG TUR-ir DINGIR ina KUR KÚR G[U7 ] (Strich)
+C 2’ BE ⸢ ÉLLAG⸣ G[Ù ]B U[G]U ÉLLAG ⸢ ZAG TUR⸣-[ ir ]
+19. A 18 BE ÉLLAG ZAG ZÁḪ -at KUR NUN [Z]ÁḪ
+B 11’ [ ] ZÁḪ KUR NUN [ ]
+C 3’ BE ÉLLAG ZAG ⸢ZÁḪ ⸣ [ ]
+20. A 19 BE ÉLLAG GÙB [Z]ÁḪ -at KUR KÚR ZÁḪ
+B 12’ [ ] ZÁḪ KUR KÚR [ ]
+C 4’ [B]E ÉLLAG GÙB ⸢ZÁḪ ⸣ K[UR ]
+21. A 20 BE ÉLLAG.MEŠ [ZÁḪ.M ]EŠ KUR TÉŠ.BI ZÁḪ
+B 13’ [ ] ZÁḪ.MEŠ KUR TÉŠ.BI [ ](Strich)
+C 5’ B[E] ÉLLAG.MEŠ ZÁḪ.MEŠ KUR [ ]
+22. A 21 BE ÉLLAG.MEŠ 3 ZI-ib LUGAL IM.GI
+B 14’ [BE ÉLLAG.MEŠ ] 3 ZI-ib LU[GAL ]
+C 6’ [BE] ÉLLAG.MEŠ 3 Z[I-ib ]
+23. A 22 BE ÉLLAG.MEŠ 4 LUGAL kib-ra-a-te EN-el
+B 15’ [BE ÉLLAG.ME]Š 4 LUGAL ⸢ kib-ra-a⸣-[te ]
+C 7’ [BE É]LLAG.MEŠ 4 LU[GAL ]
+24. A 23 BE ÉLLAG.MEŠ BAL.MEŠ KA KUR LUGAL BAL-at
+B 16’ [BE ÉLLAG.M]EŠ BAL.M[E]Š KA KUR [ ] (Strich)
+C 8’ [B]E ÉLLAG.MEŠ ⸢BAL⸣ .MEŠ x [ ]
+25. A 24 BE ÉLLAG ZAG GAR-ma u ÉLLAG.MEŠ TUR.MEŠ ina UGU-šá ul-lu-la NUN ILLAT.MEŠ TUK-ši
+B 17’ BE ÉLLAG ZAG GAR-ma ù ÉLLAG.MEŠ TUR.MEŠ ina UGU-⸢ šá⸣ [ ]
+C 9’ [B]E [É]LLAG ZAG ⸢ GAR⸣ -ma ù ÉLLAG.M[EŠ ] TU[R.ME]Š [ina] UGU-š [á ]
+26. A 25 BE ÉLLAG GÙB GAR-ma u ÉLLAG.MEŠ TUR.MEŠ ina UGU-šá ul-lu-la KÚR ILLAT.MEŠ TUK-ši
+B 18’ BE ÉLLAG GÙB GAR-maù ÉLLAG.MEŠ TUR.MEŠ ina U[GU-šá ](Strich)
+C 10’ [BE] ÉLLAG GÙB GAR-ma ù ÉLLAG.MEŠ TU[R.MEŠ ]
+27. A 26 BE ÉLLAG ZAG 2-ma GAR.MEŠ -na ZI-bu la-a šu-ú ana NUN ZI-šu
+B 19’ [BE É]LLAG ZAG 2-[m]a GAR-na Z[I-bu ]
+C 11’ [BE] ⸢ÉLLAG⸣ ZAG 2 GAR-⸢ na⸣ [ ]
+28. A 27 BE ÉLLAG GÙB 2-ma GAR.MEŠ -na ZI-bu la-a šu-ú ana NUN šá KUR KÚR ZI-šu
+B 20’ [BE É]LLAG GÙB 2-ma GAR-na [ ] (Strich)
+C 12’ [BE] ÉL[LAG] GÙB 2 GAR-n[a ]
+29. A 28 BE ÉLLAG ZAG TAG.MEŠ -ma ù TAG-sa GE6 RI.RI.GA ÉRIN-ni
+B 21’ [BE ÉL]LAG ZAG TAG.MEŠ -ma ù TAG-⸢ sà⸣ [ ]
+C 13’ [ T]AG.MEŠ -ma ù TA[G-sà ]
+30. A 29 BE ÉLLAG GÙB TAG.MEŠ -ma ù TAG-sa GE6 RI.RI.GA ÉRIN KÚR
+B 22’ [BE ÉLLAG GÙB TAG.MEŠ -ma ⸢ù⸣ [ ] (Strich)
+C 14’ [ TA]G.MEŠ -⸢ma ù⸣ [ ]
+31. A 30 BE ÉLLAG ZAG BABBAR maṭ-ratdIŠKUR ina KUR NUN [RA-i]ṣ
+B 23’ [BE ÉLLA]G ZAG BABBAR [ ]
+C 15’ [ ] x x [ ]
+32. A 31 BE ÉLLAG GÙB BABBAR maṭ-rat dIŠKUR ina KUR KÚR [RA-iṣ]
+B 24’ [BE ÉLLAG] GÙB BAB[BAR ]
+C 16’ [ maṭ]-rat ⸢d⸣[IŠKUR ]
+33. A 32 BE ÉLLAG.MEŠ BABBAR maṭ-ra MU šu-ru-up-pi-⸢i ⸣ [inaKUR GÁL -ši]
+B 25’ [BE ÉLLAG.M]EŠ !BABBAR [ ] (Strich)
+C 17’ [ ] maṭ-ra M[U ]
+34. A 33 BE ÉLLAG ZAG ir-piš LUGAL u[r ]
+B 26’ [BE ÉLLAG] ZAG [ ]
+C 18’ [ ir-p]išL[UGAL ]
+(C: Rand)
+35. A 34 BE ÉLLAG GÙB ir-piš LUGAL šá KUR KÚR ur [ ]
+B 27’ [BE ÉLLAG G]ÙB [ ]
+C Rs. 1 [ ir]-⸢piš⸣ [ ]
+36. A 35 BE ÉLLAGŠIR ig-da-lu -ut NIN-tu DUMU [ ]
+B 28’ Spuren. (Danach Rand)
+C 2 [ ig-d]a-lu-ut NIN-[tu ] x
+37. A 36 BE ŠIR ÉLLAGig-da-lu-ut DUMU LUGAL A[D-šu ]
+C 3 [ i]g-d[a-l]u-ut DUMU LU[GAL A]D-šu ḪI.GAR -ár
+Nr. 80-82 257
+38. A 37 BE UGU-nu ÉLLAGÉLLAG GAR-at LUGAL kiš- [šá-ti ina KUR GÁL -ši]
+(A: Rand)
+C 4 Spuren
+39. A Rs.1 BE KI.TA-nu ÉLLAG ÉLLAG GAR-at DUMU ⸢LUGAL AD⸣-[ šu ]
+C 5 [ ] x [ LUG]AL⸢AD-šu⸣Ḫ[I.G]AR-ár
+40. A 2 BE ÉLLAG ZAG BABBAR ŠUB.MEŠ -at KUR NUN BAD4 [DAB-bat]
+C 6 [BE ÉLLAG] ZAG BABBAR.MEŠ [ B]AD4 DAB-bat
+41. A 3 BE ÉLLAG GÙB BABBAR ŠUB.MEŠ -at KUR KÚR BAD4 [DAB-bat]
+C 7 [BE ÉLLAG] ⸢GÙB ⸣ BABBAR.MEŠ [ B]AD4 DAB-bat
+42. A 4 BE ÉLLAG ZAG SA5 ṣar-pat šá EME ina KUR NUN [GÁL -ši]
+B Rs.1’ [ ] ⸢SA5⸣ [ ]
+C 8 BE [ÉL]LAG ZAG SA5 [ ]inaKUR NUN GÁL -ši
+43. A 5 BE ÉLLAG GÙB SA5 ṣar-pat šá EME ina KUR KÚR [GÁL -ši]
+B 2’ [ ]SA5 [ ] (Strich)
+C 9 BE ÉL[L]AG GÙB SA[5 i]na K[UR K]ÚR GÁL -ši
+44. A 6 BE ÉLLAG ZAG SIG7 maṭ-rat dIŠKUR ina KUR NUN R[A-iṣ ]
+B 3’ [ ZA]G ⸢SIG7⸣ [ ]
+C 10 [BE É]LLAG ZAG S[IG7 maṭ-r]at ⸢d⸣[IŠKU ]R ina KUR NUN RA-iṣ
+45. A 7 BE ÉLLAGGÙB SIG7 maṭ-rat dIŠKUR ina KUR KÚR RA-i[ṣ]
+B 4’ [ GÙ ]B ⸢SIG7⸣ [ ]
+C 11 [BE] ÉLLAGG[ÙB SIG7 ma]ṭ-[r]at [dIŠKUR ] ina KUR KÚR RA-iṣ
+46. A 8 BE ÉLLAG.MEŠ SIG7 maṭ-ra.MEŠ dIŠKUR RA-iṣ
+B 5’ [ SI]G7 [ ] (Strich)
+C 12 BE ÉLLAG.[MEŠ ] x x [d]⸢IŠKUR RA⸣-[ iṣ]
+47. A 9 BE ÉLLAG ZAG nu-um-ri ŠUB.MEŠ INIM-at SIG5-ti ana NUN DA-a
+B 6’ [B]E ÉL[LAG ZAG] nu-[um-r]i [ ]
+C 13 [BE] ÉLLAG[ ]INIM?-[ ] x [NU]N ⸢DA⸣- a
+48. A 10 BE ÉLLAG GÙB nu-um-ri ŠUB.MEŠ INIM-at ḪUL -ti ana NUN DA-a
+B 7’ [B]E ÉLLAG GÙB nu-⸢ um⸣ -r[i ]
+C 14 [BE] ÉLLAGG[ÙB ] x [ N]UN DA-a
+49. A 11 BE ÉLLAG ZAG SA.MEŠ né-ta-at DAM LÚ it-ta-na-ku-ú
+B 8’ [B]E ÉLLAG ZAG u[z]uSA.M[EŠ ]
+C 15 [ ] ŠUB -ut
+50. A 12 BE ÉLLAG GÙB SA.MEŠ né-ta-at DAM LÚ ina-ak-ma KU4-ba
+B 9’ BE ÉLLAG GÙB u[z]uSA.MEŠ n[e-ta-at ] (Strich)
+C 16 [ ] x [ ] x x x
+(C: abgebrochen)
+51. A 13 BE ÉLLAG ZAG šèr-šèr-ri ŠUB.MEŠ -atSU.GU7 ina KUR NUN GÁL -ši
+B 10’ [BE ÉLLA]G ⸢ZAG⸣ šèr-šèr- ⸢ri⸣Š[UB.Š ]UB-at [ ]
+52. A 14 BE ÉLLAG GÙB šèr-šèr-ri ŠUB.MEŠ -at SU.GU7 ina KUR KÚR GÁL -ši
+B 11’ [ GÙ ]B ⸢šèr⸣-šèr-ri ŠU [B].ŠUB -at SU.⸢ GU7⸣ i[na ] (Strich)
+53. A 15 BE UGU-nu ÉLLAGDI-⸢ ḫu⸣ ŠUB -di be-nu UGU LÚ ŠUB -ut
+B 12’ [ D]I-ḫu ŠU [B-d]i be-en-nu UGU LÚ [ ]
+54. A 16 BE KI.TA-nu ÉLLAGDI-ḫuŠUB -di be-nu la TE!-a UGU LÚ ŠUB -ut
+B 13’ [ D]I-⸢ḫu⸣ ŠU [B]-di ⸢be⸣ -en-⸢nu⸣ la ⸢TE⸣ U[GU ]
+55. A 17 BE ÉLLAG ZAG GE6.MEŠ -at GIG.MEŠ ina KUR ḪÁ
+B 14’ [ ] ⸢GE6⸣.[M]EŠ-at⸢GIG⸣ .MEŠ ina ⸢KUR⸣ [ ]
+56. A 18 BE ÉLLAG GÙB GE6.MEŠ -at GIG.MEŠ ina KUR KÚR ḪÁ
+B 15’ [ GE6].MEŠ -at GIG.MEŠ ina KUR K[ÚR ]
+57. A 19 BE ÉLLAG.MEŠ GE6.MEŠ SU.GU7 GIG-ti KUR IGI-mar
+B 16’ [ ] GE6.MEŠ SU.GU7 GIG-[ti ] (Strich)
+58. A 20 BE ŠIR -ku ana ŠÀ ŠUB -ma KI ÉLLAG.MEŠ ra-ak-sa ù šu-qàl-lu-la BÀ -ut ILUGAL-ke-en
+B 17’ [ ŠUB ]-ma KI ⸢ÉLLAG⸣ .MEŠ KEŠDA -at ⸢ù⸣ [ ]
+59. A 21 BE ÉLLAG.MEŠ ina KI ÉLLAG.MEŠ bur-ki ra-ak-sa ù šu-qàl-lu-la KUR KÚR ta-maš-šá-aº
+B 18’ [ bu]r-ki ra-a[k-sa] ù šu-⸢qa⸣ -[al-lu-la ]
+60. A 22 BE ÉLLAGZAG SAG-sa GE6-at DUMU LUGAL BA.ÚŠ
+B 19’ [ DU]MU MAN [ ]
+61. A 23 BE ÉLLAGGÙB SAG-sa GE6-at DUMU LUGAL šá KUR KÚR BA.ÚŠ
+B 20’ [ GE6-a]t DUMU MAN ⸢šá KUR⸣ [ ]
+62. A 24 BE ÉLLAG ZAG ù ÉLLAGGÙB GE6-at DUḪ.UŠ
+B 21’ [ ] GÙB GE6-atDUḪ.UŠ [(x) (x)] (Strich)
+63. A 25 BE ÉLLAG.MEŠ [b]ur-ki ana uzuÌ.UDU GUR.MEŠ BÀ -ut IÁG -dXXX
+B 22’ [ an]a uzuÌ.UDU GUR.MEŠ BÀ -[ut ](Strich)
+64. A 26 BE ŠIR UDU šá ZAG GE6-at DUMU LUGAL BA.ÚŠ
+B 23’ [ GE6-a]t DUMU M[AN ]
+65. A 27 BE ŠIR UDU šá GÙB GE6-at DUMU LUGAL šá KUR KÚR BA.ÚŠ
+B 24’ [ GE]6-[a]t ⸢DUMU⸣ M[AN ]
+(B: abgebrochen)
+66. A 28 BE ŠIR UDU šá ZAG ù GÙB GE6-at BÀ -ut IÁG -dXXX
+67. A 29 BE ÉLLAG.MEŠ it-te-né-eṭ-ḫa-a KI gišTUKUL taz-bíl-tu
+68. A 30 BE ÉLLAG.MEŠ 5 ù-lu 6 UŠ 4KUR MAN-ni
+69. A 31 BE ÉLLAG.MEŠ šat-qa ! DINGIR GU7
+70. A 32 BE ÉLLAG ZAG ina ṭa-pa-áš ZAG DA-a-at NUN ana KÚR -šu KA LAL-a GAR-an
+71. A 33 BE ÉLLAG GÙB ina ṭa-pa-áš GÙB DA-a-at KÚR ana NUN-e KA LAL-a GAR-an
+72. A 34 BE ÉLLAG.MEŠ a-na ÉLLAG.MEŠ bur-ki GUR.MEŠ BÀ -ut IGa-at-ra-LUGAL (Doppelstrich)
+________ MAN _________________________________ BE _______________________________ MAN ______
+Kolophon:
+A 35 ŠU.NÍGIN 72 MU.MEŠ AL<.TIL> IGI.KÁR ŠU I.dUTU-NUMUN-SUM-na DUMU dUTU-MU-SI.SÁ lúḪAL
+A 36 [ l]i-mu IBe-re-e šá-kín KUR uruArba-ìl

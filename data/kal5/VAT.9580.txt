@@ -1,0 +1,77 @@
+---
+genre: extispicy omens
+period: Middle Assyrian
+provenance: Assur
+tradition: Assyrian
+counting: line
+publication: Heeßel 2012, KAL 5 no. 78 (VAT 9580)
+exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the main extispicy corpus, available in the app
+source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.426 on 408 tokens.
+---
+@obverse
+Vgl. die andere Lesung in U. S. Koch,
+Secrets, Nr. 107:76-77: tál-lim 15 15,
+tál-lim 150 150 „die rechte „Trennlinie“
+ist rechts, die linke „Trennlinie“ ist
+links“. Das hier vorliegende Wort tallu,
+Die beiden Einträge sind das im vorliegenden Text zu tal abge-
+sehr ähnlich zu U. S. Koch, kürzt wird und wohl nicht als Logo-
+Secrets, Nr. 107:78-79. Zu gramm DAL anzusetzen ist, muß so-
+diesen beiden Kreisen, die wohl von „giš DAL“, das is-ri (siehe die
+tarbaṣu (TÙR ), die „(Vieh-) Bemerkungen zu VAT 9934 [Nr. 1] i 0)
+Hürde“ bezeichnen, siehe zu lesen ist als auch von tal libbi
+auch U. Koch-Westenholz, „Zwerchfell“ getrennt werden, da es
+BLO 67 Anm. 201. eindeutig auf der Leber erscheint.
+Dieser Eintrag wird von U. S. Koch,
+Secrets, 519, Nr. 108 M 8 mit ihrer Nr.
+107:131 gleichgesetzt, der SUR ZÉ BAR-
+ma 15 lautet. Da die beiden Einträge
+aber nicht völlig übereinstimmen, wird
+hier auf die Ergänzung BAR-[ma 15]
+verzichtet, zumal auch eine Ergänzung
+CAD M/II 257b sub BAR-[ma KI] in Frage käme.
+mušālu , disc. sect. hat
+die Lesung D U8 N U N Zur Wendung BAR-ma KI siehe die
+MU ša-la-ti vorgeschla- Diskussion bei U. S. Koch, Secrets,
+gen. 67f., die BAR-ma KI als zāzma ašru ,
+wörtl.: „geteilt ist und ein Platz“,
+aufgrund der Belege in den
+„Orientierungstafeln/modellen“ mit
+„neutral“ übersetzt.
+Nr. 78 251
+Rs.
+U. S. Koch, Secrets, 519, Nr.
+108. M 26 liest am Ende der
+Zeile šá 15 15, doch ist das
+letzte Zeichen nicht 15 son-
+dern E[N zu lesen.
+Zu parallelen
+Stellen siehe
+U. S. Koch,
+Secrets, Nr.
+108, M 27-
+28.
+Zu SIG4-ti MUR
+siehe U. S. Koch,
+Secrets, S. 526
+mit Anm. 652.
+Der Terminus narpaš ḫaš î „ b r e i t e
+Stelle der Lunge“ ist so selten belegt,
+daß weder I. Starr, SAA IV, S. XLVII
+noch U. S. Koch, Secrets, 78-82 ihn
+in ihren Listen der einzelnen Teile
+der Lunge aufführen. Die einzige an-
+dere Erwähnung dieses Terminus fin -
+det sich in der ähnlichen Stelle bei
+U. S. Koch, Secrets, Nr. 107:282.
+Gegen U. S. Koch, Secrets, Nr. 108, M 29 kann hier nicht
+ka-⸢ra⸣-[ áš ] gelesen werden. Das zweite Zeichen hat
+keine Ähnlichkeit mit dem Zeichen RA wie es etwa an
+anderer Stelle auf der Tafel vorliegt, sondern sieht mehr
+wie das Zeichen AB aus, obwohl ein waagerechter Keil
+fehlt. Vielleicht ist hier der Lungenteil kappi ḫaš ê
+„Lungenlappen“ anzusetzen. Diese Lesung hätte eine
+Parallele in U. S. Koch, Secrets, Nr. 109:91, und dies
+wü rde auch gut mit den beiden vorhergehenden
+Einträgen harmonieren, die ebenfalls Parallelen in die-
+sem Text aufweisen (109:89 und 109:92).

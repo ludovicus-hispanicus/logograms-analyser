@@ -1,0 +1,37 @@
+---
+genre: Unspecified
+period: Neo-Assyrian
+counting: DIŠ
+publication: eBL fragment K.778
+---
+@text
+@obverse
+1. DIŠ 30 TAB-ma ba-ra-ri it-ta-ʾ-dar
+2. ($___$) AN.GI₆ LUGAL URI{ki}
+3. ($___$) %sux ba-ra : %akk la-a : RI : a-dan-nu
+4. ($___$) ina la a-dan-ni-šu₂ U₄.12.KAM₂@v U₄.13.KAM₂@v AN.GI₆ GAR-ma
+5. ($___$) ina EN.NUN.AN.USAN₂ AN.GI₆ GAR-ma
+6. DIŠ AN.GI₆ ZA₃-šu₂ BAL-at mim-ma NU TAK₄ A.MA.RU 1-niš GAR
+7. ($___$) ul-la-nu-um-ma ina ZA₃-šu₂ AN.GI₆ GAR-m[a]
+8. ($___$) gab#-bi-šu₂ ir-rim-m[a]
+9. DIŠ AN.GI₆ ZA₃-šu₂ pa-aš₂#-ṭa-at₂ mim-ma NU T[AG?]
+10. ($___$) A.MA#.RU TEŠ₂-BI GAR-[an/ma]
+11. ($___$) ina ZA₃-šu₂ AN.GI₆ Z[ALAG₂?-ma?]
+12. DIŠ AN.GI₆ ZA₃-šu₂ KU₅ A.MA.RU dan?#-n[u? ...]
+13. ($___$) ina ZA₃-šu₂ AN.GI₆ [GAR-ma?]
+@reverse
+1. DIŠ AN.GI₆ ana A₂?# x [...]
+2. ($___$) mim-ma la pa-du# x x [...]
+3. ($___$) ina ZA₃-šu₂ x [...]
+4. [DIŠ?] AN?#.GI₆?# x x [...]
+5. [...]
+6. [...]
+7. [...]
+8. [...]
+9. [...]
+10. DIŠ# AN?#.G[I₆? ...]
+11. 32 niš-hu mu#-kal#-l[im-tu₂ ša₂ DIŠ UD AN {d}+en-li]l₂? šu*#-ut# K[A]
+12. ša₂ KA UM.ME.A ša₂* ŠA₃ DIŠ# 30# [TAB-ma E₂?.GA]L? {m}{d}AN.ŠAR₂-DU₃-A MAN GA[L]
+13. MAN dan-nu MAN ŠU₂ MAN KUR aš-šur ša₂ {d}PA {d}MIN? x ARHUŠ# TUKU-šu-ma ki-ma [AD]
+@top
+1. u AMA u₂-ra-bu-u-š[u₂]

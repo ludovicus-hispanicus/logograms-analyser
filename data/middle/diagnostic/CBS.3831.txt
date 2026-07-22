@@ -3,7 +3,7 @@ genre: diagnostic omens
 period: Middle Babylonian
 provenance: Nippur
 topic: symptoms (diagnostic-prognostic, SA.GIG forerunner)
-exclude: true
+exclude: true   # too fragmentary to score (Rutz 2011 Appendix B); kept in corpus, not counted
 edition: Rutz, "Threads for Esagil-kīn-apli," ZA 101 (2011) 294–308, Appendix B (CBS 3831 = P260201)
 note: >
   EXCLUDED FROM THE LDI. CBS 3831 is a genuine Middle Babylonian diagnostic
