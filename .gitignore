@@ -20,6 +20,9 @@ docs/catalogue-of-sources*.docx
 *.log
 .claude/
 
+# KAL 5 tooling — one-off ingestion/scan scripts that hard-code a local PDF path
+scripts/*kal5*.py
+
 # Copyrighted third-party material
 docs/Rochberg-1988-AfO-Beih-22-pp1-31.md
 
