@@ -1,0 +1,58 @@
+name: Deploy web app to GitHub Pages
+
+# Builds the browser (stlite/WebAssembly) version of the analyser and publishes
+# it to GitHub Pages. The whole app + corpus runs client-side in the visitor's
+# browser — no server. Enable in repo Settings → Pages → Source: "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app.py"
+      - "data/**"
+      - "references.bib"
+      - "desktop/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # --ignore-scripts skips Electron's postinstall (not needed for the web build).
+      - name: Install stlite toolchain
+        working-directory: desktop
+        run: npm install --ignore-scripts
+
+      - name: Build the stlite web bundle
+        working-directory: desktop
+        run: npm run build:web
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: desktop/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

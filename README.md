@@ -14,20 +14,36 @@ This repository accompanies the article *The Logographic Shift: Tracking the
 
 ## What it does
 
-The **Logogram Density Index (LDI)** is the share of logographic writings among
-the meaningful tokens of a text:
+The **Logogram Density Index (LDI)** is the share of logographic writing among
+the meaningful tokens of a text, ranging from 0 (fully syllabic/phonetic) to 1
+(fully logographic). Determinatives (classifiers) are excluded; each remaining
+token is classified as logogram, phonetic, or other.
+
+Because a single word can mix logographic and syllabic signs (e.g. DU-*ak*,
+one logogram + one phonetic complement), the index is reported in **three graded
+forms**:
 
 ```
-LDI = logograms / (logograms + phonetic spellings)
+bin    = logographic words / words          # by word, all-or-nothing
+macro  = mean of each word's logogram share  # by word, graded
+micro  = logographic signs / signs           # by sign
 ```
 
-ranging from 0 (fully syllabic/phonetic) to 1 (fully logographic). The app
-classifies each token as logogram, phonetic, or other, then aggregates LDI by
-period, genre, and text, with options to exclude grammatical particles or count
-monograms as logograms.
+- **bin** — a word counts as logographic (1) or not (0); this is the simple
+  `logograms / (logograms + phonetic spellings)` ratio. DU-*ak* counts as 1.
+- **macro** — averages each word's own logographic fraction, so DU-*ak* counts
+  as 0.50 (one logographic sign of two).
+- **micro** — weighs by sign, dividing logographic signs by all signs.
 
-- Interactive [Streamlit](https://streamlit.io) app (`app.py`) with annotation
-  editor, per-text and per-omen views, and Plotly charts.
+The three coincide for text written strictly word-by-word and diverge only where
+words mix scripts. The app aggregates all three by period, genre, region, and
+text, with options to exclude grammatical particles or count monograms
+(*ina*/*ana*) as logograms.
+
+- Interactive [Streamlit](https://streamlit.io) app (`app.py`): annotation
+  editor, per-text and per-omen views, diachronic Plotly charts, a **Sources**
+  catalogue of every manuscript (analysed / supplementary / excluded), and a
+  **Text** browser spanning the corpus, the comparanda, and the KAL 5 supplement.
 - Standalone, Streamlit-free analysis library (`compute_ratios.py`) plus
   genre-specific scripts (`analyze_astrology.py`, `analyze_restoration.py`,
   `scripts/`).
@@ -43,6 +59,7 @@ data/
   middle/     Middle Babylonian / Middle Assyrian
   new/        First-millennium (Neo-Assyrian / Neo-Babylonian)
   _comparanda/  cross-cultural comparison texts (Hittite, Hurrian, models)
+  kal5/       supplementary KAL 5 extispicy witnesses (Heeßel 2012; held out of the counts)
         astrology/ diagnostic/ extispicy/ izbu/ terrestrial/
 ```
 

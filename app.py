@@ -543,77 +543,131 @@ def _fold(s):
 
 @st.cache_data
 def _citation_index():
-    """(folded-surname, year) -> bibkey, for linking free-text 'Author YEAR' cites."""
+    """(folded-surname, year) -> bibkey, for linking free-text 'Author YEAR' cites.
+    Every author's surname is indexed individually, so a second/third author or a
+    particle name still links ('Edzard 1974', 'de Zorzi 2009', 'Nikolaev 2024');
+    the concatenation of all authors and of the first two disambiguate shared
+    surname+year (e.g. 'Goldwasser & Soler 2024' vs 'Harel … 2024')."""
     idx = {}
     for e in parse_bibtex():
         yr = _bib_year(e["fields"])
         if not yr:
             continue
         raw_sns = _bib_surnames(e["fields"])
-        sns = [x for x in (_fold(s) for s in raw_sns) if x]
-        forms = set()
-        if sns:
-            forms.add(sns[0])
-            forms.add("".join(sns))
-            if len(sns) >= 2:
-                forms.add(sns[0] + sns[1])
-        # Hyphenated first surname (e.g. "Rochberg-Halton") is often cited by one
-        # part only ("Rochberg 1988"); index each component.
-        if raw_sns:
-            for part in re.split(r"[-–]", raw_sns[0]):
+        forms, folded = set(), []
+        for rs in raw_sns:
+            f = _fold(rs)
+            if f:
+                folded.append(f)
+                forms.add(f)
+            words = rs.split()
+            if len(words) > 1:                     # particle name: also index last word
+                lw = _fold(words[-1])
+                if lw:
+                    forms.add(lw)
+            for part in re.split(r"[-–]", rs):     # hyphenated: index each component
                 p = _fold(part)
                 if p:
                     forms.add(p)
+        if folded:
+            forms.add("".join(folded))
+            if len(folded) >= 2:
+                forms.add(folded[0] + folded[1])
         for fm in forms:
             idx.setdefault((fm, yr), e["key"])
     return idx
 
-# "Surname YEAR" (allowing up to two extra capitalised words, e.g. "De Zorzi",
-# "Wiseman–Black"), used both to linkify citations and to build "Cited by".
-_CITE_RE = re.compile(
-    r"([A-ZÀ-Þ][A-Za-zÀ-ÿ.'’]+(?:[ –-][A-ZÀ-Þ][A-Za-zÀ-ÿ.'’]+){0,2})\s+(1[5-9]\d\d|20\d\d)")
+@st.cache_data
+def _series_index():
+    """(SERIES-ABBREV, number) -> bibkey, so a bare series citation ('CUSAS 18',
+    'KAL 5', 'HANE/M 15') links even when no author-year is written. Built from the
+    `(ABBR) N` markers in each entry's series/title, plus a few manual aliases for
+    series whose entry has no parenthetical abbreviation."""
+    idx = {}
+    for e in parse_bibtex():
+        blob = _delatex(" ".join((e["fields"].get("series", ""),
+                                  e["fields"].get("title", ""))))
+        for pat in (r"\(([A-Za-z][A-Za-z/]*)\)\s*([0-9][0-9/]*)",    # "(CUSAS) 18"
+                    r"\(([A-Za-z][A-Za-z/]*)\s+([0-9][0-9/]*)\)"):   # "(YOS 10)"
+            for m in re.finditer(pat, blob):
+                idx.setdefault((m.group(1).upper(), m.group(2)), e["key"])
+    idx.setdefault(("AFOBEIH", "22"), "rochberg1988")
+    idx.setdefault(("WAW", "37"), "abusch2015")
+    idx.setdefault(("CT", "40"), "gadd1927")
+    return idx
 
-def _cite_key_for(name, year, idx):
-    toks = [t for t in re.split(r"[ –-]+", name) if t]
-    cands = []
-    if toks:
-        cands = [_fold(toks[-1]), _fold("".join(toks)), _fold(toks[0])]
-        if len(toks) >= 2:
-            cands.append(_fold(toks[0] + toks[1]))
-    for c in cands:
-        if (c, year) in idx:
-            return idx[(c, year)]
-    return None
+# A year, optionally parenthesised and with a range/letter suffix: "2012", "(1988)",
+# "1957-58", "1983a". Restricted to 15xx–20xx so BCE dates like "1186-1172" are skipped.
+_YEAR_RE = re.compile(r"\(?((?:1[5-9]|20)\d\d)[a-z]?(?:[-–/]\d{2,4})?\)?")
+# A capitalised name token (>=2 chars, ending in a letter, so initials "F." are skipped).
+_NAME_TOK = re.compile(r"[A-ZÀ-Þ][A-Za-zÀ-ÿ.'’-]*[A-Za-zÀ-ÿ]")
+# Bare series citations we can resolve to an entry.
+_SERIES_RE = re.compile(
+    r"\b(CUSAS|KAL|HANE/M|CNI|PBS|CTN|AOAT|GMTR|StBoT|MDP|BAM|YOS|WAW|CT|TCS|AfO\s+Beih\.?)"
+    r"\s+([0-9][0-9/]*)", re.I)
+
+def _find_cite_span(window, year, idx):
+    """Earliest (start-offset, bibkey) in `window` for a 1–3 token surname run that,
+    together with `year`, resolves to an entry. Longer runs are tried first so a
+    multi-author citation beats a bare shared surname. Returns (None, None) if none."""
+    toks = list(_NAME_TOK.finditer(window))
+    for i, t in enumerate(toks):
+        for k in range(min(3, len(toks) - i) - 1, -1, -1):
+            run = "".join(x.group(0) for x in toks[i:i + k + 1])
+            key = idx.get((_fold(run), year))
+            if key:
+                return t.start(), key
+    return None, None
+
+def _cite_spans(text):
+    """Non-overlapping (start, end, bibkey) spans for author-year and series cites."""
+    aidx, sidx = _citation_index(), _series_index()
+    spans = []
+    for ym in _YEAR_RE.finditer(text):
+        wstart = max(0, ym.start() - 60)
+        rel, key = _find_cite_span(text[wstart:ym.start()], ym.group(1), aidx)
+        if key:
+            spans.append((wstart + rel, ym.end(), key))
+    for sm in _SERIES_RE.finditer(text):
+        key = sidx.get((sm.group(1).upper().replace(" ", "").replace(".", ""), sm.group(2)))
+        if key:
+            spans.append((sm.start(), sm.end(), key))
+    spans.sort()
+    kept, last_end = [], 0
+    for s, e, key in spans:
+        if s < last_end:                 # overlaps a span already kept -> skip
+            continue
+        kept.append((s, e, key))
+        last_end = e
+    return kept
 
 def linkify_citations(text):
-    """Wrap 'Author YEAR' citations in the text with in-app links to their entry."""
+    """Wrap author-year and series citations with in-app links to their bib entry."""
     if not text:
         return text
-    idx = _citation_index()
-    def repl(m):
-        key = _cite_key_for(m.group(1), m.group(2), idx)
-        if not key:
-            return m.group(0)
-        return (f'<a href="?nav=Bibliography&ref={key}" '
-                f'title="{key} — see Bibliography">{m.group(0)}</a>')
-    return _CITE_RE.sub(repl, text)
+    spans = _cite_spans(text)
+    if not spans:
+        return text
+    out, last = [], 0
+    for s, e, key in spans:
+        out.append(text[last:s])
+        out.append(f'<a href="?nav=Bibliography&ref={key}" '
+                   f'title="{key} — see Bibliography">{text[s:e]}</a>')
+        last = e
+    out.append(text[last:])
+    return "".join(out)
 
 @st.cache_data
 def _bib_cited_by():
     """bibkey -> sorted list of source sigla that cite it (from the catalogue)."""
-    idx = _citation_index()
     rev = {}
     for r in catalogue_rows():
         sig = r.get("_sig") or r.get("filename", "")
         blob = " ".join(str(r.get(k, "")) for k in
                         ("publication", "edition", "source", "source_note",
                          "recension", "note", "_reason"))
-        seen = set()
-        for m in _CITE_RE.finditer(blob):
-            key = _cite_key_for(m.group(1), m.group(2), idx)
-            if key and key not in seen:
-                seen.add(key)
-                rev.setdefault(key, set()).add(sig)
+        for _s, _e, key in _cite_spans(blob):
+            rev.setdefault(key, set()).add(sig)
     return {k: sorted(v) for k, v in rev.items()}
 
 def normalize_genre(g):
@@ -1723,12 +1777,14 @@ elif page == "Tools":
                     key="imp_mode", disabled=save_to_data,
                     help="Only applies in session-only mode; when saving to data/, the full corpus is reloaded.")
 
-    # --- Online import from eBL (needs network) ---
+    # --- Online import from eBL. The eBL API is public and CORS-open, so this also
+    # works in the browser (stlite/WebAssembly) via pyodide-http; a failed fetch is
+    # caught per-request below, so the offline case degrades to a graceful error
+    # rather than hiding the feature. ---
     if _OFFLINE:
-        st.markdown("#### Fetch from eBL")
-        st.info("Online import from the eBL API isn't available in the offline desktop "
-                "build. Paste or upload your eBL-ATF transliteration below instead.")
-    else:
+        st.caption("eBL import runs in your browser against the public eBL API and needs "
+                   "an internet connection; if a fetch fails, paste the eBL-ATF below.")
+    if True:  # eBL is no longer gated off in the stlite/WebAssembly build
         # --- Method 1: fetch straight from the eBL fragmentarium API ---
         st.markdown("#### Fetch from eBL by museum number")
         st.caption("Enter a fragmentarium number (e.g. `K.4031`, `BM.33793`) or paste its eBL URL. "
