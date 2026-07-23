@@ -20,7 +20,7 @@
 | BM 22696 | — | Babylon (BM collection; eBL) |
 | BM 86381 | — | Babylon (BM collection; eBL) |
 | MS 3117 | CUSAS 18, 014 | Southern Mesopotamia (CUSAS 18 no. 14) |
-| MS 3118 | George 2013, CUSAS 18 no. 13 = MS 3118 | Southern Mesopotamia (CUSAS 18 no. 13) |
+| MS 3118 | CUSAS 18, 013 | Southern Mesopotamia (CUSAS 18 no. 13) |
 
 
 **Middle Babylonian**  (6)
@@ -357,9 +357,9 @@
 
 | Museum no. / siglum | Publication / edition | Provenance |
 |---|---|---|
-| VAT 10235 | Heeßel 2010a, Assur-Forschungen (Maul and Heeßel eds.) 168-177; tablet VAT 10235, formerly KAR 211 (Ebeling), Assur | Assur |
-| VAT 10748 | Heeßel 2010a, Assur-Forschungen (Maul and Heeßel eds.) 178-181; tablet VAT 10748 (previously unpublished, identified by F. Köcher), Assur | Assur |
-| VAT 11122 | Heeßel 2010a, Assur-Forschungen (Maul and Heeßel eds.) 180-183; tablet VAT 11122 (previously unpublished, identified by S. M. Maul), Assur | Assur |
+| VAT 10235 | Heeßel 2010, Assur-Forschungen (Maul and Heeßel eds.) 168-177; tablet VAT 10235, formerly KAR 211 (Ebeling), Assur | Assur |
+| VAT 10748 | Heeßel 2010, Assur-Forschungen (Maul and Heeßel eds.) 178-181; tablet VAT 10748 (previously unpublished, identified by F. Köcher), Assur | Assur |
+| VAT 11122 | Heeßel 2010, Assur-Forschungen (Maul and Heeßel eds.) 180-183; tablet VAT 11122 (previously unpublished, identified by S. M. Maul), Assur | Assur |
 
 
 **Neo-Babylonian**  (32)

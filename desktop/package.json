@@ -9,7 +9,7 @@
     "prepare-app": "node prepare-app.js",
     "dump": "dump-stlite-desktop-artifacts",
     "build": "npm run prepare-app && npm run dump",
-    "build:web": "npm run prepare-app && npm run dump && node postbuild-web.js",
+    "build:web": "node generate-web.js",
     "serve": "electron .",
     "app:dir": "electron-builder --dir",
     "app:dist": "electron-builder",

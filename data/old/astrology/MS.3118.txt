@@ -2,7 +2,7 @@
 genre: astrological omens
 period: Old Babylonian
 provenance: Southern Mesopotamia (CUSAS 18 no. 13)
-publication: George 2013, CUSAS 18 no. 13 = MS 3118
+publication: CUSAS 18, 013
 counting: line
 topic: lunar eclipse
 ---

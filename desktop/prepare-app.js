@@ -9,10 +9,14 @@ const dest = __dirname;
 
 // Clean only the generated artifacts (never touch package.json, node_modules, etc.)
 fs.rmSync(path.join(dest, "streamlit_app.py"), { force: true });
+fs.rmSync(path.join(dest, "references.bib"), { force: true });
 fs.rmSync(path.join(dest, "data"), { recursive: true, force: true });
 
 // Entry point: app.py -> streamlit_app.py
 fs.copyFileSync(path.join(repoRoot, "app.py"), path.join(dest, "streamlit_app.py"));
+
+// Bibliography source for the Bibliography tab
+fs.copyFileSync(path.join(repoRoot, "references.bib"), path.join(dest, "references.bib"));
 
 // Bundle the corpus (data/), skipping caches and the data license file
 const SKIP = new Set(["__pycache__"]);
@@ -28,4 +32,4 @@ function copyDir(src, dst) {
 }
 copyDir(path.join(repoRoot, "data"), path.join(dest, "data"));
 
-console.log("Staged streamlit_app.py and data/ into", dest);
+console.log("Staged streamlit_app.py, references.bib and data/ into", dest);

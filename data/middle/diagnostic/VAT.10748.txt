@@ -4,12 +4,12 @@ period: Middle Assyrian
 provenance: Assur
 counting: DIŠ
 topic: prognosis by Hand-of-the-god diagnoses (Sin dEN.ZU, Šamaš dUTU aššu kasap asirti = on account of silver of the sanctuary); head, temples (SAG.KI), eyes, penis
-series: pre-canonical Middle Assyrian diagnostic text; a (partial) duplicate of VAT 10235 — entries 1-7 overlap VAT 10235 i 17'-23', then continue with Hand-of-Šamaš diagnoses (Heeßel 2010a:178)
-canonical_parallel: individual entries parallel canonical Sakikkû 12:5, 10:69, 11:19, 14:109 (Heeßel 2010a:181 philological commentary)
-edition: Heeßel 2010a, Assur-Forschungen (Maul and Heeßel eds.) 178-181; tablet VAT 10748 (previously unpublished, identified by F. Köcher), Assur
-dating: Middle Assyrian by paleography and syllabary (Heeßel 2010a:175); pre-dates Esagil-kīn-apli's serialization. Counted here as Middle Assyrian.
+series: pre-canonical Middle Assyrian diagnostic text; a (partial) duplicate of VAT 10235 — entries 1-7 overlap VAT 10235 i 17'-23', then continue with Hand-of-Šamaš diagnoses (Heeßel 2010:178)
+canonical_parallel: individual entries parallel canonical Sakikkû 12:5, 10:69, 11:19, 14:109 (Heeßel 2010:181 philological commentary)
+edition: Heeßel 2010, Assur-Forschungen (Maul and Heeßel eds.) 178-181; tablet VAT 10748 (previously unpublished, identified by F. Köcher), Assur
+dating: Middle Assyrian by paleography and syllabary (Heeßel 2010:175); pre-dates Esagil-kīn-apli's serialization. Counted here as Middle Assyrian.
 note: >
-  Transliteration after Heeßel's sign-level Umschrift (2010a:178-179),
+  Transliteration after Heeßel's sign-level Umschrift (2010:178-179),
   directly scoreable (logograms preserved). One side only; cannot tell obverse
   from reverse. Lines 1-7 duplicate VAT 10235 i 17'-23'. mu-sar-ri-šu = his
   penis (bišru). Logograms uppercase, syllabic lowercase, {} determinative,

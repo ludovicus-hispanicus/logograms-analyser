@@ -4,16 +4,16 @@ period: Middle Assyrian
 provenance: Assur
 counting: DIŠ
 topic: prognosis by Hand-of-the-god diagnoses (Hand of the aḫḫāzu-demon dDIM.ME.LAGAB, Hand/Touch of Sin dEN.ZU, Hand of Lamaštu); fever, head, eyes, temples (SAG.KI)
-series: pre-canonical Middle Assyrian diagnostic text; entries ordered by identical DIAGNOSIS (not by symptom, unlike canonical Sakikkû) — same principle as the MB Nippur texts; does NOT duplicate Esagil-kīn-apli's Sakikkû (Heeßel 2010a:171)
-canonical_parallel: individual entries parallel canonical Sakikkû 3:79-80, 3:91-92, 3:100/101, 4:40, 4:41, 16:45, 17:90, 19:9, 26 (Heeßel 2010a:176-177 philological commentary; cf. Schmidtchen 2021 concordance, read off the rendered table book p.709-712 — VAT 10235:3=16:45, :4-6=3:68, :7-9=3:79 (‖ StBoT 36 C 3-4, Ḫattuša), :19-20=3:86-90 (‖ StBoT 36 C 9-12, Ḫattuša), :10-11=19/20:9, :12=17:90. NB an earlier pdftotext-derived list here was column-shifted and is corrected; see docs/sakikku-parallels.md)
-edition: Heeßel 2010a, Assur-Forschungen (Maul and Heeßel eds.) 168-177; tablet VAT 10235, formerly KAR 211 (Ebeling), Assur
-dating: Middle Assyrian by paleography and syllabary (Heeßel 2010a:175); pre-dates Esagil-kīn-apli's serialization of the diagnostic handbook in mid-11th c. BCE. Counted here as Middle Assyrian.
+series: pre-canonical Middle Assyrian diagnostic text; entries ordered by identical DIAGNOSIS (not by symptom, unlike canonical Sakikkû) — same principle as the MB Nippur texts; does NOT duplicate Esagil-kīn-apli's Sakikkû (Heeßel 2010:171)
+canonical_parallel: individual entries parallel canonical Sakikkû 3:79-80, 3:91-92, 3:100/101, 4:40, 4:41, 16:45, 17:90, 19:9, 26 (Heeßel 2010:176-177 philological commentary; cf. Schmidtchen 2021 concordance, read off the rendered table book p.709-712 — VAT 10235:3=16:45, :4-6=3:68, :7-9=3:79 (‖ StBoT 36 C 3-4, Ḫattuša), :19-20=3:86-90 (‖ StBoT 36 C 9-12, Ḫattuša), :10-11=19/20:9, :12=17:90. NB an earlier pdftotext-derived list here was column-shifted and is corrected; see docs/sakikku-parallels.md)
+edition: Heeßel 2010, Assur-Forschungen (Maul and Heeßel eds.) 168-177; tablet VAT 10235, formerly KAR 211 (Ebeling), Assur
+dating: Middle Assyrian by paleography and syllabary (Heeßel 2010:175); pre-dates Esagil-kīn-apli's serialization of the diagnostic handbook in mid-11th c. BCE. Counted here as Middle Assyrian.
 note: >
-  Transliteration after Heeßel's sign-level Umschrift (2010a:171-173). Unlike
+  Transliteration after Heeßel's sign-level Umschrift (2010:171-173). Unlike
   Labat 1956, Heeßel preserves logograms as logograms (ŠU, SAG.DU, IGI.II,
   SAG.KI, ZAG, GUB, etc.), so the text is directly scoreable. Only the obverse
   1st column (the connected diagnostic entries) is scored; the reverse 4th
-  column survives only as traces (no connected sense, Heeßel 2010a:175) and is
+  column survives only as traces (no connected sense, Heeßel 2010:175) and is
   kept as a comment, as is the colophon. Hand-of-god diagnosis = ŠU {d}DN
   (qāt DN). dDIM.ME.LAGAB = aḫḫāzu-demon; dEN.ZU = Sin. Logograms uppercase,
   syllabic lowercase, {} determinative (excluded), [] restoration (dropped in
@@ -44,7 +44,7 @@ note: >
 22. DIŠ ina SAG.KI-šu ša GUB SIG-iṣ u IGI.II-šu DIRI.[MEŠ]-ḫa ŠU {d}EN.ZU
 23. ER DU-ak u UMBIN-šu
 
-# reverse 4th column: only traces, no connected sense (Heeßel 2010a:175) — not scored
+# reverse 4th column: only traces, no connected sense (Heeßel 2010:175) — not scored
 # Colophon (Rs. iv 7'-10', Hunger BAK no. 230):
 #   Ninurta-kudurrī-uṣur, mašmaššu of the god,
 #   son of Sin-mušēpi, the mašmaššu; written according to its original;
