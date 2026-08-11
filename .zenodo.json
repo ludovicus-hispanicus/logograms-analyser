@@ -17,12 +17,5 @@
     "logograms",
     "Sumerian",
     "Akkadian"
-  ],
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "scheme": "doi",
-      "identifier": "TODO-article-doi"
-    }
   ]
 }
