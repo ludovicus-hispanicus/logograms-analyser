@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+# Keep data/corpus-manifest.md and data/corpus_manifest.csv in step with data/.
+#
+# The manifest is generated, but it is tracked on purpose: the article's tables
+# are checked against it. That only works if it never disagrees with the corpus
+# it ships beside -- and it silently did, once, shipping "Emar 652: 3 omens" in
+# the same push that re-edited Emar 652 to 83.
+#
+# Enable (once per clone):  git config core.hooksPath .githooks
+set -e
+
+MANIFEST_MD="data/corpus-manifest.md"
+MANIFEST_CSV="data/corpus_manifest.csv"
+
+# Corpus files in this commit, ignoring the two generated outputs themselves.
+staged=$(git diff --cached --name-only --diff-filter=ACMRD -- data/ \
+         | grep -v -e "^$MANIFEST_MD$" -e "^$MANIFEST_CSV$" || true)
+[ -n "$staged" ] || exit 0
+
+# corpus_manifest.py reads the working tree, not the index. If a corpus file has
+# unstaged edits, the manifest would describe a state this commit does not
+# contain -- exactly the drift the hook exists to prevent. Stop instead.
+dirty=$(git diff --name-only -- data/ \
+        | grep -v -e "^$MANIFEST_MD$" -e "^$MANIFEST_CSV$" || true)
+if [ -n "$dirty" ]; then
+  echo "pre-commit: corpus files have unstaged changes, so the regenerated" >&2
+  echo "manifest would not match what you are committing:" >&2
+  echo "$dirty" | sed 's/^/  /' >&2
+  echo "Stage them, or stash them, then commit again." >&2
+  echo "(To bypass this once: git commit --no-verify)" >&2
+  exit 1
+fi
+
+if command -v py >/dev/null 2>&1; then PY="py -3"
+elif command -v python3 >/dev/null 2>&1; then PY="python3"
+else PY="python"; fi
+
+echo "pre-commit: corpus changed, regenerating the manifest..."
+$PY scripts/corpus_manifest.py >/dev/null
+git add "$MANIFEST_MD" "$MANIFEST_CSV"
