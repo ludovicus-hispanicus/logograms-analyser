@@ -15,10 +15,15 @@ It reports, per file:
 so we can see how much of the "high" astrological LDI is an artifact of
 reconstruction rather than the tablet itself.
 """
+import os
 import sys
+import warnings
 import yaml
 import pandas as pd
-from compute_ratios import annotate_omen, ldi
+
+# compute_ratios lives at the repo root, one level up from scripts/.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from compute_ratios import annotate_omen, ldi  # noqa: E402
 
 
 def split_frontmatter(content):
@@ -32,8 +37,10 @@ def split_frontmatter(content):
                 fm = yaml.safe_load(ps[1])
                 if fm:
                     meta = fm
-            except yaml.YAMLError:
-                pass
+            except yaml.YAMLError as e:
+                # Don't swallow: a broken header leaves the file with no metadata.
+                warnings.warn(f"unparsable YAML frontmatter, metadata ignored -- {e}",
+                              stacklevel=2)
     return meta, body
 
 

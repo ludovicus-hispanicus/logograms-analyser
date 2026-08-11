@@ -45,8 +45,11 @@ text, with options to exclude grammatical particles or count monograms
   catalogue of every manuscript (analysed / supplementary / excluded), and a
   **Text** browser spanning the corpus, the comparanda, and the KAL 5 supplement.
 - Standalone, Streamlit-free analysis library (`compute_ratios.py`) plus
-  genre-specific scripts (`analyze_astrology.py`, `analyze_restoration.py`,
-  `scripts/`).
+  command-line tools in `scripts/`, including genre-specific analyses
+  (`analyze_astrology.py`, `analyze_restoration.py`) and `corpus_manifest.py`,
+  which regenerates `data/corpus-manifest.md` — the per-text omen counts the
+  published tables are checked against. Run them from the repo root, e.g.
+  `py -3 scripts/corpus_manifest.py`.
 
 ## Corpus
 

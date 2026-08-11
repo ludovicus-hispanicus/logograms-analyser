@@ -1,5 +1,11 @@
-import pandas as pd, yaml, os, re
-from compute_ratios import load_local_data, ldi
+"""Neo astrology recension split (A/B). Run from the repo root:
+py -3 scripts/recsplit.py
+"""
+import pandas as pd, yaml, os, re, sys
+
+# compute_ratios lives at the repo root, one level up from scripts/.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from compute_ratios import load_local_data, ldi  # noqa: E402
 def rec_of(fp):
     with open(fp,encoding='utf-8') as f: c=f.read()
     if c.startswith('---'):

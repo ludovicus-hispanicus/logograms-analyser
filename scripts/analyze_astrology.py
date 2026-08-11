@@ -1,6 +1,15 @@
-"""Astrology-focused LDI analysis (uses the loader from compute_ratios)."""
+"""Astrology-focused LDI analysis (uses the loader from compute_ratios).
+
+Run from the repo root: py -3 scripts/analyze_astrology.py
+"""
+import os
+import sys
+
 import pandas as pd
-from compute_ratios import load_local_data, ldi, LOGOGRAM_PARTICLES, PERIOD_ORDER
+
+# compute_ratios lives at the repo root, one level up from scripts/.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from compute_ratios import load_local_data, ldi, LOGOGRAM_PARTICLES, PERIOD_ORDER  # noqa: E402
 
 ASTRO_GENRES = {"astrological omens", "astrology omens", "celestial"}
 
