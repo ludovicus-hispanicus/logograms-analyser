@@ -47,6 +47,7 @@ desktop/dist/
 desktop/package-lock.json
 # staged app files (copied from repo root by prepare-app.js)
 desktop/streamlit_app.py
+desktop/references.bib
 desktop/data/
 
 # Generated static web build (stlite/browser) — deployed by CI
