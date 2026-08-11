@@ -1,5 +1,6 @@
 ---
-genre: Unspecified
+exclude: true   # COMPARANDUM — Neo-Assyrian lunar-eclipse omens, EAE 15 parallel; outside the counted EAE 20–22 corpus
+genre: astrology (EAE 15 parallel)
 period: Neo-Assyrian
 counting: DIŠ
 publication: eBL fragment K.778

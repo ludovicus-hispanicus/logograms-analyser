@@ -2,7 +2,7 @@
 genre: extispicy omens
 period: Middle Assyrian
 provenance: Assur
-counting: BE
+counting: line
 topic: lung
 publication: Heeßel 2012 KAL 5 no. 63 (VAT 10418 + A 9 = KAR 430 +)
 feature: mukīl rēš ḫašî, SAGŠU MUR, ubān ḫašî kidītu ṣeḫertu

@@ -3,6 +3,7 @@ genre: diagnostic omens
 period: Old Babylonian
 provenance: Babylonia (eBL)
 counting: §
+edition: Geller 2001–2002 (AfO 48/49) 73–75 — new edition of LB 2126 (= TLB II 21, copy van Dijk), the only Old Babylonian exemplar of the diagnostic handbook Sakikkû then known; ten lines previously edited by Heeßel 2000.
 ---
 @obverse
 1'. [...] x-ma

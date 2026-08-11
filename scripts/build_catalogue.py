@@ -35,6 +35,8 @@ DISC = {"astrological omens": "Celestial / Astrological (Enūma Anu Enlil)",
         "diagnostic omens": "Diagnostic / Medical (Sakikkû)",
         "extispicy model": "Extispicy models & orientation texts",
         "prayer": "Other genres (comparanda)", "incantation": "Other genres (comparanda)",
+        "lecanomancy": "Other genres (comparanda)",
+        "astrology (EAE 15 parallel)": "Other genres (comparanda)",
         "Unspecified": "Unspecified"}
 DORD = ["Celestial / Astrological (Enūma Anu Enlil)", "Terrestrial (Šumma Ālu)",
         "Teratological (Šumma Izbu)", "Extispicy (bārûtu)", "Diagnostic / Medical (Sakikkû)",
