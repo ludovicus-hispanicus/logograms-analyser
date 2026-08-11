@@ -12,7 +12,7 @@ type: software
 authors:
   - family-names: "Sáenz"
     given-names: "Luis"
-    # TODO: add your ORCID, e.g. orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0000-0002-9107-6574"
 license: MIT  # software; the data/ corpus is CC-BY-4.0 (see data/LICENSE.txt)
 repository-code: "https://github.com/ludovicus-hispanicus/logograms-analyser"
 version: "1.0.0"
