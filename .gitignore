@@ -8,6 +8,8 @@ docs/The-Logographic-Shift.md
 docs/Doktorarbeit_final.docx
 docs/The-Logographic-Shift.docx
 docs/The-Logographic-Shift-1.docx
+# Review PDFs exported from the .md (see scripts/export_article.sh)
+docs/The-Logographic-Shift*.pdf
 
 # Word exports of the source catalogue (regenerated from the .md via pandoc)
 docs/catalogue-of-sources*.docx
@@ -15,6 +17,7 @@ docs/catalogue-of-sources*.docx
 # Office / editor lock and temp files
 ~$*
 .~lock.*#
+~WRL*.tmp
 
 # Local logs and Claude Code state
 *.log
@@ -48,3 +51,6 @@ desktop/data/
 
 # Generated static web build (stlite/browser) — deployed by CI
 desktop/web/
+
+# Reference PDFs kept locally, not distributed
+assets/literature/
