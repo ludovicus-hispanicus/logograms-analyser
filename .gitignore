@@ -11,6 +11,12 @@ docs/The-Logographic-Shift-1.docx
 # Review PDFs exported from the .md (see scripts/export_article.sh)
 docs/The-Logographic-Shift*.pdf
 
+# CHR 2027 submission — double-blind review, so the draft must not be findable
+# in a public, eponymous repository. Generated sweep output is regenerable via
+# scripts/restoration_sweep.py.
+docs/chr2027-*
+docs/restoration-sweep.csv
+
 # Word exports of the source catalogue (regenerated from the .md via pandoc)
 docs/catalogue-of-sources*.docx
 
