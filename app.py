@@ -137,6 +137,26 @@ def load_css():
             color: #D32F2F !important;
             border-bottom: 3px solid #D32F2F !important;
         }
+        /* LDI sub-view selector (segmented control) — read it as a tab strip:
+           flat segments, active one carries the app's red accent underline. */
+        .st-key-ldi_sub { margin-bottom: 1rem; }
+        .st-key-ldi_sub [data-baseweb="button-group"] { gap: 0.25rem; }
+        .st-key-ldi_sub button {
+            border: none !important;
+            border-bottom: 3px solid transparent !important;
+            background: transparent !important;
+            box-shadow: none !important;
+            border-radius: 0 !important;
+            color: #666 !important;
+            font-weight: 600 !important;
+        }
+        .st-key-ldi_sub button:hover { color: #111 !important; }
+        .st-key-ldi_sub button[aria-checked="true"],
+        .st-key-ldi_sub button[kind="primary"],
+        .st-key-ldi_sub button[data-testid="stBaseButton-primary"] {
+            color: #D32F2F !important;
+            border-bottom: 3px solid #D32F2F !important;
+        }
         /* Hand cursor on the open dropdown menu (selectbox option list).
            BaseWeb renders the menu in a portal, so target it broadly. */
         ul[role="listbox"], ul[role="listbox"] *,
@@ -694,6 +714,8 @@ CAT_DISCIPLINE = {
     "extispicy model":    "Extispicy models & orientation texts",
     "prayer":             "Other genres (comparanda)",
     "incantation":        "Other genres (comparanda)",
+    "lecanomancy":        "Other genres (comparanda)",
+    "astrology (EAE 15 parallel)": "Other genres (comparanda)",
 }
 CAT_DISCIPLINE_ORDER = [
     "Celestial / Astrological (Enūma Anu Enlil)", "Terrestrial (Šumma Ālu)",
@@ -710,6 +732,22 @@ def _cat_sigfmt(s):
     """Standard museum siglum from a filename stem: LETTERS.NUMBER -> 'LETTERS NUMBER'."""
     m = re.match(r'^([A-Za-z]{1,6})\.(\d.*)$', s)
     return f"{m.group(1)} {m.group(2)}" if m else s
+
+# How each text is segmented into omens (the `counting:` frontmatter field).
+_COUNTING_GLOSS = {
+    "line": "one omen per transliterated line (label lists and broken texts)",
+    "§":    "one omen per section marker (§)",
+}
+def counting_label(val):
+    """Human-readable description of a text's omen-counting convention, for the
+    Text-view metadata panel. Particle delimiters (DIŠ, BE, BAD, UD, AŠ, šum-ma, …)
+    each open a new omen; `line` counts every line; `§` counts by section marker."""
+    c = str(val or "").strip()
+    if not c or c in ("-", "None", "nan"):
+        return "numbered lines (fallback)"
+    if c in _COUNTING_GLOSS:
+        return f"{c} — {_COUNTING_GLOSS[c]}"
+    return f"{c} — new omen at each opening particle “{c}”"
 
 @st.cache_data
 def catalogue_rows():
@@ -1586,8 +1624,14 @@ def fetch_ebl_corpus(genre, category, index, stage, name):
 
 # --- Header: title (left, acts as Home) + nav tabs (right) on one line,
 #     sharing a bottom border that reads as the tab strip's baseline. ---
-NAV = ["Global", "Genre", "Region", "Topics", "Text", "Sources", "Bibliography", "Tools"]
+NAV = ["LDI", "Text", "Sources", "Bibliography", "Tools"]
 _PAGES = ["Introduction"] + NAV
+# The four LDI analyses used to be top-level tabs; they now live as sub-views
+# inside the single "LDI" tab, switched by a lazy selector (only the chosen one
+# renders). "Overview" is the former "Global" page.
+LDI_SUBPAGES = ["Overview", "Genre", "Region", "Topics"]
+_LEGACY_SUB = {"Global": "Overview", "Genre": "Genre",     # old ?nav= targets → LDI subpage
+               "Region": "Region", "Topics": "Topics"}
 
 # In-app links (e.g. "?nav=Introduction" inside markdown/tables) navigate here.
 # A "&ref=<bibkey>" (from a linkified citation) opens the Bibliography on that entry.
@@ -1595,6 +1639,10 @@ _qp_nav = st.query_params.get("nav")
 _qp_ref = st.query_params.get("ref")
 if _qp_nav in _PAGES:
     st.session_state['page'] = _qp_nav
+elif _qp_nav in _LEGACY_SUB:
+    # Old bookmarks (?nav=Global|Genre|Region|Topics) → the LDI tab, right sub-view.
+    st.session_state['page'] = "LDI"
+    st.session_state['ldi_sub'] = _LEGACY_SUB[_qp_nav]
 if _qp_ref:
     st.session_state['bib_ref'] = _qp_ref
     if _qp_nav not in _PAGES:
@@ -1606,6 +1654,7 @@ if _qp_nav is not None or _qp_ref is not None:
 if 'goto_nav' in st.session_state:
     st.session_state['page'] = st.session_state.pop('goto_nav')
 st.session_state.setdefault('page', "Introduction")
+st.session_state.setdefault('ldi_sub', "Overview")
 
 def _nav_to(p):
     st.session_state['page'] = p
@@ -2363,9 +2412,24 @@ elif st.session_state['annotations']:
     }
 
     # Page is chosen by the header nav (built at the top of the script).
-    # --- PAGE 1: Global ---
-    if page == "Global":
-        st.subheader("Global Analysis")
+    # The four LDI analyses share one "LDI" tab; a lazy sub-selector picks which
+    # one renders — only the chosen sub-view's body below executes, so switching
+    # never recomputes the others ("auf Bestellung"). Text stays its own top-level
+    # page and falls straight through to its block.
+    # NB: use a distinctive name — the chart blocks below reuse `sub` as a
+    # throwaway per-period DataFrame slice, so the view flag must not be `sub`.
+    ldi_view = st.session_state.get('ldi_sub', "Overview")
+    if page == "LDI":
+        # Initial selection comes from session_state['ldi_sub'] (pre-seeded above /
+        # by the legacy deep-link map); no `default=` here, to avoid Streamlit's
+        # "default value but also set via Session State" warning.
+        ldi_view = st.segmented_control(
+            "LDI view", LDI_SUBPAGES,
+            key='ldi_sub', label_visibility="collapsed") or "Overview"
+
+    # --- LDI ▸ Overview (formerly the "Global" tab) ---
+    if page == "LDI" and ldi_view == "Overview":
+        st.subheader("Overview")
 
         # Page-level controls drive both the LDI-by-Period table and the trend chart.
         metric, mono, pres = chart_controls("global")
@@ -2436,7 +2500,7 @@ elif st.session_state['annotations']:
         st.divider()
 
         # Global Chart — one trend line per genre across periods
-        st.subheader("Logographic Shift by Genre (diachronic trend)")
+        st.subheader("Logographic Shift by Discipline (diachronic trend)")
 
         if not bframe.empty:
             bf, gf = with_active(bframe, mono), with_active(gframe, mono)
@@ -2455,7 +2519,7 @@ elif st.session_state['annotations']:
                 trend, x='period', y=metric, color='genre', markers=True,
                 category_orders={'period': PERIOD_ORDER},
                 custom_data=['genre', 'n'], line_shape='spline',
-                title=f"Logographic Shift by Genre — pooled {metric} LDI across periods",
+                title=f"Logographic Shift by Discipline — pooled {metric} LDI across periods",
                 template="simple_white"
             )
             fig_trend.update_traces(
@@ -2468,17 +2532,17 @@ elif st.session_state['annotations']:
                 yaxis_title=f"LDI — {metric}",
                 yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
                 height=780,
-                legend_title_text="Genre", hovermode="closest"
+                legend_title_text="Discipline", hovermode="closest"
             )
             # Two-line tick labels so the long Neo period isn't clipped.
             fig_trend.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
                                    ticktext=[period_disp(p) for p in PERIOD_ORDER])
             st.plotly_chart(fig_trend, use_container_width=True, key="genre_trend")
-            st.caption(f"Each line = one genre; y = pooled **{metric}** LDI per period "
+            st.caption(f"Each line = one discipline; y = pooled **{metric}** LDI per period "
                        "(hover for omen counts). Switch the metric or monogram handling with the controls above.")
 
-    # --- PAGE: Region (find-spot: Babylonia / Assyria / Periphery) ---
-    if page == "Region":
+    # --- LDI ▸ Region (find-spot: Babylonia / Assyria / Periphery) ---
+    if page == "LDI" and ldi_view == "Region":
         st.subheader("Regional Analysis (by find-spot)")
         st.caption("Texts grouped by where the manuscript was excavated — **Babylonia** "
                    "(southern heartland), **Assyria** (northern heartland), **Periphery** "
@@ -2669,8 +2733,8 @@ elif st.session_state['annotations']:
                                    ticktext=[period_disp(p) for p in PERIOD_ORDER])
                 st.plotly_chart(fig_g, use_container_width=True, key=f"region_genre_{g}")
 
-    # --- PAGE: Topics (intra-genre sub-chapters) ---
-    if page == "Topics":
+    # --- LDI ▸ Topics (intra-genre sub-chapters) ---
+    if page == "LDI" and ldi_view == "Topics":
         st.subheader("Topic Analysis")
         st.caption("Omens split by **sub-chapter / subject** within a genre — extispicy by liver "
                    "region & lung (bārûtu chapters), astrology by celestial body & phenomenon "
@@ -3009,8 +3073,8 @@ elif st.session_state['annotations']:
                         legend_title_text="Period", hovermode="closest")
                     st.plotly_chart(figt, use_container_width=True, key=f"topic_text_chart_{ti}")
 
-    # --- PAGE 2: Genre ---
-    if page == "Genre":
+    # --- LDI ▸ Genre ---
+    if page == "LDI" and ldi_view == "Genre":
         st.subheader("Genre-Specific Analysis (one node per text)")
         st.caption("Each marker is a whole text (its pooled LDI), not a single omen — so the "
                    "curve traces tablet-by-tablet, coloured by period. **Click a node to open "
@@ -3208,7 +3272,8 @@ elif st.session_state['annotations']:
                 _h2.markdown(LEGEND_HTML, unsafe_allow_html=True)
                 meta = [f"**Period:** {first_row.get('period', '-')}",
                         f"**Genre:** {first_row.get('genre', '-')}",
-                        f"**Provenance:** {first_row.get('provenance', '-')}"]
+                        f"**Provenance:** {first_row.get('provenance', '-')}",
+                        f"**Counting:** {counting_label(first_row.get('counting'))}"]
                 meta += biblio_and_ebl_lines(first_row)
                 st.markdown("  \n".join(meta), unsafe_allow_html=True)
 
@@ -3247,7 +3312,8 @@ elif st.session_state['annotations']:
                     meta = [f"**Period:** {_cval(hrow, 'period')}",
                             f"**Genre:** {_cval(hrow, 'genre')}",
                             f"**Language:** {_cval(hrow, 'language')}",
-                            f"**Provenance:** {_cval(hrow, 'provenance')}"]
+                            f"**Provenance:** {_cval(hrow, 'provenance')}",
+                            f"**Counting:** {counting_label(_cval(hrow, 'counting'))}"]
                     meta += biblio_and_ebl_lines(hrow)
                     note = _cval(hrow, 'note')
                     if note != "-":
