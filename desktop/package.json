@@ -18,16 +18,36 @@
   "build": {
     "appId": "edu.ludovicus.logograms-analyser",
     "productName": "Logograms Analyser",
-    "files": ["build/**/*"],
-    "win": { "target": "nsis" },
-    "mac": { "target": "dmg" },
-    "linux": { "target": "AppImage" }
+    "files": [
+      "build/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "directories": {
+      "buildResources": "res",
+      "output": "dist"
+    }
   },
   "stlite": {
     "desktop": {
-      "files": ["streamlit_app.py", "references.bib", "data"],
+      "files": [
+        "streamlit_app.py",
+        "references.bib",
+        "data"
+      ],
       "entrypoint": "streamlit_app.py",
-      "dependencies": ["pandas", "plotly", "PyYAML"],
+      "dependencies": [
+        "pandas",
+        "plotly",
+        "PyYAML"
+      ],
       "embed": true
     }
   },
