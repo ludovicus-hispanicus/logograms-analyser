@@ -5,11 +5,22 @@ __pycache__/
 # Manuscript drafts (kept local — not part of the public corpus/tooling)
 Doktorarbeit_final.md
 docs/The-Logographic-Shift.md
+docs/The-Logographic-Shift*.md
 docs/Doktorarbeit_final.docx
 docs/The-Logographic-Shift.docx
 docs/The-Logographic-Shift-1.docx
 # Review PDFs exported from the .md (see scripts/export_article.sh)
 docs/The-Logographic-Shift*.pdf
+# Word exports with the article's content (see scripts/export_docx.py) and
+# their staging/delivery directories — the manuscript stays out of the repo
+docs/The-Logographic-Shift*.docx
+docs/_build/
+docs/_delivery/
+
+# Editor backup files
+*.bak
+*.bak[0-9]*
+*.bak[A-Za-z]*
 
 # CHR 2027 submission — double-blind review, so the draft must not be findable
 # in a public, eponymous repository. Generated sweep output is regenerable via

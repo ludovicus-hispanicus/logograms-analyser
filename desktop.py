@@ -62,7 +62,7 @@ def main():
     try:
         if not _wait_until_up(url):
             print("Streamlit did not start in time.", file=sys.stderr)
-        webview.create_window("Mesopotamian Omen Analyzer", url, width=1280, height=860)
+        webview.create_window("The Logogram Density Index (LDI)", url, width=1280, height=860)
         webview.start()                      # blocks until the window is closed
     finally:
         proc.terminate()

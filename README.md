@@ -1,3 +1,5 @@
+<img src="assets/logo/ldi-grid.svg" alt="" width="96" align="right"/>
+
 # Logograms Analyser
 
 A tool and corpus for tracking the **Logogram Density Index (LDI)** across a

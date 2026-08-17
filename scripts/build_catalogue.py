@@ -34,13 +34,16 @@ DISC = {"astrological omens": "Celestial / Astrological (Enūma Anu Enlil)",
         "extispicy omens": "Extispicy (bārûtu)",
         "diagnostic omens": "Diagnostic / Medical (Sakikkû)",
         "extispicy model": "Extispicy models & orientation texts",
+        "lecanomancy": "Lecanomancy",
+        # a witness to EAE 15, held out of the astrology counts as a parallel
+        "astrology (EAE 15 parallel)": "Celestial / Astrological (Enūma Anu Enlil)",
+        # not divination at all — these two are genres, not disciplines of it
         "prayer": "Other genres (comparanda)", "incantation": "Other genres (comparanda)",
-        "lecanomancy": "Other genres (comparanda)",
-        "astrology (EAE 15 parallel)": "Other genres (comparanda)",
         "Unspecified": "Unspecified"}
 DORD = ["Celestial / Astrological (Enūma Anu Enlil)", "Terrestrial (Šumma Ālu)",
         "Teratological (Šumma Izbu)", "Extispicy (bārûtu)", "Diagnostic / Medical (Sakikkû)",
-        "Extispicy models & orientation texts", "Other genres (comparanda)", "Unspecified"]
+        "Extispicy models & orientation texts", "Lecanomancy",
+        "Other genres (comparanda)", "Unspecified"]
 PORD = {"Old Babylonian": 1, "Late Old Babylonian": 2, "Early Middle Babylonian": 3,
         "Middle Babylonian": 4, "Middle Assyrian": 5, "Neo-Assyrian": 6,
         "Neo-Assyrian / Late Babylonian": 7, "Neo-Babylonian": 8, "Neo Babylonian": 8,
