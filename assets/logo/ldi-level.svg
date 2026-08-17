@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">A disc filled from the bottom to 0.679, the corpus logogram density.</desc>
+  <defs>
+    <clipPath id="disc"><circle cx="128" cy="128" r="92"/></clipPath>
+  </defs>
+  <circle cx="128" cy="128" r="92" fill="#D8D2C9"/>
+  <g clip-path="url(#disc)">
+    <rect x="36" y="95.1" width="184" height="124.9" fill="#D32F2F"/>
+  </g>
+  <circle cx="128" cy="128" r="92" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <g stroke="#D32F2F" stroke-width="5" stroke-linecap="round">
+    <line x1="16" y1="95.1" x2="30.1" y2="95.1"/>
+    <line x1="225.9" y1="95.1" x2="240" y2="95.1"/>
+  </g>
+</svg>

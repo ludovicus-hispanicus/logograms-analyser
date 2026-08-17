@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">Three wedges at the heights of the corpus bin, macro and micro LDI.</desc>
+  <path d="M38.0 98.6 L60.0 98.6 L60.0 214 Z" fill="#A32020"/><path d="M60.0 98.6 L82.0 98.6 L60.0 214 Z" fill="#D32F2F"/>
+  <path d="M106.0 110.5 L128.0 110.5 L128.0 214 Z" fill="#B94840"/><path d="M128.0 110.5 L150.0 110.5 L128.0 214 Z" fill="#E0645C"/>
+  <path d="M174.0 130.0 L196.0 130.0 L196.0 214 Z" fill="#C97771"/><path d="M196.0 130.0 L218.0 130.0 L196.0 214 Z" fill="#EE9A93"/>
+  <rect x="28.0" y="222" width="200" height="4" rx="2" fill="#9C9791" opacity="0.5"/>
+</svg>

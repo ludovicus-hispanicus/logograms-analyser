@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">Three lines of omen text on a clay tablet, each opening with the particle, coloured red where the writing is logographic and dark where it is syllabic.</desc>
+  <rect x="8" y="8" width="240" height="240" rx="36" fill="#EFE6D8" stroke="#DCCFB6" stroke-width="3"/>
+  <g opacity="0.55"><rect x="30" y="96" width="196" height="2" rx="1" fill="#DFD2BA"/></g>
+  <path d="M37.0 58 L46.5 58 L46.5 90 Z" fill="#2A6E2E"/><path d="M46.5 58 L56.0 58 L46.5 90 Z" fill="#388E3C"/>
+  <path d="M76.0 58 L85.5 58 L85.5 90 Z" fill="#A32020"/><path d="M85.5 58 L95.0 58 L85.5 90 Z" fill="#D32F2F"/>
+  <path d="M99.0 58 L108.5 58 L108.5 90 Z" fill="#A32020"/><path d="M108.5 58 L118.0 58 L108.5 90 Z" fill="#D32F2F"/>
+  <path d="M138.0 58 L147.5 58 L147.5 90 Z" fill="#242424"/><path d="M147.5 58 L157.0 58 L147.5 90 Z" fill="#3B3B3B"/>
+  <path d="M177.0 58 L186.5 58 L186.5 90 Z" fill="#A32020"/><path d="M186.5 58 L196.0 58 L186.5 90 Z" fill="#D32F2F"/>
+  <path d="M200.0 58 L209.5 58 L209.5 90 Z" fill="#A32020"/><path d="M209.5 58 L219.0 58 L209.5 90 Z" fill="#D32F2F"/>
+  <g opacity="0.55"><rect x="30" y="146" width="196" height="2" rx="1" fill="#DFD2BA"/></g>
+  <path d="M37.0 108 L46.5 108 L46.5 140 Z" fill="#2A6E2E"/><path d="M46.5 108 L56.0 108 L46.5 140 Z" fill="#388E3C"/>
+  <path d="M76.0 108 L85.5 108 L85.5 140 Z" fill="#A32020"/><path d="M85.5 108 L95.0 108 L85.5 140 Z" fill="#D32F2F"/>
+  <path d="M115.0 108 L124.5 108 L124.5 140 Z" fill="#242424"/><path d="M124.5 108 L134.0 108 L124.5 140 Z" fill="#3B3B3B"/>
+  <path d="M138.0 108 L147.5 108 L147.5 140 Z" fill="#242424"/><path d="M147.5 108 L157.0 108 L147.5 140 Z" fill="#3B3B3B"/>
+  <path d="M177.0 108 L186.5 108 L186.5 140 Z" fill="#A32020"/><path d="M186.5 108 L196.0 108 L186.5 140 Z" fill="#D32F2F"/>
+  <path d="M200.0 108 L209.5 108 L209.5 140 Z" fill="#A32020"/><path d="M209.5 108 L219.0 108 L209.5 140 Z" fill="#D32F2F"/>
+  <g opacity="0.55"><rect x="30" y="196" width="196" height="2" rx="1" fill="#DFD2BA"/></g>
+  <path d="M56.5 158 L66.0 158 L66.0 190 Z" fill="#2A6E2E"/><path d="M66.0 158 L75.5 158 L66.0 190 Z" fill="#388E3C"/>
+  <path d="M95.5 158 L105.0 158 L105.0 190 Z" fill="#A32020"/><path d="M105.0 158 L114.5 158 L105.0 190 Z" fill="#D32F2F"/>
+  <path d="M118.5 158 L128.0 158 L128.0 190 Z" fill="#A32020"/><path d="M128.0 158 L137.5 158 L128.0 190 Z" fill="#D32F2F"/>
+  <path d="M141.5 158 L151.0 158 L151.0 190 Z" fill="#A32020"/><path d="M151.0 158 L160.5 158 L151.0 190 Z" fill="#D32F2F"/>
+  <path d="M180.5 158 L190.0 158 L190.0 190 Z" fill="#242424"/><path d="M190.0 158 L199.5 158 L190.0 190 Z" fill="#3B3B3B"/>
+</svg>

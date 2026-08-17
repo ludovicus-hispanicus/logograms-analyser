@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">Twenty-five words at the corpus composition: solid where logographic, split where mixed, outlined where spelt out syllabically.</desc>
+  <rect x="18.0" y="18.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="64.0" y="18.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="110.0" y="18.0" width="36" height="36" rx="4" fill="#D8D2C9"/><path d="M114.0 18.0 H128.0 V54.0 H114.0 A4 4 0 0 1 110.0 50.0 V22.0 A4 4 0 0 1 114.0 18.0 Z" fill="#D32F2F"/>
+  <rect x="157.25" y="19.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="203.25" y="19.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="18.0" y="64.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="65.25" y="65.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="110.0" y="64.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="156.0" y="64.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="202.0" y="64.0" width="36" height="36" rx="4" fill="#D8D2C9"/><path d="M206.0 64.0 H220.0 V100.0 H206.0 A4 4 0 0 1 202.0 96.0 V68.0 A4 4 0 0 1 206.0 64.0 Z" fill="#D32F2F"/>
+  <rect x="19.25" y="111.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="64.0" y="110.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="110.0" y="110.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="157.25" y="111.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="202.0" y="110.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="18.0" y="156.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="64.0" y="156.0" width="36" height="36" rx="4" fill="#D8D2C9"/><path d="M68.0 156.0 H82.0 V192.0 H68.0 A4 4 0 0 1 64.0 188.0 V160.0 A4 4 0 0 1 68.0 156.0 Z" fill="#D32F2F"/>
+  <rect x="111.25" y="157.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="156.0" y="156.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="202.0" y="156.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="18.0" y="202.0" width="36" height="36" rx="4" fill="#D8D2C9"/><path d="M22.0 202.0 H36.0 V238.0 H22.0 A4 4 0 0 1 18.0 234.0 V206.0 A4 4 0 0 1 22.0 202.0 Z" fill="#D32F2F"/>
+  <rect x="64.0" y="202.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="111.25" y="203.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+  <rect x="156.0" y="202.0" width="36" height="36" rx="4" fill="#D32F2F"/>
+  <rect x="203.25" y="203.25" width="33.5" height="33.5" rx="3" fill="none" stroke="#B6AFA4" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">Sixteen words: solid where logographic, split where mixed, outlined where spelt out syllabically.</desc>
+  <rect x="14.0" y="14.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="76.5" y="16.5" width="43" height="43" rx="5" fill="none" stroke="#B6AFA4" stroke-width="5"/>
+  <rect x="134.0" y="14.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="194.0" y="14.0" width="48" height="48" rx="6" fill="#D8D2C9"/><path d="M200.0 14.0 H218.0 V62.0 H200.0 A6 6 0 0 1 194.0 56.0 V20.0 A6 6 0 0 1 200.0 14.0 Z" fill="#D32F2F"/>
+  <rect x="14.0" y="74.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="74.0" y="74.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="136.5" y="76.5" width="43" height="43" rx="5" fill="none" stroke="#B6AFA4" stroke-width="5"/>
+  <rect x="194.0" y="74.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="14.0" y="134.0" width="48" height="48" rx="6" fill="#D8D2C9"/><path d="M20.0 134.0 H38.0 V182.0 H20.0 A6 6 0 0 1 14.0 176.0 V140.0 A6 6 0 0 1 20.0 134.0 Z" fill="#D32F2F"/>
+  <rect x="76.5" y="136.5" width="43" height="43" rx="5" fill="none" stroke="#B6AFA4" stroke-width="5"/>
+  <rect x="134.0" y="134.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="196.5" y="136.5" width="43" height="43" rx="5" fill="none" stroke="#B6AFA4" stroke-width="5"/>
+  <rect x="14.0" y="194.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="74.0" y="194.0" width="48" height="48" rx="6" fill="#D8D2C9"/><path d="M80.0 194.0 H98.0 V242.0 H80.0 A6 6 0 0 1 74.0 236.0 V200.0 A6 6 0 0 1 80.0 194.0 Z" fill="#D32F2F"/>
+  <rect x="134.0" y="194.0" width="48" height="48" rx="6" fill="#D32F2F"/>
+  <rect x="196.5" y="196.5" width="43" height="43" rx="5" fill="none" stroke="#B6AFA4" stroke-width="5"/>
+</svg>

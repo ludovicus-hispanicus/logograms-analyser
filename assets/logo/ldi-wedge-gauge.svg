@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">A cuneiform wedge filled from its point to the pooled bin LDI of the corpus.</desc>
+  <defs>
+    <clipPath id="belowLevel"><rect x="0" y="94.6" width="256" height="161.4"/></clipPath>
+  </defs>
+  <!-- the unwritten part of the wedge -->
+  <g><path d="M74 40 L128 40 L128 210 Z" fill="#767068"/><path d="M128 40 L182 40 L128 210 Z" fill="#9C9791"/></g>
+  <!-- filled to bin = 0.679: how much of the writing is logographic -->
+  <g clip-path="url(#belowLevel)"><path d="M74 40 L128 40 L128 210 Z" fill="#A32020"/><path d="M128 40 L182 40 L128 210 Z" fill="#D32F2F"/></g>
+  <!-- the reading, ticked off either side of the wedge -->
+  <g stroke="#D32F2F" stroke-width="4" stroke-linecap="round" opacity="0.55">
+    <line x1="52" y1="94.6" x2="81.3" y2="94.6"/>
+    <line x1="174.7" y1="94.6" x2="204" y2="94.6"/>
+  </g>
+  <!-- the ruling the sign stands on -->
+  <rect x="62" y="230" width="132" height="4" rx="2" fill="#9C9791" opacity="0.45"/>
+</svg>

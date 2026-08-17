@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">Nine words: solid where logographic, split where mixed, outlined where spelt out syllabically.</desc>
+  <rect x="16.0" y="16.0" width="64" height="64" rx="7" fill="#D32F2F"/>
+  <rect x="99.0" y="19.0" width="58" height="58" rx="5" fill="none" stroke="#B6AFA4" stroke-width="6"/>
+  <rect x="176.0" y="16.0" width="64" height="64" rx="7" fill="#D32F2F"/>
+  <rect x="16.0" y="96.0" width="64" height="64" rx="7" fill="#D8D2C9"/><path d="M23.0 96.0 H48.0 V160.0 H23.0 A7 7 0 0 1 16.0 153.0 V103.0 A7 7 0 0 1 23.0 96.0 Z" fill="#D32F2F"/>
+  <rect x="96.0" y="96.0" width="64" height="64" rx="7" fill="#D32F2F"/>
+  <rect x="179.0" y="99.0" width="58" height="58" rx="5" fill="none" stroke="#B6AFA4" stroke-width="6"/>
+  <rect x="16.0" y="176.0" width="64" height="64" rx="7" fill="#D32F2F"/>
+  <rect x="96.0" y="176.0" width="64" height="64" rx="7" fill="#D32F2F"/>
+  <rect x="179.0" y="179.0" width="58" height="58" rx="5" fill="none" stroke="#B6AFA4" stroke-width="6"/>
+</svg>

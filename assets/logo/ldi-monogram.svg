@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 128" width="274" height="128" role="img" aria-labelledby="t d">
+  <title id="t">Logogram Density Index</title>
+  <desc id="d">LDI as a wordmark, the D filled to the index it names.</desc>
+  <defs>
+    <clipPath id="dLetter"><path d="M124 24 H156 A40 40 0 0 1 156 104 H124 Z"/></clipPath>
+  </defs>
+  <!-- L -->
+  <path d="M36 24 H58 V82 H104 V104 H36 Z" fill="#23211E"/>
+  <!-- D, read as a vessel: neutral above the reading, filled below it -->
+  <path d="M124 24 H156 A40 40 0 0 1 156 104 H124 Z" fill="#CFC8BD"/>
+  <g clip-path="url(#dLetter)">
+    <rect x="120" y="49.7" width="90" height="54.3" fill="#D32F2F"/>
+  </g>
+  <!-- I -->
+  <rect x="216" y="24" width="22" height="80" fill="#23211E"/>
+</svg>
