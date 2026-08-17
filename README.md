@@ -2,114 +2,174 @@
 
 # Logograms Analyser
 
-A tool and corpus for tracking the **Logogram Density Index (LDI)** across a
-diachronic corpus of Mesopotamian omen texts — measuring the "logographic
-shift," the increasing use of Sumerian logograms in cuneiform divination from
-the Old Babylonian period into the first millennium BCE.
+A tool and corpus for measuring the **Logogram Density Index (LDI)** across a
+diachronic corpus of Mesopotamian omen texts: the "logographic shift", the
+increasing use of Sumerian logograms in cuneiform divination from the Old
+Babylonian period into the first millennium BCE.
 
 <!-- TODO: add once the Zenodo DOI is minted:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 -->
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-green.svg)](data/LICENSE)
 
 This repository accompanies the article *The Logographic Shift: Tracking the
-'Sumerianizing' Process in Cuneiform Divination* (Luis Sáenz, forthcoming).
+"Sumerianizing" Process in Cuneiform Divination* (Luis Sáenz, forthcoming).
 
-## What it does
+![The logographic shift by period](assets/general-trend.png)
 
-The **Logogram Density Index (LDI)** is the share of logographic writing among
-the meaningful tokens of a text, ranging from 0 (fully syllabic/phonetic) to 1
-(fully logographic). Determinatives (classifiers) are excluded; each remaining
-token is classified as logogram, phonetic, or other.
+Across **6,978 omens in 196 texts**, the index rises from 0.33 in the Old
+Babylonian period to 0.69 in the Middle period and 0.75 in the first
+millennium: writing that begins as syllabic Akkadian ends up almost entirely
+logographic, without the language itself changing.
 
-Because a single word can mix logographic and syllabic signs (e.g. DU-*ak*,
-one logogram + one phonetic complement), the index is reported in **three graded
-forms**:
+## The index
+
+The **LDI** is the share of logographic writing in an omen, from 0 (fully
+syllabic) to 1 (fully logographic). It measures the *written surface*, not the
+language beneath it: two tablets transmitting the same Akkadian words can score
+very differently.
+
+Because a single word can mix logographic and syllabic signs (`DU-ak`, one
+logogram plus one phonetic complement), the index is reported in three forms:
 
 ```
-bin    = logographic words / words          # by word, all-or-nothing
+bin    = logographic words / words           # by word, all-or-nothing
 macro  = mean of each word's logogram share  # by word, graded
 micro  = logographic signs / signs           # by sign
 ```
 
-- **bin** — a word counts as logographic (1) or not (0); this is the simple
-  `logograms / (logograms + phonetic spellings)` ratio. DU-*ak* counts as 1.
-- **macro** — averages each word's own logographic fraction, so DU-*ak* counts
+- **bin** — a word counts as logographic (1) or not (0). `DU-ak` counts as 1.
+- **macro** — averages each word's own logographic fraction, so `DU-ak` counts
   as 0.50 (one logographic sign of two).
 - **micro** — weighs by sign, dividing logographic signs by all signs.
 
-The three coincide for text written strictly word-by-word and diverge only where
-words mix scripts. The app aggregates all three by period, genre, region, and
-text, with options to exclude grammatical particles or count monograms
-(*ina*/*ana*) as logograms.
+`bin` is never lower than `macro`. Beyond that the three are **not ordered**:
+`micro` weighs each word by its length, so whether it lands above or below
+`macro` depends on whether a text's longer words are its more or its less
+logographic ones. They diverge both over mixed words and over multi-sign
+logograms, since a compound such as `E₂.KUR.MEŠ` counts once in `bin` but three
+times in `micro`.
 
-- Interactive [Streamlit](https://streamlit.io) app (`app.py`): annotation
-  editor, per-text and per-omen views, diachronic Plotly charts, a **Sources**
-  catalogue of every manuscript (analysed / supplementary / excluded), and a
-  **Text** browser spanning the corpus, the comparanda, and the KAL 5 supplement.
-- Standalone, Streamlit-free analysis library (`compute_ratios.py`) plus
-  command-line tools in `scripts/`, including genre-specific analyses
-  (`analyze_astrology.py`, `analyze_restoration.py`) and `corpus_manifest.py`,
-  which regenerates `data/corpus-manifest.md` — the per-text omen counts the
-  published tables are checked against. Run them from the repo root, e.g.
-  `py -3 scripts/corpus_manifest.py`.
+### Counting conventions
 
-## Corpus
+Any such index rests on counting decisions, and the figures move with them. The
+canonical convention here is: **determinatives excluded** from numerator and
+denominator; **Sumerian (`%sux`) held out**, since the index measures how
+Akkadian is written; the **omen-opening particle** (DIŠ, BE, BAD, UD, AŠ)
+**counted** as the logogram it is; the one-sign prepositions ***ina*/*ana*
+counted as syllabic**; the editor's **restorations counted**; and the
+number-logograms 15 (ZAG), 150 (GUB₃) and 30 (Sîn) counted as logograms.
+Paratext is excluded before counting: the contents of eBL-ATF discourse
+sections (`@colophon`, `@catchline`, …) and `!cm`/`!qt`/`!zz` commentary spans.
 
-The `data/` directory holds the transliteration corpus, organized by period and
-divination genre:
+None of these is the only defensible choice, so the app never hides them behind
+a switch: **every report table prints the alternatives as columns** beside the
+baseline (*ina*/*ana* as logographic, restorations dropped, particle excluded),
+together with the word composition the three measures summarise
+(pure-logographic / mixed / syllabic). Corpus-wide the conventions span
+0.465–0.736, which is why a bare figure is not portable between studies.
+
+The segmentation rules are documented in full in
+[`data/corpus-counting.md`](data/corpus-counting.md).
+
+## The corpus
+
+`data/` holds the transliteration corpus, organised by period and by divination
+discipline:
 
 ```
 data/
-  old/        Old Babylonian
-  middle/     Middle Babylonian / Middle Assyrian
-  new/        First-millennium (Neo-Assyrian / Neo-Babylonian)
-  _comparanda/  cross-cultural comparison texts (Hittite, Hurrian, models)
-  kal5/       supplementary KAL 5 extispicy witnesses (Heeßel 2012; held out of the counts)
-        astrology/ diagnostic/ extispicy/ izbu/ terrestrial/
+  old/          Old Babylonian ................... 761 omens (29 texts)
+  middle/       Middle Babylonian / Assyrian .... 2,325 omens (88 texts)
+  new/          First-millennium (NA / NB / LB) . 3,892 omens (79 texts)
+      └── astrology/ diagnostic/ extispicy/ izbu/ terrestrial/
+  _comparanda/  held out: Hittite and Hurrian recensions, lung and liver
+                models, an incantation and a prayer for cross-genre contrast
+  kal5/         supplementary Aššur extispicy witnesses (Heeßel 2012 KAL 5),
+                documented but kept out of the counts
 ```
 
-Primary text editions underlying the transliterations are documented in
+Each text carries YAML frontmatter (period, provenance, discipline, edition,
+counting mode). Folder depth supplies topic and feature, so
+`extispicy/liver/martu/` is scored as its own topic-controlled arc.
+
+[`data/corpus-manifest.md`](data/corpus-manifest.md) lists every text with its
+omen count; the primary editions behind the transliterations are recorded in
 [`references.bib`](references.bib).
 
-## Running it locally
+## Using it
 
-Requires Python 3.11+.
+**In the browser** — a WebAssembly build (stlite) runs the whole app and corpus
+client-side, with no server, published to GitHub Pages by
+[`deploy-pages.yml`](.github/workflows/deploy-pages.yml).
+
+**As a desktop app** — an Electron package that needs no Python installation:
+
+```bash
+cd desktop
+npm install
+npm run build      # stage the app + corpus, dump the stlite artifacts
+npm run app:dist   # installer in desktop/dist/
+```
+
+**Locally** — requires Python 3.11+:
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app.py       # then open http://localhost:8501
 ```
 
-Then open http://localhost:8501.
-
-> On Windows where `python` may resolve to an msys2 build without pip, use the
+> On Windows, where `python` may resolve to an msys2 build without pip, use the
 > launcher: `py -m streamlit run app.py`.
 
-### Contributing to the corpus
+The app has four tabs: **LDI** (five views: overview, discipline, region,
+topics, and a per-text browser with sign-by-sign colour coding), **Sources** (a
+catalogue of every manuscript with its metadata, LDI and eBL link),
+**Bibliography**, and **Tools** (measure a pasted line, import your own texts).
 
-`data/corpus-manifest.md` and `data/corpus_manifest.csv` list every text with
-its omen count, and are generated by `scripts/corpus_manifest.py`. They are
-committed so the published tables can be checked against them, which means they
-must never disagree with the corpus they ship beside. Enable the hook that keeps
-them in step, once per clone:
+## Reproducing the published figures
+
+Everything in the article is regenerable from the corpus:
+
+```bash
+py -3 scripts/corpus_manifest.py    # per-text omen counts (data/corpus-manifest.md)
+py -3 reproduce_tables.py           # every table of figures reported in the article
+py -3 scripts/make_figures.py       # all 18 charts into assets/
+py -3 scripts/restoration_sweep.py  # the restoration sensitivity sweep
+```
+
+`compute_ratios.py` is the Streamlit-free analysis library behind them, and
+mirrors the app's scoring exactly, so a batch run and the app never disagree.
+
+## Contributing to the corpus
+
+`data/corpus-manifest.md` and `data/corpus_manifest.csv` are committed so the
+published tables can be checked against them, which means they must never
+disagree with the corpus they ship beside. Enable the hook that keeps them in
+step, once per clone:
 
 ```bash
 git config core.hooksPath .githooks
 ```
 
 It regenerates both files whenever a commit touches `data/`, and refuses the
-commit if corpus files have unstaged edits — otherwise the manifest would
+commit if corpus files have unstaged edits, since the manifest would otherwise
 describe a state the commit does not contain.
+
+One trap when adding texts: in YAML frontmatter, quote any value containing a
+colon followed by a space, or the whole header fails to parse and the text
+silently loses its metadata.
 
 ## Licensing
 
 - **Software** (`app.py`, `compute_ratios.py`, `scripts/`, …):
   [MIT License](LICENSE).
-- **Data** (the `data/` corpus and derived tables): [CC BY 4.0](data/LICENSE.txt).
+- **Data** (the `data/` corpus and derived tables): [CC BY 4.0](data/LICENSE).
 
 Individual omen transliterations are based on published cuneiform text editions;
-users remain responsible for citing the underlying primary editions
-(see `references.bib`).
+users remain responsible for citing the underlying primary editions (see
+[`references.bib`](references.bib)).
 
 ## Citation
 
