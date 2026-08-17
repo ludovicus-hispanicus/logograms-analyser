@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Assyrian
 provenance: Assur (Ass 4347)
 publication: Heeßel 2007 (KAL 1) no. 16 = VAT 10167 (KAR 382, = A). Middle Assyrian; lizard (EME.DIR) omens ≈ Šumma Ālu 24. Largely-preserved two-sided tablet (the substantial MA lizard witness).

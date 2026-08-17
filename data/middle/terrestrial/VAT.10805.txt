@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Assyrian
 provenance: Assur
 publication: Heeßel 2007 (KAL 1) no. 15 = VAT 10805. Middle Assyrian; snake (MUŠ) omens ≈ Šumma Ālu 23. (page_008 head + page_009 continuation.)

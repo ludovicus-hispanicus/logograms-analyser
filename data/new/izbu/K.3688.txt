@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Neo-Assyrian
 provenance: Kuyunjik
 publication: eBL fragment K.3688; De Zorzi 2014 (HANE/M 15) canonical Summa izbu

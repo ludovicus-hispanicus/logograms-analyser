@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Neo-Assyrian
 provenance: first-millennium canonical Šumma Ālu (Nineveh, Kalḫu, Assur, Uruk, Sultantepe); Tablet 24 colophon names Kalḫu + an eponym of Sargon II
 publication: S. Freedman, If a City Is Set on a Height, Vol. 2 (OPKF 19, 2006), Tablet 32 (Nineveh recension; EME.ŠID, omens 1'–63') (lizard omens), Reconstruction (composite text). OCR of the printed Reconstruction; footnotes/translation/colophons excluded.

@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Old Babylonian
 provenance: unknown (purchased; southern Babylonia, Rim-Sin/Hammurabi era)
 publication: YOS 10 56 (Goetze 1947); ed. Leichty TCS 4, 201-206 (Old Babylonian Version)

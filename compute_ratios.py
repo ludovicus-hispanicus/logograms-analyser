@@ -1,6 +1,7 @@
 """Standalone LDI computation — mirrors app.py logic without Streamlit."""
 import os
 import re
+import warnings
 import yaml
 import pandas as pd
 
@@ -26,6 +27,49 @@ MONOGRAM_PARTICLES = {'ina', 'ana'}
 # damaged-but-legible signs (marked '#') are kept. See strip_restored().
 RESTORED_SPAN = re.compile(r'\[[^\[\]]*\]')
 
+# eBL-ATF "discourse" sections that are paratext, not omen text: a colophon's
+# scribe/date lines (often ending in a Sumerian year-name) or a catchline (the
+# incipit of the NEXT tablet) must not enter any count.
+NON_TEXT_SECTIONS = {'colophon', 'catchline', 'date', 'signature', 'signatures',
+                     'summary', 'witnesses'}
+
+# eBL-ATF commentary protocols: '!cm' (commentary), '!qt' (quotation) and '!zz'
+# (uncertain) open a span that is not base text; '!bs' returns to base text.
+# A protocol stands at the start of a line (after the line number) and stays in
+# force until replaced, following the eBL-ATF specification.
+PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+
+
+def strip_paratext(lines):
+    """Drop paratext before omen segmentation (both loaders call this).
+
+    Removes the content lines of NON_TEXT_SECTIONS (the '@' marker itself is
+    kept, so segmenters still see the section change) and every line inside a
+    !cm/!qt/!zz commentary span until a !bs resumes the base text."""
+    out = []
+    in_paratext = False
+    in_commentary = False
+    for line in lines:
+        s = line.strip()
+        if s.startswith('@'):
+            name = s.lstrip('@').strip().lower()
+            in_paratext = bool(name) and name.split()[0] in NON_TEXT_SECTIONS
+            out.append(line)
+            continue
+        if in_paratext:
+            continue
+        m = PROTOCOL_RE.match(s)
+        if m:
+            in_commentary = m.group(2) != 'bs'
+            rest = (m.group(1) or '') + (m.group(3) or '')
+            if not in_commentary and m.group(3):
+                out.append(rest)   # '!bs' line: keep its content, drop the marker
+            continue
+        if in_commentary:
+            continue
+        out.append(line)
+    return out
+
 
 def strip_restored(text):
     """Replace fully-restored '[ ... ]' spans with '...' (an ignored token).
@@ -42,12 +86,16 @@ def strip_restored(text):
 
 PERIOD_MAPPING = {
     "Old Babylonian": "Old Period", "Old Assyrian": "Old Period",
+    "Early Old Babylonian": "Old Period",
     "Late Old Babylonian": "Old Period",
     "Middle Babylonian": "Middle Period", "Middle Assyrian": "Middle Period",
     "Early Middle Babylonian": "Middle Period",
+    "Late Middle Babylonian": "Middle Period",
     "Neo-Assyrian": "Neo Period", "Neo Babylonian": "Neo Period",
     "Neo-Babylonian": "Neo Period",
     "Late Babylonian": "Neo Period",
+    "Late-Babylonian": "Neo Period",
+    "Neo-Assyrian / Late Babylonian": "Neo Period",
 }
 PERIOD_ORDER = ["Old Period", "Middle Period", "Neo Period"]
 
@@ -214,8 +262,22 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     body = ps[2]
                     try:
                         fm = yaml.safe_load(ps[1])
-                        if fm: metadata.update(fm)
-                    except yaml.YAMLError: pass
+                        if fm:
+                            # The corpus field is `discipline:` (the genre is
+                            # divination; extispicy, astrology … are disciplines
+                            # of it). `genre:` is still read so older files — and
+                            # the two comparanda that really are other genres,
+                            # prayer and incantation — keep working.
+                            if 'discipline' in fm and 'genre' not in fm:
+                                fm['genre'] = fm['discipline']
+                            metadata.update(fm)
+                    except yaml.YAMLError as e:
+                        # Never swallow this: a broken header means the file keeps
+                        # NO metadata at all (period, genre, counting), so it silently
+                        # drops out of every grouped figure. Usually an unquoted ': '
+                        # inside a prose value -- quote the value or rephrase.
+                        warnings.warn(f"{fp}: unparsable YAML frontmatter, metadata ignored -- {e}",
+                                      stacklevel=2)
 
             if metadata.get("exclude"):  # documented but kept out of all counts
                 continue
@@ -225,7 +287,7 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
 
             current_section = "Unspecified"
             current_omen_id = "Unknown"
-            lines = body.splitlines()
+            lines = strip_paratext(body.splitlines())
 
             if metadata.get("counting") == "§":
                 section_omens = {}

@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Neo-Assyrian / Late Babylonian
 provenance: first-millennium canonical; 36 manuscripts (Nineveh (34), Uruk (1), Babylonia (1))
 recension: Enūma Anu Enlil 55, eBL composite (Standard Babylonian)

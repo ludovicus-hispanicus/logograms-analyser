@@ -1,0 +1,4 @@
+# The app's accent, so radios, checkboxes, focus rings and selections are
+# painted in the same red as the logo and the logogram colour in the texts.
+[theme]
+primaryColor = "#D32F2F"

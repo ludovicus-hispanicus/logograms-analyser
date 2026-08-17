@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Neo-Assyrian
 provenance: first-millennium canonical Šumma Ālu (Nineveh/Assur/Uruk etc.); 11 manuscripts
 publication: eBL corpus D/2/6 chapter SB 103 = canonical Šumma Ālu Tablet 103 (Project Ālu Geneva). Composite (reconstruction) read off the chapter score.

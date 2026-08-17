@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Babylonian
 provenance: Susa (Ville Royale, level A XII; end of the sukkalmah period, late 15th/early 14th c. BCE)
 publication: MDP 57 no. 10 (Labat 1974), Suse XII/4
@@ -90,5 +90,7 @@ source_note: Transcription from MDP 57 (Labat 1974) pp.221-224 (Obv 1-43, Rev 1-
 33. DIŠ 2 GÍR+ZAL-šu-ma it-gu-ra KUR ḪUL-ti MAN-tum
 34. DIŠ qí-in-na-as-sú NU Ì.GÁL KUR KALA.SAL IGI-mar
 35. DIŠ LAGAB-uq ZÁḪ KUR-ti
+
+@colophon
 36. MU.BI NIGIN 60+11 ŠU Ì-li-ma-ilu
 37. {m}Šu-úr-ri-{d}UTU

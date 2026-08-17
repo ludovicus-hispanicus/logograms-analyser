@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Neo Babylonian
 provenance: VAT.14545
 recension: canonical Sakikkû Tablet 14, manuscript E (Schmidtchen 2021 BAM 13)

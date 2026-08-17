@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Late Old Babylonian
 provenance: Tigunanum (CUSAS 18 no. 19)
 publication: George 2013, CUSAS 18 no. 19 = MS 1805

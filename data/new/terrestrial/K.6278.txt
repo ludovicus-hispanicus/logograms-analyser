@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Neo-Assyrian
 provenance: Nineveh (Kuyunjik)
 publication: "K 6278 (+) Rm-II 389; eBL ATF. Edition: de Zorzi 2009 (KASKAL 6). Neo-Assyrian DUPLICATE of the Middle-Babylonian BM 108874 — the same bird-flight augury omens (Šumma ālu aḫû), a millennium later."

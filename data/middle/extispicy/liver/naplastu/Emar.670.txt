@@ -1,46 +1,63 @@
 ---
-genre: extispicy omens
+discipline: extispicy omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 tradition: Western periphery
 counting: BE
 topic: manzāzu / the Station (ki.gub = KI.GUB)
-publication: Arnaud 1987, Emar VI/4 no. 670 (Msk 731040), hepatoscopic divination, le ki.gub; LBA; partial duplicate YOS 10 63 (Kassite, Kish)
-note: ki.gub (KI.GUB) = manzāzu, the Station — the same liver feature as the naplastu/manzāzu arc in §III.2. Hand-transcribed from Arnaud; lowercase Sumerograms converted to UPPERCASE per project convention. Legible obverse given; broken spans marked. ZAG=right, GÙB=left. Logograms uppercase, syllabic lowercase, {} det., [] restoration, x illegible. Not in eBL.
+publication: Arnaud 1987, Emar VI/4 no. 670 (Msk 731040, 120 x 95 x 33), hepatoscopic divination, le ki.gub; LBA; partial duplicate YOS 10 63 (Kassite, Kish)
+coverage: COMPLETE. All 50 transliterated lines of Arnaud pp. 289-290 are given, using HIS line numbers. The previous version of this file carried its own sequential numbering that silently drifted from the edition by up to 7 lines from its label 28 onward (its "33" was Arnaud's 40); all line numbers here are Arnaud's and are citable as such.
+structure: Arnaud gives no obverse/reverse division. Lines 17, 28, 31, 33, 38, 45 and 48 are runovers (indented continuations, most marked ":" in the edition) of the preceding line; they are numbered by Arnaud and kept as separate lines here, marked ($___$). Under counting=BE the loader folds them back into their parent omen automatically, since they do not open with BE. Two further lines fold the same way because their opener is broken off rather than because they are runovers — l. 22 (into 21) and the scrap l. 50 (into 49).
+note: Hand-transcribed from Arnaud. He prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are UPPERCASED here per project convention. Arnaud's superscript collation ticks are rendered as "!". ki.gub (KI.GUB) = manzāzu, the Station — the same liver feature as the naplastu/manzāzu arc in the article's §III.2. ZAG = right, GÙB = left. The runs of unidentified signs Arnaud prints raw at ll. 18-20 ("qar qar ru", "nin qar qar") are left lowercase, conservatively, since it is not established that they are logographic — the same treatment as Emar 669:43. Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, <> scribal omission, «» scribal erasure omitted, x illegible. Not in eBL (Msk excavation numbers return 404; the fragmentarium holds no Emar material).
 ---
 
-@obverse
-3. [BE K]I.GUB ip-h[u-]ur-ma ana GIŠ.TUKUL i-tu-[ur U₄ NUN]
+1. [BE KI.GUB ip-hu-ur-ma a-na G]IŠ.TU[KUL ka-mu a-na pa-ni ŠUB-ut x
+2. [BE KI.]G[UB pa-]ri-ik t[i-bu-ut
+3. [BE K]I.GUB ip-h[u-]ur-ma ana GIŠ.TUKUL i-tu-[ur U₄ NUN
 4. [BE K]I.GUB ip-hu-ur-ma 1.KÁM i-tu-ur [URU{ki} DIB-bat]
-5. [BE KI.GUB] ip-hu-ur-ma 1.KÁM i-tu-ur-ma u [GI₆]
-6. [BE KI.GUB MI]N ana GIŠ.TUKUL ni-ip-hu SISKUR.SISKUR DINGIR-lum DINGIR x [...]
-7. [BE KI.GUB MI]N ana ŠEŠ IGI ŠEŠ te-bu-ma ŠI.ŠI NUN ki-su a[-na ŠÀ KUR]
-8. [BE KI.GUB ina] IGI a-mu-ti ana ZAG GAR U₄-mi NUN ki ga-[am-ru]
-9. [BE KI.GUB] pa-ri-ik ana GIŠ.TUKUL ri-ig-mu ana ERIM-ni-ia ŠUB-u[t]
-10. [BE KI.GU]B ki-ma U <i>-ta-ad-di-im-ma u ŠÀ-šu BABBAR-ma te-er-ri [...]
+5. [BE K]I.[GUB] ip-hu-ur-ma 1.KÁM i-tu-ur-ma u [GE₆
+6. [BE KI.GUB KI.MI]N ana GIŠ.TUKUL ni-ip-hu ina SISKUR.SISKUR DINGIR-lum! DINGIR x[
+7. [BE KI.GUB KI.MI]N-ma ŠEŠ IGI ŠEŠ te-bu-ma ŠI.ŠI NUN ki-su a[-na ŠÀ KUR
+8. [BE KI.GUB in]a IGI! a-mu-ti ana ZAG GAR U₄-mi NUN KI DINGIR-lì ga-[am-ru]
+9. [BE KI.GUB] pa-ri-ik ana GIŠ!.TUKUL ri-ig-mu ana ERIM-ni-ia ŠUB-u[t]
+10. [BE KI.GUB] ki-ma U <i>-ta-ad-di-im-ma u ŠÀ-šu BABBAR-ma te-er-tu! x[
 11. [BE KI.GU]B i-ra-at <MUŠ> TUKU LÚ.KÚR in-na-mar
-12. BE KI.GUB ka-ia-ma-nu GAR-ma KI.MIN ina GÙB-šu la ša-wa-r[i i-ṣa-ab-bat]
-13. BE KI.GUB ka-ia-ma-nu GAR-ma KI.MIN ina IGI a-mu-ti ina ZAG GAR LUGAL ki[-šu]
-14. BE ma-aš-ka-an KI.GUB e-ki-mi za-qí-ir-ma UGU-šu ma-l[i]
-15. BE ma-aš-ka-an KI.GUB k[i-m]a e-ki-mi za-qí-ir-ma KI.GUB e[-li]
-16. BE ina si-ip-pi KI.GUB a[n.t]a KI.GUB KI.MIN GAR ana GIŠ.TUKUL DINGIR-lam ki [...]
-18. BE KI.GUB ka-ia-ma-nu [ga]r KI.MIN ina SAG KI.GUB e-ṣi-ir qar ru [...]
-19. BE KI.GUB k[a-ia-m]a-nu GAR-ma KI.MIN ina MURUB₄ KI.GUB e-ṣi-ir qar qar ru [...]
-20. BE KI.GUB [ka-ia-ma-nu] GAR-m[a KI.MIN ina] EGIR KI.GUB e-ṣi-ir nin qar qar [...]
-21. BE KI.GUB [...] u A.AG.GÁ sa-al-ma-at
-23. BE KI.GUB ka-lu-šu [...] u A.AG.GÁ la sa-al-ma-at te-[bi]
-24. BE KI.GUB SI.MEŠ-šu is-hu-ra-ma MURUB₄ IGI NUN KUR LÚ.KÚR-šu ana GIŠ.TUKUL a-ab-ba-at]
-25. BE KI.GUB SI.MEŠ-šu is-hu-ra-ma EGIR ZAG IGI LÚ.KÚR KUR NUN ana GIŠ.TUKUL
-26. BE KI.GUB GUB.BA NUN DINGIR.MEŠ-šu [i-z]i-b[u-šu]
-27. BE KI.GUB š[a]-mi-iṭ ana GIŠ.TUKUL RI.RI.GA ERIM-ni ina U₄-mi RI.[RI.G]A šul
-28. BE KI.GUB 3 ṭe₄-em {d}EN.ZU i-ša-an-ni
-29. BE KI.GUB 3-ma KI.GUB ZAG u GÙB BAL-ma ka-ia-ma-na IGI NUN ti-la-[tu-šu]
-30. BE KI.GUB 4 hu-sa-ah-hu ina KUR I.GÁL
-31. BE KI.GUB 4-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-du-u hu-sa-ah-h[u i-na KUR I.GÁL]
-32. BE KI.GUB 4-ma 2 AN.TA 2 KI.TA-nu DINGIR.MEŠ za-nu-tu ana KUR [i-ta-ru]
-33. BE KI.GUB 5 ni-ip-ha-at MAŠ.ŠU.GID.GID
-34. BE KI.GUB 5-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-du-u ni-i[p-ha-at MAŠ.ŠU.GID.GID]
-35. BE KI.GUB 6 ti-bu-ut ELAM.MA[{ki}]
-36. BE KI.GUB 6-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-du-u [...]
-37. BE KI.GUB 7 ti-bu-ut [...]
-38. BE KI.GUB 7-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-[du-u ...]
+12. BE KI.GUB ka-ia-ma-nu GAR-ma KI.MIN ina GÙB GAR NUN KUR la šu-wa-t[i i-ṣa-ab-bat]
+13. BE KI.GUB ka-ia-ma-nu GAR-ma KI.MIN ina IGI! a-mu-ti ina ZAG GAR LUGAL ki-[su
+14. BE ma-aš-ka-an KI.GUB ki-ma e-ki-mi za-qí-ir a-mu-ut ma-l[i]
+15. BE ma-aš-ka-an KI.GUB k[i-m]a e-ki-mi za-qí-ir-ma ina UGU-šu KI.GUB e-[li
+16. BE ina si-ip-pí KI.GUB A[N.T]A KI.GUB KI.MIN GAR ana GIŠ.TUKUL DINGIR-lam KI[
+17. ($___$) ina U₄-mi ri-qí-im la DINGIR-šu U[GU LÚ-lim i-ma-aq-qu-ut]
+18. BE KI.GUB ka-ia-ma-nu [GA]R KI.MIN ina SAG KI.GUB e-ṣi-ir qar qar ru [x x x x x] ra
+19. BE KI.GUB k[a-ia-m]a-nu GAR-ma KI.MIN ina MURUB₄ KI.GUB e-ṣi-ir qar qar ru[
+20. BE KI.GUB [ka-ia-ma-nu] GAR-m[a KI.MIN ina] EGIR KI.GUB e-ṣi-ir nin qar qar[
+21. BE KI.GUB [... ] u Á.ÁG.GÁ ša-al-ma-at
+22. [x x x] x tu uh-ha-ru u TUŠ ú-ša-ab
+23. BE KI.GUB ka-lu-šu [x x x x x x] u Á.ÁG.GÁ la ša-al-ma-at te-[bi
+24. BE KI.GUB SI.MEŠ-šu is-hu-ra-ma MURUB₄ IGI NUN KUR LÚ.KÚR-šu ana GIŠ.TUKUL i-ṣ[a-ab-ba-at]
+25. BE KI.GUB SI.MEŠ-šu is-hu-ra-ma EGIR! ZAG IGI LÚ.KÚR KUR NUN ana GIŠ.TUKUL [i-ṣa-ab-ba-at]
+26. BE KI.GUB G[U]B.BA NUN DINGIR.MEŠ-šu [i-z]i-b[u-šu]
+27. BE KI.GUB š[a]-mi-iṭ ana GIŠ.TUKUL RI.RI.GA ERIM-ni ina [U]₄-mi RI.[RI.G]A šu[
+28. ($___$) ši x x[
+29. BE KI.GUB 3 ṭe₄-em {d}EN.ZU i-ša-an-ni
+30. BE KI.GUB 3-ma KI.GUB ZAG u GÙB BAL-ma ka-ia-ma-na IGI NUN ti-la-[tu-šu]
+31. ($___$) bal-šu-ma ana hul-ti i-te-bu-ni
+32. BE KI.GUB 3-ma KI.GUB ZAG u GÙB BAL-ma ka-ia-ma-na IGI EN! INIM-[ka
+33. ($___$) u ŠUB NUN ti-la-tu-šu BAL-ma ú-ša-am-qa-ta-šu
+34. BE KI.GUB 3-ma KI.GUB ZAG u GÙB BAL-ma ka-ia-ma-na IGI[
+35. [BE] ina [Š]À KI.GUB ZAG u GÙB U.MEŠ i-ta-ad-du NUN ti-la-ti x la x[
+36. [BE] KI.GUB 4 hu-ša-ah-hu ina KUR Ì.GÁL
+37. [BE] KI.GUB 4-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-du-ú hu-ša-ah-h[u!] i-[na KUR Ì.GÁL]
+38. ($___$) ana su-qí ru x x[
+39. [BE] KI.GUB 4-ma 2 AN.TA 2 KI.TA-nu DINGIR.MEŠ za-nu-tu₄ ana KUR [i-ta-ru]
+40. [BE] KI.GUB 5! ni-ip-ha-at MÁŠ.ŠU.GÍD.GID
+41. [BE] KI.GUB 5-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-du-ú ni-i[p-ha-at MÁŠ.ŠU.GÍD.GÍD]
+42. [BE KI.G]UB 6 ti-bu-ut ELAM.MA[{ki}]
+43. [BE KI.G]UB 6-ma ina ŠÀ-šu-nu U.MEŠ i-ta-ad-du-ú[
+44. [BE K]I.GUB 6-ma ina ŠÀ-šu-nu ŠUDUL!.MEŠ i-ta-ad-[du-ú
+45. ($___$) ina [Š]À KUR-ia te-eš ra-ma-ni-šu x[
+46. [BE KI.GUB 7] ti-bu-ut[
+47. [BE KI.GUB 7-ma ina Š]À-šu-nu U.MEŠ i-ta-ad-[du-ú
+48. ($___$) ina ŠÀ[
+49. [BE KI.GUB 7-ma ina ŠÀ-šu-nu Š]UDUL.MEŠ [i-ta-ad-du-ú
+50. [...] x [...]

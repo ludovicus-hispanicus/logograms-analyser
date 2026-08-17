@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 topic: lunar eclipse
 period: Middle Babylonian
 provenance: Ḫattuša (Boğazköy), Hittite capital — Late Bronze Age (Middle-period horizon)

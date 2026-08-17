@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Neo-Babylonian
 provenance: Sippar
 publication: eBL fragment BM.52728; De Zorzi 2014 (HANE/M 15) canonical Summa izbu

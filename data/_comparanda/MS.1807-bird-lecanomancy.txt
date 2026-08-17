@@ -1,6 +1,6 @@
 ---
 exclude: true   # COMPARANDUM — lecanomancy (bird's heart dropped in water), not Šumma Ālu; kept out of the counts
-genre: lecanomancy
+discipline: lecanomancy
 period: Late Old Babylonian
 provenance: Tigunanum (CUSAS 18 no. 18)
 publication: George 2013, CUSAS 18 no. 18 = MS 1807

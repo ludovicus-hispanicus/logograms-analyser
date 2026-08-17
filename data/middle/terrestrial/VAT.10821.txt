@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Assyrian
 provenance: Assur
 publication: Heeßel 2007 (KAL 1) no. 38 = VAT 10821 (KAR 400). Middle Assyrian Šumma Ālu forerunner; ≈ animal/behaviour.

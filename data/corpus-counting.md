@@ -27,6 +27,22 @@ structural line types are never counted as content, in every mode:
 | `#` | translation / note (`#tr.en:`) | skipped |
 | *(blank)* | — | skipped |
 
+Two further eBL-ATF constructs are treated as **paratext** and dropped before
+segmentation (`strip_paratext` in `compute_ratios.py`, mirrored in `app.py`):
+
+- **Discourse sections** — the *content* of `@colophon`, `@catchline`, `@date`,
+  `@signature(s)`, `@summary` and `@witnesses` is tablet furniture, not omen
+  text, and never enters a count. A colophon's Sumerian year-name
+  (`%sux mu …`, e.g. CUSAS 18 no. 28) therefore no longer surfaces as a
+  phantom "Sumerian omen", and a catchline (the incipit of the *next* tablet,
+  e.g. Rm 267) is not folded into the last omen. All other `@` sections
+  (`@obverse`, `@introduction`, `@section …`) are ordinary text.
+- **Commentary protocols** — following the eBL-ATF specification, `!cm`
+  (commentary), `!qt` (quotation) and `!zz` (uncertain) at the start of a
+  line's text open a span that is skipped until `!bs` (base text) resumes; the
+  protocol persists across lines until replaced. Used for ṣâtu-style glosses
+  inside an omen sequence (e.g. K 778 obv. 3, `!cm … %sux ba-ra : %akk la-a`).
+
 Everything else is transliteration and is assigned to an omen according to the
 mode below.
 

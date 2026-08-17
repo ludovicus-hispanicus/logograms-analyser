@@ -1,6 +1,6 @@
 ---
 exclude: true  # Rochberg source subsumed in EAE20/RecA-RecB composites; held out to avoid double-count
-genre: astrological omens
+discipline: astrological omens
 period: Neo Babylonian
 provenance: Nineveh (Babylonian recension)
 counting: DIŠ

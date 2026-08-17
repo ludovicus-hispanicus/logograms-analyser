@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Middle Assyrian
 provenance: Nineveh (Nabû Temple; Middle Assyrian tablet, probably imported from Assur)
 counting: DIŠ

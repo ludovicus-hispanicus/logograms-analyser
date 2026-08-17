@@ -1,6 +1,6 @@
 ---
 exclude: true   # COMPARANDUM — Neo-Assyrian lunar-eclipse omens, EAE 15 parallel; outside the counted EAE 20–22 corpus
-genre: astrology (EAE 15 parallel)
+discipline: astrology (EAE 15 parallel)
 period: Neo-Assyrian
 counting: DIŠ
 publication: eBL fragment K.778
@@ -9,8 +9,8 @@ publication: eBL fragment K.778
 @obverse
 1. DIŠ 30 TAB-ma ba-ra-ri it-ta-ʾ-dar
 2. ($___$) AN.GI₆ LUGAL URI{ki}
-3. ($___$) %sux ba-ra : %akk la-a : RI : a-dan-nu
-4. ($___$) ina la a-dan-ni-šu₂ U₄.12.KAM₂@v U₄.13.KAM₂@v AN.GI₆ GAR-ma
+3. !cm ($___$) %sux ba-ra : %akk la-a : RI : a-dan-nu
+4. !bs ($___$) ina la a-dan-ni-šu₂ U₄.12.KAM₂@v U₄.13.KAM₂@v AN.GI₆ GAR-ma
 5. ($___$) ina EN.NUN.AN.USAN₂ AN.GI₆ GAR-ma
 6. DIŠ AN.GI₆ ZA₃-šu₂ BAL-at mim-ma NU TAK₄ A.MA.RU 1-niš GAR
 7. ($___$) ul-la-nu-um-ma ina ZA₃-šu₂ AN.GI₆ GAR-m[a]

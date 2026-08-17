@@ -1,5 +1,5 @@
 ---
-genre: extispicy omens
+discipline: extispicy omens
 period: Old Babylonian
 provenance: Umma (Tell Jokha; eBL)
 counting: šum-ma

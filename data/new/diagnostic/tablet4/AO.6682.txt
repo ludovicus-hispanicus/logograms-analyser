@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Neo Babylonian
 provenance: AO 6682 (Schmidtchen 2021 Tafel 4, ms B)
 recension: canonical Sakikkû Tablet 4, manuscript B (Schmidtchen 2021 BAM 13)

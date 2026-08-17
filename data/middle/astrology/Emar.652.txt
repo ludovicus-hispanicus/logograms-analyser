@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 recension: Western periphery
@@ -9,8 +9,8 @@ series: parallel to Enūma Anu Enlil (eclipse omens organized by month, as in EA
 publication: Arnaud 1987, Emar VI/4 no. 652 (Msk 74235a (+) two unplaced fragments of the same number), Présages astrologiques Sîn; LBA
 duplicates: Arnaud's ms. A = AO 12960 (Qatna); ms. B = AT 452 (Alalakh) 32-76 = 1-42. These are external duplicates used for restoration, NOT Emar manuscripts — Emar 652 is a single tablet.
 coverage: COMPLETE. All 85 transliterated lines of Arnaud pp. 260-263 are given, using HIS line numbers (1-46 unprimed; 47'-85' after the break, as he primes them). Arnaud's four "fragments non replacés" (p. 268, A 1'-5', B 1'-4', C 1'-8', D 1'-5') are scraps he does not assign to this tablet and are not included.
-structure: Arnaud gives no obverse/reverse division. Month sections: Nisan 1-6; two broken months 7-11 and 12-15; Addar 16-21; Ab 22-28; Elul 29-34; Tešrit 35-40; Araḫsamnu 41-46; break; further sections 47'-79'; EAE-type postface 80'-82'; colophon of the scribe Šamaš-abu 83'-85'.
-note: Hand-transcribed from Arnaud. He prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are UPPERCASED here per project convention and syllabic spellings kept lowercase — including the syllabically written divine names en-líl, é-a, dam-ki-in-na. Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, <> scribal omission, x illegible. ba.ug₆ normalized to BA.UŠ₂ and an-e to AN-e per corpus house style. Where Arnaud brackets a month name after an intact iti, the determinative is normalized to {iti} (ll. 7, 9, 41, 78'); determinatives are excluded from the LDI count, so this does not affect the numbers. Two scribal erasures printed by Arnaud as «  » are omitted: an empty one at l. 35 and «máš» at l. 42. Lines 26 and 55' are runovers of 25 and 54' but are counted as separate lines by Arnaud, and are kept separate here so the numbering maps 1:1 onto the edition. Not in eBL.
+structure: "Arnaud gives no obverse/reverse division. Month sections are: Nisan 1-6; two broken months 7-11 and 12-15; Addar 16-21; Ab 22-28; Elul 29-34; Tešrit 35-40; Araḫsamnu 41-46; break; further sections 47'-79'; EAE-type postface 80'-82'; colophon of the scribe Šamaš-abu 83'-85'."
+note: Hand-transcribed from Arnaud. He prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are UPPERCASED here per project convention and syllabic spellings kept lowercase — including the syllabically written divine names en-líl, é-a, dam-ki-in-na. Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, <> scribal omission, x illegible. ba.ug₆ normalized to BA.UŠ₂ and an-e to AN-e per corpus house style. Where Arnaud brackets a month name after an intact iti, the determinative is normalized to {iti} (ll. 7, 9, 41, 78'); determinatives are excluded from the LDI count, so this does not affect the numbers. Two scribal erasures printed by Arnaud as «  » are omitted — an empty one at l. 35, and «máš» at l. 42. Lines 26 and 55' are runovers of 25 and 54' but are counted as separate lines by Arnaud, and are kept separate here so the numbering maps 1:1 onto the edition. Not in eBL.
 caveat: This text is built on ditto marks — MIN/KI.MIN for the repeated month and eclipse formulae — so the surviving protasis skeleton is almost purely logographic. Where an apodosis is broken away the line scores near 1.00 as a preservation artifact, not as evidence of logographic usage. Note that restored [] material is counted in the default mode and only dropped under preserved_only, so both modes are affected; per-line LDI for the heavily broken stretch 47'-76' should not be read as usage data. The whole-file LDI is 0.676 (473 log / 227 phon over 83 scorable lines); the previous 8-line sample gave 0.770, i.e. the old selection was biased about +0.09 high.
 ---
 
@@ -97,6 +97,8 @@ $ (break)
 80'. x mím-ma an-nu-ú [U₄ AN] {d}en-líl {d}é-a DINGIR.MEŠ GAL.[GA]L ina mil-ki-šú-nu GIŠ.HUR [AN-e u KI-tì iš-ku-nu]
 81'. [ù ZAL]AG.GA ana na-[ma]-ri 30 ú-ki-in-nu U₄-ma ba-na-a ITI ud-du-šu [...]
 82'. [ma-g]u-ur AN-[e] x x x x [...]
+
+@colophon
 83'. [ṭup-]pí ŠU {m}{d}20-a-bu DUB.SAR [...]
 84'. [ÌR] {d}NÀ u {d}NISABA ÌR {d}[...]
 85'. [u {d}]dam-ki-in-na gáb-ba [...]

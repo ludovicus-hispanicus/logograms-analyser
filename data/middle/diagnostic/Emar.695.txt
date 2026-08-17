@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 recension: Western periphery
@@ -8,23 +8,30 @@ topic: medical prognostic (timeframes; seed-of-Šulpae / bennu)
 series: pre-canonical diagnostic-medical (Late Bronze Age Emar)
 canonical_parallel: Sakikkû Tablet 29 (Schmidtchen 2021 concordance, book p.713 — 695:3=29:4-5, :4=29:22-24; also a fragment at 29:20; 4th sub-series Šumma miqtu imqussuma, per Heeßel 2000:103, Tablet 29 edited AOAT 43 pp.318ff)
 dating: end 13th / beginning 12th century BCE (Heeßel 2000:103)
-edition: Arnaud 1987, Emar VI/4 no. 695 (Msk 74127a)
-source: hand-transcribed from Arnaud's edition. NB Arnaud prints Sumerograms in lowercase (French convention); they are converted to UPPERCASE here per project convention. Heavily fragmentary; ambiguous tokens left lowercase (conservative). Not in eBL.
-note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = restoration; x = illegible (ignored). Recurring formula KI.MIN GAR ina N MU.MEŠ = (ditto) occurs within N years.
-caveat: Poorly preserved (~35 countable tokens). Its elevated LDI (~0.65) rests largely on the repeated logographic prognostic formula and should NOT be read as more logographic than the better-preserved CBS 12580.
+edition: Arnaud 1987, Emar VI/4 no. 695 (Msk 74127a, 45 x 61 x 27), p. 317
+coverage: COMPLETE. All 16 transliterated lines are given, using Arnaud's line numbers (1-10 unprimed, 11'-16' primed after the break). The previous version had 13 lines and omitted 10, 11' and 16'.
+object: Arnaud notes this is the top-left corner of a tablet, and that only about two signs appear to be missing at the edge.
+arnaud_notes: "p. 317 — l. 1 MA, if it is that sign at all, is ill-formed; ll. 3, 6, 8, 9 and 15' are restored from l. 12'."
+source: hand-transcribed from Arnaud's edition. NB Arnaud prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are converted to UPPERCASE here per project convention. Arnaud's superscript collation ticks are rendered as "!". Adad ({d}U in the edition, l. 14) is normalized to {d}IŠKUR per corpus house style. Not in eBL (Msk excavation numbers return 404; the fragmentarium holds no Emar material).
+note: Logograms uppercase, syllabic lowercase, determinatives in {}. Brackets = restoration; x = illegible (ignored). Recurring formula KI.MIN GAR ina N MU.MEŠ = (ditto) occurs within N years. Line 13' is a runover of 12', marked ":" by Arnaud and ($___$) here.
+corrections: "Against the previous version — l. 1 DIB.DIB-su (not -šu); l. 2 restores the dropped A of A ÍD ('the water of the river', per Arnaud's French); l. 5 NU GÌR.BAL is uppercased, since Arnaud sets it roman i.e. as a Sumerogram, where the previous version had it lowercase as ambiguous (this raises the file's LDI); l. 7 su sa (not -šu ša); l. 13' LÚ šá (not lu ša)."
+caveat: Poorly preserved. Its LDI rests largely on the repeated logographic prognostic formula KI.MIN GAR ina N MU.MEŠ and should NOT be read as evidence that this text is more logographic than the better-preserved CBS 12580.
 ---
 
-@obverse
-1. [...] DIB.DIB-šu BE-ma [...]
-2. [...] ÍD ŠUB-di [...]
+1. [x x x D]IB.DIB-su BE-ma![...]
+2. [x x] a ÍD ŠUB-di[...]
 3. [KI.]MIN GAR ina 50 MU.[MEŠ]
-4. [...] A.RI.A {d}ŠUL.PA.È [...]
-5. [...] NU gir.bal [...]
-6. [KI.MI]N GAR ina 3 MU.MEŠ [...]
-7. [...]-šu ša x [...]
+4. [x x] A.RI.A {d}ŠUL.PA.È[...]
+5. [x x] x NU GÌR.BAL[...]
+6. [KI.MI]N GAR ina 3 MU.MEŠ[...]
+7. [x x] su sa x[...]
 8. [KI.MIN GA]R ina 6 M[U.MEŠ]
-9. [KI.MIN] GAR ina x [...]
-12. KI.MIN [...]
-13. MIN lu ša x [...]
-14. a-di {d}U x [...]
-15. [KI.MIN] GAR ina 15 M[U.MEŠ]
+9. [KI.MIN] GAR ina x[...]
+10. [x x] x x[...]
+$ (break)
+11'. [x x] x x[...]
+12'. KI.MIN[...]
+13'. ($___$) MIN LÚ šá x[...]
+14'. a-di {d}IŠKUR x[...]
+15'. [KI.MIN] GAR ina 15 M[U.MEŠ]
+16'. [x x] x x x x[...]

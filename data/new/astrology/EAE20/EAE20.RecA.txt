@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Neo-Assyrian
 provenance: first-millennium canonical (Nineveh + Late Babylonian sources)
 recension: Enūma Anu Enlil 20, Recension A composite

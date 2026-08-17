@@ -1,6 +1,6 @@
 ---
 exclude: true   # COMPARANDUM — extispicy (lung) label-model, kept out of the genre LDI
-genre: extispicy model
+discipline: extispicy model
 period: Neo-Babylonian
 provenance: Kalḫu (Nabû temple); written at Šapiya
 counting: line

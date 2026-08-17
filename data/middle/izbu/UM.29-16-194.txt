@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Babylonian
 provenance: Nippur (probable)
 publication: eBL fragment UM.29-16-194 (+ N 1502 + N 1503); De Zorzi 2014, linked to canonical Tablet 20 (equids)

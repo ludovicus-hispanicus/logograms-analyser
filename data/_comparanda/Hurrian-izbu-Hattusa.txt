@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Babylonian
 language: Hurrian
 provenance: Ḫattuša (Boğazköy), Hittite Empire — Late Bronze Age (Middle-period horizon)

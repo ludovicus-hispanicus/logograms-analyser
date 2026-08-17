@@ -1,5 +1,5 @@
 ---
-genre: extispicy omens
+discipline: extispicy omens
 period: Neo-Assyrian
 provenance: Assur (House of the Exorcist, N4)
 tradition: Babylonian-copy

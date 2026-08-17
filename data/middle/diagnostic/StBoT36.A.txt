@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Middle Babylonian
 provenance: Ḫattuša (Boğazköy)
 recension: Anatolian periphery
@@ -59,4 +59,6 @@ note: >
 14. sa-a-mu ik-ka-la-šu pa-ṭa-a-ar mu-ur-ṣí
 15. UD 10.KAM mu-ur-ṣu
 17. UD 5.KAM UD 10.KAM da-mu a-na pí-šu ka-aṣ-ṣa-na il-la-k[u]
+
+@colophon
 18. ú-ul qa-ti

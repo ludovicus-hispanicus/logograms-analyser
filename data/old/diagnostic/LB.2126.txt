@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Old Babylonian
 provenance: Babylonia (eBL)
 counting: §

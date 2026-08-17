@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Neo Babylonian
 provenance: Nineveh (Kuyunjik; K.2006)
 recension: canonical Sakikkû Tablet 14, manuscript A (Schmidtchen 2021 BAM 13)

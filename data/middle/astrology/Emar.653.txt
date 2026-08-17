@@ -1,26 +1,120 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 recension: Western periphery
 counting: BE
-topic: solar omens (Šamaš — halo, setting, eclipse)
+topic: solar omens (Šamaš — halo, setting, colour)
 series: parallel to Enūma Anu Enlil (Šamaš section)
-publication: Arnaud 1987, Emar VI/4 no. 653 (Msk 74229), Présages astrologiques Šamaš; LBA
-note: Hand-transcribed from Arnaud; lowercase Sumerograms converted to UPPERCASE; Adad normalized to {d}IŠKUR. Representative well-readable omens only; uncertain spans marked [...] or x. Logograms uppercase, syllabic lowercase, {} det. Not in eBL.
+publication: Arnaud 1987, Emar VI/4 no. 653 (Msk 74229, 95 x 127 x 35), Présages astrologiques Šamaš; LBA
+coverage: COMPLETE. All 94 transliterated lines of Arnaud pp. 270-272 are given, using HIS line numbers (1-10 unprimed, 11'-94' primed after the first break). The previous version held 13 entries covering only his ll. 49'-78'.
+structure: "Arnaud's concordance (p. 275) maps his transcription onto the tablet's four columns — Ro I = ll. 1-25', Ro II = 26'-46', Vo I = 47'-81', Vo II = 82'-94'. Surfaces are marked here accordingly. An omen occupies 2-4 lines on this tablet (protasis on one line, apodosis on the next), so the 94 lines correspond to roughly 40 omens."
+counting_caveat: "counting is BE, which groups each protasis with its apodosis and yields 23 omens. This is correct for ll. 1-63', but note the tail: only 23 lines open with BE, the last at 64', so ll. 65'-94' (31 lines — the rest of Vo I, all of Vo II, and the colophon) fold into that one omen, because from 66' onward the tablet writes no BE at all. The alternative, counting=line, gives 77 units and is a transparent line-count rather than an omen-count. The choice does not affect the LDI: both modes yield 192 logograms over 253 scorable tokens, LDI 0.7589, and no omen is dropped as contentless under either."
+colophon: ll. 93'-94', the scribe [...]-Bala. Arnaud transliterates [Zu-]Ba-la but translates "[... Iadi]-Bala"; the transliteration is followed here.
+note: Hand-transcribed from Arnaud. He prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are UPPERCASED here per project convention, and the syllabically written scribal name is kept lowercase. Arnaud's superscript collation ticks are rendered as "!". Adad ({d}U in the edition) is normalized to {d}IŠKUR and ge₆ kept as GE₆ per corpus house style. Runover lines that Arnaud marks with a leading ":" or "." are marked ($___$); they are numbered by him and kept as separate lines. The unread signs at l. 24' ("dir im a tuku" — a line Arnaud leaves untranslated) are left lowercase, conservatively, as at Emar 669:43 and 670:18-20. Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Not in eBL (Msk excavation numbers return 404; the fragmentarium holds no Emar material).
+be_caveat: "Arnaud's note ad 59'-66' (p. 275) reads: BE a été abandonné entre ces lignes mais à laquelle précisément, on ne peut le savoir à cause des cassures. He therefore restores [BE at 59', 61', 63' and 64' but prints NO BE from 66' onward, and his French renders those lines Le soleil, not Si le soleil. The previous version of this file inserted [BE {d}UTU] at his 68', 70', 72', 75' and 77', five particles the edition does not have; they are removed here."
+removed: "The previous version carried a 13th line reading [BE {d}]UTU AN.GI₆ GAR [...] LUGAL ina BAL [...]. It has no counterpart anywhere in Arnaud no. 653 — the string an.ge₆ occurs nowhere in the text's 94 lines and the word éclipse nowhere in his translation (pp. 272-275). It appears to have been imported from another text in the volume and is deleted."
 ---
 
 @obverse
-1. BE {d}UTU GIŠ.HUR NIGIN-mi KÁ.GAL ina ZAG muš-šur [...] ŠUB-ut
-2. BE {d}UTU GIŠ.HUR NIGIN-mi KÁ.GAL ina GÙB muš-šur KUR NÍ.HUL i-mu-rù SIG₅ IGI.LÁ
-3. BE {d}UTU GIŠ.HUR NIGIN-mi ina ŠÀ GIŠ.HUR-šu 2 3 MUL.MEŠ iz-zi-zu u im-ta-na-qu-tu ERIM.MEŠ DAGAL ina [G]IŠ.TUKUL ŠUB-ut
-4. [BE {d}]UTU ina KU₄-šu U dú-'-um [ERIM.MEŠ] DAGAL ina GIŠ.TUKUL ŠUB-ut
-5. [BE {d}UTU] ina KU₄-šu U GI₆ KI.MIN [ERIM.MEŠ] DAGAL ina GIŠ.TUKUL ŠUB-ut
-6. [BE {d}UTU] ina KU₄-šu U SU₉ SAG.PA.LAGAB ina KUR I.GÁL
-7. [BE {d}UTU] ina KU₄-šu SIG₇ {d}IŠKUR ra-iṣ u BE {d}NÈ.IRI₁₁.GAL ina KUR KÚ
-8. [BE {d}UTU] ina KU₄-šu ŠÚ G[ÙB-šu GI₆] LUGAL ana NUN k[i ...]
-9. [BE {d}UTU] ina KU₄-šu MUL.MEŠ [...] ÚŠ.MEŠ GAL ŠÀ.GAR [...]
-10. [BE {d}UTU] ina KU₄-šu IM x [...] u SAHAR.RA ki-i IM [...] ERIM.MEŠ DAGAL x [...]
-11. [BE {d}UTU] ina KU₄-šu ša-ru[...] IM.ŠÈG i-ma [...]
-12. [BE {d}UTU] ina KU₄-šu ša [...] di-in K[UR ...]
-13. [BE {d}]UTU AN.GI₆ GAR [...] LUGAL ina BAL [...]
+1. [BE {d}UTU x x x x x] KÚR x [u] BE GE₆
+2. [x x x] BA.UŠ₂
+3. [x x x] x a-dir
+4. [x x x] DÙ-uš
+5. [x x x] ina ŠÀ-šú GUB-ma
+6. [x x x]
+7. [BE {d}UTU x x x x x x] GÁL.MEŠ
+8. [x x DU]GUD
+9. [x x GÁ]L-ši
+10. [x x] ú
+$ (break)
+11'. [BE {d}UTU x x x]
+12'. [x x x] x ŠUB-ut
+13'. [x x x]
+14'. [x x x]
+15'. [BE {d}UTU x x x x x x] a-dir
+16'. [x x x] x NUN ana NUN
+$ (break)
+17'. [x x x] x x x[
+18'. [x x x] GAZ-pí
+19'. [BE {d}UTU x x x x] x a-dir
+20'. [x x M]UŠ Ì.KÚ!-m[a] NAG
+21'. [BE {d}UTU x x x] MUL [x x] x
+22'. [x x K]UR TUR-ir
+23'. [BE {d}UTU x x] x a-dir EBUR KUR SI!.SÁ
+24'. [BE {d}UTU x x] x dir im a tuku
+25'. [x x x] x x x
+$ (break)
+26'. ($___$) [x x x]
+27'. ($___$) [x x x]
+28'. BE [{d}UTU x x x x x x x x x] GUB.BA
+29'. ($___$) [x x x]
+30'. BE {d}[UTU x x x]
+31'. ($___$) HI.[GAR x x x]
+32'. ($___$) [x x x]
+33'. BE [{d}UTU x x x] MEŠ
+34'. ($___$) [x x x]
+35'. BE [{d}UTU x x x]
+36'. ($___$) x[ x x]
+37'. ($___$) ana HUL[ x x]
+38'. ($___$) ina x[ x x]
+39'. ($___$) NU[ x x]
+40'. [BE {d}UTU x x x] x
+41'. x[ x x]
+42'. BE {d}[UTU x x x] GAR
+43'. ($___$) BE[ x x x] x-šú
+44'. BE {d}UTU [x x x] ME
+45'. ($___$) x x [x x LUGAL] URI{ki} BA.UŠ₂
+46'. ($___$) x x [x x Z]I.GA
+@reverse
+47'. BE {d}UTU GIŠ.HUR [NIGIN-mi x x]
+48'. x x {d}UTU x[x x x] MAR.TU[ x x]
+49'. BE {d}UTU GIŠ.HUR NI[GIN-m]I KÁ.GAL ina [ZA]G
+50'. muš-šur x[x x x] ŠUB-ut
+51'. u BE [x x x x] ZI.GA
+52'. BE {d}UTU GIŠ.HUR NIGIN-mi KÁ.GAL ina GÙB
+53'. muš-šur KUR NÌ.HUL i-mu-rù
+54'. SIG₅ IGI.LÁ
+55'. BE {d}UTU GIŠ.HUR NIGIN-mi ina ŠÀ GIŠ.HUR-šu
+56'. 2 3 MUL.MEŠ iz-zi-zu
+57'. u im-ta-na-qu-tu ERIM.MEŠ DAGAL
+58'. ina [G]IŠ.TUKUL ŠUB-ut
+59'. [BE] {d}[UTU] ina KU₄-šú U dú-'-um
+60'. [ERIM.MEŠ] DAGAL ina GIŠ.TUKUL ŠUB-ut
+61'. [BE {d}UTU ina K]U₄-šú U GE₆ KI.MIN
+62'. [ERIM.MEŠ] DAGAL ina GIŠ.TUKUL ŠUB-ut
+63'. [BE {d}UTU ina] KU₄-šú U SU₉ SAG.PA.LAGAB ina KUR Ì.GÁL
+64'. [BE {d}UTU] ina KU₄-šú SIG₇ {d}IŠKUR ra-iṣ
+65'. ($___$) u BE {d}NÈ.IRI₁₁.GAL ina KUR KÚ
+66'. [{d}UTU] ina KU₄-šú ŠÚ ZAG-šu GE₆
+67'. KUR SIG₅-qa!-tu₄ GAR-an
+68'. {d}UTU ina KU₄-šú ŠÚ G[ÙB-šu GE₆]
+69'. LUGAL ana NUN K[I x x]
+70'. {d}UTU ina KU₄-šú MUL.MEŠ[ x x]
+71'. ÚŠ.MEŠ GÁL ŠÀ.GA[R x x]
+72'. {d}UTU ina KU₄-šú IM x[ x x]
+73'. u SAHAR.RA ki-i IM[ x x]
+74'. ERIM.MEŠ DAGAL x[ x x]
+75'. {d}UTU ina KU₄-šú ša-ru[ x x]
+76'. IM.ŠÈG i-ma i-x[ x x]
+77'. {d}UTU ina KU₄-šú ša[ x x]
+78'. di-in K[UR x x]
+79'. {d}UTU ina KU₄-š[ú x x]
+80'. 3 4 5[ x x]
+81'. ina KUR[ x x]
+82'. [{d}UTU x x x x] ina ZAG-šú
+83'. [x x x] ina KUR GÁL
+84'. [{d}UTU x x] MUL
+85'. [x x x] LÚ DUGUD ina KUR GÁL
+86'. [x x x] x
+87'. [{d}UTU x x x] ZAG u GÙB GUB-ma
+88'. [x x x] GAL ina KUR GÁ[L]
+89'. [x x x] x x[
+$ (break)
+90'. [x x x] x
+91'. [x x x]
+92'. [x x x]
+
+@colophon
+93'. [x x zu-]ba-la
+94'. [x x DU]B.SAR

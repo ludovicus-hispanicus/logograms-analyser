@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Babylonian
 provenance: Hattusa / Bogazkoy (Late Bronze Age, ca. 14th-13th c. BCE; Akkadian recension)
 publication: KUB 37 188; Akkadian version from Bogazkoy (Leichty TCS 4, 207ff.)

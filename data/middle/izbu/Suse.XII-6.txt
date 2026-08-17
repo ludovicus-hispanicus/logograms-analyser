@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Babylonian
 provenance: Susa (Ville Royale, level A XII; end of the sukkalmah period, late 15th/early 14th c. BCE)
 publication: MDP 57 no. 9 (Labat 1974), Suse XII/6

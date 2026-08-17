@@ -1,52 +1,90 @@
 ---
-genre: extispicy omens
+discipline: extispicy omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 tradition: Western periphery
 counting: line
 topic: martu (gall-bladder, ZÉ)
-publication: Arnaud 1987, Emar VI/4 no. 669 (Msk 731029), hepatoscopic divination, la martu; Late Bronze Age
-note: martu (gall-bladder) omens, LBA Emar. Hand-transcribed from Arnaud; his lowercase Sumerograms converted to UPPERCASE per project convention. Well-preserved obverse (40 omens) given; fragmentary animal-comparison reverse omitted. Colophon counts 62 martu omens. GAG TI = sikkat ṣēli (peg of the rib). Logograms uppercase, syllabic lowercase, {} determinatives, [] restoration, x illegible. Not in eBL.
+publication: Arnaud 1987, Emar VI/4 no. 669 (Msk 731029, 110 x 131 x 31), hepatoscopic divination, la martu; Late Bronze Age
+coverage: COMPLETE. All 73 transliterated lines of Arnaud pp. 284-285 are given, using HIS line numbers. Lines 71-73 are the colophon, printed after a double ruling; the transliteration itself carries no marker past 70, but Arnaud's philological notes on p. 289 are numbered 71, 72 and 73 and comment on exactly these three lines, so the numbering is his. Analyses that want omens only should drop 71-73.
+colophon: 62 martu omens (1 šūši 2 zé mu.bi.im = "60 + 2 gall-bladder (omens), that is their number"), invoking Nergal, Ea and Adad. Given as ll. 71-73. Arnaud's note ad l. 72 flags that the colophon's 62 fits the tablet badly — he counts 64 entries opening with BE.
+uncertain_readings: Arnaud's note ad l. 58 warns that naglabu, "if that is the word to read", does not belong to the hepatoscopic vocabulary; the reading is his conjecture.
+structure: Arnaud gives NO obverse/reverse division for this tablet; none is asserted here. Lines 38, 40, 42, 44, 55 and 57 are runovers (indented continuations) of the preceding line, marked ($___$) per corpus convention, and are counted as separate lines by Arnaud.
+note: Hand-transcribed from Arnaud. He prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are UPPERCASED here per project convention, and the syllabically written divine name iš-ha-ra (l. 52) is kept lowercase. Arnaud's superscript collation ticks are rendered as "!". ba.ug₆ normalized to BA.UŠ₂, ge₆ kept as GE₆, and díb normalized to DIB per corpus house style. Unidentified signs that Arnaud lists raw (l. 43 "bu sal za ba ra ka at", l. 48 "ši mu ta") are left lowercase, conservatively, since it is not established that they are logographic. GAG TI = sikkat ṣēli (peg of the rib). Logograms uppercase, syllabic lowercase, {} determinatives, [] restoration, <> scribal omission, x illegible. Not in eBL.
 ---
 
-@obverse
-1. BE SAG ZÉ us-su-ur ana KASKAL a-lik ana di-ni sí-ni-iq
-2. BE SAG ZÉ pár-ku ana KASKAL la ta-la-ak ana di-ni la ta-a[s-ni-iq]
+1. BE SAG ZÉ uš-šu-ur ana KASKAL a-lik ana di-ni₇ si!-ni-iq
+2. BE SAG ZÉ pár!-ku ana KASKAL la ta-la-ak ana di-ni₇ la ta-a[s-ni-iq]
 3. BE ZÉ ti-bu ana IGI-šu ti-bu dan-nu ana LÚ i-te-bi
-4. BE ZÉ ti-bu ana IG[I-š]u u ti-ba-šu ša-hi-ip ti-bu i-te-bi-ma ta-da-ak-šu
-5. [BE S]AG ZÉ ina ki-di-[i]t GÙB is-su-uk ki-si-it-ti ŠU-ia BE GIG BA.UŠ₂
-6. [BE S]AG ZÉ ina ki-di-[it] ZAG is-su-uk ki-si-it-ti ŠU LÚ.KÚR BE GIG TI.LA
-7. [...] GÙB is-su-uk ki-si-it-ti ŠU-ia
-8. [...] ZAG is-su-uk ki-si-it-ti ŠU LÚ.KÚR
-9. [...] is-su-uk ki-si-it-ti ŠU-ia
-10. [... i]s-su-uk ki-si-it-ti ŠU LÚ.KÚR
-11. [...] i-ri-ib-ma ina GAG TI ša GÙB SAG-su ir-hi-iṣ
-12. [...]-ma ina UGU ša-lam-ti-šu a-bi-it
-13. [...] i-ṣi-ip-ma ina GAG TI ša ZAG SAG-su ir-hi-iṣ
-14. [... i-]du-ka-an-ni-ma ina UGU ša-lam-ti-ia i-bi-it
-15. [...]-šu GAG TI ša GÙB GAM-ma u-ṣi KUR LÚ.KÚR dan-na-tu DIB ina dan-nu-ti u-ṣi
-16. [...]-šu GAG TI ša ZAG GAM-ma u-ṣi KUR LUGAL dan-<na>-ta DIB-ma ina dan-na-t[i]
-17. [...] lu-mu-un ŠÀ ina É LÚ I.GÁL
-18. [...] HUL ŠÀ ina É LÚ.KÚR I.GÁL
-19. [BE ZÉ ki-m]a NÍG.GUL da-na-an LÚ
-20. [BE ZÉ ki-m]a GIR.TAB GIŠ.TUKUL LUGAL.GI.NA
-21. [BE ZÉ x x] da-ki-iš LUGAL z[a]-i-r[u-šu] i-du-ku-šu
-22. [BE ZÉ x x d]a-ki-iš LUGAL za-i-r[e]-šu i-da-ak
-23. BE ZÉ ana ZAG da-ki-iš-ma u di-ki-šá ka-mi LUGAL za-i-ru-šu i-du-ku-šu
-24. BE ZÉ ana GÙB da-ki-iš-ma u di-ki-šá ka-mi LUGAL za-i-re-šu i-da-ak
-25. BE ZÉ ku-ub-b[i] GAR ni-si-it ma-li LÚ DIB
+4. BE ZÉ ti-bu ana IG[I-š]u u ti-ba-šu sa-hi-ip ti-bu i-te-bi-ma ta-da-ak-šu
+5. [BE S]AG ZÉ ina ki-di-[i]t GÙB iš-šu-uk ki-ši-it-ti ŠU-ia BE GIG BA.UŠ₂
+6. [BE S]AG ZÉ ina ki-di-[it] ZAG iš-šu-uk ki-ši-it-ti ŠU LÚ.KÚR BE GIG TI.LA
+7. [x x x] x GÙB iš-šu-uk ki-ši-it-ti ŠU-ia
+8. [x x x] x ZAG iš-šu-uk ki-ši-it-ti ŠU LÚ.KÚR
+9. [x x x] iš-šu-uk ki-ši-it-ti ŠU-ia
+10. [x x x i]š-šu-uk ki-ši-it-ti ŠU LÚ.KÚR
+11. [x x x] x i-ri-ib-ma ina GAG TI ša GÙB SAG-su ir-hi-iṣ
+12. [x x x] x x-ma ina UGU ša-lam-ti-šu a-bi-it
+13. [x x x] x a[n x] i-ṣí-ip-ma ina GAG TI ša ZAG SAG-su ir-hi-iṣ
+14. [x x i-]du-ka-an-ni-ma ina UGU ša-lam-ti-ia i-bi-it
+15. [x x x] x-šu GAG T[I] ša GÙB GAM-ma ú-ṣi KUR LÚ.KÚR dan-na-tu DIB ina dan-nu-ti ú-ṣi
+16. [x x x] x-šu GAG TI ša ZAG [GAM-]ma ú-ṣi KUR LUGAL dan-<na>-ta DIB-ma ina dan-na-t[i] ú-ṣi
+17. [x x x] l[u-m]u-un ŠÀ ina É LÚ Ì.GÁL
+18. [x x x] H[Ú]L ŠÀ ina É LÚ.KÚR Ì.GÁL
+19. [BE ZÉ ki-m]a! NÍG.GUL da-na-an LÚ
+20. [BE ZÉ ki-m]a GÍR.TAB GIŠ.TUKUL LUGAL-GI.NA
+21. [BE ZÉ x x] da-ki-is LUGAL z[a]-i-r[u-šu] i-du-ku-šu
+22. [BE ZÉ x x d]a-ki-is LUGAL za-i-r[e]-šu i-da-ak
+23. BE ZÉ ana ZAG da-ki-is-ma u di-ki-sà ka-mi LUGAL za-i-ru-šu i-du-ku-šu
+24. BE ZÉ ana GÙB da-ki-is-ma u di-ki-sà ka-mi LUGAL za-i-re-šu i-da-ak
+25. BE ZÉ ku-ub-b[i] GAR ni-ši-it ma-li LÚ DIB
 26. BE ZÉ SI.[MEŠ] GAR LUGAL ga-mi-ru-ta₅ i-la-ak
-27. BE ZÉ SI.MEŠ GAR-ma SI.MEŠ-šu BABBAR LUGAL a-šar i-la-ku ri-qu-su i-tu-ra
+27. BE ZÉ SI.MEŠ GAR-ma SI.MEŠ-šú BABBAR LUGAL a-šar i-la-ku ri-qú-šu i-tu-ra
 28. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu SIG₇ ERIM LUGAL ina KASKAL i-la-ku HA.LA i-kal
-29. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu GI₆ ERIM LUGAL ina KASKAL i-la-ku {d}IŠKUR i-ra-hi-iṣ
-30. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu ina le-te-šu <su>-tu-ra É LUGAL i-na-zi-iq
+29. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu GE₆ ERIM LUGAL ina KASKAL i-la-ku {d}IŠKUR i-ra-hi-iṣ
+30. BE ZÉ SI.MEŠ GAR-ma u SI.MEŠ-šu ina le-te-šu <šu>-tu-ra É LUGAL i-na-zi-iq
 31. BE SI ZÉ ša GÙB GAR-ma u ša ZAG la i-ba-aš-ši KUR LUGAL i-hal-liq
 32. BE SI ZÉ ša ZAG GAR-ma u ša GÙB la i-ba-aš-ši KUR LÚ.KÚR i-hal-liq
-33. BE ZÉ ki-ma pi-ti-il-ti pa-ti-il ip-šu u ba-ar-tu ina URU{ki} I.GÁL
-34. BE ZÉ ki-ma pi-ti-il-ti pa-ti-il-ma u GI₆ ma-mi-it a-bi LÚ DIB
-35. BE ZÉ 2-ma 1 SIG₇ 1 GI₆ LÚ ina ša-lam-ti il-li-ik-ma u a-ra-an ša-lam-ti it-ta-na-bal
+33. BE ZÉ ki-ma pí-ti-il-ti pa-ti-il ip-šu u ba-ar-tu ina URU{ki} Ì.GÁL
+34. BE ZÉ ki-ma pí-ti-il-ti pa-ti-il-ma u GE₆ ma-mi-it a-bi LÚ DIB
+35. BE ZÉ 2-ma 1 SIG₇ 1 GE₆ LÚ ina ša-lam-ti il-li-ik-ma u a-ra-an ša-lam-ti it-ta-na-bal
 36. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up KUR LUGAL dan-na-tu₄ DIB
 37. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up-ma ina ŠÀ-šu U ŠUB
 38. ($___$) ERIM LUGAL {d}IŠKUR i-ra-hi-iṣ u BE LÚ ina pu-uh-ri i-du-k[u-šu]
-39. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up-ma ina ŠÀ-šu KÀM Š[UB]
-40. ($___$) ERIM LUGAL il-ti DINGIR-li ana da-ki er-sat
+39. BE ZÉ ZAG ki-ma ki-ip-pa-ti ik-pu-up-ma ina ŠÀ-šu KÁM Š[UB]
+40. ($___$) ERIM LUGAL it-ti DINGIR-lì ana da-ki er-šat
+41. [BE Z]É x x x x LÚ ina ma-aṣ-ṣa!-ra-ti [...]
+42. ($___$) ina ar-ki-it U₄-ma-ti-šu SIG₅ u BE mu-hi ina pa-ni-ša na-ZA [...]
+43. BE ZÉ ki-ma ri-ti ŠU.SI.MEŠ GAR-ma u GE₆ bu sal za ba ra ka at [...]
+44. ($___$) u É iš-ta-na-ri-iq {d}NIN-x iṣ-ṣa-na-ba-at u a-ra-an [...]
+45. BE ZÉ ki-ma an-na-ab-ti LÚ ana UDUN ana MÍ il-li-[ik]
+46. BE ZÉ ki-ma GÚ.GAL LÚ ana GU₄.ÁB il-li-ik
+47. BE ZÉ ki-ma ab-ši LÚ ana U₈.MÍ il-li-ik
+48. BE ZÉ [ki-ma x-t]i u ŠÀ-šu ha-ri-ip LÚ ši mu ta bu-lì ana MÍ il-l[i-ik]
+49. [BE] KA ZÉ [x-x]-it-ma u i-tu-ur LÚ ana bu-lì il-li-ik
+50. [BE Z]É k[i-ma ri-]ti pu-ug-li LÚ ana na-ap-pár-ti pu-ug-li ana MÍ il-li-ik
+51. [BE Z]É [ki-m]a [ri-]ti pu-ug-li-ma u BABBAR ERIM-ni-šu ru-bu-ú i-ka-al
+52. [BE] ZÉ ki-ma [ri-]ti pu-ug-li-ma SIG₇-a {d}iš-ha-ra LÚ i-ba-la
+53. [BE x x] x [ki-]ma ki-ip-pa-ti ik-pu-up KUR LÚ.KÚR dan-na-tu₄ DIB
+54. [BE x x x ki-ma ki]-ip-pa-ti ik-pu-up-ma ina ŠÀ-šu U ŠUB
+55. ($___$) [ERIM LUGAL {d}IŠKUR] i-ra-hi-iṣ u BE LÚ ša LÚ.KÚR ina pu-uh-ri i-du-ku-šu
+56. [BE x x ki-ma ki-]ip-pa-ti ik-pu-up-ma ina ŠÀ-šu KÁM ŠUB
+57. ($___$) [ERIM LUGAL] it-[ti DIN]GIR-lì a-na da-ki-im er-še-et
+58. BE [ZÉ ina na-]ag-la-bi-šu ša ZAG iš-šu-uk LÚ ana DAM.A.NI-šu il-li-<ik>
+59. [BE x] ina na-ag-la-bi-šu ša GÙB iš-šu-uk LÚ ana DUMU.MÍ.A.NI-šu il-li-ik
+60. [BE x] x ina ki-ši-[ti-]šu iš-šu-uk ana DUMU.MÍ ra-ma-ni-šu il-li-ik
+61. [BE x x x x] x x [x] ar-šu iš-šu-uk LÚ ana um-mi-šu il-li-ik
+62. [x x x] x x x x x-tu₄ GAL
+63. [x x x] x RI.RI.GA ERIM [...]
+64. [x x x] BABBAR KÁM KÙ.BABBAR
+65. [x x x] SIG₇ KÁM GUŠKIN
+66. [x x x] GE₆ KÁM NA₄ ZA.GÌ[N]
+67. [x x x] gi-ih-lu-ú ina É LÚ Ì.GÁL
+68. [x x x] hu-ud ŠÀ ina É LÚ Ì.GÁL
+69. [x x x] x x iz-zi-iz ERIM LUGAL ma-hi-ra l[a] i-ra-aš-ši
+70. [x x x] x SAG-su ir-hi!-iṣ LÚ ina TI[-x] i-la-ak
+
+@colophon
+71. [BE] MAN BE
+72. [1] šu-ši 2 ZÉ MU.BI.[IM]
+73. [x x x x x x x x x] ZAG {d}NÈ.IRI₁₁.GA[L {d}É-]A u {d}IŠKUR

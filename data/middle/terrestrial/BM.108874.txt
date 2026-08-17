@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Babylonian
 provenance: Babylonia (heartland)
 publication: "BM 108874 = CT 40 48-49 (Gadd 1927). Edition: de Zorzi 2009 (KASKAL 6); the eBL ATF follows it. Colophon dates it to the Kassite king Meli-Sipak (1186-1172 BCE) — the only datable late-2nd-millennium Babylonian-proper Šumma Ālu witness. de Zorzi: probably belongs to the series Šumma ālu (ina mēlê šakin); cf. Koch 2015 §4.5.2 (aḫû tradition later partly incorporated into the standard series)."
@@ -35,6 +35,8 @@ note: Bird-flight AUGURY omens (falcon SUR₂.DU₃{mušen}, raven UGA{mušen} c
 7. DIŠ NA SAG A.ŠA₃ ana ma-ha-ṣi ZI-ma SUR₂.DU₃{mušen} TA 15 NA ana 150 NA DIB TI.LA ŠA₃ ša A.ŠA₃ IGI-mar
 8. DIŠ NA ŠE.NUMUN E₃-ma UGA{mušen} ina UGU-šu₂ GIN-ma ina 150 NA GU₃-si AB.SIN₂ GUN-sa₃ ut-tar
 9. DIŠ NA SAG A.ŠA₃ ana ma-ha-ṣi ZI-ma SUR₂.DU₃{mušen} TA 150 NA ana 15 NA DIB AB.SIN₂ GUN-sa₃ LA₂-ṭa
+
+@colophon
 10. PAB 25 MU.BI GABA.RI KUR SU.BIR₄{ki} {iti}APIN.DU₈.A U₄.8.KAM@v MU.3.KAM@v 2.KAM@v
 11. ($___$) me-li-ši-pak LUGAL KIŠ!(|IGI.UD|) NIG₂.ŠU {m}EN-AŠ-ŠIM DUMU {m}AN-TUK-ni
 12. ($___$) DUB.SAR TUR.RA IN.SAR

@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Late Babylonian
 provenance: Uruk (Warka; W.23272)
 publication: eBL fragment W.23272; De Zorzi 2014 (HANE/M 15) canonical Summa izbu
@@ -134,6 +134,8 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 51'. BE MUNUS 7 U₃.TU ZI-ut LUGAL IM.GI UŠ₄ KUR MAN-ni UN-MEŠ DUMU-MEŠ-ši-na ana KU₃.BABBAR BUR₂-MEŠ
 52'. {9} BE MUNUS 7 u₂-lu 8 U₃.TU LUGAL IM.GI ZI-ME-nim-ma KUR i-har-ru-ub
 53'. BE MUNUS U₃.TU-ma SAG#.DU UR.MAH GAR LUGAL dan-nu ina KUR GAL₂-ši
+
+@colophon
 54'. ŠU.NIGIN 1 UŠ 59.AM₃ MU ŠID.BI DUB.1.KAM₂.MA BE iz-bu EŠ₂.GAR₃ BE MUNUS PEŠ₄-ma ša₃ ŠA₃-ša₃ ER₂
 55'. NU AL.TIL GABA.RI UNUG{ki} GIM SUMUN-šu₂ SAR-ma ba-ri DUB {m.d}a-nu-ik-ṣur
 56'. [D]UMU ša₂ {m.d}UTU-MU DUMU {lu₂}SANGA-{d}MAŠ {lu₂}MAŠ.MAŠ BAN₃.DA qa-at₂ {m.d}a-nu-GI DUMU-šu₂

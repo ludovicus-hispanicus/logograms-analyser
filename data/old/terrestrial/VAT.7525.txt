@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Old Babylonian
 provenance: unknown
 publication: Köcher & Oppenheim 1957-58, AfO 18, 62-77 (VAT 7525). Old Babylonian Šumma Ālu forerunner — human-behaviour, garment (ṣubātum), appearance/body and sleep/dream omens (cols. I–III). Hittite parallel appendix (Güterbock, pp.78-80) excluded.

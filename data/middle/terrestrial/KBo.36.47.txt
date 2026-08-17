@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Babylonian
 provenance: Ḫattuša (Boğazköy), Hittite Empire — Late Bronze Age (Middle-period horizon)
 publication: "KBo 36.47 reverse. Edition: Cohen 2007, ZA 97 (Akkadian Omens from Hattuša and Emar). The reverse is an AKKADIAN recension of Šumma Ālu omens, identified with canonical Tablet 41 (cf. CT 41 9b); the obverse is šumma immeru (sacrificial-sheep omens, not included here)."

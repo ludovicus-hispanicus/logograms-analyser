@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Neo Babylonian
 provenance: Babylon (BM 33424 = Rm-III 101, Neo-Babylonian script)
 recension: canonical Sakikkû Tablet 3 (witness BM 33424 = Schmidtchen 2021 ms A, the main NB witness)

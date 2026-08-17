@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Middle Babylonian
 provenance: unknown
 counting: DIŠ

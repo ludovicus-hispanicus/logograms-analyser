@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Old Babylonian
 provenance: Southern Mesopotamia (CUSAS 18 no. 12)
 publication: George 2013, CUSAS 18 no. 12 = MS 3000

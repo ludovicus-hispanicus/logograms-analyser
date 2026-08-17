@@ -1,6 +1,7 @@
 import os
 import io
 import sys
+import base64
 import shutil
 import unicodedata
 import tempfile
@@ -26,9 +27,28 @@ import re
 import yaml
 
 # --- Configuration ---
+# The logo: a grid of words, solid where the writing is logographic, split where
+# mixed, outlined where spelt out — the corpus composition, cell for cell. The
+# tab icon and the header use the reduced nine-cell mark, because the twenty-five
+# of the full grid merge into texture below about 48 px.
+_LOGO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "logo")
+
+def _logo_data_uri(name):
+    """The mark as a data URI, so it travels with the page (stlite included)."""
+    try:
+        with open(os.path.join(_LOGO_DIR, name), "rb") as fh:
+            return "data:image/svg+xml;base64," + base64.b64encode(fh.read()).decode()
+    except OSError:
+        return ""
+
+# Three sizes of one mark: 25 cells large (README, print), 16 in the header where
+# the split cells still read, 9 in the tab icon where they would not.
+_MARK_URI = _logo_data_uri("ldi-grid-ui.svg")
+_FAVICON = os.path.join(_LOGO_DIR, "ldi-grid-favicon.png")
+
 st.set_page_config(
-    page_title="Mesopotamian Omen Analyzer",
-    page_icon="🏺",
+    page_title="The Logogram Density Index (LDI)",
+    page_icon=_FAVICON if os.path.exists(_FAVICON) else "🏺",
     layout="wide",
 )
 
@@ -88,16 +108,68 @@ def load_css():
         .js-plotly-plot .plotly, .js-plotly-plot .plotly .draglayer {
             cursor: pointer !important;
         }
-        /* "|" separator between the metric radio and the monogram checkbox. */
-        div[class*="st-key-"][class*="_mono"] {
-            border-left: 2px solid #ddd;
-            padding-left: 0.9rem;
+
+        /* A chart's title, printed above its measure switch (the switch then sits
+           between the title and the chart, and the figure carries no title of
+           its own). */
+        .charttitle {
+            font-size: 1.02rem;
+            font-weight: 600;
+            color: #262626;
+            margin: 0.2rem 0 0.1rem 0.1rem;
+        }
+
+        /* Copy control beside its table: content-width children, and the frame
+           nudged down so the dropdown lines up with the table's first row. */
+        [class*="st-key-cprow_"] {
+            gap: 0.9rem !important;
+            align-items: flex-start !important;
+            flex-wrap: nowrap !important;
+        }
+        [class*="st-key-cprow_"] > div > [data-testid="stElementContainer"] {
+            flex: 0 0 auto !important;
+            width: auto !important;
+        }
+        [class*="st-key-cprow_"] iframe {
+            width: 230px !important;
+            margin-top: 0.15rem;
+        }
+
+        /* The accent lives in the separators: every rule on the page is red
+           taken down to a grey tone, so the colour runs through without
+           competing with the logogram red in the texts. */
+        .stMain hr {
+            border: none !important;
+            border-top: 2px solid #C79A97 !important;
+            opacity: 1 !important;
+            margin: 1.5rem 0 1.2rem !important;
         }
 
         /* --- App header: title + nav tabs on one line, with a shared bottom border --- */
         .st-key-appheader {
-            border-bottom: 2px solid #d0d0d0;
             margin-bottom: 1.4rem;
+        }
+        /* The mark, sharing the title's baseline. It is pinned to the row rather
+           than laid out in it: in flow the mark was the tallest child and set the
+           row height itself, so every change to the button box moved the title
+           under a mark that stayed put, and the two drifted apart by a few pixels
+           between renders. Pinned, the row's height comes from the button alone
+           and `bottom` measures from the button's box to its text baseline. */
+        .st-key-brandrow {
+            position: relative;
+            padding-left: 67px !important;      /* 54px mark + 13px gap */
+            flex-wrap: nowrap !important;
+        }
+        .st-key-brandrow [data-testid="stElementContainer"]:has(.brandmark) {
+            position: absolute !important;
+            left: 0;
+            bottom: 2.05rem;                    /* measured: row box bottom -> baseline */
+            width: 54px !important;
+            flex: 0 0 auto !important;
+        }
+        .brandmark {
+            display: block;
+            width: 54px; height: 54px;
         }
         /* Title rendered as a flat heading-button (left) */
         .st-key-home_btn button {
@@ -126,9 +198,16 @@ def load_css():
             border-radius: 0 !important;
             color: #666 !important;
             font-weight: 600 !important;
-            font-size: 0.9rem !important;
             padding: 0.3rem 0.1rem !important;
             margin-bottom: -2px !important;       /* sit on the 2px border */
+        }
+        /* The label sits in an inner <p> with its own size — set it there, or the
+           button's font-size is ignored. Only this strip grows; the LDI view tabs
+           below keep their smaller size. */
+        [class*="st-key-nav_"] button p {
+            font-size: 1.3rem !important;
+            line-height: 1.25 !important;
+            margin: 0 !important;
         }
         [class*="st-key-nav_"] button:hover { color: #111 !important; }
         /* Active tab (rendered as type="primary") */
@@ -139,23 +218,219 @@ def load_css():
         }
         /* LDI sub-view selector (segmented control) — read it as a tab strip:
            flat segments, active one carries the app's red accent underline. */
-        .st-key-ldi_sub { margin-bottom: 1rem; }
-        .st-key-ldi_sub [data-baseweb="button-group"] { gap: 0.25rem; }
-        .st-key-ldi_sub button {
-            border: none !important;
-            border-bottom: 3px solid transparent !important;
+        /* Header row: tab strip at the left, title after it, one seam under
+           both. The title is pushed to the far end so the strip keeps its
+           place whatever the view is called. */
+        .st-key-ldihead {
+            align-items: flex-end !important;
+            gap: 0.9rem !important;
+            border-bottom: 2px solid #d9d9d9;   /* structural, not an accent */
+            margin-bottom: 0.9rem;
+        }
+        .st-key-ldihead .st-key-ldi_sub {
+            width: auto !important;
+            flex: 0 0 auto !important;
+        }
+        .st-key-ldihead [data-testid="stElementContainer"]:has(.setlabel) {
+            margin-left: auto !important;
+        }
+        /* The set picker is a switch, not a third row of tabs: one pill track with
+           the chosen set lifted out of it. Deliberately a different idiom from the
+           view tabs above, so the two rows do not read as the same control. */
+        /* The element container is content-sized by default, which squeezed the
+           three equal segments; stretch it to the tree column. */
+        .st-key-text_set_pick { margin-bottom: 0.6rem; width: 100% !important; }
+        /* The track spans the tree column, so equal thirds are wide enough for
+           "Comparanda" without clipping. */
+        .st-key-text_set_pick [data-testid="stButtonGroup"] { width: 100% !important; }
+        .st-key-text_set_pick [data-baseweb="button-group"] {
+            display: flex !important;
+            position: relative;
+            /* Three 80px segments, not the full column width. */
+            width: 244px !important;
+            max-width: none !important;   /* Streamlit caps it at fit-content */
+            gap: 0 !important;
+            background: #EDEBE7;
+            border: 1px solid #E0DBD2;
+            border-radius: 999px;
+            padding: 2px;
+        }
+        /* The thumb: one white pill that slides under the labels. The three
+           segments are equal thirds, so its travel is a plain percentage —
+           no measuring, and it animates because Streamlit reuses the group
+           element across reruns and only the active attribute changes. */
+        .st-key-text_set_pick [data-baseweb="button-group"]::before {
+            content: "";
+            position: absolute;
+            top: 2px; left: 2px;
+            height: calc(100% - 4px);
+            width: calc((100% - 4px) / 3);
+            border-radius: 999px;
+            background: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+            transition: transform 280ms cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+        }
+        .st-key-text_set_pick [data-baseweb="button-group"]:has(
+            button:nth-of-type(2)[kind="segmented_controlActive"])::before {
+            transform: translateX(100%);
+        }
+        .st-key-text_set_pick [data-baseweb="button-group"]:has(
+            button:nth-of-type(3)[kind="segmented_controlActive"])::before {
+            transform: translateX(200%);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .st-key-text_set_pick [data-baseweb="button-group"]::before { transition: none; }
+        }
+        .st-key-text_set_pick button {
+            flex: 1 1 0 !important;
+            min-width: 0 !important;
+            position: relative;            /* label rides above the thumb */
+            z-index: 1;
             background: transparent !important;
+            border: none !important;
+            border-radius: 999px !important;
             box-shadow: none !important;
-            border-radius: 0 !important;
-            color: #666 !important;
+            padding: 0.12rem 0.18rem !important;
+            font-size: 0.7rem !important;      /* fits "Comparanda" in an 80px segment */
+            font-weight: 600 !important;
+            color: #6B655D !important;
+            white-space: nowrap;
+            transition: color 180ms ease;
+        }
+        /* The label sits in an inner <p> with its own 14px size — set it there, or
+           the segment ellipsises however small the button's font-size is. */
+        .st-key-text_set_pick button p {
+            font-size: 0.7rem !important;
+            font-weight: 600 !important;
+            line-height: 1.5 !important;
+            margin: 0 !important;
+        }
+        .st-key-text_set_pick button:hover { color: #111 !important; }
+        .st-key-text_set_pick button[data-testid="stBaseButton-segmented_controlActive"],
+        .st-key-text_set_pick button[kind="segmented_controlActive"] {
+            background: transparent !important;   /* the thumb paints it */
+            color: #C0271F !important;
+            box-shadow: none !important;
+        }
+        .st-key-ldi_sub { margin-bottom: 0; }
+        .st-key-ldi_sub [data-baseweb="button-group"] {
+            gap: 0.2rem;
+            justify-content: flex-start;
+        }
+        /* Folder tabs: white, sitting on the seam; the open one greys and
+           lifts clear of it. */
+        .st-key-ldi_sub button {
+            background: #fff !important;
+            border: 1px solid #e2e2e2 !important;
+            border-bottom: none !important;
+            border-radius: 8px 8px 0 0 !important;
+            box-shadow: none !important;
+            padding: 0.3rem 0.9rem !important;
+            margin-bottom: -2px !important;
+            color: #5a5a5a !important;
             font-weight: 600 !important;
         }
-        .st-key-ldi_sub button:hover { color: #111 !important; }
-        .st-key-ldi_sub button[aria-checked="true"],
-        .st-key-ldi_sub button[kind="primary"],
-        .st-key-ldi_sub button[data-testid="stBaseButton-primary"] {
-            color: #D32F2F !important;
-            border-bottom: 3px solid #D32F2F !important;
+        .st-key-ldi_sub button:hover {
+            background: #f6f6f6 !important; color: #111 !important;
+        }
+        .st-key-ldi_sub button[data-testid="stBaseButton-segmented_controlActive"],
+        .st-key-ldi_sub button[kind="segmented_controlActive"],
+        .st-key-ldi_sub button[aria-checked="true"] {
+            background: #e0e0e0 !important;
+            border-color: #c4c4c4 !important;
+            color: #1a1a1a !important;
+            padding-bottom: 0.42rem !important;
+            font-weight: 700 !important;
+            /* inset, so the red edge costs no height and nothing shifts */
+            box-shadow: inset 0 3px 0 0 #D32F2F !important;
+        }
+        .st-key-ldi_sub button[data-testid="stBaseButton-segmented_controlActive"]:hover,
+        .st-key-ldi_sub button[kind="segmented_controlActive"]:hover {
+            background: #d8d8d8 !important;
+        }
+        /* "Text set" heads its options; it is not a widget label. */
+        .setlabel {
+            font-size: 1.75rem; font-weight: 600; color: #1f1f1f;
+            line-height: 1.2; margin: 0 0.15rem 0.75rem 0.1rem; white-space: nowrap;
+        }
+        /* Tablet explorer (LDI ▸ Text): rows, not buttons. Strip the chrome so
+           the tree reads like a file list — flat, left-aligned, hover-highlighted. */
+        /* Sticky tree. The rule must sit on the COLUMN, not on the container
+           inside it: the column is the flex child, and while it stretches to the
+           row's full height `position: sticky` has no distance to travel and
+           looks like it does nothing. align-self stops that stretch. */
+        [data-testid="stColumn"]:has([class*="st-key-tabtree"]) {
+            position: sticky !important;
+            top: 0.5rem;
+            align-self: flex-start !important;
+            max-height: calc(100vh - 2.5rem);
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-right: 6px;
+        }
+        [data-testid="stColumn"]:has([class*="st-key-tabtree"])::-webkit-scrollbar { width: 7px; }
+        [data-testid="stColumn"]:has([class*="st-key-tabtree"])::-webkit-scrollbar-thumb {
+            background: #d6dbe1; border-radius: 4px;
+        }
+        [data-testid="stColumn"]:has([class*="st-key-tabtree"])::-webkit-scrollbar-thumb:hover {
+            background: #b9c1ca;
+        }
+        /* no ancestor may clip it, or sticky is ignored outright */
+        [data-testid="stHorizontalBlock"]:has([class*="st-key-tabtree"]) { overflow: visible !important; }
+        [class*="st-key-tabtree"] [data-testid="stButton"] { margin: 0 !important; }
+        [class*="st-key-tabtree"] button {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            border-radius: 3px !important;
+            padding: 1px 6px !important;
+            min-height: 0 !important;
+            width: 100% !important;
+            text-align: left !important;
+            justify-content: flex-start !important;
+            font-size: 0.86rem !important;
+            line-height: 1.5 !important;
+            color: #222 !important;
+        }
+        [class*="st-key-tabtree"] button > div,
+        [class*="st-key-tabtree"] button [data-testid="stMarkdownContainer"] {
+            width: 100% !important;
+            text-align: left !important;
+            display: block !important;
+        }
+        [class*="st-key-tabtree"] button p {
+            text-align: left !important;
+            margin: 0 !important;
+            font-weight: 400 !important;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        /* the columns used for indenting must not add their own gap */
+        [class*="st-key-tabtree"] [data-testid="stHorizontalBlock"] { gap: 0 !important; }
+
+        [class*="st-key-tabtree"] [data-testid="stVerticalBlock"] { gap: 0 !important; }
+        [class*="st-key-tabtree"] button:hover { background: #eef2f7 !important; }
+        /* the open tablet: marked by weight and a rule, not a filled button */
+        [class*="st-key-tabtree"] button[kind="primary"],
+        [class*="st-key-tabtree"] button[data-testid="stBaseButton-primary"] {
+            background: #e8eef6 !important;
+            color: #0d47a1 !important;
+        }
+        [class*="st-key-tabtree"] button[kind="primary"] p,
+        [class*="st-key-tabtree"] button[data-testid="stBaseButton-primary"] p {
+            font-weight: 600 !important;
+        }
+        /* discipline rows sit slightly heavier than the tablets under them */
+        [class*="st-key-tabtree"] [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]
+            > [data-testid="stButton"] > button p { font-weight: 500 !important; }
+        [class*="st-key-tabtree"] [data-testid="stCaptionContainer"] {
+            margin: 2px 0 0 10px !important;
+            font-size: 0.72rem !important;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+            color: #8a8a8a !important;
         }
         /* Hand cursor on the open dropdown menu (selectbox option list).
            BaseWeb renders the menu in a portal, so target it broadly. */
@@ -181,8 +456,9 @@ IGNORE_TOKENS = {'x', '($___$)', '.', '..', '...'}
 NUMBER_LOGOGRAMS = {'15', '150', '30'}
 
 # Function words written with a SINGLE sign (monograms): the prepositions ina (=AŠ)
-# and ana. Lowercase, so by default they count as syllabic; the monogram toggle
-# reclassifies them as logographic. See docs/ldi-sign-level.md.
+# and ana. Lowercase, so they count as syllabic throughout; the ina/ana column
+# of every report table shows what counting them as logographic would give.
+# See docs/ldi-sign-level.md.
 MONOGRAM_PARTICLES = {'ina', 'ana'}
 SIGN_BOUNDARY = re.compile(r'[.\-]')   # signs within a word are joined by '.' or '-'
 
@@ -216,10 +492,45 @@ def _omen_has_signal(sub):
     return is_signal.groupby(keys).transform('any')
 
 def _drop_contentless(sub):
-    """Drop content-less omens (see _omen_has_signal) before pooling an LDI."""
+    """Drop content-less omens (see _omen_has_signal) before pooling an LDI.
+
+    Uses the precomputed `_signal` column when the frame carries one (see
+    enrich_signs) — that turns a groupby per call into a mask lookup."""
     if 'omen_id' not in sub.columns or sub.empty:
         return sub
+    if '_signal' in sub.columns:
+        return sub[sub['_signal']]
     return sub[_omen_has_signal(sub)]
+
+def _drop_particles(sub):
+    """Drop the omen-opening particle (DIŠ/BE/BAD/AŠ/UD) from a scored slice.
+
+    The particle is a logographic writing of *šumma* and is counted by default, but
+    it is also boilerplate — one guaranteed logogram per omen — so an analysis may
+    prefer to treat it as structural markup rather than as text. Apply after
+    _drop_contentless, so an omen that is nothing but its particle is already gone."""
+    if sub.empty or 'token' not in sub.columns:
+        return sub
+    return sub[~((sub['type'] == 'logogram') & sub['token'].isin(LOGOGRAM_PARTICLES))]
+
+def word_composition(nl, nph):
+    """Split scored words into pure-logographic / mixed / syllabic shares.
+
+    `nl`/`nph` are per-word logographic and phonetic SIGN counts. The three LDI
+    measures are summaries of these three proportions, so reporting the shares
+    alongside the index shows what the number is made of: two texts can agree in
+    bin and still differ several-fold in how much of their logography carries a
+    phonetic complement. Returns (pure %, mixed %, syllabic %, scored words)."""
+    nl, nph = pd.Series(nl).reset_index(drop=True), pd.Series(nph).reset_index(drop=True)
+    scored = (nl + nph) > 0
+    nl, nph = nl[scored], nph[scored]
+    n = int(len(nl))
+    if not n:
+        return float('nan'), float('nan'), float('nan'), 0
+    pure = int(((nl > 0) & (nph == 0)).sum())
+    mixed = int(((nl > 0) & (nph > 0)).sum())
+    syll = int(((nl == 0) & (nph > 0)).sum())
+    return 100 * pure / n, 100 * mixed / n, 100 * syll / n, n
 
 def _sign_counts(token):
     """Per-sign (logogram, phonetic) counts for one word token, splitting on '.'/'-'.
@@ -228,6 +539,11 @@ def _sign_counts(token):
     for s in SIGN_BOUNDARY.split(str(token)):
         if not s:
             continue
+        # NB an illegible 'x' *inside* a word (ku-x) is counted as a phonetic sign
+        # here, because compute_ratios.annotate_signs does the same: it drops a
+        # token only when the whole token is an IGNORE_TOKEN. Matching that is
+        # deliberate — the corpus figures in the article come from that path, so
+        # the app must reproduce it rather than silently improve on it.
         if s.rstrip('?!') in NUMBER_LOGOGRAMS:
             nl += 1
         elif any(c.isupper() for c in s):
@@ -257,6 +573,33 @@ PERIOD_MAPPING = {
 }
 
 # Display names for the (normalized) genre keys, shown in the UI/charts.
+REPORT_COLS = ["texts", "omens", "bin", "macro", "micro",
+               "ina/ana", "restor.", "no particle",
+               "pure %", "mixed %", "syll %"]
+REPORT_LDI_COLS = ["bin", "macro", "micro", "ina/ana", "restor.", "no particle"]
+
+STANDARD_CAPTION = (
+    "Baseline: particle counted, ina/ana syllabic, restorations counted. "
+    "**ina/ana**, **restor.** and **no particle** give bin under each of those "
+    "conventions instead; the last three columns are the word composition the "
+    "three measures summarise.")
+
+def report_style(df_):
+    """Shade the LDI columns; keep the counts plain."""
+    cols = [c for c in REPORT_LDI_COLS if c in df_.columns]
+    return (df_.style
+            .set_properties(subset=cols, **{'background-color': '#f2f2f2'})
+            .set_table_styles([
+                {'selector': '', 'props': [('border-collapse', 'collapse')]},
+                {'selector': 'th.col_heading',
+                 'props': [('text-align', 'center'), ('padding', '4px 10px')]},
+                {'selector': 'th.row_heading',
+                 'props': [('text-align', 'left'), ('padding', '4px 10px')]},
+                {'selector': 'td', 'props': [('text-align', 'center'),
+                                             ('padding', '4px 10px'),
+                                             ('border-bottom', '1px solid #f0f0f0')]},
+            ]))
+
 GENRE_DISPLAY = {
     "astrology": "Astrological Omens",
     "diagnostic": "Diagnostic Omens",
@@ -274,26 +617,37 @@ LEGEND_HTML = (
     '<span class="sux">Sumerian</span></div>'
 )
 
-def chart_controls(key):
-    """Per-chart controls: bin macro micro | count ina/ana … | drop restorations —
-    the metric radio (label hidden), the monogram checkbox, and the preserved-only
-    checkbox, each keyed independently so every chart owns its own choice.
-    Returns (metric, monogram, preserved)."""
-    c1, c2, c4, c3, _spacer = st.columns([1.5, 2.6, 2.3, 0.4, 3], vertical_alignment="center")
+@st.fragment
+def metric_block(key, build):
+    """Run a measure switch and the chart it drives as one fragment.
+
+    Without this, changing bin/macro/micro reruns the whole script: every chart on
+    the page is recomputed and every element greys out. Inside a fragment only
+    this block reruns, so only this chart is rebuilt and only this chart fades.
+    `build` takes the chosen measure and draws the figure."""
+    build(metric_control(key))
+
+def metric_control(key):
+    """Which measure the chart below plots: bin, macro or micro (label hidden).
+
+    Called immediately before the chart it drives, so the switch and the line it
+    moves are read together. The three convention checkboxes that used to stand
+    beside it — count ina/ana as logographic, drop restorations, drop the opening
+    particle — are gone: every standard report table now carries those variants
+    as columns, so a reader sees what each decision is worth instead of switching
+    it on and reading the figure twice. The charts hold the canonical convention
+    throughout. Returns the metric name."""
+    # Wide enough that the three options never wrap onto a second line.
+    c1, c3, _spacer = st.columns([2.7, 0.35, 6.95], vertical_alignment="center")
     metric = c1.radio(
         "metric", ["bin", "macro", "micro"], horizontal=True,
         key=f"{key}_metric", label_visibility="collapsed")
-    monogram = c2.checkbox("count ina/ana as logographic", key=f"{key}_mono")
-    preserved = c4.checkbox(
-        "drop restorations [ … ]", key=f"{key}_pres",
-        help="Score only signs physically on the tablet — drop the editor's [ … ] "
-             "reconstructions. Off = count them (the full edited text).")
     # Always-visible link to the full explanation (no underline).
     c3.markdown(
         '<a href="?nav=Introduction" title="Full explanation on the Introduction tab" '
         'style="text-decoration:none; font-size:1.2rem; color:#1976D2;">ⓘ</a>',
         unsafe_allow_html=True)
-    return metric, monogram, preserved
+    return metric
 
 def _table_to_markdown(df):
     """GitHub-flavoured Markdown for a (possibly MultiIndex-column) DataFrame.
@@ -313,86 +667,88 @@ def _table_to_markdown(df):
     return "\n".join(out)
 
 def render_table_with_copy(styler, source_df, key, label="📋 Copy table…"):
-    """Render a Styler HTML table, then a dropdown that copies it to the clipboard
-    in the chosen format: rich HTML (pastes as a real table into Excel / Word /
-    Sheets), Markdown, or tab-separated text. Falls back to plain text if the
-    rich-clipboard API is unavailable (e.g. a non-secure context)."""
+    """Render a Styler HTML table with a dropdown beside it that copies it to the
+    clipboard in the chosen format: rich HTML (pastes as a real table into Excel /
+    Word / Sheets), Markdown, or tab-separated text. Falls back to plain text if
+    the rich-clipboard API is unavailable (e.g. a non-secure context).
+
+    The control sits to the right of the table rather than under it: the tables are
+    narrower than the page, so the space is there, and a caption or the next
+    heading then follows the table directly."""
     table_html = styler.to_html()
-    st.markdown(table_html, unsafe_allow_html=True)
+    _row = st.container(horizontal=True, vertical_alignment="top",
+                        key=f"cprow_{key}")
+    with _row:
+        st.markdown(table_html, unsafe_allow_html=True)
 
     payload_html = json.dumps(table_html)
     payload_tsv = json.dumps(source_df.to_csv(sep='\t'))
     payload_md = json.dumps(_table_to_markdown(source_df))
     label_js = json.dumps(label)
-    components.html(
-        f"""
-        <select id="cp_{key}" style="font:13px/1.4 'Source Sans 3',sans-serif;
-            cursor:pointer;border:1px solid #ccc;border-radius:6px;background:#fff;
-            padding:3px 10px;color:#1976D2;">
-            <option value="">{label}</option>
-            <option value="rich">Rich table (Excel / Word)</option>
-            <option value="md">Markdown</option>
-            <option value="tsv">Tab-separated (TSV)</option>
-        </select>
-        <script>
-        (function() {{
-            const sel = document.getElementById("cp_{key}");
-            const html = {payload_html}, tsv = {payload_tsv}, md = {payload_md};
-            const placeholder = {label_js};
-            function flash(msg) {{
-                sel.options[0].text = msg;
-                sel.selectedIndex = 0;
-                setTimeout(function() {{ sel.options[0].text = placeholder; }}, 1600);
-            }}
-            sel.addEventListener("change", async function() {{
-                const v = sel.value;
-                if (!v) return;
-                const txt = (v === "md") ? md : tsv;
-                try {{
-                    if (v === "rich") {{
-                        await navigator.clipboard.write([new ClipboardItem({{
-                            "text/html": new Blob([html], {{type: "text/html"}}),
-                            "text/plain": new Blob([tsv], {{type: "text/plain"}})
-                        }})]);
-                    }} else {{
-                        await navigator.clipboard.writeText(txt);
-                    }}
-                    flash("✅ Copied");
-                }} catch (e) {{
-                    try {{
-                        await navigator.clipboard.writeText(txt);
-                        flash("✅ Copied (text)");
-                    }} catch (e2) {{ flash("⚠️ Copy failed"); }}
+    with _row:
+        components.html(
+            f"""
+            <select id="cp_{key}" style="font:13px/1.4 'Source Sans 3',sans-serif;
+                cursor:pointer;border:1px solid #ccc;border-radius:6px;background:#fff;
+                padding:3px 10px;color:#1976D2;">
+                <option value="">{label}</option>
+                <option value="rich">Rich table (Excel / Word)</option>
+                <option value="md">Markdown</option>
+                <option value="tsv">Tab-separated (TSV)</option>
+            </select>
+            <script>
+            (function() {{
+                const sel = document.getElementById("cp_{key}");
+                const html = {payload_html}, tsv = {payload_tsv}, md = {payload_md};
+                const placeholder = {label_js};
+                function flash(msg) {{
+                    sel.options[0].text = msg;
+                    sel.selectedIndex = 0;
+                    setTimeout(function() {{ sel.options[0].text = placeholder; }}, 1600);
                 }}
-            }});
-        }})();
-        </script>
-        """,
-        height=40,
-    )
+                sel.addEventListener("change", async function() {{
+                    const v = sel.value;
+                    if (!v) return;
+                    const txt = (v === "md") ? md : tsv;
+                    try {{
+                        if (v === "rich") {{
+                            await navigator.clipboard.write([new ClipboardItem({{
+                                "text/html": new Blob([html], {{type: "text/html"}}),
+                                "text/plain": new Blob([tsv], {{type: "text/plain"}})
+                            }})]);
+                        }} else {{
+                            await navigator.clipboard.writeText(txt);
+                        }}
+                        flash("✅ Copied");
+                    }} catch (e) {{
+                        try {{
+                            await navigator.clipboard.writeText(txt);
+                            flash("✅ Copied (text)");
+                        }} catch (e2) {{ flash("⚠️ Copy failed"); }}
+                    }}
+                }});
+            }})();
+            </script>
+            """,
+            height=40,
+        )
 
 EBL_BASE = "https://www.ebl.lmu.de"
 
-def biblio_and_ebl_lines(row):
-    """Markdown lines for the bibliography (publication / edition) and an eBL link.
-    The link type is inferred: a corpus chapter (its `/api/texts/.../chapters/...` path
-    appears in the frontmatter, e.g. EAE 55/57) → a Corpus URL; otherwise the text is a
-    fragment → a Library URL from the museum number (the filename). Generated links carry
-    a (?) warning since they may not resolve if the text isn't in eBL.
-    Returned as a list of lines so the caller can render the whole block at once."""
-    lines = []
-    bib = [str(row[k]).strip() for k in ("publication", "edition")
-           if isinstance(row.get(k), str) and str(row[k]).strip()]
-    if bib:
-        lines.append("**Bibliography:** " + " · ".join(bib))
+def ebl_url_for(row):
+    """(url, label, inferred) for a text's eBL edition, or (None, None, False).
 
+    The link type is inferred: a real eBL URL written in the frontmatter wins; then a
+    corpus chapter (its `/api/texts/.../chapters/...` path appears in the frontmatter,
+    e.g. EAE 55/57) → a Corpus URL; otherwise the text is a fragment → a Library URL
+    from the museum number, preferring one named in the bibliography ("eBL IM.64183")
+    over the filename stem. `inferred` marks a URL we built rather than read: it follows
+    eBL's standard pattern but may not resolve.
+
+    One source of truth, because two views need different renderings of it — the Text
+    view wants a marked-up line, the Sources sheet wants the bare URL."""
     blob = " ".join(str(row.get(k, "")) for k in
                     ("edition", "note", "source_note", "recension", "series", "publication"))
-    warn = ('<span title="Auto-generated from the text/museum number using eBL&#39;s standard '
-            'URL pattern — it may not resolve if the text is not in eBL." '
-            'style="cursor:help; color:#888;">(?)</span>')
-
-    # A real eBL URL written in the frontmatter wins (no warning).
     m_url = re.search(r"https?://(?:www\.)?ebl\.lmu\.de/\S+", blob)
     # A corpus chapter: /api/texts/<genre/cat/idx>/chapters/<stage/name>
     m_corpus = re.search(r"/api/texts/([A-Za-z0-9/]+?)/chapters/([A-Za-z0-9/]+)", blob)
@@ -402,14 +758,32 @@ def biblio_and_ebl_lines(row):
     stem = str(row.get("filename", "")).rsplit(".txt", 1)[0]
 
     if m_url:
-        lines.append(f"**eBL:** [View on eBL]({m_url.group(0).rstrip('.,;)')})")
-    elif m_corpus:
-        path = f"{m_corpus.group(1)}/{m_corpus.group(2)}"
-        lines.append(f"**eBL:** [Corpus]({EBL_BASE}/corpus/{path}) {warn}")
-    elif m_num:
-        lines.append(f"**eBL:** [Library]({EBL_BASE}/library/{m_num.group(1)})")
-    elif stem:
-        lines.append(f"**eBL:** [Library]({EBL_BASE}/library/{stem}) {warn}")
+        return m_url.group(0).rstrip('.,;)'), "View on eBL", False
+    if m_corpus:
+        return f"{EBL_BASE}/corpus/{m_corpus.group(1)}/{m_corpus.group(2)}", "Corpus", True
+    if m_num:
+        return f"{EBL_BASE}/library/{m_num.group(1)}", "Library", False
+    if stem:
+        return f"{EBL_BASE}/library/{stem}", "Library", True
+    return None, None, False
+
+EBL_WARN = ('<span title="Auto-generated from the text/museum number using eBL&#39;s standard '
+            'URL pattern — it may not resolve if the text is not in eBL." '
+            'style="cursor:help; color:#888;">(?)</span>')
+
+def biblio_and_ebl_lines(row):
+    """Markdown lines for the bibliography (publication / edition) and an eBL link.
+    Built links carry a (?) warning (see ebl_url_for).
+    Returned as a list of lines so the caller can render the whole block at once."""
+    lines = []
+    bib = [str(row[k]).strip() for k in ("publication", "edition")
+           if isinstance(row.get(k), str) and str(row[k]).strip()]
+    if bib:
+        lines.append("**Bibliography:** " + " · ".join(bib))
+
+    url, label, inferred = ebl_url_for(row)
+    if url:
+        lines.append(f"**eBL:** [{label}]({url})" + (f" {EBL_WARN}" if inferred else ""))
     return lines
 
 # --- Bibliography (references.bib) ------------------------------------------
@@ -712,15 +1086,18 @@ CAT_DISCIPLINE = {
     "extispicy omens":    "Extispicy (bārûtu)",
     "diagnostic omens":   "Diagnostic / Medical (Sakikkû)",
     "extispicy model":    "Extispicy models & orientation texts",
+    "lecanomancy":        "Lecanomancy",
+    # a witness to EAE 15, held out of the astrology counts as a parallel
+    "astrology (EAE 15 parallel)": "Celestial / Astrological (Enūma Anu Enlil)",
+    # not divination at all — these two are genres, not disciplines of it
     "prayer":             "Other genres (comparanda)",
     "incantation":        "Other genres (comparanda)",
-    "lecanomancy":        "Other genres (comparanda)",
-    "astrology (EAE 15 parallel)": "Other genres (comparanda)",
 }
 CAT_DISCIPLINE_ORDER = [
     "Celestial / Astrological (Enūma Anu Enlil)", "Terrestrial (Šumma Ālu)",
     "Teratological (Šumma Izbu)", "Extispicy (bārûtu)", "Diagnostic / Medical (Sakikkû)",
-    "Extispicy models & orientation texts", "Other genres (comparanda)", "Unspecified",
+    "Extispicy models & orientation texts", "Lecanomancy",
+    "Other genres (comparanda)", "Unspecified",
 ]
 CAT_PERIOD_ORDER = [
     "Old Babylonian", "Late Old Babylonian", "Early Middle Babylonian", "Middle Babylonian",
@@ -764,7 +1141,12 @@ def catalogue_rows():
             raw = m.group(1) if m else ""
             try:
                 fm = yaml.safe_load(raw) if raw else {}
-            except yaml.YAMLError:
+                if fm and 'discipline' in fm and 'genre' not in fm:
+                    fm['genre'] = fm['discipline']
+            except yaml.YAMLError as e:
+                # Surface it: a broken header drops the file's period/genre/counting
+                # from the catalogue entirely. Usually an unquoted ': ' in a prose value.
+                st.warning(f"Unparsable YAML frontmatter in {f} — metadata ignored: {e}")
                 fm = {}
             fm = fm if isinstance(fm, dict) else {}
             fm["filename"] = f
@@ -777,19 +1159,15 @@ def catalogue_rows():
             rm = re.search(r'^exclude:\s*true\s*#\s*(.*)$', raw, re.M)
             fm["_reason"] = rm.group(1).strip() if rm else ""
             fm["_supplementary"] = fm["_excluded"] and "supplementary" in fm["_reason"].lower()
+            # data/<period>/<discipline>/<topic>/<feature>/file.txt — the layout
+            # load_local_data takes its defaults from; frontmatter wins where set.
+            parts = os.path.relpath(dp, "data").split(os.sep)
+            fm["_topic"] = str(fm.get("topic") or
+                               (parts[2].replace("-", " ") if len(parts) >= 3 else "")).strip()
+            fm["_feature"] = str(fm.get("feature") or
+                                 (parts[3].replace("-", " ") if len(parts) >= 4 else "")).strip()
             rows.append(fm)
     return rows
-
-def _cat_cell(s):
-    return (str(s) if s is not None else "").replace("|", "/").replace("\n", " ").strip() or "—"
-
-def _cat_ebl_cell(row):
-    """Just the eBL link markdown for a catalogue row (drops the '(?)' warn span)."""
-    for ln in biblio_and_ebl_lines(row):
-        if ln.startswith("**eBL:**"):
-            link = ln[len("**eBL:**"):].strip()
-            return re.sub(r'\s*<span[^>]*>.*?</span>', '', link) or "—"
-    return "—"
 
 def _cat_pub(row):
     for k in ("publication", "edition", "source"):
@@ -797,6 +1175,136 @@ def _cat_pub(row):
         if isinstance(v, str) and v.strip():
             return v.strip()
     return ""
+
+# --- The catalogue as one sortable sheet (the Sources tab) ---------------------
+# The tab renders a single flat table: every manuscript a row, every field a
+# sortable column. The default order is catalogue order — museum number, letters
+# before numbers — and any column header re-sorts from there.
+
+def _cat_natkey(sig):
+    """Sort key for a museum number: sigla opening with a letter come first, and the
+    numbers inside compare as numbers, so 'A 63' precedes 'A 120' (a plain string sort
+    would not). Sigla opening with a digit sort after all lettered ones."""
+    s = str(sig or "")
+    parts = [p for p in re.split(r'(\d+)', s) if p]
+    return (0 if s[:1].isalpha() else 1,
+            tuple((1, int(p)) if p.isdigit() else (0, p.lower()) for p in parts))
+
+def catalogue_ldi():
+    """Per-text LDI for the catalogue sheet, keyed by filename.
+
+    Baseline conventions, the same slice trio() scores: determinatives excluded,
+    content-less omens dropped, the opening particle counted, ina/ana syllabic,
+    restorations counted. Covers the corpus plus the supplementary and comparanda
+    sets; a text in no set (never tokenized) is simply absent.
+
+    Cached in session state against the token count, so an import or a reset
+    recomputes it; the Sources tab's ↻ Refresh drops it explicitly."""
+    anns = (list(st.session_state.get('annotations', []))
+            + list(st.session_state.get('supplementary', []))
+            + list(st.session_state.get('comparanda', [])))
+    cached = st.session_state.get('_cat_ldi')
+    if cached and cached[0] == len(anns):
+        return cached[1]
+
+    out = {}
+    d = pd.DataFrame(anns)
+    if not d.empty and {'filename', 'omen_id', 'token', 'type'} <= set(d.columns):
+        # omens are counted before content-less ones are dropped: they are still
+        # omens on the tablet, they just carry no signal to score
+        omens = d.drop_duplicates(subset=['filename', 'omen_id']).groupby('filename').size()
+        d = _drop_contentless(d)
+        d = d[d['type'].isin(['logogram', 'phonetic'])]   # determinatives excluded
+        sc = list(d['token'].map(_sign_counts))
+        d = d.assign(_nl=[a for a, _ in sc], _nph=[b for _, b in sc])
+        den = d['_nl'] + d['_nph']
+        d = d.assign(_deg=d['_nl'] / den.where(den > 0))
+        g = d.groupby('filename')
+        nl, nph = g['_nl'].sum(), g['_nph'].sum()
+        binv, macro, words = g['type'].apply(lambda s: (s == 'logogram').mean()), g['_deg'].mean(), g.size()
+        micro = nl / (nl + nph).where((nl + nph) > 0)
+        # pure / mixed / syllabic shares through the app's own helper, so the sheet
+        # cannot drift from the composition rows in the Text and Tools reports
+        comp = {f: word_composition(sub['_nl'], sub['_nph']) for f, sub in g}
+        for f in binv.index:
+            pu, mx, sy, _n = comp.get(f, (float('nan'),) * 4)
+            out[f] = {"bin": binv[f], "macro": macro[f], "micro": micro[f],
+                      "pure": pu, "mixed": mx, "syll": sy,
+                      "words": int(words[f]), "omens": int(omens.get(f, 0))}
+    st.session_state['_cat_ldi'] = (len(anns), out)
+    return out
+
+# Columns shown by default; the rest are opt-in from the "add columns" picker, so
+# the sheet opens readable and can be widened to the full record on demand.
+CAT_COLS_DEFAULT = ["#", "Museum no.", "Status", "Period", "Chron.", "Discipline", "Topic",
+                    "Publication / edition", "Provenance", "eBL", "LDI (bin)", "Omens"]
+CAT_COLS_OPTIONAL = ["Era", "Region", "Feature", "Tradition", "Series / recension",
+                     "Counting", "LDI (macro)", "LDI (micro)",
+                     "Pure-log. %", "Mixed %", "Syllabic %", "Words scored",
+                     "eBL link", "Reason (if excluded)", "Note", "File"]
+
+# Columns the search box looks in — the prose ones. Numbers are excluded on purpose:
+# typing "3" should not match every tablet with 3 omens.
+CAT_SEARCH_COLS = ["Museum no.", "Status", "Period", "Era", "Discipline", "Topic", "Feature",
+                   "Publication / edition", "Provenance", "Region", "Tradition",
+                   "Series / recension", "Reason (if excluded)", "Note", "File"]
+
+def catalogue_table():
+    """The whole catalogue as a DataFrame: one row per manuscript, one column per
+    field, in catalogue order. `_blob` (search) and `_sort` (order) are working
+    columns, hidden from the sheet."""
+    ldi = catalogue_ldi()
+    recs = []
+    for r in catalogue_rows():
+        m = ldi.get(r.get("filename"), {})
+        url, _label, inferred = ebl_url_for(r)
+        period = r["_period"]
+        prov = str(r.get("provenance") or "").strip()
+        rec = {
+            "Museum no.": r["_sig"],
+            "Status": ("Supplementary" if r["_supplementary"]
+                       else "Excluded" if r["_excluded"] else "Analysed"),
+            "Period": period,
+            # a sortable stand-in for the period: clicking "Period" sorts the names
+            # alphabetically, which puts Late Babylonian before Old Babylonian
+            "Chron.": (CAT_PERIOD_ORDER.index(period) + 1) if period in CAT_PERIOD_ORDER else None,
+            "Era": period_disp(PERIOD_MAPPING.get(period, period)),
+            "Discipline": r["_discipline"],
+            "Topic": r.get("_topic") or "",
+            "Feature": r.get("_feature") or "",
+            "Publication / edition": _cat_pub(r),
+            "Provenance": prov,
+            "Region": region_or_unknown(prov, period),
+            "eBL": url or None,
+            "eBL link": "inferred" if (url and inferred) else "recorded" if url else "—",
+            "LDI (bin)": m.get("bin"),
+            "LDI (macro)": m.get("macro"),
+            "LDI (micro)": m.get("micro"),
+            "Pure-log. %": m.get("pure"),
+            "Mixed %": m.get("mixed"),
+            "Syllabic %": m.get("syll"),
+            "Omens": m.get("omens"),
+            "Words scored": m.get("words"),
+            "Tradition": str(r.get("tradition") or "").strip(),
+            "Series / recension": " · ".join(
+                s for s in (str(r.get("series") or "").strip(),
+                            str(r.get("recension") or "").strip()) if s),
+            "Counting": str(r.get("counting") or "").strip(),
+            "Reason (if excluded)": r["_reason"],
+            "Note": " ".join(str(r.get(k) or "").strip()
+                             for k in ("note", "source_note")).strip(),
+            "File": r.get("filename", ""),
+        }
+        rec["_sort"] = _cat_natkey(r["_sig"])
+        rec["_blob"] = " ".join(str(rec[k]) for k in CAT_SEARCH_COLS).lower()
+        recs.append(rec)
+    df = pd.DataFrame(recs).sort_values("_sort").reset_index(drop=True)
+    df.insert(0, "#", range(1, len(df) + 1))
+    # nullable ints, so an unscored text is blank rather than "7.0" on screen and in
+    # the CSV export (a float column would carry NaN and print every count as a float)
+    for c in ("Chron.", "Omens", "Words scored"):
+        df[c] = df[c].astype("Int64")
+    return df
 
 # Region grouping for the Region view — by find-spot (where the manuscript was
 # excavated): the southern Mesopotamian heartland (Babylonia), the northern one
@@ -887,9 +1395,13 @@ PERIOD_ORDER = [
     "Neo-Babylonian/Assyrian + Late Babylonian"
 ]
 
-# Two-line display labels for charts (the long Neo label is otherwise clipped).
+# Short display labels. The full names are the data's; charts and tables show
+# Old / Middle / Neo, which is what the article uses and what fits an axis tick
+# or a narrow table column.
 PERIOD_DISPLAY = {
-    "Neo-Babylonian/Assyrian + Late Babylonian": "Neo-Babylonian/Assyrian +<br>Late Babylonian",
+    "Old Babylonian": "Old",
+    "Middle Babylonian/Assyrian": "Middle",
+    "Neo-Babylonian/Assyrian + Late Babylonian": "Neo",
 }
 def period_disp(p):
     return PERIOD_DISPLAY.get(p, p)
@@ -999,12 +1511,17 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
 
     return annotations
 
-def line_ldi(text, monogram=False, preserved=False):
-    """Measure one input line/omen. Returns (bin, macro, micro, html, words, nl, nph).
+def line_ldi(text, monogram=False, preserved=False, no_particles=False):
+    """Measure one input line/omen.
 
-    Same rules as the corpus: determinatives excluded, omen particles (DIŠ/…) and
-    number-logograms (15/150/30) counted, ina/ana optionally logographic, and
-    restorations '[ … ]' optionally dropped. `html` is the colour-coded line."""
+    Returns (bin, macro, micro, html, words, nl, nph, composition), where
+    composition is (pure %, mixed %, syllabic %, scored words) — the breakdown the
+    three measures summarise.
+
+    Same rules as the corpus: determinatives excluded, number-logograms
+    (15/150/30) counted, the opening particle (DIŠ/…) counted unless
+    no_particles, ina/ana optionally logographic, and restorations '[ … ]'
+    optionally dropped. `html` is the colour-coded line."""
     anns = annotate_omen(text, "input", {}, preserved_only=preserved)
     parts = []
     for a in anns:
@@ -1024,22 +1541,28 @@ def line_ldi(text, monogram=False, preserved=False):
     html = " ".join(parts)
 
     lp = [a for a in anns if a['type'] in ('logogram', 'phonetic')]  # determinatives excluded
+    if no_particles:
+        lp = [a for a in lp
+              if not (a['type'] == 'logogram' and a['token'] in LOGOGRAM_PARTICLES)]
     def is_mono(a):
         return monogram and a['token'] in MONOGRAM_PARTICLES and a['type'] == 'phonetic'
     binvals = [1 if (a['type'] == 'logogram' or is_mono(a)) else 0 for a in lp]
     binv = sum(binvals) / len(binvals) if binvals else float('nan')
     nl = nph = 0
     degs = []
+    per_word_l, per_word_p = [], []
     for a in lp:
         x, y = _sign_counts(a['token'])
         if is_mono(a):
             x += 1; y -= 1
+        per_word_l.append(x); per_word_p.append(y)
         nl += x; nph += y
         if x + y > 0:
             degs.append(x / (x + y))
     micro = nl / (nl + nph) if (nl + nph) > 0 else float('nan')
     macro = sum(degs) / len(degs) if degs else float('nan')
-    return binv, macro, micro, html, len(lp), nl, nph
+    return (binv, macro, micro, html, len(lp), nl, nph,
+            word_composition(per_word_l, per_word_p))
 
 def calculate_ldi(annotations):
     # Word-level binary LDI: logograms / (logograms + phonetic). Omen particles
@@ -1101,6 +1624,42 @@ def generate_mock_data():
     
     return []
 
+# eBL-ATF paratext handling — mirrors compute_ratios.strip_paratext so the app
+# and the batch script segment identically. Discourse sections (@colophon,
+# @catchline, …) are tablet furniture, not omen text; !cm/!qt/!zz open an
+# eBL-ATF commentary span that !bs closes.
+NON_TEXT_SECTIONS = {'colophon', 'catchline', 'date', 'signature', 'signatures',
+                     'summary', 'witnesses'}
+PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+
+
+def strip_paratext(lines):
+    """Drop paratext lines before omen segmentation (see compute_ratios)."""
+    out = []
+    in_paratext = False
+    in_commentary = False
+    for line in lines:
+        s = line.strip()
+        if s.startswith('@'):
+            name = s.lstrip('@').strip().lower()
+            in_paratext = bool(name) and name.split()[0] in NON_TEXT_SECTIONS
+            out.append(line)
+            continue
+        if in_paratext:
+            continue
+        m = PROTOCOL_RE.match(s)
+        if m:
+            in_commentary = m.group(2) != 'bs'
+            rest = (m.group(1) or '') + (m.group(3) or '')
+            if not in_commentary and m.group(3):
+                out.append(rest)
+            continue
+        if in_commentary:
+            continue
+        out.append(line)
+    return out
+
+
 def load_local_data(base_path="data", include_excluded=False, sources=None, preserved_only=False):
     """
     Recursively load .txt files from data/old, data/middle, data/new
@@ -1159,6 +1718,11 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                         # Fourth level is Feature (e.g. liver/martu, liver/bab-ekallim)
                         default_feature = path_parts[3].replace('-', ' ')
 
+                # The folders below the discipline, verbatim, for the Text tree.
+                # topic/feature above are defaults that frontmatter may replace with
+                # prose; this stays structural.
+                _sub = [p for p in path_parts[2:] if p not in ('.', '')]
+
                 # Full path
                 file_path = os.path.join(root, file)
 
@@ -1190,6 +1754,11 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             try:
                                 fm_data = yaml.safe_load(yaml_content)
                                 if fm_data:
+                                    # `discipline:` is the corpus field; `genre:`
+                                    # is still read (older files, and the prayer
+                                    # and incantation comparanda).
+                                    if 'discipline' in fm_data and 'genre' not in fm_data:
+                                        fm_data['genre'] = fm_data['discipline']
                                     metadata.update(fm_data)
                             except yaml.YAMLError as e:
                                 st.warning(f"Error parsing YAML in {file}: {e}")
@@ -1202,6 +1771,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
 
                     # Normalize Genre (merge synonyms, drop "omens" suffix)
                     metadata["genre"] = normalize_genre(metadata.get("genre"))
+                    metadata["subpath"] = "/".join(_sub)
 
                     # Skip documented comparanda / excluded texts (mirror compute_ratios),
                     # unless the caller explicitly wants them (comparanda tab).
@@ -1211,8 +1781,8 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                     # Parse Body
                     current_section = "Unspecified"
                     current_omen_id = "Unknown"
-                    
-                    lines = body.splitlines()
+
+                    lines = strip_paratext(body.splitlines())
                     
                     # Special parsing for counting: §
                     if metadata.get("counting") == "§":
@@ -1448,7 +2018,8 @@ def _front_pg(content):
         if len(parts) >= 3:
             try:
                 fm = yaml.safe_load(parts[1]) or {}
-                period, genre = fm.get('period', period), fm.get('genre', genre)
+                period = fm.get('period', period)
+                genre = fm.get('discipline', fm.get('genre', genre))
             except Exception:
                 pass
     return period, genre
@@ -1624,13 +2195,13 @@ def fetch_ebl_corpus(genre, category, index, stage, name):
 
 # --- Header: title (left, acts as Home) + nav tabs (right) on one line,
 #     sharing a bottom border that reads as the tab strip's baseline. ---
-NAV = ["LDI", "Text", "Sources", "Bibliography", "Tools"]
+NAV = ["LDI", "Sources", "Bibliography", "Tools"]
 _PAGES = ["Introduction"] + NAV
 # The four LDI analyses used to be top-level tabs; they now live as sub-views
 # inside the single "LDI" tab, switched by a lazy selector (only the chosen one
 # renders). "Overview" is the former "Global" page.
-LDI_SUBPAGES = ["Overview", "Genre", "Region", "Topics"]
-_LEGACY_SUB = {"Global": "Overview", "Genre": "Genre",     # old ?nav= targets → LDI subpage
+LDI_SUBPAGES = ["Overview", "Discipline", "Region", "Topics", "Text"]
+_LEGACY_SUB = {"Global": "Overview", "Genre": "Discipline", "Text": "Text",     # old ?nav= targets → LDI subpage
                "Region": "Region", "Topics": "Topics"}
 
 # In-app links (e.g. "?nav=Introduction" inside markdown/tables) navigate here.
@@ -1653,6 +2224,8 @@ if _qp_nav is not None or _qp_ref is not None:
 # A Genre-node click parks a navigation request here; apply it before the nav renders.
 if 'goto_nav' in st.session_state:
     st.session_state['page'] = st.session_state.pop('goto_nav')
+if 'goto_sub' in st.session_state:          # e.g. a node click opening LDI ▸ Text
+    st.session_state['ldi_sub'] = st.session_state.pop('goto_sub')
 st.session_state.setdefault('page', "Introduction")
 st.session_state.setdefault('ldi_sub', "Overview")
 
@@ -1662,8 +2235,12 @@ def _nav_to(p):
 with st.container(key="appheader"):
     h_title, h_nav = st.columns([7, 5], vertical_alignment="bottom")
     with h_title:
-        st.button("Mesopotamian Omen Diachronic Analyzer", key="home_btn",
-                  on_click=_nav_to, args=("Introduction",))
+        with st.container(horizontal=True, vertical_alignment="bottom", key="brandrow"):
+            if _MARK_URI:
+                st.markdown(f'<img class="brandmark" src="{_MARK_URI}" alt="" width="54" height="54"/>',
+                            unsafe_allow_html=True)
+            st.button("The Logogram Density Index (LDI)", key="home_btn",
+                      on_click=_nav_to, args=("Introduction",))
     with h_nav:
         nav_cols = st.columns(len(NAV))
         for i, p in enumerate(NAV):
@@ -1720,22 +2297,28 @@ if page == "Introduction":
     st.markdown(
         "_Introduction — to be written._\n\n"
         "This application is a companion to **[article title / citation — to fill in]**. "
-        "It measures the **Logographic Density Index (LDI)** of cuneiform omen texts — the "
+        "It measures the **Logogram Density Index (LDI)** of cuneiform omen texts — the "
         "proportion of each omen written with logograms rather than syllabically — and tracks "
         "how it shifts across the Old, Middle, and Neo periods.\n\n"
-        "**How to use it**\n\n"
-        "- **Global** — the diachronic trend: pooled LDI per genre across the three periods.\n"
-        "- **Genre** — one node per text; click a node to open that tablet in the Text view.\n"
-        "- **Text** — a single tablet, colour-coded sign by sign, with per-line and whole-text LDI.\n"
-        "- **Comparanda** — non-Akkadian parallels kept out of the main corpus.\n\n"
-        "Each chart has its own **bin / macro / micro** switch; omen particles (DIŠ, BE, …) are "
-        "always counted as logograms."
+        "**How to use it** — the LDI tab holds five views:\n\n"
+        "- **Overview** — the diachronic trend: pooled LDI per period, then per discipline.\n"
+        "- **Discipline** — one node per text; click a node to open that tablet in the Text view.\n"
+        "- **Region** — the same by find-spot, and discipline against region.\n"
+        "- **Topics** — by sub-chapter: liver regions and lung, celestial body and phenomenon.\n"
+        "- **Text** — a single tablet, colour-coded sign by sign, with per-line and whole-text "
+        "LDI. The **Text set** switch beside the views opens the comparanda and the KAL 5 "
+        "supplement, both held out of the corpus counts.\n\n"
+        "Every chart has a **bin / macro / micro** switch directly above it. The counting "
+        "conventions are not switches: each report table prints them as columns — *ina*/*ana* "
+        "read as logographic, the editor's restorations dropped, the omen-opening particle "
+        "(DIŠ, BE, …) dropped — beside the baseline figure, so you can see what each decision "
+        "is worth instead of toggling it and reading the chart twice."
     )
 
     st.divider()
     st.markdown("#### The three LDI measures")
     st.markdown(
-        "The same text can be scored three ways, from the most generous to the strictest. "
+        "The same text can be scored three ways. "
         "They differ in **what counts as the unit** — the whole word, or the individual sign — "
         "and in how they treat **mixed words** (a logogram carrying a phonetic complement, "
         "e.g. `LUGAL-um`) and **determinatives** (`{d}`, `{ki}`, …):\n\n"
@@ -1763,26 +2346,29 @@ if page == "Introduction":
         "- **bin** = 2 logographic words ÷ 3 words = **0.67**\n"
         "- **macro** = mean(1.00, 0.50, 0.00) = **0.50**\n"
         "- **micro** = 2 logographic signs ÷ 6 signs total = **0.33**\n\n"
-        "Same text, three numbers: **bin ≥ macro ≥ micro** here because bin rewards the mixed word "
-        "`LUGAL-um` in full, macro splits it in half, and micro counts each of its signs separately. "
-        "Comparing the three is a quick read on *how* a text is logographic — whole-word substitution "
-        "versus dense sign-by-sign writing."
+        "Same text, three numbers, and only one ordering is guaranteed: **bin ≥ macro** always, "
+        "since a word containing a logogram scores 1 in bin and at most 1 in macro. **macro and "
+        "micro are not ordered** — macro weighs every word alike, micro weighs each by its number "
+        "of signs, so which is greater depends on whether a text's long words are its logographic "
+        "ones. Across this corpus micro is the greater in 7 of the 196 texts and in 10.6 % of "
+        "omens, and in three texts it exceeds even bin. Comparing the three is a quick read on "
+        "*how* a text is logographic — whole-word substitution versus dense sign-by-sign writing."
     )
 
     st.divider()
-    st.markdown("#### The ina / ana monogram toggle")
+    st.markdown("#### The ina / ana monogram")
     st.markdown(
         "Two very common function words sit on the border between syllabic and logographic writing: "
         "the prepositions **ina** “in/on” and **ana** “to/for”. *ina* is routinely written with the "
         "single sign **AŠ**, and *ana* likewise as a one-sign unit — a **monogram**: one sign standing "
         "for a whole word. They look syllabic (lowercase in transliteration), so **by default the "
         "analyzer counts them as syllabic**.\n\n"
-        "Because they recur constantly, they can noticeably move a score. Each chart therefore has a "
-        "**“count ina/ana as logographic”** toggle: turn it on to treat these monograms as logograms "
-        "instead. It is offered as an explicit variant rather than baked in, so you can see how much of "
-        "a text's logographic density rests on these two high-frequency monograms. (In the corpus the "
-        "effect is real but modest — e.g. a heavily *ina*-laden Middle-Assyrian eclipse tablet rises "
-        "from bin ≈ 0.71 to ≈ 0.82 when the toggle is on.)"
+        "Because they recur constantly, they can noticeably move a score. Every report table therefore "
+        "carries an **ina/ana** column: the same slice scored with the two monograms read as logograms, "
+        "printed beside the baseline rather than swapped in for it, so you can see how much of a text's "
+        "logographic density rests on them. Of the conventions reported here this one moves the corpus "
+        "furthest — pooled bin rises from 0.679 to 0.735 — and single tablets move further still: a "
+        "heavily *ina*-laden Middle Assyrian eclipse tablet rises from bin 0.744 to 0.857."
     )
 
 elif page == "Tools":
@@ -1791,22 +2377,40 @@ elif page == "Tools":
     st.caption("Paste one transliterated line or omen (eBL-ATF: logograms UPPERCASE, "
                "syllabic lowercase, `{det}` determinatives, `[ … ]` restorations). Its LDI "
                "is computed live with the same tokenizer as the corpus.")
-    mc1, mc2, _ = st.columns([2.4, 2.4, 4], vertical_alignment="center")
-    m_mono = mc1.checkbox("count ina/ana as logographic", key="measure_mono")
-    m_pres = mc2.checkbox("drop restorations [ … ]", key="measure_pres")
     line_in = st.text_area("Line / omen", key="measure_line", height=80,
                            label_visibility="collapsed",
                            placeholder="DIŠ ina {iti}BÁR AN.MI GAR-ma DINGIR ina KAN₅-šú …")
     if line_in.strip():
-        b, ma, mi, html, nwords, nl, nph = line_ldi(line_in, m_mono, m_pres)
+        # The conventions are reported, not switched: the baseline is scored once
+        # and each convention is shown for what it is worth, so the reader sees the
+        # figure and its sensitivity together (as in the article's specimen report).
+        b, ma, mi, html, nwords, nl, nph, (pu, mx, sy, nw) = line_ldi(line_in)
+        _f = lambda v: f"{v:.3f}" if pd.notna(v) else "–"
+        _p = lambda v: f"{v:.1f} %" if pd.notna(v) else "–"
+        v_pres = line_ldi(line_in, preserved=True)[0]
+        v_mono = line_ldi(line_in, monogram=True)[0]
+        v_nop = line_ldi(line_in, no_particles=True)[0]
+
         st.markdown(LEGEND_HTML, unsafe_allow_html=True)
         st.markdown(f'<div class="omen-line">{html}</div>', unsafe_allow_html=True)
-        _f = lambda v: f"{v:.3f}" if pd.notna(v) else "–"
-        d1, d2, d3 = st.columns(3)
-        d1.metric("bin", _f(b)); d2.metric("macro", _f(ma)); d3.metric("micro", _f(mi))
-        st.caption(f"**{nwords}** scored words · **{nl}** logographic signs · **{nph}** syllabic "
-                   "signs (determinatives excluded). bin = logographic words ÷ words; "
-                   "micro = logographic signs ÷ signs; macro = mean per-word fraction.")
+
+        # The standard report, one row: the same columns every other view uses.
+        _ltab = pd.DataFrame(
+            [["1", str(nwords), _f(b), _f(ma), _f(mi),
+              _f(v_mono), _f(v_pres), _f(v_nop), _p(pu), _p(mx), _p(sy)]],
+            index=["this line"],
+            columns=["texts", "omens", "bin", "macro", "micro",
+                     "ina/ana", "restor.", "no particle",
+                     "pure %", "mixed %", "syll %"])
+        _ltab.index.name = ""
+        st.table(report_style(_ltab))
+        st.caption(
+            f"**{nwords}** scored words · **{nl}** logographic signs · **{nph}** "
+            "syllabic signs (determinatives excluded). "
+            "Baseline: particle counted, ina/ana syllabic, restorations counted; "
+            "the next three columns give bin under each of those conventions "
+            "instead, and the last three are the word composition the measures "
+            "summarise.")
     st.divider()
 
     st.subheader("Import your own texts")
@@ -1936,7 +2540,7 @@ elif page == "Tools":
     st.markdown("Each file is a `.txt` with a **YAML frontmatter** header followed by the ATF body:")
     st.code(
         "---\n"
-        "genre: extispicy          # astrology | diagnostic | extispicy | izbu | terrestrial\n"
+        "discipline: extispicy     # astrology | diagnostic | extispicy | izbu | terrestrial\n"
         "period: Neo-Assyrian      # folded into Old / Middle / Neo automatically\n"
         "provenance: Assur (N4)\n"
         "counting: DIŠ             # DIŠ | BE | § | line — how omens are delimited\n"
@@ -2027,101 +2631,159 @@ elif page == "Tools":
         st.success("Reloaded the built-in corpus.")
 
 elif page == "Sources":
-    # --- Catalogue of Sources: live, from every text's YAML frontmatter ---
-    rows = catalogue_rows()
-    used = [r for r in rows if not r["_excluded"]]
-    supp = [r for r in rows if r["_supplementary"]]
-    excl = [r for r in rows if r["_excluded"] and not r["_supplementary"]]
+    # --- Catalogue of Sources: one sortable sheet, live from the frontmatter ---
+    # Formerly three grouped markdown parts (analysed / supplementary / excluded);
+    # now a single table so any column can order it. Grouping survives as columns —
+    # Status, Discipline, Period, Region — which is what the grouping encoded.
+    tbl = catalogue_table()
+    _by_file = {r.get("filename"): r for r in catalogue_rows()}
+    _n = tbl["Status"].value_counts()
 
     st.subheader("Catalogue of Sources")
-    st.caption(f"Every manuscript in the corpus ({len(rows)}: {len(used)} analysed, "
-               f"{len(supp)} supplementary, {len(excl)} excluded), grouped by discipline and period, "
-               "straight from the "
-               "text frontmatter. The Publication / edition column reproduces the recorded "
-               "publication and excavation numbers; the eBL column links to the online edition "
-               "where one is recorded or can be inferred from the museum number.")
+    st.caption(
+        f"Every manuscript in the corpus ({len(tbl)}: {_n.get('Analysed', 0)} analysed, "
+        f"{_n.get('Supplementary', 0)} supplementary, {_n.get('Excluded', 0)} excluded), "
+        "straight from the text frontmatter. Click a column header to sort by it; click "
+        "**#** to return to catalogue order (museum number, letters before numbers). "
+        "Select a row for the full record, its citations and its eBL link.")
 
-    c1, c2, c3 = st.columns([3, 2, 1], vertical_alignment="bottom")
-    q = c1.text_input("Search (siglum · publication · provenance)", key="cat_q").strip().lower()
-    show_excl = c2.checkbox("Include excluded sources", value=True, key="cat_excl")
-    if c3.button("↻ Refresh", key="cat_refresh", help="Re-read the corpus from disk"):
+    c1, c2, c3, c4 = st.columns([3, 2.2, 2.8, 1], vertical_alignment="bottom")
+    q = c1.text_input("Search (any column)", key="cat_q").strip().lower()
+    statuses = c2.multiselect("Status", ["Analysed", "Supplementary", "Excluded"],
+                              default=["Analysed", "Supplementary", "Excluded"],
+                              key="cat_status")
+    extra = c3.multiselect("Add columns", CAT_COLS_OPTIONAL, key="cat_extra",
+                           help="The rest of the record: era, region, tradition, series, "
+                                "counting convention, the other two LDI measures, notes.")
+    if c4.button("↻ Refresh", key="cat_refresh", help="Re-read the corpus from disk"):
         catalogue_rows.clear()
+        _bib_cited_by.clear()             # built from the same rows — clear it together
+        st.session_state.pop('_cat_ldi', None)
         st.rerun()
 
-    def _match(r):
-        if not q:
-            return True
-        blob = " ".join(str(r.get(k, "")) for k in
-                        ("_sig", "publication", "edition", "source", "provenance", "genre")).lower()
-        return q in blob
+    view = tbl[tbl["Status"].isin(statuses)] if statuses else tbl
+    if q:
+        view = view[view["_blob"].str.contains(q, regex=False, na=False)]
 
-    pkey = lambda r: (CAT_PERIOD_ORDER.index(r["_period"]) if r["_period"] in CAT_PERIOD_ORDER
-                      else 99, r["_sig"].lower())
-    dkey = lambda d: CAT_DISCIPLINE_ORDER.index(d) if d in CAT_DISCIPLINE_ORDER else 99
+    cols = CAT_COLS_DEFAULT + [c for c in CAT_COLS_OPTIONAL if c in extra]
+    _ldi_help = ("Baseline conventions: determinatives excluded, opening particle counted, "
+                 "ina/ana syllabic, restorations counted — the same scoring as the charts. "
+                 "Blank where the text is not scored (excluded sources).")
+    cfg = {
+        "#": st.column_config.NumberColumn(
+            "#", width="small",
+            help="Catalogue order: museum number, letters before numbers, numbers "
+                 "compared as numbers (A 63 before A 120). Sort by this to undo a re-sort."),
+        "Museum no.": st.column_config.TextColumn("Museum no.", pinned=True, width="medium"),
+        "Chron.": st.column_config.NumberColumn(
+            "Chron.", format="%d", width="small",
+            help="Chronological rank of the period (1 = Old Babylonian). Sort by this to "
+                 "put the sheet in date order — sorting the Period names alphabetically "
+                 "would file Late Babylonian before Old Babylonian."),
+        "Publication / edition": st.column_config.TextColumn(
+            "Publication / edition", width="large",
+            help="The recorded publication and excavation numbers. Select the row to "
+                 "follow its citations into the Bibliography."),
+        "eBL": st.column_config.LinkColumn(
+            "eBL", display_text="open ↗", width="small",
+            help="The online edition. Most links are built from the museum number using "
+                 "eBL's standard URL pattern rather than recorded in the frontmatter, so "
+                 "they may not resolve — add the “eBL link” column to see which is which."),
+        "LDI (bin)": st.column_config.NumberColumn("LDI (bin)", format="%.3f", help=_ldi_help),
+        "LDI (macro)": st.column_config.NumberColumn("LDI (macro)", format="%.3f", help=_ldi_help),
+        "LDI (micro)": st.column_config.NumberColumn("LDI (micro)", format="%.3f", help=_ldi_help),
+        "Pure-log. %": st.column_config.NumberColumn(
+            "Pure-log. %", format="%.1f",
+            help="Share of scored words written with logograms and no phonetic "
+                 "complement — what the three measures summarise. Two texts can agree "
+                 "in bin and differ several-fold here."),
+        "Mixed %": st.column_config.NumberColumn(
+            "Mixed %", format="%.1f", help="Share of scored words that are a logogram "
+                                          "carrying a phonetic complement (LUGAL-um)."),
+        "Syllabic %": st.column_config.NumberColumn(
+            "Syllabic %", format="%.1f", help="Share of scored words written syllabically."),
+        "Omens": st.column_config.NumberColumn("Omens", format="%d", width="small"),
+        "Words scored": st.column_config.NumberColumn("Words scored", format="%d"),
+        "Note": st.column_config.TextColumn("Note", width="large"),
+        "Reason (if excluded)": st.column_config.TextColumn("Reason (if excluded)", width="large"),
+    }
 
-    def _section(title, data, with_reason=False):
-        data = [r for r in data if _match(r)]
-        st.markdown(f"### {title} ({len(data)})")
-        if not data:
-            st.caption("No sources match the current search.")
-            return
-        byd = {}
-        for r in data:
-            byd.setdefault(r["_discipline"], []).append(r)
-        for d in sorted(byd, key=dkey):
-            st.markdown(f"#### {d}")
-            byp = {}
-            for r in byd[d]:
-                byp.setdefault(r["_period"], []).append(r)
-            for per in sorted(byp, key=lambda x: CAT_PERIOD_ORDER.index(x)
-                              if x in CAT_PERIOD_ORDER else 99):
-                if with_reason:
-                    head = ("| Museum no. / siglum | Period | Publication / edition | eBL "
-                            "| Reason for exclusion |\n|---|---|---|---|---|")
-                    body = "\n".join(
-                        f"| {_cat_cell(r['_sig'])} | {_cat_cell(r['_period'])} "
-                        f"| {linkify_citations(_cat_cell(_cat_pub(r)))} | {_cat_ebl_cell(r)} "
-                        f"| {linkify_citations(_cat_cell(r['_reason']))} |"
-                        for r in sorted(byp[per], key=pkey))
-                else:
-                    st.markdown(f"**{per}**  ({len(byp[per])})")
-                    head = ("| Museum no. / siglum | Publication / edition | Provenance | eBL "
-                            "|\n|---|---|---|---|")
-                    body = "\n".join(
-                        f"| {_cat_cell(r['_sig'])} | {linkify_citations(_cat_cell(_cat_pub(r)))} "
-                        f"| {_cat_cell(r.get('provenance'))} | {_cat_ebl_cell(r)} |"
-                        for r in sorted(byp[per], key=pkey))
-                st.markdown(head + "\n" + body, unsafe_allow_html=True)
+    if view.empty:
+        st.info("No sources match the current search.")
+    else:
+        event = st.dataframe(view[cols], column_config=cfg, hide_index=True, height=620,
+                             use_container_width=True, key="cat_table",
+                             on_select="rerun", selection_mode="single-row")
 
-    _section("Part 1 — Sources analysed", used)
-    if supp:
-        st.divider()
-        st.caption("Supplementary sources are held out of the main LDI but digitized and browsable "
-                   "here — e.g. the further KAL 5 extispicy witnesses (Heeßel 2012).")
-        _section("Part 2 — Supplementary sources", supp)
-    if show_excl:
-        st.divider()
-        _section("Part 3 — Excluded sources", excl, with_reason=True)
+        picked = (event.selection.rows or [None])[0] if hasattr(event, "selection") else None
+        if picked is not None:
+            row = view.iloc[picked]
+            r = _by_file.get(row["File"], {})
+            st.divider()
+            h1, h2 = st.columns([3, 1], vertical_alignment="center")
+            h1.markdown(f"#### {row['Museum no.']}  ·  {row['Status']}")
+            # Only corpus texts open in the Text view; the comparanda and the KAL 5
+            # supplement live in their own sets there and are reached from that tab.
+            if row["Status"] == "Analysed" and h2.button("📖 Open in Text view",
+                                                         key="cat_goto",
+                                                         use_container_width=True):
+                st.session_state['goto_nav'] = "LDI"
+                st.session_state['goto_sub'] = "Text"
+                st.session_state['goto_file'] = row["File"]
+                st.rerun()
+
+            meta = [f"**Period:** {row['Period']} ({row['Era']})",
+                    f"**Discipline:** {row['Discipline']}"
+                    + (f" — {row['Topic']}" if row['Topic'] else "")
+                    + (f" / {row['Feature']}" if row['Feature'] else ""),
+                    f"**Provenance:** {row['Provenance'] or '—'} ({row['Region']})",
+                    f"**Counting:** {counting_label(r.get('counting'))}"]
+            if row["Tradition"]:
+                meta.append(f"**Tradition:** {row['Tradition']}")
+            if row["Series / recension"]:
+                meta.append(f"**Series:** {row['Series / recension']}")
+            # Citations link into the Bibliography here, where the text is markdown
+            # (a dataframe cell cannot carry an in-app link).
+            if row["Publication / edition"]:
+                meta.append("**Publication / edition:** "
+                            + linkify_citations(row["Publication / edition"]))
+            meta += [ln for ln in biblio_and_ebl_lines(r) if ln.startswith("**eBL:**")]
+            if row["Reason (if excluded)"]:
+                meta.append("**Held out because:** "
+                            + linkify_citations(row["Reason (if excluded)"]))
+            if pd.notna(row["LDI (bin)"]):
+                meta.append(f"**LDI:** bin {row['LDI (bin)']:.3f} · macro "
+                            f"{row['LDI (macro)']:.3f} · micro {row['LDI (micro)']:.3f} "
+                            f"({int(row['Omens'])} omens, {int(row['Words scored'])} scored words)")
+            if row["Note"]:
+                meta.append(f"**Note:** {row['Note']}")
+            st.markdown("  \n".join(meta), unsafe_allow_html=True)
 
     # --- Supplementary data (downloads) ---
+    st.divider()
+    st.markdown("#### Supplementary data")
     _cat_md = os.path.join("docs", "catalogue-of-sources.md")
     _kal5_csv = os.path.join("docs", "kal5-ldi-by-tradition.csv")
-    if os.path.exists(_cat_md) or os.path.exists(_kal5_csv):
-        st.divider()
-        st.markdown("#### Supplementary data")
-        d1, d2 = st.columns(2)
-        if os.path.exists(_cat_md):
-            d1.download_button("⬇ Catalogue of Sources (Markdown)",
-                               data=open(_cat_md, encoding="utf-8").read(),
-                               file_name="catalogue-of-sources.md", mime="text/markdown",
-                               key="cat_dl", use_container_width=True)
-        if os.path.exists(_kal5_csv):
-            d2.download_button("⬇ KAL 5 per-tablet LDI (CSV)",
-                               data=open(_kal5_csv, encoding="utf-8").read(),
-                               file_name="kal5-ldi-by-tradition.csv", mime="text/csv",
-                               key="kal5_dl", use_container_width=True,
-                               help="Per-tablet LDI and token counts for all 106 scored "
-                                    "Opferschau tablets of Heeßel 2012 (KAL 5), by tradition/period.")
+    d1, d2, d3 = st.columns(3)
+    d1.download_button("⬇ This table (CSV)",
+                       data=view[cols].to_csv(index=False).encode("utf-8"),
+                       file_name="catalogue-of-sources.csv", mime="text/csv",
+                       key="cat_view_dl", use_container_width=True,
+                       help="Exactly the rows and columns shown, in the order shown.")
+    if os.path.exists(_cat_md):
+        d2.download_button("⬇ Catalogue of Sources (Markdown)",
+                           data=open(_cat_md, encoding="utf-8").read(),
+                           file_name="catalogue-of-sources.md", mime="text/markdown",
+                           key="cat_dl", use_container_width=True,
+                           help="The print appendix: the same catalogue grouped by "
+                                "discipline and period.")
+    if os.path.exists(_kal5_csv):
+        d3.download_button("⬇ KAL 5 per-tablet LDI (CSV)",
+                           data=open(_kal5_csv, encoding="utf-8").read(),
+                           file_name="kal5-ldi-by-tradition.csv", mime="text/csv",
+                           key="kal5_dl", use_container_width=True,
+                           help="Per-tablet LDI and token counts for all 106 scored "
+                                "Opferschau tablets of Heeßel 2012 (KAL 5), by tradition/period.")
 
 elif page == "Bibliography":
     # --- Bibliography: references.bib rendered as a searchable, linkable list ---
@@ -2211,11 +2873,16 @@ elif st.session_state['annotations']:
         frame['_nl'] = [a for a, _ in _sc]
         frame['_nph'] = [b for _, b in _sc]
         frame['_mono'] = frame['token'].isin(MONOGRAM_PARTICLES) & (frame['type'] == 'phonetic')
+        # Content-less omens are decided once per frame. Every trio()/comp() call
+        # would otherwise re-run the groupby behind _omen_has_signal on its slice;
+        # omens never straddle a slice, so the verdict is the same either way.
+        if 'omen_id' in frame.columns and not frame.empty:
+            frame['_signal'] = _omen_has_signal(frame)
         return frame
 
     def with_active(frame, monogram):
-        """Add the monogram-dependent active columns (_anl/_anph/_islog/_deg) for the
-        given toggle, so each chart can recompute them with its own monogram choice."""
+        """Add the monogram-dependent active columns (_anl/_anph/_islog/_deg) for a
+        given monogram choice, so the report can price that convention per slice."""
         frame = frame.copy()
         ma = frame['_mono'] & monogram
         frame['_anl'] = frame['_nl'] + ma.astype(int)         # active logogram-sign count
@@ -2251,16 +2918,31 @@ elif st.session_state['annotations']:
         return {'df': d, 'uo': uo, 'bframe': d[lp], 'gframe': d[lp],
                 'comp': _held(comps), 'supp': _held(supps)}
 
-    # Both display modes, so each chart's "drop restorations" toggle switches
-    # independently between them without reloading.
-    FRAMES = {
-        False: build_frames(st.session_state['annotations'],
-                            st.session_state.get('comparanda', []),
-                            st.session_state.get('supplementary', [])),
-        True:  build_frames(st.session_state.get('annotations_pres', st.session_state['annotations']),
-                            st.session_state.get('comparanda_pres', st.session_state.get('comparanda', [])),
-                            st.session_state.get('supplementary_pres', st.session_state.get('supplementary', []))),
-    }
+    # Both display modes, so the report's "restor." column can be filled from the
+    # preserved-only slice without reloading.
+    # Built once per loaded corpus, not once per rerun. Every interaction — opening
+    # a folder in the tree, switching a toggle, changing tab — reruns this script,
+    # and build_frames maps the sign tokenizer over ~90k rows and derives the region
+    # per row, twice (full text and preserved-only). Rebuilding that on a click cost
+    # ~20 s a view; the annotations only change on load/import, so key the cache on
+    # their size and reuse the frames until they do.
+    _frames_sig = (len(st.session_state['annotations']),
+                   len(st.session_state.get('annotations_pres') or ()),
+                   len(st.session_state.get('comparanda') or ()),
+                   len(st.session_state.get('comparanda_pres') or ()),
+                   len(st.session_state.get('supplementary') or ()),
+                   len(st.session_state.get('supplementary_pres') or ()))
+    if st.session_state.get('_frames_sig') != _frames_sig:
+        st.session_state['_frames'] = {
+            False: build_frames(st.session_state['annotations'],
+                                st.session_state.get('comparanda', []),
+                                st.session_state.get('supplementary', [])),
+            True:  build_frames(st.session_state.get('annotations_pres', st.session_state['annotations']),
+                                st.session_state.get('comparanda_pres', st.session_state.get('comparanda', [])),
+                                st.session_state.get('supplementary_pres', st.session_state.get('supplementary', []))),
+        }
+        st.session_state['_frames_sig'] = _frames_sig
+    FRAMES = st.session_state['_frames']
 
     def pick(preserved):
         """Frame-set (df, uo, bframe, gframe, comp) for a chart's restorations choice."""
@@ -2272,9 +2954,11 @@ elif st.session_state['annotations']:
     bframe, gframe, comp_df = _F['bframe'], _F['gframe'], _F['comp']
 
     # (bin, macro, micro) for any slice, for a given monogram setting. Omen particles
-    # (DIŠ, BE, …) are logograms and are always counted as such — no exclusion path.
-    def trio(sub, monogram):
+    # (DIŠ, BE, …) are logograms and are counted as such unless no_particles is set.
+    def trio(sub, monogram, no_particles=False):
         sub = _drop_contentless(sub)   # lone-DIŠ / all-broken omens carry no signal
+        if no_particles:
+            sub = _drop_particles(sub)
         ma = sub['_mono'] & monogram
         anl = sub['_nl'] + ma.astype(int)
         anph = sub['_nph'] - ma.astype(int)
@@ -2289,16 +2973,129 @@ elif st.session_state['annotations']:
         macro = deg[is_g].mean() if is_g.any() else float('nan')
         return binv, macro, micro
 
+    # Word composition (pure-logographic / mixed / syllabic) for any slice — the
+    # breakdown the three measures summarise. Same conventions as trio().
+    def comp(sub, monogram, no_particles=False):
+        sub = _drop_contentless(sub)
+        if no_particles:
+            sub = _drop_particles(sub)
+        sub = sub[sub['type'].isin(['logogram', 'phonetic'])]   # determinatives excluded
+        ma = sub['_mono'] & monogram
+        return word_composition(sub['_nl'] + ma.astype(int),
+                                sub['_nph'] - ma.astype(int))
+
     def _fmt(v):
         return f"{v:.3f}" if pd.notna(v) else "–"
+
+    def _pct(v):
+        return f"{v:.1f} %" if pd.notna(v) else "–"
+
+    # One horizontal report: a row per group, the measures and the conventions
+    # across the columns. The conventions are reported rather than switched, so a
+    # reader sees the figure and what each counting decision is worth to it at the
+    # same time, rather than switching a toggle and reading the figure twice.
+    def report_row(full, pres=None, uo=None):
+        """One row of REPORT_COLS for a slice, always at the baseline."""
+        b, ma, mi = trio(full, False)
+        pu, mx, sy, nwords = comp(full, False)
+        texts = str(uo['filename'].nunique()) if uo is not None else "1"
+        omens = str(len(uo)) if uo is not None else str(nwords)
+        return [texts, omens, _fmt(b), _fmt(ma), _fmt(mi),
+                _fmt(trio(full, True)[0]),
+                _fmt(trio(pres, False)[0]) if pres is not None else "–",
+                _fmt(trio(full, False, True)[0]),
+                _pct(pu), _pct(mx), _pct(sy)]
+
+    def corpus_report_row():
+        """The whole-corpus row, computed once per loaded corpus.
+
+        It is identical for every text and every rerun, but costs five passes over
+        ~90k rows — enough to make opening a folder in the tree feel slow."""
+        if st.session_state.get('_corpus_row_sig') != _frames_sig:
+            st.session_state['_corpus_row'] = report_row(
+                FRAMES[False]['df'], FRAMES[True]['df'], FRAMES[False]['uo'])
+            st.session_state['_corpus_row_sig'] = _frames_sig
+        return st.session_state['_corpus_row']
+
+    def standard_table(slices, index_name):
+        """The standard report: one row per slice, REPORT_COLS across.
+
+        `slices` is a list of (label, full_df, pres_df, unique_omens_df); pass
+        uo=None where the row is a single text or a pasted line."""
+        rows, idx = [], []
+        for label, full, pres, uo in slices:
+            if full is None or len(full) == 0:
+                continue
+            rows.append(report_row(full, pres, uo))
+            idx.append(label)
+        if not rows:
+            return None
+        out = pd.DataFrame(rows, index=idx, columns=REPORT_COLS)
+        out.index.name = index_name
+        return out
+
+    def convention_table(slices, max_cols=6):
+        """Groups as columns, conventions as rows — the aggregate form of the report.
+
+        `slices` is a list of (label, full_df, pres_df). Each column is scored at
+        the baseline and then under each convention in turn, so a reader can see
+        both the level and how much of it depends on a counting decision. This is
+        the shape the article uses for periods; it works for any grouping whose
+        columns fit on the page, hence max_cols."""
+        slices = [s for s in slices if s[1] is not None and not s[1].empty][:max_cols]
+        if not slices:
+            return None
+        data = {}
+        for label, full, pres in slices:
+            pu, mx, sy, _n = comp(full, False)
+            data[label] = [
+                _fmt(trio(full, False)[0]),
+                _fmt(trio(full, False)[1]),
+                _fmt(trio(full, False)[2]),
+                _fmt(trio(full, True)[0]),
+                _fmt(trio(pres, False)[0]) if pres is not None else "–",
+                _fmt(trio(full, False, True)[0]),
+                _pct(pu), _pct(mx), _pct(sy)]
+        return pd.DataFrame(data, index=[
+            "bin (baseline)", "macro", "micro",
+            "bin, ina/ana logographic", "bin, restorations dropped",
+            "bin, particle excluded",
+            "pure-logographic words", "mixed words", "syllabic words"])
+
+    def report_table(full, pres, corpus_full=None, corpus_pres=None):
+        """The reporting format the article recommends, as a table.
+
+        The conventions are not switches here: the baseline (particle counted,
+        ina/ana syllabic, restorations counted) is reported together with what
+        each convention does to it, so a reader sees the figure and its
+        sensitivity at once instead of one value at a time. The composition rows
+        are what the three measures summarise. Variants are given in bin, which
+        is where the paper measures them."""
+        def column(f, p):
+            b, ma, mi = trio(f, False)
+            pu, mx, sy, _n = comp(f, False)
+            return [_fmt(b), _fmt(ma), _fmt(mi), _pct(pu), _pct(mx), _pct(sy),
+                    _fmt(trio(p, False)[0]) if p is not None else "–",
+                    _fmt(trio(f, True)[0]),
+                    _fmt(trio(f, False, True)[0])]
+
+        rows = ["bin", "macro", "micro",
+                "pure-logographic words", "mixed words", "syllabic words",
+                "bin, restorations dropped", "bin, ina/ana logographic",
+                "bin, particle excluded"]
+        data = {"this text": column(full, pres)}
+        if corpus_full is not None:
+            data["whole corpus"] = column(corpus_full, corpus_pres)
+        return pd.DataFrame(data, index=rows)
 
     def render_text_block(text_df, text_df_pres, period, title, key_prefix):
         """Shared per-text view: colour legend, whole-text LDI (all three metrics),
         the colour-coded omen lines with per-line LDI, and a per-omen LDI chart.
         Used by both the Text and Comparanda tabs. Pass the full and preserved-only
-        slices of the same text; the chart's 'drop restorations' toggle picks one."""
-        # Per-view controls (metric drives the chart; monogram + restorations drive LDI).
-        metric, mono, pres = chart_controls(key_prefix)
+        slices of the same text; the report's "restor." column comes from the second."""
+        # The measure radio is not here but just above the per-omen chart below.
+        mono, pres, nopart = False, False, False   # canonical: the report table prices the variants
+        text_df_full = text_df              # baseline for the report, before `pres` rebinds
         text_df = text_df_pres if pres else text_df
 
         # Precompute per-omen LDI + the colour-coded line HTML (used by both the
@@ -2330,65 +3127,81 @@ elif st.session_state['annotations']:
                 else:
                     css_class = "phonetic"
                 html_parts.append(f'<span class="{css_class}">{disp}</span>')
-            b, ma, mi = trio(omen_tokens, mono)
+            b, ma, mi = trio(omen_tokens, mono, nopart)
             omens.append({"omen": str(oid), "html": " ".join(html_parts),
                           "bin": b, "macro": ma, "micro": mi})
 
-        # 1) Graphic first — per-omen LDI chart (Genre-tab spline+marker style).
+        # 1) The standard report — this text against the corpus it belongs to —
+        #    then the per-omen chart, at the canonical convention.
         if omens:
             st.divider()
+            _tuo = text_df_full.drop_duplicates(subset=['filename', 'omen_id'])
+            _cuo = FRAMES[False]['uo']
+            _ttab = pd.DataFrame(
+                [report_row(text_df_full, text_df_pres, _tuo), corpus_report_row()],
+                index=[title, "whole corpus"], columns=REPORT_COLS)
+            _ttab.index.name = ""
+            if _ttab is not None:
+                st.caption(STANDARD_CAPTION)
+                render_table_with_copy(report_style(_ttab), _ttab,
+                                       f"{key_prefix}_text_report")
             st.markdown("#### LDI per omen")
+            st.markdown(f'<div class="charttitle">{title} — LDI per omen</div>',
+                        unsafe_allow_html=True)
             chart_df = pd.DataFrame(omens)
             chart_df['seq'] = range(len(chart_df))
-            col = color_map.get(period, '#1f77b4')
+            def _chart(metric, chart_df=chart_df, period=period, title=title, text_df=text_df,
+                       key_prefix=key_prefix):
+                col = color_map.get(period, '#1f77b4')
 
-            fig_text = go.Figure()
-            # Grey dotted line UNDER the coloured one, bridging content-less omens
-            # (lone-DIŠ / all-broken lines carry no LDI, so they leave a gap in the
-            # coloured trace). connectgaps spans the gap so the reading stays visually
-            # continuous without inventing a value for the broken omens.
-            if chart_df[metric].isna().any():
+                fig_text = go.Figure()
+                # Grey dotted line UNDER the coloured one, bridging content-less omens
+                # (lone-DIŠ / all-broken lines carry no LDI, so they leave a gap in the
+                # coloured trace). connectgaps spans the gap so the reading stays visually
+                # continuous without inventing a value for the broken omens.
+                if chart_df[metric].isna().any():
+                    fig_text.add_trace(go.Scatter(
+                        x=chart_df['seq'], y=chart_df[metric], mode='lines',
+                        line=dict(width=1.5, color='#BDBDBD', dash='dot'),
+                        connectgaps=True, hoverinfo='skip', showlegend=False
+                    ))
                 fig_text.add_trace(go.Scatter(
                     x=chart_df['seq'], y=chart_df[metric], mode='lines',
-                    line=dict(width=1.5, color='#BDBDBD', dash='dot'),
-                    connectgaps=True, hoverinfo='skip', showlegend=False
+                    line=dict(width=2.5, shape='spline', smoothing=1.0, color=col),
+                    connectgaps=False, hoverinfo='skip', showlegend=False
                 ))
-            fig_text.add_trace(go.Scatter(
-                x=chart_df['seq'], y=chart_df[metric], mode='lines',
-                line=dict(width=2.5, shape='spline', smoothing=1.0, color=col),
-                connectgaps=False, hoverinfo='skip', showlegend=False
-            ))
-            fig_text.add_trace(go.Scatter(
-                x=chart_df['seq'], y=chart_df[metric], mode='markers',
-                marker=dict(size=12, color=col, line=dict(width=1, color='white')),
-                customdata=chart_df[['omen', 'bin', 'macro', 'micro']].to_numpy(),
-                hovertemplate="omen %{customdata[0]}<br>"
-                              "bin %{customdata[1]:.2f} · macro %{customdata[2]:.2f} · micro %{customdata[3]:.2f}"
-                              "<extra></extra>",
-                showlegend=False
-            ))
-            # Highest / whole-text / lowest LDI, labelled at the top. "whole" is the
-            # pooled LDI for the entire text (not the mean of the per-omen dots).
-            ys = chart_df[metric]
-            whole = trio(text_df, mono)[{"bin": 0, "macro": 1, "micro": 2}[metric]]
-            fig_text.add_annotation(
-                x=(chart_df['seq'].min() + chart_df['seq'].max()) / 2, y=1.02,
-                xref='x', yref='y',
-                text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
-                showarrow=False, yanchor='bottom', align='center', font=dict(size=11, color=col),
-            )
-            show_ticks = len(chart_df) <= 40
-            fig_text.update_layout(
-                title=f"{title} — {metric} LDI per omen",
-                template="simple_white", font_family="Arial",
-                xaxis_title="Omen (in text order)", yaxis_title=f"LDI — {metric}",
-                yaxis=dict(range=[-0.05, 1.30], tickmode='array',
-                           tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
-                xaxis=dict(tickmode='array', tickvals=chart_df['seq'], ticktext=chart_df['omen'])
-                      if show_ticks else dict(showticklabels=False),
-                height=480, hovermode="closest"
-            )
-            st.plotly_chart(fig_text, use_container_width=True, key=f"{key_prefix}_omen_ldi")
+                fig_text.add_trace(go.Scatter(
+                    x=chart_df['seq'], y=chart_df[metric], mode='markers',
+                    marker=dict(size=12, color=col, line=dict(width=1, color='white')),
+                    customdata=chart_df[['omen', 'bin', 'macro', 'micro']].to_numpy(),
+                    hovertemplate="omen %{customdata[0]}<br>"
+                                  "bin %{customdata[1]:.2f} · macro %{customdata[2]:.2f} · micro %{customdata[3]:.2f}"
+                                  "<extra></extra>",
+                    showlegend=False
+                ))
+                # Highest / whole-text / lowest LDI, labelled at the top. "whole" is the
+                # pooled LDI for the entire text (not the mean of the per-omen dots).
+                ys = chart_df[metric]
+                whole = trio(text_df, mono, nopart)[{"bin": 0, "macro": 1, "micro": 2}[metric]]
+                fig_text.add_annotation(
+                    x=(chart_df['seq'].min() + chart_df['seq'].max()) / 2, y=1.02,
+                    xref='x', yref='y',
+                    text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
+                    showarrow=False, yanchor='bottom', align='center', font=dict(size=11, color=col),
+                )
+                show_ticks = len(chart_df) <= 40
+                fig_text.update_layout(
+                    margin=dict(t=14),   # no chart title to make room for
+                    template="simple_white", font_family="Arial",
+                    xaxis_title="Omen (in text order)", yaxis_title=f"LDI — {metric}",
+                    yaxis=dict(range=[-0.05, 1.30], tickmode='array',
+                               tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
+                    xaxis=dict(tickmode='array', tickvals=chart_df['seq'], ticktext=chart_df['omen'])
+                          if show_ticks else dict(showticklabels=False),
+                    height=480, hovermode="closest"
+                )
+                st.plotly_chart(fig_text, use_container_width=True, key=f"{key_prefix}_omen_ldi")
+            metric_block(key_prefix, _chart)
 
         # 2) Text after — colour-coded omen on the left, per-line LDI on the right.
         st.divider()
@@ -2412,27 +3225,44 @@ elif st.session_state['annotations']:
     }
 
     # Page is chosen by the header nav (built at the top of the script).
-    # The four LDI analyses share one "LDI" tab; a lazy sub-selector picks which
+    # The five LDI views share one "LDI" tab; a lazy sub-selector picks which
     # one renders — only the chosen sub-view's body below executes, so switching
-    # never recomputes the others ("auf Bestellung"). Text stays its own top-level
-    # page and falls straight through to its block.
+    # never recomputes the others ("auf Bestellung"). Text is one of them.
     # NB: use a distinctive name — the chart blocks below reuse `sub` as a
     # throwaway per-period DataFrame slice, so the view flag must not be `sub`.
     ldi_view = st.session_state.get('ldi_sub', "Overview")
+    text_set = st.session_state.get('text_set', "Corpus")
+    # Each view's title lives in the header row, not at the top of its body, so
+    # the line reads: title (left) ... tabs (right). The captions below each
+    # title carry what the old parentheticals said.
+    LDI_TITLES = {
+        "Overview": "Overview",
+        "Discipline": "Discipline-Specific Analysis",
+        "Region": "Regional Analysis",
+        "Topics": "Topic Analysis",
+        "Text": "Text",
+    }
     if page == "LDI":
-        # Initial selection comes from session_state['ldi_sub'] (pre-seeded above /
-        # by the legacy deep-link map); no `default=` here, to avoid Streamlit's
-        # "default value but also set via Session State" warning.
-        ldi_view = st.segmented_control(
-            "LDI view", LDI_SUBPAGES,
-            key='ldi_sub', label_visibility="collapsed") or "Overview"
+        # Title and tabs in ONE container, not two columns: a horizontal layout
+        # puts them on a single line and lets the strip be pushed hard right
+        # (margin-left:auto in the CSS) against the edge of the page.
+        with st.container(horizontal=True, vertical_alignment="bottom",
+                          key="ldihead"):
+            # The strip comes first, so it anchors the left of the row and keeps
+            # the same place whatever the title beside it says.
+            # Initial selection comes from session_state['ldi_sub'] (pre-seeded
+            # above / by the legacy deep-link map); no `default=` here, to avoid
+            # Streamlit's "default value but also set via Session State" warning.
+            ldi_view = st.segmented_control(
+                "LDI view", LDI_SUBPAGES,
+                key='ldi_sub', label_visibility="collapsed") or "Overview"
+            st.markdown(f'<div class="setlabel">{LDI_TITLES.get(ldi_view, "LDI")}</div>',
+                        unsafe_allow_html=True)
 
     # --- LDI ▸ Overview (formerly the "Global" tab) ---
     if page == "LDI" and ldi_view == "Overview":
-        st.subheader("Overview")
-
         # Page-level controls drive both the LDI-by-Period table and the trend chart.
-        metric, mono, pres = chart_controls("global")
+        mono, pres, nopart = False, False, False   # canonical: the report table prices the variants
         _F = pick(pres)
         df, unique_omens_df = _F['df'], _F['uo']
         bframe, gframe, comp_df = _F['bframe'], _F['gframe'], _F['comp']
@@ -2440,49 +3270,40 @@ elif st.session_state['annotations']:
         # LDI by Period — texts · omens · bin · macro · micro (same styling as the
         # Genre table: shaded LDI columns, left-aligned, Period in the first column).
         st.markdown("#### LDI by Period")
-        st.caption("**texts · omens · bin · macro · micro** (the three LDI columns are shaded). "
-                   "**Total** pools across periods.")
+        st.caption("Baseline (particle counted, ina/ana syllabic, restorations counted) "
+                   "with what each convention is worth beside it, and the word composition "
+                   "the three measures summarise. **Total** pools across periods.")
 
         def _f(v):
             return f"{v:.2f}" if pd.notna(v) else "–"
 
+        _FULL, _PRES = FRAMES[False]['df'], FRAMES[True]['df']
         rows, idx, chart_pts = [], [], []
         for period in PERIOD_ORDER + ["Total"]:
             uo = unique_omens_df if period == "Total" else unique_omens_df[unique_omens_df['period'] == period]
-            dd = df if period == "Total" else df[df['period'] == period]
             if uo.empty:
                 continue
-            b, ma, mi = trio(dd, mono)
-            rows.append([str(uo['filename'].nunique()), str(len(uo)), _f(b), _f(ma), _f(mi)])
-            idx.append(period)
+            full = _FULL if period == "Total" else _FULL[_FULL['period'] == period]
+            pres = _PRES if period == "Total" else _PRES[_PRES['period'] == period]
+            rows.append(report_row(full, pres, uo))
+            idx.append(period_disp(period))
             if period != "Total":   # the trend chart plots periods only, not the pooled Total
-                chart_pts.append({'period': period, 'bin': b, 'macro': ma, 'micro': mi})
+                dd = df if period == "Total" else df[df['period'] == period]
+                b, ma, mi = trio(dd, mono, nopart)   # canonical: the table prices the rest
+                chart_pts.append({'period': period_disp(period), 'bin': b, 'macro': ma, 'micro': mi})
 
         if rows:
-            ptdf = pd.DataFrame(rows, index=idx,
-                                columns=["texts", "omens", "bin", "macro", "micro"])
+            ptdf = pd.DataFrame(rows, index=idx, columns=REPORT_COLS)
             ptdf.index.name = "Period"
-            psty = (ptdf.style
-                    .set_properties(subset=["bin", "macro", "micro"],
-                                    **{'background-color': '#f2f2f2'})
-                    .set_table_styles([
-                        {'selector': '', 'props': [('border-collapse', 'collapse')]},
-                        {'selector': 'th.col_heading', 'props': [('text-align', 'center'),
-                                                                 ('padding', '4px 12px')]},
-                        {'selector': 'th.row_heading', 'props': [('text-align', 'left'),
-                                                                 ('padding', '4px 12px')]},
-                        {'selector': 'td', 'props': [('text-align', 'center'),
-                                                     ('padding', '4px 12px'),
-                                                     ('border-bottom', '1px solid #f0f0f0')]},
-                    ]))
-            render_table_with_copy(psty, ptdf, "period_ldi")
+            render_table_with_copy(report_style(ptdf), ptdf, "period_ldi")
 
         # All three LDI measures on one chart, across the broad periods (Total excluded).
         if chart_pts:
             cdf = pd.DataFrame(chart_pts)
             st.markdown("#### Diachronic LDI — bin · macro · micro")
             st.caption("All three measures on one chart across periods (the pooled **Total** "
-                       "is omitted). The monogram toggle above applies.")
+                       "is omitted), at the canonical convention — the report above "
+                       "prices each variant.")
             fig_period = go.Figure()
             for m_name, mcol in [("bin", "#1f77b4"), ("macro", "#ff7f0e"), ("micro", "#2ca02c")]:
                 fig_period.add_trace(go.Scatter(
@@ -2491,6 +3312,7 @@ elif st.session_state['annotations']:
                     marker=dict(size=10),
                     hovertemplate=f"<b>{m_name}</b><br>%{{x}}<br>LDI = %{{y:.2f}}<extra></extra>"))
             fig_period.update_layout(
+                margin=dict(t=14),   # no chart title to make room for
                 template="simple_white", font_family="Arial",
                 xaxis_title="Period", yaxis_title="LDI",
                 yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
@@ -2502,7 +3324,22 @@ elif st.session_state['annotations']:
         # Global Chart — one trend line per genre across periods
         st.subheader("Logographic Shift by Discipline (diachronic trend)")
 
+        # The standard report, one row per discipline, pooled across periods.
+        _DFULL, _DPRES, _DUO = FRAMES[False]['df'], FRAMES[True]['df'], FRAMES[False]['uo']
+        _dsl = []
+        for _g in sorted(_DFULL['genre'].dropna().unique(),
+                         key=lambda x: -len(_DFULL[_DFULL['genre'] == x])):
+            _dsl.append((str(_g), _DFULL[_DFULL['genre'] == _g],
+                         _DPRES[_DPRES['genre'] == _g], _DUO[_DUO['genre'] == _g]))
+        _dsl.append(("Total", _DFULL, _DPRES, _DUO))
+        _dtab = standard_table(_dsl, "Discipline")
+        if _dtab is not None:
+            st.caption(STANDARD_CAPTION + " **Total** pools across disciplines.")
+            render_table_with_copy(report_style(_dtab), _dtab, "discipline_ldi")
+
         if not bframe.empty:
+            st.markdown('<div class="charttitle">Pooled LDI per discipline, '
+                        'across periods</div>', unsafe_allow_html=True)
             bf, gf = with_active(bframe, mono), with_active(gframe, mono)
             # One pooled trend line per genre, across periods (Old -> Middle -> Neo).
             gpk = ['genre', 'period']
@@ -2515,35 +3352,36 @@ elif st.session_state['annotations']:
             trend['period'] = pd.Categorical(trend['period'], categories=PERIOD_ORDER, ordered=True)
             trend = trend.sort_values(['genre', 'period'])
 
-            fig_trend = px.line(
-                trend, x='period', y=metric, color='genre', markers=True,
-                category_orders={'period': PERIOD_ORDER},
-                custom_data=['genre', 'n'], line_shape='spline',
-                title=f"Logographic Shift by Discipline — pooled {metric} LDI across periods",
-                template="simple_white"
-            )
-            fig_trend.update_traces(
-                line=dict(width=3, shape='spline', smoothing=1.0), marker=dict(size=11),
-                hovertemplate="<b>%{customdata[0]}</b><br>%{x}<br>"
-                              + metric + " = %{y:.3f}<br>omens = %{customdata[1]}<extra></extra>"
-            )
-            fig_trend.update_layout(
-                font_family="Arial", xaxis_title="Period",
-                yaxis_title=f"LDI — {metric}",
-                yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
-                height=780,
-                legend_title_text="Discipline", hovermode="closest"
-            )
-            # Two-line tick labels so the long Neo period isn't clipped.
-            fig_trend.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
-                                   ticktext=[period_disp(p) for p in PERIOD_ORDER])
-            st.plotly_chart(fig_trend, use_container_width=True, key="genre_trend")
-            st.caption(f"Each line = one discipline; y = pooled **{metric}** LDI per period "
-                       "(hover for omen counts). Switch the metric or monogram handling with the controls above.")
+            def _chart(metric, trend=trend):
+                fig_trend = px.line(
+                    trend, x='period', y=metric, color='genre', markers=True,
+                    category_orders={'period': PERIOD_ORDER},
+                    custom_data=['genre', 'n'], line_shape='spline',
+                    template="simple_white"
+                )
+                fig_trend.update_traces(
+                    line=dict(width=3, shape='spline', smoothing=1.0), marker=dict(size=11),
+                    hovertemplate="<b>%{customdata[0]}</b><br>%{x}<br>"
+                                  + metric + " = %{y:.3f}<br>omens = %{customdata[1]}<extra></extra>"
+                )
+                fig_trend.update_layout(
+                    margin=dict(t=14),   # no chart title to make room for
+                    font_family="Arial", xaxis_title="Period",
+                    yaxis_title=f"LDI — {metric}",
+                    yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
+                    height=780,
+                    legend_title_text="Discipline", hovermode="closest"
+                )
+                # Two-line tick labels so the long Neo period isn't clipped.
+                fig_trend.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
+                                       ticktext=[period_disp(p) for p in PERIOD_ORDER])
+                st.plotly_chart(fig_trend, use_container_width=True, key="genre_trend")
+                st.caption(f"Each line = one discipline; y = pooled **{metric}** LDI per period "
+                           "(hover for omen counts). The radio above the chart switches measure.")
+            metric_block("global", _chart)
 
     # --- LDI ▸ Region (find-spot: Babylonia / Assyria / Periphery) ---
     if page == "LDI" and ldi_view == "Region":
-        st.subheader("Regional Analysis (by find-spot)")
         st.caption("Texts grouped by where the manuscript was excavated — **Babylonia** "
                    "(southern heartland), **Assyria** (northern heartland), **Periphery** "
                    "(outside Mesopotamia: Ḫattuša, Emar, Susa). **Unassigned** = unknown "
@@ -2552,46 +3390,28 @@ elif st.session_state['annotations']:
                    "than diachronic — i.e. whether the LDI holds across Babylonia, Assyria and "
                    "the periphery, or splits between them.")
 
-        metric, mono, pres = chart_controls("region")
+        mono, pres, nopart = False, False, False   # canonical: the report table prices the variants
         _F = pick(pres)
         df, unique_omens_df = _F['df'], _F['uo']
         bframe, gframe, comp_df = _F['bframe'], _F['gframe'], _F['comp']
 
         # LDI by Region — texts · omens · bin · macro · micro (pooled across periods).
         st.markdown("#### LDI by Region")
-        st.caption("**texts · omens · bin · macro · micro** (the three LDI columns are shaded). "
-                   "**Total** pools across regions.")
+        st.caption(STANDARD_CAPTION + " **Total** pools across regions.")
 
-        def _fr(v):
-            return f"{v:.2f}" if pd.notna(v) else "–"
-
-        rrows, ridx = [], []
+        _RFULL, _RPRES = FRAMES[False]['df'], FRAMES[True]['df']
+        _rsl = []
         for region in REGION_ORDER + ["Total"]:
             uo = unique_omens_df if region == "Total" else unique_omens_df[unique_omens_df['region'] == region]
-            dd = df if region == "Total" else df[df['region'] == region]
             if uo.empty:
                 continue
-            b, ma, mi = trio(dd, mono)
-            rrows.append([str(uo['filename'].nunique()), str(len(uo)), _fr(b), _fr(ma), _fr(mi)])
-            ridx.append(region)
-
-        if rrows:
-            rtdf = pd.DataFrame(rrows, index=ridx,
-                                columns=["texts", "omens", "bin", "macro", "micro"])
-            rtdf.index.name = "Region"
-            rsty = (rtdf.style
-                    .set_properties(subset=["bin", "macro", "micro"],
-                                    **{'background-color': '#f2f2f2'})
-                    .set_table_styles([
-                        {'selector': '', 'props': [('border-collapse', 'collapse')]},
-                        {'selector': 'th.col_heading', 'props': [('text-align', 'center'),
-                                                                 ('padding', '4px 12px')]},
-                        {'selector': 'th.row_heading', 'props': [('text-align', 'left'),
-                                                                 ('padding', '4px 12px')]},
-                        {'selector': 'td', 'props': [('text-align', 'center'),
-                                                     ('padding', '4px 12px'),
-                                                     ('border-bottom', '1px solid #f0f0f0')]},
-                    ]))
+            _rsl.append((region,
+                         _RFULL if region == "Total" else _RFULL[_RFULL['region'] == region],
+                         _RPRES if region == "Total" else _RPRES[_RPRES['region'] == region],
+                         uo))
+        rtdf = standard_table(_rsl, "Region")
+        if rtdf is not None:
+            rsty = report_style(rtdf)
             render_table_with_copy(rsty, rtdf, "region_ldi")
 
         st.divider()
@@ -2600,6 +3420,8 @@ elif st.session_state['annotations']:
         st.subheader("Logographic Shift by Region (diachronic trend)")
 
         if not bframe.empty:
+            st.markdown('<div class="charttitle">Pooled LDI per region, '
+                        'across periods</div>', unsafe_allow_html=True)
             bf, gf = with_active(bframe, mono), with_active(gframe, mono)
             rpk = ['region', 'period']
             r_bin = bf.groupby(rpk)['_islog'].mean().rename('bin')
@@ -2611,38 +3433,41 @@ elif st.session_state['annotations']:
             rtrend['period'] = pd.Categorical(rtrend['period'], categories=PERIOD_ORDER, ordered=True)
             rtrend = rtrend.sort_values(['region', 'period'])
 
-            fig_region = px.line(
-                rtrend, x='period', y=metric, color='region', markers=True,
-                category_orders={'period': PERIOD_ORDER, 'region': REGION_ORDER},
-                custom_data=['region', 'n'], line_shape='spline',
-                title=f"Logographic Shift by Region — pooled {metric} LDI across periods",
-                template="simple_white"
-            )
-            fig_region.update_traces(
-                line=dict(width=3, shape='spline', smoothing=1.0), marker=dict(size=11),
-                hovertemplate="<b>%{customdata[0]}</b><br>%{x}<br>"
-                              + metric + " = %{y:.3f}<br>omens = %{customdata[1]}<extra></extra>"
-            )
-            fig_region.update_layout(
-                font_family="Arial", xaxis_title="Period",
-                yaxis_title=f"LDI — {metric}",
-                yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
-                height=780,
-                legend_title_text="Region", hovermode="closest"
-            )
-            fig_region.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
-                                    ticktext=[period_disp(p) for p in PERIOD_ORDER])
-            st.plotly_chart(fig_region, use_container_width=True, key="region_trend")
-            st.caption(f"Each line = one region; y = pooled **{metric}** LDI per period "
-                       "(hover for omen counts). Gaps mean that region has no texts in that "
-                       "period. The regional signal is strongest in the Old/Middle periods — "
-                       "much first-millennium material is composite and lands in *Unassigned*.")
+            def _chart(metric, rtrend=rtrend):
+                fig_region = px.line(
+                    rtrend, x='period', y=metric, color='region', markers=True,
+                    category_orders={'period': PERIOD_ORDER, 'region': REGION_ORDER},
+                    custom_data=['region', 'n'], line_shape='spline',
+                    template="simple_white"
+                )
+                fig_region.update_traces(
+                    line=dict(width=3, shape='spline', smoothing=1.0), marker=dict(size=11),
+                    hovertemplate="<b>%{customdata[0]}</b><br>%{x}<br>"
+                                  + metric + " = %{y:.3f}<br>omens = %{customdata[1]}<extra></extra>"
+                )
+                fig_region.update_layout(
+                    margin=dict(t=14),   # no chart title to make room for
+                    font_family="Arial", xaxis_title="Period",
+                    yaxis_title=f"LDI — {metric}",
+                    yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
+                    height=780,
+                    legend_title_text="Region", hovermode="closest"
+                )
+                fig_region.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
+                                        ticktext=[period_disp(p) for p in PERIOD_ORDER])
+                st.plotly_chart(fig_region, use_container_width=True, key="region_trend")
+                st.caption(f"Each line = one region; y = pooled **{metric}** LDI per period "
+                           "(hover for omen counts). Gaps mean that region has no texts in that "
+                           "period. The regional signal is strongest in the Old/Middle periods — "
+                           "much first-millennium material is composite and lands in *Unassigned*.")
+            metric_block("region", _chart)
 
         st.divider()
 
         # Genre × Region — controls for genre mix: does each region's LDI hold within a
         # genre, or is the regional gap just an artefact of which genres each region has?
-        st.subheader("LDI by Genre × Region")
+        st.subheader("LDI by Discipline × Region")
+        metric = metric_control("region_matrix")
         st.caption("Each cell is the pooled **" + metric + "** LDI for one genre in one region. "
                    "This separates a real regional effect from a genre-mix artefact — if a "
                    "region's LDI holds *within* genres, the effect is regional. Empty cells "
@@ -2658,7 +3483,7 @@ elif st.session_state['annotations']:
                 sub = df[(df['genre'] == g) & (df['region'] == r)]
                 if sub.empty:
                     continue
-                b, ma, mi = trio(sub, mono)
+                b, ma, mi = trio(sub, mono, nopart)
                 val = {'bin': b, 'macro': ma, 'micro': mi}[metric]
                 n = unique_omens_df[(unique_omens_df['genre'] == g)
                                     & (unique_omens_df['region'] == r)].shape[0]
@@ -2673,7 +3498,7 @@ elif st.session_state['annotations']:
             ptbl = pivot.copy()
             for c in ptbl.columns:
                 ptbl[c] = pivot[c].map(lambda v: f"{v:.2f}" if pd.notna(v) else "–")
-            ptbl.index.name = "Genre"
+            ptbl.index.name = "Discipline"
             psty = (ptbl.style
                     .set_properties(**{'background-color': '#f2f2f2'})
                     .set_table_styles([
@@ -2713,46 +3538,48 @@ elif st.session_state['annotations']:
                 if sub.empty or sub[metric].dropna().empty:
                     continue
                 disp = GENRE_DISPLAY.get(g, str(g).title())
-                fig_g = px.line(
-                    sub, x='period', y=metric, color='region', markers=True,
-                    category_orders={'period': PERIOD_ORDER, 'region': regions_present},
-                    custom_data=['region', 'n'], line_shape='spline',
-                    title=f"{disp} — {metric} LDI by region across periods",
-                    template="simple_white"
-                )
-                fig_g.update_traces(
-                    line=dict(width=3, shape='spline', smoothing=1.0), marker=dict(size=11),
-                    hovertemplate="<b>%{customdata[0]}</b><br>%{x}<br>"
-                                  + metric + " = %{y:.3f}<br>omens = %{customdata[1]}<extra></extra>")
-                fig_g.update_layout(
-                    font_family="Arial", xaxis_title="Period",
-                    yaxis_title=f"LDI — {metric}",
-                    yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
-                    height=420, legend_title_text="Region", hovermode="closest")
-                fig_g.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
-                                   ticktext=[period_disp(p) for p in PERIOD_ORDER])
-                st.plotly_chart(fig_g, use_container_width=True, key=f"region_genre_{g}")
+                st.markdown(f'<div class="charttitle">{disp} — LDI by region '
+                            f'across periods</div>', unsafe_allow_html=True)
+                def _chart(metric, sub=sub, disp=disp, g=g, regions_present=regions_present):
+                    fig_g = px.line(
+                        sub, x='period', y=metric, color='region', markers=True,
+                        category_orders={'period': PERIOD_ORDER, 'region': regions_present},
+                        custom_data=['region', 'n'], line_shape='spline',
+                        template="simple_white"
+                    )
+                    fig_g.update_traces(
+                        line=dict(width=3, shape='spline', smoothing=1.0), marker=dict(size=11),
+                        hovertemplate="<b>%{customdata[0]}</b><br>%{x}<br>"
+                                      + metric + " = %{y:.3f}<br>omens = %{customdata[1]}<extra></extra>")
+                    fig_g.update_layout(
+                        margin=dict(t=14),   # no chart title to make room for
+                        font_family="Arial", xaxis_title="Period",
+                        yaxis_title=f"LDI — {metric}",
+                        yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
+                        height=420, legend_title_text="Region", hovermode="closest")
+                    fig_g.update_xaxes(tickmode='array', tickvals=PERIOD_ORDER,
+                                       ticktext=[period_disp(p) for p in PERIOD_ORDER])
+                    st.plotly_chart(fig_g, use_container_width=True, key=f"region_genre_{g}")
+                metric_block(f"region_genre_{g}", _chart)
 
     # --- LDI ▸ Topics (intra-genre sub-chapters) ---
     if page == "LDI" and ldi_view == "Topics":
-        st.subheader("Topic Analysis")
-        st.caption("Omens split by **sub-chapter / subject** within a genre — extispicy by liver "
-                   "region & lung (bārûtu chapters), astrology by celestial body & phenomenon "
-                   "(lunar eclipse, lunar other, solar, stellar/planetary). Pick a genre below; "
-                   "one chart per topic, each omen a node across the periods.")
+        st.caption("Omens split by **sub-chapter / subject** within a discipline — extispicy by "
+                   "liver region & lung (bārûtu chapters), astrology by celestial body & "
+                   "phenomenon, Sakikkû by canonical tablet, izbu by human / animal section, "
+                   "Šumma Ālu by subject (snakes, lizards, house, sleep, behaviour). Each "
+                   "series is edited differently, so the sub-chapter is read from whichever "
+                   "field carries it. Pick a discipline below; one chart per topic, each omen "
+                   "a node across the periods.")
 
-        metric, mono, pres = chart_controls("topics")
+        mono, pres, nopart = False, False, False   # canonical: the report table prices the variants
         _F = pick(pres)
         df, unique_omens_df = _F['df'], _F['uo']
         bframe, gframe, comp_df = _F['bframe'], _F['gframe'], _F['comp']
 
-        SHORT_PERIOD = {
-            "Old Babylonian": "Old Bab.",
-            "Middle Babylonian/Assyrian": "Middle Bab./Assyrian",
-            "Neo-Babylonian/Assyrian + Late Babylonian": "Neo-Bab./Assyrian + LB",
-        }
-        def _short(p):
-            return SHORT_PERIOD.get(p, p)
+        # Period labels come from PERIOD_DISPLAY (Old / Middle / Neo) like every
+        # other chart and table; this alias keeps the local call sites unchanged.
+        _short = period_disp
 
         def _section_table_style(styler):
             return (styler
@@ -2771,15 +3598,34 @@ elif st.session_state['annotations']:
         def _f(v):
             return f"{v:.2f}" if pd.notna(v) else "–"
 
-        # --- Per-genre topic labelling -------------------------------------------------
+        # --- Per-discipline topic labelling ---------------------------------------------
+        # Every label function takes a row of that text's metadata, because each
+        # series records its sub-chapter somewhere else: the folder path for
+        # extispicy, `topic` for astrology, `series` for Sakikkû,
+        # `canonical_tablet` for izbu, the `publication` line for Šumma Ālu.
+        _TOPIC_FIELDS = ('topic', 'feature', 'series', 'canonical_tablet',
+                         'publication', 'note', 'source_note', 'recension', 'subpath')
+
+        def _blob(row, *fields):
+            """The named fields as one lower-cased string, for keyword matching."""
+            return " ".join(str(row.get(f) or "") for f in fields).lower()
+
         # Extispicy: topic/feature come from the folder path (extispicy/<topic>/<feature>).
         EXT_FEATURE = {
             "bab ekallim": "bāb ekallim", "martu": "martu", "naplastu": "naplastu",
             "padanu": "padānu", "pu": "pû", "qerbu": "qerbu",
         }
-        def _ext_label(topic, feature):
-            t = topic.strip().lower() if isinstance(topic, str) else ""
-            f = feature.strip().lower() if isinstance(feature, str) else ""
+        def _ext_label(row):
+            # The folder is the structural fact (extispicy/liver/martu); a few texts
+            # carry prose in `topic:` instead ("manzāzu / the Station (ki.gub …)"),
+            # which would otherwise split them off as chapters of their own.
+            # folder names hyphenate (liver/bab-ekallim); EXT_FEATURE is keyed on spaces
+            parts = [x.strip().lower().replace('-', ' ')
+                     for x in str(row.get('subpath') or '').split('/') if x.strip()]
+            topic, feature = row.get('topic'), row.get('feature')
+            t = parts[0] if parts else (topic.strip().lower() if isinstance(topic, str) else "")
+            f = (parts[1] if len(parts) > 1
+                 else (feature.strip().lower() if isinstance(feature, str) else ""))
             if t == "lung":
                 return "Lung (ḫašû)"
             if t == "liver":
@@ -2794,7 +3640,8 @@ elif st.session_state['annotations']:
         ]
 
         # Astrology: classified from the `topic` field (free text) / EAE folder.
-        def _astro_label(topic, feature):
+        def _astro_label(row):
+            topic = row.get('topic')
             t = topic.lower() if isinstance(topic, str) else ""
             if any(k in t for k in ("solar", "šamaš", "shamash", "samas")):
                 return "Solar (Šamaš — halo, setting, eclipse)"
@@ -2812,22 +3659,85 @@ elif st.session_state['annotations']:
             "Stellar / planetary (EAE 55, 57)",
         ]
 
+        # Sakikkû: the canonical manuscripts name their tablet in `series`
+        # ("Sakikkû (Diagnostic Handbook) Tablet 14"); everything without one is a
+        # forerunner, and in this corpus those are all Old/Middle.
+        DIAG_TABLETS = {3: "Sakikkû 3 — head & scalp",
+                        4: "Sakikkû 4 — face, neck, trunk",
+                        14: "Sakikkû 14 — Hand-of-the-god"}
+        def _diag_label(row):
+            s = _blob(row, 'series', 'recension', 'subpath')
+            m = (re.search(r'sakikk[ûu][^0-9]*tablet\s*(\d+)', s)
+                 or re.search(r'tablet\s*(\d+)', s))
+            if m:
+                n = int(m.group(1))
+                return DIAG_TABLETS.get(n, f"Sakikkû {n}")
+            return "Pre-canonical forerunners"
+        DIAG_ORDER = ["Sakikkû 3 — head & scalp", "Sakikkû 4 — face, neck, trunk",
+                      "Sakikkû 14 — Hand-of-the-god", "Pre-canonical forerunners"]
+
+        # Šumma izbu: `canonical_tablet` gives the series tablet; 1–4 are the human
+        # births, 5–24 the animal section (De Zorzi). Manuscripts without one are
+        # the Old Babylonian forerunners and the peripheral copies.
+        def _izbu_label(row):
+            s = _blob(row, 'canonical_tablet', 'topic', 'source_note')
+            if 'compendium' in s:
+                return "Compendia (mixed sections)"
+            m = re.search(r'tablet\s*(\d+)', s)
+            if m:
+                return ("Human births (Tablets 1–4)" if int(m.group(1)) <= 4
+                        else "Animal births (Tablets 5–24)")
+            if 'human' in s:
+                return "Human births (Tablets 1–4)"
+            if any(k in s for k in ('animal', 'equid', 'pig', 'sow')):
+                return "Animal births (Tablets 5–24)"
+            return "Forerunners & peripheral copies"
+        IZBU_ORDER = ["Human births (Tablets 1–4)", "Animal births (Tablets 5–24)",
+                      "Compendia (mixed sections)", "Forerunners & peripheral copies"]
+
+        # Šumma Ālu: the subject is named in the publication line — the KAL 1
+        # forerunners as "≈ ŠÀ 22-23 (snakes)", the canonical tablets by their
+        # subject. Keyword order matters: the first match wins.
+        TERR_SUBJECTS = [
+            ("Snakes (Ālu 22–24)", ('snake',)),
+            ("Lizards (Ālu 32–33)", ('lizard', 'eme.dir', 'eme.šid')),
+            ("House & building", ('house omens', 'house (', 'building')),
+            ("Sleep & bed", ('sleep', 'bed omens', 'bed (')),
+            ("Human behaviour & sex", ('behaviour', 'behavior', 'sex ', 'sexual')),
+            ("Birds", ('bird',)),
+        ]
+        def _terr_label(row):
+            s = _blob(row, 'topic', 'publication', 'note', 'source_note', 'series')
+            for label, keys in TERR_SUBJECTS:
+                if any(k in s for k in keys):
+                    return label
+            return "Other subjects"
+        TERR_ORDER = [lab for lab, _ in TERR_SUBJECTS] + ["Other subjects"]
+
         TOPIC_GENRES = {
             "Extispicy": (_ext_label, EXT_ORDER),
             "Astrological Omens": (_astro_label, ASTRO_ORDER),
+            "Diagnostic Omens": (_diag_label, DIAG_ORDER),
+            "Teratological Omens": (_izbu_label, IZBU_ORDER),
+            "Terrestrial Omens": (_terr_label, TERR_ORDER),
         }
         avail_genres = [g for g in TOPIC_GENRES if not df[df['genre'] == g].empty]
         if not avail_genres:
-            st.info("No extispicy or astrology texts in the current corpus.")
+            st.info("No texts of a discipline with sub-chapters in the current corpus.")
             EXT = None
         else:
-            EXT = st.radio("Genre", avail_genres, horizontal=True, key="topic_genre")
+            EXT = st.radio("Discipline", avail_genres, horizontal=True, key="topic_genre")
         _label_fn, TOPIC_ORDER = TOPIC_GENRES.get(EXT, (None, []))
 
         def _label_col(frame):
-            tcol = frame['topic'] if 'topic' in frame.columns else pd.Series(index=frame.index, dtype=object)
-            fcol = frame['feature'] if 'feature' in frame.columns else pd.Series(index=frame.index, dtype=object)
-            return [_label_fn(a, b) for a, b in zip(tcol, fcol)]
+            """Label per text, then map onto the rows — the metadata is file-level,
+            so one call per text instead of one per token."""
+            if frame.empty or _label_fn is None:
+                return []
+            have = [f for f in _TOPIC_FIELDS if f in frame.columns]
+            per_text = frame.groupby('filename')[have].first().to_dict('index')
+            lab = {fn: _label_fn(rec) for fn, rec in per_text.items()}
+            return frame['filename'].map(lab).tolist()
 
         ext_df = df[df['genre'] == EXT].copy() if EXT else df.iloc[0:0].copy()
         if ext_df.empty:
@@ -2901,7 +3811,8 @@ elif st.session_state['annotations']:
 
                 # Three LDI measures for this topic, by period — shown before the chart.
                 st.markdown(f"#### {tlab}")
-                lr_rows, lr_idx = [], []
+                _TPRES = FRAMES[True]['df']
+                _tsl = []
                 for p in PERIOD_ORDER + ["Total"]:
                     tuo = ext_uo_pool[ext_uo_pool['topic_label'] == tlab]
                     tuo = tuo if p == "Total" else tuo[tuo['period'] == p]
@@ -2909,173 +3820,163 @@ elif st.session_state['annotations']:
                         continue
                     tdd = ext_df_pool[ext_df_pool['topic_label'] == tlab]
                     tdd = tdd if p == "Total" else tdd[tdd['period'] == p]
-                    b3, ma3, mi3 = trio(tdd, mono)
-                    lr_rows.append([str(tuo['filename'].nunique()), str(len(tuo)),
-                                    _f(b3), _f(ma3), _f(mi3)])
-                    lr_idx.append(p)
+                    tpr = _TPRES[_TPRES['filename'].isin(tdd['filename'].unique())]
+                    tpr = tpr if p == "Total" else tpr[tpr['period'] == p]
+                    _tsl.append((period_disp(p), tdd, tpr, tuo))
                 # Excluded texts get their own independent row (own LDI; not in the pooled rows).
                 ex_tu_all = ext_uo[ext_uo['topic_label'] == tlab]
                 ex_tu_all = ex_tu_all[_excl(ex_tu_all)]
                 for fn in sorted(ex_tu_all['filename'].unique()):
                     ftu = ex_tu_all[ex_tu_all['filename'] == fn]
                     ftd = ext_df[(ext_df['topic_label'] == tlab) & (ext_df['filename'] == fn)]
-                    b3, ma3, mi3 = trio(ftd, mono)
-                    lr_rows.append(["1", str(len(ftu)), _f(b3), _f(ma3), _f(mi3)])
-                    lr_idx.append(f"{fn} (excl.)")
-                if lr_rows:
-                    ltdf = pd.DataFrame(lr_rows, index=lr_idx,
-                                        columns=["texts", "omens", "bin", "macro", "micro"])
-                    ltdf.index.name = "Period"
-                    lsty = (ltdf.style
-                            .set_properties(subset=["bin", "macro", "micro"],
-                                            **{'background-color': '#f2f2f2'})
-                            .set_table_styles([
-                                {'selector': '', 'props': [('border-collapse', 'collapse')]},
-                                {'selector': 'th.col_heading', 'props': [('text-align', 'center'),
-                                                                         ('padding', '4px 12px')]},
-                                {'selector': 'th.row_heading', 'props': [('text-align', 'left'),
-                                                                         ('padding', '4px 12px')]},
-                                {'selector': 'td', 'props': [('text-align', 'center'),
-                                                             ('padding', '4px 12px'),
-                                                             ('border-bottom', '1px solid #f0f0f0')]},
-                            ]))
+                    _tsl.append((f"{fn} (excl.)", ftd,
+                                 _TPRES[_TPRES['filename'] == fn], ftu))
+                ltdf = standard_table(_tsl, "Period")
+                if ltdf is not None:
+                    lsty = report_style(ltdf)
                     render_table_with_copy(lsty, ltdf, f"topic_ldi_{ti}")
 
-                fig = go.Figure()
-                # One spline per period segment (its own colour), bridged so there are no gaps.
-                periods_here = [p for p in PERIOD_ORDER if (ostats['period'] == p).any()]
-                for i, period in enumerate(periods_here):
-                    sub = ostats[ostats['period'] == period]
-                    xs, ys = sub['seq_index'].tolist(), sub[metric].tolist()
-                    lx, ly = list(xs), list(ys)
-                    if i + 1 < len(periods_here):
-                        nxt = ostats[ostats['period'] == periods_here[i + 1]].iloc[0]
-                        lx.append(nxt['seq_index']); ly.append(nxt[metric])
-                    fig.add_trace(go.Scatter(
-                        x=lx, y=ly, mode='lines',
-                        line=dict(width=2, shape='spline', smoothing=1.0, color=color_map.get(period, '#444')),
-                        hoverinfo='skip', showlegend=False))
-                    fig.add_trace(go.Scatter(
-                        x=xs, y=ys, mode='markers',
-                        marker=dict(size=9, color=color_map.get(period, '#444'),
-                                    line=dict(width=1, color='white')),
-                        name=period_disp(period),
-                        customdata=sub[['omen_id', 'filename', 'bin', 'macro', 'micro']].to_numpy(),
-                        hovertemplate="<b>omen %{customdata[0]}</b> · %{customdata[1]}<br>" + period + "<br>"
-                                      + metric + " = %{y:.3f}<br>"
-                                      "bin %{customdata[2]:.2f} · macro %{customdata[3]:.2f} · micro %{customdata[4]:.2f}"
-                                      "<extra></extra>"))
+                # This topic's own switch, under its title and over its charts.
+                st.markdown(f'<div class="charttitle">{tlab} — LDI per omen '
+                            f'({len(ostats)} omens)</div>', unsafe_allow_html=True)
 
-                # Excluded texts (pooled_exclude) — plotted independently as grey ◆ to the right,
-                # kept out of the pooled line, the "whole" labels and the table above.
-                ex_tb = with_active(ext_lp_excl[ext_lp_excl['topic_label'] == tlab], mono)
-                if not ex_tb.empty:
-                    ex_bin = ex_tb.groupby(okeys)['_islog'].mean().rename('bin')
-                    ex_agg = ex_tb.groupby(okeys).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-                    ex_agg['micro'] = ex_agg['_nl'] / (ex_agg['_nl'] + ex_agg['_np']).where((ex_agg['_nl'] + ex_agg['_np']) > 0)
-                    exstats = pd.concat([ex_bin, ex_agg[['macro', 'micro']]], axis=1).reset_index()
-                    exstats[['bin', 'macro', 'micro']] = exstats[['bin', 'macro', 'micro']].fillna(0.0)
-                    exstats = exstats.sort_values(['filename', 'omen_id'])
-                    exstats['seq_index'] = range(len(ostats), len(ostats) + len(exstats))
-                    fig.add_trace(go.Scatter(
-                        x=exstats['seq_index'], y=exstats[metric], mode='markers',
-                        marker=dict(size=9, color='#9e9e9e', symbol='diamond',
-                                    line=dict(width=1, color='white')),
-                        name='excluded (independent)',
-                        customdata=exstats[['omen_id', 'filename', 'bin', 'macro', 'micro']].to_numpy(),
-                        hovertemplate="<b>omen %{customdata[0]}</b> · %{customdata[1]} <i>(excluded)</i><br>"
-                                      + metric + " = %{y:.3f}<br>"
-                                      "bin %{customdata[2]:.2f} · macro %{customdata[3]:.2f} · micro %{customdata[4]:.2f}"
-                                      "<extra></extra>"))
-
-                # Per-period pooled "whole" LDI + highest/lowest omen dot, labelled at the top.
-                midx = {"bin": 0, "macro": 1, "micro": 2}[metric]
-                for period in periods_here:
-                    sub = ostats[ostats['period'] == period]
-                    xs, ys = sub['seq_index'], sub[metric]
-                    x0, x1 = float(xs.min()), float(xs.max())
-                    col = color_map.get(period, '#444')
-                    whole = trio(ext_df_pool[(ext_df_pool['topic_label'] == tlab) & (ext_df_pool['period'] == period)], mono)[midx]
-                    fig.add_annotation(
-                        x=(x0 + x1) / 2, y=1.02, xref='x', yref='y',
-                        text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
-                        showarrow=False, yanchor='bottom', align='center', font=dict(size=10, color=col))
-
-                fig.update_layout(
-                    title=f"{tlab} — {metric} LDI per omen ({len(ostats)} omens)",
-                    template="simple_white", font_family="Arial",
-                    xaxis_title="Omens (chronological)", yaxis_title=f"LDI — {metric}",
-                    yaxis=dict(range=[-0.05, 1.30], tickmode='array',
-                               tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
-                    xaxis=dict(showticklabels=False), height=420,
-                    legend_title_text="Period", hovermode="closest")
-                st.plotly_chart(fig, use_container_width=True, key=f"topic_omen_chart_{ti}")
-                if not ex_tb.empty:
-                    exnames = ", ".join(sorted(ex_tb['filename'].unique()))
-                    st.caption(f"Grey ◆ = excluded from the pooled LDI and shown independently: "
-                               f"**{exnames}** (see the text's frontmatter note for why).")
-
-                # Text-level view — one node per tablet (like the Genre chart). Only for topics
-                # that span ≥2 periods (e.g. extispicy martu, naplastu, padānu, lung).
-                t_bin = tb.groupby(['period', 'filename'])['_islog'].mean().rename('bin')
-                t_agg = tb.groupby(['period', 'filename']).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-                t_agg['micro'] = t_agg['_nl'] / (t_agg['_nl'] + t_agg['_np']).where((t_agg['_nl'] + t_agg['_np']) > 0)
-                t_n = ext_uo_pool[ext_uo_pool['topic_label'] == tlab].groupby(['period', 'filename']).size().rename('n')
-                tstats = pd.concat([t_bin, t_agg[['macro', 'micro']], t_n], axis=1).reset_index()
-                tstats[['bin', 'macro', 'micro']] = tstats[['bin', 'macro', 'micro']].fillna(0.0)
-                tstats['period'] = pd.Categorical(tstats['period'], categories=PERIOD_ORDER, ordered=True)
-                tstats = tstats.sort_values(['period', 'filename'])
-                tperiods = [p for p in PERIOD_ORDER if (tstats['period'] == p).any()]
-                if len(tperiods) >= 2:
-                    tstats['seq_index'] = range(len(tstats))
-                    figt = go.Figure()
-                    for i, period in enumerate(tperiods):
-                        sub = tstats[tstats['period'] == period]
+                def _chart(metric, ostats=ostats, tlab=tlab, ti=ti, tb=tb):
+                    fig = go.Figure()
+                    # One spline per period segment (its own colour), bridged so there are no gaps.
+                    periods_here = [p for p in PERIOD_ORDER if (ostats['period'] == p).any()]
+                    for i, period in enumerate(periods_here):
+                        sub = ostats[ostats['period'] == period]
                         xs, ys = sub['seq_index'].tolist(), sub[metric].tolist()
                         lx, ly = list(xs), list(ys)
-                        if i + 1 < len(tperiods):
-                            nxt = tstats[tstats['period'] == tperiods[i + 1]].iloc[0]
+                        if i + 1 < len(periods_here):
+                            nxt = ostats[ostats['period'] == periods_here[i + 1]].iloc[0]
                             lx.append(nxt['seq_index']); ly.append(nxt[metric])
-                        figt.add_trace(go.Scatter(
+                        fig.add_trace(go.Scatter(
                             x=lx, y=ly, mode='lines',
-                            line=dict(width=2.5, shape='spline', smoothing=1.0, color=color_map.get(period, '#444')),
+                            line=dict(width=2, shape='spline', smoothing=1.0, color=color_map.get(period, '#444')),
                             hoverinfo='skip', showlegend=False))
-                        figt.add_trace(go.Scatter(
+                        fig.add_trace(go.Scatter(
                             x=xs, y=ys, mode='markers',
-                            marker=dict(size=12, color=color_map.get(period, '#444'),
+                            marker=dict(size=9, color=color_map.get(period, '#444'),
                                         line=dict(width=1, color='white')),
                             name=period_disp(period),
-                            customdata=sub[['filename', 'bin', 'macro', 'micro', 'n']].to_numpy(),
-                            hovertemplate="<b>%{customdata[0]}</b><br>" + period + "<br>"
+                            customdata=sub[['omen_id', 'filename', 'bin', 'macro', 'micro']].to_numpy(),
+                            hovertemplate="<b>omen %{customdata[0]}</b> · %{customdata[1]}<br>" + period_disp(period) + "<br>"
                                           + metric + " = %{y:.3f}<br>"
-                                          "bin %{customdata[1]:.2f} · macro %{customdata[2]:.2f} · micro %{customdata[3]:.2f}"
-                                          "<br>omens = %{customdata[4]}<extra></extra>"))
-                    # Per-period highest / whole / lowest labelled at the top, mirroring the
-                    # per-omen chart. Highest/lowest are the extreme text (tablet) LDIs;
-                    # "whole" is the pooled LDI for that period.
-                    for period in tperiods:
-                        sub = tstats[tstats['period'] == period]
+                                          "bin %{customdata[2]:.2f} · macro %{customdata[3]:.2f} · micro %{customdata[4]:.2f}"
+                                          "<extra></extra>"))
+
+                    # Excluded texts (pooled_exclude) — plotted independently as grey ◆ to the right,
+                    # kept out of the pooled line, the "whole" labels and the table above.
+                    ex_tb = with_active(ext_lp_excl[ext_lp_excl['topic_label'] == tlab], mono)
+                    if not ex_tb.empty:
+                        ex_bin = ex_tb.groupby(okeys)['_islog'].mean().rename('bin')
+                        ex_agg = ex_tb.groupby(okeys).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                        ex_agg['micro'] = ex_agg['_nl'] / (ex_agg['_nl'] + ex_agg['_np']).where((ex_agg['_nl'] + ex_agg['_np']) > 0)
+                        exstats = pd.concat([ex_bin, ex_agg[['macro', 'micro']]], axis=1).reset_index()
+                        exstats[['bin', 'macro', 'micro']] = exstats[['bin', 'macro', 'micro']].fillna(0.0)
+                        exstats = exstats.sort_values(['filename', 'omen_id'])
+                        exstats['seq_index'] = range(len(ostats), len(ostats) + len(exstats))
+                        fig.add_trace(go.Scatter(
+                            x=exstats['seq_index'], y=exstats[metric], mode='markers',
+                            marker=dict(size=9, color='#9e9e9e', symbol='diamond',
+                                        line=dict(width=1, color='white')),
+                            name='excluded (independent)',
+                            customdata=exstats[['omen_id', 'filename', 'bin', 'macro', 'micro']].to_numpy(),
+                            hovertemplate="<b>omen %{customdata[0]}</b> · %{customdata[1]} <i>(excluded)</i><br>"
+                                          + metric + " = %{y:.3f}<br>"
+                                          "bin %{customdata[2]:.2f} · macro %{customdata[3]:.2f} · micro %{customdata[4]:.2f}"
+                                          "<extra></extra>"))
+
+                    # Per-period pooled "whole" LDI + highest/lowest omen dot, labelled at the top.
+                    midx = {"bin": 0, "macro": 1, "micro": 2}[metric]
+                    for period in periods_here:
+                        sub = ostats[ostats['period'] == period]
                         xs, ys = sub['seq_index'], sub[metric]
                         x0, x1 = float(xs.min()), float(xs.max())
                         col = color_map.get(period, '#444')
-                        whole = trio(ext_df_pool[(ext_df_pool['topic_label'] == tlab) & (ext_df_pool['period'] == period)], mono)[midx]
-                        figt.add_annotation(
+                        whole = trio(ext_df_pool[(ext_df_pool['topic_label'] == tlab) & (ext_df_pool['period'] == period)], mono, nopart)[midx]
+                        fig.add_annotation(
                             x=(x0 + x1) / 2, y=1.02, xref='x', yref='y',
                             text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
                             showarrow=False, yanchor='bottom', align='center', font=dict(size=10, color=col))
-                    figt.update_layout(
-                        title=f"{tlab} — {metric} LDI per text ({len(tstats)} tablets)",
+
+                    fig.update_layout(
+                        margin=dict(t=14),   # no chart title to make room for
                         template="simple_white", font_family="Arial",
-                        xaxis_title="Texts (chronological)", yaxis_title=f"LDI — {metric}",
+                        xaxis_title="Omens (chronological)", yaxis_title=f"LDI — {metric}",
                         yaxis=dict(range=[-0.05, 1.30], tickmode='array',
                                    tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
-                        xaxis=dict(showticklabels=False), height=380,
+                        xaxis=dict(showticklabels=False), height=420,
                         legend_title_text="Period", hovermode="closest")
-                    st.plotly_chart(figt, use_container_width=True, key=f"topic_text_chart_{ti}")
+                    st.plotly_chart(fig, use_container_width=True, key=f"topic_omen_chart_{ti}")
+                    if not ex_tb.empty:
+                        exnames = ", ".join(sorted(ex_tb['filename'].unique()))
+                        st.caption(f"Grey ◆ = excluded from the pooled LDI and shown independently: "
+                                   f"**{exnames}** (see the text's frontmatter note for why).")
+
+                    # Text-level view — one node per tablet (like the Genre chart). Only for topics
+                    # that span ≥2 periods (e.g. extispicy martu, naplastu, padānu, lung).
+                    t_bin = tb.groupby(['period', 'filename'])['_islog'].mean().rename('bin')
+                    t_agg = tb.groupby(['period', 'filename']).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                    t_agg['micro'] = t_agg['_nl'] / (t_agg['_nl'] + t_agg['_np']).where((t_agg['_nl'] + t_agg['_np']) > 0)
+                    t_n = ext_uo_pool[ext_uo_pool['topic_label'] == tlab].groupby(['period', 'filename']).size().rename('n')
+                    tstats = pd.concat([t_bin, t_agg[['macro', 'micro']], t_n], axis=1).reset_index()
+                    tstats[['bin', 'macro', 'micro']] = tstats[['bin', 'macro', 'micro']].fillna(0.0)
+                    tstats['period'] = pd.Categorical(tstats['period'], categories=PERIOD_ORDER, ordered=True)
+                    tstats = tstats.sort_values(['period', 'filename'])
+                    tperiods = [p for p in PERIOD_ORDER if (tstats['period'] == p).any()]
+                    if len(tperiods) >= 2:
+                        tstats['seq_index'] = range(len(tstats))
+                        figt = go.Figure()
+                        for i, period in enumerate(tperiods):
+                            sub = tstats[tstats['period'] == period]
+                            xs, ys = sub['seq_index'].tolist(), sub[metric].tolist()
+                            lx, ly = list(xs), list(ys)
+                            if i + 1 < len(tperiods):
+                                nxt = tstats[tstats['period'] == tperiods[i + 1]].iloc[0]
+                                lx.append(nxt['seq_index']); ly.append(nxt[metric])
+                            figt.add_trace(go.Scatter(
+                                x=lx, y=ly, mode='lines',
+                                line=dict(width=2.5, shape='spline', smoothing=1.0, color=color_map.get(period, '#444')),
+                                hoverinfo='skip', showlegend=False))
+                            figt.add_trace(go.Scatter(
+                                x=xs, y=ys, mode='markers',
+                                marker=dict(size=12, color=color_map.get(period, '#444'),
+                                            line=dict(width=1, color='white')),
+                                name=period_disp(period),
+                                customdata=sub[['filename', 'bin', 'macro', 'micro', 'n']].to_numpy(),
+                                hovertemplate="<b>%{customdata[0]}</b><br>" + period_disp(period) + "<br>"
+                                              + metric + " = %{y:.3f}<br>"
+                                              "bin %{customdata[1]:.2f} · macro %{customdata[2]:.2f} · micro %{customdata[3]:.2f}"
+                                              "<br>omens = %{customdata[4]}<extra></extra>"))
+                        # Per-period highest / whole / lowest labelled at the top, mirroring the
+                        # per-omen chart. Highest/lowest are the extreme text (tablet) LDIs;
+                        # "whole" is the pooled LDI for that period.
+                        for period in tperiods:
+                            sub = tstats[tstats['period'] == period]
+                            xs, ys = sub['seq_index'], sub[metric]
+                            x0, x1 = float(xs.min()), float(xs.max())
+                            col = color_map.get(period, '#444')
+                            whole = trio(ext_df_pool[(ext_df_pool['topic_label'] == tlab) & (ext_df_pool['period'] == period)], mono, nopart)[midx]
+                            figt.add_annotation(
+                                x=(x0 + x1) / 2, y=1.02, xref='x', yref='y',
+                                text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
+                                showarrow=False, yanchor='bottom', align='center', font=dict(size=10, color=col))
+                        figt.update_layout(
+                            title=f"{tlab} — {metric} LDI per text ({len(tstats)} tablets)",
+                            template="simple_white", font_family="Arial",
+                            xaxis_title="Texts (chronological)", yaxis_title=f"LDI — {metric}",
+                            yaxis=dict(range=[-0.05, 1.30], tickmode='array',
+                                       tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
+                            xaxis=dict(showticklabels=False), height=380,
+                            legend_title_text="Period", hovermode="closest")
+                        st.plotly_chart(figt, use_container_width=True,
+                                        key=f"topic_text_chart_{ti}")
+                metric_block(f"topics_{ti}", _chart)
 
     # --- LDI ▸ Genre ---
-    if page == "LDI" and ldi_view == "Genre":
-        st.subheader("Genre-Specific Analysis (one node per text)")
+    if page == "LDI" and ldi_view == "Discipline":
         st.caption("Each marker is a whole text (its pooled LDI), not a single omen — so the "
                    "curve traces tablet-by-tablet, coloured by period. **Click a node to open "
                    "that tablet in the Text view.**")
@@ -3087,42 +3988,32 @@ elif st.session_state['annotations']:
             for gi, genre in enumerate(sorted(unique_omens_df['genre'].dropna().unique())):
                 g_uo = unique_omens_df[unique_omens_df['genre'] == genre]
                 st.markdown(f"#### {genre}: {g_uo['filename'].nunique()} texts — {len(g_uo)} omens")
-                metric, mono, pres = chart_controls(f"genre_{genre}")
+                mono, pres, nopart = False, False, False   # canonical: the report table prices the variants
                 _F = pick(pres)
                 df, unique_omens_df = _F['df'], _F['uo']
                 bframe, gframe, comp_df = _F['bframe'], _F['gframe'], _F['comp']
 
                 # LDI by Period for this genre — texts · omens · bin · macro · micro.
-                # Reflects this section's monogram toggle; Total pools across periods.
-                pr_rows, pr_idx = [], []
+                # Canonical convention; Total pools across periods.
+                _GFULL, _GPRES = FRAMES[False]['df'], FRAMES[True]['df']
+                _gf = _GFULL[_GFULL['genre'] == genre]
+                _gp = _GPRES[_GPRES['genre'] == genre]
+                _gsl = []
                 for period in PERIOD_ORDER + ["Total"]:
                     puo = g_uo if period == "Total" else g_uo[g_uo['period'] == period]
                     if puo.empty:
                         continue
-                    pdd = (df[df['genre'] == genre] if period == "Total"
-                           else df[(df['genre'] == genre) & (df['period'] == period)])
-                    b0, ma0, mi0 = trio(pdd, mono)
-                    pr_rows.append([str(puo['filename'].nunique()), str(len(puo)),
-                                    _f(b0), _f(ma0), _f(mi0)])
-                    pr_idx.append(period)
-                if pr_rows:
-                    gtdf = pd.DataFrame(pr_rows, index=pr_idx,
-                                        columns=["texts", "omens", "bin", "macro", "micro"])
-                    gtdf.index.name = "Period"
-                    gtsty = (gtdf.style
-                             .set_properties(subset=["bin", "macro", "micro"],
-                                             **{'background-color': '#f2f2f2'})
-                             .set_table_styles([
-                                 {'selector': '', 'props': [('border-collapse', 'collapse')]},
-                                 {'selector': 'th.col_heading', 'props': [('text-align', 'center'),
-                                                                          ('padding', '4px 12px')]},
-                                 {'selector': 'th.row_heading', 'props': [('text-align', 'left'),
-                                                                          ('padding', '4px 12px')]},
-                                 {'selector': 'td', 'props': [('text-align', 'center'),
-                                                              ('padding', '4px 12px'),
-                                                              ('border-bottom', '1px solid #f0f0f0')]},
-                             ]))
+                    _gsl.append((period_disp(period),
+                                 _gf if period == "Total" else _gf[_gf['period'] == period],
+                                 _gp if period == "Total" else _gp[_gp['period'] == period],
+                                 puo))
+                gtdf = standard_table(_gsl, "Period")
+                if gtdf is not None:
+                    gtsty = report_style(gtdf)
                     render_table_with_copy(gtsty, gtdf, f"genre_period_{gi}")
+
+                st.markdown(f'<div class="charttitle">{genre} — LDI per text '
+                            f'(Old → Neo)</div>', unsafe_allow_html=True)
 
                 # Per-TEXT aggregate (one node per file) for this genre + monogram choice.
                 bf = with_active(bframe[bframe['genre'] == genre], mono)
@@ -3140,96 +4031,210 @@ elif st.session_state['annotations']:
                     continue
                 gstats['seq_index'] = range(len(gstats))
 
-                fig_genre = go.Figure()
-                # One connected spline, but each period's segment takes that period's colour.
-                # A segment is bridged into the first point of the next period so there are no gaps.
-                periods_here = [p for p in PERIOD_ORDER if (gstats['period'] == p).any()]
-                for i, period in enumerate(periods_here):
-                    sub = gstats[gstats['period'] == period]
-                    xs, ys = sub['seq_index'].tolist(), sub[metric].tolist()
-                    lx, ly = list(xs), list(ys)
-                    if i + 1 < len(periods_here):              # bridge to next period
-                        nxt = gstats[gstats['period'] == periods_here[i + 1]].iloc[0]
-                        lx.append(nxt['seq_index']); ly.append(nxt[metric])
-                    fig_genre.add_trace(go.Scatter(
-                        x=lx, y=ly, mode='lines',
-                        line=dict(width=2.5, shape='spline', smoothing=1.0, color=color_map.get(period, '#444')),
-                        hoverinfo='skip', showlegend=False
-                    ))
-                    fig_genre.add_trace(go.Scatter(
-                        x=xs, y=ys, mode='markers',
-                        marker=dict(size=12, color=color_map.get(period, '#444'),
-                                    line=dict(width=1, color='white')),
-                        name=period_disp(period),
-                        customdata=sub[['filename', 'bin', 'macro', 'micro', 'n']].to_numpy(),
-                        hovertemplate="<b>%{customdata[0]}</b><br>" + period + "<br>"
-                                      + metric + " = %{y:.3f}<br>"
-                                      "bin %{customdata[1]:.2f} · macro %{customdata[2]:.2f} · micro %{customdata[3]:.2f}"
-                                      "<br>omens = %{customdata[4]}"
-                                      "<br><i>↪ click to open in Text view</i><extra></extra>"
-                    ))
+                def _chart(metric, gstats=gstats, genre=genre):
+                    fig_genre = go.Figure()
+                    # One connected spline, but each period's segment takes that period's colour.
+                    # A segment is bridged into the first point of the next period so there are no gaps.
+                    periods_here = [p for p in PERIOD_ORDER if (gstats['period'] == p).any()]
+                    for i, period in enumerate(periods_here):
+                        sub = gstats[gstats['period'] == period]
+                        xs, ys = sub['seq_index'].tolist(), sub[metric].tolist()
+                        lx, ly = list(xs), list(ys)
+                        if i + 1 < len(periods_here):              # bridge to next period
+                            nxt = gstats[gstats['period'] == periods_here[i + 1]].iloc[0]
+                            lx.append(nxt['seq_index']); ly.append(nxt[metric])
+                        fig_genre.add_trace(go.Scatter(
+                            x=lx, y=ly, mode='lines',
+                            line=dict(width=2.5, shape='spline', smoothing=1.0, color=color_map.get(period, '#444')),
+                            hoverinfo='skip', showlegend=False
+                        ))
+                        fig_genre.add_trace(go.Scatter(
+                            x=xs, y=ys, mode='markers',
+                            marker=dict(size=12, color=color_map.get(period, '#444'),
+                                        line=dict(width=1, color='white')),
+                            name=period_disp(period),
+                            customdata=sub[['filename', 'bin', 'macro', 'micro', 'n']].to_numpy(),
+                            hovertemplate="<b>%{customdata[0]}</b><br>" + period_disp(period) + "<br>"
+                                          + metric + " = %{y:.3f}<br>"
+                                          "bin %{customdata[1]:.2f} · macro %{customdata[2]:.2f} · micro %{customdata[3]:.2f}"
+                                          "<br>omens = %{customdata[4]}"
+                                          "<br><i>↪ click to open in Text view</i><extra></extra>"
+                        ))
 
-                # Per-period region: highest / whole / lowest LDI labelled at the top.
-                # "whole" is the pooled LDI for that period (not the mean of the dots).
-                midx = {"bin": 0, "macro": 1, "micro": 2}[metric]
-                for period in periods_here:
-                    sub = gstats[gstats['period'] == period]
-                    xs, ys = sub['seq_index'], sub[metric]
-                    x0, x1 = float(xs.min()), float(xs.max())
-                    col = color_map.get(period, '#444')
-                    whole = trio(df[(df['genre'] == genre) & (df['period'] == period)], mono)[midx]
-                    fig_genre.add_annotation(
-                        x=(x0 + x1) / 2, y=1.02, xref='x', yref='y',
-                        text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
-                        showarrow=False, yanchor='bottom', align='center',
-                        font=dict(size=11, color=col),
+                    # Per-period region: highest / whole / lowest LDI labelled at the top.
+                    # "whole" is the pooled LDI for that period (not the mean of the dots).
+                    midx = {"bin": 0, "macro": 1, "micro": 2}[metric]
+                    for period in periods_here:
+                        sub = gstats[gstats['period'] == period]
+                        xs, ys = sub['seq_index'], sub[metric]
+                        x0, x1 = float(xs.min()), float(xs.max())
+                        col = color_map.get(period, '#444')
+                        whole = trio(df[(df['genre'] == genre) & (df['period'] == period)], mono, nopart)[midx]
+                        fig_genre.add_annotation(
+                            x=(x0 + x1) / 2, y=1.02, xref='x', yref='y',
+                            text=f"highest {ys.max():.2f}<br>whole {whole:.2f}<br>lowest {ys.min():.2f}",
+                            showarrow=False, yanchor='bottom', align='center',
+                            font=dict(size=11, color=col),
+                        )
+
+                    fig_genre.update_layout(
+                        margin=dict(t=14),   # no chart title to make room for
+                        template="simple_white", font_family="Arial",
+                        xaxis_title="Texts (chronological)", yaxis_title=f"LDI — {metric}",
+                        yaxis=dict(range=[-0.05, 1.30], tickmode='array',
+                                   tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
+                        xaxis=dict(showticklabels=False), height=480,
+                        legend_title_text="Period", hovermode="closest"
                     )
+                    event = st.plotly_chart(fig_genre, use_container_width=True,
+                                            key=f"chart_{genre}", on_select="rerun")
 
-                fig_genre.update_layout(
-                    title=f"{genre} — {metric} LDI per text (Old → Neo)",
-                    template="simple_white", font_family="Arial",
-                    xaxis_title="Texts (chronological)", yaxis_title=f"LDI — {metric}",
-                    yaxis=dict(range=[-0.05, 1.30], tickmode='array',
-                               tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
-                    xaxis=dict(showticklabels=False), height=480,
-                    legend_title_text="Period", hovermode="closest"
-                )
-                event = st.plotly_chart(fig_genre, use_container_width=True,
-                                        key=f"chart_{genre}", on_select="rerun")
-
-                # Clicking a node jumps to the Text view with that text open. The
-                # filename rides in customdata[0]; guard against the selection
-                # re-firing when the user navigates back to this chart.
-                clicked = None
-                try:
-                    for pt in event["selection"]["points"]:
-                        cd = pt.get("customdata")
-                        if cd:
-                            clicked = cd[0]
-                            break
-                except (KeyError, TypeError):
+                    # Clicking a node jumps to the Text view with that text open. The
+                    # filename rides in customdata[0]; guard against the selection
+                    # re-firing when the user navigates back to this chart.
                     clicked = None
+                    try:
+                        for pt in event["selection"]["points"]:
+                            cd = pt.get("customdata")
+                            if cd:
+                                clicked = cd[0]
+                                break
+                    except (KeyError, TypeError):
+                        clicked = None
 
-                if clicked and st.session_state.get(f"lastsel_{genre}") != clicked:
-                    st.session_state[f"lastsel_{genre}"] = clicked
-                    st.session_state['goto_nav'] = "Text"
-                    st.session_state['goto_file'] = clicked
-                    st.rerun()
+                    if clicked and st.session_state.get(f"lastsel_{genre}") != clicked:
+                        st.session_state[f"lastsel_{genre}"] = clicked
+                        st.session_state['goto_nav'] = "LDI"
+                        st.session_state['goto_sub'] = "Text"
+                        st.session_state['goto_file'] = clicked
+                        st.rerun()
+                metric_block(f"genre_{genre}", _chart)
 
-    # --- PAGE 3: Text ---
-    if page == "Text":
+    # --- LDI ▸ Text ---
+    if page == "LDI" and ldi_view == "Text":
         def _cval(row, k):
             v = row.get(k)
             return v if isinstance(v, str) and v.strip() else "-"
 
-        # A Genre-node click jumps straight to a corpus text: force the Corpus set.
-        if st.session_state.get('goto_file'):
-            st.session_state['text_set'] = "Corpus"
+        def _toggle_period(p, ns='tree'):
+            # a set, not a single value: opening one folder must not close
+            # the others, the way a file explorer behaves
+            _s = set(st.session_state.get(ns + '_open_p') or ())
+            st.session_state[ns + '_open_p'] = _s ^ {p}
 
-        # One tab for every text: the main corpus, the comparanda, and the KAL 5
-        # supplement (the last two are held out of the LDI counts but browsable here).
-        text_set = st.radio("Text set", ["Corpus", "Comparanda", "Supplementary (KAL 5)"],
-                            horizontal=True, key="text_set")
+        def _toggle_disc(p, g, ns='tree'):
+            _s = set(st.session_state.get(ns + '_open_g') or ())
+            st.session_state[ns + '_open_g'] = _s ^ {(p, g)}
+
+        def _toggle_sub(key, ns='tree'):
+            _s = set(st.session_state.get(ns + '_open_s') or ())
+            st.session_state[ns + '_open_s'] = _s ^ {key}
+
+        @st.fragment
+        def _tablet_tree(_df, _cur_file, _n_all, _fkey='text_file', _ns='tree'):
+            """Data ▸ period ▸ discipline ▸ tablet.
+
+            A fragment, so opening or closing a folder reruns this block alone
+            and leaves the report table and chart beside it untouched. The
+            folder toggles run as on_click callbacks — state is updated before
+            the rerun renders, so no explicit st.rerun is needed and the labels
+            are never a click out of date. Choosing a tablet is the one action
+            that changes the panel, so it asks for a full rerun."""
+            # Open state belongs to the tree alone — never derived from the
+            # open tablet, or its folders could not be closed. Sets, so any
+            # number of branches can stay open at once.
+            _op = set(st.session_state.get(_ns + '_open_p') or ())
+            _og = set(st.session_state.get(_ns + '_open_g') or ())
+
+            _os = set(st.session_state.get(_ns + '_open_s') or ())
+
+            def _branch(_frame, _prefix, _depth):
+                """Folders below a discipline, then the tablets that sit there.
+
+                extispicy has liver/lung and, under liver, martu, padanu and
+                the rest; astrology has EAE20, EAE55 … A tablet appears at
+                whatever depth its file does."""
+                _sp = (_frame.groupby('filename')['subpath'].first()
+                       if 'subpath' in _frame.columns
+                       else pd.Series(dtype=object))
+                _folders, _here = {}, []
+                for _f, _s in _sp.items():
+                    _parts = [x for x in str(_s or '').split('/') if x]
+                    if len(_parts) > _depth:
+                        _folders.setdefault(_parts[_depth], []).append(_f)
+                    else:
+                        _here.append(_f)
+                _pad = 0.09 * (_depth + 2)
+                for _name in sorted(_folders):
+                    _key = _prefix + (_name,)
+                    _i, _r = st.columns([_pad, 1 - _pad])
+                    _r.button(f"{'▾' if _key in _os else '▸'} {_name}"
+                              f"  ({len(_folders[_name])})",
+                              key=_ns + "_s_" + "|".join(_key),
+                              use_container_width=True,
+                              on_click=_toggle_sub, args=(_key, _ns))
+                    if _key in _os:
+                        _branch(_frame[_frame['filename'].isin(_folders[_name])],
+                                _key, _depth + 1)
+                for _fn in sorted(_here):
+                    _i, _r = st.columns([_pad, 1 - _pad])
+                    if _r.button(_fn.rsplit('.txt', 1)[0],
+                                 key=_ns + "_f_" + "|".join(_prefix) + "|" + _fn,
+                                 use_container_width=True,
+                                 type="primary" if _fn == _cur_file else "secondary"):
+                        st.session_state[_fkey] = _fn
+                        st.session_state[_ns + '_open_p'] = _op | {_prefix[0]}
+                        st.session_state[_ns + '_open_g'] = _og | {_prefix[:2]}
+                        st.session_state[_ns + '_open_s'] = _os | {
+                            _prefix[:_i] for _i in range(3, len(_prefix) + 1)}
+                        st.rerun()          # whole app: the open text changed
+
+            st.markdown(f"**Data** · {_n_all} texts")
+            for _p in PERIOD_ORDER:
+                _pdf = _df[_df['period'] == _p]
+                if _pdf.empty:
+                    continue
+                st.button(f"{'▾' if _p in _op else '▸'} {period_disp(_p)}"
+                          f"  ({_pdf['filename'].nunique()})",
+                          key=f"{_ns}_p_{_p}", use_container_width=True,
+                          on_click=_toggle_period, args=(_p, _ns))
+                if _p not in _op:
+                    continue
+                for _g in sorted(_pdf['genre'].dropna().unique()):
+                    _gdf = _pdf[_pdf['genre'] == _g]
+                    _i1, _r1 = st.columns([0.09, 0.91])
+                    _r1.button(f"{'▾' if (_p, _g) in _og else '▸'} {_g}"
+                               f"  ({_gdf['filename'].nunique()})",
+                               key=f"{_ns}_g_{_p}_{_g}", use_container_width=True,
+                               on_click=_toggle_disc, args=(_p, _g, _ns))
+                    if (_p, _g) not in _og:
+                        continue
+                    _branch(_gdf, (_p, _g), 0)
+
+
+        # The three sets, as tabs over the tree. "Supplementary (KAL 5)" is the
+        # stored value but too long for the column, so the tab reads "KAL 5".
+        _SET_TABS = {"Corpus": "Corpus", "Comparanda": "Comparanda",
+                     "KAL 5": "Supplementary (KAL 5)"}
+        # Read the picker itself, not the value it wrote last run: the widget is
+        # rendered further down (inside the tree column), so a stored value would
+        # always be one interaction behind.
+        text_set = _SET_TABS.get(st.session_state.get('text_set_pick') or "Corpus", "Corpus")
+        if st.session_state.get('goto_file'):
+            # A Genre-node click jumps straight to a corpus text.
+            st.session_state['text_set_pick'] = "Corpus"
+            text_set = "Corpus"
+
+        def _set_tabs():
+            """Render the picker; the branch below reads its value on the next run."""
+            # `default` only on the first run: passing it once the key exists in
+            # session state makes Streamlit warn. Without it the control renders
+            # with no segment marked active until the first click.
+            _kw = {} if 'text_set_pick' in st.session_state else {'default': "Corpus"}
+            _pick = st.segmented_control(
+                "Text set", list(_SET_TABS), key="text_set_pick",
+                label_visibility="collapsed", **_kw) or "Corpus"
+            st.session_state['text_set'] = _SET_TABS[_pick]
 
         if text_set == "Corpus":
             # Honour a "jump to this text" request from a Genre-node click: pre-set the
@@ -3241,91 +4246,126 @@ elif st.session_state['annotations']:
                     st.session_state['text_period'] = grow.iloc[0]['period']
                     st.session_state['text_genre'] = grow.iloc[0]['genre']
                     st.session_state['text_file'] = goto
+                    st.session_state['tree_open_p'] = (
+                        set(st.session_state.get('tree_open_p') or ())
+                        | {grow.iloc[0]['period']})
+                    st.session_state['tree_open_g'] = (
+                        set(st.session_state.get('tree_open_g') or ())
+                        | {(grow.iloc[0]['period'], grow.iloc[0]['genre'])})
 
-            # In-tab selection: Period → Genre → Text. Keyed + guarded so dependent
-            # option lists never carry a stale value into a selectbox (which would error).
-            sel_cols = st.columns(3)
+            # Tablet explorer, left of the text: discipline ▸ period ▸ tablet.
+            # Only the open discipline lists its texts, so the widget count stays
+            # with the branch being read rather than the whole corpus.
+            _all_files = sorted(df['filename'].unique())
+            # Nothing is opened on the reader's behalf: an arbitrary first tablet
+            # is not a choice, and picking one would also force its folder open.
+            if st.session_state.get('text_file') not in _all_files:
+                st.session_state['text_file'] = None
+            _cur = st.session_state.get('text_file')
+            _crow = df[df['filename'] == _cur] if _cur else df.iloc[0:0]
+            if not _crow.empty:      # keep period/discipline consistent with the open text
+                st.session_state['text_period'] = _crow.iloc[0]['period']
+                st.session_state['text_genre'] = _crow.iloc[0]['genre']
 
-            available_periods = sorted(df['period'].unique(),
-                                       key=lambda x: PERIOD_ORDER.index(x) if x in PERIOD_ORDER else 99)
-            if st.session_state.get('text_period') not in available_periods:
-                st.session_state['text_period'] = available_periods[0]
-            selected_period = sel_cols[0].selectbox("Period", available_periods, key='text_period')
+            _tree, _main = st.columns([2.6, 7.4])
+            with _tree:
+                _set_tabs()
+                with st.container(key="tabtree"):
+                    _tablet_tree(df, _cur, len(_all_files))
 
+            selected_period = st.session_state.get('text_period')
+            selected_genre = st.session_state.get('text_genre')
+            selected_file = st.session_state.get('text_file')
             period_df = df[df['period'] == selected_period]
-            available_genres = sorted(period_df['genre'].dropna().unique())
-            if st.session_state.get('text_genre') not in available_genres:
-                st.session_state['text_genre'] = available_genres[0] if available_genres else None
-            selected_genre = sel_cols[1].selectbox("Genre", available_genres, key='text_genre')
-
             genre_df = period_df[period_df['genre'] == selected_genre]
-            period_files = sorted(genre_df['filename'].unique())
-            if st.session_state.get('text_file') not in period_files:
-                st.session_state['text_file'] = period_files[0] if period_files else None
-            selected_file = sel_cols[2].selectbox("Text", period_files, key='text_file')
 
-            filtered_df = genre_df[genre_df['filename'] == selected_file]
-            if not filtered_df.empty:
-                first_row = filtered_df.iloc[0]
-                _h1, _h2 = st.columns([1, 3], vertical_alignment="center")
-                _h1.subheader(selected_file.rsplit(".txt", 1)[0])   # the text/tablet number
-                _h2.markdown(LEGEND_HTML, unsafe_allow_html=True)
-                meta = [f"**Period:** {first_row.get('period', '-')}",
-                        f"**Genre:** {first_row.get('genre', '-')}",
-                        f"**Provenance:** {first_row.get('provenance', '-')}",
-                        f"**Counting:** {counting_label(first_row.get('counting'))}"]
-                meta += biblio_and_ebl_lines(first_row)
-                st.markdown("  \n".join(meta), unsafe_allow_html=True)
+            with _main:
+                filtered_df = (genre_df[genre_df['filename'] == selected_file]
+                               if selected_file else genre_df.iloc[0:0])
+                if selected_file is None:
+                    st.info("Select a tablet in the tree on the left to see its "
+                            "transliteration, its report and its per-omen curve.")
+                if not filtered_df.empty:
+                    first_row = filtered_df.iloc[0]
+                    _h1, _h2 = st.columns([1, 3], vertical_alignment="center")
+                    _h1.subheader(selected_file.rsplit(".txt", 1)[0])   # the text/tablet number
+                    _h2.markdown(LEGEND_HTML, unsafe_allow_html=True)
+                    # the tablet's own period (Middle Assyrian, Late Babylonian …),
+                    # not the Old/Middle/Neo bucket the charts group it into
+                    meta = [f"**Period:** {first_row.get('period_raw') or first_row.get('period', '-')}",
+                            f"**Discipline:** {first_row.get('genre', '-')}",
+                            f"**Provenance:** {first_row.get('provenance', '-')}",
+                            f"**Counting:** {counting_label(first_row.get('counting'))}"]
+                    meta += biblio_and_ebl_lines(first_row)
+                    st.markdown("  \n".join(meta), unsafe_allow_html=True)
 
-                if st.button("✏️ Edit text", key="edit_btn_text"):
-                    edit_text_dialog(selected_file)
+                    if st.button("✏️ Edit text", key="edit_btn_text"):
+                        edit_text_dialog(selected_file)
 
-                _pf = FRAMES[True]['df']
-                filtered_pres = _pf[_pf['filename'] == selected_file]
-                render_text_block(filtered_df, filtered_pres, selected_period, selected_file, "text")
+                    _pf = FRAMES[True]['df']
+                    filtered_pres = _pf[_pf['filename'] == selected_file]
+                    render_text_block(filtered_df, filtered_pres, selected_period, selected_file, "text")
 
         else:
             # Held-out sets: comparanda (data/_comparanda) or the KAL 5 supplement (data/kal5).
             if text_set == "Comparanda":
                 pool, pkey = FRAMES[False]['comp'], 'comp'
-                st.caption("Comparison texts kept **out** of the main corpus (non-Akkadian parallels "
-                           "or otherwise excluded). Their LDI reflects the graphic convention, not an "
-                           "Akkadian logogram-vs-syllabic split — read the per-text note with care.")
+                _cap = ("Comparison texts kept **out** of the main corpus (non-Akkadian parallels "
+                        "or otherwise excluded). Their LDI reflects the graphic convention, not an "
+                        "Akkadian logogram-vs-syllabic split — read the per-text note with care.")
                 empty_msg = "No comparanda found in data/_comparanda."
             else:
                 pool, pkey = FRAMES[False]['supp'], 'supp'
-                st.caption("Supplementary witnesses held **out** of the main LDI counts — the further "
-                           "KAL 5 extispicy tablets (Heeßel 2012), auto-extracted from the printed "
-                           "edition and glyph-remapped, not hand-collated.")
+                _cap = ("Supplementary witnesses held **out** of the main LDI counts — the further "
+                        "KAL 5 extispicy tablets (Heeßel 2012), auto-extracted from the printed "
+                        "edition and glyph-remapped, not hand-collated.")
                 empty_msg = "No supplementary texts found in data/kal5."
 
+            _htree, _hmain = st.columns([2.6, 7.4])
+            with _htree:
+                _set_tabs()          # before the tree, and before any empty message
+            with _hmain:
+                st.caption(_cap)
+
             if pool.empty:
-                st.info(empty_msg)
+                with _hmain:
+                    st.info(empty_msg)
             else:
-                sel = st.selectbox("Text", sorted(pool['filename'].unique()), key=f"heldout_{pkey}")
-                hdf = pool[pool['filename'] == sel]
-                if not hdf.empty:
-                    hrow = hdf.iloc[0]
-                    _h1, _h2 = st.columns([1, 3], vertical_alignment="center")
-                    _h1.subheader(sel.rsplit(".txt", 1)[0])
-                    _h2.markdown(LEGEND_HTML, unsafe_allow_html=True)
-                    meta = [f"**Period:** {_cval(hrow, 'period')}",
-                            f"**Genre:** {_cval(hrow, 'genre')}",
-                            f"**Language:** {_cval(hrow, 'language')}",
-                            f"**Provenance:** {_cval(hrow, 'provenance')}",
-                            f"**Counting:** {counting_label(_cval(hrow, 'counting'))}"]
-                    meta += biblio_and_ebl_lines(hrow)
-                    note = _cval(hrow, 'note')
-                    if note != "-":
-                        meta.append(f"**Note:** {note}")
-                    st.markdown("  \n".join(meta), unsafe_allow_html=True)
+                _hfiles = sorted(pool['filename'].unique())
+                _hkey = f"heldout_{pkey}"
+                if st.session_state.get(_hkey) not in _hfiles:
+                    st.session_state[_hkey] = None
+                sel = st.session_state.get(_hkey)
+                with _htree:
+                    with st.container(key=f"tabtree_{pkey}"):
+                        _tablet_tree(pool, sel, len(_hfiles), _hkey, f"tree{pkey}")
+                with _hmain:
+                    if sel is None:
+                        st.info("Select a text in the tree on the left.")
+                hdf = pool[pool['filename'] == sel] if sel else pool.iloc[0:0]
+                with _hmain:
+                    if not hdf.empty:
+                        hrow = hdf.iloc[0]
+                        _h1, _h2 = st.columns([1, 3], vertical_alignment="center")
+                        _h1.subheader(sel.rsplit(".txt", 1)[0])
+                        _h2.markdown(LEGEND_HTML, unsafe_allow_html=True)
+                        meta = [f"**Period:** {_cval(hrow, 'period_raw') or _cval(hrow, 'period')}",
+                                f"**Discipline:** {_cval(hrow, 'genre')}",
+                                f"**Language:** {_cval(hrow, 'language')}",
+                                f"**Provenance:** {_cval(hrow, 'provenance')}",
+                                f"**Counting:** {counting_label(_cval(hrow, 'counting'))}"]
+                        meta += biblio_and_ebl_lines(hrow)
+                        note = _cval(hrow, 'note')
+                        if note != "-":
+                            meta.append(f"**Note:** {note}")
+                        st.markdown("  \n".join(meta), unsafe_allow_html=True)
 
-                    if st.button("✏️ Edit text", key=f"edit_btn_{pkey}"):
-                        edit_text_dialog(sel)
+                        if st.button("✏️ Edit text", key=f"edit_btn_{pkey}"):
+                            edit_text_dialog(sel)
 
-                    _cp = FRAMES[True][pkey]
-                    hdf_pres = _cp[_cp['filename'] == sel] if not _cp.empty else hdf
-                    render_text_block(hdf, hdf_pres, hrow.get('period'), sel, pkey)
+                        _cp = FRAMES[True][pkey]
+                        hdf_pres = _cp[_cp['filename'] == sel] if not _cp.empty else hdf
+                        render_text_block(hdf, hdf_pres, hrow.get('period'), sel, pkey)
 
 else:
     st.info("Upload a text file or load sample data to begin.")

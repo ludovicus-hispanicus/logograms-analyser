@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Babylonian
 provenance: Emar (Meskene, Syrian periphery; Late Bronze Age, Middle-period horizon)
 publication: Arnaud 1987, Emar VI/4 no. 700 (Msk 74107k). "Présages tirés des bœufs" — cattle omens (Šumma Ālu animal-section adjacent). Western-periphery witness cited by Koch 2015 §4.5.2.

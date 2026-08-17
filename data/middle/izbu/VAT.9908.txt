@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Assyrian
 provenance: Aššur (archive N1; Ass 2974a, findspot hE4II, Hof 6m östl. Cella)
 counting: line

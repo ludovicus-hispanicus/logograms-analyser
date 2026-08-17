@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Late Babylonian
 provenance: Sippar (Sippar Library 19/2182)
 counting: DIŠ

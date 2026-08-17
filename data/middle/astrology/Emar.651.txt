@@ -1,49 +1,81 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Middle Babylonian
 provenance: Emar (western periphery)
 recension: Western periphery
 counting: BE
-topic: lunar omens (horns, halo, colour)
+topic: lunar omens (horns, colour, halo, position)
 series: parallel to Enūma Anu Enlil 21 (Virolleaud, Sîn)
-publication: Arnaud 1987, Emar VI/4 no. 651 (Msk 731041+), Présages astrologiques Sîn version courte; LBA
-note: Hand-transcribed from Arnaud; lowercase Sumerograms converted to UPPERCASE per project convention; the moon's bare numeral 30 normalized to {d}30 (= Sîn, logographic) as elsewhere in the corpus. Well-preserved omens given; ambiguous tokens conservative-lowercase. Logograms uppercase, syllabic lowercase, {} det., [] restoration, x illegible. Not in eBL.
+publication: Arnaud 1987, Emar VI/4 no. 651, Présages astrologiques Sîn, version courte; LBA. COMPOSITE of four manuscripts — A. Msk 731041 (130 x 115 x 29); B. Msk 7470 + Msk 74206a (214 x 90 x 21); C. Msk 74204d (60 x 60) (+) Msk 74165h (40 x 49); D. Msk 7491h + Msk 7494h.
+related: no. 650 (Msk 74140c + Msk 74195b) is the LONG version of this same text; Arnaud's concordance gives 650:2-13 = 651:1-10, 650:26-28 = 651:9-11, 650:24 = 651:5, 650:29' = 651:16, 650:30'-31' = 651:20-21, 650:33'-37' = 651:58-62.
+coverage: COMPLETE. All 66 transliterated lines of Arnaud pp. 254-256 are given, using HIS line numbers.
+note: Hand-transcribed from Arnaud. He prints Sumerograms in lowercase roman and Akkadian syllabic in lowercase italic (French convention); Sumerograms are UPPERCASED here per project convention, and the syllabically written divine name iš₈-tár (ll. 59-60) is kept lowercase. The moon's bare numeral 30 is normalized to {d}30 (= Sîn, logographic) as elsewhere in the corpus — an editorial addition of the determinative only, with no effect on the count since determinatives are excluded. Arnaud's superscript collation ticks are rendered as "!". His tu₁₅.luₓ.lu is given as TU₁₅.U₁₈.LU (south wind) per corpus house style; his an.bir₈ (l. 19) is kept as printed rather than the corpus's AN.BIR₉. ba.ug₆ normalized to BA.UŠ₂. Line 26 is an indented separate line in the edition (not a typographic overflow) and is counted by Arnaud, so it is kept as its own line, marked ($___$); the flush-right overflows at ll. 22, 23, 31, 49 are NOT separate lines and are folded into their parent. counting is BE rather than line because every one of Arnaud's 66 lines opens with BE (preserved or restored) EXCEPT the two ($___$) runovers 26 and 66 — which the loader folds into their parent omen automatically, since the delimiter is tested at line start after bracket-stripping. This yields 64 omens over 66 lines, with an LDI identical to counting=line. Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, <> scribal omission, x illegible. Not in eBL (Msk excavation numbers return 404; the fragmentarium holds no Emar material).
+caveat: Lines 1-7 are the bare repeated opener [BE] 30 ina [na-an-mu-ri-šu with the apodosis wholly lost, and 63-66 are scraps. Restored [] material is counted in the default mode, so these lines contribute the formulaic protasis skeleton without their (potentially syllabic) apodoses; treat per-line figures for 1-7 and 60-66 as preservation artefacts.
 ---
 
-@obverse
-1. BE {d}30 SA₅-ma SI ZAG-šu KI.BI SI GÙB-šu AN.BI IGI
-2. BE {d}30 SA₅-ma SI GÙB.BI KI.BI SI ZAG.B[I AN.BI IGI x x UGU-sa iz-]za-az
-3. BE {d}30 SIG₇-ma SI ZAG.BI KI.BI SI GÙB.B[I AN.BI IGI KUR DINGIR.MEŠ-sa] a i-zi-bu-ši
-4. BE {d}30 SIG₇-ma SI GÙB.BI KI.BI SI ZAG.B[I AN.BI IGI] MU.3.KAM a i-zi-bu-ši
-5. BE {d}30 SI ZAG-šu AN IGI EBUR na-ap-ša KUR i-i[k-ka-al]
-6. BE {d}30 SI ZAG-šu KI IGI EBUR i-ṣi-ih-hi-ir
-7. BE {d}30 SI GÙB-šu AN IGI ba-la-ru ina KUR I.[GÁL]
-8. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.SI.SÁ GÍD.DA URI{ki} LÚ.KÚR-šu KI.MIN
-9. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.KUR.RA GÍD.DA LÚ.KÚR KUR i-da-ak-[ku-š]i
-10. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.MAR.TU GÍD.DA AN.BIR₉ GI KUR i-ge-eš
-11. BE {d}30 SI.MEŠ-šu AN IGI DINGIR.M[EŠ] zi-nu-tu ana KUR i-tu-ru-ni KUR TUŠ ne-eh-tas u-ša-a[b]
-12. BE {d}30 SI.MEŠ-šu ki-la-at-tu TÉŠ.BI KUR TUŠ ne-eh-tas u-ša-ab
-13. BE {d}30 SI.MEŠ-šu tar-ṣa nu-ku-ur-tu ina KUR I.GÁL u BE {d}30 SI.MEŠ-šu ka-ap-ṣa LUGAL KUR MAR.TU BA.UŠ₂
-14. BE {d}30 SI.MEŠ-šu ra-ap-pa-s[a LUG]AL-ka ina IGI DUMU BA.UŠ₂ u BE SI.MEŠ-šu qa-at-ta-na KUR DINGIR.MEŠ-sa i-zi-bu-ši
-15. BE {d}30 SI.MEŠ-šu GIM MURUB₄-šu ka-ab-ra KUR TUŠ ne-eh-tas u-ša-ab
-16. BE {d}30 SI.MEŠ-šu an.da DE₅-a ba-ar-tu ina KUR I.GÁL
-17. BE {d}30 SI.MEŠ-šu ki.da DE₅-a ÌR.MEŠ ana LUGAL-šu-nu nu-ku-ra-ti iš-ta-na-ap-p[a-r]u
-18. BE {d}30 SI ZAG-šu la-ri-a ir-ta-ši NUN ma-hi-re NU i-ra-aš-ši
-19. BE {d}30 SI GÙB-šu la-ri-a ir-ta-ši LÚ.<KÚR> ma-hi-re NU i-ra-aš-ši
-20. [BE] {d}30 ina SI ZAG-šu 1 MUL GUB AN.TA.LÙ GAR-an u BE {d}30 ina SI GÙB-šu 1 MUL GUB {d}NÈ.IRI₁₁.GAL [ik-]ka[l]
-21. [BE {d}3]0 ina SI ZAG-šu u GÙB-šu 2 MUL i-di ana IGI i-di GUB ina ITI šu-a-tu [AN.TA.LÙ GAR-an]
-22. [BE {d}30] ma-ga-al GAL DUMU LUGAL SIG₅ u BE {d}30 ma-ga-al ṣi-hi-ir HA.LAM D[I]
-23. [BE {d}30] un-nu-uš KUR i-ṣi-ih-hi-ir u BE {d}30 qa-ta-an KUR ul-ta-sur-ru
-24. [BE {d}30] AN u KI iz-za-ar-ru ha-la-aq KUR ka-li-ša-ma
-25. [BE {d}30 ina APIN.]DU₈.A AGA a-pi-ir LUGAL.MEŠ ša KUR ka-li-ma in-na-aṭ-ṭa-lu
-26. [BE {d}30 AGA el-]pi-ti a-pi-ir in.nu iš-ša-aq-qi-il
-27. [BE {d}30 AGA] {d}TIR.AN.NA a-pi-ir KUR HUL ŠÀ i-mar
-28. [BE {d}30 AG]A AN.TA u KI.TA a-pi-ir KUR TUŠ ne-eh-tas u-ša-ab
-29. BE {d}30 ina na-an-mu-ri-šu MUL ina ŠÀ-šu GUB AN.TA.LÙ GAR-an
-30. BE {d}30 ina na-an-mu-ri-šu TÙR la-mi KUR u-ta-ha-ar
-31. BE {d}30 TÙR la-mi U₄-mu ur-ru-up MU-šu na-me-e[r]
-32. BE {d}30 TÙR la-mi-ma 1 M[U]L ina ŠÀ-šu GUB MU-šu ur-ru-up ur-ru na-me-er
-33. BE {d}30 TÙR la-mi-ma ana TU₁₅.U₁₈.LU pa-ri-is ina ŠÀ U₄-mi šu-a-tu ša-mu-u i-za-nu-un
-34. BE {d}30 TÙR la-mi-ma ana TU₁₅.SI.SÁ pa-ri-is i-ka-al ša-me-e na-me-er U₄-mi
-35. [BE {d}30] TÙR la-mi-ma ana TU₁₅.KUR.RA pa-ri-is mu-ut i-sa-an-ni-ma ša-mu-u i-za-nu-un
-36. [BE {d}3]0 TÙR la-mi-ma ana TU₁₅.MAR.TU pa-ri-is mu-ut i-ta-ra-aṣ-ma bu-ul KUR i-ṭe₄-b[i]
+1. [BE] {d}30 ina [na-an-mu-ri-šu ...]
+2. [BE] {d}30 ina [na-an-mu-ri-šu ...]
+3. [BE] {d}30 ina [na-an-mu-ri-šu ...] DA?
+4. [BE] {d}30 ina [na-an-mu-ri-šu ...]
+5. [BE] {d}30 ina [na-an-mu-ri-šu x x x x x x x x x bu-lu]-ú ú-hal-la-aq
+6. [B]E {d}30 ina [na-an-mu-ri-šu ...]
+7. [B]E {d}30 ina n[a-an-mu-ri-šu ...]
+8. BE {d}30 SA₅-ma SI ZAG-šu KI.B[I] SI GÙB-š[ú AN.BI IGI ...]
+9. BE {d}30 SA₅-ma SI GÙB.BI KI.BI SI ZAG.B[I AN.BI IGI x x UGU-ša iz-]za-az
+10. BE {d}30 SIG₇-ma SI ZAG.BI KI.BI SI GÙB.B[I AN.BI IGI KUR DINGIR.MEŠ-ša] a i-zi-bu-ši
+11. BE {d}30 SIG₇-ma SI GÙB.BI KI.BI SI ZAG.B[I AN.BI IGI] MU.3.KÁM a i-zi-bu-ši
+12. BE {d}30 SI ZAG-šu AN IGI EBUR na-ap-ša KUR i-i[k-ka-al]
+13. BE {d}30 SI ZAG-šu KI IGI EBUR i-ṣi-ih-hi-ir
+14. BE {d}30 SI GÙB-šu AN IGI ba-la-ṭú ina KUR Ì.[GÁL]
+15. BE {d}30 SI GÙB-šu KI IGI mu-ta-nu ina KUR Ì.GÁL
+16. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.U₁₈.LU GÍD.DA RI.RI.GA URI-ma K[I x x x G]AR-an
+17. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.SI.SÁ GÍD.DA URI-ma KI LÚ.KÚR-šu KI.MIN
+18. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.KUR.RA GÍD.DA LÚ.KÚR KUR i-da-ak-[ku-š]i
+19. BE {d}30 ina na-an-mu-ri-šu SI-šu ana TU₁₅.MAR.TU GÍD.DA AN.BIR₈ GI KUR i-ge-eš
+20. BE {d}30 SI.MEŠ-šu AN IGI DINGIR.M[EŠ] zi-nu-tu₄ ana KUR i-tu-ru-ni₇ KUR TUŠ ne-eh-ta₅ ú-ša-ab
+21. BE {d}30 SI.MEŠ-šu ki-la-at-tu₄ TÉŠ.BI KUR TUŠ ne-eh-ta₅ ú-ša-ab
+22. BE {d}30 SI.MEŠ-šu tar-ṣa nu-ku-ur-tu₄ ina KUR Ì.GÁL u BE {d}30 SI.MEŠ-šu ka-ap-ṣa LUGAL KUR MAR.TU BA.UŠ₂
+23. BE {d}30 SI.MEŠ-šu ra-ap-pa-š[a LUG]AL-ka ina IGI DUMU BA.UŠ₂ u BE SI.MEŠ-šu qa-at-ta-na KUR DINGIR.MEŠ-ša i-zi-bu-ši
+24. BE {d}30 SI.MEŠ-šu GIM MURUB₄-šu ka-ab-ra KUR TUŠ ne-eh-ta₅ ú-ša-ab
+25. BE {d}30 SI.MEŠ-šu ne-en-mu-da-ma la ú-ta-ad-da-a u TU₁₅.MAR.TU i-sí-iq?
+26. ($___$) u ina {iti}APIN.DU₈.A ki-a-am-ma ši-ik-nu ka-ia-ma-nu
+27. BE {d}30 SI.MEŠ-šu AN.DA DE₅-a ba-ar-tu₄ ina KUR Ì.GÁL
+28. BE {d}30 SI.MEŠ-šu KI.DA DE₅-a ÌR.MEŠ ana LUGAL-šu-nu nu-ku-ra-ti iš-ta-na-ap-p[a-r]u
+29. BE {d}30 SI ZAG-šu la-ri-a ir-ta-ši NUN ma-hi-re NU i-ra-aš-ši
+30. BE {d}30 SI GÙB-šu! la-ri-a ir-ta-ši LÚ.<KÚR> ma-hi-re NU i-ra-aš-ši
+31. [BE] {d}30 ina SI ZAG-šu 1 MUL GUB AN.TA.LÙ GAR-an u BE {d}30 ina SI GÙB-šu 1 MUL GUB {d}NÈ.IRI₁₁.GAL [ik-]kal!
+32. [BE {d}3]0 ina SI ZAG-šu u GÙB-šu 2 MUL i-di ana IGI i-di GUB ina {iti}šu-a-tu [AN.TA.LÙ GAR-an]
+33. [BE x x] x GÙB šu-ta-hu-tu GUB ina U₄.30.KÁM AN.TA.LÙ 20 GAR-[an]
+34. [BE {d}30] ma-ga-al GAL! DUMU LUGAL SIG₅ u BE {d}30 ma-ga-al ṣi-hi-ir HA.LAM DI[...]
+35. [BE {d}30] un-nu-us KUR i-ṣi-ih-hi-ir u BE {d}30 qa-ta-an KUR ul-ta-šur-rù
+36. [BE {d}30] AN u KI iz-za-ar-ru ha-la-aq KUR ka-li-ša-ma
+37. [BE {d}30 ina APIN.]DU₈.A AGA a-pí-ir LUGAL.MEŠ ša KUR ka-li-ma in-na-aṭ-ṭa-lu
+38. [BE {d}30 AGA el-]pí-ti a-pí-ir IN.NU iš-ša-aq-qí-il
+39. [BE {d}30 AGA] {d}TIR.AN.NA a-pí-ir KUR HUL ŠÀ i-mar
+40. [BE {d}30 AG]A AN.TA u KI.TA a-pí-ir KUR TUŠ ne-eh-ta₅ ú-ša-ab
+41. [BE AG]A šu-ta-ás-hu-ú a-pí-ir zu-un-nu šu-tar-ku šu-še-tu₄ i-ta-ha-ma
+42. BE {d}30 ina na-an-mu-ri-šu MUL ina ŠÀ-šu GUB AN.TA.LÙ GAR-an
+43. BE {d}30 ina na-an-mu-ri-šu TÙR la-mi KUR ú-ta-ha-ar
+44. BE {d}30 TÙR la-mi U₄-mu ur-ru-up MU-šu na-me-e[r]
+45. BE {d}30 TÙR la-mi-ma 1 M[U]L ina ŠÀ-šu GUB MU-šu ur-ru-up ur-ru na-me-er
+46. BE {d}30 TÙR la-mi-ma ina ŠÀ-šu MUL wa-ṣú-ú ka-ia-ma-<nu> DUMU DAM NU TUKU
+47. BE {d}30 TÙR la-mi-ma ana TU₁₅.U₁₈.LU pa-ri-is ina ŠÀ U₄-mi šu-a-tu ša-mu-ú i-za-nu-un
+48. BE {d}30 TÙR la-mi-ma ana TU₁₅.SI.SÁ pa-ri-is i-ka-al ša-me-e na-me-er U₄-mi
+49. [BE {d}30] TÙR la-mi-ma ana TU₁₅.KUR.RA pa-ri-is mu-ut < > i-ša-an-ni-ma ša-mu-ú i-za-nu-un
+50. [BE {d}3]0 TÙR la-mi-ma ana TU₁₅.MAR.TU pa-ri-is mu-ut < > i-ta-ra-aṣ-ma bu-ul KUR i-ṭe₄-bi
+51. [BE {d}30] ina ŠÀ TÙR me-eh!-re-et ṣi-it {d}UTU MUL wa-ṣú-ú KUR in-ni-eš-ši
+52. [BE] ina ṣi-bi-it TÙR {d}30 GUB ina MURUB₄-si-šu MUL GUB LUGAL ina wa-ṣi-šu i-ša-la-lu-šu
+53. BE ina ŠÀ TÙR pí-ir-su ana 2 pa-ri-is ti-bu-ut TU₁₅.SI.SÁ
+54. BE ina ŠÀ TÙR pí-ir-su ana 3 pa-ri-is ti-bu-ut TU₁₅.U₁₈.LU
+55. BE ina ŠÀ TÙR pí-ir-su a[na a]r-[b]a-a pa-ri-is ti-bu-ut TU₁₅.KUR.RA
+56. BE ina ŠÀ TÙR p[í]-i[r-su x x] pa-ri-is ti-bu-ut TU₁₅.MAR.TU
+57. BE ina ŠÀ {d}30 [x x x x LUGAL kab]-tu-tu-šu i-ba-ru-šu
+58. BE {d}30 MUL [x x x x LU]GAL BE-su i-ka-am-mu
+59. BE {d}iš₈-tár MUL [x x x x x x LUGA]L a-ba-šu a-na ba-ar-ti iš-te-ni-i
+60. BE {d}iš₈-tár [x x x x x x x NIGI]N-mi AN.TA.LÙ
+61. BE {d}30 ina x [x x x x x x x x] ú-ul ma-du-te! ú-ṣi AN.TA.LÙ
+62. BE {d}30 ina [x x x x x x x ina IT]I šu-a-tu mi-lu₄ i-la-kám
+63. BE ta[...]
+64. BE ina x[...]
+65. BE ina x[...]
+66. ($___$) [ina {iti}S]IG₄[...]

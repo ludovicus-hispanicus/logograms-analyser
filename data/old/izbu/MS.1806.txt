@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Late Old Babylonian
 provenance: Tigunanum (CUSAS 18 no. 20)
 publication: George 2013, CUSAS 18 no. 20 = MS 1806

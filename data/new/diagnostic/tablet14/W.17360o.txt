@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Neo Babylonian
 provenance: Uruk (Warka; W.17360o)
 recension: canonical Sakikkû Tablet 14, manuscript K (Schmidtchen 2021 BAM 13)

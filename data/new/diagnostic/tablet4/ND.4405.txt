@@ -1,5 +1,5 @@
 ---
-genre: diagnostic omens
+discipline: diagnostic omens
 period: Neo Babylonian
 provenance: Kalḫu (Nimrud); ND 4405/35 (Schmidtchen 2021 Tafel 4, ms C)
 recension: canonical Sakikkû Tablet 4, manuscript C (Schmidtchen 2021 BAM 13)

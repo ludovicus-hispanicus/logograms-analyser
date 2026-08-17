@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Old Babylonian
 provenance: unknown (purchased; southern Babylonia)
 publication: YOS 10 12 (Goetze 1947); ed. Leichty TCS 4 (Old Babylonian Version); small OB teratomantic tablet

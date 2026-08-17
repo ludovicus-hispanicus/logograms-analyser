@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Old Babylonian
 provenance: Southern Mesopotamia (CUSAS 18 no. 16)
 publication: George 2013, CUSAS 18 no. 16 = MS 3104, obverse (domestic / ṣubātum-garment / animal-sighting / "Hand of god" diagnostic omens). Šumma Ālu forerunner.

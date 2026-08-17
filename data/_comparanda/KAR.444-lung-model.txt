@@ -1,6 +1,6 @@
 ---
 exclude: true   # COMPARANDUM — extispicy (lung) label-model, kept out of the genre LDI
-genre: extispicy model
+discipline: extispicy model
 period: Middle Assyrian
 provenance: Assur
 counting: line

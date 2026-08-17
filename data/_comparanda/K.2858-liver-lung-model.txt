@@ -1,6 +1,6 @@
 ---
 exclude: true   # COMPARANDUM — extispicy (liver+lung) orientation model, kept out of the genre LDI
-genre: extispicy model
+discipline: extispicy model
 period: Neo-Assyrian
 provenance: Nineveh (Kuyunjik)
 counting: line

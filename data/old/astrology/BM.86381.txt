@@ -1,5 +1,5 @@
 ---
-genre: astrological omens
+discipline: astrological omens
 period: Old Babylonian
 provenance: Babylon (BM collection; eBL)
 counting: BAD

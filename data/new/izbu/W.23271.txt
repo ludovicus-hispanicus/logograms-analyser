@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Late Babylonian
 provenance: Uruk (Warka; W.23271)
 publication: eBL fragment W.23271; De Zorzi 2014 (HANE/M 15) canonical Summa izbu

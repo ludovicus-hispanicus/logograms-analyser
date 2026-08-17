@@ -1,5 +1,5 @@
 ---
-genre: extispicy omens
+discipline: extispicy omens
 period: Old Babylonian
 provenance: unknown
 tradition: Babylonian

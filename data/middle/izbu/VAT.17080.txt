@@ -1,5 +1,5 @@
 ---
-genre: izbu omens
+discipline: izbu omens
 period: Middle Babylonian
 provenance: Babylon (Merkes, library M4; late Kassite period)
 publication: VAT 17080 (TCS 4, 130-143); De Zorzi 2014 ms E of canonical Tablet 8

@@ -1,5 +1,5 @@
 ---
-genre: terrestrial omens
+discipline: terrestrial omens
 period: Middle Assyrian
 provenance: Assur (Ass 2958)
 publication: Heeßel 2007 (KAL 1) no. 17 = VAT 9793 (KAR 393, = B). Middle Assyrian; fragmentary duplicate of Nr. 16 (VAT 10167).
