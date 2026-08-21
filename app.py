@@ -31,7 +31,11 @@ import yaml
 # mixed, outlined where spelt out — the corpus composition, cell for cell. The
 # tab icon and the header use the reduced nine-cell mark, because the twenty-five
 # of the full grid merge into texture below about 48 px.
-_LOGO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "logo")
+# Anchor bundled files to this file, not the working directory: the frozen and
+# stlite builds do not necessarily run from the app folder, and a CWD-relative
+# path there silently fails the os.path.exists guards below.
+_APP_DIR = os.path.dirname(os.path.abspath(__file__))
+_LOGO_DIR = os.path.join(_APP_DIR, "assets", "logo")
 
 def _logo_data_uri(name):
     """The mark as a data URI, so it travels with the page (stlite included)."""
@@ -3135,7 +3139,7 @@ if page == "Introduction":
         "well-preserved, genuinely logographic tablet — and a fifth of its words are "
         "mixed writings."
     )
-    _fig = os.path.join("assets", "trend-vat-10418-bin.png")
+    _fig = os.path.join(_APP_DIR, "assets", "trend-vat-10418-bin.png")
     if os.path.exists(_fig):     # not staged in every build; the text stands alone
         st.image(_fig,
                  caption="VAT 10418, bin LDI per omen — the same chart the Text view draws: "
@@ -3888,8 +3892,8 @@ elif page == "Sources":
         # --- Supplementary data (downloads) ---
         st.divider()
         st.markdown("#### Supplementary data")
-        _cat_md = os.path.join("docs", "catalogue-of-sources.md")
-        _kal5_csv = os.path.join("docs", "kal5-ldi-by-tradition.csv")
+        _cat_md = os.path.join(_APP_DIR, "docs", "catalogue-of-sources.md")
+        _kal5_csv = os.path.join(_APP_DIR, "docs", "kal5-ldi-by-tradition.csv")
         d1, d2, d3 = st.columns(3)
         d1.download_button("⬇ This table (CSV)",
                            data=view[cols].to_csv(index=False).encode("utf-8"),

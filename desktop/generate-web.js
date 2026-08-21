@@ -37,6 +37,18 @@ copyDir(path.join(repoRoot, "data"), path.join(appFiles, "data"));
 // falls back to the emoji. Small: a handful of SVGs plus two PNGs.
 copyDir(path.join(repoRoot, "assets", "logo"), path.join(appFiles, "assets", "logo"));
 
+// The one figure the Introduction embeds as a worked example. Never the whole of
+// assets/ (gigabytes of article figures) — just this file, as prepare-app.js does.
+fs.copyFileSync(path.join(repoRoot, "assets", "trend-vat-10418-bin.png"),
+                path.join(appFiles, "assets", "trend-vat-10418-bin.png"));
+
+// The two supplementary downloads offered on the Sources tab. Never docs/
+// wholesale: it holds the unpublished article.
+fs.mkdirSync(path.join(appFiles, "docs"), { recursive: true });
+for (const f of ["catalogue-of-sources.md", "kal5-ldi-by-tradition.csv"]) {
+  fs.copyFileSync(path.join(repoRoot, "docs", f), path.join(appFiles, "docs", f));
+}
+
 // Same icon again as a real static file at the site root. stlite takes several
 // seconds to boot, and set_page_config cannot run until Python does; this is
 // what the tab shows in the meantime.
