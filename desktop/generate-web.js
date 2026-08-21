@@ -32,6 +32,17 @@ function copyDir(src, dst) {
 }
 copyDir(path.join(repoRoot, "data"), path.join(appFiles, "data"));
 
+// The logo folder, so app.py finds the mark it inlines into the header and the
+// PNG it hands to st.set_page_config. Without it _MARK_URI is empty and the tab
+// falls back to the emoji. Small: a handful of SVGs plus two PNGs.
+copyDir(path.join(repoRoot, "assets", "logo"), path.join(appFiles, "assets", "logo"));
+
+// Same icon again as a real static file at the site root. stlite takes several
+// seconds to boot, and set_page_config cannot run until Python does; this is
+// what the tab shows in the meantime.
+fs.copyFileSync(path.join(repoRoot, "assets", "logo", "ldi-grid-favicon.png"),
+                path.join(out, "favicon.png"));
+
 // --- build the stlite files map: FS path -> { url } (fetched at load) ---
 const files = {};
 (function walk(dir, rel) {
@@ -50,6 +61,8 @@ const html = `<!doctype html>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Logograms Analyser</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="./favicon.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@${STLITE_VERSION}/build/stlite.css" />
     <style>html, body, #root { height: 100%; margin: 0; }</style>
   </head>
