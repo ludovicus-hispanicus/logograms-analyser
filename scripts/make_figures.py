@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Regenerate the article's 18 figures from the corpus (assets/*.png).
 
-Mirrors the app's chart style (Plotly, simple_white, Arial, spline lines) and
+Mirrors the app's chart style (Plotly, simple_white, Arial, straight lines) and
 compute_ratios' canonical LDI (determinatives excluded, particles + 15/150/30
 counted, Sumerian held out, paratext stripped). Chart types:
 
@@ -28,9 +28,12 @@ DATA = os.path.join(BASE, "data")
 OUT = os.path.join(BASE, "assets")
 
 PERIODS = ["Old Period", "Middle Period", "Neo Period"]
-PERIOD_DISP = {"Old Period": "Old Babylonian",
-               "Middle Period": "Middle Babylonian/Assyrian",
-               "Neo Period": "Neo-Babylonian/Assyrian + Late Babylonian"}
+# Axis and legend labels: the article's own three-period names (Table 1 and every
+# table after it read "Old / Middle / Neo"), not the full edition labels the
+# corpus files carry.
+PERIOD_DISP = {"Old Period": "Old",
+               "Middle Period": "Middle",
+               "Neo Period": "Neo"}
 PERIOD_COLOR = {"Old Period": "#1f77b4", "Middle Period": "#ff7f0e",
                 "Neo Period": "#2ca02c"}
 MEASURE_COLOR = {"bin": "#1f77b4", "macro": "#ff7f0e", "micro": "#2ca02c"}
@@ -122,7 +125,7 @@ def period_scatter(stats, whole_of, title, xtitle, marker_size):
             nxt = stats[stats["period"] == here[i + 1]].iloc[0]
             lx.append(nxt["seq"]); ly.append(nxt["bin"])
         fig.add_trace(go.Scatter(x=lx, y=ly, mode="lines", showlegend=False, hoverinfo="skip",
-                                 line=dict(width=2.5, shape="spline", smoothing=1.0,
+                                 line=dict(width=2.5,
                                            color=PERIOD_COLOR[period])))
         fig.add_trace(go.Scatter(x=sub["seq"], y=sub["bin"], mode="markers",
                                  name=PERIOD_DISP[period],
@@ -130,7 +133,10 @@ def period_scatter(stats, whole_of, title, xtitle, marker_size):
                                              line=dict(width=1, color="white"))))
     annotate_periods(fig, stats, whole_of)
     fig.update_layout(
-        title=title, xaxis_title=xtitle, yaxis_title="LDI (bin)",
+        # No chart title: the figure is placed under its caption in the article,
+        # which already names it. `title` is kept in the signature because it
+        # documents each figure at its call site.
+        margin=dict(t=14), xaxis_title=xtitle, yaxis_title="LDI (bin)",
         yaxis=dict(range=[-0.05, 1.30], tickmode="array",
                    tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
         xaxis=dict(showticklabels=False), width=960, height=440,
@@ -158,9 +164,8 @@ def fig_general_trend():
     fig = go.Figure()
     for m in ("bin", "macro", "micro"):
         fig.add_trace(go.Scatter(x=cdf["period"], y=cdf[m], mode="lines+markers", name=m,
-                                 line=dict(width=3, color=MEASURE_COLOR[m],
-                                           shape="spline", smoothing=1.3),
-                                 marker=dict(size=10)))
+                                 line=dict(width=3, color=MEASURE_COLOR[m]),
+                                 marker=dict(size=7)))
     fig.update_layout(margin=dict(t=14), xaxis_title="Period", yaxis_title="LDI",
                       yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
                       width=960, height=460, legend_title_text="Measure", **LAYOUT)
@@ -184,8 +189,8 @@ def fig_genre(metric):
     trend = pd.DataFrame(rows)
     fig = px.line(trend, x="period", y=metric, color="discipline", markers=True,
                   category_orders={"period": [PERIOD_DISP[p] for p in PERIODS]},
-                  line_shape="spline", template="simple_white")
-    fig.update_traces(line=dict(width=3, shape="spline", smoothing=1.0), marker=dict(size=11))
+                  line_shape='linear', template="simple_white")
+    fig.update_traces(line=dict(width=3), marker=dict(size=7.5))
     fig.update_layout(margin=dict(t=14), font_family="Arial", xaxis_title="Period",
                       yaxis_title=f"LDI ({metric})",
                       yaxis=dict(range=[-0.05, 1.05], dtick=0.1, tickformat=".1f", showgrid=True),
@@ -199,7 +204,7 @@ def fig_discipline_per_text(genre, name, label):
     stats = per_text_bin(sub)
     fig = period_scatter(stats, lambda p: pooled_bin(sub[sub["period"] == p]),
                          f"{label}: bin LDI per text (Old → Neo)",
-                         "Texts (chronological)", 10)
+                         "Texts (chronological)", 7)
     write(fig, name)
 
 
@@ -212,7 +217,7 @@ def fig_topic_per_text(files, name, label, independent=()):
     stats = per_text_bin(sub)
     fig = period_scatter(stats, lambda p: pooled_bin(sub[sub["period"] == p]),
                          f"{label}: bin LDI per text (Old → Neo)",
-                         "Texts (chronological)", 12)
+                         "Texts (chronological)", 8)
     if independent:
         ind = WORDS[WORDS["filename"].isin(independent)]
         ib = per_text_bin(ind)
@@ -221,7 +226,7 @@ def fig_topic_per_text(files, name, label, independent=()):
             mode="markers+text", name="excluded (independent)",
             text=[f.replace(".txt", "").replace(".", " ") for f in ib["filename"]],
             textposition="top center", textfont=dict(size=10, color="#666"),
-            marker=dict(size=12, color="#9e9e9e", symbol="diamond",
+            marker=dict(size=8, color="#9e9e9e", symbol="diamond",
                         line=dict(width=1, color="white"))))
     write(fig, name)
 
@@ -233,31 +238,70 @@ def fig_topic_per_omen(files, name, label):
     stats = stats.copy()
     fig = period_scatter(stats, lambda p: pooled_bin(sub[sub["period"] == p]),
                          f"{label}: bin LDI per omen (Old → Neo)",
-                         "Omens (chronological)", 8)
+                         "Omens (chronological)", 6)
     write(fig, name)
 
 
 def fig_single_text(fname, name, label):
-    """Figures 6-9, 15: one node per omen of a single tablet."""
+    """Figures 6-9, 15: one node per omen of a single tablet.
+
+    Mirrors the app's Text tab (app.per_omen_figure): the tablet's PERIOD colour
+    (not a fixed blue), the edition's own line numbers on the x axis, thinned
+    beyond 40 omens, and a dashed marker where the tablet changes side."""
     sub = WORDS[WORDS["filename"] == fname]
     o = per_omen_bin(sub)
     o["seq"] = range(len(o))
     whole = pooled_bin(sub)
+    period = str(o["period"].iloc[0]) if len(o) else "Old Period"
+    col = PERIOD_COLOR.get(period, "#1f77b4")
+
+    # line number and section per omen, in reading order
+    s = lp(sub)
+    meta = s.groupby("omen_id").agg(order=("__row", "min"),
+                                    section=("section", "first")).reset_index()
+    meta = meta.sort_values("order")
+    o = o.merge(meta[["omen_id", "section"]], on="omen_id", how="left")
+
     fig = go.Figure(go.Scatter(
         x=o["seq"], y=o["bin"], mode="lines+markers",
-        line=dict(width=2, color="#1f77b4"),
-        marker=dict(size=10, color="#1f77b4", line=dict(width=1, color="white")),
+        line=dict(width=2, color=col),
+        marker=dict(size=7, color=col, line=dict(width=1, color="white")),
         showlegend=False))
-    fig.add_annotation(x=float(o["seq"].mean()), y=1.02, xref="x", yref="y",
+    # Top-left in PAPER coordinates, so it cannot collide with the section labels
+    # that sit above the curve at their own x.
+    fig.add_annotation(x=0.01, y=0.99, xref="paper", yref="paper",
                        text=f"highest {o['bin'].max():.2f}<br>whole {whole:.2f}"
                             f"<br>lowest {o['bin'].min():.2f}",
-                       showarrow=False, yanchor="bottom", align="center",
-                       font=dict(size=10, color="#1f77b4"))
-    fig.update_layout(title=f"{label}: bin LDI per omen",
+                       showarrow=False, xanchor="left", yanchor="top", align="left",
+                       font=dict(size=10, color=col))
+    # "Unspecified" is the loader's placeholder for text before any @section
+    # marker, not a side of the tablet: no boundary is drawn against it.
+    sec = o["section"].fillna("").replace("Unspecified", "")
+    for i in range(1, len(o)):
+        if sec.iloc[i] and sec.iloc[i - 1] and sec.iloc[i] != sec.iloc[i - 1]:
+            x = (o["seq"].iloc[i] + o["seq"].iloc[i - 1]) / 2
+            fig.add_vline(x=x, line=dict(color="#BDBDBD", width=1, dash="dash"))
+            fig.add_annotation(x=x, y=1.18, xref="x", yref="y",
+                               text=str(sec.iloc[i]), showarrow=False,
+                               yanchor="bottom", font=dict(size=9, color="#9E9E9E"))
+    n = len(o)
+    if n <= 40:
+        pick = list(range(n))
+    else:
+        step = (n + 24) // 25
+        pick = list(range(0, n, step))
+        if pick[-1] != n - 1:
+            pick.append(n - 1)
+    fig.update_layout(margin=dict(t=14),   # no title: the article's caption names it
                       xaxis_title="Omen (in text order)", yaxis_title="LDI (bin)",
                       yaxis=dict(range=[-0.05, 1.30], tickmode="array",
                                  tickvals=[0, 0.2, 0.4, 0.6, 0.8, 1.0], tickformat=".1f"),
-                      xaxis=dict(showticklabels=False), width=960, height=440, **LAYOUT)
+                      xaxis=dict(tickmode="array",
+                                 tickvals=o["seq"].iloc[pick],
+                                 ticktext=o["omen_id"].iloc[pick],
+                                 tickangle=0 if n <= 40 else -45,
+                                 tickfont=dict(size=10 if n <= 40 else 9)),
+                      width=960, height=440, **LAYOUT)
     write(fig, name)
 
 
