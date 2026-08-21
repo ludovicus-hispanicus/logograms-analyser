@@ -56,14 +56,14 @@ VAT.8710.txt,corpus,Middle Period,extispicy omens,61,False
 VAT.9570.txt,corpus,Middle Period,extispicy omens,19,False
 VAT.9577.txt,corpus,Middle Period,extispicy omens,18,False
 VAT.9600.txt,corpus,Middle Period,extispicy omens,12,False
-Ankara-10605.txt,corpus,Middle Period,izbu omens,1,False
+Ankara-10605.txt,corpus,Middle Period,izbu omens,5,False
 Bogh-1959-56.txt,corpus,Middle Period,izbu omens,4,False
-KUB29-12.txt,corpus,Middle Period,izbu omens,1,False
+KUB29-12.txt,corpus,Middle Period,izbu omens,4,False
 KUB37-183.txt,corpus,Middle Period,izbu omens,4,False
-KUB37-184.txt,corpus,Middle Period,izbu omens,5,False
-KUB37-185.txt,corpus,Middle Period,izbu omens,1,False
-KUB37-188.txt,corpus,Middle Period,izbu omens,1,False
-KUB4-67.txt,corpus,Middle Period,izbu omens,1,False
+KUB37-184.txt,corpus,Middle Period,izbu omens,7,False
+KUB37-185.txt,corpus,Middle Period,izbu omens,3,False
+KUB37-188.txt,corpus,Middle Period,izbu omens,6,False
+KUB4-67.txt,corpus,Middle Period,izbu omens,14,False
 Suse.XII-4.txt,corpus,Middle Period,izbu omens,71,False
 Suse.XII-6.txt,corpus,Middle Period,izbu omens,28,False
 UM.29-16-194.txt,corpus,Middle Period,izbu omens,21,False
@@ -196,6 +196,7 @@ MS.1805.txt,corpus,Old Period,terrestrial omens,8,False
 MS.3104.txt,corpus,Old Period,terrestrial omens,53,False
 VAT.7525.txt,corpus,Old Period,terrestrial omens,59,False
 KBo.8.6.txt,held-out,Middle Period,astrological omens,11,True
+CBS.3831.txt,held-out,Middle Period,diagnostic omens,14,True
 KAR.444-lung-model.txt,comparandum,Middle Period,extispicy model,39,True
 A.120.txt,kal5,Middle Period,extispicy omens,82,True
 A.2675.txt,kal5,Middle Period,extispicy omens,38,True
@@ -259,7 +260,7 @@ VAT.9949.txt,kal5,Middle Period,extispicy omens,62,True
 VAT.9969.txt,kal5,Middle Period,extispicy omens,69,True
 Hittite-izbu-Hattusa.txt,comparandum,Middle Period,izbu omens,6,True
 Hurrian-izbu-Hattusa.txt,comparandum,Middle Period,izbu omens,6,True
-Emar.VI.700.txt,held-out,Middle Period,terrestrial omens,7,True
+Emar.700.txt,held-out,Middle Period,terrestrial omens,7,True
 VAT.11466.txt,held-out,Middle Period,terrestrial omens,4,True
 VAT.9793.txt,held-out,Middle Period,terrestrial omens,18,True
 K.3561.txt,held-out,Neo Period,astrological omens,13,True

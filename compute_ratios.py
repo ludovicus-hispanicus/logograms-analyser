@@ -100,7 +100,29 @@ PERIOD_MAPPING = {
 PERIOD_ORDER = ["Old Period", "Middle Period", "Neo Period"]
 
 
+# Illegible signs and editorial annotations are not writing. 'x' (and 'X') is the
+# transliteration convention for an illegible sign; the printed editions also
+# carry editorial words ('(leer)', '(Rasur)') and the empty-slot mark 'ø' into
+# the digitized text. All of these are typed 'other', so they enter neither the
+# numerator nor the denominator of any measure, at word level and sign level
+# alike. Parenthesized real readings, e.g. '(ma-aʾ-du)', remain counted.
+NONTEXT_EDITORIAL = {'(leer)', '(rasur)', '(o)', '(blank)', '(blank?)', '(lacuna)', 'ø'}
+_NONTEXT_STRIP = str.maketrans('', '', "()<>⸢⸣˹˺⌈⌉'\"?!.…—–-")
+
+def _is_nontext(token):
+    t = str(token)
+    if 'x' not in t and 'ø' not in t and '(' not in t:
+        return False                      # hot path: cannot match anything below
+    if t.lower() in NONTEXT_EDITORIAL:
+        return True
+    core = t.translate(_NONTEXT_STRIP)
+    # lowercase 'x' only: uppercase X is a Roman-numeral logogram (XXX = 30 =
+    # Sîn, XX = Šamaš in the "Hand of DN" formulas), never an illegible sign
+    return core != '' and set(core) == {'x'}
+
+
 def get_token_type(token):
+    if _is_nontext(token): return "other"     # illegible / editorial: never counted
     if token in LOGOGRAM_PARTICLES: return "logogram"
     if token.rstrip('?!') in NUMBER_LOGOGRAMS: return "logogram"  # 15/150/30 (right/left/Sîn)
     if any(c.isupper() for c in token): return "logogram"
@@ -116,7 +138,8 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
     gi = 0
     language = "akkadian"
     for raw_token in raw_tokens:
-        if re.match(r'^\d+\'?\.$', raw_token): continue
+        # Line numbers: "12." (eBL style) or "12)" (KUB 37 / Boğazköy files).
+        if re.match(r'^\d+\'?[.)]$', raw_token): continue
         # ATF language-shift markers (%sux, %akk, %es, ...): set the language for
         # the following tokens and drop the marker itself (it is not a sign).
         if re.match(r'^%\w+$', raw_token):
@@ -184,7 +207,8 @@ def annotate_signs(text, omen_id, metadata, preserved_only=False):
     wi = 0
     language = "akkadian"
     for raw_token in text.strip().split():
-        if re.match(r'^\d+\'?\.$', raw_token): continue
+        # Line numbers: "12." (eBL style) or "12)" (KUB 37 / Boğazköy files).
+        if re.match(r'^\d+\'?[.)]$', raw_token): continue
         if re.match(r'^%\w+$', raw_token):
             code = raw_token[1:].lower()
             language = "sumerian" if code in ("sux", "es", "eg") else "akkadian"
@@ -300,7 +324,7 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     m = re.match(r'§(\S+)\s+(.*)', line)
                     if m:
                         cur_id = m.group(1)
-                        c = re.sub(r'^\d+\'?\.\s*', '', m.group(2))
+                        c = re.sub(r'^\d+\'?[.)]\s*', '', m.group(2))
                         section_omens.setdefault(cur_id, []).append({'text': c, 'section': current_section})
                 for oid, dl in section_omens.items():
                     if not dl: continue
@@ -329,12 +353,13 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     if line.startswith('@'): current_section = line.strip('@').title(); continue
                     if line.startswith('$') or line.startswith('#'): continue
                     temp = line.replace('[', '').replace(']', '')
-                    # Line number may be plain (12.) or eBL relative (a+1., a+41.).
-                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?\.\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
+                    # Line number may be plain (12.), eBL relative (a+1., a+41.),
+                    # or paren style (12), used by the KUB 37 / Boğazköy files).
+                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[.)]\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
                     # A line opening with a language shift (e.g. "%sux DIŠ ...", or a
                     # Sumerian colophon "%sux mu ...") always begins a new omen, so
                     # Sumerian lines are not folded into the preceding Akkadian omen.
-                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?\.\s*", '', temp).lstrip()
+                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[.)]\s*", '', temp).lstrip()
                     if re.match(rgx, temp) or body_after_num.startswith('%'):
                         if cur['lines']:
                             md = metadata.copy(); md['section'] = cur['section']
@@ -352,7 +377,7 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     if not line: continue
                     if line.startswith('@'): current_section = line.strip('@').title(); continue
                     if line.startswith('$') or line.startswith('#'): continue
-                    idm = re.match(r'^(\d+\'?)\.', line)
+                    idm = re.match(r'^(\d+\'?)[.)]', line)
                     if idm: current_omen_id = idm.group(1)
                     md = metadata.copy(); md['section'] = current_section
                     all_anns.extend(annotate(line, current_omen_id, md, preserved_only))
