@@ -56,8 +56,14 @@ def per_file(df):
     """filename -> (period, genre, omen_count) from a loaded annotation frame."""
     out = {}
     for fn, g in df.groupby("filename"):
-        period = PERIOD_FOLD.get(g["period"].iloc[0], g["period"].iloc[0])
-        out[fn] = {"period": period, "genre": str(g["genre"].iloc[0]),
+        raw_period, raw_genre = g["period"].iloc[0], g["genre"].iloc[0]
+        if pd.isna(raw_period) or pd.isna(raw_genre):
+            # a draft saved without period/discipline (e.g. an app scratch file):
+            # not part of the corpus yet, so leave it out rather than crash.
+            print(f"  [skip] {fn}: missing period/genre frontmatter (draft?)")
+            continue
+        period = PERIOD_FOLD.get(raw_period, raw_period)
+        out[fn] = {"period": period, "genre": str(raw_genre),
                    "omens": int(g["omen_id"].nunique())}
     return out
 

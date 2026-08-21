@@ -57,6 +57,10 @@ test_parsing.py
 complex_input.txt
 ebl_ms3117.txt
 
+# Desktop (PyInstaller) build — see packaging/desktop_exe.spec
+packaging/build/
+packaging/dist/
+
 # Desktop (stlite/Electron) build — heavy artifacts, generated locally
 desktop/node_modules/
 desktop/build/
@@ -66,9 +70,15 @@ desktop/package-lock.json
 desktop/streamlit_app.py
 desktop/references.bib
 desktop/data/
+desktop/assets/
+desktop/docs/
 
 # Generated static web build (stlite/browser) — deployed by CI
 desktop/web/
 
 # Reference PDFs kept locally, not distributed
 assets/literature/
+
+# extracted reviewer comments (names + unpublished feedback)
+docs/reviewer-comments.md
+docs/*.prev
