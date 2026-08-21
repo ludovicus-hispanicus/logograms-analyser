@@ -3056,8 +3056,13 @@ if page == "Introduction":
         "*how* a text is logographic — whole-word substitution versus dense sign-by-sign writing."
     )
 
-    st.divider()
-    st.markdown("#### The ina / ana monogram")
+    st.markdown(
+        "Four counting decisions sit underneath all three measures. Each is taken in advance "
+        "and held throughout, and each is reported as its own column beside the baseline, so "
+        "what it is worth to a given slice can be read off directly:"
+    )
+
+    st.markdown("##### The ina / ana monogram")
     st.markdown(
         "The prepositions **ina** and **ana** are routinely written with a single sign each — "
         "**monograms**: one sign for a whole word, on the border between syllabic and "
@@ -3067,8 +3072,7 @@ if page == "Introduction":
         "0.682 → 0.739, and a heavily *ina*-laden tablet like BM 121034 from 0.744 to 0.857."
     )
 
-    st.divider()
-    st.markdown("#### Restorations")
+    st.markdown("##### Restorations")
     st.markdown(
         "Editors supply lost text from parallel manuscripts, marked `[…]` in the "
         "transliteration. The baseline counts a restored sign like a preserved one — the "
@@ -3080,8 +3084,7 @@ if page == "Introduction":
         "gap between the two columns flags a heavily reconstructed text."
     )
 
-    st.divider()
-    st.markdown("#### The opening particle")
+    st.markdown("##### The opening particle")
     st.markdown(
         "Nearly every omen opens with the conjunction *šumma* “if”, written logographically "
         "(DIŠ, BE, BAD, UD, AŠ) — one guaranteed logogram per omen, arguably structural "
@@ -3090,8 +3093,7 @@ if page == "Introduction":
         "shorter the omens, the more one word weighs, so the diagnostic corpus moves most."
     )
 
-    st.divider()
-    st.markdown("#### Word composition")
+    st.markdown("##### Word composition")
     st.markdown(
         "Every scored word is one of three kinds: a **pure logogram** (`LUGAL`), a **mixed** "
         "writing — logogram plus phonetic complement (`LUGAL-um`) — or a fully **syllabic** "
