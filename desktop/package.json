@@ -40,7 +40,9 @@
       "files": [
         "streamlit_app.py",
         "references.bib",
-        "data"
+        "data",
+        "assets",
+        "docs"
       ],
       "entrypoint": "streamlit_app.py",
       "dependencies": [

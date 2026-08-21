@@ -10,9 +10,11 @@ in a native window via pywebview, instead of a browser tab.
 Streamlit is started on a private localhost port and the window points at it; closing
 the window shuts Streamlit down.
 
-NOTE: a distributable installer (PyInstaller .exe/.app, bundling CPython + Streamlit +
-the streamlit-ace static assets) will be set up later — this launcher is the entry
-point it will freeze.
+This file is also the entry point of the frozen PyInstaller build (see
+packaging/desktop_exe.spec). A frozen app has no separate Python interpreter to
+spawn, so the window process re-launches its own exe with `--run-streamlit PORT`,
+which starts the Streamlit server in-process; the bundled app.py, data/ and
+references.bib live in the exe's _internal/ directory (sys._MEIPASS).
 """
 import os
 import sys
@@ -21,7 +23,14 @@ import time
 import subprocess
 import urllib.request
 
-import webview  # pywebview
+_FROZEN = getattr(sys, "frozen", False)
+
+
+def _base_dir():
+    """Folder holding app.py, data/, references.bib — _internal/ when frozen."""
+    if _FROZEN:
+        return sys._MEIPASS
+    return os.path.dirname(os.path.abspath(__file__))
 
 
 def _free_port():
@@ -43,21 +52,34 @@ def _wait_until_up(url, timeout=45):
     return False
 
 
-def main():
-    here = os.path.dirname(os.path.abspath(__file__))
-    app_path = os.path.join(here, "app.py")
-    port = _free_port()
-    url = f"http://127.0.0.1:{port}"
-
-    cmd = [
-        sys.executable, "-m", "streamlit", "run", app_path,
+def _run_streamlit(port):
+    """Run the Streamlit server in this process (the `--run-streamlit` child)."""
+    here = _base_dir()
+    os.chdir(here)  # app.py resolves data/ and references.bib relative to here
+    sys.argv = [
+        "streamlit", "run", os.path.join(here, "app.py"),
         "--server.port", str(port),
         "--server.address", "127.0.0.1",
         "--server.headless", "true",
+        # No source watching in the frozen app; keep live-reload while developing.
+        "--server.fileWatcherType", "none" if _FROZEN else "auto",
         "--browser.gatherUsageStats", "false",
         "--global.developmentMode", "false",
     ]
-    # Run Streamlit from the repo root so its relative data/ paths resolve.
+    from streamlit.web import cli as stcli
+    sys.exit(stcli.main())
+
+
+def main():
+    import webview  # pywebview; imported lazily so the server child skips it
+
+    here = _base_dir()
+    port = _free_port()
+    url = f"http://127.0.0.1:{port}"
+
+    # Frozen: the exe re-runs itself; dev: this file under the same interpreter.
+    cmd = [sys.executable] + ([] if _FROZEN else [os.path.abspath(__file__)])
+    cmd += ["--run-streamlit", str(port)]
     proc = subprocess.Popen(cmd, cwd=here)
     try:
         if not _wait_until_up(url):
@@ -73,4 +95,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import multiprocessing
+    multiprocessing.freeze_support()
+    if len(sys.argv) >= 3 and sys.argv[1] == "--run-streamlit":
+        _run_streamlit(int(sys.argv[2]))
+    else:
+        main()

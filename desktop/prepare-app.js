@@ -11,6 +11,8 @@ const dest = __dirname;
 fs.rmSync(path.join(dest, "streamlit_app.py"), { force: true });
 fs.rmSync(path.join(dest, "references.bib"), { force: true });
 fs.rmSync(path.join(dest, "data"), { recursive: true, force: true });
+fs.rmSync(path.join(dest, "assets"), { recursive: true, force: true });
+fs.rmSync(path.join(dest, "docs"), { recursive: true, force: true });
 
 // Entry point: app.py -> streamlit_app.py
 fs.copyFileSync(path.join(repoRoot, "app.py"), path.join(dest, "streamlit_app.py"));
@@ -32,4 +34,17 @@ function copyDir(src, dst) {
 }
 copyDir(path.join(repoRoot, "data"), path.join(dest, "data"));
 
-console.log("Staged streamlit_app.py, references.bib and data/ into", dest);
+// The few assets the app reads at runtime (the logo and the one figure the LDI
+// page embeds) — never the whole assets/ folder (gigabytes of article figures).
+copyDir(path.join(repoRoot, "assets", "logo"), path.join(dest, "assets", "logo"));
+fs.copyFileSync(path.join(repoRoot, "assets", "trend-vat-10418-bin.png"),
+                path.join(dest, "assets", "trend-vat-10418-bin.png"));
+
+// Supplementary downloads offered on the Sources tab (exists-guarded in app.py) —
+// only these two files, never docs/ wholesale (it holds the unpublished article).
+fs.mkdirSync(path.join(dest, "docs"), { recursive: true });
+for (const f of ["catalogue-of-sources.md", "kal5-ldi-by-tradition.csv"]) {
+  fs.copyFileSync(path.join(repoRoot, "docs", f), path.join(dest, "docs", f));
+}
+
+console.log("Staged streamlit_app.py, references.bib, data/, assets/ and docs/ into", dest);
