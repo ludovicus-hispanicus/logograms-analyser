@@ -28,6 +28,7 @@ listed at the end of the run.
 import argparse
 import html
 import json
+import zlib
 import os
 import re
 import subprocess
@@ -96,8 +97,9 @@ BIBENTRY_RE = re.compile(
 
 def map_article_bib(entries, index):
     """Match the article's typed bibliography to library items by author+year,
-    disambiguating by title overlap. Returns {(fams, year+suffix): item}."""
-    cmap, misses = {}, []
+    disambiguating by title overlap.
+    Returns ({(fams, year+suffix): item}, misses, matched_entry_texts)."""
+    cmap, misses, matched_texts = {}, [], set()
     for e in entries:
         m = BIBENTRY_RE.match(e)
         if not m:
@@ -126,7 +128,8 @@ def map_article_bib(entries, index):
                 return (len(want & t), len(rest & (t | ct)))
             best = max(cands, key=score)
         cmap[(fams, m.group("year") + (m.group("suffix") or ""))] = best
-    return cmap, misses
+        matched_texts.add(e)
+    return cmap, misses, matched_texts
 
 
 # --------------------------------------------------------- citation detection
@@ -176,7 +179,7 @@ def zotero_item_field(items, cited_text, locators):
     _cid[0] += 1
     citation_items = []
     for it, loc in zip(items, locators):
-        ci = {"id": abs(hash(it["id"])) % 100000,
+        ci = {"id": zlib.crc32(str(it["id"]).encode("utf-8")) % 1000000,
               "uris": [f"http://zotero.org/users/local/obo/items/{it['id']}"],
               "itemData": it}
         if loc:
@@ -234,6 +237,116 @@ def zotero_bibl_field(entries):
             '<w:p><w:r><w:fldChar w:fldCharType="end"/></w:r></w:p>')
 
 
+# ------------------------------------------------- Zotero document preferences
+
+OBO_STYLE_ID = "http://www.zotero.org/styles/orbis-biblicus-et-orientalis"
+
+def zotero_prefs_custom_xml(style_id=OBO_STYLE_ID):
+    """docProps/custom.xml carrying ZOTERO_PREF_1..n document data.
+
+    This is what Zotero's Word plugin reads as the document preferences: with it
+    embedded, the style (OBO), field type and footnote mode are already set, so
+    the user never has to run Set Document Preferences on the exported file --
+    Add Citation and Refresh work directly. The prefs XML is chunked into
+    255-char custom properties, the format Zotero itself writes."""
+    data = ('<data data-version="3" zotero-version="7.0.15">'
+            '<session id="oboLDIexp"/>'
+            f'<style id="{style_id}" locale="en-US" hasBibliography="1" '
+            'bibliographyStyleHasBeenSet="1"/>'
+            '<prefs>'
+            '<pref name="fieldType" value="Field"/>'
+            '<pref name="automaticJournalAbbreviations" value="true"/>'
+            '<pref name="noteType" value="1"/>'
+            '</prefs></data>')
+    chunks = [data[i:i + 255] for i in range(0, len(data), 255)]
+    props = "".join(
+        f'<property fmtid="{{D5CDD505-2E9C-101B-9397-08002B2CF9AE}}" pid="{i + 2}" '
+        f'name="ZOTERO_PREF_{i + 1}"><vt:lpwstr>{html.escape(c)}</vt:lpwstr></property>'
+        for i, c in enumerate(chunks))
+    return ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+            '<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/custom-properties" '
+            'xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">'
+            + props + "</Properties>")
+
+
+# ------------------------------------------------------- Word layout hardening
+
+# In CT_PPr the sequence is pStyle, keepNext, keepLines, ..., so keepNext has to
+# go immediately after pStyle when one is present.
+_PPR_HEAD = re.compile(r'(<w:pPr>\s*(?:<w:pStyle[^>]*/>)?)', re.S)
+_PARA = re.compile(r'<w:p(?:\s[^>]*)?>.*?</w:p>', re.S)
+_ROW = re.compile(r'<w:tr(?:\s[^>]*)?>.*?</w:tr>', re.S)
+_ROW_OPEN = re.compile(r'(<w:tr(?:\s[^>]*)?>)')
+
+
+def _keep_next(para):
+    """Return one <w:p> with <w:keepNext/> set on its paragraph properties."""
+    if "<w:keepNext" in para:
+        return para
+    if "<w:pPr/>" in para:
+        return para.replace("<w:pPr/>", "<w:pPr><w:keepNext/></w:pPr>", 1)
+    if "<w:pPr>" in para:
+        return _PPR_HEAD.sub(lambda m: m.group(1) + "<w:keepNext/>", para, count=1)
+    return re.sub(r'(<w:p(?:\s[^>]*)?>)',
+                  lambda m: m.group(1) + "<w:pPr><w:keepNext/></w:pPr>",
+                  para, count=1)
+
+
+def _row_prop(row, prop):
+    """Return one <w:tr> with `prop` added to its row properties."""
+    if prop in row:
+        return row
+    if "<w:trPr>" in row:
+        return row.replace("<w:trPr>", "<w:trPr>" + prop, 1)
+    if "<w:trPr/>" in row:
+        return row.replace("<w:trPr/>", "<w:trPr>" + prop + "</w:trPr>", 1)
+    return _ROW_OPEN.sub(lambda m: m.group(1) + "<w:trPr>" + prop + "</w:trPr>",
+                         row, count=1)
+
+
+def harden_layout(xml):
+    """Stop Word breaking tables and figures away from their captions.
+
+    Pandoc emits bare rows: nothing keeps a row whole across a page break,
+    nothing repeats the header on a continuation page, and nothing ties the
+    last row or an image to the caption underneath it. That is what makes the
+    exported file need rearranging by hand, so fix it at the source rather
+    than in Word. Captions in this article always follow their object.
+    """
+    counts = {"tables": 0, "rows": 0, "figures": 0}
+
+    def fix_table(m):
+        tbl = m.group(0)
+        rows = list(_ROW.finditer(tbl))
+        if not rows:
+            return tbl
+        out, pos, last = [], 0, len(rows) - 1
+        for i, r in enumerate(rows):
+            out.append(tbl[pos:r.start()])
+            row = _row_prop(r.group(0), "<w:cantSplit/>")
+            if i == 0:                      # pipe tables always have a header
+                row = _row_prop(row, "<w:tblHeader/>")
+            if i == last:                   # hold the caption to the table
+                row = _PARA.sub(lambda p: _keep_next(p.group(0)), row)
+            out.append(row)
+            pos = r.end()
+            counts["rows"] += 1
+        out.append(tbl[pos:])
+        counts["tables"] += 1
+        return "".join(out)
+
+    xml = re.sub(r'<w:tbl(?:\s[^>]*)?>.*?</w:tbl>', fix_table, xml, flags=re.S)
+
+    def fix_figure(p):
+        para = p.group(0)
+        if "<w:drawing>" not in para:
+            return para
+        counts["figures"] += 1
+        return _keep_next(para)
+
+    return _PARA.sub(fix_figure, xml), counts
+
+
 # ---------------------------------------------------------------- md pipeline
 
 def main():
@@ -241,12 +354,21 @@ def main():
     ap.add_argument("--bib", default=r"C:\Users\wende\Downloads\My Library.bib")
     ap.add_argument("--template",
                     default=r"C:\Users\wende\Downloads\OBO Template_Collective volumes.docx")
-    ap.add_argument("--out", default=os.path.join(BASE, "docs", "The-Logographic-Shift-zotero.docx"))
+    ap.add_argument("--out", default=None,
+                    help="output path (default: The-Logographic-Shift-OBO.docx, "
+                         "or -zotero.docx with --zotero)")
+    ap.add_argument("--zotero", action="store_true",
+                    help="embed live Zotero citation fields and document preferences "
+                         "(default: plain text, no fields)")
     ap.add_argument("--split", action="store_true",
                     help="separate deliverables: -text.docx with [Table/Figure N near here] "
                          "callouts, -tables.docx, -figures.docx, and numbered figure files "
                          "in docs/_delivery/")
     args = ap.parse_args()
+    if args.out is None:
+        args.out = os.path.join(BASE, "docs",
+                                "The-Logographic-Shift-zotero.docx" if args.zotero
+                                else "The-Logographic-Shift-OBO.docx")
 
     build = os.path.join(BASE, "docs", "_build")
     os.makedirs(build, exist_ok=True)
@@ -264,7 +386,7 @@ def main():
     bib_entries = [l.strip() for l in tail.splitlines() if l.strip()]
 
     # ---- the typed bibliography names WHICH Author-Year each citation means
-    cmap, bib_misses = map_article_bib(bib_entries, index)
+    cmap, bib_misses, matched_texts = map_article_bib(bib_entries, index)
     print(f"article bibliography: {len(cmap)} of {len(bib_entries)} entries mapped to library items")
     for (fams, year), it in sorted(cmap.items(), key=lambda kv: (kv[0][0], kv[0][1])):
         print(f"    {'/'.join(fams)} {year:6} -> [{it.get('type','?'):17}] {str(it.get('title',''))[:58]}")
@@ -303,11 +425,15 @@ def main():
         out.append(text[pos:])
         return "".join(out)
 
-    notes = zoterify(notes)
+    if args.zotero:
+        notes = zoterify(notes)   # plain mode keeps the typed citations as they are
 
     def style_pass(text):
-        """Captions to Bildlegende, title and author to their styles."""
-        text = re.sub(r"^(\*\*(?:Table|Figure) \d+\.\*\*.*)$",
+        """Captions to Bildlegende (with the template's label format:
+        'Table N: ...' / 'Fig. N: ...'), title and author to their styles."""
+        text = re.sub(r"^\*\*Table (\d+)\.\*\*\s*", r"Table \1: ", text, flags=re.M)
+        text = re.sub(r"^\*\*Figure (\d+)\.\*\*\s*", r"Fig. \1: ", text, flags=re.M)
+        text = re.sub(r"^((?:Table|Fig\.) \d+: .*)$",
                       r'::: {custom-style="Bildlegende"}\n\1\n:::', text, flags=re.M)
         text = re.sub(r"^# (.+)$",
                       r'::: {custom-style="Title"}\n\1\n:::', text, count=1, flags=re.M)
@@ -315,21 +441,84 @@ def main():
                       r'::: {custom-style="Autor"}\nLuis Sáenz\n:::', text, count=1, flags=re.M)
         return text
 
-    # ---- live bibliography field
-    bibl = "## Bibliography\n\n```{=openxml}\n" + zotero_bibl_field(bib_entries) + "\n```\n\n"
+    # ---- live bibliography field. Only entries with a library item go into the
+    # field cache: on refresh Zotero regenerates the field from the cited items,
+    # and anything else inside it would be silently deleted. Entries without a
+    # library item (databases, works not yet in Zotero) follow the field as
+    # typed paragraphs, out of Zotero's reach.
+    if args.zotero:
+        matched_bib = [e for e in bib_entries if e in matched_texts]
+        plain_bib = [e for e in bib_entries if e not in matched_texts]
+        bibl = "## Bibliography\n\n```{=openxml}\n" + zotero_bibl_field(matched_bib) + "\n```\n\n"
+        if plain_bib:
+            bibl += "".join('::: {custom-style="Bibliographie1"}\n' + e + "\n:::\n\n"
+                            for e in plain_bib)
+            print(f"bibliography: {len(matched_bib)} entries in the live field, "
+                  f"{len(plain_bib)} kept as plain text after it")
+    else:
+        bibl = "## Bibliography\n\n" + "".join(
+            '::: {custom-style="Bibliographie1"}\n' + e + "\n:::\n\n"
+            for e in bib_entries)
 
     # ---- Lua filter: body/quote styles + image width
     lua = os.path.join(build, "obo-styles.lua")
     open(lua, "w", encoding="utf-8", newline="\n").write("""
+-- OBO template paragraph logic: body text is 'Normal' (10.5 pt, first-line
+-- indent 0.5 cm, no inter-paragraph space); the first paragraph after the
+-- title, the author line or any heading is 'Standard ohne Einzug'; the
+-- paragraph resuming after a quote, a table or a figure+caption is
+-- 'Standard Abstand vor 6 Pt.' (indented again, 6 pt space before).
 function Pandoc(doc)
   local out = {}
+  local prev = nil   -- 'header' | 'space' | nil
   for _, b in ipairs(doc.blocks) do
-    if b.t == 'Para' and not (#b.content == 1 and b.content[1].t == 'Image') then
-      table.insert(out, pandoc.Div({b}, {['custom-style'] = 'Standard Abstand vor 6 Pt.'}))
+    if b.t == 'Para' and #b.content == 1 and b.content[1].t == 'Image' then
+      table.insert(out, pandoc.Div({b}, {['custom-style'] = 'Standard ohne Einzug'}))
+      prev = nil                         -- figure; its Bildlegende caption follows
+    elseif b.t == 'Para' then
+      local style = 'Normal'
+      if prev == 'header' then style = 'Standard ohne Einzug'
+      elseif prev == 'space' then style = 'Standard Abstand vor 6 Pt.' end
+      table.insert(out, pandoc.Div({b}, {['custom-style'] = style}))
+      prev = nil
+    elseif b.t == 'Header' then
+      -- the template's hierarchy: article '##' (level 2) = template 'heading 1'
+      -- (capitals), '###' = 'heading 2' (italics), '####' = 'heading 3'; the
+      -- chapter title itself is the Title div, so shift every level down one
+      b.level = b.level - 1
+      table.insert(out, b); prev = 'header'
+    elseif b.t == 'Figure' then
+      -- pandoc 3 wraps a bare image in a Figure (styles CaptionedFigure /
+      -- ImageCaption, which the OBO template does not define); unwrap it back
+      -- to a plain image paragraph -- our captions are Bildlegende paragraphs
+      local img = b.content[1] and b.content[1].content and b.content[1].content[1]
+      if img then
+        table.insert(out, pandoc.Div({pandoc.Para({img})},
+                                     {['custom-style'] = 'Standard ohne Einzug'}))
+      else table.insert(out, b) end
+      prev = nil
     elseif b.t == 'BlockQuote' then
-      table.insert(out, pandoc.Div(b.content, {['custom-style'] = 'Quote'}))
-    else
+      -- flatten nested quotes ('> >' omen lines): every level renders as Quote
+      local flat = {}
+      local function collect(blocks)
+        for _, q in ipairs(blocks) do
+          if q.t == 'BlockQuote' then collect(q.content)
+          else table.insert(flat, q) end
+        end
+      end
+      collect(b.content)
+      table.insert(out, pandoc.Div(flat, {['custom-style'] = 'Quote'}))
+      prev = 'space'
+    elseif b.t == 'Table' then
+      table.insert(out, b); prev = 'space'
+    elseif b.t == 'Div' then
       table.insert(out, b)
+      local cs = b.attributes and b.attributes['custom-style'] or nil
+      if cs == 'Bildlegende' then prev = 'space'
+      elseif cs == 'Title' or cs == 'Autor' then prev = 'header'
+      else prev = nil end
+    else
+      table.insert(out, b); prev = nil
     end
   end
   doc.blocks = out
@@ -359,8 +548,29 @@ end
         with zipfile.ZipFile(tmp) as zin, zipfile.ZipFile(out_docx, "w", zipfile.ZIP_DEFLATED) as zout:
             for info in zin.infolist():
                 data = zin.read(info.filename)
-                if info.filename in ("word/document.xml", "word/footnotes.xml"):
+                if info.filename == "docProps/custom.xml" and args.zotero:
+                    # embed the Zotero document preferences (OBO style preset)
+                    data = zotero_prefs_custom_xml().encode("utf-8")
+                elif info.filename in ("word/document.xml", "word/footnotes.xml"):
                     xml = data.decode("utf-8")
+                    if info.filename == "word/footnotes.xml":
+                        # OBO footnote convention: style Fussnotentext (the
+                        # template's: first-line indent 0.5 cm), and an en space
+                        # (U+2002) after the number, not a tab. Pandoc names the
+                        # footnote paragraph style 'Funotentext' and puts a
+                        # plain-space run after the number.
+                        xml = re.sub(r'<w:pStyle w:val="Fu(?:\u00df|)notentext"\s*/>',
+                                     '<w:pStyle w:val="Fussnotentext" />', xml)
+                        xml, n_en = re.subn(
+                            r'(<w:footnoteRef\s*/>\s*</w:r>)'
+                            r'<w:r><w:t xml:space="preserve"> </w:t></w:r>',
+                            '\\1<w:r><w:t xml:space="preserve">\u2002</w:t></w:r>',
+                            xml, flags=re.S)
+                    else:
+                        xml, layout = harden_layout(xml)
+                        print(f"  layout: {layout['tables']} tables "
+                              f"({layout['rows']} rows), {layout['figures']} figures "
+                              "held to their captions")
                     for key, fld in fields.items():
                         # the placeholder sits inside a <w:t>; split its run around the field
                         xml = re.sub(
@@ -382,7 +592,20 @@ end
                 inserted += x.count("ZOTERO_ITEM")
                 if "ZOTFLD" in x:
                     print(f"  !! unreplaced placeholders remain in {out_docx}:{f}")
-        print(f"wrote {out_docx}  ({inserted} live citation fields)")
+            fx = z.read("word/footnotes.xml").decode("utf-8")
+            ens = fx.count("\u2002</w:t></w:r>")
+            if args.zotero:
+                names = z.namelist()
+                if "docProps/custom.xml" not in names or \
+                        "ZOTERO_PREF" not in z.read("docProps/custom.xml").decode("utf-8"):
+                    print(f"  !! no ZOTERO_PREF document data in {out_docx} "
+                          "(docProps/custom.xml missing from the template output)")
+                print(f"wrote {out_docx}  ({inserted} live citation fields, "
+                      f"prefs embedded, {ens} footnotes en-spaced)")
+            else:
+                if inserted:
+                    print(f"  !! {inserted} ZOTERO fields in plain output?!")
+                print(f"wrote {out_docx}  (plain, no fields; {ens} footnotes en-spaced)")
 
     if not args.split:
         build_docx(style_pass(body) + "\n" + bibl + notes, args.out, "zotero")
