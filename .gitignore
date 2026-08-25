@@ -82,3 +82,6 @@ assets/literature/
 # extracted reviewer comments (names + unpublished feedback)
 docs/reviewer-comments.md
 docs/*.prev
+
+# working research notes (unpublished agenda)
+docs/civil-encoding-agenda.md

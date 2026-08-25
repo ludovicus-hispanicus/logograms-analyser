@@ -64,7 +64,7 @@ NEW_PRINTED = {
  "T30 terr Middle bin":0.75,"T30 terr Middle micro":0.60,
  "T30 terr Neo macro":0.70,"T30 terr Neo micro":0.62,"T30 terr total macro":0.66,
  "3.5.1 VAT10849 bin":0.43,
- "T31 Mid-Ass macro":0.68,"T31 Mid-Ass micro":0.60,"T31 Neo-Ass micro":0.62,
+ "T31 Mid-Ass macro":0.68,"T31 Mid-Ass micro":0.60,
  "3.5.2 Bab lead ina/ana":0.07,
  "T32 Nabu macro":0.07,
  "n22 micro>bin texts":4,
@@ -178,13 +178,13 @@ T1 = {('astro','Old Period'):(286,6),('astro','Middle Period'):(274,7),('astro',
       ('diag','Old Period'):(33,2),('diag','Middle Period'):(230,13),('diag','Neo Period'):(1173,32),
       ('ext','Old Period'):(188,13),('ext','Middle Period'):(1212,37),('ext','Neo Period'):(534,16),
       ('izbu','Old Period'):(134,5),('izbu','Middle Period'):(220,14),('izbu','Neo Period'):(692,11),
-      ('terr','Old Period'):(120,3),('terr','Middle Period'):(418,17),('terr','Neo Period'):(1040,12)}
+      ('terr','Old Period'):(120,3),('terr','Middle Period'):(418,17),('terr','Neo Period'):(1038,11)}
 for (g,e),(o,t) in T1.items():
     d = CW[(CW.genre.map(GEN.get)==g)&(CW.era==e)]
     ck(f"T1 {g} {e.split()[0]} omens", nom(d), o, 'int')
     ck(f"T1 {g} {e.split()[0]} texts", ntx(d), t, 'int')
-ck("T1 total omens", nom(CW), 7007, 'int')
-ck("T1 total texts", ntx(CW), 196, 'int')
+ck("T1 total omens", nom(CW), 7005, 'int')
+ck("T1 total texts", ntx(CW), 195, 'int')
 
 # ================================================================ Table 5 ====
 ck("T5 bin Old",    B(sub(CW,era='Old Period')),    0.326, 3)
@@ -602,12 +602,6 @@ for lab,d,ds,vals in [('Mid-Bab',TE[TE.filename=='BM.108874.txt'],TES[TES.filena
     ck(f"T31 {lab} macro", G(ds)['macro'], vals[1],2)
     ck(f"T31 {lab} micro", G(ds)['micro'], vals[2],2)
 ck("T31 KBo36.47 restor-dropped", B(TEP[TEP.filename=='KBo.36.47.txt']), 0.50, 2)
-NT = TE[TE.era=='Neo Period']; NTS = TES[TES.era=='Neo Period']
-for lab,reg,vals in [('Neo-Bab','Babylonia',(0.89,0.84,0.77)),('Neo-Ass','Assyria',(0.78,0.69,0.61))]:
-    d=NT[NT.region==reg]; ds=NTS[NTS.region==reg]
-    ck(f"T31 {lab} bin", B(d), vals[0],2)
-    ck(f"T31 {lab} macro", G(ds)['macro'], vals[1],2)
-    ck(f"T31 {lab} micro", G(ds)['micro'], vals[2],2)
 lead   = B(TE[TE.filename=='BM.108874.txt']) - B(TE[TE.filename.isin(MAT)])
 lead_i = C.ldi(AK(TE[TE.filename=='BM.108874.txt']),monogram_as_log=True)[0] - \
          C.ldi(AK(TE[TE.filename.isin(MAT)]),monogram_as_log=True)[0]
@@ -620,13 +614,30 @@ CMPW = load_stripped(lambda r: r in ('_comparanda/Maqlu-K.2385.txt',
 CMPS = load_stripped(lambda r: r in ('_comparanda/Maqlu-K.2385.txt',
                                      '_comparanda/Great-Prayer-to-Nabu-K.2361.txt'),
                      annotate=C.annotate_signs)
-for f,lab,lines,vals in [('Maqlu-K.2385.txt','Maqlu',119,(0.60,0.53,0.46)),
-                         ('Great-Prayer-to-Nabu-K.2361.txt','Nabu',184,(0.08,0.06,0.04))]:
+for f,lab,lines,vals in [('Maqlu-K.2385.txt','Maqlu',119,(0.60,0.53,0.46,45.8,13.6,40.6)),
+                         ('Great-Prayer-to-Nabu-K.2361.txt','Nabu',184,(0.08,0.06,0.04,5.1,3.3,91.5))]:
     d=CMPW[CMPW.filename==f]; ds=CMPS[CMPS.filename==f]
     ck(f"T32 {lab} lines", nom(d), lines,'int')
     ck(f"T32 {lab} bin",  B(d), vals[0],2)
     ck(f"T32 {lab} macro",G(ds)['macro'], vals[1],2)
     ck(f"T32 {lab} micro",G(ds)['micro'], vals[2],2)
+    g = G(ds); n = g['pure']+g['mixed']+g['syllabic']
+    ck(f"T32 {lab} pure",  100*g['pure']/n,  vals[3],'pct1')
+    ck(f"T32 {lab} mixed", 100*g['mixed']/n, vals[4],'pct1')
+    ck(f"T32 {lab} syll",  100*g['syllabic']/n, vals[5],'pct1')
+
+# Table 32's reference band: the range across the five Neo disciplines
+_band = {}
+for _g in ('astrological omens','diagnostic omens','extispicy omens',
+           'izbu omens','terrestrial omens'):
+    _gg = G(CS[(CS.genre==_g)&(CS.era=='Neo Period')])
+    _n = _gg['pure']+_gg['mixed']+_gg['syllabic']
+    for _k in ('pure','mixed','syllabic'):
+        _band.setdefault(_k, []).append(100*_gg[_k]/_n)
+for _k,_lab,_lo,_hi in [('pure','pure',44.8,64.8),('mixed','mixed',13.0,29.7),
+                        ('syllabic','syll',16.8,29.0)]:
+    ck(f"T32 band {_lab} low",  min(_band[_k]), _lo,'pct1')
+    ck(f"T32 band {_lab} high", max(_band[_k]), _hi,'pct1')
 ck("4.1 LB2126 bin", B(CW[CW.filename=='LB.2126.txt']), 0.03, 2)
 E700 = load_stripped(lambda r: r=='middle/terrestrial/Emar.700.txt')
 ck("n103 Emar700 bin", B(E700), 1.00, 2)
@@ -642,7 +653,7 @@ n_gt  = sum(1 for _,_,ma,mi in per if ma>mi+eps)
 n_eq  = sum(1 for _,_,ma,mi in per if abs(ma-mi)<=eps)
 n_lt  = sum(1 for _,_,ma,mi in per if mi>ma+eps)
 n_mb  = sum(1 for _,bn,ma,mi in per if mi>bn+eps)
-ck("n22 macro>micro texts", n_gt, 182,'int')
+ck("n22 macro>micro texts", n_gt, 181,'int')
 ck("n22 macro=micro texts", n_eq, 7,'int')
 ck("n22 micro>macro texts", n_lt, 7,'int')
 ck("n22 micro>bin texts",   n_mb, 3,'int')
