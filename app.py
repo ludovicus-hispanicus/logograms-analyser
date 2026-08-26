@@ -763,7 +763,25 @@ PERIOD_MAPPING = {
     "Late Babylonian": "Neo-Babylonian/Assyrian + Late Babylonian",
     "Late-Babylonian": "Neo-Babylonian/Assyrian + Late Babylonian",
     "Neo-Assyrian / Late Babylonian": "Neo-Babylonian/Assyrian + Late Babylonian",
+    # The post-Achaemenid horizon: scholarly tablets of these dates belong to the
+    # Late Babylonian tradition the third bucket already stands for, so a text
+    # dated by dynasty rather than by ductus still lands in a period the charts
+    # can plot. Only the corpus uses the labels above; these serve imports.
+    "Achaemenid": "Neo-Babylonian/Assyrian + Late Babylonian",
+    "Persian": "Neo-Babylonian/Assyrian + Late Babylonian",
+    "Seleucid": "Neo-Babylonian/Assyrian + Late Babylonian",
+    "Hellenistic": "Neo-Babylonian/Assyrian + Late Babylonian",
+    "Parthian": "Neo-Babylonian/Assyrian + Late Babylonian",
+    "Arsacid": "Neo-Babylonian/Assyrian + Late Babylonian",
 }
+
+def period_is_plottable(period):
+    """True if this (already broad-mapped) period is one the charts can place.
+
+    Anything else — no `period:` at all, or a label the mapping does not know —
+    is counted in pooled figures but has no period to sit at, so the app flags
+    it and offers the text for editing rather than guessing a date for it."""
+    return period in PERIOD_ORDER
 
 # Display names for the (normalized) genre keys, shown in the UI/charts.
 REPORT_COLS = ["texts", "omens", "bin", "macro", "micro",
@@ -806,9 +824,32 @@ def with_active(frame, monogram):
     frame['_deg'] = frame['_anl'] / den.where(den > 0)    # per-word logogram fraction (NaN if no signs)
     return frame
 
+# Memoization for trio()/comp(). The slices handed to them are row-subsets of the
+# session-cached frames (rebuilt only on a corpus load/import), so a (frame
+# namespace, row index) pair pins the result exactly: the report tables — dozens
+# of trio() calls over the same slices on every rerun — become dictionary
+# lookups. Frames that change under the user's hands (the Editor's scored
+# buffers, uploads) carry no namespace and are never memoized. The namespace is
+# stamped onto the frames where they are built (see the FRAMES block) and rides
+# through slicing via DataFrame.attrs; the store is cleared there too.
+def _slice_key(sub, *flags):
+    if sub is None:
+        return None
+    ns = sub.attrs.get('_memo_ns')
+    if ns is None:
+        return None
+    try:
+        return (ns, len(sub), hash(sub.index.to_numpy().tobytes())) + flags
+    except (TypeError, ValueError):
+        return None
+
 # (bin, macro, micro) for any slice, for a given monogram setting. Omen particles
 # (DIŠ, BE, …) are logograms and are counted as such unless no_particles is set.
 def trio(sub, monogram, no_particles=False):
+    _key = _slice_key(sub, 'trio', monogram, no_particles)
+    _memo = st.session_state.setdefault('_slice_memo', {})
+    if _key is not None and _key in _memo:
+        return _memo[_key]
     sub = _drop_contentless(sub)   # lone-DIŠ / all-broken omens carry no signal
     if no_particles:
         sub = _drop_particles(sub)
@@ -824,18 +865,27 @@ def trio(sub, monogram, no_particles=False):
     den = (anl + anph)
     deg = anl / den.where(den > 0)
     macro = deg[is_g].mean() if is_g.any() else float('nan')
+    if _key is not None:
+        _memo[_key] = (binv, macro, micro)
     return binv, macro, micro
 
 # Word composition (pure-logographic / mixed / syllabic) for any slice — the
 # breakdown the three measures summarise. Same conventions as trio().
 def comp(sub, monogram, no_particles=False):
+    _key = _slice_key(sub, 'comp', monogram, no_particles)
+    _memo = st.session_state.setdefault('_slice_memo', {})
+    if _key is not None and _key in _memo:
+        return _memo[_key]
     sub = _drop_contentless(sub)
     if no_particles:
         sub = _drop_particles(sub)
     sub = sub[sub['type'].isin(['logogram', 'phonetic'])]   # determinatives excluded
     ma = sub['_mono'] & monogram
-    return word_composition(sub['_nl'] + ma.astype(int),
-                            sub['_nph'] - ma.astype(int))
+    out = word_composition(sub['_nl'] + ma.astype(int),
+                           sub['_nph'] - ma.astype(int))
+    if _key is not None:
+        _memo[_key] = out
+    return out
 
 def _fmt(v):
     return f"{v:.3f}" if pd.notna(v) else "–"
@@ -1612,7 +1662,11 @@ def catalogue_rows():
     Reads the raw frontmatter (not just yaml) so the inline `# reason` after an
     `exclude:` line is preserved. Cached; use catalogue_rows.clear() to refresh."""
     rows = []
-    for dp, _, fs in os.walk("data"):
+    for dp, dirs, fs in os.walk("data"):
+        # The catalogue describes the published corpus — the manuscripts the
+        # article stands on, with their editions and eBL links. Texts the reader
+        # imported are theirs, not the catalogue's, so _custom is walked past.
+        dirs[:] = [d for d in dirs if os.path.join(dp, d) != CUSTOM_DIR]
         for f in sorted(fs):
             if not f.endswith(".txt"):
                 continue
@@ -1680,13 +1734,18 @@ def catalogue_ldi():
 
     Cached in session state against the token count, so an import or a reset
     recomputes it; the Sources tab's ↻ Refresh drops it explicitly."""
-    anns = (list(st.session_state.get('annotations', []))
-            + list(st.session_state.get('supplementary', []))
-            + list(st.session_state.get('comparanda', []))
-            + list(st.session_state.get('heldout', [])))
+    sets = (st.session_state.get('annotations', []),
+            st.session_state.get('supplementary', []),
+            st.session_state.get('comparanda', []),
+            st.session_state.get('heldout', []))
+    # The cache check runs on every rerun, so it must not pay for concatenating
+    # ~100k token dicts just to take a length: sum the lengths, and build the
+    # combined list only on a miss.
+    n_anns = sum(len(s) for s in sets)
     cached = st.session_state.get('_cat_ldi')
-    if cached and cached[0] == len(anns):
+    if cached and cached[0] == n_anns:
         return cached[1]
+    anns = [a for s in sets for a in s]
 
     out = {}
     d = pd.DataFrame(anns)
@@ -1712,7 +1771,7 @@ def catalogue_ldi():
             out[f] = {"bin": binv[f], "macro": macro[f], "micro": micro[f],
                       "pure": pu, "mixed": mx, "syll": sy,
                       "words": int(words[f]), "omens": int(omens.get(f, 0))}
-    st.session_state['_cat_ldi'] = (len(anns), out)
+    st.session_state['_cat_ldi'] = (n_anns, out)
     return out
 
 # Columns shown by default; the rest are opt-in from the "add columns" picker, so
@@ -1849,23 +1908,38 @@ def region_or_unknown(prov, period_raw):
     short = _DUCTUS_SHORT.get(str(period_raw).strip())
     return f"Unknown {short}" if short else "Unassigned"
 
+# Where imported texts are filed. The leading underscore is what keeps them out
+# of the published corpus: load_local_data skips "_"-prefixed folders when it
+# walks data/, exactly as it does for _comparanda. So an import is permanent on
+# disk and travels with the app, but never silently joins the counts the article
+# reports — it is loaded as its own set and the reader chooses the scope.
+CUSTOM_DIR = os.path.join("data", "_custom")
+
 # Broad period → data/ subfolder, for saving edited/imported texts back to disk.
 PERIOD_FOLDER = {
     "Old Babylonian": "old",
     "Middle Babylonian/Assyrian": "middle",
     "Neo-Babylonian/Assyrian + Late Babylonian": "new",
 }
-def data_path_for(period, genre, filename, subfolder=None):
+def data_path_for(period, genre, filename, subfolder=None, root="data"):
     """Where a text with this (raw) period/genre should live under data/.
 
     `subfolder` is the optional path below the discipline — "liver/martu",
     "EAE20" — which is how the corpus nests, and which the loader reads back as
     topic and feature. Segments are sanitised and any .. is dropped, so a text
-    can never be written outside data/."""
+    can never be written outside data/.
+
+    `root` is the tree it is filed into: "data" for the published corpus,
+    CUSTOM_DIR for texts the reader imports (see the Upload dialog)."""
     broad = PERIOD_MAPPING.get(period, period)
-    pf = PERIOD_FOLDER.get(broad, "new")
+    # A text whose period is missing or unrecognised is filed under
+    # `unspecified/`, NOT under `new/`: the loader reads a text's period off its
+    # folder when the frontmatter is silent, so the old fallback quietly dated
+    # every undated import to the first millennium. `unspecified` reads back as a
+    # period no chart can place, which is what puts it in front of the reader.
+    pf = PERIOD_FOLDER.get(broad, "unspecified")
     gf = re.sub(r"[^a-z0-9]+", "-", str(genre).lower()).strip("-") or "unspecified"
-    parts = ["data", pf, gf]
+    parts = list(os.path.normpath(root).split(os.sep)) + [pf, gf]
     for seg in str(subfolder or "").replace("\\", "/").split("/"):
         seg = re.sub(r"[^A-Za-z0-9._-]+", "-", seg.strip()).strip("-.")
         if seg and seg not in (".", ".."):
@@ -2518,6 +2592,19 @@ def _reload_corpus():
     st.session_state['annotations_pres'] = load_local_data(preserved_only=True)
     st.session_state['text_sources'] = src
 
+def _reload_custom():
+    """Re-read the reader's own corpus (data/_custom) after writing to it."""
+    src = {}
+    if os.path.isdir(CUSTOM_DIR):
+        st.session_state['custom'] = load_local_data(
+            CUSTOM_DIR, include_excluded=True, sources=src, preserved_only=False)
+        st.session_state['custom_pres'] = load_local_data(
+            CUSTOM_DIR, include_excluded=True, preserved_only=True)
+    else:
+        st.session_state['custom'] = []
+        st.session_state['custom_pres'] = []
+    st.session_state.setdefault('text_sources', {}).update(src)
+
 def _front_pg(content):
     """Read period/genre from a text's YAML frontmatter (to choose its data/ path)."""
     period, genre, folder = "Unspecified", "Unspecified", ""
@@ -2533,13 +2620,13 @@ def _front_pg(content):
                 pass
     return period, genre, folder
 
-def _persist_text(filename, content, period=None, genre=None, subfolder=None):
+def _persist_text(filename, content, period=None, genre=None, subfolder=None, root="data"):
     """Write a text into data/ at its period/genre-derived path; return the path."""
     _p, _g, _sub = _front_pg(content)
     period = _p if period is None else period
     genre = _g if genre is None else genre
     path = data_path_for(period, genre, filename,
-                         _sub if subfolder is None else subfolder)
+                         _sub if subfolder is None else subfolder, root=root)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(content)
@@ -2956,6 +3043,23 @@ if 'comparanda' not in st.session_state:
         "data/_comparanda", include_excluded=True, preserved_only=True)
     st.session_state.setdefault('text_sources', {}).update(_csrc)
 
+# Imported texts (data/_custom) — the reader's own corpus. Loaded as its own set,
+# never folded into the published corpus; the scope switch on the LDI page decides
+# whether the analyses read the published corpus, these, or both.
+if 'custom' not in st.session_state:
+    # Absent until the reader imports something, so the load is guarded:
+    # load_local_data reports a missing directory as an error banner.
+    _custsrc = {}
+    if os.path.isdir(CUSTOM_DIR):
+        st.session_state['custom'] = load_local_data(
+            CUSTOM_DIR, include_excluded=True, sources=_custsrc, preserved_only=False)
+        st.session_state['custom_pres'] = load_local_data(
+            CUSTOM_DIR, include_excluded=True, preserved_only=True)
+    else:
+        st.session_state['custom'] = []
+        st.session_state['custom_pres'] = []
+    st.session_state.setdefault('text_sources', {}).update(_custsrc)
+
 # Supplementary witnesses (data/kal5) — held out of the LDI counts but browsable
 # in the Text tab alongside the corpus and comparanda.
 if 'supplementary' not in st.session_state:
@@ -3260,10 +3364,13 @@ elif page == "Editor":
     @st.dialog("Upload", width="large")
     def _dlg_upload():
         """One text or a batch, filed into data/ by each text's own frontmatter."""
-        st.caption("One file, several at once, or a whole folder as a .zip. Each text "
-                   "is filed by its own frontmatter: the period folds into "
+        st.caption("One file, several at once, or a whole folder as a .zip. Imported "
+                   "texts are kept as **your own corpus** under `data/_custom/` — "
+                   "permanent on disk, and never folded into the published corpus. "
+                   "Each text is filed by its own frontmatter: the period folds into "
                    "`old` / `middle` / `new`, the discipline becomes the folder under "
-                   "it. A text without them lands in `data/new/unspecified/`.")
+                   "it. A text without them lands under `new/unspecified/`. The scope "
+                   "switch on the LDI page reads the published corpus, yours, or both.")
         _files = st.file_uploader("eBL-ATF .txt file(s)", type=["txt"],
                                   accept_multiple_files=True, key="ed_up")
         _zip = st.file_uploader("…or a .zip of a data folder", type=["zip"], key="ed_upzip")
@@ -3304,24 +3411,55 @@ elif page == "Editor":
                 st.warning("Nothing to upload — add a file, a .zip or a folder above.")
                 return
             _paths = [_persist_text(_fn, _txt,
-                                    subfolder=(_front_pg(_txt)[2] or _dest.strip() or None))
+                                    subfolder=(_front_pg(_txt)[2] or _dest.strip() or None),
+                                    root=CUSTOM_DIR)
                       for _fn, _txt in _items]
-            _reload_corpus()
-            if _also:
-                for (_fn, _txt), _pt in zip(_items, _paths):
+            _reload_custom()
+            # Texts the charts cannot place — no `period:`, or a label the
+            # mapping does not know. They are never silently dated: they open in
+            # the editor with the frontmatter waiting, and a banner says so.
+            _needs = []
+            for (_fn, _txt), _pt in zip(_items, _paths):
+                _raw = _front_pg(_txt)[0]
+                if not period_is_plottable(PERIOD_MAPPING.get(_raw, _raw)):
+                    _needs.append(_fn)
                     _open_buffer(_fn, _txt, _pt)
-            st.success(f"Filed {len(_paths)} text(s) into data/ and re-read the corpus.")
+                elif _also:
+                    _open_buffer(_fn, _txt, _pt)
+            st.session_state['needs_period'] = _needs
+            st.success(f"Filed {len(_paths)} text(s) into your corpus "
+                       f"(`{CUSTOM_DIR}`). Pick the scope on the LDI page to analyse them.")
+            if _needs:
+                st.warning(
+                    f"**{len(_needs)} text(s) carry no period the charts can place.** "
+                    "Their omens are counted in the pooled totals but sit at no point "
+                    "on the diachronic axis. They are open in the Editor — add a "
+                    "`period:` line to the frontmatter and save.\n\n"
+                    + "\n".join(f"- `{_n}`" for _n in _needs))
             for _pt in _paths[:8]:
                 st.caption(f"`{_pt}`")
             if len(_paths) > 8:
                 st.caption(f"… and {len(_paths) - 8} more.")
 
         st.divider()
-        st.caption("Undo session imports and read data/ from disk again.")
-        if st.button("Reset to the built-in corpus", key="ed_reset"):
-            st.session_state['annotations'] = load_local_data(preserved_only=False)
-            st.session_state['annotations_pres'] = load_local_data(preserved_only=True)
-            st.success("Reloaded the built-in corpus.")
+        _n_cust = len({_a['filename'] for _a in st.session_state.get('custom') or []})
+        if _n_cust:
+            st.caption(f"Your corpus holds **{_n_cust} text(s)** under `{CUSTOM_DIR}`. "
+                       "Discarding deletes those files from disk; the published corpus "
+                       "is untouched.")
+            if st.button(f"🗑 Discard my corpus ({_n_cust} text(s))", key="ed_dropcustom"):
+                shutil.rmtree(CUSTOM_DIR, ignore_errors=True)
+                _reload_custom()
+                st.session_state['corpus_scope'] = "Published"
+                st.success("Removed your imported texts; the published corpus is unchanged.")
+        else:
+            st.caption("Nothing imported yet. Uploaded texts are kept as your own corpus, "
+                       "separate from the published one.")
+
+        st.caption("Read the published corpus from disk again.")
+        if st.button("Reload the published corpus", key="ed_reset"):
+            _reload_corpus()
+            st.success("Reloaded the published corpus.")
 
     _ensure_open()
 
@@ -4079,7 +4217,37 @@ elif st.session_state['annotations']:
 
 
 
-    def build_frames(anns, comps, supps=None, helds=None):
+    # --- Corpus scope: whose texts the analyses read -------------------------
+    # Imports live in their own set (data/_custom), so the published corpus keeps
+    # reporting the article's figures whatever the reader adds. This switch says
+    # which set the LDI pages score: the published corpus, the reader's own, or
+    # the two pooled. It only appears once something has been imported.
+    CORPUS_SCOPES = ["Published", "My texts", "Both"]
+    _has_custom = bool(st.session_state.get('custom'))
+    _scope = st.session_state.get('corpus_scope', "Published")
+    if not _has_custom or _scope not in CORPUS_SCOPES:
+        _scope = "Published"      # nothing imported: only one set to read
+
+    def scoped_anns(preserved):
+        """The token list the analyses run on, for one display mode.
+
+        A set whose preserved-only pass came back empty falls back to its full
+        text, as the frames did before the scope existed: build_frames needs a
+        non-empty frame to derive its columns from."""
+        def _one(full_key, pres_key):
+            if not preserved:
+                return list(st.session_state.get(full_key) or ())
+            return list(st.session_state.get(pres_key)
+                        or st.session_state.get(full_key) or ())
+        base = _one('annotations', 'annotations_pres')
+        mine = _one('custom', 'custom_pres')
+        if _scope == "My texts":
+            return mine
+        if _scope == "Both":
+            return base + mine
+        return base
+
+    def build_frames(anns, comps, supps=None, helds=None, custs=None):
         """Prepare one display mode's frames from a token list: the main df (genre
         display names, sign enrichment, region, section), the unique-omen frame, the
         bin/graded frames (determinatives excluded), the enriched comparanda df, and
@@ -4103,7 +4271,8 @@ elif st.session_state['annotations']:
                 hd = enrich_signs(hd)
             return hd
         return {'df': d, 'uo': uo, 'bframe': d[lp], 'gframe': d[lp],
-                'comp': _held(comps), 'supp': _held(supps), 'held': _held(helds)}
+                'comp': _held(comps), 'supp': _held(supps), 'held': _held(helds),
+                'cust': _held(custs)}
 
     # Both display modes, so the report's "restor." column can be filled from the
     # preserved-only slice without reloading.
@@ -4113,6 +4282,8 @@ elif st.session_state['annotations']:
     # per row, twice (full text and preserved-only). Rebuilding that on a click cost
     # ~20 s a view; the annotations only change on load/import, so key the cache on
     # their size and reuse the frames until they do.
+    # The scope is part of the signature: switching it rebuilds the frames and
+    # drops the slice memo and the per-view caches with them.
     _frames_sig = (len(st.session_state['annotations']),
                    len(st.session_state.get('annotations_pres') or ()),
                    len(st.session_state.get('comparanda') or ()),
@@ -4120,24 +4291,55 @@ elif st.session_state['annotations']:
                    len(st.session_state.get('supplementary') or ()),
                    len(st.session_state.get('supplementary_pres') or ()),
                    len(st.session_state.get('heldout') or ()),
-                   len(st.session_state.get('heldout_pres') or ()))
+                   len(st.session_state.get('heldout_pres') or ()),
+                   len(st.session_state.get('custom') or ()),
+                   len(st.session_state.get('custom_pres') or ()),
+                   _scope)
     if st.session_state.get('_frames_sig') != _frames_sig:
         st.session_state['_frames'] = {
-            False: build_frames(st.session_state['annotations'],
+            False: build_frames(scoped_anns(False),
                                 st.session_state.get('comparanda', []),
                                 st.session_state.get('supplementary', []),
-                                st.session_state.get('heldout', [])),
-            True:  build_frames(st.session_state.get('annotations_pres', st.session_state['annotations']),
+                                st.session_state.get('heldout', []),
+                                st.session_state.get('custom', [])),
+            True:  build_frames(scoped_anns(True),
                                 st.session_state.get('comparanda_pres', st.session_state.get('comparanda', [])),
                                 st.session_state.get('supplementary_pres', st.session_state.get('supplementary', [])),
-                                st.session_state.get('heldout_pres', st.session_state.get('heldout', []))),
+                                st.session_state.get('heldout_pres', st.session_state.get('heldout', [])),
+                                st.session_state.get('custom_pres', st.session_state.get('custom', []))),
         }
+        # Stamp the memo namespace trio()/comp() key on (see _slice_key): df/uo/
+        # bframe/gframe are row-subsets of one parent and share a namespace; the
+        # comparanda/supplementary/held-out frames have their own row numbering,
+        # so each gets its own. Rides through slicing via DataFrame.attrs.
+        for _mode, _fset in st.session_state['_frames'].items():
+            for _fname, _fval in _fset.items():
+                if isinstance(_fval, pd.DataFrame):
+                    _ns = 'corpus' if _fname in ('df', 'uo', 'bframe', 'gframe') else _fname
+                    _fval.attrs['_memo_ns'] = (_ns, _mode, _frames_sig)
+        st.session_state['_slice_memo'] = {}
         st.session_state['_frames_sig'] = _frames_sig
     FRAMES = st.session_state['_frames']
 
     def pick(preserved):
         """Frame-set (df, uo, bframe, gframe, comp) for a chart's restorations choice."""
         return FRAMES[bool(preserved)]
+
+    def view_cache(key, builder):
+        """One view's computed tables and chart frames, kept until the corpus changes.
+
+        The slices and groupbys behind a report table or trend frame come out
+        identical on every rerun of a view — only a corpus load/import changes
+        them — so each view parks its finished artifacts here, keyed like
+        _frames above, and a tab switch stops paying for pandas passes it
+        already made."""
+        store = st.session_state.setdefault('_view_cache', {})
+        if store.get('_sig') != _frames_sig:
+            store.clear()
+            store['_sig'] = _frames_sig
+        if key not in store:
+            store[key] = builder()
+        return store[key]
 
     # Defaults = full text; each page/chart rebinds these to its own mode via pick().
     _F = FRAMES[False]
@@ -4349,6 +4551,47 @@ elif st.session_state['annotations']:
             st.markdown(f'<div class="setlabel">{LDI_TITLES.get(ldi_view, "LDI")}</div>',
                         unsafe_allow_html=True)
 
+        # Scope switch — only once the reader has a corpus of their own to
+        # choose between. Changing it re-signs the frames, so every table and
+        # chart below is rebuilt against the chosen set.
+        if _has_custom:
+            _n_mine = len({_a['filename'] for _a in st.session_state['custom']})
+            _n_pub = len({_a['filename'] for _a in st.session_state['annotations']})
+            with st.container(key="scopepick"):
+                _sc_kw = ({} if 'corpus_scope' in st.session_state
+                          else {'default': "Published"})
+                st.segmented_control(
+                    "Corpus scope", CORPUS_SCOPES, key='corpus_scope',
+                    label_visibility="collapsed", **_sc_kw)
+                _scope_says = {
+                    "Published": f"the published corpus ({_n_pub} texts)",
+                    "My texts": f"your {_n_mine} imported text(s)",
+                    "Both": f"the published corpus and yours pooled "
+                            f"({_n_pub + _n_mine} texts)",
+                }[_scope]
+                st.caption(f"Scoring **{_scope_says}**. Imports are kept under "
+                           f"`{CUSTOM_DIR}` and never change the published figures.")
+
+        # Texts in the scored set that no chart can place. Read off the frames,
+        # so the banner reflects what is loaded now, not what was last imported:
+        # fix a text's frontmatter and the banner goes on the next rerun.
+        _uo_all = FRAMES[False]['uo']
+        _stray = sorted(
+            _uo_all[~_uo_all['period'].map(period_is_plottable)]['filename'].unique())
+        if _stray:
+            _shown = ", ".join(f"`{_s}`" for _s in _stray[:6])
+            _more = f" … and {len(_stray) - 6} more" if len(_stray) > 6 else ""
+            _b1, _b2 = st.columns([5, 1], vertical_alignment="center")
+            _b1.warning(
+                f"**{len(_stray)} text(s) have no period the charts can place.** "
+                "Their omens count towards the pooled totals but appear in no "
+                f"period row, so the columns will not add up: {_shown}{_more}. "
+                "Add a `period:` line to the frontmatter.")
+            if _b2.button("Open in Editor", key="fix_periods"):
+                _opened = [_s for _s in _stray if open_in_editor(_s)]
+                st.session_state['needs_period'] = _opened
+                st.rerun()
+
     # --- LDI ▸ Overview (formerly the "Global" tab) ---
     if page == "LDI" and ldi_view == "Overview":
         # Page-level controls drive both the LDI-by-Period table and the trend chart.
@@ -4368,19 +4611,34 @@ elif st.session_state['annotations']:
             return f"{v:.2f}" if pd.notna(v) else "–"
 
         _FULL, _PRES = FRAMES[False]['df'], FRAMES[True]['df']
-        rows, idx, chart_pts = [], [], []
-        for period in PERIOD_ORDER + ["Total"]:
-            uo = unique_omens_df if period == "Total" else unique_omens_df[unique_omens_df['period'] == period]
-            if uo.empty:
-                continue
-            full = _FULL if period == "Total" else _FULL[_FULL['period'] == period]
-            pres = _PRES if period == "Total" else _PRES[_PRES['period'] == period]
-            rows.append(report_row(full, pres, uo))
-            idx.append(period_disp(period))
-            if period != "Total":   # the trend chart plots periods only, not the pooled Total
-                dd = df if period == "Total" else df[df['period'] == period]
-                b, ma, mi = trio(dd, mono, nopart)   # canonical: the table prices the rest
-                chart_pts.append({'period': period_disp(period), 'bin': b, 'macro': ma, 'micro': mi})
+
+        def _build_period_report():
+            rows, idx, chart_pts = [], [], []
+            # Undated / unmapped texts get a row of their own before the Total, so
+            # the period column still sums to it. They have no place on the trend
+            # chart, which is exactly what the banner above the table warns about.
+            _unplot = [p for p in unique_omens_df['period'].dropna().unique()
+                       if not period_is_plottable(p)]
+            for period in PERIOD_ORDER + (["Undated"] if _unplot else []) + ["Total"]:
+                if period == "Undated":
+                    uo = unique_omens_df[unique_omens_df['period'].isin(_unplot)]
+                    full = _FULL[_FULL['period'].isin(_unplot)]
+                    prs = _PRES[_PRES['period'].isin(_unplot)]
+                else:
+                    uo = unique_omens_df if period == "Total" else unique_omens_df[unique_omens_df['period'] == period]
+                    full = _FULL if period == "Total" else _FULL[_FULL['period'] == period]
+                    prs = _PRES if period == "Total" else _PRES[_PRES['period'] == period]
+                if uo.empty:
+                    continue
+                rows.append(report_row(full, prs, uo))
+                idx.append("Undated" if period == "Undated" else period_disp(period))
+                # the trend chart plots the datable periods only
+                if period in PERIOD_ORDER:
+                    dd = df[df['period'] == period]
+                    b, ma, mi = trio(dd, mono, nopart)   # canonical: the table prices the rest
+                    chart_pts.append({'period': period_disp(period), 'bin': b, 'macro': ma, 'micro': mi})
+            return rows, idx, chart_pts
+        rows, idx, chart_pts = view_cache('overview_period', _build_period_report)
 
         if rows:
             ptdf = pd.DataFrame(rows, index=idx, columns=REPORT_COLS)
@@ -4416,13 +4674,16 @@ elif st.session_state['annotations']:
 
         # The standard report, one row per discipline, pooled across periods.
         _DFULL, _DPRES, _DUO = FRAMES[False]['df'], FRAMES[True]['df'], FRAMES[False]['uo']
-        _dsl = []
-        for _g in sorted(_DFULL['genre'].dropna().unique(),
-                         key=lambda x: -len(_DFULL[_DFULL['genre'] == x])):
-            _dsl.append((str(_g), _DFULL[_DFULL['genre'] == _g],
-                         _DPRES[_DPRES['genre'] == _g], _DUO[_DUO['genre'] == _g]))
-        _dsl.append(("Total", _DFULL, _DPRES, _DUO))
-        _dtab = standard_table(_dsl, "Discipline")
+
+        def _build_discipline_report():
+            _dsl = []
+            for _g in sorted(_DFULL['genre'].dropna().unique(),
+                             key=lambda x: -len(_DFULL[_DFULL['genre'] == x])):
+                _dsl.append((str(_g), _DFULL[_DFULL['genre'] == _g],
+                             _DPRES[_DPRES['genre'] == _g], _DUO[_DUO['genre'] == _g]))
+            _dsl.append(("Total", _DFULL, _DPRES, _DUO))
+            return standard_table(_dsl, "Discipline")
+        _dtab = view_cache('overview_discipline', _build_discipline_report)
         if _dtab is not None:
             st.caption(STANDARD_CAPTION + " **Total** pools across disciplines.")
             render_table_with_copy(report_style(_dtab), _dtab, "discipline_ldi")
@@ -4430,17 +4691,19 @@ elif st.session_state['annotations']:
         if not bframe.empty:
             st.markdown('<div class="charttitle">Pooled LDI per discipline, '
                         'across periods</div>', unsafe_allow_html=True)
-            bf, gf = with_active(bframe, mono), with_active(gframe, mono)
             # One pooled trend line per genre, across periods (Old -> Middle -> Neo).
-            gpk = ['genre', 'period']
-            t_bin = bf.groupby(gpk)['_islog'].mean().rename('bin')
-            t_agg = gf.groupby(gpk).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-            t_agg['micro'] = t_agg['_nl'] / (t_agg['_nl'] + t_agg['_np']).where((t_agg['_nl'] + t_agg['_np']) > 0)
-            t_n = unique_omens_df.groupby(gpk).size().rename('n')
-            trend = pd.concat([t_bin, t_agg[['macro', 'micro']], t_n], axis=1).reset_index()
-            trend = trend.dropna(subset=['genre', 'period'])
-            trend['period'] = pd.Categorical(trend['period'], categories=PERIOD_ORDER, ordered=True)
-            trend = trend.sort_values(['genre', 'period'])
+            def _build_genre_trend():
+                bf, gf = with_active(bframe, mono), with_active(gframe, mono)
+                gpk = ['genre', 'period']
+                t_bin = bf.groupby(gpk)['_islog'].mean().rename('bin')
+                t_agg = gf.groupby(gpk).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                t_agg['micro'] = t_agg['_nl'] / (t_agg['_nl'] + t_agg['_np']).where((t_agg['_nl'] + t_agg['_np']) > 0)
+                t_n = unique_omens_df.groupby(gpk).size().rename('n')
+                trend = pd.concat([t_bin, t_agg[['macro', 'micro']], t_n], axis=1).reset_index()
+                trend = trend.dropna(subset=['genre', 'period'])
+                trend['period'] = pd.Categorical(trend['period'], categories=PERIOD_ORDER, ordered=True)
+                return trend.sort_values(['genre', 'period'])
+            trend = view_cache('overview_genre_trend', _build_genre_trend)
 
             def _chart(metric, trend=trend):
                 fig_trend = px.line(
@@ -4490,16 +4753,19 @@ elif st.session_state['annotations']:
         st.caption(STANDARD_CAPTION + " **Total** pools across regions.")
 
         _RFULL, _RPRES = FRAMES[False]['df'], FRAMES[True]['df']
-        _rsl = []
-        for region in REGION_ORDER + ["Total"]:
-            uo = unique_omens_df if region == "Total" else unique_omens_df[unique_omens_df['region'] == region]
-            if uo.empty:
-                continue
-            _rsl.append((region,
-                         _RFULL if region == "Total" else _RFULL[_RFULL['region'] == region],
-                         _RPRES if region == "Total" else _RPRES[_RPRES['region'] == region],
-                         uo))
-        rtdf = standard_table(_rsl, "Region")
+
+        def _build_region_report():
+            _rsl = []
+            for region in REGION_ORDER + ["Total"]:
+                uo = unique_omens_df if region == "Total" else unique_omens_df[unique_omens_df['region'] == region]
+                if uo.empty:
+                    continue
+                _rsl.append((region,
+                             _RFULL if region == "Total" else _RFULL[_RFULL['region'] == region],
+                             _RPRES if region == "Total" else _RPRES[_RPRES['region'] == region],
+                             uo))
+            return standard_table(_rsl, "Region")
+        rtdf = view_cache('region_report', _build_region_report)
         if rtdf is not None:
             rsty = report_style(rtdf)
             render_table_with_copy(rsty, rtdf, "region_ldi")
@@ -4512,16 +4778,18 @@ elif st.session_state['annotations']:
         if not bframe.empty:
             st.markdown('<div class="charttitle">Pooled LDI per region, '
                         'across periods</div>', unsafe_allow_html=True)
-            bf, gf = with_active(bframe, mono), with_active(gframe, mono)
-            rpk = ['region', 'period']
-            r_bin = bf.groupby(rpk)['_islog'].mean().rename('bin')
-            r_agg = gf.groupby(rpk).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-            r_agg['micro'] = r_agg['_nl'] / (r_agg['_nl'] + r_agg['_np']).where((r_agg['_nl'] + r_agg['_np']) > 0)
-            r_n = unique_omens_df.groupby(rpk).size().rename('n')
-            rtrend = pd.concat([r_bin, r_agg[['macro', 'micro']], r_n], axis=1).reset_index()
-            rtrend = rtrend.dropna(subset=['region', 'period'])
-            rtrend['period'] = pd.Categorical(rtrend['period'], categories=PERIOD_ORDER, ordered=True)
-            rtrend = rtrend.sort_values(['region', 'period'])
+            def _build_region_trend():
+                bf, gf = with_active(bframe, mono), with_active(gframe, mono)
+                rpk = ['region', 'period']
+                r_bin = bf.groupby(rpk)['_islog'].mean().rename('bin')
+                r_agg = gf.groupby(rpk).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                r_agg['micro'] = r_agg['_nl'] / (r_agg['_nl'] + r_agg['_np']).where((r_agg['_nl'] + r_agg['_np']) > 0)
+                r_n = unique_omens_df.groupby(rpk).size().rename('n')
+                rtrend = pd.concat([r_bin, r_agg[['macro', 'micro']], r_n], axis=1).reset_index()
+                rtrend = rtrend.dropna(subset=['region', 'period'])
+                rtrend['period'] = pd.Categorical(rtrend['period'], categories=PERIOD_ORDER, ordered=True)
+                return rtrend.sort_values(['region', 'period'])
+            rtrend = view_cache('region_trend', _build_region_trend)
 
             def _chart(metric, rtrend=rtrend):
                 fig_region = px.line(
@@ -4567,18 +4835,23 @@ elif st.session_state['annotations']:
         regions_present = [r for r in REGION_ORDER if (unique_omens_df['region'] == r).any()]
         genres_present = sorted(g for g in df['genre'].dropna().unique())
 
-        grx = []
-        for g in genres_present:
-            for r in regions_present:
-                sub = df[(df['genre'] == g) & (df['region'] == r)]
-                if sub.empty:
-                    continue
-                b, ma, mi = trio(sub, mono, nopart)
-                val = {'bin': b, 'macro': ma, 'micro': mi}[metric]
-                n = unique_omens_df[(unique_omens_df['genre'] == g)
-                                    & (unique_omens_df['region'] == r)].shape[0]
-                grx.append({'genre': GENRE_DISPLAY.get(g, str(g).title()),
-                            'region': r, 'ldi': val, 'n': n})
+        # The cells carry all three measures, so the matrix cache holds whatever
+        # the metric switch above asks for without recomputing.
+        def _build_region_matrix_cells():
+            cells = []
+            for g in genres_present:
+                for r in regions_present:
+                    sub = df[(df['genre'] == g) & (df['region'] == r)]
+                    if sub.empty:
+                        continue
+                    b, ma, mi = trio(sub, mono, nopart)
+                    n = unique_omens_df[(unique_omens_df['genre'] == g)
+                                        & (unique_omens_df['region'] == r)].shape[0]
+                    cells.append({'genre': GENRE_DISPLAY.get(g, str(g).title()),
+                                  'region': r, 'bin': b, 'macro': ma, 'micro': mi, 'n': n})
+            return cells
+        grx = [{'genre': c['genre'], 'region': c['region'], 'ldi': c[metric], 'n': c['n']}
+               for c in view_cache('region_matrix_cells', _build_region_matrix_cells)]
         grdf = pd.DataFrame(grx)
 
         if not grdf.empty:
@@ -4613,15 +4886,18 @@ elif st.session_state['annotations']:
                    "the region matters there.")
 
         if not bframe.empty:
-            bf, gf = with_active(bframe, mono), with_active(gframe, mono)
-            grp = ['genre', 'region', 'period']
-            gtb = bf.groupby(grp)['_islog'].mean().rename('bin')
-            gta = gf.groupby(grp).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-            gta['micro'] = gta['_nl'] / (gta['_nl'] + gta['_np']).where((gta['_nl'] + gta['_np']) > 0)
-            gtn = unique_omens_df.groupby(grp).size().rename('n')
-            gtr = pd.concat([gtb, gta[['macro', 'micro']], gtn], axis=1).reset_index()
-            gtr = gtr.dropna(subset=['genre', 'region', 'period'])
-            gtr['period'] = pd.Categorical(gtr['period'], categories=PERIOD_ORDER, ordered=True)
+            def _build_genre_region_trend():
+                bf, gf = with_active(bframe, mono), with_active(gframe, mono)
+                grp = ['genre', 'region', 'period']
+                gtb = bf.groupby(grp)['_islog'].mean().rename('bin')
+                gta = gf.groupby(grp).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                gta['micro'] = gta['_nl'] / (gta['_nl'] + gta['_np']).where((gta['_nl'] + gta['_np']) > 0)
+                gtn = unique_omens_df.groupby(grp).size().rename('n')
+                gtr = pd.concat([gtb, gta[['macro', 'micro']], gtn], axis=1).reset_index()
+                gtr = gtr.dropna(subset=['genre', 'region', 'period'])
+                gtr['period'] = pd.Categorical(gtr['period'], categories=PERIOD_ORDER, ordered=True)
+                return gtr
+            gtr = view_cache('region_genre_trend', _build_genre_region_trend)
 
             for g in genres_present:
                 sub = gtr[gtr['genre'] == g].sort_values(['region', 'period'])
@@ -4699,53 +4975,65 @@ elif st.session_state['annotations']:
         def _label_col(frame):
             return topic_labels(frame, EXT)
 
-        ext_df = df[df['genre'] == EXT].copy() if EXT else df.iloc[0:0].copy()
-        if ext_df.empty:
-            if EXT:
-                st.info(f"No {EXT} texts in the current corpus.")
-        else:
+        # Texts flagged `pooled_exclude` (orthographic outliers, e.g. a syllabic Babylonian
+        # copy filed under a Neo cell) are dropped from the pooled LDI / counts but still
+        # shown independently on the chart.
+        def _excl(frame):
+            if 'pooled_exclude' in frame.columns:
+                return frame['pooled_exclude'].fillna(False).astype(bool)
+            return pd.Series(False, index=frame.index)
+
+        def _build_topic_frames():
+            ext_df = df[df['genre'] == EXT].copy() if EXT else df.iloc[0:0].copy()
+            if ext_df.empty:
+                return None
             ext_df['topic_label'] = _label_col(ext_df)
             ext_uo = unique_omens_df[unique_omens_df['genre'] == EXT].copy()
             ext_uo['topic_label'] = _label_col(ext_uo)
             ext_lp = ext_df[ext_df['type'].isin(['logogram', 'phonetic'])]
-
-            # Texts flagged `pooled_exclude` (orthographic outliers, e.g. a syllabic Babylonian
-            # copy filed under a Neo cell) are dropped from the pooled LDI / counts but still
-            # shown independently on the chart.
-            def _excl(frame):
-                if 'pooled_exclude' in frame.columns:
-                    return frame['pooled_exclude'].fillna(False).astype(bool)
-                return pd.Series(False, index=frame.index)
-            ext_uo_pool = ext_uo[~_excl(ext_uo)]
-            ext_df_pool = ext_df[~_excl(ext_df)]
-            ext_lp_pool = ext_lp[~_excl(ext_lp)]
-            ext_lp_excl = ext_lp[_excl(ext_lp)]
-
-            periods_present = [p for p in PERIOD_ORDER if not ext_df[ext_df['period'] == p].empty]
+            return {'ext_df': ext_df, 'ext_uo': ext_uo, 'ext_lp': ext_lp,
+                    'ext_uo_pool': ext_uo[~_excl(ext_uo)],
+                    'ext_df_pool': ext_df[~_excl(ext_df)],
+                    'ext_lp_pool': ext_lp[~_excl(ext_lp)],
+                    'ext_lp_excl': ext_lp[_excl(ext_lp)],
+                    'periods_present': [p for p in PERIOD_ORDER
+                                        if not ext_df[ext_df['period'] == p].empty]}
+        _TF = view_cache(('topics_frames', EXT), _build_topic_frames)
+        if _TF is None:
+            if EXT:
+                st.info(f"No {EXT} texts in the current corpus.")
+        else:
+            ext_df, ext_uo, ext_lp = _TF['ext_df'], _TF['ext_uo'], _TF['ext_lp']
+            ext_uo_pool, ext_df_pool = _TF['ext_uo_pool'], _TF['ext_df_pool']
+            ext_lp_pool, ext_lp_excl = _TF['ext_lp_pool'], _TF['ext_lp_excl']
+            periods_present = _TF['periods_present']
             labels = list(ext_uo['topic_label'].dropna().unique())
             topics_present = sorted(
                 labels,
                 key=lambda l: (TOPIC_ORDER.index(l) if l in TOPIC_ORDER else len(TOPIC_ORDER), l))
 
             # Coverage table — omens (texts) per topic × period.
-            cov_rows = []
-            for tlab in topics_present:
-                tu = ext_uo[ext_uo['topic_label'] == tlab]
-                row = []
+            def _build_topic_coverage():
+                cov_rows = []
+                for tlab in topics_present:
+                    tu = ext_uo[ext_uo['topic_label'] == tlab]
+                    row = []
+                    for p in periods_present:
+                        tp = tu[tu['period'] == p]
+                        row.append(f"{len(tp)} ({tp['filename'].nunique()})" if len(tp) else "–")
+                    row.append(f"{len(tu)} ({tu['filename'].nunique()})")
+                    cov_rows.append(row)
+                trow = []
                 for p in periods_present:
-                    tp = tu[tu['period'] == p]
-                    row.append(f"{len(tp)} ({tp['filename'].nunique()})" if len(tp) else "–")
-                row.append(f"{len(tu)} ({tu['filename'].nunique()})")
-                cov_rows.append(row)
-            trow = []
-            for p in periods_present:
-                pp = ext_uo[ext_uo['period'] == p]
-                trow.append(f"{len(pp)} ({pp['filename'].nunique()})" if len(pp) else "–")
-            trow.append(f"{len(ext_uo)} ({ext_uo['filename'].nunique()})")
-            cov_rows.append(trow)
-            cov_df = pd.DataFrame(cov_rows, index=topics_present + ["Total"],
-                                  columns=[_short(p) for p in periods_present] + ["Total"])
-            cov_df.index.name = "Topic"
+                    pp = ext_uo[ext_uo['period'] == p]
+                    trow.append(f"{len(pp)} ({pp['filename'].nunique()})" if len(pp) else "–")
+                trow.append(f"{len(ext_uo)} ({ext_uo['filename'].nunique()})")
+                cov_rows.append(trow)
+                out = pd.DataFrame(cov_rows, index=topics_present + ["Total"],
+                                   columns=[_short(p) for p in periods_present] + ["Total"])
+                out.index.name = "Topic"
+                return out
+            cov_df = view_cache(('topics_cov', EXT), _build_topic_coverage)
             st.caption("**omens (texts)** per topic × period.")
             render_table_with_copy(_section_table_style(cov_df.style), cov_df, "topic_cov")
 
@@ -4754,44 +5042,51 @@ elif st.session_state['annotations']:
             # One chart per topic — each OMEN is a node, in chronological (period) order,
             # coloured by period (mirrors the Genre chart, but at omen level).
             for ti, tlab in enumerate(topics_present):
-                tb = with_active(ext_lp_pool[ext_lp_pool['topic_label'] == tlab], mono)
-                if tb.empty:
-                    continue
-                okeys = ['period', 'filename', 'omen_id']
-                o_bin = tb.groupby(okeys)['_islog'].mean().rename('bin')
-                o_agg = tb.groupby(okeys).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-                o_agg['micro'] = o_agg['_nl'] / (o_agg['_nl'] + o_agg['_np']).where((o_agg['_nl'] + o_agg['_np']) > 0)
-                ostats = pd.concat([o_bin, o_agg[['macro', 'micro']]], axis=1).reset_index()
-                ostats[['bin', 'macro', 'micro']] = ostats[['bin', 'macro', 'micro']].fillna(0.0)
-                ostats['period'] = pd.Categorical(ostats['period'], categories=PERIOD_ORDER, ordered=True)
-                ostats = ostats.sort_values(['period', 'filename', 'omen_id'])
-                if ostats.empty:
-                    continue
-                ostats['seq_index'] = range(len(ostats))
+                def _build_topic_stats(tlab=tlab):
+                    tb = with_active(ext_lp_pool[ext_lp_pool['topic_label'] == tlab], mono)
+                    if tb.empty:
+                        return None
+                    okeys = ['period', 'filename', 'omen_id']
+                    o_bin = tb.groupby(okeys)['_islog'].mean().rename('bin')
+                    o_agg = tb.groupby(okeys).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                    o_agg['micro'] = o_agg['_nl'] / (o_agg['_nl'] + o_agg['_np']).where((o_agg['_nl'] + o_agg['_np']) > 0)
+                    ostats = pd.concat([o_bin, o_agg[['macro', 'micro']]], axis=1).reset_index()
+                    ostats[['bin', 'macro', 'micro']] = ostats[['bin', 'macro', 'micro']].fillna(0.0)
+                    ostats['period'] = pd.Categorical(ostats['period'], categories=PERIOD_ORDER, ordered=True)
+                    ostats = ostats.sort_values(['period', 'filename', 'omen_id'])
+                    if ostats.empty:
+                        return None
+                    ostats['seq_index'] = range(len(ostats))
 
-                # Three LDI measures for this topic, by period — shown before the chart.
+                    # Three LDI measures for this topic, by period — shown before the chart.
+                    _TPRES = FRAMES[True]['df']
+                    _tsl = []
+                    for p in PERIOD_ORDER + ["Total"]:
+                        tuo = ext_uo_pool[ext_uo_pool['topic_label'] == tlab]
+                        tuo = tuo if p == "Total" else tuo[tuo['period'] == p]
+                        if tuo.empty:
+                            continue
+                        tdd = ext_df_pool[ext_df_pool['topic_label'] == tlab]
+                        tdd = tdd if p == "Total" else tdd[tdd['period'] == p]
+                        tpr = _TPRES[_TPRES['filename'].isin(tdd['filename'].unique())]
+                        tpr = tpr if p == "Total" else tpr[tpr['period'] == p]
+                        _tsl.append((period_disp(p), tdd, tpr, tuo))
+                    # Excluded texts get their own independent row (own LDI; not in the pooled rows).
+                    ex_tu_all = ext_uo[ext_uo['topic_label'] == tlab]
+                    ex_tu_all = ex_tu_all[_excl(ex_tu_all)]
+                    for fn in sorted(ex_tu_all['filename'].unique()):
+                        ftu = ex_tu_all[ex_tu_all['filename'] == fn]
+                        ftd = ext_df[(ext_df['topic_label'] == tlab) & (ext_df['filename'] == fn)]
+                        _tsl.append((f"{fn} (excl.)", ftd,
+                                     _TPRES[_TPRES['filename'] == fn], ftu))
+                    return {'tb': tb, 'ostats': ostats,
+                            'ltdf': standard_table(_tsl, "Period")}
+                _TS = view_cache(('topics_stats', EXT, tlab), _build_topic_stats)
+                if _TS is None:
+                    continue
+                tb, ostats, ltdf = _TS['tb'], _TS['ostats'], _TS['ltdf']
+                okeys = ['period', 'filename', 'omen_id']
                 st.markdown(f"#### {tlab}")
-                _TPRES = FRAMES[True]['df']
-                _tsl = []
-                for p in PERIOD_ORDER + ["Total"]:
-                    tuo = ext_uo_pool[ext_uo_pool['topic_label'] == tlab]
-                    tuo = tuo if p == "Total" else tuo[tuo['period'] == p]
-                    if tuo.empty:
-                        continue
-                    tdd = ext_df_pool[ext_df_pool['topic_label'] == tlab]
-                    tdd = tdd if p == "Total" else tdd[tdd['period'] == p]
-                    tpr = _TPRES[_TPRES['filename'].isin(tdd['filename'].unique())]
-                    tpr = tpr if p == "Total" else tpr[tpr['period'] == p]
-                    _tsl.append((period_disp(p), tdd, tpr, tuo))
-                # Excluded texts get their own independent row (own LDI; not in the pooled rows).
-                ex_tu_all = ext_uo[ext_uo['topic_label'] == tlab]
-                ex_tu_all = ex_tu_all[_excl(ex_tu_all)]
-                for fn in sorted(ex_tu_all['filename'].unique()):
-                    ftu = ex_tu_all[ex_tu_all['filename'] == fn]
-                    ftd = ext_df[(ext_df['topic_label'] == tlab) & (ext_df['filename'] == fn)]
-                    _tsl.append((f"{fn} (excl.)", ftd,
-                                 _TPRES[_TPRES['filename'] == fn], ftu))
-                ltdf = standard_table(_tsl, "Period")
                 if ltdf is not None:
                     lsty = report_style(ltdf)
                     render_table_with_copy(lsty, ltdf, f"topic_ldi_{ti}")
@@ -4956,18 +5251,38 @@ elif st.session_state['annotations']:
                 # LDI by Period for this genre — texts · omens · bin · macro · micro.
                 # Canonical convention; Total pools across periods.
                 _GFULL, _GPRES = FRAMES[False]['df'], FRAMES[True]['df']
-                _gf = _GFULL[_GFULL['genre'] == genre]
-                _gp = _GPRES[_GPRES['genre'] == genre]
-                _gsl = []
-                for period in PERIOD_ORDER + ["Total"]:
-                    puo = g_uo if period == "Total" else g_uo[g_uo['period'] == period]
-                    if puo.empty:
-                        continue
-                    _gsl.append((period_disp(period),
-                                 _gf if period == "Total" else _gf[_gf['period'] == period],
-                                 _gp if period == "Total" else _gp[_gp['period'] == period],
-                                 puo))
-                gtdf = standard_table(_gsl, "Period")
+
+                def _build_genre_stats(genre=genre, g_uo=g_uo):
+                    _gf = _GFULL[_GFULL['genre'] == genre]
+                    _gp = _GPRES[_GPRES['genre'] == genre]
+                    _gsl = []
+                    for period in PERIOD_ORDER + ["Total"]:
+                        puo = g_uo if period == "Total" else g_uo[g_uo['period'] == period]
+                        if puo.empty:
+                            continue
+                        _gsl.append((period_disp(period),
+                                     _gf if period == "Total" else _gf[_gf['period'] == period],
+                                     _gp if period == "Total" else _gp[_gp['period'] == period],
+                                     puo))
+                    gtdf = standard_table(_gsl, "Period")
+
+                    # Per-TEXT aggregate (one node per file) for this genre + monogram choice.
+                    bf = with_active(bframe[bframe['genre'] == genre], mono)
+                    gf = with_active(gframe[gframe['genre'] == genre], mono)
+                    fkeys = ['period', 'filename']
+                    f_bin = bf.groupby(fkeys)['_islog'].mean().rename('bin')
+                    f_agg = gf.groupby(fkeys).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
+                    f_agg['micro'] = f_agg['_nl'] / (f_agg['_nl'] + f_agg['_np']).where((f_agg['_nl'] + f_agg['_np']) > 0)
+                    f_n = g_uo.groupby(fkeys).size().rename('n')
+                    gstats = pd.concat([f_bin, f_agg[['macro', 'micro']], f_n], axis=1).reset_index()
+                    gstats[['bin', 'macro', 'micro']] = gstats[['bin', 'macro', 'micro']].fillna(0.0)
+                    gstats['period'] = pd.Categorical(gstats['period'], categories=PERIOD_ORDER, ordered=True)
+                    gstats = gstats.sort_values(['period', 'filename'])
+                    if not gstats.empty:
+                        gstats['seq_index'] = range(len(gstats))
+                    return {'gtdf': gtdf, 'gstats': gstats}
+                _GS = view_cache(('discipline', genre), _build_genre_stats)
+                gtdf, gstats = _GS['gtdf'], _GS['gstats']
                 if gtdf is not None:
                     gtsty = report_style(gtdf)
                     render_table_with_copy(gtsty, gtdf, f"genre_period_{gi}")
@@ -4975,21 +5290,8 @@ elif st.session_state['annotations']:
                 st.markdown(f'<div class="charttitle">{genre} — LDI per text '
                             f'(Old → Neo)</div>', unsafe_allow_html=True)
 
-                # Per-TEXT aggregate (one node per file) for this genre + monogram choice.
-                bf = with_active(bframe[bframe['genre'] == genre], mono)
-                gf = with_active(gframe[gframe['genre'] == genre], mono)
-                fkeys = ['period', 'filename']
-                f_bin = bf.groupby(fkeys)['_islog'].mean().rename('bin')
-                f_agg = gf.groupby(fkeys).agg(_nl=('_anl', 'sum'), _np=('_anph', 'sum'), macro=('_deg', 'mean'))
-                f_agg['micro'] = f_agg['_nl'] / (f_agg['_nl'] + f_agg['_np']).where((f_agg['_nl'] + f_agg['_np']) > 0)
-                f_n = g_uo.groupby(fkeys).size().rename('n')
-                gstats = pd.concat([f_bin, f_agg[['macro', 'micro']], f_n], axis=1).reset_index()
-                gstats[['bin', 'macro', 'micro']] = gstats[['bin', 'macro', 'micro']].fillna(0.0)
-                gstats['period'] = pd.Categorical(gstats['period'], categories=PERIOD_ORDER, ordered=True)
-                gstats = gstats.sort_values(['period', 'filename'])
                 if gstats.empty:
                     continue
-                gstats['seq_index'] = range(len(gstats))
 
                 def _chart(metric, gstats=gstats, genre=genre):
                     fig_genre = go.Figure()
@@ -5102,7 +5404,7 @@ elif st.session_state['annotations']:
             for _fn in sorted(cdf['filename'].dropna().unique()):
                 _opts[f"Text · {_fn.rsplit('.txt', 1)[0]}"] = ('file', _fn)
             for _lbl, _k in (("Comparandum", 'comp'), ("KAL 5", 'supp'),
-                             ("Held out", 'held')):
+                             ("Held out", 'held'), ("My text", 'cust')):
                 _h = FRAMES[False].get(_k)
                 if _h is not None and not _h.empty:
                     for _fn in sorted(_h['filename'].dropna().unique()):
@@ -5154,13 +5456,16 @@ elif st.session_state['annotations']:
             # Sliced once, outside the fragment: the slices do not depend on the
             # measure, so switching bin/macro/micro only redraws.
             _series = [(_n, _cmp_slice(CMP_CAT[_n])) for _n in picks]
-            _rows = []
-            for _n, _full in _series:
-                if _full.empty:
-                    continue
-                _rows.append((_n, _full, _cmp_slice(CMP_CAT[_n], preserved=True),
-                              _full.drop_duplicates(subset=['filename', 'omen_id'])))
-            _ctab = standard_table(_rows, "Series")
+
+            def _build_compare_report():
+                _rows = []
+                for _n, _full in _series:
+                    if _full.empty:
+                        continue
+                    _rows.append((_n, _full, _cmp_slice(CMP_CAT[_n], preserved=True),
+                                  _full.drop_duplicates(subset=['filename', 'omen_id'])))
+                return standard_table(_rows, "Series")
+            _ctab = view_cache(('compare', tuple(picks)), _build_compare_report)
             if _ctab is not None:
                 st.caption(STANDARD_CAPTION)
                 render_table_with_copy(report_style(_ctab), _ctab, "compare_report")
@@ -5315,6 +5620,9 @@ elif st.session_state['annotations']:
         # stored value but too long for the column, so the tab reads "KAL 5".
         _SET_TABS = {"Corpus": "Corpus", "Comparanda": "Comparanda",
                      "KAL 5": "Supplementary (KAL 5)", "Held out": "Held out"}
+        # The reader's own texts get a tab of their own, once there are any.
+        if _has_custom:
+            _SET_TABS["My texts"] = "My texts"
         # Read the picker itself, not the value it wrote last run: the widget is
         # rendered further down (inside the tree column), so a stored value would
         # always be one interaction behind.
@@ -5427,6 +5735,13 @@ elif st.session_state['annotations']:
                         "or otherwise excluded). Their LDI reflects the graphic convention, not an "
                         "Akkadian logogram-vs-syllabic split — read the per-text note with care.")
                 empty_msg = "No comparanda found in data/_comparanda."
+            elif text_set == "My texts":
+                pool, pkey = FRAMES[False]['cust'], 'cust'
+                _cap = ("Texts you imported. They are kept under "
+                        f"`{CUSTOM_DIR}`, separate from the published corpus, and are "
+                        "scored only when the scope switch above the LDI views is set "
+                        "to *My texts* or *Both*.")
+                empty_msg = "Nothing imported yet — use Upload in the Editor."
             elif text_set == "Held out":
                 pool, pkey = FRAMES[False]['held'], 'held'
                 _cap = ("Corpus texts held **out** of every count (`exclude: true` — too "

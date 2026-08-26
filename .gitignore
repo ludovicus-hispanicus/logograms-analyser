@@ -43,6 +43,10 @@ docs/catalogue-of-sources*.docx
 # KAL 5 tooling — one-off ingestion/scan scripts that hard-code a local PDF path
 scripts/*kal5*.py
 
+# Texts imported through the app's Upload dialog — the reader's own corpus,
+# kept beside the published one on disk but never part of it (see CUSTOM_DIR).
+data/_custom/
+
 # Copyrighted third-party material
 docs/Rochberg-1988-AfO-Beih-22-pp1-31.md
 
