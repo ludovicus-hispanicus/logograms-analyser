@@ -17,15 +17,32 @@ ROOT = os.path.abspath(os.path.join(SPECPATH, ".."))
 
 # Only the files the app actually reads at runtime — assets/ (2.3 GB of article
 # figures) and docs/ (the unpublished article) must NOT be bundled wholesale.
+
+# The corpus, file by file rather than as one tree: data/_custom is where the
+# app files texts the reader imports, so a build machine that has been used to
+# try the app would otherwise ship someone's private corpus inside the exe. The
+# packaged app creates the folder itself on the first import.
+def _corpus_files():
+    src = os.path.join(ROOT, "data")
+    custom = os.path.join(src, "_custom")
+    out = []
+    for dp, dirs, fs in os.walk(src):
+        if os.path.commonpath([os.path.abspath(dp), os.path.abspath(custom)]) == os.path.abspath(custom):
+            dirs[:] = []
+            continue
+        rel = os.path.relpath(dp, src)
+        dest = "data" if rel == "." else os.path.join("data", rel)
+        out += [(os.path.join(dp, f), dest) for f in fs]
+    return out
+
 datas = [
     (os.path.join(ROOT, "app.py"), "."),
     (os.path.join(ROOT, "references.bib"), "."),
-    (os.path.join(ROOT, "data"), "data"),
     (os.path.join(ROOT, "assets", "logo"), os.path.join("assets", "logo")),
     (os.path.join(ROOT, "assets", "trend-vat-10418-bin.png"), "assets"),
     (os.path.join(ROOT, "docs", "catalogue-of-sources.md"), "docs"),
     (os.path.join(ROOT, "docs", "kal5-ldi-by-tradition.csv"), "docs"),
-]
+] + _corpus_files()
 binaries = []
 hiddenimports = [
     "streamlit.web.cli",
