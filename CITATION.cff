@@ -13,10 +13,10 @@ authors:
   - family-names: "Sáenz"
     given-names: "Luis"
     orcid: "https://orcid.org/0000-0002-9107-6574"
-license: MIT  # software; the data/ corpus is CC-BY-4.0 (see data/LICENSE.txt)
+license: MIT  # software; the data/ corpus is CC-BY-4.0 (see data/LICENSE)
 repository-code: "https://github.com/ludovicus-hispanicus/logograms-analyser"
 version: "1.0.0"
-date-released: "2026-06-18"  # TODO: set to the actual release date
+date-released: "2026-08-26"
 keywords:
   - Assyriology
   - cuneiform
