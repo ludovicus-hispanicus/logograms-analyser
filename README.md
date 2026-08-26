@@ -113,7 +113,8 @@ npm run build      # stage the app + corpus, dump the stlite artifacts
 npm run app:dist   # installer in desktop/dist/
 ```
 
-**Locally** — requires Python 3.11+:
+**Locally** — requires Python 3.11+ (v1.0.0 was built and tested on 3.12; the
+dependency versions it was released against are pinned in `requirements.txt`):
 
 ```bash
 pip install -r requirements.txt
@@ -126,7 +127,32 @@ streamlit run app.py       # then open http://localhost:8501
 The app has four tabs: **LDI** (five views: overview, discipline, region,
 topics, and a per-text browser with sign-by-sign colour coding), **Sources** (a
 catalogue of every manuscript with its metadata, LDI and eBL link),
-**Bibliography**, and **Tools** (measure a pasted line, import your own texts).
+**Bibliography**, and **Editor** (measure a pasted line, edit a text, import
+your own).
+
+### Analysing your own texts
+
+Upload in the Editor takes one file, several at once, a `.zip`, or a folder on
+your machine, read recursively. Imported texts are filed by their own
+frontmatter into `data/_custom/`, which is kept **separate from the published
+corpus**: the figures the article reports never move because you added
+something. A scope switch above the LDI views then chooses what is scored —
+the published corpus, your texts, or both — and every view works on the
+selection, not just the text browser.
+
+A text needs a `period:` line to be placed on the diachronic axis. Without one
+it is filed under `unspecified/`, opens in the editor on import, and is named in
+a banner on the LDI page; its omens are pooled into the totals but sit in an
+*Undated* row rather than being silently dated. Periods are folded into the
+three broad buckets, and the post-Achaemenid labels (Achaemenid, Seleucid,
+Parthian, …) fold into the Neo/Late Babylonian one.
+
+> **Where your texts live.** In the local and desktop builds imports are written
+> to disk and are there next time you open the app; "Discard my corpus" in the
+> Upload dialog deletes them. In the **browser build there is no disk**: the page
+> runs in a WebAssembly sandbox, so imports last for the session and are gone on
+> reload. Nothing is ever uploaded anywhere — GitHub Pages only serves the page,
+> it cannot receive anything, so your texts never leave your machine.
 
 ## Reproducing the published figures
 
