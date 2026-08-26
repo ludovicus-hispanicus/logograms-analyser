@@ -77,7 +77,11 @@ def load_frame(base):
 def main():
     # Walk data/: record every .txt and whether it is individually excluded.
     excluded_rels, rel_of_name = set(), {}
-    for root, _, files in os.walk(DATA):
+    for root, dirs, files in os.walk(DATA):
+        # Texts a reader imported through the app live in data/_custom and are
+        # no part of the corpus this manifest describes; _comparanda is bucketed
+        # below and reached explicitly, so it is not filtered here.
+        dirs[:] = [d for d in dirs if d != "_custom"]
         for f in files:
             if not f.endswith(".txt"):
                 continue

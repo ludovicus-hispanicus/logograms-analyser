@@ -266,7 +266,15 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
     all_anns = []
     folder_map = {"old": "Old Babylonian", "middle": "Middle Babylonian", "new": "Neo-Assyrian"}
 
-    for root, _, files in os.walk(base_path):
+    for root, dirs, files in os.walk(base_path):
+        # data/_custom is where the app files texts a reader imports. They carry
+        # no `exclude: true` of their own — nothing asks a reader to add one — so
+        # without this they would be counted into the published tables by every
+        # script that reads the corpus. _comparanda is deliberately NOT filtered:
+        # it is part of the corpus documentation and excludes itself by
+        # frontmatter. Only sub-folders are filtered, never the walk's own root,
+        # so load_local_data("data/_custom") still reads that set.
+        dirs[:] = [d for d in dirs if d != "_custom"]
         for file in files:
             if not file.endswith(".txt"): continue
             rel = os.path.relpath(root, base_path)
