@@ -71,7 +71,10 @@ together with the word composition the three measures summarise
 0.465–0.736, which is why a bare figure is not portable between studies.
 
 The segmentation rules are documented in full in
-[`data/corpus-counting.md`](data/corpus-counting.md).
+[`data/corpus-counting.md`](data/corpus-counting.md), and how a transliterated
+omen is rendered on screen — colour, damage half-brackets, determinatives,
+run-overs — in [`docs/omen-display-rules.md`](docs/omen-display-rules.md). The
+two are independent: no display rule changes a count.
 
 ## The corpus
 
