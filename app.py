@@ -65,6 +65,16 @@ def load_css():
             font-size: 1.2rem;
             margin-bottom: 0.8rem;
             line-height: 1.6;
+            /* Hanging indent: the line number sits out to the left and every
+               further line of the same omen — a wrap, or a run-over marked
+               ($___$) — lines up under the text rather than under the number. */
+            padding-left: 3.2em;
+            text-indent: -3.2em;
+        }
+        /* The run-over's own step in from the omen's first line. */
+        .cont {
+            display: inline-block;
+            width: 4ch;
         }
         .logogram {
             color: #D32F2F; /* Red */
@@ -102,8 +112,13 @@ def load_css():
             color: #8E24AA; /* Purple — Sumerian language marker (%sux) */
             font-weight: 600;
         }
+        /* Breaks, illegible signs and editorial marks are NOT given a colour of
+           their own: x, [x], ... and the brackets are part of how a line reads,
+           and greying some of them while an identical mark inside a scored word
+           stayed black made the page look inconsistent rather than informative.
+           The class is kept so the markup still says what these tokens are. */
         .broken {
-            color: #9E9E9E; /* Grey — breaks, illegible signs, editorial marks (not scored) */
+            color: inherit;
         }
         .ldi-val {
             font-family: 'Source Sans 3', sans-serif;
@@ -651,6 +666,9 @@ load_css()
 
 LOGOGRAM_PARTICLES = {'DIŠ', 'BAD', 'BE', 'UD', 'AŠ'}
 IGNORE_TOKENS = {'x', '($___$)', '.', '..', '...'}
+# The editions' run-over marker: what follows stood on its own indented
+# line on the tablet rather than opening a new omen.
+CONTINUATION = '($___$)'
 
 # Number-logograms: bare numerals that are logographic writings of a word —
 # 15 = ZAG "right", 150 = GUB₃ "left", 30 = Sîn (moon-god). Counted as logograms
@@ -1133,16 +1151,20 @@ def _starts_damaged(disp):
     first = _SIGN_SPLIT.split(str(disp or ""), 1)[0]
     return "#" in first
 
-def _damage_html(disp, open_run, next_damaged=False):
+def _damage_html(disp):
     """Replace per-sign '#' markers with half-brackets around the damaged RUN.
 
     ATF marks damage sign by sign (a#-b#-c#); an edition brackets the stretch
     once (⸢a-b-c⸣). So the marker is dropped and ⸢ ⸣ are placed at the two ends
-    of each maximal run of damaged signs. A run is not closed at a word boundary
-    when the next word opens damaged too, which is why the caller passes
-    `next_damaged` and carries `open_run` from token to token.
+    of each maximal run of damaged signs.
+
+    A run never crosses a word boundary: two damaged words each carry their own
+    pair, URU]⸢KI⸣ ⸢il⸣-la-hu-u₂, because the half-brackets mark how much of a
+    WORD is preserved and merging them across the space would claim a single
+    damaged stretch the edition does not.
 
     Brackets stay outside the half-brackets: [a#] reads [⸢a⸣], never ⸢[a]⸣."""
+    open_run = False
     parts = _SIGN_SPLIT.split(str(disp or ""))
     sign_ix = [i for i, part in enumerate(parts) if part and part not in ".-"]
     damaged = {i: "#" in parts[i] for i in sign_ix}
@@ -1165,12 +1187,12 @@ def _damage_html(disp, open_run, next_damaged=False):
             open_run = True
         piece += body
         later = [j for j in sign_ix if j > i]
-        ends_here = (not damaged[later[0]]) if later else (not next_damaged)
+        ends_here = (not damaged[later[0]]) if later else True
         if damaged[i] and open_run and ends_here:
             piece += "⸣"
             open_run = False
         out.append(piece + trail)
-    return "".join(out), open_run
+    return "".join(out)
 
 def render_tokens_html(items):
     """The colour-coded HTML for one line.
@@ -1178,13 +1200,22 @@ def render_tokens_html(items):
     `items` is [(display, css class, word_start), ...]; word_start False glues a
     piece to the one before it with no space, so the parts of a single word stay
     a single word on screen."""
-    out, open_run = [], False
+    out, prev_cls = [], None
     for i, item in enumerate(items):
         disp, cls = item[0], item[1]
         word_start = item[2] if len(item) > 2 else True
-        nxt = items[i + 1][0] if i + 1 < len(items) else None
-        frag, open_run = _damage_html(disp, open_run,
-                                      _starts_damaged(nxt) if nxt is not None else False)
+        if str(disp).strip() == CONTINUATION:
+            # The edition's run-over marker: the rest of this omen stood on its
+            # own indented line on the tablet, so it does so here too.
+            out.append('<br><span class="cont"></span>')
+            prev_cls = None
+            continue
+        # Two determinatives in a row are two separate classifiers ({mul}{d},
+        # {ki}{meš}) and are read apart, so they keep a space between them even
+        # though they belong to one word.
+        if cls == "determinative" and prev_cls == "determinative":
+            word_start = True
+        frag = _damage_html(disp)
         if cls == "determinative":
             # A determinative is superscripted and lower-cased; the brackets
             # around it are neither, so they are emitted beside the span rather
@@ -1195,9 +1226,9 @@ def render_tokens_html(items):
                 for j, chunk in enumerate(_BRACKET_RUN.split(frag)) if chunk)
         else:
             piece = f'<span class="{cls}">{_wrap_brackets(frag)}</span>'
-        out.append((" " if (i and word_start) else "") + piece)
-    if open_run:                       # a run that reaches the end of the line
-        out.append('<span class="brk">⸣</span>')
+        glue = "" if (not i or not word_start or out[-1].endswith('class="cont"></span>')) else " "
+        out.append(glue + piece)
+        prev_cls = cls
     return "".join(out)
 
 def score_text(name, text):
