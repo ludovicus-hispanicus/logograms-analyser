@@ -145,13 +145,18 @@ that a 9 and a 10 leave the omen itself starting at the same place:
 10.  DIŠ 30 ha-ad-ri-iš …
 ```
 
-**The line hangs, and it hangs past the delimiter.** The number *and* the
-counting mark that opens every omen in the text sit out to the left; every
-further line of the same omen begins where the omen's own words do, so the text
-forms one column no matter how often it breaks. The width is computed per text
-from its widest line number and the length of its counting mark — `NN. DIŠ ` is
-8ch, a `counting: line` text with three-digit numbers is 5ch — which is why two
-texts of the same series can indent differently.
+**The line is two columns, and nothing hangs outside it.** The number occupies
+the first; the omen occupies the second. Within the omen's own column its first
+line is pulled back by the width of the counting mark, so the mark sits at that
+column's edge and every further line of the same omen — a wrap, or a run-over —
+begins where the omen's *words* do. The text therefore forms one column however
+often it breaks, while the pull-back stays inside the omen's box and can never
+cross the block's left border into whatever sits beside it.
+
+Both widths are measured per text: the number column from its widest label, the
+pull-back from the length of its counting mark. A `counting: line` text has no
+mark and so no pull-back, which is why two texts of the same series can indent
+differently — the difference records how each is segmented.
 
 **A run-over marked `($___$)`** — the editions' notation for text that stood on
 its own indented line on the tablet — is not printed. It becomes a plain line

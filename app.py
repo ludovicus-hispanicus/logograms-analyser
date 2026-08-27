@@ -65,14 +65,23 @@ def load_css():
             font-size: 1.2rem;
             margin-bottom: 0.8rem;
             line-height: 1.6;
-            /* Hanging indent: the number and the omen's opening particle sit
-               out to the left, and every further line of the same omen — a wrap,
-               or a run-over marked ($___$) — begins where the omen's own words
-               do, in one column. The width is set per text from its line numbers
-               and its counting mark (see render_text_block); the fallback covers
-               a text that names neither. */
-            padding-left: var(--oind, 2.4em);
-            text-indent: calc(-1 * var(--oind, 2.4em));
+            /* Two columns: the number, then the omen. Nothing hangs outside
+               the block — a negative indent on the line itself pulled the
+               numbers past the left edge and into the column beside it. */
+            display: flex;
+            align-items: baseline;
+            gap: 0.35em;
+        }
+        /* The omen itself. Its first line is pulled back by the width of the
+           counting mark, so the mark sits at the column's edge and every further
+           line — a wrap, or a run-over marked ($___$) — begins where the omen's
+           own words do. The pull-back stays inside this box, so it can never
+           cross the block's left border. Set per text by render_text_block. */
+        .omen-body {
+            flex: 1 1 auto;
+            min-width: 0;
+            padding-left: var(--dind, 0);
+            text-indent: calc(-1 * var(--dind, 0));
         }
         .logogram {
             color: #D32F2F; /* Red */
@@ -141,8 +150,8 @@ def load_css():
             /* A fixed column, wide enough for this text's longest number, so a
                9 and a 10 leave the omen starting at the same place. Width comes
                per text from render_text_block; the fallback suits two digits. */
-            display: inline-block;
-            width: var(--numw, 3.5ch);
+            flex: 0 0 var(--numw, 2.6ch);
+            text-align: left;
         }
         /* Force pointer (hand) cursor on Plotly charts */
         .js-plotly-plot .plotly, .js-plotly-plot .plotly .draglayer {
@@ -4667,7 +4676,7 @@ elif st.session_state['annotations']:
             # and supplies the gap itself, so the text starts at one x whatever
             # the number's length.
             html_parts = [f'<span class="omen-id">{oid}.</span>',
-                          render_tokens_html(items)]
+                          f'<span class="omen-body">{render_tokens_html(items)}</span>']
             b, ma, mi = trio(omen_tokens, mono, nopart)
             omens.append({"omen": str(oid), "html": "".join(html_parts),
                           "bin": b, "macro": ma, "micro": mi,
@@ -4718,14 +4727,19 @@ elif st.session_state['annotations']:
         if 'counting' in text_df.columns and not text_df.empty:
             _mk = str(text_df['counting'].dropna().iloc[0]) if text_df['counting'].notna().any() else ""
         _mk = "" if _mk in ("line", "§", "None", "nan") else _mk
+        # The number's column: its digits and the full stop. The gap after it is
+        # the flex gap, not padding, so the column stays tight.
         _numw = max((len(str(o["omen"])) for o in omens), default=2)
-        _numcol = _numw + 2                       # digits, the full stop, one space
-        _oind = _numcol + (len(_mk) + 1 if _mk else 0)
+        _numcol = f"{_numw + 1.0:.1f}"            # digits, the full stop, a hair over
+        # How far the omen's body is pulled back on its first line: the width of
+        # the counting mark and the space after it. Nothing for a text counted by
+        # line, whose omens open with no mark at all.
+        _dind = f"{len(_mk) + 0.8:.1f}" if _mk else "0"
 
         for o in omens:
             c_text, c_ldi = st.columns([5, 2])
             c_text.markdown(
-                f'<div class="omen-line" style="--oind:{_oind}ch;--numw:{_numcol}ch">'
+                f'<div class="omen-line" style="--numw:{_numcol}ch;--dind:{_dind}ch">'
                 f'{o["html"]}</div>',
                 unsafe_allow_html=True)
             c_ldi.markdown(
