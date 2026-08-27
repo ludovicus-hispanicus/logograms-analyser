@@ -138,16 +138,20 @@ split.
 **The omen number** is printed once, at the head of the line, in grey and not
 selectable — it is apparatus, and should not end up in a copied quotation.
 
-**The line hangs.** The number sits out to the left and every further line of the
-same omen aligns under the *text*, not under the number. A long omen that wraps
-therefore stays readable as one block.
+**The line hangs, and it hangs past the delimiter.** The number *and* the
+counting mark that opens every omen in the text sit out to the left; every
+further line of the same omen begins where the omen's own words do, so the text
+forms one column no matter how often it breaks. The width is computed per text
+from its widest line number and the length of its counting mark — `NN. DIŠ ` is
+8ch, a `counting: line` text with three-digit numbers is 5ch — which is why two
+texts of the same series can indent differently.
 
 **A run-over marked `($___$)`** — the editions' notation for text that stood on
-its own indented line on the tablet — is not printed. It becomes a line break
-plus a four-character step in from the omen's first line:
+its own indented line on the tablet — is not printed. It becomes a plain line
+break, and the hanging indent puts it in the same column as a wrap:
 
 ```
-15. DIŠ AN.TA.LU₃ i+na qa₂-a[b-la-ti-šu ...]
+5. DIŠ AN.TA.LU₃ i+na qa₂-a[b-la-ti-šu ...]
         LUGAL i-ma-[at ...]
 ```
 
@@ -168,7 +172,8 @@ omissions (`<<MA>>`), which are text and must not become markup.
 4. Superscript and lower-case determinatives; keep their marks out of the
    superscript.
 5. Join the pieces of one word; separate two adjacent determinatives.
-6. Hang the line, indent run-overs, print neither `($___$)` nor `%sux`.
+6. Hang the line past number and delimiter; break at a run-over into that same
+   column; print neither `($___$)` nor `%sux`.
 7. Escape the text.
 
 None of it touches the numbers.

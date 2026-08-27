@@ -65,16 +65,14 @@ def load_css():
             font-size: 1.2rem;
             margin-bottom: 0.8rem;
             line-height: 1.6;
-            /* Hanging indent: the line number sits out to the left and every
-               further line of the same omen — a wrap, or a run-over marked
-               ($___$) — lines up under the text rather than under the number. */
-            padding-left: 3.2em;
-            text-indent: -3.2em;
-        }
-        /* The run-over's own step in from the omen's first line. */
-        .cont {
-            display: inline-block;
-            width: 4ch;
+            /* Hanging indent: the number and the omen's opening particle sit
+               out to the left, and every further line of the same omen — a wrap,
+               or a run-over marked ($___$) — begins where the omen's own words
+               do, in one column. The width is set per text from its line numbers
+               and its counting mark (see render_text_block); the fallback covers
+               a text that names neither. */
+            padding-left: var(--oind, 2.4em);
+            text-indent: calc(-1 * var(--oind, 2.4em));
         }
         .logogram {
             color: #D32F2F; /* Red */
@@ -1238,7 +1236,7 @@ def render_tokens_html(items):
         if str(disp).strip() == CONTINUATION:
             # The edition's run-over marker: the rest of this omen stood on its
             # own indented line on the tablet, so it does so here too.
-            out.append('<br><span class="cont"></span>')
+            out.append('<br>')
             prev_cls = None
             continue
         # Two determinatives in a row are two separate classifiers ({mul}{d},
@@ -1258,7 +1256,7 @@ def render_tokens_html(items):
                 for chunk in _DET_MARK_RUN.split(frag) if chunk)
         else:
             piece = f'<span class="{cls}">{_wrap_brackets(frag)}</span>'
-        glue = "" if (not i or not word_start or out[-1].endswith('class="cont"></span>')) else " "
+        glue = "" if (not i or not word_start or out[-1].endswith("<br>")) else " "
         out.append(glue + piece)
         prev_cls = cls
     return "".join(out)
@@ -4706,9 +4704,21 @@ elif st.session_state['annotations']:
         h_text, h_ldi = st.columns([5, 2])
         h_text.caption("Omen")
         h_ldi.markdown('<div class="ldi-val"><b>bin · macro · micro</b></div>', unsafe_allow_html=True)
+        # Where the omen's own words begin: past the number, and past the
+        # counting mark that opens every omen in this text. Measured in `ch` so
+        # it tracks the font, and taken from the widest number actually shown.
+        _mk = ""
+        if 'counting' in text_df.columns and not text_df.empty:
+            _mk = str(text_df['counting'].dropna().iloc[0]) if text_df['counting'].notna().any() else ""
+        _mk = "" if _mk in ("line", "§", "None", "nan") else _mk
+        _numw = max((len(str(o["omen"])) for o in omens), default=2)
+        _oind = _numw + 2 + (len(_mk) + 1 if _mk else 0)
+
         for o in omens:
             c_text, c_ldi = st.columns([5, 2])
-            c_text.markdown(f'<div class="omen-line">{o["html"]}</div>', unsafe_allow_html=True)
+            c_text.markdown(
+                f'<div class="omen-line" style="--oind:{_oind}ch">{o["html"]}</div>',
+                unsafe_allow_html=True)
             c_ldi.markdown(
                 f'<div class="ldi-val">{_fmt(o["bin"])} · {_fmt(o["macro"])} · {_fmt(o["micro"])}</div>',
                 unsafe_allow_html=True)
