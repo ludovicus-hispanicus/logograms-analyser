@@ -99,6 +99,15 @@ def load_css():
             text-transform: none;
             vertical-align: baseline;
         }
+        /* Collation marks: ? (uncertain reading) and ! (corrected sign) are
+           editorial comment on a sign, not part of it, so they are raised clear
+           of the line and never lean with an italic word. */
+        .qmark {
+            font-style: normal;
+            text-transform: none;
+            vertical-align: super;
+            font-size: 0.72em;
+        }
         .particle {
             color: #388E3C; /* Green */
             font-weight: bold;
@@ -1135,15 +1144,37 @@ BRACKET_CHARS = "[](){}<>⸢⸣⌈⌉˹˺"
 EDGE_BRACKETS = "[]<>⸢⸣⌈⌉˹˺"
 _BRACKET_RUN = re.compile(r'([' + re.escape(BRACKET_CHARS) + r']+)')
 _SIGN_SPLIT = re.compile(r'([.\-])')      # sign separators within a word, kept
+# What is pulled out of a word's own styling and set on its own: brackets, the
+# collation marks ? and !, and an illegible x. The x is matched only where it
+# stands as a whole sign, so it is never plucked out of a syllable that happens
+# to contain the letter.
+_MARK_RUN = re.compile(
+    r'([' + re.escape(BRACKET_CHARS) + r']+|[?!]+|(?<![A-Za-z₀-₉])x(?![A-Za-z₀-₉]))')
+# What is pulled out of a DETERMINATIVE's span: it is superscript and lower-cased,
+# and none of these marks should be either.
+_DET_MARK_RUN = re.compile(r'([' + re.escape(BRACKET_CHARS) + r']+|[?!]+)')
+
+def _mark_class(chunk):
+    """The class an editorial mark is set in, or None for ordinary text."""
+    if not chunk:
+        return None
+    if chunk[0] in BRACKET_CHARS:
+        return "brk"        # upright, full size, on the baseline
+    if chunk[0] in "?!":
+        return "qmark"      # upright and raised: a collation mark, not a sign
+    if chunk == "x":
+        return "brk"        # upright: an illegible sign is not a reading
+    return None
 
 def _wrap_brackets(text):
-    """HTML-escape a display string, putting bracket runs in their own span."""
+    """HTML-escape a display string, setting its editorial marks apart."""
     out = []
-    for i, chunk in enumerate(_BRACKET_RUN.split(text)):
+    for chunk in _MARK_RUN.split(text):
         if not chunk:
             continue
-        out.append(f'<span class="brk">{_esc_html(chunk)}</span>'
-                   if i % 2 else _esc_html(chunk))
+        cls = _mark_class(chunk)
+        out.append(f'<span class="{cls}">{_esc_html(chunk)}</span>' if cls
+                   else _esc_html(chunk))
     return "".join(out)
 
 def _starts_damaged(disp):
@@ -1221,9 +1252,10 @@ def render_tokens_html(items):
             # around it are neither, so they are emitted beside the span rather
             # than inside it.
             piece = "".join(
-                (f'<span class="brk">{_esc_html(chunk)}</span>' if j % 2
+                (f'<span class="{_mark_class(chunk)}">{_esc_html(chunk)}</span>'
+                 if _mark_class(chunk)
                  else f'<span class="determinative">{_esc_html(chunk)}</span>')
-                for j, chunk in enumerate(_BRACKET_RUN.split(frag)) if chunk)
+                for chunk in _DET_MARK_RUN.split(frag) if chunk)
         else:
             piece = f'<span class="{cls}">{_wrap_brackets(frag)}</span>'
         glue = "" if (not i or not word_start or out[-1].endswith('class="cont"></span>')) else " "
@@ -2603,13 +2635,17 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             if line.startswith('$') or line.startswith('#'):
                                 continue
 
-                            # Each counted line is a distinct omen (use line number if present)
-                            id_match = re.match(r'^(\d+\'?)[.)]', line)
-                            if id_match:
-                                current_omen_id = id_match.group(1)
-                            else:
-                                line_counter += 1
-                                current_omen_id = f"l{line_counter}"
+                            # Each counted line is a distinct omen, numbered by a
+                            # running counter and NOT by the line's own label.
+                            # A tablet's reverse restarts its numbering at 1, so
+                            # keying on the label made obverse line n and reverse
+                            # line n one omen: their tokens merged, the per-omen
+                            # views showed the two lines run together, and the
+                            # count collapsed to the longer side (W.23271 read 91
+                            # omens for 171 lines). compute_ratios counts the same
+                            # way for the published tables.
+                            line_counter += 1
+                            current_omen_id = str(line_counter)
 
                             line_metadata = metadata.copy()
                             line_metadata['section'] = current_section
