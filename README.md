@@ -18,8 +18,8 @@ This repository accompanies the article *The Logographic Shift: Tracking the
 
 ![The logographic shift by period](assets/general-trend.png)
 
-Across **6,978 omens in 196 texts**, the index rises from 0.33 in the Old
-Babylonian period to 0.69 in the Middle period and 0.75 in the first
+Across **7,005 omens in 195 texts**, the index rises from 0.33 in the Old
+Babylonian period to 0.70 in the Middle period and 0.75 in the first
 millennium: writing that begins as syllabic Akkadian ends up almost entirely
 logographic, without the language itself changing.
 
@@ -81,8 +81,8 @@ discipline:
 ```
 data/
   old/          Old Babylonian ................... 761 omens (29 texts)
-  middle/       Middle Babylonian / Assyrian .... 2,325 omens (88 texts)
-  new/          First-millennium (NA / NB / LB) . 3,892 omens (79 texts)
+  middle/       Middle Babylonian / Assyrian .... 2,354 omens (88 texts)
+  new/          First-millennium (NA / NB / LB) . 3,890 omens (78 texts)
       └── astrology/ diagnostic/ extispicy/ izbu/ terrestrial/
   _comparanda/  held out: Hittite and Hurrian recensions, lung and liver
                 models, an incantation and a prayer for cross-genre contrast
