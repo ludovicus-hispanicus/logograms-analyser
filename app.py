@@ -78,6 +78,14 @@ def load_css():
             color: #1976D2; /* Blue */
             font-size: 0.8em;
             vertical-align: super;
+            /* Determinatives are read as classifiers, not as words: lower case
+               whatever the edition capitalised them as. */
+            text-transform: lowercase;
+        }
+        /* Brackets and half-brackets are editorial marks, not language, so they
+           stay upright inside an italic (phonetic / monogram) word. */
+        .brk {
+            font-style: normal;
         }
         .particle {
             color: #388E3C; /* Green */
@@ -1094,6 +1102,86 @@ def save_buffer(name, text):
 def _esc_html(s):
     return (str(s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
+# --- Presentation of a token's raw form -----------------------------------
+# Three rules, applied to every colour-coded line (Text view and editor alike):
+# damage markers become half-brackets around the whole damaged run, brackets are
+# set upright inside italic words, and determinatives are lower-cased (in CSS).
+
+BRACKET_CHARS = "[](){}<>⸢⸣⌈⌉˹˺"
+# The subset that an editorial run sits *inside*: a half-bracket goes after a
+# leading '[' and before a trailing ']'. Round brackets are excluded because
+# they carry the corrected-sign notation KUR!(EŠ), which belongs to the sign
+# itself — ⸢KUR!(EŠ)⸣, never ⸢KUR!(EŠ⸣).
+EDGE_BRACKETS = "[]<>⸢⸣⌈⌉˹˺"
+_BRACKET_RUN = re.compile(r'([' + re.escape(BRACKET_CHARS) + r']+)')
+_SIGN_SPLIT = re.compile(r'([.\-])')      # sign separators within a word, kept
+
+def _wrap_brackets(text):
+    """HTML-escape a display string, putting bracket runs in their own span."""
+    out = []
+    for i, chunk in enumerate(_BRACKET_RUN.split(text)):
+        if not chunk:
+            continue
+        out.append(f'<span class="brk">{_esc_html(chunk)}</span>'
+                   if i % 2 else _esc_html(chunk))
+    return "".join(out)
+
+def _starts_damaged(disp):
+    """True if a token's first sign carries the '#' damage marker."""
+    first = _SIGN_SPLIT.split(str(disp or ""), 1)[0]
+    return "#" in first
+
+def _damage_html(disp, open_run, next_damaged=False):
+    """Replace per-sign '#' markers with half-brackets around the damaged RUN.
+
+    ATF marks damage sign by sign (a#-b#-c#); an edition brackets the stretch
+    once (⸢a-b-c⸣). So the marker is dropped and ⸢ ⸣ are placed at the two ends
+    of each maximal run of damaged signs. A run is not closed at a word boundary
+    when the next word opens damaged too, which is why the caller passes
+    `next_damaged` and carries `open_run` from token to token.
+
+    Brackets stay outside the half-brackets: [a#] reads [⸢a⸣], never ⸢[a]⸣."""
+    parts = _SIGN_SPLIT.split(str(disp or ""))
+    sign_ix = [i for i, part in enumerate(parts) if part and part not in ".-"]
+    damaged = {i: "#" in parts[i] for i in sign_ix}
+    out = []
+    for i, part in enumerate(parts):
+        if not part:
+            continue
+        if part in ".-":
+            out.append(part)
+            continue
+        core = part.replace("#", "")
+        lead = re.match(r'^[' + re.escape(EDGE_BRACKETS) + r']*', core).group(0)
+        body = core[len(lead):]
+        trail = re.search(r'[' + re.escape(EDGE_BRACKETS) + r']*$', body).group(0)
+        if trail:
+            body = body[:-len(trail)]
+        piece = lead
+        if damaged[i] and not open_run:
+            piece += "⸢"
+            open_run = True
+        piece += body
+        later = [j for j in sign_ix if j > i]
+        ends_here = (not damaged[later[0]]) if later else (not next_damaged)
+        if damaged[i] and open_run and ends_here:
+            piece += "⸣"
+            open_run = False
+        out.append(piece + trail)
+    return "".join(out), open_run
+
+def render_tokens_html(items):
+    """The colour-coded HTML for one line. `items` is [(display, css class), ...]."""
+    out, open_run = [], False
+    for i, (disp, cls) in enumerate(items):
+        nxt = items[i + 1][0] if i + 1 < len(items) else None
+        frag, open_run = _damage_html(disp, open_run,
+                                      _starts_damaged(nxt) if nxt is not None else False)
+        out.append(f'<span class="{cls}">{_wrap_brackets(frag)}</span>')
+    if open_run:                       # a run that reaches the end of the line
+        out.append('<span class="brk">⸣</span>')
+    return " ".join(out)
+
 def score_text(name, text):
     """Score one edited buffer on its own, without touching the loaded corpus.
 
@@ -2105,7 +2193,7 @@ def line_ldi(text, monogram=False, preserved=False, no_particles=False):
     no_particles, ina/ana optionally logographic, and restorations '[ … ]'
     optionally dropped. `html` is the colour-coded line."""
     anns = annotate_omen(text, "input", {}, preserved_only=preserved)
-    parts = []
+    items = []
     for a in anns:
         tok, t = a['token'], a['type']
         disp = a.get('display', tok)
@@ -2119,8 +2207,8 @@ def line_ldi(text, monogram=False, preserved=False, no_particles=False):
             cls = 'determinative'
         else:
             cls = 'phonetic'
-        parts.append(f'<span class="{cls}">{disp}</span>')
-    html = " ".join(parts)
+        items.append((disp, cls))
+    html = render_tokens_html(items)
 
     lp = [a for a in anns if a['type'] in ('logogram', 'phonetic')]  # determinatives excluded
     if no_particles:
@@ -4434,7 +4522,7 @@ elif st.session_state['annotations']:
             omen_tokens = text_df[text_df['omen_id'] == oid]
             # A %sux line is Sumerian — colour the whole line with the sux colour.
             is_sux = (omen_tokens['token'] == "%sux").any()
-            html_parts = [f'<span class="omen-id">{oid}.</span>']
+            items = []
             for _, token_row in omen_tokens.iterrows():
                 token_text = token_row['token']
                 if token_text == "%sux":
@@ -4455,7 +4543,9 @@ elif st.session_state['annotations']:
                     css_class = "determinative"
                 else:
                     css_class = "phonetic"
-                html_parts.append(f'<span class="{css_class}">{disp}</span>')
+                items.append((disp, css_class))
+            html_parts = [f'<span class="omen-id">{oid}.</span>',
+                          render_tokens_html(items)]
             b, ma, mi = trio(omen_tokens, mono, nopart)
             omens.append({"omen": str(oid), "html": " ".join(html_parts),
                           "bin": b, "macro": ma, "micro": mi,
