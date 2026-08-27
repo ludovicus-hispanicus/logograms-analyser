@@ -136,7 +136,14 @@ split.
 ## 6. Line structure
 
 **The omen number** is printed once, at the head of the line, in grey and not
-selectable — it is apparatus, and should not end up in a copied quotation.
+selectable — it is apparatus, and should not end up in a copied quotation. It
+occupies a **fixed column**, wide enough for the longest number in that text, so
+that a 9 and a 10 leave the omen itself starting at the same place:
+
+```
+9.   DIŠ AN.TA.LU₃ …
+10.  DIŠ 30 ha-ad-ri-iš …
+```
 
 **The line hangs, and it hangs past the delimiter.** The number *and* the
 counting mark that opens every omen in the text sit out to the left; every

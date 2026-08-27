@@ -137,8 +137,12 @@ def load_css():
         .omen-id {
             color: #757575;
             font-weight: bold;
-            margin-right: 10px;
             user-select: none;
+            /* A fixed column, wide enough for this text's longest number, so a
+               9 and a 10 leave the omen starting at the same place. Width comes
+               per text from render_text_block; the fallback suits two digits. */
+            display: inline-block;
+            width: var(--numw, 3.5ch);
         }
         /* Force pointer (hand) cursor on Plotly charts */
         .js-plotly-plot .plotly, .js-plotly-plot .plotly .draglayer {
@@ -4659,10 +4663,13 @@ elif st.session_state['annotations']:
                 _ws = token_row['word_start'] if ('word_start' in token_row
                                                   and pd.notna(token_row['word_start'])) else True
                 items.append((disp, css_class, bool(_ws)))
+            # No space between the two: the number's column is a fixed width
+            # and supplies the gap itself, so the text starts at one x whatever
+            # the number's length.
             html_parts = [f'<span class="omen-id">{oid}.</span>',
                           render_tokens_html(items)]
             b, ma, mi = trio(omen_tokens, mono, nopart)
-            omens.append({"omen": str(oid), "html": " ".join(html_parts),
+            omens.append({"omen": str(oid), "html": "".join(html_parts),
                           "bin": b, "macro": ma, "micro": mi,
                           # which side of the tablet this omen stands on, so the
                           # chart can mark where obverse ends and reverse begins
@@ -4712,12 +4719,14 @@ elif st.session_state['annotations']:
             _mk = str(text_df['counting'].dropna().iloc[0]) if text_df['counting'].notna().any() else ""
         _mk = "" if _mk in ("line", "§", "None", "nan") else _mk
         _numw = max((len(str(o["omen"])) for o in omens), default=2)
-        _oind = _numw + 2 + (len(_mk) + 1 if _mk else 0)
+        _numcol = _numw + 2                       # digits, the full stop, one space
+        _oind = _numcol + (len(_mk) + 1 if _mk else 0)
 
         for o in omens:
             c_text, c_ldi = st.columns([5, 2])
             c_text.markdown(
-                f'<div class="omen-line" style="--oind:{_oind}ch">{o["html"]}</div>',
+                f'<div class="omen-line" style="--oind:{_oind}ch;--numw:{_numcol}ch">'
+                f'{o["html"]}</div>',
                 unsafe_allow_html=True)
             c_ldi.markdown(
                 f'<div class="ldi-val">{_fmt(o["bin"])} · {_fmt(o["macro"])} · {_fmt(o["micro"])}</div>',
