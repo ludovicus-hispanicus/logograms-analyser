@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+"""Check every corpus text's inferred eBL link against the fragmentarium.
+
+The app builds a Library URL from a text's museum number when the frontmatter
+names no eBL edition of its own. That URL follows eBL's pattern but need not
+resolve: Emar, Boğazköy and the composite recensions are not in eBL at all. So
+each one is asked for once, here, and the answer is committed to
+`data/ebl-fragments.json`; the app reads that file and marks a link as
+unverified only when it is genuinely unknown.
+
+    py -3 scripts/check_ebl_links.py [--out data/ebl-fragments.json]
+
+Re-run after adding texts. Needs network; the app never does.
+"""
+import argparse, concurrent.futures as cf, datetime, json, os, re, sys, urllib.error, urllib.request
+import yaml
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA = os.path.join(ROOT, "data")
+API = "https://www.ebl.lmu.de/api/fragments/{}"
+CUSTOM = os.path.join(DATA, "_custom")
+# Keep in step with app.ebl_url_for.
+EBL_FIELDS = ("edition", "note", "source_note", "recension", "series", "publication")
+
+
+def corpus_numbers():
+    """Museum numbers the app would build a Library URL from, by filename stem.
+
+    Mirrors app.ebl_url_for: a text whose frontmatter names an eBL URL, a corpus
+    chapter or an explicit `eBL <number>` is already resolved and is skipped."""
+    out = set()
+    for dp, dirs, files in os.walk(DATA):
+        dirs[:] = [d for d in dirs if os.path.join(dp, d) != CUSTOM]
+        for f in sorted(files):
+            if not f.endswith(".txt"):
+                continue
+            txt = open(os.path.join(dp, f), encoding="utf-8").read()
+            head = re.match(r"^---\s*\n(.*?)\n---", txt, re.S)
+            try:
+                fm = yaml.safe_load(head.group(1)) if head else {}
+            except yaml.YAMLError:
+                fm = {}
+            fm = fm if isinstance(fm, dict) else {}
+            # The same fields app.ebl_url_for reads. It matters that this list
+            # not drift: a reference sitting in a field only one of the two
+            # looks at means the app builds a link the check never made, and the
+            # text keeps a warning it does not deserve.
+            blob = " ".join(str(fm.get(k, "")) for k in EBL_FIELDS)
+            if re.search(r"https?://(?:www\.)?ebl\.lmu\.de/\S+", blob):
+                continue
+            if re.search(r"/api/texts/([A-Za-z0-9/]+?)/chapters/([A-Za-z0-9/]+)", blob):
+                continue
+            if re.search(r"\beBL\s+(?:fragment\s+)?([A-Za-z]+\.[0-9][\w.\-]*)", blob):
+                continue
+            stem = f.rsplit(".txt", 1)[0]
+            if stem:
+                out.add(stem)
+    return sorted(out)
+
+
+def probe(number):
+    """(number, present, detail) — present is None when the check itself failed."""
+    try:
+        with urllib.request.urlopen(API.format(number), timeout=30) as r:
+            body = json.loads(r.read().decode())
+        return number, True, len(body.get("text", {}).get("lines", []))
+    except urllib.error.HTTPError as e:
+        # 404: eBL has no such fragment. 422: the string is not a well-formed
+        # museum number (Emar.651, KUB37-183, Hittite-izbu-Hattusa), so eBL
+        # cannot hold it under that name either — both mean "do not link".
+        if e.code in (404, 422):
+            return number, False, e.code
+        # 403: the record exists but is not public. The link is still the right
+        # page, so it counts as present rather than as a broken guess.
+        if e.code == 403:
+            return number, True, 403
+        return number, None, f"HTTP {e.code}"
+    except Exception as e:                       # network, timeout, bad JSON
+        return number, None, type(e).__name__
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", default=os.path.join(DATA, "ebl-fragments.json"))
+    ap.add_argument("--workers", type=int, default=6)
+    args = ap.parse_args()
+
+    numbers = corpus_numbers()
+    print(f"checking {len(numbers)} museum numbers against eBL ...")
+    results = []
+    with cf.ThreadPoolExecutor(max_workers=args.workers) as ex:
+        for i, res in enumerate(ex.map(probe, numbers), 1):
+            results.append(res)
+            if i % 50 == 0:
+                print(f"  ... {i}/{len(numbers)}")
+
+    present = sorted(n for n, ok, _ in results if ok is True)
+    absent = sorted(n for n, ok, _ in results if ok is False)
+    failed = sorted(n for n, ok, _ in results if ok is None)
+    if failed:
+        # A failed check is not an answer: leave those numbers out of both lists
+        # so the app keeps treating them as unverified rather than recording a
+        # network hiccup as "eBL does not have this".
+        print(f"  ! {len(failed)} could not be checked, left unverified: "
+              f"{', '.join(failed[:8])}{' ...' if len(failed) > 8 else ''}")
+
+    payload = {
+        "_comment": "Generated by scripts/check_ebl_links.py — do not edit by hand. "
+                    "Museum numbers whose eBL fragmentarium record was confirmed to "
+                    "exist (present) or confirmed missing (absent). Numbers in "
+                    "neither list were never checked successfully.",
+        "checked": datetime.date.today().isoformat(),
+        "endpoint": API,
+        "present": present,
+        "absent": absent,
+    }
+    with open(args.out, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(payload, fh, ensure_ascii=False, indent=1)
+        fh.write("\n")
+    print(f"wrote {args.out}: {len(present)} present, {len(absent)} absent, "
+          f"{len(failed)} unchecked")
+    return 1 if failed else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

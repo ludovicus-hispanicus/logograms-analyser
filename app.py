@@ -86,6 +86,8 @@ def load_css():
            stay upright inside an italic (phonetic / monogram) word. */
         .brk {
             font-style: normal;
+            text-transform: none;
+            vertical-align: baseline;
         }
         .particle {
             color: #388E3C; /* Green */
@@ -1171,16 +1173,32 @@ def _damage_html(disp, open_run, next_damaged=False):
     return "".join(out), open_run
 
 def render_tokens_html(items):
-    """The colour-coded HTML for one line. `items` is [(display, css class), ...]."""
+    """The colour-coded HTML for one line.
+
+    `items` is [(display, css class, word_start), ...]; word_start False glues a
+    piece to the one before it with no space, so the parts of a single word stay
+    a single word on screen."""
     out, open_run = [], False
-    for i, (disp, cls) in enumerate(items):
+    for i, item in enumerate(items):
+        disp, cls = item[0], item[1]
+        word_start = item[2] if len(item) > 2 else True
         nxt = items[i + 1][0] if i + 1 < len(items) else None
         frag, open_run = _damage_html(disp, open_run,
                                       _starts_damaged(nxt) if nxt is not None else False)
-        out.append(f'<span class="{cls}">{_wrap_brackets(frag)}</span>')
+        if cls == "determinative":
+            # A determinative is superscripted and lower-cased; the brackets
+            # around it are neither, so they are emitted beside the span rather
+            # than inside it.
+            piece = "".join(
+                (f'<span class="brk">{_esc_html(chunk)}</span>' if j % 2
+                 else f'<span class="determinative">{_esc_html(chunk)}</span>')
+                for j, chunk in enumerate(_BRACKET_RUN.split(frag)) if chunk)
+        else:
+            piece = f'<span class="{cls}">{_wrap_brackets(frag)}</span>'
+        out.append((" " if (i and word_start) else "") + piece)
     if open_run:                       # a run that reaches the end of the line
         out.append('<span class="brk">⸣</span>')
-    return " ".join(out)
+    return "".join(out)
 
 def score_text(name, text):
     """Score one edited buffer on its own, without touching the loaded corpus.
@@ -1352,6 +1370,21 @@ def render_table_with_copy(styler, source_df, key, label="📋 Copy table…", c
         )
 
 EBL_BASE = "https://www.ebl.lmu.de"
+EBL_VERIFIED = os.path.join(_APP_DIR, "data", "ebl-fragments.json")
+
+@st.cache_data(show_spinner=False)
+def ebl_checked():
+    """(present, absent) museum numbers, as checked against eBL's fragmentarium.
+
+    Written by scripts/check_ebl_links.py and committed, so the answer costs no
+    network here — the browser build has none. A number in neither set was never
+    checked and keeps its "built, may not resolve" mark."""
+    try:
+        with open(EBL_VERIFIED, encoding="utf-8") as fh:
+            d = json.load(fh)
+        return set(d.get("present") or ()), set(d.get("absent") or ())
+    except Exception:
+        return set(), set()
 
 def ebl_url_for(row):
     """(url, label, inferred) for a text's eBL edition, or (None, None, False).
@@ -1382,7 +1415,13 @@ def ebl_url_for(row):
     if m_num:
         return f"{EBL_BASE}/library/{m_num.group(1)}", "Library", False
     if stem:
-        return f"{EBL_BASE}/library/{stem}", "Library", True
+        present, absent = ebl_checked()
+        if stem in absent:
+            # Checked, and eBL has no such fragment (Emar, Boğazköy, the
+            # composite recensions): offer no link rather than a dead one.
+            return None, None, False
+        # Checked and found → a real link, so no "may not resolve" mark.
+        return f"{EBL_BASE}/library/{stem}", "Library", stem not in present
     return None, None, False
 
 EBL_WARN = ('<span title="Auto-generated from the text/museum number using eBL&#39;s standard '
@@ -2114,19 +2153,28 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
     annotations = []
     global_index = 0
 
+    new_word = [True]
+
     def add(token, display, t_type):
         # Each annotation carries both the cleaned `token` (drives classification
         # and every LDI count) and the raw `display` (drives the front-end, so
         # brackets and damage markers survive on screen). 'broken'-typed rows are
         # display-only: they are excluded from all scoring.
+        # `word_start` is False for a piece that continues the same
+        # space-separated word — a determinative and the sign that follows it are
+        # one word, so the renderer joins them without a space: {munus}]ŠAH must
+        # read ᵐᵘⁿᵘˢ]ŠAH, not ᵐᵘⁿᵘˢ ]ŠAH.
         nonlocal global_index
         ann = {"token": token, "display": display, "type": t_type,
-               "omen_id": omen_id, "index": global_index}
+               "omen_id": omen_id, "index": global_index,
+               "word_start": new_word[0]}
+        new_word[0] = False
         ann.update(metadata)
         annotations.append(ann)
         global_index += 1
 
     for raw_token in raw_tokens:
+        new_word[0] = True
         # Skip line numbers e.g. "1.", "1'.", the eBL relative form "a+34.", or
         # the paren style "1)" of the KUB 37 / Boğazköy files — a line label,
         # not a word to display or score.
@@ -2207,7 +2255,7 @@ def line_ldi(text, monogram=False, preserved=False, no_particles=False):
             cls = 'determinative'
         else:
             cls = 'phonetic'
-        items.append((disp, cls))
+        items.append((disp, cls, a.get('word_start', True)))
     html = render_tokens_html(items)
 
     lp = [a for a in anns if a['type'] in ('logogram', 'phonetic')]  # determinatives excluded
@@ -4543,7 +4591,9 @@ elif st.session_state['annotations']:
                     css_class = "determinative"
                 else:
                     css_class = "phonetic"
-                items.append((disp, css_class))
+                _ws = token_row['word_start'] if ('word_start' in token_row
+                                                  and pd.notna(token_row['word_start'])) else True
+                items.append((disp, css_class, bool(_ws)))
             html_parts = [f'<span class="omen-id">{oid}.</span>',
                           render_tokens_html(items)]
             b, ma, mi = trio(omen_tokens, mono, nopart)

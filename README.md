@@ -163,7 +163,13 @@ py -3 scripts/corpus_manifest.py    # per-text omen counts (data/corpus-manifest
 py -3 reproduce_tables.py           # every table of figures reported in the article
 py -3 scripts/make_figures.py       # all 18 charts into assets/
 py -3 scripts/restoration_sweep.py  # the restoration sensitivity sweep
+py -3 scripts/check_ebl_links.py    # re-check every eBL link (data/ebl-fragments.json)
 ```
+
+`check_ebl_links.py` is the only one that needs the network: it asks eBL once per
+museum number whether the fragment exists, and commits the answer, so the app can
+link with confidence — and stay silent where eBL has nothing — without ever going
+online itself. Re-run it after adding texts.
 
 `compute_ratios.py` is the Streamlit-free analysis library behind them, and
 mirrors the app's scoring exactly, so a batch run and the app never disagree.
