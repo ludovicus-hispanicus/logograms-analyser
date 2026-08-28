@@ -2462,7 +2462,10 @@ def strip_paratext(lines):
     return out
 
 
-TRANSLATION_RE = re.compile(r"^#tr(?:\.[a-z]{2,3})?\s*:\s*(.*)$", re.I)
+# Every shape the corpus uses: #tr.en:, #tr.en.:, and #tr.en.(o 2'): —
+# the parenthesis is the editor's note of which line the translation runs to,
+# apparatus rather than translation, so only what follows the colon is kept.
+TRANSLATION_RE = re.compile(r"^#tr(?:[.\s][^:]*)?:\s*(.*)$", re.I)
 
 def pair_translations(lines):
     """[(line, translation)] — an editor's `#tr.en:` belongs to the line above it.
