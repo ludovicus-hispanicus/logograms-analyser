@@ -83,6 +83,16 @@ def load_css():
             padding-left: var(--dind, 0);
             text-indent: calc(-1 * var(--dind, 0));
         }
+        /* The edition's own translation, under the omen it renders. Grey and a
+           size down: it is there to be read beside the transliteration, not to
+           compete with it. Indented to the omen's column, never the number's. */
+        .omen-tr {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 1.0rem;
+            color: #6B655D;
+            line-height: 1.5;
+            margin: -0.4rem 0 0.8rem 0;
+        }
         .logogram {
             color: #D32F2F; /* Red */
             font-weight: 500;
@@ -2452,6 +2462,28 @@ def strip_paratext(lines):
     return out
 
 
+TRANSLATION_RE = re.compile(r"^#tr(?:\.[a-z]{2,3})?\s*:\s*(.*)$", re.I)
+
+def pair_translations(lines):
+    """[(line, translation)] — an editor's `#tr.en:` belongs to the line above it.
+
+    Segmentation ignores these lines, and did so by dropping them; they are the
+    edition's own rendering of the omen and worth showing beside it, so they are
+    folded into the line they gloss instead. Several in a row (a translation that
+    runs over) join into one."""
+    out = []
+    for raw in lines:
+        m = TRANSLATION_RE.match(raw.strip())
+        if m:
+            if out:
+                prev, tr = out[-1]
+                got = m.group(1).strip()
+                out[-1] = (prev, (tr + " " + got).strip() if tr else got)
+            continue
+        out.append((raw, ""))
+    return out
+
+
 def load_local_data(base_path="data", include_excluded=False, sources=None, preserved_only=False):
     """
     Recursively load .txt files from data/old, data/middle, data/new
@@ -2636,7 +2668,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                         # Line counting: each physical text line is its own counting unit (omen).
                         # Section (@), ruling ($) and translation/comment (#tr.en:, etc.) lines are skipped.
                         line_counter = 0
-                        for line in lines:
+                        for line, _tr in pair_translations(lines):
                             line = line.strip()
                             if not line: continue
 
@@ -2660,6 +2692,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
 
                             line_metadata = metadata.copy()
                             line_metadata['section'] = current_section
+                            line_metadata['tr_en'] = _tr
                             all_anns.extend(annotate_omen(line, current_omen_id, line_metadata, preserved_only))
 
                     elif metadata.get("counting"):
@@ -2667,10 +2700,10 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                         # Treats the specified token as the Start-of-Omen delimiter.
                         delimiter = metadata.get("counting")
                         
-                        current_omen_data = {'lines': [], 'section': "Unspecified"}
+                        current_omen_data = {'lines': [], 'section': "Unspecified", 'tr': []}
                         current_omen_id = 1
-                        
-                        for line in lines:
+
+                        for line, _tr in pair_translations(lines):
                             line = line.strip()
                             if not line: continue
                             
@@ -2697,28 +2730,32 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                                     text = " ".join(current_omen_data['lines'])
                                     md = metadata.copy()
                                     md['section'] = current_omen_data['section']
+                                    md['tr_en'] = " ".join(t for t in current_omen_data['tr'] if t)
                                     all_anns.extend(annotate_omen(text, str(current_omen_id), md, preserved_only))
                                     current_omen_id += 1
                                 
                                 # Start new omen
                                 # We assume we keep the line content (including the delimiter)
-                                current_omen_data = {'lines': [line], 'section': current_section}
-                            
+                                current_omen_data = {'lines': [line], 'section': current_section,
+                                                     'tr': [_tr]}
+
                             else:
                                 # Not a start line, append to current (even if it's the start of the file)
                                 # This handles cases where the start of the omen is broken/lost
                                 current_omen_data['lines'].append(line)
-                        
+                                current_omen_data['tr'].append(_tr)
+
                         # Flush final omen
                         if current_omen_data['lines']:
                              text = " ".join(current_omen_data['lines'])
                              md = metadata.copy()
                              md['section'] = current_omen_data['section']
+                             md['tr_en'] = " ".join(t for t in current_omen_data['tr'] if t)
                              all_anns.extend(annotate_omen(text, str(current_omen_id), md, preserved_only))
                                      
                     else:
                         # Standard Parsing
-                        for line in lines:
+                        for line, _tr in pair_translations(lines):
                             line = line.strip()
                             if not line: continue
                             
@@ -2738,6 +2775,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                                 
                             # Prepare metadata for this line
                             line_metadata = metadata.copy()
+                            line_metadata['tr_en'] = _tr
                             line_metadata['section'] = current_section
                             
                             # Annotate
@@ -4678,7 +4716,10 @@ elif st.session_state['annotations']:
             html_parts = [f'<span class="omen-id">{oid}.</span>',
                           f'<span class="omen-body">{render_tokens_html(items)}</span>']
             b, ma, mi = trio(omen_tokens, mono, nopart)
-            omens.append({"omen": str(oid), "html": "".join(html_parts),
+            _tr = ""
+            if 'tr_en' in omen_tokens.columns and omen_tokens['tr_en'].notna().any():
+                _tr = str(omen_tokens['tr_en'].dropna().iloc[0]).strip()
+            omens.append({"omen": str(oid), "html": "".join(html_parts), "tr": _tr,
                           "bin": b, "macro": ma, "micro": mi,
                           # which side of the tablet this omen stands on, so the
                           # chart can mark where obverse ends and reverse begins
@@ -4738,10 +4779,12 @@ elif st.session_state['annotations']:
 
         for o in omens:
             c_text, c_ldi = st.columns([5, 2])
-            c_text.markdown(
-                f'<div class="omen-line" style="--numw:{_numcol}ch;--dind:{_dind}ch">'
-                f'{o["html"]}</div>',
-                unsafe_allow_html=True)
+            _block = (f'<div class="omen-line" style="--numw:{_numcol}ch;--dind:{_dind}ch">'
+                      f'{o["html"]}</div>')
+            if o.get("tr"):
+                _block += (f'<div class="omen-tr" style="margin-left:calc({_numcol}ch + 0.35em)">'
+                           f'{_esc_html(o["tr"])}</div>')
+            c_text.markdown(_block, unsafe_allow_html=True)
             c_ldi.markdown(
                 f'<div class="ldi-val">{_fmt(o["bin"])} · {_fmt(o["macro"])} · {_fmt(o["micro"])}</div>',
                 unsafe_allow_html=True)

@@ -167,6 +167,13 @@ break, and the hanging indent puts it in the same column as a wrap:
         LUGAL i-ma-[at ...]
 ```
 
+**The edition's translation**, written on its own line as `#tr.en:` under the
+line it renders, is printed under the omen — grey, a size down, indented to the
+omen's column rather than the number's. It is there to be read beside the
+transliteration, not to compete with it. A translation that runs over several
+`#tr.` lines is joined into one; an omen assembled from several tablet lines
+carries all of their translations, in order.
+
 **A `%sux` marker** is not printed either. It colours the whole line purple,
 marking it as Sumerian rather than Akkadian.
 
@@ -185,7 +192,8 @@ omissions (`<<MA>>`), which are text and must not become markup.
    superscript.
 5. Join the pieces of one word; separate two adjacent determinatives.
 6. Hang the line past number and delimiter; break at a run-over into that same
-   column; print neither `($___$)` nor `%sux`.
+   column; print the `#tr.` translation under it in grey; print neither
+   `($___$)` nor `%sux`.
 7. Escape the text.
 
 None of it touches the numbers.
