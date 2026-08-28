@@ -160,7 +160,13 @@ differently — the difference records how each is segmented.
 
 **A run-over marked `($___$)`** — the editions' notation for text that stood on
 its own indented line on the tablet — is not printed. It becomes a plain line
-break, and the hanging indent puts it in the same column as a wrap:
+break, and the hanging indent puts it in the same column as a wrap.
+
+**Repeated markers are one break at a deeper step, not one break each.** An
+edition indents a run-over further; it does not skip lines. So `($___$)
+($___$) ($___$)` breaks once and steps in twice beyond the hanging indent, while
+two markers *separated by text* on the same line break twice, once at each. The
+example below shows the single case:
 
 ```
 5. DIŠ AN.TA.LU₃ i+na qa₂-a[b-la-ti-šu ...]

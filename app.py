@@ -72,6 +72,11 @@ def load_css():
             align-items: baseline;
             gap: 0.35em;
         }
+        /* A repeated run-over marker steps the line in further; the width is set
+           where it is emitted, from how many markers stood together. */
+        .cont {
+            display: inline-block;
+        }
         /* The omen itself. Its first line is pulled back by the width of the
            counting mark, so the mark sits at the column's edge and every further
            line — a wrap, or a run-over marked ($___$) — begins where the omen's
@@ -1252,14 +1257,28 @@ def render_tokens_html(items):
     `items` is [(display, css class, word_start), ...]; word_start False glues a
     piece to the one before it with no space, so the parts of a single word stay
     a single word on screen."""
-    out, prev_cls = [], None
+    out, prev_cls, _consumed = [], None, set()
     for i, item in enumerate(items):
         disp, cls = item[0], item[1]
         word_start = item[2] if len(item) > 2 else True
+        if i in _consumed:
+            continue
         if str(disp).strip() == CONTINUATION:
             # The edition's run-over marker: the rest of this omen stood on its
-            # own indented line on the tablet, so it does so here too.
+            # own indented line on the tablet, so it does so here too. Repeated
+            # markers are ONE break at a deeper step, not one break each — the
+            # edition indents a run-over further, it does not skip lines. The
+            # first marker is the hanging indent the line already has, so only
+            # the markers beyond it add a step.
+            depth = 1
+            j = i + 1
+            while j < len(items) and str(items[j][0]).strip() == CONTINUATION:
+                _consumed.add(j)
+                depth += 1
+                j += 1
             out.append('<br>')
+            if depth > 1:
+                out.append(f'<span class="cont" style="width:{(depth - 1) * 2}ch"></span>')
             prev_cls = None
             continue
         # Two determinatives in a row are two separate classifiers ({mul}{d},
@@ -1279,7 +1298,8 @@ def render_tokens_html(items):
                 for chunk in _DET_MARK_RUN.split(frag) if chunk)
         else:
             piece = f'<span class="{cls}">{_wrap_brackets(frag)}</span>'
-        glue = "" if (not i or not word_start or out[-1].endswith("<br>")) else " "
+        glue = "" if (not i or not word_start or out[-1].endswith("<br>")
+                      or out[-1].endswith('</span>') and 'class="cont"' in out[-1]) else " "
         out.append(glue + piece)
         prev_cls = cls
     return "".join(out)
