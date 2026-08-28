@@ -2282,7 +2282,7 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
         # Skip line numbers e.g. "1.", "1'.", the eBL relative form "a+34.", or
         # the paren style "1)" of the KUB 37 / Boğazköy files — a line label,
         # not a word to display or score.
-        if re.match(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[.)]$", raw_token):
+        if re.match(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?[.)]$", raw_token):
              continue
 
         clean_token_str = _clean_for_class(raw_token)
@@ -2452,7 +2452,7 @@ def generate_mock_data():
 # eBL-ATF commentary span that !bs closes.
 NON_TEXT_SECTIONS = {'colophon', 'catchline', 'date', 'signature', 'signatures',
                      'summary', 'witnesses'}
-PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
 
 
 def strip_paratext(lines):
@@ -2745,7 +2745,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             # the delimiter, so a "%sux DI\u0160 \u2026" line still starts its own omen.
                             # STRICT CHECK: Delimiter must NOT be followed by digits, subscripts, letters, or hyphen.
                             # Line number may be plain (12.) or eBL relative (a+1., a+41.).
-                            clean_regex = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[.)]\s*)?\s*(?:%\w+\s+)?' + re.escape(delimiter) + r'(?![0-9\u2080-\u2089a-zA-Z\-])'
+                            clean_regex = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[a-z]?[.)]\s*)?\s*(?:%\w+\s+)?' + re.escape(delimiter) + r'(?![0-9\u2080-\u2089a-zA-Z\-])'
                             
                             if re.match(clean_regex, temp_line):
                                 # Flush previous omen
@@ -2792,7 +2792,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                                 continue
 
                             # Check for Explicit ID "1. " or "1'. "
-                            id_match = re.match(r'^(\d+\'?)[.)]', line)
+                            id_match = re.match(r'^(\d+\'?[a-z]?)[.)]', line)
                             if id_match:
                                 current_omen_id = id_match.group(1)
                                 

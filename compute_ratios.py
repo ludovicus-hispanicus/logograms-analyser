@@ -37,7 +37,7 @@ NON_TEXT_SECTIONS = {'colophon', 'catchline', 'date', 'signature', 'signatures',
 # (uncertain) open a span that is not base text; '!bs' returns to base text.
 # A protocol stands at the start of a line (after the line number) and stays in
 # force until replaced, following the eBL-ATF specification.
-PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
 
 
 def strip_paratext(lines):
@@ -139,7 +139,7 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
     language = "akkadian"
     for raw_token in raw_tokens:
         # Line numbers: "12." (eBL style) or "12)" (KUB 37 / Boğazköy files).
-        if re.match(r'^\d+\'?[.)]$', raw_token): continue
+        if re.match(r'^\d+\'?[a-z]?[.)]$', raw_token): continue
         # ATF language-shift markers (%sux, %akk, %es, ...): set the language for
         # the following tokens and drop the marker itself (it is not a sign).
         if re.match(r'^%\w+$', raw_token):
@@ -208,7 +208,7 @@ def annotate_signs(text, omen_id, metadata, preserved_only=False):
     language = "akkadian"
     for raw_token in text.strip().split():
         # Line numbers: "12." (eBL style) or "12)" (KUB 37 / Boğazköy files).
-        if re.match(r'^\d+\'?[.)]$', raw_token): continue
+        if re.match(r'^\d+\'?[a-z]?[.)]$', raw_token): continue
         if re.match(r'^%\w+$', raw_token):
             code = raw_token[1:].lower()
             language = "sumerian" if code in ("sux", "es", "eg") else "akkadian"
@@ -363,11 +363,11 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     temp = line.replace('[', '').replace(']', '')
                     # Line number may be plain (12.), eBL relative (a+1., a+41.),
                     # or paren style (12), used by the KUB 37 / Boğazköy files).
-                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[.)]\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
+                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[a-z]?[.)]\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
                     # A line opening with a language shift (e.g. "%sux DIŠ ...", or a
                     # Sumerian colophon "%sux mu ...") always begins a new omen, so
                     # Sumerian lines are not folded into the preceding Akkadian omen.
-                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[.)]\s*", '', temp).lstrip()
+                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?[.)]\s*", '', temp).lstrip()
                     if re.match(rgx, temp) or body_after_num.startswith('%'):
                         if cur['lines']:
                             md = metadata.copy(); md['section'] = cur['section']
