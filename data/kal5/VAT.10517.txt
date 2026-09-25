@@ -9,9 +9,9 @@ exclude: true   # KAL 5 supplementary witness (Heeßel 2012); held out of the ma
 source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) and glyph-remapped (·→š ◊→ṣ ¿→ḫ ∞→Š ®→ā ∂→ē †→ṭ); apparatus/translation removed; not hand-collated. Reference LDI 0.621 on 153 tokens.
 ---
 @obverse
-1. [DIŠ ] š[úm-ma ] GÍD !.DA.MEŠ
-2. DIŠ šúm-m [a EN UDU.SISK]UR SILIM.M[E SUḪ ]UŠ.BI ke-e-na
-3. DIŠ šúm-ma [ ] EN UDU.SI[SKU]R BA.ÚŠ
+1. [DIŠ ...] š[úm-ma ...] GÍD !.DA.MEŠ
+2. DIŠ šúm-m [a EN UDU.SISK]UR SILIM.M[E SUḪ ...]UŠ.BI ke-e-na
+3. DIŠ šúm-ma [...] EN UDU.SI[SKU]R BA.ÚŠ
 4. DIŠ šúm-ma pa-da-nu ina 150 ZÉšá-ki-in EN UDU.SISKUR [K]I IGI-šú GAR-nu KUR-ád
 5. DIŠ šúm-ma ši-i-lu na-a-di EN UDU.SISKUR BA.ÚŠ
 6. DIŠ šúm-ma ma-za-zu DÙ -šú-ma šu-qu-ur NUN KI IGI-šú GAR-nu KUR-ád
@@ -22,8 +22,8 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 11. DIŠ šúm-ma ḫi-pí eš-šúsi ba ni A.RA.ZU LÚ DINGIR ŠE.GA
 12. DIŠ šúm-ma ZÉ ZÁḪ EN UDU.SISKUR BA.ÚŠ
 13. DIŠ šúm-ma še a ri ŠU.SI GIM pi-sa-an nu-(über Rasur)-uḫ-ši a-na ba an x
-14. DIŠ šúm-ma ul x [ m]ur ul-uṣ ŠÀ ÉRIN-[ni]
-15. DIŠ šúm-ma TA x [ u-ṣ ]u-ur-tu4 e-ṣi-rat NUN KI IGI-šú GAR-[nu KUR-ád]
-16. DIŠ šúm-ma k[a ] su SUḪUŠ ÉRIN.MEŠ -ka i-na-s[a-aḫ]
-17. DIŠ šúm-ma x [ ] EN UDU.SISKUR i-šal- [lim]
-18. DIŠ šúm-ma ŠU. [SI? ] x x EN UDU.SISKUR x x x [ ]
+14. DIŠ šúm-ma ul x [... m]ur ul-uṣ ŠÀ ÉRIN-[ni]
+15. DIŠ šúm-ma TA x [... u-ṣ ...]u-ur-tu4 e-ṣi-rat NUN KI IGI-šú GAR-[nu KUR-ád]
+16. DIŠ šúm-ma k[a ...] su SUḪUŠ ÉRIN.MEŠ -ka i-na-s[a-aḫ]
+17. DIŠ šúm-ma x [...] EN UDU.SISKUR i-šal- [lim]
+18. DIŠ šúm-ma ŠU. [SI? ...] x x EN UDU.SISKUR x x x [...]

@@ -10,23 +10,23 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 ---
 @obverse
 1’-2’ Spuren
-3’. [BE ŠU.SI 2-ta-m]a EDIN.MEŠ !a!-na MURUB4.MEŠ DAB.DAB.MEŠ NUN a-a-bi-šu ŠU -[su ikaššad ]
+3’. [BE ŠU.SI 2-ta-m]a EDIN.MEŠ !a!-na MURUB4.MEŠ DAB.DAB.MEŠ NUN a-a-bi-šu ŠU -[su ikaššad ...]
 4’. [BE ŠU.SI 2-t]a-ma MAN-tu4 ina SUR ZÉ GÙB GAR-ma IGI.MEŠ -ša ZÉ IGI.MEŠ KÚR ZI-ma G[AZ?-šu ?]
-5’. [BE ŠU.SI 2-t]a-ma MAN-tu4 ina GISSU-ša ni kal-ma ù SAG-sà uš-šur KUR-sà NIGIN-ú [r ]
-6’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina GISSU-ša ni kal-ma ù SAG-sà ru-uš-šu-uk URU ZAG [ ]
-7’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina ŠUB GU.ZA GAR-ma ù ir-qí-iq KÚR -ka KA.SÌ.SÌ -šu N[U ikaššad ]
+5’. [BE ŠU.SI 2-t]a-ma MAN-tu4 ina GISSU-ša ni kal-ma ù SAG-sà uš-šur KUR-sà NIGIN-ú [r ...]
+6’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina GISSU-ša ni kal-ma ù SAG-sà ru-uš-šu-uk URU ZAG [...]
+7’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina ŠUB GU.ZA GAR-ma ù ir-qí-iq KÚR -ka KA.SÌ.SÌ -šu N[U ikaššad ...]
 8’. [BE ŠU.SI 2-ta-ma GIM Š]U.SAR pat-la-ma TA ZAG a-na GÙB zi-ra lúKÚR KI-ka i-ba-q[a-ar]
-9’. [BE ŠU.SI 2-ta-ma ] x gišTUKUL ZAG ZÉ eṣ-ret ina GÙB ZÉ BÙR ŠUB -ma U4!.ZAL [am‚t Narām-Sîn ]
-10’. [(0)] ša A-pí-šal ki i-na píl-ši i[k-šu-du ]
+9’. [BE ŠU.SI 2-ta-ma ...] x gišTUKUL ZAG ZÉ eṣ-ret ina GÙB ZÉ BÙR ŠUB -ma U4!.ZAL [am‚t Narām-Sîn ...]
+10’. [(0)] ša A-pí-šal ki i-na píl-ši i[k-šu-du ...]
 11’. Spuren
 @reverse
-1’. [BE ŠU.SI 2-ta-m]a ⸢MAN-tu4 ina! GÙB ⸣ZÉ GAR ⸢KÚR ⸣ KUR ⸢ NUN i⸣ -[ ]
-2’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina ZAG ZÉ GAR NUN KUR KÚR -šu i-x [ ]
+1’. [BE ŠU.SI 2-ta-m]a ⸢MAN-tu4 ina! GÙB ⸣ZÉ GAR ⸢KÚR ⸣ KUR ⸢ NUN i⸣ -[...]
+2’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina ZAG ZÉ GAR NUN KUR KÚR -šu i-x [...]
 3’. [BE ŠU.SI 2-ta-m]a MAN-tu4 ina ZAG IGI-et ZÉ GAR-ma NIN-tu4 mál NIN-ti ma-ṣ [a-at]
-4’. [NUN URU] KÚR -šu DAB-ma BÀD KÚR !(Text: ḫal)-šu i+na-qar u x.MEŠ -šu GAR [ ]
+4’. [NUN URU] KÚR -šu DAB-ma BÀD KÚR !(Text: ḫal)-šu i+na-qar u x.MEŠ -šu GAR [...]
 5’. [BE ŠU.SI 2-ta-ma MAN-t]u4 ina UGU KÁ.GAL GAR NUN É.G[AL š]a ki-ma É.G[AL-šu ŠU -su KUR-ad/ád]
-6’. [DUMU LU]GAL ša a-na giš GU.ZA AD-šu E11 ga-m[i]-ru-ta5 DÙ -u[š ]
+6’. [DUMU LU]GAL ša a-na giš GU.ZA AD-šu E11 ga-m[i]-ru-ta5 DÙ -u[š ...]
 7’. [BE ŠU.SI 2-ta-ma MAN-tu]4 BAD4 GAR-at NUN KUR ⸢la⸣ šu-a-tú ! ŠU -su KUR-[ad/ád]
-8’. [BE ŠU.SI 2-ta-ma MAN-tu4] ina ZAG KI.GUB GAR a-na NUN KUR BAL.MEŠ -šu GUR-ma ša INIM-šu DÙ -š[u ]
-9’. [BE ŠU.SI 2-ta-ma MAN-tu4 ina GÙB KI.GU]B ⸢GAR NUN⸣ [(x)] KUR-su BAL-su x [ ]
+8’. [BE ŠU.SI 2-ta-ma MAN-tu4] ina ZAG KI.GUB GAR a-na NUN KUR BAL.MEŠ -šu GUR-ma ša INIM-šu DÙ -š[u ...]
+9’. [BE ŠU.SI 2-ta-ma MAN-tu4 ina GÙB KI.GU]B ⸢GAR NUN⸣ [(x)] KUR-su BAL-su x [...]
 10’. Spuren

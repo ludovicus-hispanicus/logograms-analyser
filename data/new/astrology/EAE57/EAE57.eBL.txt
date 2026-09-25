@@ -73,7 +73,7 @@ note: Composite text as reconstructed in eBL. Logograms uppercase, syllabic lowe
 26. [DIŠ {mul}KA₅.A ...] x-šu₂ ma-diš SA₅ IGI.DU₈.A-BI MUL BI GIM ka-ra-re-e GAL₂ um-šu₁₄ dan-nu GAL₂-ši
    #tr.en: [If the ... of the Fox] is very red, there is the appearance of that star like the sun at midday, there will be a strong frost.
 27. DIŠ {mul}KA₅.A MUL BI NU SA₅ ina IGI MUL GIM ka-ra-[re-e ...] ina? MURUB₄-šu₂ GAL₂ BURU₁₄ KUR {d}I[ŠKUR? ...]
-   #tr.en: If the the star of the Fox is not red, when visible a star like the brilli[ance of the sun at midday…]; there is [...] in(?) its center; A[dad? will ...] the harvest of the country.
+   #tr.en: If the the star of the Fox is not red, when visible a star like the brilli[ance of the sun at midday...]; there is [...] in(?) its center; A[dad? will ...] the harvest of the country.
 28. %sux DIŠ {mul}ka₅-a mul-bi nu-gun₃-gun₃ igi mul-bi an-bar₇-ga₂-gin₇ 1 mul al-e₃ im kalag ba-ab-zi-zi
    #note: NinNAEx3 (@url{K.8634}) contains an excerpt with an Akkadian version. Cf. @bib{RN1876@36-37} (BPO 2 II 3a)
    # // (Zweisprachiges Omenkompendium § 1)

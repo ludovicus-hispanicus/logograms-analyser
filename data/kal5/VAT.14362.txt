@@ -11,10 +11,10 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 @obverse
 Die Vs. ist zu fragmentarisch für eine zusammenhängende Umschrift
 @reverse
-1’. [ ] ⸢giš⸣TUK[UL ]
-2’. [ ]gišTUKUL x [ ]
-3’. [ ] x giš⸢TUKUL⸣ x [ ]
-4’. [ ] kur IGI-et x [ ]
+1’. [...] ⸢giš⸣TUK[UL ...]
+2’. [...]gišTUKUL x [...]
+3’. [...] x giš⸢TUKUL⸣ x [...]
+4’. [...] kur IGI-et x [...]
 _________________________________ MAN _____________________
-5’. [ ] [ ]
-6’. [ ] x ZAG x x [ ]
+5’. [...] [...]
+6’. [...] x ZAG x x [...]

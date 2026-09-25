@@ -1,0 +1,28 @@
+---
+discipline: diagnostic omens
+period: Neo Babylonian
+provenance: Uruk (eBL)
+recension: canonical Sakikkû Tablet 3, manuscript J (Schmidtchen 2021 BAM 13)
+counting: line
+series: Sakikkû (Diagnostic Handbook) Tablet 3
+source: "Schmidtchen 2021 (BAM 13), Tafel 3 score pp. 246-256, the rows of ms J, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms J where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
+---
+
+@obverse
+# ms J 1′
+95. [... S]AG#.DU#-[šú] x x ina# ED#[IN? ...]
+96. [... S]AG.DU-šú i#-sal#-li#-iḫ# [...]
+$ single ruling
+98. [...]
+99. [... s]a!-pat ÚŠ :
+100. DIŠ SÍK SAG.DU-šú is-se-ni-i[p ...]
+101. [DIŠ SÍK SAG.DU-šú i]s-sa!-la-ʾ ina EDIN TAG KI.MIN :
+102. DIŠ SÍK S[AG.DU-šú ...]
+103. [... S]U-šú DIŠ-niš zuq-qú-pat ina EDIN TAG ÚŠ :
+104. DIŠ SÍK [...]
+105. [...] ZI#-at GAM :
+106. DIŠ SÍK SAG.DU-šú GE[N₇? ...]
+107. [...]
+108. DIŠ# SÍK# SAG.DU-šú SA₅ SÌG-i[ṣ ...]
+109. [...] x DAB# GÍD#.DA#? [...]

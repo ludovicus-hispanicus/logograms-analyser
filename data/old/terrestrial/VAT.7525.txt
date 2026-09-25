@@ -4,25 +4,25 @@ period: Old Babylonian
 provenance: unknown
 publication: Köcher & Oppenheim 1957-58, AfO 18, 62-77 (VAT 7525). Old Babylonian Šumma Ālu forerunner — human-behaviour, garment (ṣubātum), appearance/body and sleep/dream omens (cols. I–III). Hittite parallel appendix (Güterbock, pp.78-80) excluded.
 counting: DIŠ
-source_note: "Transcribed from the AfO 18 edition (Köcher & Oppenheim 1957-58); the PDF OCR layer is unusable and eBL serves VAT.7525 as a 0-line stub. Normalized to project ATF: ASCII-ATF digraphs sz→š, s,→ṣ, t,→ṭ, h→ḫ, DISZ→DIŠ; accents and ASCII index-digits → Unicode subscripts; numeral-glosses (diš)/(text …) and half-brackets ⌈⌉ dropped; 'Col. N.' → '@column N'. Broken/illegible = x, [...], or …"
+source_note: "Transcribed from the AfO 18 edition (Köcher & Oppenheim 1957-58); the PDF OCR layer is unusable and eBL serves VAT.7525 as a 0-line stub. Normalized to project ATF: ASCII-ATF digraphs sz→š, s,→ṣ, t,→ṭ, h→ḫ, DISZ→DIŠ; accents and ASCII index-digits → Unicode subscripts; numeral-glosses (diš)/(text ...) and half-brackets [] dropped; 'Col. N.' → '@column N'. Broken/illegible = x, [...], or ..."
 note: Heavily syllabic OB human-behaviour/garment/body/dream omens — LDI governed by the sparse logograms (DIŠ, LU₂, DINGIR, I₃.GIŠ, EŠ+DAR₄, NINDA, GAR, UŠ, {d}KAL, {d}ŠUL.PA.E₃).
 ---
 
 @obverse
-1. [DIŠ LU₂ … -m]u
-2. [… ir-t]a-na-aš-ši
-3. [… i-il-l]a-ak
-4. [DIŠ LU₂ …] x-a-at/d
-5. […] ir-ta-na-aš-ši
-6. [DIŠ LU₂ …] x ma da [i]t-ta-na-bal
-7. […]-ra il-[x]-it/d
-8. [DIŠ LU₂ … t]u-ur-ra qa₂-ia-pa-nu-tam
+1. [DIŠ LU₂ ... -m]u
+2. [... ir-t]a-na-aš-ši
+3. [... i-il-l]a-ak
+4. [DIŠ LU₂ ...] x-a-at/d
+5. [...] ir-ta-na-aš-ši
+6. [DIŠ LU₂ ...] x ma da [i]t-ta-na-bal
+7. [...]-ra il-[x]-it/d
+8. [DIŠ LU₂ ... t]u-ur-ra qa₂-ia-pa-nu-tam
 9. i-ip-pu-uš
-10. […] šu x y bu ta wi i
-11. [DIŠ LU₂ …] sa₃-a-ar
-12. [DIŠ LU₂ … ki-ma r]i-ḫu-ut ka-ka-bi-im
-13. […] x {d}ŠUL.PA.E₃
-14. […]-šu iz-zi-iz
+10. [...] šu x y bu ta wi i
+11. [DIŠ LU₂ ...] sa₃-a-ar
+12. [DIŠ LU₂ ... ki-ma r]i-ḫu-ut ka-ka-bi-im
+13. [...] x {d}ŠUL.PA.E₃
+14. [...]-šu iz-zi-iz
 15. [DIŠ LU₂ ṣu₂-up-r]a-šu ar-ra-ki-a qa₂-ia-al
 16. [DIŠ LU₂ ṣu₂-up]-ra-šu ku-ur-ri-ia ḫa-bu-ur
 17. [DIŠ LU₂ ša]r-tam da-mi-iq-tam šu-uk-lu-ul
@@ -62,7 +62,7 @@ note: Heavily syllabic OB human-behaviour/garment/body/dream omens — LDI gover
 6. DIŠ LU₂ ṣu₂-ba-at-su₂ wa-ri-id u₃ pu-ṣa-am i-t[a-ad-du]
 7. ṣu₂-ba-at ta-am-ṭi-a-tim
 8. DIŠ LU₂ ṣu₂-ba-at-su₂ i-na pa-ag-ri-šu la i-ka-an-m[a]
-9. ma-ga-al it-ta-na-aš-ḫa-aṭ LU₂ šu-u₂ … [x]
+9. ma-ga-al it-ta-na-aš-ḫa-aṭ LU₂ šu-u₂ ... [x]
 10. [DIŠ] LU₂ id-da-u₂ DINGIR-šu it-ti-<šu> ze-e-ni ta-ia-ar-[tam ul i-šu]
 11. [DIŠ L]U₂ ši-ki-in qa₂!(BI)-ti-šu im-ta-na-aš-ši bi-tum šu-u₂ il-[x x]
 12. [DIŠ] LU₂ i-na na-ap-lu-si₂-šu a-wi-lam la u₂-te-ed-di
@@ -104,12 +104,12 @@ a-na a-ka-lim i-na-di-šum
 1. DIŠ LU₂ [ši-ru-š]u ki-ma ša ša-am-nam
 pa-aš-šu
 2. ka-a-a-n[i]-iš i-ba-aš-šu-u₂
-3. LU₂ šu-u₂ i-na … x-ru-um na-di-iš-šum
+3. LU₂ šu-u₂ i-na ... x-ru-um na-di-iš-šum
 4. DIŠ LU₂ ḫa-li ṣa-al-mu-tim ma-ga-al ma-li
 5. m[a]-an-za-az la ar bi
 6. DIŠ LU₂ ḫa-li [ṣa-a]l-mu-tim iš-[t]i-na-a
 i-ta-ad-du
-7. x x [ ]
+7. x x [...]
 8. DIŠ LU₂ ḫa-li ṣa-al-mu-tim pa-nu-[š]u i-ra-su₂
 9. [li]-ib-ba-šu qa₂-ta-šu še-pa-a-šu mi-it-ḫa-
 ri-iš ma-li
@@ -126,16 +126,16 @@ ti-šu NINDA i-ra-ši
 16. [i-na na-am-r]a-[ṣ]i-im a-ka-lam i-ka-al
 17. [DIŠ LU₂ a]-b[u-u]n-na-su₂ lu-ṭi-it a-na la
 i-di-e iš-ta-na-ru
-18. [DIŠ LU₂ x x ša]-ar-[t]i-šu pa-ḫa-al-li x […]
+18. [DIŠ LU₂ x x ša]-ar-[t]i-šu pa-ḫa-al-li x [...]
 19. da-an-na-tum i-ṣa-ba-as-su₂
 20. [DIŠ LU₂ še-er-ḫa-a]n ša še-pi-šu it-ta-na-
 la-ku
-21. […] … it bu šum [x x] še-li-iḫ-tim-ma
+21. [...] ... it bu šum [x x] še-li-iḫ-tim-ma
 22. [DIŠ] LU₂ še-er-ḫa-nu ša še-pi-šu [x]
-23. [it-t]a-na-az-za-z[u … x]-zu ši-ir-šu
+23. [it-t]a-na-az-za-z[u ... x]-zu ši-ir-šu
 is-sa₃-ḫa-al
-24. DIŠ LU₂ [š]e-er-ḫa-nu ša še-pi-šu … šu
-25. ITI 2.KAM ITI [3].KAM la iḫ mu …
+24. DIŠ LU₂ [š]e-er-ḫa-nu ša še-pi-šu ... šu
+25. ITI 2.KAM ITI [3].KAM la iḫ mu ...
 26. ki-a-am i-ba-aš-šu-u₂
 27. LU₂ šu-u₂ a-na MU 2.KAM i-ma-at
 28. DIŠ LU₂ i-nu-ma ṣa-al-lu a-lum im-ta-na-qu₂-ta-šum

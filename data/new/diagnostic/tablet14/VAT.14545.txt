@@ -5,17 +5,20 @@ provenance: VAT.14545
 recension: canonical Sakikkû Tablet 14, manuscript E (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 14
-source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript E rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+source: "Schmidtchen 2021 (BAM 13), Tafel 14 score pp. 563-580, the rows of ms E, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms E where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
-83. [ M]UD i-te-ez-zí Š[U? ...]
-84. [ ] x u LUGUD i-te-ez-zí ŠU d[...]
-85. [ iz?-z]i? GAM :
+@obverse
+# ms E 1′
+83. [... M]UD# i#-te#-ez-zí Š[U? ...]
+84. [...] x u LUGUD i-te-ez-zí ŠU {d}[...]
+$ single ruling
+85. [... iz?-z]i? GAM :
 86. DIŠ ŠE₁₀-šú SA₅.MEŠ TIN :
 87. DIŠ ŠE₁₀-šú SI[G₇.MEŠ ...]
-88. [ GE₆.M]EŠ GAM
+88. [... GE₆.M]EŠ GAM
 89. DIŠ ŠE₁₀-šú du-ʾ-ú-[mu ...]
-90. [ ] x GIG-su GÍD :
-91. DIŠ ŠE₁₀-šú ŠÀ kar? [...]
+90. [...] x GIG#-su GÍD :
+91. DIŠ ŠE₁₀-šú ŠÀ/kar? [...]
+92. [...] x x x x [...]

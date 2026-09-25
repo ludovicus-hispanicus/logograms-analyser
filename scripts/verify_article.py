@@ -508,7 +508,7 @@ ck("T23 diag total macro", G(DIAS)['macro'], 0.57,2)
 ck("T23 diag total micro", G(DIAS)['micro'], 0.47,2)
 
 SY_M = ['CBS.12580.txt','CBS.3424.txt','Ni.470.txt','Emar.694.txt']
-PR_M = ['VAT.10235.txt','VAT.10748.txt','VAT.11122.txt','IM.57947.txt','MDP57.txt',
+PR_M = ['VAT.10235.txt','VAT.10748.txt','VAT.11122.txt','IM.57947.txt','MDP57.11.txt',
         'StBoT36.A.txt','StBoT36.B.txt','StBoT36.C.txt','Emar.695.txt']
 ck("T22 symptoms Middle", nom(DIA[DIA.filename.isin(SY_M)]), 57,'int')
 ck("T22 prognosis Middle", nom(DIA[DIA.filename.isin(PR_M)]), 173,'int')
@@ -549,7 +549,7 @@ ck("3.3.2 offset ina/ana", gapMi, 0.12, 2)
 STB = ['StBoT36.A.txt','StBoT36.B.txt','StBoT36.C.txt']
 for lab,fl,vals in [('Emar694',['Emar.694.txt'],(0.45,0.35,0.31)),
                     ('Emar695',['Emar.695.txt'],(0.61,0.58,0.67)),
-                    ('MDP57',['MDP57.txt'],(0.56,0.50,0.30)),
+                    ('MDP57',['MDP57.11.txt'],(0.56,0.50,0.30)),
                     ('StBoT',STB,(0.24,0.21,0.11))]:
     d=DIA[DIA.filename.isin(fl)]; ds=DIAS[DIAS.filename.isin(fl)]
     ck(f"T25 {lab} bin", B(d), vals[0],2)
@@ -567,7 +567,7 @@ HATI=['Ankara-10605.txt','Bogh-1959-56.txt','KUB29-12.txt','KUB37-183.txt','KUB3
       'KUB37-185.txt','KUB37-188.txt','KUB4-67.txt']
 GRPS=[('Mid-Bab',['VAT.17080.txt','VAT.17259.txt','UM.29-16-194.txt'],56,(0.77,0.67,0.62,51.0,26.2,22.8)),
       ('Mid-Ass',['VAT.9908.txt'],18,(0.92,0.90,0.82,87.5,4.5,8.0)),
-      ('Mid-Susa',['Suse.XII-4.txt','Suse.XII-6.txt'],99,(0.85,0.76,0.64,61.8,26.5,11.7)),
+      ('Mid-Susa',['MDP57.10.txt','MDP57.9.txt'],99,(0.85,0.76,0.64,61.8,26.5,11.7)),
       ('Mid-Hatt',HATI,47,(0.33,0.31,0.19,27.3,5.7,66.9)),
       ('Neo-Bab',['BM.33793.txt','BM.52728.txt','W.23271.txt','W.23272.txt'],334,(0.82,0.74,0.63,64.2,17.7,18.1)),
       ('Neo-Ass',['K.131.txt','K.2242.txt','K.3688.txt','K.3695.txt','K.4031.txt','K.8806.txt','Sm.502.txt'],358,(0.83,0.76,0.66,65.3,19.3,15.4))]

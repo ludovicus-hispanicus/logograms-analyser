@@ -18,7 +18,7 @@ note: Neo canonical counterpart for the topic-controlled MB→Neo terrestrial co
 3. DIŠ URU ši-id-da GAR UN.ME[Š ...]
    #tr.en: If a city is set alongside a road: peopl[e ...]
 4. DIŠ URU GIM KARAŠ ERIN₂ šu-bat-su Z[I ...]
-   #tr.en: If a city’s residential section … like an army camp: [...]
+   #tr.en: If a city’s residential section ... like an army camp: [...]
 5. DIŠ URU GIM MUŠEN AMBAR i-had-du-[ud ...]
    #tr.en: If a city is chatter[ing] like a marsh-bird: [...]
 6. DIŠ URU šu-bat-su iš-ta-na-an URU BI x [...] x NU# DUG₃.GA
@@ -493,4 +493,4 @@ note: Neo canonical counterpart for the topic-controlled MB→Neo terrestrial co
 212. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) AM MIN (i-pu-ul-šu₂) LUGAL [...]
    #tr.en: If, ditto (before the daises of my city, a dog yelps and) a wild ox ditto (answers it): the king [...]
 213. DIŠ MIN (IGI BARA₂.MEŠ URU-ia UR.GI₇ is-si-ma) SUN₂ MIN (i-pu-ul-šu₂) ŠA₃.H[UL ...]
-   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a wild cow ditto (answers it): gri[ef …]
+   #tr.en: If, ditto (before the daises of my city, a dog yelps and) a wild cow ditto (answers it): gri[ef ...]

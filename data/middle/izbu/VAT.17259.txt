@@ -5,7 +5,7 @@ provenance: Babylon (Babylonian; from the Merkes private libraries, late Kassite
 publication: VAT 17259 (TCS 4, 101); De Zorzi 2014 ms D of canonical Tablet 7
 canonical_tablet: Tablet 7 (head of the izbu)
 counting: line
-source_note: Transliteration read from De Zorzi 2014 (HANE/M 15), book p.554 (ms D catalogue block). Half-brackets rendered plain; [ ] = restoration; x = illegible; four opening lines of pure traces omitted.
+source_note: Transliteration read from De Zorzi 2014 (HANE/M 15), book p.554 (ms D catalogue block). Half-brackets rendered plain; [...] = restoration; x = illegible; four opening lines of pure traces omitted.
 ---
 
 @obverse
@@ -25,4 +25,5 @@ source_note: Transliteration read from De Zorzi 2014 (HANE/M 15), book p.554 (ms
 16. BE iz-bu 2 [...]
 17. BE iz-bu 2 GIŠ.KUN [...]
 18. BE iz-bu MURUB₄-šu pa-[an-qa ...]
+@colophon
 19. ŠU.NIGIN [...]

@@ -160,11 +160,20 @@ differently — the difference records how each is segmented.
 
 **A run-over marked `($___$)`** — the editions' notation for text that stood on
 its own indented line on the tablet — is not printed. It becomes a plain line
-break, and the hanging indent puts it in the same column as a wrap.
+break, and the hanging indent puts it in the same column as a wrap, stepped in
+past the counting mark. A text with no counting mark (`counting: line`, `§`) has
+no hanging indent to do this, so there the run-over takes a step of its own,
+two characters in from the omen's first line; a wrap in such a text stays at
+the column's edge, which keeps the two apart. A run-over
+is always part of the omen above it, in every counting mode, even where the
+edition numbers it as a line of its own (Emar 669 ll. 54-55 are one omen). A
+marker written after a break, `[... ($___$) KUR]`, is shown at the head of its
+line, so the break opens the indented line instead of trailing the one above.
+A marker that opens a block with nothing before it breaks nothing.
 
 **Repeated markers are one break at a deeper step, not one break each.** An
 edition indents a run-over further; it does not skip lines. So `($___$)
-($___$) ($___$)` breaks once and steps in twice beyond the hanging indent, while
+($___$) ($___$)` breaks once and steps in twice beyond the first step, while
 two markers *separated by text* on the same line break twice, once at each. The
 example below shows the single case:
 
@@ -183,6 +192,20 @@ carries all of their translations, in order.
 **A `%sux` marker** is not printed either. It colours the whole line purple,
 marking it as Sumerian rather than Akkadian.
 
+**A ruling**, `$ single ruling` (or `double`, `triple`, or a bare `$ ruling`),
+is drawn where the tablet has it: a thin grey stroke set close under the omen
+it follows, or above the first omen when it comes before any. A double ruling
+is two strokes, a triple three. The stroke starts where the omen's words do,
+past the number, and runs as far as the text's longest line, never past the
+column: a text whose lines wrap is ruled across the column, a list of short
+labels only as far as its longest label. Each omen is its own element on the
+page, so there is no common box to measure against: the ruling is laid out as
+an omen line with an empty number, and carries an invisible copy of the three
+omens with the longest lines (by character count) that it shrinks to fit. A
+ruling is never counted as text, but it always ends the omen in progress (see
+data/corpus-counting.md), so it is always drawn between two omens. Other `$`
+lines (`$ end of side`, `$ (break)`) are not drawn.
+
 ## 7. Escaping
 
 Display strings are HTML-escaped. Transliteration uses `<` and `>` for scribal
@@ -199,7 +222,7 @@ omissions (`<<MA>>`), which are text and must not become markup.
 5. Join the pieces of one word; separate two adjacent determinatives.
 6. Hang the line past number and delimiter; break at a run-over into that same
    column; print the `#tr.` translation under it in grey; print neither
-   `($___$)` nor `%sux`.
+   `($___$)` nor `%sux`; draw a `$` ruling as long as the longest line.
 7. Escape the text.
 
 None of it touches the numbers.

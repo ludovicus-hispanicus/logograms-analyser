@@ -10,10 +10,10 @@ note: parallel Sm 674; translations in Heeßel 2012
 ---
 
 @obverse
-1'. [ ] bir is ka ma₂ bar [ ]
-2'. [ ] DU₈ SIG₃-iṣ [ ]
-3'. [ ] MUR DU₈ [ ]
-4'. [ S]AG MUR KAM ŠUB-at at-ta u KUR₂-k[a] x x {d}I[ŠKUR ]
+1'. [...] bir is ka ma₂ bar [...]
+2'. [...] DU₈ SIG₃-iṣ [...]
+3'. [...] MUR DU₈ [...]
+4'. [... S]AG MUR KAM ŠUB-at at-ta u KUR₂-k[a] x x {d}I[ŠKUR ...]
 5'. [BE ZAG SAGŠU MUR] DU₈ [x] 1 ME LU₂ šum₄-ma GALGA ERIN₂-ia₅ [BIR-aḫ]
 6'. [BE GUB₃ SAGŠU MU]R DU₈ ka-bat LU₂ šum₄-ma NA UGU EN INIM-šu GUB-az
 7'. [BE KI mu-kil SAG A]N.TA DU₈ EN.NU.UN BAD₃ e-ga-a EN.NU.UN E₂ NA GAM-aš₂ URU₃-ti E₂ NA E₃
@@ -32,21 +32,21 @@ note: parallel Sm 674; translations in Heeßel 2012
 20'. BE KI.TA-nu SAGŠU MUR {giš}TUKUL GAR-ma SAGŠU MUR IGI {giš}TUKUL mu-[k]il SAG KI.GUB {d}INNIN
 21'. BE {giš}TUKUL mu-kil SAG UGU-šu DU₈-er KA.KEŠ[DA].MEŠ KUR₂ BIR-aḫ
 22'. [BE {giš}TUKU]L mu-kil SAG KIR₄-šu U TAR.MEŠ-at ŠUB-ti ERIN₂ KUR₂
-23'. [ mu-kil SA]G ana IGI-šu BUR₃ ŠUB-di IGI.MEŠ-et ERIN₂ KUR₂ GAZ-ak
-24'. [ ] ŠA₃-šu BUR₃ ŠUB-di ERIN₂ KUR₂ [ERIN₂-n]i GAZ-ak
-25'. [ ana U]GU-šu BUR₃ ŠUB-di ERIN₂ KUR₂ ina [ḫir-ri-t]i-ša₂ ŠUB-ut
+23'. [... mu-kil SA]G ana IGI-šu BUR₃ ŠUB-di IGI.MEŠ-et ERIN₂ KUR₂ GAZ-ak
+24'. [...] ŠA₃-šu BUR₃ ŠUB-di ERIN₂ KUR₂ [ERIN₂-n]i GAZ-ak
+25'. [... ana U]GU-šu BUR₃ ŠUB-di ERIN₂ KUR₂ ina [ḫir-ri-t]i-ša₂ ŠUB-ut
 
 @reverse
-1. [ n]e₂-ḫe-el!-ṣu ERIN₂ KUR₂ ina ḫir-ri-ti-ša ŠUB-ut
-2. [ ] ZAG IGI KUR₂ ana KUR-ia iḫ-ḫab-ba-ta
-3. [ mu-kil? SA]G ana IGI-šu SAGŠU MUR DU₈ ina dag-li-ia KUR₂ TI-qe₂
-4. [ mu-kil? SA]G ana IGI-šu ina UGU SAGŠU MUR BUR₃ ŠUB-di ŠUB-ti ERIN₂-ni
-5. [ S]AG MUR ŠU.SI NU SAG.UŠ GAR-ma SAG.UŠ IGI NUN ina NU A.DAM.MEŠ-šu ina ZAG.MEŠ-šu₂ TUŠ-ab
-6. [ ] SAG MUR ŠU.SI NU SAG.UŠ GAR-ma KI.TA-nu ANŠE MUR ša₂ ZAG IGI
+1. [... n]e₂-ḫe-el!-ṣu ERIN₂ KUR₂ ina ḫir-ri-ti-ša ŠUB-ut
+2. [...] ZAG IGI KUR₂ ana KUR-ia iḫ-ḫab-ba-ta
+3. [... mu-kil? SA]G ana IGI-šu SAGŠU MUR DU₈ ina dag-li-ia KUR₂ TI-qe₂
+4. [... mu-kil? SA]G ana IGI-šu ina UGU SAGŠU MUR BUR₃ ŠUB-di ŠUB-ti ERIN₂-ni
+5. [... S]AG MUR ŠU.SI NU SAG.UŠ GAR-ma SAG.UŠ IGI NUN ina NU A.DAM.MEŠ-šu ina ZAG.MEŠ-šu₂ TUŠ-ab
+6. [...] SAG MUR ŠU.SI NU SAG.UŠ GAR-ma KI.TA-nu ANŠE MUR ša₂ ZAG IGI
 7. [0] KUR₂ ina NU A.DAM.MEŠ-šu [i]na ZAG.MEŠ-šu TUŠ-ab
-8. [ M]UR ŠU.SI NU SAG.UŠ GAR-ma ŠU.SI MUR ki-di-ta GAL-ta ša₂ ZAG IGI
+8. [... M]UR ŠU.SI NU SAG.UŠ GAR-ma ŠU.SI MUR ki-di-ta GAL-ta ša₂ ZAG IGI
 9. [NUN r]e-ṣa u ILLAT.MEŠ TUK-ma ina re-ṣi-šu [u] ILLAT.MEŠ-šu KUR KUR₂-šu u₂-šam-qat
-10. [ SA]G? MUR ŠU.SI NU SAG.UŠ GAR-ma BAL [x] sar IGI KUR₂-ka re-ṣa u ILLAT.MEŠ KIN-ku
+10. [... SA]G? MUR ŠU.SI NU SAG.UŠ GAR-ma BAL [x] sar IGI KUR₂-ka re-ṣa u ILLAT.MEŠ KIN-ku
 11. [BE ŠU.SI MUR k]i-di-tu TUR ša₂ ZAG UG[U S]AGŠU MUR [U]₅? INIM.MEŠ-ka ana KUR₂ uz-za-ba-la
 12. [BE ŠU.SI MUR k]i-di-tu TUR ša₂ ZAG KI? SAG[Š]U MUR [x x-m]a ILLAT.MEŠ-ka in-ni-me-da-ma BURU₁₄-ka SIG₃.MEŠ
 13. [BE ŠU.SI MUR k]i-di-tu TUR ša₂ ZAG DAR-ma ana x [(x)] NUN ILLAT-su DU₈-šu
@@ -55,10 +55,10 @@ note: parallel Sm 674; translations in Heeßel 2012
 16. BE ŠU.SI MUR ki-di-tu TUR ša₂ ZAG SAG-sa₃ DU[₈] MAN-ne₂ UŠ₄-mi
 17. BE ŠU.SI MUR ki-di-tu TUR ša₂ ZAG AN.TA DU₈-[a]t [mi-i]d-ru ERIN₂-ni i-ma-ḫar
 18. BE ŠU.SI MUR ki-di-tu TUR ša₂ ZAG KI.TA DU₈-[a]t [(x) ŠU]B-ti ERIN₂-ia GAR-an
-19. BE ŠU.SI MUR ki-di-tu TUR ša₂ ZAG KI mu-kil S[A]G AN.T[A ] x DU₈-at ANŠE ru-ku-ub MAN
+19. BE ŠU.SI MUR ki-di-tu TUR ša₂ ZAG KI mu-kil S[A]G AN.T[A ...] x DU₈-at ANŠE ru-ku-ub MAN
 20. ina KASKAL DU-ku ŠUB-ut KI L[U]GAL ina KASKAL DU-ku NU GUR-ra
 21. BE ŠU.SI MUR ki-di-tu TUR ša₂ ZAG ZAG-ša₂ DU₈-at ZAḪ₂ ki-si ŠUB-at INIM NIG₂.GIG-te
 22. šum₄-ma kin ru ub AD.ḪAL [NUN?] E₃.MEŠ
-23. [BE Š]U.SI MUR ki-di-tu TUR ša₂ ZAG ŠA₃-nu DU₈-at NUN ILLAT x [ ]
-24. [BE Š]U.SI MUR ki-d[i-tu TUR ša₂ ZA]G GE₆-at KUR₂ x [ ]
-25. [BE ŠU.SI M]UR ki-[di-tu TUR ša₂ ZAG x].MEŠ-at [ ]
+23. [BE Š]U.SI MUR ki-di-tu TUR ša₂ ZAG ŠA₃-nu DU₈-at NUN ILLAT x [...]
+24. [BE Š]U.SI MUR ki-d[i-tu TUR ša₂ ZA]G GE₆-at KUR₂ x [...]
+25. [BE ŠU.SI M]UR ki-[di-tu TUR ša₂ ZAG x].MEŠ-at [...]

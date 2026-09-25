@@ -4,22 +4,22 @@ period: Old Babylonian
 provenance: unknown (purchased; southern Babylonia, Rim-Sin/Hammurabi era)
 publication: YOS 10 56 (Goetze 1947); ed. Leichty TCS 4, 201-206 (Old Babylonian Version)
 counting: DIŠ
-source_note: Transliteration from Leichty TCS 4 (1970) text layer. Classic syllabic OB style. Glyphs OCR-approximate (lowercase s=š, ~=ṣ/ḫ) but letter CASE is accurate, so the LDI (logogram/syllabic) distinction is reliable; DIŠ/ANŠE/GIŠ/MAḪ normalised. [ ]=restoration.
+source_note: Transliteration from Leichty TCS 4 (1970) text layer. Classic syllabic OB style. Glyphs OCR-approximate (lowercase s=š, ~=ṣ/ḫ) but letter CASE is accurate, so the LDI (logogram/syllabic) distinction is reliable; DIŠ/ANŠE/GIŠ/MAḪ normalised. [...]=restoration.
 ---
 
 @obverse
 1. DIŠ iz-bu-um [ul-la]-nu-um-ma li-ib-ba-šu pe-ti-i-ma
 2. ir-ru-[šu wa-ṣu]-ú ma-tum su-un-qá-am i-mar-ma
-3. [x] ⌈x⌉ […] ⌈x⌉-ri-im ú-ši-iṣ-ṣi
-4. [DIŠ iz-bu-um … x]-li-it sà-aḫ-ma-aš-tum
+3. [x] [x] [...] [x]-ri-im ú-ši-iṣ-ṣi
+4. [DIŠ iz-bu-um ... x]-li-it sà-aḫ-ma-aš-tum
 5. [i-na] ma-[tim ib-ba-a]š-ši
 6. DIŠ iz-bu-um ki-ma UR.BAR.RA bi-bu-um i-na ma-tim
 7. ib-ba-[aš]-ši
-4. DIŠ iz-bu-um ki-ma li-bi-tim ma[tam da ]-an-na-tum i-~a-ab-ba-at-ma ku-ru-um i-ma-qu-ut
+4. DIŠ iz-bu-um ki-ma li-bi-tim ma[tam da ...]-an-na-tum i-~a-ab-ba-at-ma ku-ru-um i-ma-qu-ut
 5. DIŠ iz-bu-um ul-la-nu-um-ma i-mi- ta-su sa i-mi-ti na-as-~a-at a-Cal] pa-ti-i-ka LU.KUR i-~a-ba-at
 6. DIŠ iz-bu-um ul-la-[nu]-um-ma sipa-tim na-si HAL LUGAL ga-mi-ir [LU.KuRFka1 um-ma-an-ka a-na GIŠ.TUKUL-ki u-sa-am-qa-at-ma ma-tum ma-li-aam i-na-as-si
 7. DIŠ iz-bu-um ul-la-nu-um-ma pi-[su] u-pu-uq LUGAL mu-ut i-li-su i-ma-at-[ma] kaab-tum ma-tam u-wa-e-ir
-8. DIŠ iz-bu-um i-na mu-u~-~i-su zi-i~ ~u-um sa-ki-in LU.KUR ma-tam u-sa-am-qa-at a-na mu-us-ke-nim bi-is-su u u-ni-ti-su ]i.GAL i-re-di-e
+8. DIŠ iz-bu-um i-na mu-u~-~i-su zi-i~ ~u-um sa-ki-in LU.KUR ma-tam u-sa-am-qa-at a-na mu-us-ke-nim bi-is-su u u-ni-ti-su ...]i.GAL i-re-di-e
 9. DIŠ iz-bu-um qi-na-as-su pe-rM!-a!L at ma-tam da-an-na-tum i-~a-ab-ba-at-ma ~u-sa-a~-[~u]-um ib-ba-aS-si
 10. DIŠ iz-bu-um mu-us-ti-nam la i-su mi-lu-um i-na na-ri-im i-pa-ra-sa-am zi-nu i-na sa-me-e is-sa-aq-qa-lu
 11. DIŠ iz-bu-um pa-ni UR.MAḪ sa-ki-in LUGAL [da]-an-nu-um ib-ba-as-si-ma ma-tam sa-ti u-na-as
@@ -62,13 +62,13 @@ source_note: Transliteration from Leichty TCS 4 (1970) text layer. Classic sylla
 20. DIŠ iz-bu-um pi-šu ka-a-a-nu-um ša-ki-in-ma ù ša-nu-um
 21. i-na i-mi-tim ša-ki-in LÚ.KÚR-ka pi-a-am ma-ṭi-a-am
 22. iš-ta-ak-ka-na-ak-ku
-23. DIŠ iz-bu-um uz-na-šu i-ni-šu ik-ta-⌈ta⌉-ma
+23. DIŠ iz-bu-um uz-na-šu i-ni-šu ik-ta-[ta]-ma
 24. a-wi-lum i-ḫa-al-li-iq
 25. DIŠ iz-bu-um ki-ma il-la-bu-ḫi-im ša-ra-am ma-li
 26. É.GAL i-ri-aq {d}IM ri-ṭi-ib-tam i-ra-ḫi-iṣ
 27. DIŠ iz-bu-um ki-ma mu-qá-ri-im ku-bu-ut-ma ù da-an
 28. ma-tum i-ḫa-al-li-iq-ma ma-li-a-am in-na-aš-ši
-29. DIŠ iz-bu-um ta-ri-ik-ma ṣa-li-im ⌈ta⌉-li-it-ti
+29. DIŠ iz-bu-um ta-ri-ik-ma ṣa-li-im [ta]-li-it-ti
 30. bu-li-im i-ṣe-ḫi-ir
 31. DIŠ iz-bu-um qá-qá-as-su a-na ḫa-al-li-šu ka-mi-is-ma
 32. it-ti zi-ib-ba-ti-šu ti-iṣ-bu-ut

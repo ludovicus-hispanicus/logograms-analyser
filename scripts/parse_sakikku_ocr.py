@@ -32,9 +32,9 @@ import re, sys, os, html
 
 # siglum -> museum number, per Schmidtchen's ms list for each Tafel.
 MAPS = {
-    '3': {'A': 'BM.33424', 'B': 'BM.42970', 'C': 'BM.60744', 'D': 'MLC.2639',
-          'E': 'BM.42502', 'F': 'BM.38637', 'G': 'VAT.14556', 'H': 'VAT.14553',
-          'I': 'W.17360ac', 'J': 'VAT.14522'},
+    '3': {'A': 'BM.33424', 'B': 'BM.42970', 'C': 'BM.40744', 'D': 'MLC.2639',
+          'E': 'BM.42502', 'F': 'BM.38637', 'G': 'VAT.14554', 'H': 'VAT.14553',
+          'I': 'W.17360ac', 'J': 'VAT.14552'},
     '4': {'A': 'K.2723', 'B': 'AO.6682', 'C': 'ND.4405', 'D': 'VAT.14550',
           'E': 'W.22761', 'F': 'BM.38489', 'G': 'LKU.77', 'H': 'VAT.14567',
           'I': 'W.17360c', 'J': 'BM.34435'},

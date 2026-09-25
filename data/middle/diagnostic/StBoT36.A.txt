@@ -25,11 +25,11 @@ note: >
 @obverse
 1. še-pa-a-šu e-em-ma qá-ta-[a-šu ka-ṣa-a]
 2. i-te-eb-bi
-3. ul-tu UD 5.KAM mu-ru-us-s[u pa-ṭá-a-ar] mu-ur-ṣí
+3. ul-tu UD.5.KAM mu-ru-us-s[u pa-ṭá-a-ar] mu-ur-ṣí
 4. mu-ru-us-su i-na si-mi-ta-a-an [ṣa]-bi-is-s[u] ma-ḫi-iṣ [BA.ÚŠ]
 5. pa-nu-šu iṣ-ṣa-nu-un-du₄ i-na re-eš mu-ši la-pí-i[t] iš-tu
-6. UD 5.KAM UD 10.KAM i-na zu-um-ri-šu ma-ḫi-iṣ zu-ú-ta ir-ta-na-aš-ši DINGIR-šu it-ti-šu
-7. i-na UD 3.KAM [BA.ÚŠ]
+6. UD.5.KAM UD.10.KAM i-na zu-um-ri-šu ma-ḫi-iṣ zu-ú-ta ir-ta-na-aš-ši DINGIR-šu it-ti-šu
+7. i-na UD.3.KAM [BA.ÚŠ]
 8. u ma-gal i-dáb-bu-ub ŠU KI [BA.ÚŠ]
 9. i-na mu-ši ma-ru-uṣ i-na še-er-ti ba-li-iṭ ú-ša-an-ša
 10. e-mi-it-ta-šu ta-ab-ka-at ŠU {d}Šu-la-ak
@@ -57,8 +57,8 @@ note: >
 10. SAG.DU-šú qa-ta-a-šu se-pa-a-šu mi-it-ḫa-ri-iš ik-ka-la-šu pu-šu a-na at-me-e da-an
 11. ŠÀ-šu i-te-ne-el-la-a lu-'a-a-tu šú ŠU [{d}Ištar BA.ÚŠ]
 14. sa-a-mu ik-ka-la-šu pa-ṭa-a-ar mu-ur-ṣí
-15. UD 10.KAM mu-ur-ṣu
-17. UD 5.KAM UD 10.KAM da-mu a-na pí-šu ka-aṣ-ṣa-na il-la-k[u]
+15. UD.10.KAM mu-ur-ṣu
+17. UD.5.KAM UD.10.KAM da-mu a-na pí-šu ka-aṣ-ṣa-na il-la-k[u]
 
 @colophon
 18. ú-ul qa-ti

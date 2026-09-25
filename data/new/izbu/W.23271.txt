@@ -100,6 +100,7 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 89. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ 1-en GU₇ IBILA EN-ša₂ [...]
 90. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ i-kul-ma in-na-dir lu u₂-na-šak! NA BI NIG₂.ŠU-šu₂ TIL-mar-ma DUMU-MEŠ# [...]
 91. BE {munus}ŠAH U₃.TU-ma DUMU-MEŠ-šu₂ ŠEŠ.ŠEŠ i-ku-lu DUMU-MEŠ E₂.AD [...]
+
 @reverse
 1. BE {munus}ŠAH U₃.TU-ma is-sa-hir-ma DUMU-šu₂
 2. BE {munus}ŠAH U₃.TU-ma is-sa-hir-ma DUMU-šu₂
@@ -179,5 +180,7 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 76. BE ŠAH.GIŠ.GI ina IGI KA₂.GAL GAZ?# [...]
 77. BE ŠAH.GIŠ.GI KUR im-ta-lu-u₂ [...] ŠU₂ [...] LUGAL [...]
 78. BE NIG 1 U₃.TU E₂ BI BIR-ah [x (x)] ZAH₂ LUGAL BI ana KUR BI x GAR NU GAR
+
+@colophon
 79. ŠU.NIGIN 2.UŠ 48.AM₃ MU.ŠID#.[BI DUB].22.KAM BE iz-bu NU AL.TIL
 80. GIM# SUMUN-šu SAR-ma IGI.TAB x x [...] x ŠU!(BA) {d}<60>-u₂-ṣu-ur₂!? [A] {lu₂}E₂?#.KUR!#(EŠ)-za!#(GAR)-[kir]

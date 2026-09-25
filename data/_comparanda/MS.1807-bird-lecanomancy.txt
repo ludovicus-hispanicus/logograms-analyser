@@ -11,7 +11,7 @@ counting: šum-ma
 
 $ (§1)
 1. [šu]m-ma li-ib-bi iṣ-ṣu₂-ri i+na me-e ta-ad-di-m[a]
-#tr.en.(o 5): If you drop a bird’s heart into water, it stands on the cut side and bears along its length a mark (as if) incised: the king will suffer an ailment of the […]; for [its] “crossing over”: fit of madness; a terrible thing will be done in the palace.
+#tr.en.(o 5): If you drop a bird’s heart into water, it stands on the cut side and bears along its length a mark (as if) incised: the king will suffer an ailment of the [...]; for [its] “crossing over”: fit of madness; a terrible thing will be done in the palace.
 2. ($___$) i-na ni-ik-si-šu iz-zi-iz-ma# a-na ma-ra-[ki-šu]
 3. ($___$) i-ṣi-ir-ma ha-ri-iṣ₂ LUGAL mu#-ru#-uṣ [x (x) x]
 4. ($___$) ma-ru#-uṣ a-na na-ba-al-ku-ti-[šu]
@@ -34,7 +34,7 @@ $ (§3)
 
 $ (§4)
 15. šum-ma li-ib-bi iṣ-ṣu₂#-ri i+na me-e ta-ad-di-ma
-#tr.en.(o 17): If you drop a bird’s heart into water and […] along its length [it bears a mark …]
+#tr.en.(o 17): If you drop a bird’s heart into water and [...] along its length [it bears a mark ...]
 16. ($___$) x x [... a-n]a ma#-ra#-ki-šu
 17. [($___$) i-ṣi-ir ...]-ru
 
@@ -42,7 +42,7 @@ $ (§4)
 
 $ (§8)
 1'. [šum-ma l]i-ib#-bi iṣ#-[ṣu₂]-ri# i+na# me-e# ad#-di#-i#-ma#
-#tr.en.(r 6'): [If] I drop a bird’s heart into water and it is perforated from its right side to the left and is slit open(?), and also …: on campaign .…will repulse me and …
+#tr.en.(r 6'): [If] I drop a bird’s heart into water and it is perforated from its right side to the left and is slit open(?), and also ...: on campaign ....will repulse me and ...
 2'. ($___$) i[š-t]u i-mi-it#-ti-šu a-na šu#-me-li#-im# pa-li-[i]š-ma
 3'. ($___$) š[u-ul]-lu-u[q?] u₃# x x x x-um i+na KASKAL
 4'. ($___$) x [x x x] x x x x x i-da#-ri#-sa₃#-ni-ma
@@ -51,7 +51,7 @@ $ (§8)
 
 $ (§9)
 7'. šum-ma [li-i]b-bi# iṣ#-ṣu₂#-ri# i+na# me#-[e a]d-di-ma
-#tr.en.(r 12'): If [I] drop a bird’s heart into water and …: .…will take from you.
+#tr.en.(r 12'): If [I] drop a bird’s heart into water and ...: ....will take from you.
 8'. ($___$) i+n[a ...] x x x
 9'. ($___$) [...] x x x {d}IŠKUR? x
 10'. ($___$) x [...] x x x x-ak#-ma
@@ -60,7 +60,7 @@ $ (§9)
 
 $ (§10)
 13'. šum-ma li#-ib#-bi iṣ-ṣu₂#-ri# i+na# me#-[e a]d-di-ma
-#tr.en.(r 17'): If [I] drop a bird’s heart into water and it throws up horns .…: on the campaign he undertakes the king will gore the lands like a wild bull. If (ditto): [the king] will remain seated [on] the throne; his guardian spirit [will not withdraw(?) from his side(?)] and his protective spirit [will not withdraw(?)] from [his] land.
+#tr.en.(r 17'): If [I] drop a bird’s heart into water and it throws up horns ....: on the campaign he undertakes the king will gore the lands like a wild bull. If (ditto): [the king] will remain seated [on] the throne; his guardian spirit [will not withdraw(?) from his side(?)] and his protective spirit [will not withdraw(?)] from [his] land.
 14'. ($___$) qa-an-ni x x x uš₂-te-li LUGAL i+na KASKAL i-il-la-ku
 15'. ($___$) ma#-a#-ta#-tim [k]i-i#-ma# ri-i-mi u₂#-na-ak-kap#
 16'. ($___$) šum-ma# [LUGAL i+na {gi]š}GU#.ZA# a-ši-ib še-es-su₂# i#+[na i-di-šu₂?]

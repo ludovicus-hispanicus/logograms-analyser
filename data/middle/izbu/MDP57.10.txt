@@ -2,7 +2,7 @@
 discipline: izbu omens
 period: Middle Babylonian
 provenance: Susa (Ville Royale, level A XII; end of the sukkalmah period, late 15th/early 14th c. BCE)
-publication: MDP 57 no. 10 (Labat 1974), Suse XII/4
+publication: MDP 57, 10 (Labat 1974), Suse XII/4
 colophon: 71 omens (naphar 71), hand of Ili-ma-ilu; ruling/lower edge signed Šurri-Šamaš
 canonical_parallel: Summa izbu (animal teratology; sow/piglet, cf. izbu tablets 20-23 domestic animals); only indirect contact per Labat MDP 57 p.196
 counting: DIŠ

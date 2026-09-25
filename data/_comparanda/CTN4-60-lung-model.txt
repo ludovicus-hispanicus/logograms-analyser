@@ -7,7 +7,7 @@ counting: line
 topic: lung
 publication: eBL IM.64183 = CTN 4 60 (Wiseman–Black 1996, pl. 34–37); De Zorzi 2021, WdO 51/2
 feature: orientation/label model of Šumma ḫašû Tablet 10 (each lung part + KI KAR / AN KAR)
-note: near-fully logographic label model (119 entries, no apodoses) — separate genre so it does not skew the lung-OMEN LDI; eBL 15/150 normalized to ZAG/GUB₃, ditto-notation <(…)> expanded
+note: near-fully logographic label model (119 entries, no apodoses) — separate genre so it does not skew the lung-OMEN LDI; eBL 15/150 normalized to ZAG/GUB₃, ditto-notation <(...)> expanded
 ---
 
 1. [SAG MUR ša₂] ZAG ina SIG-ša₂ KI# KAR
@@ -250,5 +250,5 @@ note: near-fully logographic label model (119 entries, no apodoses) — separate
 #tr.en: (Palace guard of the lung, to the left), stripped off upward
 
 @colophon
-$ 120: 1 UŠ 59?# [MU?.MEŠ? KAR?-MEŠ?] ša₂ MUR# GIM# [SUMUN-šu₂] {m}{d}AG-p[a?-šer₃?] DUMU MU-li[b₃?-ši? x x] {lu₂}MAŠ₂.Š[U.GID₂.GID₂]  — @i{119} (?) [@i{lines}, @i{strippings}] of the lung, according [to its original], Nabû-pāšer (?), son of Šumu-libši (?) [(…)], the diviner, has @i{written and collated}. Šapīya, @i{Month} [N], day 24, year 9 of [Marduk-apla-iddina (II) (?)], king.
+$ 120: 1 UŠ 59?# [MU?.MEŠ? KAR?-MEŠ?] ša₂ MUR# GIM# [SUMUN-šu₂] {m}{d}AG-p[a?-šer₃?] DUMU MU-li[b₃?-ši? x x] {lu₂}MAŠ₂.Š[U.GID₂.GID₂]  — @i{119} (?) [@i{lines}, @i{strippings}] of the lung, according [to its original], Nabû-pāšer (?), son of Šumu-libši (?) [(...)], the diviner, has @i{written and collated}. Šapīya, @i{Month} [N], day 24, year 9 of [Marduk-apla-iddina (II) (?)], king.
 $ 121: SAR!?SI-ma U[D?.DU] {uru}ša₂-pi-ia! {i[ti?}x] U₄.24.KAM MU.9.KAM {m}{d#}[AMAR?.UTU?-A?-ŠUM₂?] LUGAL.[E]

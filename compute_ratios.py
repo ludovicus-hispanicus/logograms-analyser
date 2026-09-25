@@ -37,7 +37,31 @@ NON_TEXT_SECTIONS = {'colophon', 'catchline', 'date', 'signature', 'signatures',
 # (uncertain) open a span that is not base text; '!bs' returns to base text.
 # A protocol stands at the start of a line (after the line number) and stays in
 # force until replaced, following the eBL-ATF specification.
-PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+
+# The editions' run-over marker, ($___$), opening a line: what follows is the
+# rest of the omen above, set on an indented line of its own on the tablet. The
+# edition numbers it as a line, but it is not a new omen, whatever the counting
+# mode. The marker may stand after the line label and after a break "[..." that
+# swallowed the start of the line (K.131 22. [... ($___$) KUR] DAG#).
+RUNOVER_RE = re.compile(r"^(?:(?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?[.)]\s*)?(?:\[\s*)?(?:\.\.\.\s*)?\(\$___\$\)")
+
+
+def is_runover(line):
+    """True if a body line is a run-over: the continuation of the omen above."""
+    return bool(RUNOVER_RE.match(line.strip()))
+
+
+# A ruling drawn on the tablet: "$ single ruling", "$ double ruling", "$ triple
+# ruling" (eBL-ATF), or a bare "$ ruling". A text need not have any, but where one
+# stands it always ends the omen in progress: an entry never runs across a ruling,
+# so what follows begins a new omen even when its opening particle is lost.
+RULING_RE = re.compile(r"^\$\s*\(?\s*(?:(?:single|double|triple)\s+)?ruling\b", re.I)
+
+
+def is_ruling(line):
+    """True if a body line is a ruling ($ single / double / triple ruling)."""
+    return bool(RULING_RE.match(line.strip()))
 
 
 def strip_paratext(lines):
@@ -139,7 +163,7 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
     language = "akkadian"
     for raw_token in raw_tokens:
         # Line numbers: "12." (eBL style) or "12)" (KUB 37 / Boğazköy files).
-        if re.match(r'^\d+\'?[a-z]?[.)]$', raw_token): continue
+        if re.match(r'^(?:[a-zA-Z]{1,2}\+)?\d+[\'′’]?[a-z]?[\'′’]?[.)]$', raw_token): continue
         # ATF language-shift markers (%sux, %akk, %es, ...): set the language for
         # the following tokens and drop the marker itself (it is not a sign).
         if re.match(r'^%\w+$', raw_token):
@@ -208,7 +232,7 @@ def annotate_signs(text, omen_id, metadata, preserved_only=False):
     language = "akkadian"
     for raw_token in text.strip().split():
         # Line numbers: "12." (eBL style) or "12)" (KUB 37 / Boğazköy files).
-        if re.match(r'^\d+\'?[a-z]?[.)]$', raw_token): continue
+        if re.match(r'^(?:[a-zA-Z]{1,2}\+)?\d+[\'′’]?[a-z]?[\'′’]?[.)]$', raw_token): continue
         if re.match(r'^%\w+$', raw_token):
             code = raw_token[1:].lower()
             language = "sumerian" if code in ("sux", "es", "eg") else "akkadian"
@@ -332,7 +356,7 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     m = re.match(r'§(\S+)\s+(.*)', line)
                     if m:
                         cur_id = m.group(1)
-                        c = re.sub(r'^\d+\'?[.)]\s*', '', m.group(2))
+                        c = re.sub(r'^\d+[\'′’]?[a-z]?[\'′’]?[.)]\s*', '', m.group(2))
                         section_omens.setdefault(cur_id, []).append({'text': c, 'section': current_section})
                 for oid, dl in section_omens.items():
                     if not dl: continue
@@ -341,17 +365,29 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     all_anns.extend(annotate(combined, oid, md, preserved_only))
 
             elif metadata.get("counting") == "line":
-                oid = 0
+                # One omen per line, except that a run-over joins the omen above,
+                # never across a ruling.
+                units, ruled = [], False
                 for line in lines:
                     line = line.strip()
                     if not line: continue
                     if line.startswith('@'): current_section = line.strip('@').title(); continue
-                    if line.startswith('$') or line.startswith('#'): continue
-                    oid += 1
-                    md = metadata.copy(); md['section'] = current_section
-                    all_anns.extend(annotate(line, str(oid), md, preserved_only))
+                    if line.startswith('$'):
+                        ruled = ruled or is_ruling(line)
+                        continue
+                    if line.startswith('#'): continue
+                    if units and is_runover(line) and not ruled:
+                        units[-1]['lines'].append(line)
+                        continue
+                    ruled = False
+                    units.append({'lines': [line], 'section': current_section})
+                for oid, u in enumerate(units, 1):
+                    md = metadata.copy(); md['section'] = u['section']
+                    all_anns.extend(annotate(" ".join(u['lines']), str(oid), md, preserved_only))
 
             elif metadata.get("counting"):
+                # One particle, or alternatives separated by '|' ("DIŠ|BE" for a
+                # text whose omens open with either, as EAE 22 Part II).
                 delim = metadata.get("counting")
                 cur = {'lines': [], 'section': "Unspecified"}
                 oid = 1
@@ -359,15 +395,24 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     line = line.strip()
                     if not line: continue
                     if line.startswith('@'): current_section = line.strip('@').title(); continue
-                    if line.startswith('$') or line.startswith('#'): continue
-                    temp = line.replace('[', '').replace(']', '')
+                    if line.startswith('$'):
+                        # A ruling ends the omen in progress; what follows opens
+                        # a new one even without the particle.
+                        if is_ruling(line) and cur['lines']:
+                            md = metadata.copy(); md['section'] = cur['section']
+                            all_anns.extend(annotate(" ".join(cur['lines']), str(oid), md, preserved_only))
+                            oid += 1
+                            cur = {'lines': [], 'section': current_section}
+                        continue
+                    if line.startswith('#'): continue
+                    temp = re.sub(r'[\[\]⸢⸣˹˺]', '', line)   # breaks and damage marks do not hide the particle
                     # Line number may be plain (12.), eBL relative (a+1., a+41.),
                     # or paren style (12), used by the KUB 37 / Boğazköy files).
-                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[a-z]?[.)]\s*)?(?:%\w+\s+)?\s*' + re.escape(delim) + r'(?![0-9₀-₉a-zA-Z\-])'
+                    rgx = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+[\'′’]?[a-z]?[\'′’]?[.)]\s*)?(?:%\w+\s+)?\s*' + '(?:' + '|'.join(map(re.escape, str(delim).split('|'))) + ')' + r'(?![0-9₀-₉a-zA-Z\-])'
                     # A line opening with a language shift (e.g. "%sux DIŠ ...", or a
                     # Sumerian colophon "%sux mu ...") always begins a new omen, so
                     # Sumerian lines are not folded into the preceding Akkadian omen.
-                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?[.)]\s*", '', temp).lstrip()
+                    body_after_num = re.sub(r"^(?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?[.)]\s*", '', temp).lstrip()
                     if re.match(rgx, temp) or body_after_num.startswith('%'):
                         if cur['lines']:
                             md = metadata.copy(); md['section'] = cur['section']
@@ -375,6 +420,8 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                             oid += 1
                         cur = {'lines': [line], 'section': current_section}
                     else:
+                        if not cur['lines']:
+                            cur['section'] = current_section
                         cur['lines'].append(line)
                 if cur['lines']:
                     md = metadata.copy(); md['section'] = cur['section']
@@ -385,8 +432,8 @@ def load_local_data(base_path="data", preserved_only=False, annotate=None):
                     if not line: continue
                     if line.startswith('@'): current_section = line.strip('@').title(); continue
                     if line.startswith('$') or line.startswith('#'): continue
-                    idm = re.match(r'^(\d+\'?)[.)]', line)
-                    if idm: current_omen_id = idm.group(1)
+                    idm = re.match(r'^(\d+[\'′’]?[a-z]?[\'′’]?)[.)]', line)
+                    if idm and not is_runover(line): current_omen_id = idm.group(1)
                     md = metadata.copy(); md['section'] = current_section
                     all_anns.extend(annotate(line, current_omen_id, md, preserved_only))
     return all_anns

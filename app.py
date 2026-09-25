@@ -72,8 +72,9 @@ def load_css():
             align-items: baseline;
             gap: 0.35em;
         }
-        /* A repeated run-over marker steps the line in further; the width is set
-           where it is emitted, from how many markers stood together. */
+        /* The step a run-over is set in by: --rostep for a text counted by line,
+           which has no hanging indent to do it, plus one more for each repeated
+           marker. The width is set where it is emitted. */
         .cont {
             display: inline-block;
         }
@@ -97,6 +98,37 @@ def load_css():
             color: #6B655D;
             line-height: 1.5;
             margin: -0.4rem 0 0.8rem 0;
+        }
+        /* A ruling on the tablet ($ single / double ruling), drawn between the
+           omens it separates. It starts where the omen's words do, past the
+           number column (it is an omen line whose number is empty), and its box
+           shrinks to fit an invisible copy of the text's longest lines, so the
+           strokes run exactly as long as that line and never past the column.
+           One stroke per ruling line, 2px apart. */
+        .omen-line.ruling {
+            align-items: flex-start;
+        }
+        .ruling-box {
+            flex: 0 1 auto;
+            min-width: 0;
+        }
+        /* Under an omen: pulled up to the line above (its 0.8rem bottom margin
+           collapses with this one), leaving the usual gap below. */
+        .omen-line.ruling.after {
+            margin-top: -0.65rem;
+            margin-bottom: 0.8rem;
+        }
+        .omen-line.ruling.before {
+            margin-bottom: 0.3rem;
+        }
+        .ruling-ghost {
+            visibility: hidden;
+            height: 0;
+            overflow: hidden;
+        }
+        .ruling-strokes {
+            background: repeating-linear-gradient(to bottom,
+                #9E9589 0, #9E9589 1px, transparent 1px, transparent 3px);
         }
         .logogram {
             color: #D32F2F; /* Red */
@@ -704,6 +736,63 @@ IGNORE_TOKENS = {'x', '($___$)', '.', '..', '...'}
 # The editions' run-over marker: what follows stood on its own indented
 # line on the tablet rather than opening a new omen.
 CONTINUATION = '($___$)'
+# A line that opens with the marker is the rest of the omen above, whatever the
+# counting mode, although the edition numbers it as a line of its own. The marker
+# may stand after the line label and after a break "[..." that swallowed the start
+# of the line (K.131 22. [... ($___$) KUR] DAG#). Mirrors compute_ratios.
+RUNOVER_RE = re.compile(r"^(?:(?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?[.)]\s*)?(?:\[\s*)?(?:\.\.\.\s*)?\(\$___\$\)")
+
+def is_runover(line):
+    """True if a body line is a run-over: the continuation of the omen above."""
+    return bool(RUNOVER_RE.match(line.strip()))
+
+# A ruling drawn on the tablet: "$ single ruling", "$ double ruling", "$ triple
+# ruling" (eBL-ATF), or a bare "$ ruling". Display only: it is drawn between the
+# omens it separates and never enters a count.
+_RULING_RE = re.compile(r"^\$\s*\(?\s*(?:(single|double|triple)\s+)?ruling\b", re.I)
+_RULING_STROKES = {"single": 1, "double": 2, "triple": 3}
+
+def ruling_strokes(line):
+    """How many strokes a `$` line draws as a ruling; 0 if it is not a ruling."""
+    m = _RULING_RE.match(line.strip())
+    return _RULING_STROKES.get((m.group(1) or "single").lower(), 1) if m else 0
+
+def _note_ruling(rulings, line, oid):
+    """Record a ruling against the omen in progress, `oid`, which it follows; a
+    ruling that comes before any omen stands above the first one."""
+    n = ruling_strokes(line)
+    if not n:
+        return
+    if oid is None:
+        rulings['before'] = max(rulings['before'], n)
+    else:
+        rulings['after'][str(oid)] = max(rulings['after'].get(str(oid), 0), n)
+
+def _mark_rulings(rows, rulings):
+    """Write a text's rulings onto its annotation rows (rule_before on the first
+    omen, rule_after on the omen a ruling follows), as stroke counts."""
+    if not rows or not (rulings['before'] or rulings['after']):
+        return
+    first = str(rows[0]['omen_id'])
+    for r in rows:
+        oid = str(r['omen_id'])
+        r['rule_before'] = rulings['before'] if oid == first else 0
+        r['rule_after'] = rulings['after'].get(oid, 0)
+
+# How far one run-over step indents, in `ch`: the step a text counted by line
+# gives its run-overs, and the extra step each repeated marker adds.
+RUNOVER_STEP_CH = 2
+
+_RUNOVER_AFTER_BREAK = re.compile(
+    r"^((?:(?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?[.)]\s*)?)(\[\s*(?:\.\.\.\s*)?|\.\.\.\s*)\(\$___\$\)\s*")
+
+def lead_runover(line):
+    """Put a run-over marker written after a break back at the head of its line.
+
+    "22. [... ($___$) KUR]" becomes "22. ($___$) [... KUR]", so the break is shown
+    opening the indented line rather than trailing the omen above it. The tokens
+    are the same either way; only where the line breaks on screen changes."""
+    return _RUNOVER_AFTER_BREAK.sub(r"\1($___$) \2", line)
 
 # Number-logograms: bare numerals that are logographic writings of a word —
 # 15 = ZAG "right", 150 = GUB₃ "left", 30 = Sîn (moon-god). Counted as logograms
@@ -1267,18 +1356,24 @@ def render_tokens_html(items):
             # The edition's run-over marker: the rest of this omen stood on its
             # own indented line on the tablet, so it does so here too. Repeated
             # markers are ONE break at a deeper step, not one break each — the
-            # edition indents a run-over further, it does not skip lines. The
-            # first marker is the hanging indent the line already has, so only
-            # the markers beyond it add a step.
+            # edition indents a run-over further, it does not skip lines. Where
+            # the text has a counting mark, the hanging indent already steps the
+            # first marker in past it; a text counted by line has no mark, so
+            # there the first marker takes a step of its own (--rostep, set by
+            # render_text_block). Each marker beyond it adds one more. A marker
+            # that opens the block, with no omen above it to run over from (a
+            # text whose first line is a run-over), breaks nothing.
             depth = 1
             j = i + 1
             while j < len(items) and str(items[j][0]).strip() == CONTINUATION:
                 _consumed.add(j)
                 depth += 1
                 j += 1
+            if not out:
+                continue
             out.append('<br>')
-            if depth > 1:
-                out.append(f'<span class="cont" style="width:{(depth - 1) * 2}ch"></span>')
+            out.append('<span class="cont" style="width:calc(var(--rostep, 0ch) + '
+                       f'{(depth - 1) * RUNOVER_STEP_CH}ch)"></span>')
             prev_cls = None
             continue
         # Two determinatives in a row are two separate classifiers ({mul}{d},
@@ -1298,7 +1393,7 @@ def render_tokens_html(items):
                 for chunk in _DET_MARK_RUN.split(frag) if chunk)
         else:
             piece = f'<span class="{cls}">{_wrap_brackets(frag)}</span>'
-        glue = "" if (not i or not word_start or out[-1].endswith("<br>")
+        glue = "" if (not out or not word_start or out[-1].endswith("<br>")
                       or out[-1].endswith('</span>') and 'class="cont"' in out[-1]) else " "
         out.append(glue + piece)
         prev_cls = cls
@@ -1885,6 +1980,8 @@ def counting_label(val):
         return "numbered lines (fallback)"
     if c in _COUNTING_GLOSS:
         return f"{c} — {_COUNTING_GLOSS[c]}"
+    if "|" in c:
+        return f"{c} — new omen at each opening particle " + " or ".join(f"“{p}”" for p in c.split("|"))
     return f"{c} — new omen at each opening particle “{c}”"
 
 @st.cache_data
@@ -2282,7 +2379,7 @@ def annotate_omen(text, omen_id, metadata, preserved_only=False):
         # Skip line numbers e.g. "1.", "1'.", the eBL relative form "a+34.", or
         # the paren style "1)" of the KUB 37 / Boğazköy files — a line label,
         # not a word to display or score.
-        if re.match(r"^(?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?[.)]$", raw_token):
+        if re.match(r"^(?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?[.)]$", raw_token):
              continue
 
         clean_token_str = _clean_for_class(raw_token)
@@ -2452,7 +2549,7 @@ def generate_mock_data():
 # eBL-ATF commentary span that !bs closes.
 NON_TEXT_SECTIONS = {'colophon', 'catchline', 'date', 'signature', 'signatures',
                      'summary', 'witnesses'}
-PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+'?[a-z]?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
+PROTOCOL_RE = re.compile(r"^((?:[a-zA-Z]{1,2}\+)?\d+['′’]?[a-z]?['′’]?\.\s*)?!(bs|cm|qt|zz)\b\s*(.*)$")
 
 
 def strip_paratext(lines):
@@ -2630,7 +2727,12 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                     current_omen_id = "Unknown"
 
                     lines = strip_paratext(body.splitlines())
-                    
+                    # Rulings ($ single ruling …) are skipped by every mode below,
+                    # but noted against the omen they follow so the text view can
+                    # draw them.
+                    rulings = {'before': 0, 'after': {}}
+                    _file_start = len(all_anns)
+
                     # Special parsing for counting: §
                     if metadata.get("counting") == "§":
                         # Dictionary to accumulate text for each section omen
@@ -2646,8 +2748,9 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                                 current_section = line.strip('@').title()
                                 continue
                             if line.startswith('$'):
+                                _note_ruling(rulings, line, current_section_omen_id)
                                 continue
-                                
+
                             # Check for § marker e.g. "§1"
                             # Regex to match § followed by digits, then space, then maybe line number stuff?
                             # Example: "§1 3'. [...]"
@@ -2664,7 +2767,7 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                                 
                                 # We also need to strip the line number if present in the rest content "3'. [...]"
                                 # Using standard regex for line number at start of content
-                                content = re.sub(r'^\d+\'?[.)]\s*', '', content)
+                                content = re.sub(r'^\d+[\'′’]?[a-z]?[\'′’]?[.)]\s*', '', content)
                                 section_omens[current_section_omen_id].append({'text': content, 'section': current_section})
                                 
                             elif current_section_omen_id and line.startswith('§'):
@@ -2688,9 +2791,11 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                              all_anns.extend(annotate_omen(combined_text, oid, omen_meta, preserved_only))
                              
                     elif metadata.get("counting") == "line":
-                        # Line counting: each physical text line is its own counting unit (omen).
+                        # Line counting: each physical text line is its own counting unit (omen),
+                        # except a run-over, which joins the omen above with its translation
+                        # (never across a ruling, which always ends an omen).
                         # Section (@), ruling ($) and translation/comment (#tr.en:, etc.) lines are skipped.
-                        line_counter = 0
+                        units, ruled = [], False
                         for line, _tr in pair_translations(lines):
                             line = line.strip()
                             if not line: continue
@@ -2698,7 +2803,11 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             if line.startswith('@'):
                                 current_section = line.strip('@').title()
                                 continue
-                            if line.startswith('$') or line.startswith('#'):
+                            if line.startswith('$'):
+                                _note_ruling(rulings, line, len(units) or None)
+                                ruled = ruled or bool(ruling_strokes(line))
+                                continue
+                            if line.startswith('#'):
                                 continue
 
                             # Each counted line is a distinct omen, numbered by a
@@ -2710,17 +2819,25 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             # count collapsed to the longer side (W.23271 read 91
                             # omens for 171 lines). compute_ratios counts the same
                             # way for the published tables.
-                            line_counter += 1
-                            current_omen_id = str(line_counter)
+                            if units and is_runover(line) and not ruled:
+                                units[-1]['lines'].append(lead_runover(line))
+                                units[-1]['tr'].append(_tr)
+                                continue
+                            ruled = False
+                            units.append({'lines': [line], 'section': current_section,
+                                          'tr': [_tr]})
 
+                        for line_counter, u in enumerate(units, 1):
                             line_metadata = metadata.copy()
-                            line_metadata['section'] = current_section
-                            line_metadata['tr_en'] = _tr
-                            all_anns.extend(annotate_omen(line, current_omen_id, line_metadata, preserved_only))
+                            line_metadata['section'] = u['section']
+                            line_metadata['tr_en'] = " ".join(t for t in u['tr'] if t)
+                            all_anns.extend(annotate_omen(" ".join(u['lines']), str(line_counter),
+                                                          line_metadata, preserved_only))
 
                     elif metadata.get("counting"):
                         # Generic Token Parsing (e.g. "BAD", "DIŠ")
-                        # Treats the specified token as the Start-of-Omen delimiter.
+                        # Treats the specified token as the Start-of-Omen delimiter;
+                        # alternatives separated by '|' ("DIŠ|BE", EAE 22 Part II).
                         delimiter = metadata.get("counting")
                         
                         current_omen_data = {'lines': [], 'section': "Unspecified", 'tr': []}
@@ -2733,19 +2850,36 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             if line.startswith('@'):
                                 current_section = line.strip('@').title()
                                 continue
-                            if line.startswith('$') or line.startswith('#'):
+                            if line.startswith('$'):
+                                # The omen a ruling follows: the one in progress, or,
+                                # just after a ruling closed one, that one.
+                                _after = (current_omen_id if current_omen_data['lines']
+                                          else current_omen_id - 1 if current_omen_id > 1 else None)
+                                _note_ruling(rulings, line, _after)
+                                # A ruling always ends the omen in progress; what
+                                # follows opens a new one even without the particle.
+                                if ruling_strokes(line) and current_omen_data['lines']:
+                                    md = metadata.copy()
+                                    md['section'] = current_omen_data['section']
+                                    md['tr_en'] = " ".join(t for t in current_omen_data['tr'] if t)
+                                    all_anns.extend(annotate_omen(" ".join(current_omen_data['lines']),
+                                                                  str(current_omen_id), md, preserved_only))
+                                    current_omen_id += 1
+                                    current_omen_data = {'lines': [], 'section': current_section, 'tr': []}
+                                continue
+                            if line.startswith('#'):
                                 continue
 
                             # Check if line starts with delimiter (ignoring potential line number, brackets "12. [B]AD")
                             # Strategy: Strip brackets from the line ONLY for the check.
-                            temp_line = line.replace('[', '').replace(']', '')
+                            temp_line = re.sub(r'[\[\]⸢⸣˹˺]', '', line)   # breaks and damage marks do not hide the particle
                             
                             # Regex: Optional line number, optional %lang marker (e.g. %sux for
                             # a Sumerian line), then the delimiter. The language marker precedes
                             # the delimiter, so a "%sux DI\u0160 \u2026" line still starts its own omen.
                             # STRICT CHECK: Delimiter must NOT be followed by digits, subscripts, letters, or hyphen.
                             # Line number may be plain (12.) or eBL relative (a+1., a+41.).
-                            clean_regex = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+\'?[a-z]?[.)]\s*)?\s*(?:%\w+\s+)?' + re.escape(delimiter) + r'(?![0-9\u2080-\u2089a-zA-Z\-])'
+                            clean_regex = r'^(?:(?:[a-zA-Z]{1,2}\+)?\d+[\'′’]?[a-z]?[\'′’]?[.)]\s*)?\s*(?:%\w+\s+)?' + '(?:' + '|'.join(map(re.escape, str(delimiter).split('|'))) + ')' + r'(?![0-9\u2080-\u2089a-zA-Z\-])'
                             
                             if re.match(clean_regex, temp_line):
                                 # Flush previous omen
@@ -2765,7 +2899,9 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             else:
                                 # Not a start line, append to current (even if it's the start of the file)
                                 # This handles cases where the start of the omen is broken/lost
-                                current_omen_data['lines'].append(line)
+                                if not current_omen_data['lines']:
+                                    current_omen_data['section'] = current_section
+                                current_omen_data['lines'].append(lead_runover(line))
                                 current_omen_data['tr'].append(_tr)
 
                         # Flush final omen
@@ -2788,12 +2924,16 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                                 continue
                                 
                             # Check for comments / rulings / translation lines (#tr.en:, etc.)
-                            if line.startswith('$') or line.startswith('#'):
+                            if line.startswith('$'):
+                                _note_ruling(rulings, line,
+                                             None if current_omen_id == "Unknown" else current_omen_id)
+                                continue
+                            if line.startswith('#'):
                                 continue
 
                             # Check for Explicit ID "1. " or "1'. "
-                            id_match = re.match(r'^(\d+\'?[a-z]?)[.)]', line)
-                            if id_match:
+                            id_match = re.match(r'^(\d+[\'′’]?[a-z]?[\'′’]?)[.)]', line)
+                            if id_match and not is_runover(line):
                                 current_omen_id = id_match.group(1)
                                 
                             # Prepare metadata for this line
@@ -2803,8 +2943,10 @@ def load_local_data(base_path="data", include_excluded=False, sources=None, pres
                             
                             # Annotate
                             all_anns.extend(annotate_omen(line, current_omen_id, line_metadata, preserved_only))
-                    
-                    # Logic fix in next step or combined here if possible? 
+
+                    _mark_rulings(all_anns[_file_start:], rulings)
+
+                    # Logic fix in next step or combined here if possible?
                     # I need to change the proceeding `else:` to `elif metadata.get("counting"):` 
                     # and leave the original `else:` (lines 346+) for standard.
                     # But tool `replace_file_content` replaces a chunks.
@@ -4742,7 +4884,22 @@ elif st.session_state['annotations']:
             _tr = ""
             if 'tr_en' in omen_tokens.columns and omen_tokens['tr_en'].notna().any():
                 _tr = str(omen_tokens['tr_en'].dropna().iloc[0]).strip()
-            omens.append({"omen": str(oid), "html": "".join(html_parts), "tr": _tr,
+            # The rulings drawn above and below this omen, and the length in
+            # characters of its longest physical line (a run-over starts a new
+            # one), which picks the lines a ruling is measured against.
+            _rules = [int(omen_tokens[c].fillna(0).max()) if c in omen_tokens.columns else 0
+                      for c in ("rule_before", "rule_after")]
+            _seg, _longest = 0, 0
+            for _d, _c, _w in items:
+                if str(_d).strip() == CONTINUATION:
+                    _seg = 0
+                    continue
+                _seg += len(str(_d)) + (1 if _w else 0)
+                _longest = max(_longest, _seg)
+            omens.append({"omen": str(oid), "html": "".join(html_parts), "body": html_parts[1],
+                          "tr": _tr,
+                          "rule_before": _rules[0], "rule_after": _rules[1],
+                          "longest": _longest,
                           "bin": b, "macro": ma, "micro": mi,
                           # which side of the tablet this omen stands on, so the
                           # chart can mark where obverse ends and reverse begins
@@ -4798,15 +4955,47 @@ elif st.session_state['annotations']:
         # How far the omen's body is pulled back on its first line: the width of
         # the counting mark and the space after it. Nothing for a text counted by
         # line, whose omens open with no mark at all.
-        _dind = f"{len(_mk) + 0.8:.1f}" if _mk else "0"
+        _dind = f"{max(len(p) for p in _mk.split('|')) + 0.8:.1f}" if _mk else "0"
+        # A run-over steps in past the omen's opening. The pull-back above does
+        # that wherever the text has a counting mark; a text counted by line has
+        # none, so its run-overs take a step of their own.
+        _rostep = 0 if _mk else RUNOVER_STEP_CH
+
+        _vars = f'--numw:{_numcol}ch;--dind:{_dind}ch;--rostep:{_rostep}ch'
+
+        def _omen_line(o, part="html"):
+            return f'<div class="omen-line" style="{_vars}">{o[part]}</div>'
+
+        # A ruling starts where the omen's words do, past the number, and runs
+        # as far as the text's longest line. Each omen is its own element on the
+        # page, so no box holds them all to measure against; instead the ruling
+        # carries an invisible copy of the longest lines (their text, without
+        # the number) and shrinks to fit them. Three candidates, by character
+        # count, so a line of wide signs that counts a little shorter is still in
+        # the running.
+        _ruling_ghost = ""
+        if any(o["rule_before"] or o["rule_after"] for o in omens):
+            _ruling_ghost = "".join(_omen_line(o, "body") for o in
+                                    sorted(omens, key=lambda o: -o["longest"])[:3])
+
+        def _ruling(strokes, where):
+            # Laid out as an omen line with an empty number, so the strokes
+            # start exactly where the omen's words do.
+            return (f'<div class="omen-line ruling {where}" style="{_vars}">'
+                    f'<span class="omen-id"></span><div class="ruling-box">'
+                    f'<div class="ruling-ghost" aria-hidden="true">{_ruling_ghost}</div>'
+                    f'<div class="ruling-strokes" style="height:{3 * strokes - 2}px"></div>'
+                    f'</div></div>')
 
         for o in omens:
             c_text, c_ldi = st.columns([5, 2])
-            _block = (f'<div class="omen-line" style="--numw:{_numcol}ch;--dind:{_dind}ch">'
-                      f'{o["html"]}</div>')
+            _block = _ruling(o["rule_before"], "before") if o["rule_before"] else ""
+            _block += _omen_line(o)
             if o.get("tr"):
                 _block += (f'<div class="omen-tr" style="margin-left:calc({_numcol}ch + 0.35em)">'
                            f'{_esc_html(o["tr"])}</div>')
+            if o["rule_after"]:
+                _block += _ruling(o["rule_after"], "after")
             c_text.markdown(_block, unsafe_allow_html=True)
             c_ldi.markdown(
                 f'<div class="ldi-val">{_fmt(o["bin"])} · {_fmt(o["macro"])} · {_fmt(o["micro"])}</div>',

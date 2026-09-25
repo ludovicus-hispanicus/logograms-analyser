@@ -2,7 +2,7 @@
 discipline: izbu omens
 period: Middle Babylonian
 provenance: Susa (Ville Royale, level A XII; end of the sukkalmah period, late 15th/early 14th c. BCE)
-publication: MDP 57 no. 9 (Labat 1974), Suse XII/6
+publication: MDP 57, 9 (Labat 1974), Suse XII/6
 canonical_parallel: Summa izbu tablets I-IV (human births; only rare, indirect points of contact per Labat MDP 57 p.196 and Leichty TCS IV)
 counting: DIŠ
 source_note: Transcription from MDP 57 (Labat 1974) pp.199-200, Fig.22 (Face). Square brackets = editor's restoration; angle <> = scribal omission supplied by editor; (?)/(!) editorial marks dropped. Only the transliteration line kept (Akkadian normalisation in the edition omitted).

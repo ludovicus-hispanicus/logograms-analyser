@@ -118,7 +118,7 @@ def map_article_bib(entries, index):
         else:
             # A quoted segment names the item itself (an article or chapter);
             # otherwise score on the whole tail. Container title breaks ties.
-            q = re.match(r'^[\"„"«]([^\""»]+)', m.group("rest"))
+            q = re.match('^[\"“„«]([^\"”»]+)', m.group("rest"))
             want = title_tokens(q.group(1) if q else m.group("rest"))
             rest = title_tokens(m.group("rest"))
 
@@ -141,7 +141,10 @@ CITE_RE = re.compile(
     r"(?<![\w/])"
     r"(?P<names>" + NAME + r"(?:\s*(?:/|&|and)\s*" + NAME + r")*)"
     r"\s+(?P<year>1[89]\d{2}|20[0-3]\d)(?P<suffix>[a-z])?"
-    r"(?P<locator>,\s*(?:pp?\.\s*)?(?:§\s*)?\d+[\d\.,:–\-]*(?:\s*(?:ff?\.?|and\s+\d+))?"
+    # NB: ':' must stay out of the locator class. "Koch 2015, 74–75: the groove's"
+    # otherwise captures "74–75:" as the locator, which citation_field then
+    # rejects for not ending in a digit -- silently losing page and colon both.
+    r"(?P<locator>,\s*(?:pp?\.\s*)?(?:§\s*)?\d+[\d\.,–\-]*(?:\s*(?:ff?\.?|and\s+\d+))?"
     r"|,\s*no\.\s*[\w\.\d]+"
     r"|,\s*passim)?")
 
@@ -207,17 +210,41 @@ def zotero_item_field(items, cited_text, locators):
             '<w:r><w:fldChar w:fldCharType="end"/></w:r>')
 
 
+# Two notations reach this point. The article is written in Markdown, so its
+# emphasis arrives as *...*. Zotero keeps rich text as a small set of HTML tags
+# inside the field value itself, and hands them on unchanged in the CSL JSON, so
+# a title entered as "Die Omen-Serie: <i>Šumma ālu</i>" arrives with the tags in
+# it. Both have to become run properties; printed literally they are a visible
+# defect in the bibliography.
+INLINE = re.compile(r"\*([^*]+)\*"
+                    r"|<(i|b|sub|sup)>(.*?)</\2>"
+                    r'|<span class="nocase">(.*?)</span>', re.S)
+RUN_PR = {"i": "<w:i/>", "b": "<w:b/>",
+          "sub": '<w:vertAlign w:val="subscript"/>',
+          "sup": '<w:vertAlign w:val="superscript"/>'}
+
+
+def w_run(text, props=""):
+    pr = f"<w:rPr>{props}</w:rPr>" if props else ""
+    return f'<w:r>{pr}<w:t xml:space="preserve">{esc(text)}</w:t></w:r>'
+
+
 def md_runs(text):
-    """Markdown inline emphasis to Word runs: *...* becomes italic."""
-    runs = []
-    for part in re.split(r"(\*[^*]+\*)", text):
-        if not part:
-            continue
-        if part.startswith("*") and part.endswith("*") and len(part) > 2:
-            runs.append('<w:r><w:rPr><w:i/></w:rPr>'
-                        f'<w:t xml:space="preserve">{esc(part[1:-1])}</w:t></w:r>')
+    """Inline emphasis to Word runs: *...* from the article, <i>...</i> from Zotero."""
+    runs, pos = [], 0
+    for m in INLINE.finditer(text):
+        if m.start() > pos:
+            runs.append(w_run(text[pos:m.start()]))
+        if m.group(1) is not None:
+            runs.append(w_run(m.group(1), RUN_PR["i"]))
+        elif m.group(2) is not None:
+            runs.append(w_run(m.group(3), RUN_PR[m.group(2)]))
         else:
-            runs.append(f'<w:r><w:t xml:space="preserve">{esc(part)}</w:t></w:r>')
+            # nocase tells citeproc not to recase; it carries no formatting
+            runs.append(w_run(m.group(4)))
+        pos = m.end()
+    if pos < len(text):
+        runs.append(w_run(text[pos:]))
     return "".join(runs)
 
 

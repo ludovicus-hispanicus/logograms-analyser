@@ -2,7 +2,7 @@
 discipline: extispicy omens
 period: Middle Assyrian
 provenance: Assur
-counting: BE
+counting: line
 topic: lung
 publication: Heeßel 2012 KAL 5 no. 56 (VAT 10159 = KAR 153)
 feature: ubān ḫašî qablītu (middle lung-finger)
@@ -10,8 +10,8 @@ note: "63 omens (colophon: 1 šuši 3 MU.ŠID.BI.IM); translations in Heeßel 20
 ---
 
 @obverse
-1'. [ ].MEŠ-šu₂ NU KUR-ad
-2'. [ ] x ta x NUN ina KI.TUŠ.MEŠ-šu ḪULUḪ.MEŠ-ut
+1'. [...].MEŠ-šu₂ NU KUR-ad
+2'. [...] x ta x NUN ina KI.TUŠ.MEŠ-šu ḪULUḪ.MEŠ-ut
 3'. [BE (x) ŠU.SI M]UR MURUB₄ ZAG DU₈-at u₃ SAL.LA MUR ZAG DU₈ ina ŠA₃ u₄-me šu-a-tu IZI ina E₂.GAL MU₂-aḫ
 4'. [BE (x) ŠU.SI M]UR MURUB₄ GUB₃ DU₈-at u₃ SAL.LA MUR GUB₃ DU₈ ina ŠA₃ u₄-me šu-a-tu IZI ina E₂.GAL KUR₂ MU₂-aḫ
 5'. [BE x ŠU.SI M]UR MURUB₄ KI.TA-ma DU₈-er SUḪ₂-u₂ UGU ERIN₂-ia ŠUB-ut
@@ -38,8 +38,8 @@ note: "63 omens (colophon: 1 šuši 3 MU.ŠID.BI.IM); translations in Heeßel 20
 26'. [BE NIG₂.GEŠTU ŠU].SI MUR MURUB₄ GE₆ IZI ina E₂.GAL-lim MU₂-aḫ
 27'. [BE NIG₂.GEŠTU ŠU].SI MUR MURUB₄ šam-ṭa-at a-ši-tu₄ nu-kur-tu₄
 28'. [BE NIG₂.GEŠTU ŠU.SI MUR MU]RUB₄ kap-ṣa-at NUN KUR-su! ana KA-šu₂ TUŠ-ab
-29'. [BE ] DU₈-er i-ši-it KUR₂ ana KARAŠ ERIN₂-ia ŠUB-ut
-30'. [BE ] x SIG₃-iṣ SAG.DU ERIN₂-ia E₂ LU₂ BIR-aḫ na-par-ru-ur-tu NAM.TAB.BA.MEŠ i-zu-zu
+29'. [BE ...] DU₈-er i-ši-it KUR₂ ana KARAŠ ERIN₂-ia ŠUB-ut
+30'. [BE ...] x SIG₃-iṣ SAG.DU ERIN₂-ia E₂ LU₂ BIR-aḫ na-par-ru-ur-tu NAM.TAB.BA.MEŠ i-zu-zu
 31'. [(o)] DAM u₃ DAM TAG₄.MEŠ
 
 @reverse
@@ -69,6 +69,6 @@ $ colophon: ŠU.NIGIN 1 šu-ši 3 MU.ŠID.BI.IM — total 63 counted entries
 24. [BE x x] ŠU.SI MUR MURUB₄ GIŠ.ḪUR ḪUR-ma GUB₃ IGI [0] DINGIR ana LU₂ ana ḪUL-ti iš-te-ne₂-ʾe
 25. [BE x x] ŠU.SI MUR MURUB₄ GIR₃ [x] ana šu-bat KUR₂ te-še-er
 26. [BE ina? NIG₂?.GE]ŠTU? ŠU.SI MUR MURUB₄ ina ZAG u₃ GUB₃ GIR₃ [x] IGI.IGI-tu₄
-27. [BE x x Š]U.SI MUR MURUB₄ x [x x] x x [ ] gi-piš ERIN₂ KUR₂ ana KUR-ia
-28. [ B]AL-ma k[i ] KAL-an ERIN₂-ia
-29. [ ] ŠA₃.SI₃.SI₃.KE.MEŠ ERIN₂-ia ana KUR KUR₂
+27. [BE x x Š]U.SI MUR MURUB₄ x [x x] x x [...] gi-piš ERIN₂ KUR₂ ana KUR-ia
+28. [... B]AL-ma k[i ...] KAL-an ERIN₂-ia
+29. [...] ŠA₃.SI₃.SI₃.KE.MEŠ ERIN₂-ia ana KUR KUR₂

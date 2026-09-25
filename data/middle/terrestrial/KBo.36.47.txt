@@ -5,7 +5,7 @@ provenance: Ḫattuša (Boğazköy), Hittite Empire — Late Bronze Age (Middle-
 publication: "KBo 36.47 reverse. Edition: Cohen 2007, ZA 97 (Akkadian Omens from Hattuša and Emar). The reverse is an AKKADIAN recension of Šumma Ālu omens, identified with canonical Tablet 41 (cf. CT 41 9b); the obverse is šumma immeru (sacrificial-sheep omens, not included here)."
 counting: line
 source_note: Transcribed from Cohen 2007 ZA 97; Sumerograms uppercased to project ATF (Cohen prints them lowercase). Two reverse columns. Restorations [], breaks x/[...]; half-brackets dropped. Sheep/animal-behaviour omens (a passer-by meets a prancing ram; sheep head/foot/half turned).
-note: "The genuine Ḫattuša-periphery AKKADIAN Šumma Ālu witness (≈ Tablet 41). Logographic (BE UDU NÍTA SAG.DU GÌR ZAG GÙB LÚ.KÚR ÉRIN KUR…) with syllabic verbs — contrast the bilingual KBo 8.6 (syllabic). Abbreviated logographic writing (NÍTA for UDU.NÍTA \"ram\") is typical of peripheral omens (Cohen 2007: 247)."
+note: "The genuine Ḫattuša-periphery AKKADIAN Šumma Ālu witness (≈ Tablet 41). Logographic (BE UDU NÍTA SAG.DU GÌR ZAG GÙB LÚ.KÚR ÉRIN KUR...) with syllabic verbs — contrast the bilingual KBo 8.6 (syllabic). Abbreviated logographic writing (NÍTA for UDU.NÍTA \"ram\") is typical of peripheral omens (Cohen 2007: 247)."
 ---
 
 @reverse col. i

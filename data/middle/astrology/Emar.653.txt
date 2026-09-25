@@ -35,7 +35,7 @@ $ (break)
 15'. [BE {d}UTU x x x x x x] a-dir
 16'. [x x x] x NUN ana NUN
 $ (break)
-17'. [x x x] x x x[
+17'. [x x x] x x x[...]
 18'. [x x x] GAZ-pí
 19'. [BE {d}UTU x x x x] x a-dir
 20'. [x x M]UŠ Ì.KÚ!-m[a] NAG
@@ -55,20 +55,20 @@ $ (break)
 33'. BE [{d}UTU x x x] MEŠ
 34'. ($___$) [x x x]
 35'. BE [{d}UTU x x x]
-36'. ($___$) x[ x x]
-37'. ($___$) ana HUL[ x x]
-38'. ($___$) ina x[ x x]
-39'. ($___$) NU[ x x]
+36'. ($___$) x[... x x]
+37'. ($___$) ana HUL[... x x]
+38'. ($___$) ina x[... x x]
+39'. ($___$) NU[... x x]
 40'. [BE {d}UTU x x x] x
-41'. x[ x x]
+41'. x[... x x]
 42'. BE {d}[UTU x x x] GAR
-43'. ($___$) BE[ x x x] x-šú
+43'. ($___$) BE[... x x x] x-šú
 44'. BE {d}UTU [x x x] ME
 45'. ($___$) x x [x x LUGAL] URI{ki} BA.UŠ₂
 46'. ($___$) x x [x x Z]I.GA
 @reverse
 47'. BE {d}UTU GIŠ.HUR [NIGIN-mi x x]
-48'. x x {d}UTU x[x x x] MAR.TU[ x x]
+48'. x x {d}UTU x[x x x] MAR.TU[... x x]
 49'. BE {d}UTU GIŠ.HUR NI[GIN-m]I KÁ.GAL ina [ZA]G
 50'. muš-šur x[x x x] ŠUB-ut
 51'. u BE [x x x x] ZI.GA
@@ -90,18 +90,18 @@ $ (break)
 67'. KUR SIG₅-qa!-tu₄ GAR-an
 68'. {d}UTU ina KU₄-šú ŠÚ G[ÙB-šu GE₆]
 69'. LUGAL ana NUN K[I x x]
-70'. {d}UTU ina KU₄-šú MUL.MEŠ[ x x]
+70'. {d}UTU ina KU₄-šú MUL.MEŠ[... x x]
 71'. ÚŠ.MEŠ GÁL ŠÀ.GA[R x x]
-72'. {d}UTU ina KU₄-šú IM x[ x x]
-73'. u SAHAR.RA ki-i IM[ x x]
-74'. ERIM.MEŠ DAGAL x[ x x]
-75'. {d}UTU ina KU₄-šú ša-ru[ x x]
-76'. IM.ŠÈG i-ma i-x[ x x]
-77'. {d}UTU ina KU₄-šú ša[ x x]
+72'. {d}UTU ina KU₄-šú IM x[... x x]
+73'. u SAHAR.RA ki-i IM[... x x]
+74'. ERIM.MEŠ DAGAL x[... x x]
+75'. {d}UTU ina KU₄-šú ša-ru[... x x]
+76'. IM.ŠÈG i-ma i-x[... x x]
+77'. {d}UTU ina KU₄-šú ša[... x x]
 78'. di-in K[UR x x]
 79'. {d}UTU ina KU₄-š[ú x x]
-80'. 3 4 5[ x x]
-81'. ina KUR[ x x]
+80'. 3 4 5[... x x]
+81'. ina KUR[... x x]
 82'. [{d}UTU x x x x] ina ZAG-šú
 83'. [x x x] ina KUR GÁL
 84'. [{d}UTU x x] MUL
@@ -109,7 +109,7 @@ $ (break)
 86'. [x x x] x
 87'. [{d}UTU x x x] ZAG u GÙB GUB-ma
 88'. [x x x] GAL ina KUR GÁ[L]
-89'. [x x x] x x[
+89'. [x x x] x x[...]
 $ (break)
 90'. [x x x] x
 91'. [x x x]

@@ -5,9 +5,9 @@ provenance: Susa (Elam)
 recension: Elamite periphery
 counting: line
 topic: prognosis; Hand-of-DN diagnoses (Adad, Kubu, Šamaš, steppe/open-country, Šulak, qajjalu, rabitu, mašda-of-the-roof); one fatal verdict
-series: pre-canonical medico-magical tablet (No. XI = Suse XII/9-10); the diagnostic omen-entries only, ritual/prayer columns excluded
+series: pre-canonical medico-magical tablet (MDP 57, 11 = Suse XII/9-10); the diagnostic omen-entries only, ritual/prayer columns excluded
 canonical_parallel: Schmidtchen 2021 concordance (mB Susa column, book p.711) cites MDP 57 Nr. 11 ii 1 = Sakikkû 13:63(?) and ii 2 = Sakikkû 14:71 — both uncertain, and Susa is the SOLE witness for them (no cross-witness parallel partner in the corpus). Individual entries otherwise echo TDP Hand-of-DN diagnoses. NB an earlier note here read 11:68-69; that was a column-misalignment of the concordance and is corrected.
-edition: Labat & Edzard 1974, MDP 57, No. XI (Suse XII/9-10), transcription pp. 241-247; hand-copies Figs. 26-29
+edition: Labat & Edzard 1974, MDP 57, 11 (Suse XII/9-10), transcription pp. 241-247; hand-copies Figs. 26-29
 dating: the Susa XII literary group; Schmidtchen 2021 files it as mB (Middle Babylonian) Susa. An Old Babylonian horizon is possible for the Susa group (cf. the Ḫattuša early-import problem). Counted as Middle Babylonian per Schmidtchen.
 note: >
   ONLY the medical/diagnostic omens are scored here. The tablet is medico-

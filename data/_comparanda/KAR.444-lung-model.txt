@@ -38,7 +38,7 @@ $left vertical / diagonal band (running down the middle)
 4. SIG KIMIN 15
 5. SIG KIMIN SIG ZÉ
 6. SIG KIMIN 150
-7. KIMIN SUR DIN ZÉ SUR ZÉ BAR-[ma x ]
+7. KIMIN SUR DIN ZÉ SUR ZÉ BAR-[ma x ...]
 
 $left field
 1. DU₈ DAL.BA.NA / BAR-ma KI

@@ -17,6 +17,17 @@ docs/The-Logographic-Shift*.docx
 docs/_build/
 docs/_delivery/
 
+# Reviewers' marked-up copies of the manuscript (whole article inside)
+assets/reviewed-versions/
+
+# Generated Zotero worklists (carry personal library item keys)
+docs/zotero-fixes*.js
+docs/zotero-add-missing.js
+
+# Other contributors' unpublished PDFs from the volume (the .csl at assets/ root
+# is ours and stays tracked)
+assets/OBO/
+
 # Editor backup files
 *.bak
 *.bak[0-9]*

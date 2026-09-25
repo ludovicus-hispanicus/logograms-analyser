@@ -5,16 +5,19 @@ provenance: VAT.14548
 recension: canonical Sakikkû Tablet 14, manuscript J (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 14
-source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript J rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+source: "Schmidtchen 2021 (BAM 13), Tafel 14 score pp. 563-580, the rows of ms J, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms J where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
-178′. [DIŠ]ina re-biti-šú u su-ḫ[a-t]i-šú SÌG-i[ṣ ...]
-179′. DIŠ bir-ka-šú GU₇.MEŠ-šú AZAG dU[TU ...]
-180′. DIŠ bir-ka-šú u MURUB₄.MEŠ-šú ina GE₆ GU₇.ME-šú SU-šú KÚM NU TUK lu-ʾ-x [...]
-181′. DIŠ pu-qa-šú it-te-né-ep-ta-a-a [ ]
-182′. DIŠ pu-qa-šú it-ta-na-az-qa-pu [...]
-183′. DIŠ ki-mi-is-su šá ZAG GU₇-šú KÚM-šú mi[t-ḫ]ar ŠU [...]
-184′. [ ] x-šú NU mit-ḫar GI[G-su ...]
-185′. [ ]-ḫar? ŠU? […]
+@obverse
+# ms J 1′
+178′. [DIŠ]ina# re#-biti#-šú# u# su#-ḫ#[a-t]i#-šú# SÌG#-i[ṣ ...]
+$ single ruling
+179′. DIŠ# bir#-ka#-šú# GU₇#.MEŠ#-šú# AZAG# {d}U#[TU ...]
+180′. DIŠ# bir-ka-šú u MURUB₄.MEŠ-šú <ina GE₆> GU₇.ME-šú SU-šú KÚM NU TUK lu-ʾ#-x [...]
+181′. DIŠ# pu-qa-šú it-te-né-ep-ta-a-a [...]
+182′. DIŠ# pu-qa-šú it-ta-na-az-qa-pu [...]
+$ single ruling
+183′. DIŠ# ki#-mi#-is#-su# šá# 15# GU₇#-šú KÚM-šú mi[t-ḫ]ar ŠU# [...]
+184′. [...] x-šú NU mit-ḫar GI[G-su ...]
+185′. [...]-ḫar#? ŠU#? [...]

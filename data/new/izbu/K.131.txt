@@ -30,7 +30,7 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 19. ($___$) KUR DAG ne-eh-ta₅ DUR₂-ab#
 20. [BE MUNUS U₃.T]U-ma 2 GEŠTUG-šu₂ ina GUB₃ GAR-MEŠ-ma ša₂ ZAG NU GAL₂ GALGA KUR BIR-a[h]
 21. [BE MUNUS U₃.TU]-ma GEŠTUG ZAG-šu₂ GAR-ma# ša₂# GUB₃# NU GAL₂# DINGIR.[ME] šab-su-tu₄ ana KUR# GUR-MEŠ-[nim-ma]
-22. [ ($___$) KUR] DAG# ne-eh-ta₅ DUR₂-[ab]
+22. [... ($___$) KUR] DAG# ne-eh-ta₅ DUR₂-[ab]
 23. [BE MUNUS U₃.TU-ma GEŠTUG] GUB₃-šu₂ GAR-ma ša₂ ZAG NU GAL₂ KUR TEŠ₂.BI BIR-ah
 24. [BE MUNUS U₃.TU-ma GEŠTU]G.MIN-šu₂ ku-up-pu-ṣa sa-a-ar#
 25. [BE MUNUS U₃.TU-ma GEŠTU]G.MIN-šu₂ ina nak-kap-ti-šu₂ GAR-MEŠ LUGAL ŠU₂ ina KUR GAL₂-[ši]
@@ -49,9 +49,9 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 38. [BE MUNUS U₃.TU-ma] ZAG.GA#-šu₂# ku-ri SIG₅ GAR-šu₂
 39. [BE MUNUS U₃.TU-ma pi₂]-a# NU# GAL₂# KUR BAD₄# DAB-bat# EN E₂ BA.UŠ₂
 40. [BE MUNUS U₃.TU-ma KA]-šu₂ pi₂-hi URU# BAL#-ma EN-šu₂ GAZ# KUR a#-šib-tu₄ DAB-bat
-41. [ ($___$) KUR-ad₂ BURU₁₄ KUR KUR₂ GU₇] KIMIN SU.GU₇# GAL₂-ši
+41. [... ($___$) KUR-ad₂ BURU₁₄ KUR KUR₂ GU₇] KIMIN SU.GU₇# GAL₂-ši
 42. [BE MUNUS U₃.TU-ma KA-šu u] GIŠ₃#-šu# NU# GAL₂# {giš}TUKUL# LUGAL# i-ra-bi-ṣu KUR BI ik-kaš-šad-ma#
-43. [ ($___$) ...]-a# KIMIN# li#-li#-id MUNUS BI NU GAL₂#
+43. [... ($___$) ...]-a# KIMIN# li#-li#-id MUNUS BI NU GAL₂#
 44. [BE MUNUS U₃.TU-ma NUNDUM-su] AN.TA# KI.TA ir-kab SIG₅ GAR-ši#
 45. [BE MUNUS U₃.TU-ma NUNDUM-su] KI.TA AN.TA ir-kab lu-up₂-nu E₂ LU₂ DAB-[bat]
 46. [BE MUNUS U₃.TU-ma NUNDUM-MEŠ-šu] GAL₂#-MEŠ# KUR BAD₄ DAB-bat E₂ LU₂ BIR#-ah#
@@ -85,13 +85,14 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 27'. [BE MUNUS U₃.TU-ma GIR₃-šu₂ 1-at-ma it]-ti# pag#-ri#-[šu₂ NIG₂.HA.LAM.MA KUR]
 28'. [BE MUNUS U₃.TU-ma GIR₃-šu₂ 1-at-ma i]t-ti LI.DUR-šu₂ rak#-sat# ŠA₃.HUL# IGI# E₂.GAL# EN#-šu₂#-[ma KUR-ad E₂ BI BIR-ah]
 29'. [BE MUNUS U₃.TU-ma GIR₃-šu₂ 1-at]-ma it-ti LI.DUR-šu₂ rak-sat-ma qa₂-qa₂-ra NU i#-[kaš-šad]
-30'. [ ($___$) KUR ŠA₃.H]UL IGI E₂ BI BIR-a[h]
+30'. [... ($___$) KUR ŠA₃.H]UL IGI E₂ BI BIR-a[h]
 31'. [BE MUNUS U₃.TU-ma GI]R₃-MEŠ-šu₂ 2 pag-ru-šu₂ ŠEŠ ana ŠA₃ ŠEŠ KU-MEŠ NIG₂.HA.LAM.MA NU KUR GA[R-an]
 32'. [BE MUNUS U₃.TU-ma GI]R₃-MEŠ-šu₂ GIŠ₃ u GAL₄.LA GAR KUR ŠA₃.HUL IGI-mar EN MAN-ma TUK-[ši]
 33'. [BE MUNUS U₃.TU-ma] a#-si-id 15-šu₂ NU GAL₂ KUR NUN ZA[H₂]
 34'. [BE MUNUS U₃.TU-ma] a-si-id 150-šu₂ NU GAL₂ KUR KUR₂ ZA[H₂]
 35'. [BE MUNUS U₃.TU]-ma ma-la-lu-šu₂ GAL₄.LA KUR ŠA₃.HUL IGI-mar E₂ BI AL.BIR
 36'. [BE MUNUS U₃].TU-ma ul-la-nu-um-ma SAG.DU-su ši-ba-a-ti ma-li U₄.ME NUN TIL-MEŠ
+@colophon
 37'. [ṭup-p]i 3 KAM₂ BE iz-bu 1 UŠ 40 AM₃ MU.ŠID.BI.IM
 38'. E₂.GAL {m}AN.ŠAR₃-ba-ni-IBILA LUGAL ŠU₂ LUGAL KUR aš-šur{ki}
 39'. ša {d}AG u₃ {d}taš-me-tu₄ GEŠTUG.MIN# ra-pa-aš₂-tu₄ iš-ru-ku-šu₂

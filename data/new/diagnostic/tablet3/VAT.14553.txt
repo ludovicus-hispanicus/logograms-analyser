@@ -5,25 +5,27 @@ provenance: VAT.14553
 recension: canonical Sakikkû Tablet 3, manuscript H (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 3
-source: auto-converted from Schmidtchen 2021 Tafel 3 OCR (score), manuscript H rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 3 lines.
+source: "Schmidtchen 2021 (BAM 13), Tafel 3 score pp. 246-256, the rows of ms H, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms H where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
+@obverse
+# ms H 1
 60. DIŠ SAG.DU-su KÚM-em KA×ZU.MEŠḫi-ip KA-šú-šú BABBAR.MEŠ x [...]
-61. DIŠ SAG.DU-su KÚM ÚḪ IGI.MEŠ-šú SA₅ u? [...]
+61. DIŠ SAG.DU-su KÚM ÚḪ IGI.MEŠ-šú SA₅# u#? [...]
 62. DIŠ SAG.DU-su KÚM ÚḪ IGI.MEŠ-šú S[A₅ ...]
-63. DIŠ SAG.DU-su AD₆-šú u SAG KIR₄-šú SÌG.[SÌG ] ina ni-šu-ti-šú GIDIM₇ šá ina ṣ[u-(um)-ma-m]i?-[ti? ...]
-64. DIŠ SAG.DU-su AD₆-šú SA[G] KIR₄-šú [ ] ina ni-šu-ti-šú man-ma šá ina ṣú-ma?-[...]
+63. DIŠ SAG.DU-su AD₆-šú u SAG KIR₄-šú SÌG#.[SÌG ...] / ina ni-šu-ti-šú GIDIM₇ šá ina ṣ[u-(um)-ma-m]i?-[ti? ...]
+64. DIŠ SAG.DU-su {}AD₆-šú SA[G] KIR₄#-šú# [...] / ina# ni#-šu#-ti#-šú# man#-ma# šá# ina# ṣú#-ma#-[...]
 65. DIŠ SAG.DU-su AD₆-šú KÚM x ÚḪ u i-ta-na-[...]
 66. DIŠ SAG.DU-su KÚM L[UL.A]Š KÚM u ḪULUḪ.ME ŠU {d}x [...]
-67. DIŠ SAG.DU-su KÚM. ÚḪ ina UD.SA₉.ÀM TAG₄!(BAR)-šum-m[a ...]
-68. DIŠ ina SAG.DU-šu K[Ú]M ÚḪ UD.1.KAM TAG₄-šum-ma šá-na? [ ] DAB!-it [x x KI.TA] GÌR.II-šú SED ina BAR-šú ŠU.II-šú u GÌR.II-[šú ...]
-69. DIŠ ina SAG.DU-šu SÌG-iṣ [...]
-70. DIŠ ina SAG.DU-šu šá 15 SÌG-iṣ [...]
-71. DIŠ ina SA[G?.DU-š]u šá 150 SÌG-iṣ [...]
+67. DIŠ SAG.DU-su KÚM# ÚḪ ina UD.SA₉.ÀM TAG₄!(BAR)-šum-m[a ...] Teₓtbearbeitung von Kapitel ₂ (Tafel ₃–₁₄) des Diagnosehandbuches | 253
+68. DIŠ ina SAG.DU-šu K[Ú]M ÚḪ UD.1.KAM TAG₄-šum-ma šá-na? [...] / DAB!-it [x (x) KI.TA] GÌR.II-šú SED# ina BAR-šú ŠU.II-šú u GÌR.II-[šú ...]
+69. DIŠ ina SAG.DU-šu# SÌG-iṣ [...]
+70. DIŠ ina SAG.DU#-šu šá 15 SÌG-iṣ [...]
+71. DIŠ ina SAG#.DU-šu šá 150 SÌG-iṣ [...]
 72. DIŠ ina SAG.DU-šu SÌG-iṣ-ma IGI.II-šú ur-ru-pu [...]
-73. [DIŠ] ina SAG.DU-šu SÌG-iṣ-ma Á.ÚR.MEŠ-šú DIŠ-niš GU₇.ME[Š ...]
-74. [DIŠ] ina SAG.DU-[šu] SÌG-iṣ-ma u i-ṭa-mu pu-qud-de-e [...]
-75. [ M]ÚD MUD ŠUB.ŠUB-a [...]
-76. [ ]-ḫa-ḫu [...]
+73. [DIŠ] ina# SAG.DU-šu SÌG-iṣ-ma Á.ÚR.MEŠ-šú DIŠ-niš GU₇.ME[Š ...]
+74. [DIŠ] ina# SAG#.DU#-šu# SÌG#-iṣ#-ma# u i-ṭa-mu pu-qud-de-e# [...]
+75. [... M]ÚD# MUD ŠUB.ŠUB-a [...]
+76. [...]-ḫa#-ḫu [...]
+77. [...] x x [...]

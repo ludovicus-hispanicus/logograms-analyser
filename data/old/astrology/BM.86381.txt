@@ -2,7 +2,7 @@
 discipline: astrological omens
 period: Old Babylonian
 provenance: Babylon (BM collection; eBL)
-counting: BAD
+counting: line
 topic: lunar eclipse
 ---
 @obverse

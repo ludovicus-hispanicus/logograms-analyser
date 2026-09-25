@@ -36,5 +36,6 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 5'. BE MUNUS U₃#.TU-ma [a]-si-da/id!? 15#-[šu₂ NU GAL₂ KUR KUR₂ ZAH₂]
 6'. BE MUNUS U₃#.TU-ma [l]a!?-hu-šu₂ : m[a?-la-lu-šu₂ SAL.LA KUR ŠA₃.HUL IGI E₂ BI BIR-ah]
 7'. BE MUNUS U₃#.TU-ma ul#-la-nu-um-[ma ...]
+@colophon
 8'. DUB.3#.[KAM₂@v ...]
 9'. KUR {m}AN.ŠAR₂-DU₃#-[A MAN ŠU₂ MAN KUR AN.ŠAR₂{ki}]

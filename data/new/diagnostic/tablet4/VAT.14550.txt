@@ -1,28 +1,30 @@
 ---
 discipline: diagnostic omens
 period: Neo Babylonian
-provenance: VAT 14550 (Schmidtchen 2021 Tafel 4, ms D)
+provenance: Uruk (VAT 14550 = LKU 79; Schmidtchen 2021 Tafel 4, ms D)
 recension: canonical Sakikkû Tablet 4, manuscript D (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 4
-source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript D rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+source: "Schmidtchen 2021 (BAM 13), Tafel 4 score pp. 288-300, the rows of ms D, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms D where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
-1. [ ] {d}[...]
-2. [ ] ŠU {d}kù-[bi]
-3. [ ] ŠU {d}kù-[bi]
-4. [ ] ŠU DINGIR-šú UGU-šú um-mu-da?-[at]
+@obverse
+# ms D 1′
+1. [...] {d}[...]
+2. [...] ŠU {d}kù#-[bi] Teₓtbearbeitung von Kapitel ₂ (Tafel ₃–₁₄) des Diagnosehandbuches | 289
+3. [...] ŠU {d}kù#-[bi]
+4. [...] ŠU DINGIR-šú UGU-šú um-mu-da#-[at]
+5. [...]
 6. [D]IŠ SAG.KI-šú ŠUB-ut [...]
-7. [ ] IGI.II-šú ÍR-a GAM
-8. [ M]ÚD ina KIR₄-šú DU-ku ŠU GIDIM₇
-9. [ ] UGU SAG.DU-šú DU₈ ŠU GIDIM₇ GAM
-10. [ ] e-li SAG.DU-šú ḫa-biš GAM
-11. [ {d}]XV GAM : ŠU GIDIM₇ GÍD-ma GAM
-12. [ ] ŠU GIDIM₇ GAM?
-13. [ ] : ú-šam-šá [...]
-14. [ ] ina-aḫ ŠU [...]
-15. [ ] ŠU [...]
-16. [ Š]U [...]
-17. [ Š]U [...]
+7. [...] IGI#.II-šú ÍR-a GAM
+8. [... M]ÚD ina KIR₄-šú DU-ku ŠU GIDIM₇
+9. [...] UGU SAG.DU-šú DU₈ ŠU GIDIM₇ GAM
+10. [...] e-li SAG.DU-šú ḫa-biš GAM
+11. [... {d}]XV GAM : ŠU GIDIM₇ GÍD-ma GAM
+12. [...] ŠU GIDIM₇ GAM#?
+13. [...] : ú-šam-šá [...]
+14. [...] ina-aḫ ŠU [...]
+15. [...] ŠU [...]
+16. [... Š]U [...]
+17. [... Š]U# [...]

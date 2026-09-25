@@ -5,17 +5,18 @@ provenance: Babylon (BM collection; eBL)
 recension: canonical Sakikkû Tablet 3, manuscript E (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 3
-source: auto-converted from Schmidtchen 2021 Tafel 3 OCR (score), manuscript E rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 3 lines.
+source: "Schmidtchen 2021 (BAM 13), Tafel 3 score pp. 246-256, the rows of ms E, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms E where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
-29. [ be-e]-er [...]
-30. [ ]-šú! sa-ḫír : i-saḫ-[ḫur ...]
-31. [ ] sa-mi ina EN.NUN.[x ...]
-32. [ KI]R₄-šú i-raš-ši-šum-ma TAB-su tu-qù-un?-[šú ...]
-33. [ ]-a?-šú ka-ṣa-a Š[U ...]
-34. [ 1]5? ú-kan-na-an-ma NU LÁ ú-š[ap-šaq-ma ...]
-36. [ i]-šag-gúm GEŠTU.II-šú GÙ.DÉ.MEŠ ŠU.SI.M[EŠ? ...]
-37. [ ]-šú SA? uk-tal-lim [...]
-38. [ ] SA? NU? TUK? [...]
+@obverse
+# ms E 4′
+29. [... be-e]-er [...]
+30. [...]-šú! sa-ḫír : i-saḫ-[ḫur ...]
+31. [...] sa-mi ina EN.NUN.[x ...]
+32. [... KI]R₄-šú i-raš-ši-šum-ma TAB-su tu-qù-un?-[šú ...]
+33. [...]-a#-šú ka-ṣa-a Š[U ...]
+34. [... 1]5? ú-kan-na-an-ma NU LÁ ú-š[ap-šaq-ma ...]
+36. [... i]-šag-gúm GEŠTU.II-šú GÙ.DÉ.MEŠ ŠU.SI.M[EŠ? ...]
+37. [...]-šú SA? uk-tal-lim [...]
+38. [...] SA? NU? TUK? [...]

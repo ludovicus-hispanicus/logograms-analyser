@@ -10,7 +10,7 @@ source_note: >
   Middle Assyrian tablet carrying terrestrial omina (obverse, too fragmentary to
   score — omitted here) and 'šumma izbu aḫû' animal omens (reverse, scored). Read
   off Heeßel's KAL 1 edition (no. 47). Half-brackets (damaged-but-legible) rendered
-  as '#'; [ ] = restoration/break; x = illegible; {} = determinative. Notably
+  as '#'; [...] = restoration/break; x = illegible; {} = determinative. Notably
   logographic: Gilgameš = {d}BÌL.GA.MES, GÉME = amūtu "omen" (K 8639 parallel).
 note: >
   The ONLY Middle Assyrian izbu witness presently known, and badly preserved

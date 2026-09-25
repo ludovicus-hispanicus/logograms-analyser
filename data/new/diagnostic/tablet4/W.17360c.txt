@@ -5,18 +5,21 @@ provenance: Uruk (Warka); W. 17360c (Schmidtchen 2021 Tafel 4, ms I)
 recension: canonical Sakikkû Tablet 4, manuscript I (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 4
-source: auto-converted from Schmidtchen 2021 Tafel 4 OCR (score), manuscript I rows only; see scripts/parse_sakikku_ocr.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, {} determinative, [] restoration, x illegible. Sign indices as unicode subscripts. Damage half-brackets stripped (damaged-but-legible signs kept). Entry numbers = canonical Tablet 4 lines.
+source: "Schmidtchen 2021 (BAM 13), Tafel 4 score pp. 288-300, the rows of ms I, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms I where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
-78. [ ] 15 Š[U ...]
-79. [ IG]I šá 150 ŠU GID[IM₇]
-81. [ ta]r-ku na-šar GIG?
-83. [ ] na-kid!
-84. [ ] GÍD-ma TIN
-85. [ G]ABA.RI SÌG-iṣ GIG-su DUGUD-ma TIN
-86. [ -s]u DUGUD-ma GAM
-87. [ ] TIN
-88. [ ma]-⸤aq-tu⸥ GAM
-89. [ ] ⸤GAM⸥
+@obverse
+# ms I 1′
+78. [...] 15# Š#[U ...]
+79. [... IG]I šá 150 ŠU# GID#[IM₇]
+80. [...]
+81. [... ta]r-ku na-šar GIG#
+82. [...]
+83. [...] na-kid!
+84. [...] GÍD-ma TIN
+85. [... G]ABA.RI SÌG-iṣ GIG-su DUGUD-ma TIN
+86. [... -s]u DUGUD-ma GAM
+87. [...] TIN
+88. [... ma]-aq#-tu# GAM
+89. [...] GAM#

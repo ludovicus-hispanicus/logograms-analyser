@@ -4,7 +4,7 @@ period: Old Babylonian
 provenance: unknown (purchased; southern Babylonia)
 publication: YOS 10 12 (Goetze 1947); ed. Leichty TCS 4 (Old Babylonian Version); small OB teratomantic tablet
 counting: DIŠ
-source_note: Hand-checked transliteration (clean). [ ]=restoration.
+source_note: Hand-checked transliteration (clean). [...]=restoration.
 ---
 
 @obverse

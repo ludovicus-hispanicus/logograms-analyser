@@ -23,7 +23,7 @@ structural line types are never counted as content, in every mode:
 | Line begins with | Meaning | Treatment |
 | --- | --- | --- |
 | `@` | section header (`@obverse`, `@reverse`) | sets the current section, not counted |
-| `$` | structural marker (rulings, blank spans `($___$)`) | skipped |
+| `$` | structural marker (rulings, blank spans) | skipped |
 | `#` | translation / note (`#tr.en:`) | skipped |
 | *(blank)* | — | skipped |
 
@@ -59,8 +59,19 @@ protasis lines) are folded into the omen in progress. The reader is robust to:
 - a language shift: a line opening `%sux …` always starts a new omen, so a Sumerian
   line is never glued onto the preceding Akkadian omen.
 
+A text whose omens open with either of two particles names both, separated by `|`:
+`counting: DIŠ|BE` (EAE 22, whose Part II paragraphs follow one DIŠ omen with
+three BE omens).
+
 So one omen = one protasis-particle plus everything up to the next one, however many
-physical lines that spans. Which particle a text uses just reflects its edition's
+physical lines that spans, **or up to a ruling**. A text need not have rulings, but
+where a `$ single ruling` (`double`, `triple`, or a bare `$ ruling`) stands, it
+always ends the omen in progress: an entry never runs across a ruling, so the line
+after one begins a new omen even when its particle is lost or unrecognised
+(MS 3295 l. 26 `šum#-ma`, EAE 20 Rec. B's conclusion). Where it is certain that
+the lost opening was the particle, the file restores it as `[DIŠ ...]` (EAE 20
+Rec. A § X); otherwise nothing is restored. In `counting: line` a run-over does
+not join the omen above across a ruling. Which particle a text uses just reflects its edition's
 orthography (`DIŠ`, `BE`, `BAD`, `UD`, `AŠ` are logographic openings; `šum-ma` /
 `šum₄-ma` are the syllabic writing).
 
@@ -73,8 +84,13 @@ delimit:
   are nomenclature lists with no apodosis, so the natural unit *is* the line;
 - **broken or peripheral texts** where no particle can be relied on to open each omen.
 
-For these texts "omen count" is literally the **line count**, which is also the unit
-recorded in the source editions.
+For these texts "omen count" is the **line count**, which is also the unit
+recorded in the source editions, with one exception: a **run-over**, a line
+opening with `($___$)` (after its label, or after a break `[... ($___$)`), is the
+rest of the omen above set on an indented line of its own. It joins that omen
+and is not counted, although the edition numbers it (Emar 669 ll. 37-38, 54-55).
+The particle modes fold run-overs already, since they never open with the
+particle.
 
 ### 3. Section markers — `counting: §`
 

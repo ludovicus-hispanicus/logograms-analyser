@@ -5,11 +5,11 @@ provenance: Babylon (Merkes, library M4; late Kassite period)
 publication: VAT 17080 (TCS 4, 130-143); De Zorzi 2014 ms E of canonical Tablet 8
 canonical_tablet: Tablet 8 (two-headed izbu)
 counting: line
-source_note: Transliteration read from De Zorzi 2014 (HANE/M 15) edition, book p.586-587 (ms E catalogue block). Half-brackets rendered as #; [ ] = restoration; x = illegible; lines of pure traces omitted.
+source_note: Transliteration read from De Zorzi 2014 (HANE/M 15) edition, book p.586-587 (ms E catalogue block). Half-brackets rendered as #; [...] = restoration; x = illegible; lines of pure traces omitted.
 ---
 
 @obverse
-1. BE [iz-bu [...]
+1. BE [iz-bu ...]
 2. BE iz-bu 2 SAG.DU-šu [...]
 3. BE iz-bu 2 SAG.DU-[šu ...]
 4. BE iz-bu 2 SAG.DU-šu [...]

@@ -11,18 +11,18 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 @obverse
 1. Zeile vollständig weggebrochen
 2-10 Zu fragmentarisch für eine Umschrift
-11. [ ] MU.NI
-12. [ ]
-12a [ ]
-13. [ ]x
-14. [ K]ÚR
-15. [ ]x
-16. [ ]a-dak
-17. [ ]DAB-bat
-18. [ tam-ṭ]a-a-tu4
-19. [ ]kal
+11. [...] MU.NI
+12. [...]
+12a [...]
+13. [...]x
+14. [... K]ÚR
+15. [...]x
+16. [...]a-dak
+17. [...]DAB-bat
+18. [... tam-ṭ]a-a-tu4
+19. [...]kal
 1. [BE gišTUKUL BI] AN.TA IGI gišTUKUL ⸢ SÚḪ ⸣ šá KÚR uruBA[D]4 KÚR [DAB-bat]
-2. BE gišTUKUL BI šu-bat ZAG GÍR ! IGI ZI-bu [kaš-du ]
+2. BE gišTUKUL BI šu-bat ZAG GÍR ! IGI ZI-bu [kaš-du ...]
 3. BE gišTUKUL BI KA DÙG.GA IGI ZI-ut ÉRIN-ia ana KU[R] ⸢KÚR ⸣
 4. 10 BE ina ŠÀ ZAG GÍR ù GÙB GÍR !2 gišTUKUL.MEŠ GAR-nu-ma IGI.IGI-lu4 ḫa-rab eš-re-ti
 5. BE UGU-nu KA DÙG.GA gišTUKUL GAR-ma KI.TA IGI LÚ UGU EN INIM-šu GUB-az
@@ -49,7 +49,7 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 26. [BE UGU-nu] ME.NI gišTUKUL GAR-ma ME.NI IGI gišTUKUL tuš-ši gišTUKUL ṭi-ip-ligiš TUKUL ḪUL lìb-bi
 27. [10 BE gišTUKUL BI A]N.TA IGI EN KÚR -ka ana SILIM-mi KIN-ku
 28. [BE gišTUKUL BI Z]AG IGI giš TUKUL SÚḪ LÚ dÁLAD -šu TAG4-šu
-29. [BE gišTUKUL BI GÙ ]B IGI giš TUKUL ḪI.GAR -ti šá KÚR
+29. [BE gišTUKUL BI GÙ ...]B IGI giš TUKUL ḪI.GAR -ti šá KÚR
 30. [BE AN.TA-nu ME.NI giš TUKUL GAR-ma KI.TA] IGI gišTUKUL mu-še-ṣu na-a-ra-ri
 31. [BE gišTUKUL BI AN.TA IGI] LUGAL É.GAL LUGAL GABA.RI-šu UŠ -di
 32. [BE gišTUKUL BI ME.NI IGI K]ÚR IGI KÁ.GAL -ia5 DAB-bat
@@ -57,28 +57,28 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 34. [BE ina sip-pí 15 ME.NI giš TUKUL GAR-ma KI ZI.G]A SAG IGI gišTUKUL mu-še-ṣu-ú ÉRIN.TÁḪ
 35. [BE gišTUKUL BI iš-ta-ru-ur KÚR ÉR]IN.TÁḪ i-dak
 36. [BE gišTUKUL BI KÚR ILLAT.M]EŠ -ia5 i-dak
-37. [10 BE gišTUKUL BI ILLAT.MEŠ KÚR ] a-dak
+37. [10 BE gišTUKUL BI ILLAT.MEŠ KÚR ...] a-dak
 38. [BE gišTUKUL BI KÚR GAZ-an-ni-ma ina kuš na-d]a-⸢ ti⸣-ia5 A.ME[Š] ⸢NAG⸣
 @reverse
 I __________________________________________________________________________________________
-1’. [ ] BAL-at
-2’. [ i-zi-im]-ti ŠÀ -šu KUR-ad
-3’. [ ] ši
-4’. [ ] È-a
-5’. [ ] anaKUR-ia5
-6’. [ ] anaKUR KÚR
-7’. [ ] ⸢ub⸣
-8’. [ ] BA.ÚŠ
-9’. [ M]EŠ -ku
-10’. [ KU]R-ia5
-11’. [ KUR K]ÚR
-12’. [ ] ri is
-13’. [ ]-ad
-14’. [ ] x du
-15’. [ ] x KÚR GAZ
-16’. [ ] x ta
-17’. [ ] KUR-ad
-18’. [ ] x ZI-ibKÚR KUR-ad
-19’. [ ] ⸢bu⸣ su ḫu ru
-20’. [ ] NIGIN-ra
-21’. [ ] NIGIN-ur
+1’. [...] BAL-at
+2’. [... i-zi-im]-ti ŠÀ -šu KUR-ad
+3’. [...] ši
+4’. [...] È-a
+5’. [...] anaKUR-ia5
+6’. [...] anaKUR KÚR
+7’. [...] ⸢ub⸣
+8’. [...] BA.ÚŠ
+9’. [... M]EŠ -ku
+10’. [... KU]R-ia5
+11’. [... KUR K]ÚR
+12’. [...] ri is
+13’. [...]-ad
+14’. [...] x du
+15’. [...] x KÚR GAZ
+16’. [...] x ta
+17’. [...] KUR-ad
+18’. [...] x ZI-ibKÚR KUR-ad
+19’. [...] ⸢bu⸣ su ḫu ru
+20’. [...] NIGIN-ra
+21’. [...] NIGIN-ur

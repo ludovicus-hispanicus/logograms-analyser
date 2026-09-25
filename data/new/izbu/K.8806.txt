@@ -24,5 +24,7 @@ source_note: Transliteration from the electronic Babylonian Library (ebl.lmu.de)
 13'. DIŠ ina 11 ITU [...]
 14'. DIŠ ina 2 MU.AN#.[NA ...]
 15'. BE U₈ UR.MAH U₃.[TU ...]
+
+@colophon
 16'. DUB.4.KAM BE MUNUS# [...]
 17'. KUR {m}AN.ŠA[R₂-DU₃-A MAN ŠU₂ MAN KUR AN.ŠAR₂{ki}]

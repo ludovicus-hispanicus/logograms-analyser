@@ -5,32 +5,39 @@ provenance: Babylon (BM collection; eBL)
 recension: canonical Sakikkû Tablet 14, manuscript F (Schmidtchen 2021 BAM 13)
 counting: line
 series: Sakikkû (Diagnostic Handbook) Tablet 14
-source: extracted from Schmidtchen 2021 Tafel 14 edition (score), manuscript F rows only; see scripts/parse_sakikku_text.py. Single-manuscript witness (fragmentary).
-note: Logograms uppercase, syllabic lowercase, [] restoration (dropped in preserved-only), x illegible; sign indices as unicode subscripts; right/left numbers 15/150 normalised to ZAG/GUB₃. Damage half-brackets stripped (damaged-but-legible signs kept). Divine/other determinatives left as lowercase prefixes (LDI-neutral). Entry numbers = canonical Tablet 14 lines; Stichzeile/Kolophon labelled.
+source: "Schmidtchen 2021 (BAM 13), Tafel 14 score pp. 563-580, the rows of ms F, read from the PDF's text layer (assets/literature/schmidtchen2021.pdf) on 2026-09-25 with sub- and superscripts taken from type size and position; replaces an AI-OCR extraction that had dropped Schmidtchen's damage marks. Line labels are Schmidtchen's entry numbers; a '#' line gives the line of ms F where a new side or column begins."
+note: "Logograms uppercase, syllabic lowercase, {} determinative, [] break/restoration (dropped in preserved-only), x illegible (always lowercase, never with '#'; XX and XXX are the numeral logograms), '#' after a damaged sign. Schmidtchen's half-brackets for damage at the top, at the bottom, and their mixed forms (also where a half-bracket pairs with a full bracket) are all written '#': damaged but legible; an unmatched half-bracket in his print marks the one sign next to it. '/' is his tablet line break inside an entry; his '(Strich)' becomes '$ single ruling' after the entry ('(Strich?)' is dropped). Catchline and colophon, where the manuscript has them, are under @catchline and @colophon (not counted)."
 ---
 
-@text
-104. [ Š]À?-šú ma-[ḫu] [
-105. [ ] KI DIN GI E? GAM
-106. [ N]Á-šú KUR-su
-107. [ DIN]GIR-šú? TIN
-108. [ ]-iṭ GAM
-109. [ ] TAG-it GAM
-110. [ ] GAM 1384
-111. [ ] GAM
-112. [ ] GAM
-178′. [ ]-šú SÌG!-iṣ!ŠU[...]
-179′. [ G]U₇.MEŠ?-šú AZAG dUTU GU₇
-180′. [ MUR]UB₄.ME-šú ina GE₆ GU₇.ME-šú SU-šú KÚM NU TUK lu-ʾ-tú DAB-[su]
-181′. [ ] it-te-né-ep-ta-a GAM
-182′. [ -š]ú it-ta-na-az-qa-pa TI[N]
-183′. [ ki-mi]-is-su šá ZAG GU₇-šú KÚM-šú mit-ḫar ŠU dda-m[u ...]
-184′. [ ki-m]i?-is-su šá GUB₃ GU₇-šú KÚM-šú NU mit-ḫar GIG-su GÍD-ma [...]
-185′. [DIŠ kin-ṣ]a-a-šú GU₇.MEŠ-šú KÚM-šú NU mit-ḫar ŠU DINGIR-šú BÚR-m[a? TIN?]
-186′. [DIŠ kin-ṣa]-a-šú GU₇.MEŠ-šú ŠU DINGIR URU-šú : ŠU DINGIR-š[ú]
-187′. [ ]-šú GU₇.MEŠ-šú ŠU dUTU MU KÙ.BABBAR ZAG.10.MEŠ T[IN]
-188′. [ ]-šú ki-iṣ-ṣa-ta5 i-šá-a! ina DU₁₁.DU₁₁-šú ÚḪ-su ana IGI!-šú? [x x] [(x x) BA]L ru-mi-ka-ti
-189′. [ GI]G.MEŠ UZU.ME-šú GU₄.UD.MEŠ u mim-ma šá GU₇ i-ḫa-[ḫu ...]
-190′. [ ] x ŠU dXX? x
-191′. [ ] x u ina KA-šú MÚD BURU₈ [GAM]
-192′. [ ] KA-šú MÚD MUD [ŠUB-di? GAM]
+@obverse
+# ms F 2′f
+104. [... Š]À?-šú ma-[ḫu] / [...] GIG ŠU DINGIR-šú u {d}XV#-šú
+105. [...] KI DIN GI E? GAM
+106. [... N]Á-šú KUR-su
+$ single ruling
+107. [... DIN]GIR-šú#? TIN
+108. [...]-iṭ GAM
+109. [...] TAG-it GAM
+110. [...] GAM
+111. [...] GAM
+112. [...] GAM#
+@reverse
+# ms F Rs1′
+178′. [...]-šú# SÌG#!-iṣ#!ŠU#[...]
+$ single ruling
+179′. [... G]U₇#.MEŠ#?-šú AZAG {d}UTU GU₇#
+180′. [... MUR]UB₄.ME-šú ina GE₆ GU₇.ME#-šú SU-šú KÚM NU TUK lu#-ʾ-tú DAB-[su]
+181′. [...] it#-te#-né#-ep#-ta#-a# GAM#
+182′. [... -š]ú it-ta-na-az-qa-pa TI[N]
+$ single ruling
+183′. [... ki-mi]-is-su šá 15 GU₇-šú KÚM-šú mit-ḫar ŠU# {d}da-m[u ...]
+184′. [... ki-m]i?-is-su šá 150 GU₇-šú KÚM-šú NU mit-ḫar# GIG-su# GÍD-ma [...]
+185′. [DIŠ kin-ṣ]a-a-šú GU₇.MEŠ-šú KÚM-šú NU mit#-ḫar# {x} ŠU# DINGIR-šú BÚR-m#[a? TIN?]
+186′. [DIŠ kin-ṣa]-a-šú GU₇.MEŠ-šú ŠU# DINGIR URU-šú : ŠU DINGIR-š[ú]
+187′. [...]-šú GU₇.MEŠ-šú ŠU# {d}UTU MU KÙ.BABBAR ZAG.10.MEŠ T[IN]
+188′. [...]-šú ki-iṣ-ṣa-ta₅ i#-šá#-a#! ina# DU₁₁#.DU₁₁#-šú# ÚḪ#-su# ana# IGI#!-šú#? [x (x)] / [(x x) BA]L ru-mi-ka-ti# ik#?-bu#-us u? kiš-pi šu-k[ul (x)]
+189′. [... GI]G.MEŠ# UZU#.ME-šú GU₄.UD.MEŠ u mim-ma šá GU₇ i-ḫa-[ḫu ...]
+190′. [...] x ŠU {d}XX#? (x)
+191′. [...] x u# ina# KA#-šú# MÚD# BURU₈# [GAM]
+192′. [...] KA-šú MÚD MUD [ŠUB-di? GAM]
+193′. [...] (leer) [...]

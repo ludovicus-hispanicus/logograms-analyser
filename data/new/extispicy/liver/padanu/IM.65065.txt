@@ -19,7 +19,7 @@ $ rest of obverse broken
 
 @reverse
 1. BE# [GIR₂ 2-ma ...]
-#tr.en.(r 2): If [there are two Paths and …] … […].
+#tr.en.(r 2): If [there are two Paths and ...] ... [...].
 2. ($___$) x [...]
 3. BE# GIR₂# [2-ma] ina# EGIR!? BA₃!? e[ṣ!?-ru KUR DINGIR-MEŠ-šu₂ TAG₄-MEŠ-šu₂]
 #tr.en: If [there are two] Paths [and] @i{they are drawn at the rear of the liver}: [The gods will forsake the land].
@@ -38,7 +38,7 @@ $ rest of obverse broken
 10. BE GIR₂ 2-ma AN.TA-u₂# [K]I.TA-u₂ NIGIN-mi-ma PAP.HAL ZAG DU₈ URU KUR₂ NIGIN-ma NU DAB-bat ERIN₂#-ka ina# PAP#.H[AL NU E₃]
 #tr.en: If ther are two Paths and the upper one surrounds the lower one and the Narrowing to the right is split: You will besiege the enemy city but not conquer it, your army [will not escape] peril.
 11. BE GIR₂ 2-ma KI.TA-u₂# AN.TA-u₂ NIGIN-mi-ma PAP.HAL GUB₃ DU₈ ina KI.GUB KUR₂!(ŠU₂) GUB-az x (x) ki# e₂# [(...)]
-#tr.en: If there are two Paths and the lower one surrounds the upper one and the left Narrowing is split: You will stand in the place of the enemy … [(…)]
+#tr.en: If there are two Paths and the lower one surrounds the upper one and the left Narrowing is split: You will stand in the place of the enemy ... [(...)]
 #note: Line in parallel ends after @akk{GUB-az} “will stand”.
 12. [BE] GIR₂ 2-ma# šu-ta-hu-qu LUGAL ana LUGAL ka-lu-ti-šu₂ NU BAR-MEŠ
 #tr.en: [If] there are two Paths and they are mixed up: Kings will not exchange prisoners.
@@ -66,5 +66,5 @@ $ rest of obverse broken
 #note: Parallel: @akk{GU₃-mu GAR-an} “will make noise”.
 23. ($___$) ina {giš}TUKUL DINGIR-MEŠ# A₂# ERIN₂#-MU# DU#-MEŠ#-ma# [KUR₂ a-dak]
 24. [BE] GIR₂# 2#-ma# {g[iš}TUKUL SILIM BAL-ut URU DINGIR-MEŠ-šu₂ TAG₄-MEŠ-šu₂ (...)]
-#tr.en: [If] there are two Paths and [a proptious Weapon mark is displaced: The city will be forsaken by its gods (…)]
+#tr.en: [If] there are two Paths and [a proptious Weapon mark is displaced: The city will be forsaken by its gods (...)]
 $ rest of reverse broken

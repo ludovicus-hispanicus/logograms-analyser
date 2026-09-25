@@ -58,7 +58,7 @@ note: canonical manzāzu = the OB "naplastu" (the View); first-millennium name f
 28. BE NA GIM BUR₃ šad-dim-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di nu-bal-lu₄ ERIN₂-ni ŠUB#-ut
 #tr.en: Wenn die Präsenz wie ein langgezogenes Loch (assieht) und in der Mitte ein Loch liegt: Die Vorhut des Heeres wird fallen.
 29. BE NA GABA-MEŠ TUKU-ši KUR₂ x [x]
-#tr.en: Wenn die Präsenz Brüste hat: Der Feind … […].
+#tr.en: Wenn die Präsenz Brüste hat: Der Feind ... [...].
 30. BE NA iḫ-bu-uš-ma KA GEŠTU+MIN TUKU-ši KUR BAD₄ DIB#-[a]t
 #tr.en: Wenn die Präsenz anschwillt und Mund (und) Ohren hat: Not wird das Land ergreifen.
 32. BE NA ip-ḫur GU₃-mu ina KUR GAL₂-ma# KUR ana BAD₄ NIGIN-ur₂#
@@ -166,4 +166,4 @@ note: canonical manzāzu = the OB "naplastu" (the View); first-millennium name f
 #tr.en: Wenn die Mitte der Präsenz durchbohrt ist und in ihrer Mitte ein Loch liegt: Der šangûPriester wird Tabu[isiertes entwenden, u]nd er wird gefasst u[nd getötet].
 45. BE SUḪUŠ NA GAM-iš-ma ina ŠA₃-šu₂ BUR₃ ŠUB-di DAM# KID.M[AŠ AZAG GU₇-ME]Š-ma D[AB-ma GAZ-ak]
 46. BE SAG NA DU₈ [...]
-#tr.en: Wenn die Spitze der Präsenz abgelöst ist: …
+#tr.en: Wenn die Spitze der Präsenz abgelöst ist: ...

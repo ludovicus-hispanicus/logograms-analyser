@@ -10,17 +10,17 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 ---
 @obverse
 (Ca. zwölf Zeilen fehlen)
-1’. [ NUN ina KI.NÁ -šú] ⸢ḪULUḪ ⸣.ḪUL [UḪ -ut]
-2’. [ DINGIR.MEŠ ina KU]R ⸢NUN⸣ GU7.⸢ MEŠ ⸣
-3’. [ NU]N ina ⸢ NAM⸣ .ÚŠ.MEŠ ÚŠ
+1’. [... NUN ina KI.NÁ -šú] ⸢ḪULUḪ ⸣.ḪUL [UḪ -ut]
+2’. [... DINGIR.MEŠ ina KU]R ⸢NUN⸣ GU7.⸢ MEŠ ⸣
+3’. [... NU]N ina ⸢ NAM⸣ .ÚŠ.MEŠ ÚŠ
 4’. [BE UGU-nu N]E ⸢MI gišTUKUL GAR-ma⸣ [AN.TA IGI g]iš TUKUL.MEŠ DUMU.MEŠ É
 5’. [BE KI.TA-nu N]E MI giš TUKUL GAR-ma ⸢ KI.TA IGI⸣ gišTUKUL bar-ti
 6’. __________________________________________________________________________________________17 MU.ŠID.BI.IM
 7’. [BE ina TÙR 1]5 BÙR ŠUB -di ÉRIN NUN ina DUGUD-šá ŠUB -ut
 8’. [BE ina TÙR 15]0 BÙR ŠUB -di ŠUB -ti lem-ni u a-a-bi
-9’. [BE ina TÙR ]15 u TÙR 150 BÙR ŠUB -di ÉRIN-ni u ÉRIN KÚR TÉŠ.BI ŠUB.MEŠ
-10’. [BE ina TÙR ]15 DI-ḫu ŠUB -di ÉRIN-ka ZI-ut KASKAL-šá KA⋲MI.MEŠ
-11’. [BE ina TÙ ]R 150 DI-ḫu ŠUB -di ÉRIN KÚR ZI-ut KASKAL-šá KA⋲MI.MEŠ
+9’. [BE ina TÙR ...]15 u TÙR 150 BÙR ŠUB -di ÉRIN-ni u ÉRIN KÚR TÉŠ.BI ŠUB.MEŠ
+10’. [BE ina TÙR ...]15 DI-ḫu ŠUB -di ÉRIN-ka ZI-ut KASKAL-šá KA⋲MI.MEŠ
+11’. [BE ina TÙ ...]R 150 DI-ḫu ŠUB -di ÉRIN KÚR ZI-ut KASKAL-šá KA⋲MI.MEŠ
 12’. BE ina TÙR 15 DI-ḫu ŠUB -di-ma SA5 ŠUB -ti ÉRIN-ni ÉR ana KUR NUN KU4-ub
 13’. BE ina TÙR 15 DI-ḫu ŠUB -di-ma GE6 dIŠKUR RA-iṣ
 14’. BE ina TÙR 15 NIN-tu4 ŠUB -át ÉRIN-ka KI DINGIR ana GAZ er-šet
@@ -38,17 +38,17 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 26’. BE__________________________________________________________________________________________inaŠÀ GIŠ.ḪUR UR5-tú BÙR ŠUB-diina SÙḪ UR5-tú ÉRIN KÚRŠUB-ut
 27’. __________________________________________________________________________________________20 MU.DIDLI
 @reverse
-1. BE ki-ṣir-tu 4 GAR-at KÚR -ka ú-ṣa-am-m [a-ru-ka? ]
-2. BE ki-ṣir-tu 4 ana 150 it-ku-šat KÚR -ka uš-te-em x [ ]
-3. BE ki-ṣir-tu 4 ana SUḪUŠ ŠU.SI it-ku-šat KÚR -ka tag [ ]
-4. BE ki-ṣir-tu 4 ina EGIR BÀ GAR-át SUḪUŠ.ÀM ⸢GI⸣ .[NA.MEŠ ]
-5. BE ki-ṣir-tu 4 ina SAG BÀ GAR-át ÉRIN-ka ina giš TUKUL SUḪUŠ.MEŠ -šá NU G[I.NA.MEŠ ]
+1. BE ki-ṣir-tu 4 GAR-at KÚR -ka ú-ṣa-am-m [a-ru-ka? ...]
+2. BE ki-ṣir-tu 4 ana 150 it-ku-šat KÚR -ka uš-te-em x [...]
+3. BE ki-ṣir-tu 4 ana SUḪUŠ ŠU.SI it-ku-šat KÚR -ka tag [...]
+4. BE ki-ṣir-tu 4 ina EGIR BÀ GAR-át SUḪUŠ.ÀM ⸢GI⸣ .[NA.MEŠ ...]
+5. BE ki-ṣir-tu 4 ina SAG BÀ GAR-át ÉRIN-ka ina giš TUKUL SUḪUŠ.MEŠ -šá NU G[I.NA.MEŠ ...]
 6. BE ki-ṣir-tu 4 TA MAŠ.GÁN -šú E11-ma IGI-et É.GAL ŠU.SI iṣ-bat LUGAL TA ŠÀ URU
 7. ana A.DAM.MEŠ È.MEŠ
 8. BE ki-ṣir-tu 4 ina 150 GAR-át KÚR -ka ud-dan-na-an-ma ŠUB -[ut]
-9. BE ki-ṣir-tu 4 na-pár-qú-da-át KÚR ina ṭú-ub-ba-ti-šú È-ma ḫi-bil-ta-šu TI-[qé ]
+9. BE ki-ṣir-tu 4 na-pár-qú-da-át KÚR ina ṭú-ub-ba-ti-šú È-ma ḫi-bil-ta-šu TI-[qé ...]
 10. BE ki-ṣir-tu 4 nam-rat KÚR ud-dan-na-an-ma ŠUB -[ut]
-11. BE ki-ṣir-tu 4 GE6-át KÚR ina KI.TUŠ -šú te-de-ek-ki-[šú ]
+11. BE ki-ṣir-tu 4 GE6-át KÚR ina KI.TUŠ -šú te-de-ek-ki-[šú ...]
 12. BE ki-ṣir-tu 4 GAM-át AD.ḪAL KÚR È-ma ú-lu URU ZAG KÚR DAB-bat
 13. BE ki-ṣir-tu 4 DU8-át pa-ṭá-ka ana KÚR -ka ŠUB -u[t]
 14. BE ina UGU ki-ṣir-tu 4 gišTUKUL GAR-ma SUḪUŠ ŠU.SI IGI gišTUKUL!(Text: ma) GUR.RA MU.NI
@@ -66,6 +66,6 @@ source_note: Transliteration auto-extracted from the KAL 5 PDF (Heeßel 2012) an
 26. [BE KI ki-ṣir-ti 150 ana AN.TA] ⸢ KAR⸣ ina gišTUKUL ÉRIN KÚR ḪA.LA GU7
 27. [BE KI ki-ṣir-ti 150 ana KI.TA KAR] ina BAR-ti KÚR TI-qé
 28. [BE KI ki-ṣir-ti 150 KAR.KAR] ⸢ŠUB -ti SIG⸣-i šá KUR ⸢ KÚR ⸣
-29. [ ] x Ì.DUB.MEŠ SA5.ME[Š SÙ ]
-30. [ ]⸢d⸣U.GUR ku x [x x]
-31. [ ] x [ ]
+29. [...] x Ì.DUB.MEŠ SA5.ME[Š SÙ ...]
+30. [...]⸢d⸣U.GUR ku x [x x]
+31. [...] x [...]
